@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* Fuentes del sitio original (Crimson Text y Roboto), de @fontsource y solo el subconjunto latino. */
+@font-face { font-family: "Crimson Text"; src: url("../node_modules/@fontsource/crimson-text/files/crimson-text-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Crimson Text"; src: url("../node_modules/@fontsource/crimson-text/files/crimson-text-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Roboto"; src: url("../node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Roboto"; src: url("../node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Roboto"; src: url("../node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: cal, arena y cobre del CSS del sitio (elmoro-ui.css), y el añil y el azul del logotipo. */
+@theme {
+  --color-cal: #fbf9f5;
+  --color-arena: #f6f1e8;
+  --color-moro: #0e1457;
+  --color-moro-2: #0a0f42;
+  --color-azulejo: #2d3b93;
+  --color-azulejo-2: #222e78;
+  --color-cobre: #c9873f;
+  --color-cobre-texto: #8a5418;
+  --color-tinta: #1c1c1a;
+  --color-texto: #45453f;
+  --font-sans: "Roboto", "Segoe UI", sans-serif;
+  --font-serif: "Crimson Text", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-serif text-tinta; font-weight: 600; line-height: 1.05; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-cobre); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-claro, .btn-linea, .btn-cobre {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.98rem] font-medium transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-azulejo text-white hover:bg-azulejo-2; }
+  .btn-cobre { @apply bg-cobre text-moro hover:bg-[#d89a55]; }
+  .btn-claro { @apply bg-white text-moro hover:bg-arena; }
+  .btn-linea { @apply border border-tinta/25 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .enlace { @apply font-medium text-azulejo underline decoration-azulejo/35 underline-offset-4 hover:decoration-azulejo; }
+  .campo { @apply w-full rounded-xl border border-tinta/20 bg-white px-4 py-3 text-tinta; min-height: 48px; }
+  .precio { font-variant-numeric: tabular-nums; }
+}
+
+
+/* El arco del logotipo, usado como marco de algunas fotos. */
+.arco { border-radius: 999px 999px 1.25rem 1.25rem; }
+
+/* Selector de noches: el control nativo va encima de la línea de modalidades, con su propio círculo. */
+.rango { -webkit-appearance: none; appearance: none; background: transparent; height: 2.75rem; cursor: pointer; }
+.rango::-webkit-slider-runnable-track { background: transparent; height: 2.75rem; }
+.rango::-moz-range-track { background: transparent; }
+.rango::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; margin-top: calc((2.75rem - 22px) / 2); border-radius: 999px; background: #fff; border: 3px solid var(--color-cobre); transition: transform 0.2s; }
+.rango::-moz-range-thumb { width: 16px; height: 16px; border-radius: 999px; background: #fff; border: 3px solid var(--color-cobre); }
+.rango:focus-visible { outline: none; }
+.rango:focus-visible::-webkit-slider-thumb { outline: 3px solid #fff; outline-offset: 2px; }
+.rango:focus-visible::-moz-range-thumb { outline: 3px solid #fff; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .rango::-webkit-slider-thumb { transition: none; } }

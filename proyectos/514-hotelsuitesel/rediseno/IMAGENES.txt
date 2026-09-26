@@ -1,0 +1,26 @@
+# Imágenes disponibles en publicDir (../sitio/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+wp-content/uploads/revslider/home-page/1777332849-MORO%20DRONE%20WEB%201920%2012.jpg	1672x941	369 KB
+wp-content/uploads/revslider/home-page/1742494609-Sin-t%C3%ADtulo-4.jpg	1920x857	309 KB
+wp-content/uploads/revslider/home-page/1742495420-Sin-t%C3%ADtulo-3.jpg	1920x857	304 KB
+wp-content/uploads/revslider/home-page/1738876078-slider6.jpg	1920x1080	283 KB
+storage/sliders/home/Uxfo58TRU1jUCTCi_1784993441-desktop.webp	1920x600	200 KB
+img/habitaciones/1777498090-69f277ea18c0d270x270.jpg	640x640	60 KB
+img/habitaciones/1777346460-69f0279ccecd0270x270.jpg	640x640	50 KB
+img/habitaciones/1777478325-69f22ab5a7c28270x270.jpg	640x640	46 KB
+img/habitaciones/1777498852-69f27ae47c912270x270.jpg	640x640	43 KB
+img/habitaciones/1777479336-69f22ea8cba46270x270.jpg	640x640	41 KB
+img/logo-hotel-and-suites-el-moro-footer.png	400x100	32 KB
+img/main-logo.jpg	400x100	31 KB
+img/ssl-security.png	205x104	12 KB
+img/pci-compliant.png	216x99	10 KB
+wp-content/themes/sailing/images/preload.gif	128x128	8 KB
+flag-icon-css/flags/4x3/um.svg	640x480	7 KB
+favicon.png	89x91	3 KB
+build/assets/loader-Byj5yucR.gif	24x24	2 KB
+wp-content/uploads/2015/07/taxi-icon.png	70x50	2 KB
+wp-content/uploads/2015/07/food.png	70x50	1 KB
+wp-content/uploads/2015/07/wifi-icon.png	70x50	1 KB
+wp-content/uploads/2015/07/swim-icon.png	70x50	1 KB
+build/assets/arrow-select-DGQq2gcF.png	24x13	0 KB
+build/assets/loader-AC1waRTJ.png	16x16	0 KB
