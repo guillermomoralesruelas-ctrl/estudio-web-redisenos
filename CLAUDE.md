@@ -94,6 +94,60 @@ Si Claude (Cowork) solo puede escribir archivos y no ejecutar comandos:
 3. La persona abre `terminal.cmd` → opción "Ejecutar cola", o Claude Code ejecuta `herramientas/ejecutar-cola.ps1`.
 4. La salida queda en `cola/procesadas/NNN-<script>.log`, y Claude la lee para continuar.
 
+## Fabricador masivo (1,173 sitios)
+
+El fabricador convierte la base de datos de chatbots en sitios clonados localmente.
+Fuente de URLs: `http://localhost/16092026-chats/admin/bots_data.php`
+Base de datos propia: `datos/fabricador.db` (SQLite, persiste entre sesiones y cuentas)
+Atajo: `fabricador <comando>` (usa `fabricador.cmd` en la raíz)
+
+### Comandos
+```
+fabricador init                   Carga los ~1,173 bots de la API (solo la primera vez)
+fabricador estado                 Progreso actual por estado y por plantilla
+fabricador scrape                 Scrapea bots pendientes (reanudable)
+  --plantillas                    Solo uno por grupo de plantilla (primero)
+  --rubro FITNESS                 Solo ese rubro
+  --max 20                        Máximo N sitios en esta ejecución
+node herramientas/clonar.mjs <slug>   Descarga HTML+CSS+imágenes → sitio/index.html
+```
+
+### Estados de cada sitio en fabricador.db
+`pendiente` → `scrapeado` → `construido` → `aprobado`
+`omitido` = sin URL | `error` = falló (ver campo `error`)
+
+### Qué guarda cada scrape en proyectos/<NN-slug>/investigacion/
+- `original.html` — HTML fuente completo con timestamp (para clonar/reconstruir)
+- `crudo.json`    — texto limpio página por página via Jina (para LLM / contenido)
+- `resumen.json`  — contacto, imágenes y plataforma consolidados (acceso rápido)
+
+### Qué guarda clonar.mjs en proyectos/<NN-slug>/sitio/
+- `index.html`    — copia fiel del original con rutas relativas
+- `assets/`       — CSS + imágenes descargadas del sitio original
+
+### Plantillas por rubro
+| Plantilla | Rubros |
+|---|---|
+| salud-bienestar | SALUD, SPA, ESTETICA, VETERINARIA, MASCOTAS |
+| turismo-aventura | TURISMO, EVENTOS |
+| hospedaje | HOSPEDAJE |
+| restaurante-bar | GASTRONOMIA |
+| fitness-gym | FITNESS |
+| inmobiliaria | INMUEBLES |
+| educacion | EDUCACION |
+| negocio-local | RETAIL, SERVICIOS, AUTOMOTRIZ, LEGAL, FINANZAS |
+
+### Motor de scraping
+Jina AI Reader (`https://r.jina.ai/`) — gratis, sin API key, sin navegador.
+Si Jina falla: registra el error en fabricador.db y continúa con el siguiente.
+Espera 1.5s entre sitios para no saturar el servicio.
+
+### Estado al 2026-09-25
+- `init` ejecutado: 1,173 bots cargados, 16 omitidos (sin URL), 1,157 pendientes
+- `scrape --plantillas`: 8 sitios de plantilla scrapeados (0 errores)
+- `clonar.mjs 1mrfitness`: sitio clonado en `proyectos/02-1mrfitness/sitio/`
+- Siguiente: continuar con `fabricador scrape --max N` en lotes
+
 ## Reglas de seguridad
 
 - **Nunca** guardar contraseñas, API keys ni tokens en archivos del estudio ni en la BD. Los secretos van en `sitio/.env.local` (ignorado por git) o en el panel del servicio. En la BD solo se anota *dónde* está la credencial, no el valor.

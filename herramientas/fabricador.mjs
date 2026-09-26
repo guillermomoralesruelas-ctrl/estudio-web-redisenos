@@ -244,10 +244,27 @@ async function scrapeBot(bot, dirProy) {
   const dirInv = path.join(dirProy, 'investigacion');
   fs.mkdirSync(dirInv, { recursive: true });
 
+  // HTML original (código fuente completo)
+  try {
+    const htmlRes = await fetch(bot.web_home, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130' },
+      signal: AbortSignal.timeout(20000),
+    });
+    if (htmlRes.ok) {
+      const htmlText = await htmlRes.text();
+      const ts = new Date().toLocaleString('es-MX', {
+        weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+        hour: '2-digit', minute: '2-digit', timeZoneName: 'short',
+      });
+      const encabezado = `<!--\n  Sitio: ${bot.web_home}\n  Descargado: ${ts}\n  Slug: ${bot.slug}\n-->\n`;
+      fs.writeFileSync(path.join(dirInv, 'original.html'), encabezado + htmlText, 'utf8');
+    }
+  } catch { /* si falla el HTML directo, Jina igual guarda el contenido */ }
+
   const host = new URL(bot.web_home).host;
   const paginas = [];
 
-  // Página principal
+  // Página principal (Jina)
   const home = await jinaGet(bot.web_home);
   paginas.push({ url: home.url || bot.web_home, titulo: home.title || '',
     descripcion: home.description || '', contenido: home.content || '',
