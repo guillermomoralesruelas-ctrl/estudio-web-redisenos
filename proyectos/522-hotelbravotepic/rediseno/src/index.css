@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Fuente del sitio original (Montserrat, que main_styles.css pide a Google Fonts), de @fontsource y solo el subconjunto latino. */
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: el vino del logotipo y de main_styles.css (#450022), el crema de las paredes y el azul y arena de las colchas. */
+@theme {
+  --color-crema: #f8f3e6;
+  --color-vino: #450022;
+  --color-vino-2: #64133a;
+  --color-colcha: #2e3a8c;
+  --color-arena: #e3d1a0;
+  --color-tinta: #231a1e;
+  --color-texto: #4d4347;
+  --font-sans: "Montserrat", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply text-tinta; font-weight: 700; line-height: 1.08; letter-spacing: -0.025em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-colcha); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-arena); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro, .btn-arena {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.97rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-vino text-white hover:bg-vino-2; }
+  .btn-claro { @apply bg-white text-vino hover:bg-arena; }
+  .btn-arena { @apply bg-arena text-tinta hover:bg-white; }
+  .btn-linea { @apply border border-tinta/25 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .precio { font-variant-numeric: tabular-nums; }
+  .aparece { animation: aparece 0.35s ease-out; }
+}
+
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }

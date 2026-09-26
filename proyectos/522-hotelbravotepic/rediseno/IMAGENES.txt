@@ -1,0 +1,27 @@
+# Imágenes disponibles en publicDir (../sitio/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+images/tepic-2.jpg	1600x1023	843 KB
+images/bellavista.jpg	1181x787	640 KB
+plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg	?	434 KB
+images/find.jpg	1920x1080	230 KB
+images/habitacion-doble.jpg	1600x1000	191 KB
+images/habitacion-familiar.jpg	1600x1000	191 KB
+images/hotel-bravo.jpg	1600x1000	187 KB
+images/habitacion-king-size.jpg	1600x1000	166 KB
+images/habitacion-doble-matrimonial.jpg	1600x1000	159 KB
+favicon/android-icon-192x192.png	192x192	27 KB
+favicon/apple-icon-180x180.png	180x180	26 KB
+favicon/apple-icon-152x152.png	152x152	20 KB
+favicon/apple-icon-144x144.png	144x144	19 KB
+favicon/apple-icon-120x120.png	120x120	14 KB
+favicon/apple-icon-114x114.png	114x114	13 KB
+favicon/favicon-96x96.png	96x96	10 KB
+images/logo.png	300x135	10 KB
+favicon/apple-icon-76x76.png	76x76	7 KB
+favicon/apple-icon-72x72.png	72x72	7 KB
+favicon/apple-icon-60x60.png	60x60	6 KB
+favicon/apple-icon-57x57.png	57x57	5 KB
+plugins/OwlCarousel2-2.2.1/owl.video.play.png	80x80	5 KB
+favicon/favicon-32x32.png	32x32	3 KB
+favicon/favicon-16x16.png	16x16	1 KB
+images/down.png	46x52	0 KB
