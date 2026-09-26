@@ -12,6 +12,7 @@
 | Ver en XAMPP | http://localhost/project-1-25092026/proyectos/540-hotelpomelo/rediseno/dist/index.html |
 | Plan de diseño | `entregables/plan-diseno.md` |
 | Antes y después | `entregables/comparacion-antes-despues.jpg` |
+| Capturas de referencia | `referencias/capturas-2026-09-26/` (página completa, escritorio y móvil, antes y después) |
 | Métricas de QA | `qa/reporte-rediseno.json` (lo genera `node herramientas/qa-rediseno.mjs 540-hotelpomelo`) |
 
 ## En una línea

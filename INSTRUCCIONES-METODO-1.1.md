@@ -106,7 +106,13 @@ cd proyectos/<carpeta>/rediseno && npx tsc --noEmit && npm run build
 cd ../../.. && node herramientas/qa-rediseno.mjs <carpeta>
 ```
 
-El rediseño **debe dar cero** en todo: desborde 0, un H1, 0 imágenes rotas, 0 errores de consola y 0 recursos fallidos. Revisa a ojo `qa/despues-escritorio.png` y `qa/despues-movil.png` (página completa), no solo los números. El script también genera `entregables/comparacion-antes-despues.jpg`.
+El rediseño **debe dar cero** en todo: desborde 0, un H1, 0 imágenes rotas, 0 errores de consola y 0 recursos fallidos. Revisa a ojo `qa/despues-escritorio.png` y `qa/despues-movil.png` (página completa), no solo los números. El script también genera `entregables/comparacion-antes-despues.jpg`. Cuando el QA quede en cero, guarda las capturas de referencia para comparar después (Guillermo lo pidió el 2026-09-26):
+
+```
+node herramientas/guardar-capturas.mjs <carpeta>
+```
+
+Copia `qa/*.png` (que no van a git) como `.jpg` a `referencias/capturas-AAAA-MM-DD/`, que sí se versiona.
 
 ### Paso 7: Documentar
 
@@ -121,7 +127,7 @@ El rediseño **debe dar cero** en todo: desborde 0, un H1, 0 imágenes rotas, 0 
 - Guárdalo en git, sin etiqueta de versión hasta que Guillermo lo apruebe:
 
 ```
-git add METODOS.md OPORTUNIDADES.md proyectos/<carpeta>/CAMBIOS.md proyectos/<carpeta>/OPORTUNIDADES.md proyectos/<carpeta>/entregables proyectos/<carpeta>/rediseno proyectos/<carpeta>/qa/reporte-rediseno.json
+git add METODOS.md OPORTUNIDADES.md proyectos/<carpeta>/CAMBIOS.md proyectos/<carpeta>/OPORTUNIDADES.md proyectos/<carpeta>/entregables proyectos/<carpeta>/referencias proyectos/<carpeta>/rediseno proyectos/<carpeta>/qa/reporte-rediseno.json
 git commit -m "<carpeta>: rediseño método 1.1"
 ```
 
@@ -153,6 +159,7 @@ Mientras revisas el sitio de un negocio vas a encontrar cosas que le cuestan cli
 | `herramientas/candidatos-1.1.mjs` | Lista candidatos desde `fabricador.db` (solo lectura) | `node --no-warnings herramientas/candidatos-1.1.mjs [plantilla] [--max N]` |
 | `herramientas/nuevo-rediseno.mjs` | Crea `rediseno/`, `CAMBIOS.md`, el plan e `IMAGENES.txt` | `node herramientas/nuevo-rediseno.mjs <carpeta> [--public ../sitio/assets/x] [--nombre "X"]` |
 | `herramientas/qa-rediseno.mjs` | QA del clon y del rediseño, capturas y lámina antes/después. Trae su propio servidor, no necesita XAMPP | `node herramientas/qa-rediseno.mjs <carpeta> [--solo-rediseno]` |
+| `herramientas/guardar-capturas.mjs` | Guarda las capturas de página completa del QA (antes y después) en `referencias/capturas-AAAA-MM-DD/` como .jpg | `node herramientas/guardar-capturas.mjs <carpeta>` |
 | `herramientas/navegador.mjs` | Abre Chromium, Edge o Chrome para Playwright (lo usan los demás) | interno |
 | `herramientas/investigar.mjs`, `descargar-assets.mjs`, `optimizar-imagenes.mjs` | Recuperar contenido e imágenes cuando no hay clon (método 1.2) | ver cabecera de cada archivo |
 | `herramientas/db.mjs` (`db.cmd`) | BD del estudio (`datos/estudio.db`) | `db log <carpeta> "…"`, `db proyecto <carpeta>` |
@@ -175,6 +182,7 @@ Mientras revisas el sitio de un negocio vas a encontrar cosas que le cuestan cli
 - [ ] `rediseno/` compila sin errores (`npx tsc --noEmit`, `npm run build`)
 - [ ] `qa-rediseno.mjs` sin problemas, y capturas revisadas a ojo en escritorio y móvil
 - [ ] `entregables/comparacion-antes-despues.jpg` generado
+- [ ] Capturas guardadas en `referencias/capturas-AAAA-MM-DD/` con `guardar-capturas.mjs`
 - [ ] `CAMBIOS.md` completo: roto, cambiado, agregado, quitado, conservado y pendiente
 - [ ] `OPORTUNIDADES.md` del sitio completo (solo hallazgos del sitio en línea) y fila en el `OPORTUNIDADES.md` de la raíz
 - [ ] Verificado en XAMPP
@@ -182,7 +190,7 @@ Mientras revisas el sitio de un negocio vas a encontrar cosas que le cuestan cli
 
 ## 8. Estado al 2026-09-26 y siguiente paso
 
-- **Terminados con 1.1:** `02-1mrfitness`, `175-casaorigenes`, `641-lapuertaroja` y `521-hotelboutiquepineda` (este último sirve copias .webp de las fotos del clon en `assets/web/`, ver `rediseno/fotos-web.mjs`). Úsalos como referencia de calidad y de estilo de documentación. `641-lapuertaroja` ya se hizo con las herramientas nuevas (`nuevo-rediseno.mjs` y `qa-rediseno.mjs`).
+- **Terminados con 1.1:** `02-1mrfitness`, `175-casaorigenes`, `641-lapuertaroja`, `521-hotelboutiquepineda` y `526-hotelesfray` (Pineda y Fray sirve copias .webp de las fotos del clon en `assets/web/`, ver `rediseno/fotos-web.mjs`). Úsalos como referencia de calidad y de estilo de documentación. `641-lapuertaroja` ya se hizo con las herramientas nuevas (`nuevo-rediseno.mjs` y `qa-rediseno.mjs`).
 - **Descartado:** `172-casamariahotel`, porque su URL es de un portal de reservas de terceros.
 - **Terminado con 1.2:** `540-hotelpomelo` (Hotel Pomelo, reemplaza a 172). Squarespace: las 143 imágenes se bajaron en la PC a `assets/pomelo/` con `assets-1.2.json`; como pesan 56 MB, el rediseño usa copias .webp de las 38 que usa en `assets/pomelo-web/` (`rediseno/fotos-web.mjs`), que es su `publicDir`. Úsalo como referencia para otros sitios de Squarespace o Wix.
 - **Siguientes candidatos:** ver `METODOS.md`.
