@@ -1,0 +1,19 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content/uploads), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+2026/04/Diseno-sin-titulo-1.png	1700x1135	2838 KB
+2026/04/7.png	1700x1135	2730 KB
+2026/04/6.png	1700x1135	2360 KB
+2026/04/14.png	1700x1135	2285 KB
+2026/06/comida-cena.png	1900x805	783 KB
+2026/06/eventos.png	1900x805	768 KB
+2026/06/para-llevar.png	1900x805	752 KB
+2026/06/manana.png	1900x805	744 KB
+2026/07/PD_Cafe57_Comida366-scaled.jpg	2560x1709	676 KB
+2026/06/INICIO.png	1900x805	622 KB
+2025/06/PD_Cafe57_226-scaled.jpg	2560x1709	605 KB
+2026/07/ARP_Cafe57_JUN_560-scaled.jpg	2560x1709	597 KB
+2026/04/1.png	1000x668	594 KB
+2026/07/ARP_Cafe57_May070-scaled.jpg	2560x1709	551 KB
+2026/06/lunch-57.png	1900x805	507 KB
+2026/07/PD_Cafe57_034-scaled.jpg	2560x1709	242 KB
+2025/01/logo-blanco-el-cafe-57.png	185x223	7 KB

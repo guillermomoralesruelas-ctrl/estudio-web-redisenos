@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* Fuente del sitio original: Open Sans (la usa todo elcafe57.mx), variable con ejes de peso y ancho,
+   de @fontsource-variable/open-sans y solo el subconjunto latino. Roboto y Roboto Slab son solo los valores
+   por defecto de Elementor: no se usan. */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../node_modules/@fontsource-variable/open-sans/files/open-sans-latin-wdth-normal.woff2") format("woff2-variations");
+  font-weight: 300 800; font-stretch: 75% 100%; font-style: normal; font-display: swap;
+}
+
+/* Tokens: el café #3E1E16 y el amarillo #FCB101 de su sitio, la piedra de sus mesas y el verde de su patio. */
+@theme {
+  --color-crema: #f8f3ea;
+  --color-piedra: #ece2d2;
+  --color-cafe: #3e1e16;
+  --color-texto: #4d3b33;
+  --color-oro: #fcb101;
+  --color-oro-oscuro: #8a5700;
+  --color-hoja: #4f6b45;
+  --font-sans: "Open Sans", "Segoe UI", system-ui, sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+  body { @apply bg-crema text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.7; }
+  h1, h2, h3, h4 { @apply text-cafe; font-weight: 800; font-stretch: 75%; line-height: 1.02; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro-oscuro); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-oro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .angosto { font-stretch: 75%; }
+  .btn, .btn-oro, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-cafe text-crema hover:bg-oro-oscuro; }
+  .btn-oro { @apply bg-oro text-cafe hover:bg-crema; }
+  .btn-linea { @apply border border-cafe/30 text-cafe hover:border-cafe hover:bg-cafe/5; }
+  .btn-claro { @apply border border-crema/45 text-crema hover:border-crema hover:bg-crema/10; }
+  .precio { font-variant-numeric: tabular-nums; }
+  .puntos { @apply min-w-4 flex-1 border-b border-dotted border-cafe/35; transform: translateY(-0.3em); }
+  /* La nota de la cuenta: papel con el borde de abajo cortado en picos, como una cuenta impresa. */
+  .nota {
+    background: #fffdf8;
+    --pico: 10px;
+    -webkit-mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 50% / calc(2 * var(--pico)) 100%;
+    mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 50% / calc(2 * var(--pico)) 100%;
+    padding-bottom: calc(1.5rem + var(--pico));
+  }
+  .silla { transition: fill 0.25s ease, stroke 0.25s ease; }
+}
