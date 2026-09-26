@@ -1,0 +1,134 @@
+{
+  "fecha": "2026-09-26T20:31:22.298Z",
+  "carpeta": "328-donsanchez",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 7271,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 46,
+      "rotas": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "http://127.0.0.1:59435/wp-content/plugins/gtranslate/flags/24/en.png"
+      ],
+      "sinAlt": 0,
+      "titulo": "Don Sanchez - San José del Cabo Restaurant",
+      "errores": [
+        "Failed to load resource: net::ERR_CONNECTION_RESET",
+        "Failed to load resource: net::ERR_CONNECTION_RESET",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:59435/wp-content/plugins/gtranslate/flags/24/en.png"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 11089,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 46,
+      "rotas": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "http://127.0.0.1:59435/wp-content/plugins/gtranslate/flags/24/en.png"
+      ],
+      "sinAlt": 0,
+      "titulo": "Don Sanchez - San José del Cabo Restaurant",
+      "errores": [
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_CONNECTION_RESET",
+        "Failed to load resource: net::ERR_CONNECTION_RESET",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to font at 'https://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://donsanchezrestaurant.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf' from origin 'http://127.0.0.1:59435' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:59435/wp-content/plugins/gtranslate/flags/24/en.png"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 9449,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 17,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Don Sanchez | Contemporary Mexican restaurant in San José del Cabo",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 15074,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 17,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Don Sanchez | Contemporary Mexican restaurant in San José del Cabo",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

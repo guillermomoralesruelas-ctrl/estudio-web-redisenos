@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Fuentes del sitio original (original.html pide a Google Fonts Playfair Display, Montserrat, Poppins y Open Sans):
+   Playfair Display para títulos y Montserrat para texto, de @fontsource y solo el subconjunto latino. */
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: el arena (#e0dcd5), el grafito (#404047) y el cobre (#c3701e) del CSS de su tema Divi, con el cobre del logo. */
+@theme {
+  --color-arena: #f3f0eb;
+  --color-arena-2: #e0dcd5;
+  --color-tinta: #2b2b30;
+  --color-texto: #4c4c52;
+  --color-cobre: #c3701e;
+  --color-cobre-oscuro: #96520f;
+  --color-cobre-claro: #e39a52;
+  --font-sans: "Montserrat", "Segoe UI", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-texto font-sans antialiased; font-size: 1rem; line-height: 1.7; }
+  h1, h2, h3 { @apply text-tinta font-serif; font-weight: 500; line-height: 1.08; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-cobre-oscuro); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-cobre-claro); }
+  summary::-webkit-details-marker { display: none; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-cobre-oscuro text-white hover:bg-tinta; }
+  .oscuro .btn { @apply hover:bg-cobre; }
+  .btn-claro { @apply border border-white/45 text-white hover:border-white hover:bg-white/10; }
+  .btn-linea { @apply border border-tinta/25 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .precio { font-variant-numeric: tabular-nums; }
+  .puntos { @apply min-w-4 flex-1 border-b border-dotted border-tinta/30; transform: translateY(-0.35em); }
+  .pulso { transform-box: fill-box; transform-origin: center; animation: pulso 2.4s ease-out infinite; }
+}
+
+@keyframes pulso { 0% { transform: scale(0.6); opacity: 1; } 100% { transform: scale(1.5); opacity: 0; } }

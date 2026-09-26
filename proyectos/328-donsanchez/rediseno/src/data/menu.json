@@ -1,0 +1,79 @@
+{
+  "nota": "Menú de https://donsanchezrestaurant.com/don_sanchez_san_jose_del_cabo_menu/ (investigacion/crudo.json, 2026-09-26), en inglés como el sitio. Precios en MXN tal como los publica esa página. 'Dessert' (Churros $280) sale del inicio del sitio y 'Kids' de /7338-2/ (Reservation Policies, tomado con curl el 2026-09-26). Ver CAMBIOS.md.",
+  "pestanas": [
+    {
+      "id": "raw",
+      "nombre": "Raw",
+      "platillos": [
+        { "nombre": "Catch of the day tartar", "precio": 400, "desc": "Poke cut (raw 125 gr) | fresh citrus cactus salad with avocado, nopal and prickly pear | homemade sambal sauce | lime | charred habanero emulsion | blue corn tostadas | sea asparagus", "foto": "catch-tartar" },
+        { "nombre": "Catch of the day tiradito", "precio": 320, "desc": "Raw flash smoked fish filet (raw 125 gr) | mango sour sauce | fish skin togarashi | serrano pepper crisps | wakame, cilantro & red onion salad | cucumber slices" },
+        { "nombre": "Raw oyster", "precio": 450, "desc": "6 pcs of oysters | tomatillo and avocado relish | chilaca chili ponzu" },
+        { "nombre": "Jicama sashimi", "precio": 280, "desc": "Jicama & hibiscus syrup compress (prep 90 gr) | seasonal fruit salad | cucumber | cilantro | macha sauce with roasted peanuts", "foto": "jicama-sashimi" },
+        { "nombre": "Octopus ceviche", "precio": 450, "desc": "Octopus (cooked 125 gr) | cucumber | pork cracklings (cooked 50 gr) | radish | fresh cilantro | red onion | avocado | olive oil | lemon juice | three black chili peppers rub | mango aguachile sorbet | citric foam" },
+        { "nombre": "Tuber ceviche", "precio": 280, "desc": "Root vegetables (raw 100 gr) | baby romaine leaves | avocado emulsion | blue corn tostada | fermented red pepper sauce | serrano flakes | radish" }
+      ]
+    },
+    {
+      "id": "garnachas",
+      "nombre": "Garnachas & tacos",
+      "platillos": [
+        { "nombre": "Pork gorditas", "precio": 350, "desc": "3 mini corn dough flat bread | pork jaw (90 gr cooked) caramelized in pasilla and piloncillo marinade | pineapple relish | white cabbage | roasted sauce | avocado emulsion | crumbled fresh cheese from Miraflores" },
+        { "nombre": "Surf & turf taco", "precio": 380, "desc": "Flour tortilla in beet ink | smoked carrot puree with citrus | sterling silver sirloin chicharron (20 gr) | soft-shell crab with quinoa crust (cooked 80 gr) | roasted garlic and charred habanero mayonnaise | avocado emulsion", "foto": "surf-and-turf-taco" },
+        { "nombre": "Don Sánchez lobster taco", "precio": 760, "desc": "Lobster tail (raw 90 gr) in quinoa crust | flour tortilla light fried in macha sauce | rancho style beans | Mexican rice | red mortar sauce" },
+        { "nombre": "Confited goat sope", "precio": 350, "desc": "Blue corn flat patty | confited pulled goat from Sierra de San Francisco (cooked 90 gr) | avocado and green tomatillo relish | faba pure with a touch of morita chili | guajillo pepper air" },
+        { "nombre": "Golden onion tinga sopes", "precio": 280, "desc": "Organic golden onion from Miraflores (90 gr) | 3 blue corn dough sopecitos | white cabbage | tomato | crumbled tofu" },
+        { "nombre": "Totoaba quesabirrias", "precio": 350, "desc": "3 pieces of totoaba birria quesadillas | totoaba birria broth | red onion | cilantro | avocado emulsion | grilled yellow lemon" },
+        { "nombre": "Pibil style mushroom taco", "precio": 300, "sello": "1st place winner at the Grupo Ediths contest", "desc": "False cochinita pibil made with wood-oven baked mushrooms in achiote | dehydrated pineapple tortilla | xnipec (red onion and habanero pickle) | red onion and citrus air | seasonal sprouts" }
+      ]
+    },
+    {
+      "id": "warm",
+      "nombre": "Warm starters & soups",
+      "platillos": [
+        { "nombre": "Organic heirloom tomato soup", "precio": 350, "desc": "Cashews cheese quenelle | homemade bread crouton | garlic chip" },
+        { "nombre": "Roasted poblano & cashew cream with soursop ice cream", "precio": 350, "desc": "Cashew and poblano cream (150 gr) | soursop and cashew salty ice cream (20 gr) | macha sauce oil | seasonal sprouts" },
+        { "nombre": "Quail pozole", "precio": 400, "desc": "Regional quail breast (50 gr) | cacahuazintle corn warm gelé | condensed quail broth | purple cabbage | chambray onion | radish | yellow lemon | avocado | fried red chili and cilantro", "foto": "quail-pozole" },
+        { "nombre": "Drowning duck confit tortita", "precio": 450, "desc": "Shredded duck confit (65 gr) | red recado bread | truffled duck foie gras | tomato and morita chili broth served at your table | roasted xnipec (onion and habanero pickle) | seasonal sprouts" },
+        { "nombre": "Grilled oysters", "precio": 450, "desc": "6 pcs of smoked oyster in Josper oven | epazote and serrano chili curd | roasted yellow lemon | seasonal sprouts" },
+        { "nombre": "Charred beets", "precio": 300, "desc": "Organic beets (120 gr) | caramelized pecan | cashew jocoque with pink pepper | fermented hibiscus vinaigrette", "foto": "charred-beets" }
+      ]
+    },
+    {
+      "id": "main",
+      "nombre": "Main dishes",
+      "platillos": [
+        { "nombre": "Papadzul", "precio": 500, "desc": "Baked mushrooms filling seasoned with black recado (75 gr) | tomato and morita chile sauce | quinoa crepes | tomato broth with a touch of morita chile | pumpkin seed and tomato sikilpac | crumbled tofu" },
+        { "nombre": "Mix of wild Mexican mushrooms, ajillo style (100 gr)", "precio": 450, "desc": "Creamy rice with acuyo leaf and avocado | mixed sprouts" },
+        { "nombre": "Grilled artichoke with emulsion", "precio": 750, "desc": "Josper oven-roasted candied artichoke (2 pcs) | coconut pilaf rice | root beer leaf emulsion | beet emulsion scented with wild lavender | smoked carrot emulsion with citrus" },
+        { "nombre": "Wood oven roasted cauliflower (reloaded)", "precio": 600, "desc": "White cauliflower (raw 300 gr) | white faba and morita pepper purée | chickpea alioli scented with acuyo | spicy pistachio | assorted grilled veggies" },
+        { "nombre": "Ancestral mole", "precio": 1150, "desc": "Ancestral mole by traditional cook Sirenia Concepción Mora from Rancho del Rincón, Huajuapan de León, Mixteca Baja, Oaxaca | organic quail marinated in white recado (400 gr) | plantain chochoyotes (30 gr) | wood-fired vegetables" },
+        { "nombre": "Duck and pink pine nut mole", "precio": 750, "desc": "Duck magret (200 gr) | pink pine nut mole | mixed organic roasted veggies" },
+        { "nombre": "Totoaba Dove", "precio": 700, "desc": "Totoaba fish necklace (240 gr) in rice flour crust cooked in Josper oven | fresh salad | cucumber, jicama, carrot, chayote and celery with a touch of lemon paste fermented at home | holy leaf aioli" },
+        { "nombre": "Desert catch", "precio": 880, "desc": "Catch (200 gr) | citrus salad of xoconostle, cactus, tomato, avocado with acuyo oil | sour pitahaya sauce scented with mint | nopal chip | sea asparagus", "foto": "desert-catch" },
+        { "nombre": "Tikin-xic fish", "precio": 880, "desc": "Catch of the day in red achiote butter (raw 200 gr) | wood-baked in banana leaf | smoked carrot purée with citrus and habanero | charred habanero emulsion | roasted xnipec | creamy rice with acuyo leaf and avocado" },
+        { "nombre": "California chili stuffed with lobster and saffron risotto", "precio": 1500, "desc": "Lobster (120 gr) | saffron risotto | pumpkin blossom | California chili (160 gr) | creamy tomato broth roasted in Josper | beetroot and lavender puree | seasonal sprouts | roasted vegetables", "foto": "lobster-chili" },
+        { "nombre": "Blackened shrimp", "precio": 980, "desc": "Shrimp sous vide 20 mins, finished in Josper oven (180 gr) | roasted coconut rice with Pescadero strawberry chips | sour pitahaya & mint chutney | grilled vegetables" },
+        { "nombre": "Grilled octopus", "precio": 800, "desc": "Grilled octopus (200 gr) | black recado rub | crispy cauliflower with homemade togarashi | octopus' ink alioli | smoked carrot pure with citrus and habanero | charred yellow lemon", "foto": "grilled-octopus" },
+        { "nombre": "Wood oven roasted pork shank", "precio": 850, "desc": "Pork (cooked 600 gr) | grilled rustic potato with red onion, garlic, and rosemary | roasted vegetables | green tomato sauce with tender leaves from la milpa | red chili oil | tortillas" },
+        { "nombre": "Sterling Silver beef brisket", "precio": 880, "desc": "Baked overnight in our wood-fired oven and then sous vide for 8 hours (cooked 160 gr) | creamy rice with wild Mexican mushrooms and avocado | tamarind and pasilla chili demiglace | truffle oil | crispy parmesan | roasted vegetables", "foto": "beef-brisket" },
+        { "nombre": "Blackened rack of lamb", "precio": 1600, "desc": "Raw rack (450 gr) marinated in black recado emulsion | nixtamal tortilla crust, butter, holy leaf and roasted garlic | pitahaya chutney with mint | wood-roasted vegetables" }
+      ]
+    },
+    {
+      "id": "dessert",
+      "nombre": "Dessert",
+      "platillos": [
+        { "nombre": "Churros", "precio": 280, "desc": "", "foto": "churros" }
+      ]
+    },
+    {
+      "id": "kids",
+      "nombre": "Kids",
+      "aviso": "The children's menu is exclusively available for children up to 5 years old.",
+      "platillos": [
+        { "nombre": "Quesadillas with mashed potatoes", "precio": 150, "desc": "" },
+        { "nombre": "Pasta with various sauces", "precio": 200, "desc": "Tomato, alfredo, and butter" }
+      ]
+    }
+  ]
+}
