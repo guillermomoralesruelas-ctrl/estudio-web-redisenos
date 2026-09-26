@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* Fuentes del tema de invino.com.mx: Instrument Sans (títulos, --heading-font-family) y Nunito (texto, --text-font-family),
+   de @fontsource y solo el subconjunto latino. Instrument Sans variable trae ejes de peso y de ancho: los títulos van
+   condensados, como las letras altas y angostas de su logo. */
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("../node_modules/@fontsource-variable/instrument-sans/files/instrument-sans-latin-wdth-normal.woff2") format("woff2-variations");
+  font-weight: 400 700; font-stretch: 75% 100%; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../node_modules/@fontsource/nunito/files/nunito-latin-400-italic.woff2") format("woff2");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../node_modules/@fontsource/nunito/files/nunito-latin-700-normal.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
+/* Tokens: el negro y el amarillo de su letrero de neón y su isotipo, el vino oscuro de su tema y el papel de una etiqueta. */
+@theme {
+  --color-noche: #1c1c1c;
+  --color-vino: #4b1816;
+  --color-oro: #d1a000;
+  --color-oro-oscuro: #7a5d00;
+  --color-papel: #f0eeea;
+  --color-texto: #3a3632;
+  --color-humo: #c9c3ba;
+  --font-sans: "Nunito", "Segoe UI", system-ui, sans-serif;
+  --font-titulo: "Instrument Sans", "Arial Narrow", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+  body { @apply bg-papel text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.7; }
+  h1, h2, h3, h4 { font-family: var(--font-titulo); font-weight: 650; font-stretch: 75%; line-height: 1.02; letter-spacing: -0.005em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro-oscuro); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-oro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { font-family: var(--font-titulo); font-stretch: 75%; font-weight: 650; }
+  .btn, .btn-oro, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-noche text-papel hover:bg-vino; }
+  .btn-oro { @apply bg-oro text-noche hover:bg-papel; }
+  .btn-linea { @apply border border-noche/30 text-noche hover:border-noche hover:bg-noche/5; }
+  .btn-claro { @apply border border-papel/45 text-papel hover:border-papel hover:bg-papel/10; }
+  .precio { font-variant-numeric: tabular-nums; }
+  .puntos { @apply min-w-4 flex-1 border-b border-dotted border-noche/35; transform: translateY(-0.3em); }
+  /* La copa de "¿Qué vas a servir?": el vino sube hasta su nivel al elegir una botella. */
+  .vino-nivel { transition: transform 0.9s cubic-bezier(0.3, 0.7, 0.2, 1), fill 0.5s ease; transform-box: fill-box; transform-origin: bottom; }
+  .burbuja { animation: sube 3.2s linear infinite; }
+  @keyframes sube { from { transform: translateY(0); opacity: 0; } 15% { opacity: 0.9; } to { transform: translateY(-120px); opacity: 0; } }
+}
