@@ -12,7 +12,7 @@ Los ~650 proyectos del fabricador que no aparecen aquí son solo **clones (méto
 | 175-casaorigenes | Casa Orígenes (Xalapa) | 1.1 | Terminado | `/proyectos/175-casaorigenes/rediseno/dist/index.html` | Ver `CAMBIOS.md` |
 | 641-lapuertaroja | La Puerta Roja Hotel Boutique (Álamos) | 1.1 | Terminado | `/proyectos/641-lapuertaroja/rediseno/dist/index.html` | Ver `CAMBIOS.md`. El sitio actual tiene spam de casinos en /Nosotros: avisar al cliente |
 | 172-casamariahotel | Casa Maria Hotel (Puerto Vallarta) | — | Descartado | — | La URL es de un sitio de reservas de terceros, no del hotel |
-| 540-hotelpomelo | Hotel Pomelo (Troncones) | 1.2 | En curso: esperando imágenes | `/proyectos/540-hotelpomelo/rediseno/dist/index.html` | Reemplaza a 172. El sitio es Squarespace: el clon no trae imágenes (las carga del CDN) y la nube no puede descargarlas. Se bajan en la PC con `cola/pendientes/20260926-2340-descargar-imagenes-pomelo.ps1` → `assets/pomelo/`; después se sigue el 1.1 con `--public ../assets/pomelo` |
+| 540-hotelpomelo | Hotel Pomelo (Troncones) | 1.2 | Terminado | `/proyectos/540-hotelpomelo/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Reemplaza a 172. Squarespace: las 143 imágenes se bajaron en la PC a `assets/pomelo/`; el rediseño usa copias .webp en `assets/pomelo-web/` (`rediseno/fotos-web.mjs`). Su botón "Escríbenos" tiene el WhatsApp incompleto: avisar al cliente |
 
 URL base de XAMPP: `http://localhost/project-1-25092026`
 

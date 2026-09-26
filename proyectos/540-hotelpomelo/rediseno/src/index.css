@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Fuentes: solo el subconjunto latino. */
+@font-face {
+  font-family: "Hanken Grotesk Variable";
+  src: url("../node_modules/@fontsource-variable/hanken-grotesk/files/hanken-grotesk-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Tokens: granate del logotipo, marino y pomelo de las ilustraciones de la marca, cal de los muros encalados. */
+@theme {
+  --color-cal: #fbf6ee;
+  --color-arena: #f1e6d6;
+  --color-tinta: #2b1b1f;
+  --color-texto: #4a3a3d;
+  --color-granate: #a1003a;
+  --color-granate-2: #82002f;
+  --color-marino: #0a4f9c;
+  --color-marino-2: #0a3a72;
+  --color-pomelo: #e4574a;
+  --font-serif: "Young Serif", Georgia, serif;
+  --font-sans: "Hanken Grotesk Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.7; }
+  h1, h2, h3 { @apply font-serif text-tinta; font-weight: 400; line-height: 1.1; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-marino); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-granate, .btn-claro, .btn-linea, .btn-marino {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn-granate { @apply bg-granate text-white hover:bg-granate-2; }
+  .btn-marino { @apply bg-marino text-white hover:bg-marino-2; }
+  .btn-claro { @apply bg-cal text-tinta hover:bg-white; }
+  .btn-linea { @apply border border-tinta/25 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .enlace { @apply font-semibold text-granate underline decoration-granate/30 underline-offset-4 hover:decoration-granate; }
+}
+
+/* Muro encalado: esquinas suaves como las de los muros de obra de las habitaciones. */
+.encalado { border-radius: 2.25rem 2.25rem 0.5rem 0.5rem; }
+
+.fundido { transition: opacity 0.6s ease; }
+.sol { transition: cx 1s ease, cy 1s ease; }
+@media (prefers-reduced-motion: reduce) {
+  .fundido, .sol { transition: none; }
+}

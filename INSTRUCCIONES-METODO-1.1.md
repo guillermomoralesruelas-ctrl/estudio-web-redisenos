@@ -184,10 +184,7 @@ Mientras revisas el sitio de un negocio vas a encontrar cosas que le cuestan cli
 
 - **Terminados con 1.1:** `02-1mrfitness`, `175-casaorigenes` y `641-lapuertaroja`. Úsalos como referencia de calidad y de estilo de documentación. `641-lapuertaroja` ya se hizo con las herramientas nuevas (`nuevo-rediseno.mjs` y `qa-rediseno.mjs`).
 - **Descartado:** `172-casamariahotel`, porque su URL es de un portal de reservas de terceros.
-- **En curso:** `540-hotelpomelo`, que reemplaza a 172 y pasó al **método 1.2**. El sitio es Squarespace: el clon solo trajo CSS, las imágenes se cargan del CDN `images.squarespace-cdn.com` (bloqueado para la nube) y `assets/` estaba vacío. Se preparó `proyectos/540-hotelpomelo/assets-1.2.json` (143 imágenes sin duplicados, a 1500 px). Para seguir:
-  1. En la PC: `node --no-warnings herramientas/descargar-assets.mjs 540-hotelpomelo --manifiesto assets-1.2.json` (o ejecutar la cola: `cola/pendientes/20260926-2340-descargar-imagenes-pomelo.ps1`). Las imágenes quedan en `assets/pomelo/`.
-  2. `node herramientas/nuevo-rediseno.mjs 540-hotelpomelo --public ../assets/pomelo`
-  3. Seguir el proceso desde el paso 2. Los textos están en `investigacion/crudo.json`. El logo es `ba925d88-HotelPomelo_LogotipoRGB_Granate.png`.
+- **Terminado con 1.2:** `540-hotelpomelo` (Hotel Pomelo, reemplaza a 172). Squarespace: las 143 imágenes se bajaron en la PC a `assets/pomelo/` con `assets-1.2.json`; como pesan 56 MB, el rediseño usa copias .webp de las 38 que usa en `assets/pomelo-web/` (`rediseno/fotos-web.mjs`), que es su `publicDir`. Úsalo como referencia para otros sitios de Squarespace o Wix.
 - **Siguientes candidatos:** ver `METODOS.md`.
 - **Pendientes generales:**
   - Documentar 1.1 y 1.2 en `PROCESO.md`.
