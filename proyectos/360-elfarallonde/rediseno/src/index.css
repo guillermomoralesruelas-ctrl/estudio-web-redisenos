@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Fuentes del sitio original (original.html pide a Google Fonts Cormorant Garamond 700 y Lato 400), de @fontsource y solo el subconjunto latino. */
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-italic.woff2") format("woff2"); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: el naranja del CSS original (#e67700), el oro del escudo del 50 aniversario y la brasa y la madera de las fotos. */
+@theme {
+  --color-crema: #f6efe4;
+  --color-papel: #ece2d1;
+  --color-carbon: #211a16;
+  --color-texto: #4a3f38;
+  --color-naranja: #e67700;
+  --color-brasa: #a34b00;
+  --color-oro: #d9a640;
+  --font-sans: "Lato", "Segoe UI", sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply text-carbon font-serif; font-weight: 700; line-height: 1.02; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-brasa); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-oro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-naranja text-carbon hover:bg-oro; }
+  .btn-claro { @apply border border-white/40 text-white hover:border-white hover:bg-white/10; }
+  .btn-linea { @apply border border-carbon/25 text-carbon hover:border-carbon hover:bg-carbon/5; }
+  .precio { font-variant-numeric: tabular-nums; }
+  .puntos { @apply min-w-4 flex-1 border-b border-dotted border-carbon/30; transform: translateY(-0.35em); }
+  .aguja { transition: transform 0.7s cubic-bezier(0.34, 1.4, 0.64, 1); }
+}

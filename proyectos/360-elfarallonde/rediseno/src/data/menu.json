@@ -1,0 +1,402 @@
+{
+  "_fuente": "investigacion/crudo.json, 2026-09-26. Pestaña 'Los sabrosos': secciones 'PARA EMPEZAR' y 'DE LA CASA' de 'los saborosos' del inicio. Las demás, de /menus ('Aguachiles y cócteles' junta 'para empezar' y 'cócteles y ensaladas'; los nombres de pestaña 'Los sabrosos', 'Aguachiles y cócteles', 'Ostiones y tostadas', 'Pulpos y camarones', 'Zarandeados' e 'Infantil' son nuestros). Precios en MXN tal como los publica el sitio. 'parilla' corregido a 'parrilla'.",
+  "pestanas": [
+    {
+      "id": "casa",
+      "nombre": "Los sabrosos",
+      "grupos": [
+        {
+          "titulo": "Para empezar",
+          "platillos": [
+            {
+              "nombre": "Tacos de carnitas de atún",
+              "nota": "(3)",
+              "precio": "$177",
+              "foto": "tacos-carnitas-atun"
+            },
+            {
+              "nombre": "Tostadas Miyazaki",
+              "nota": "(3)",
+              "precio": "$198"
+            },
+            {
+              "nombre": "Doradito de pulpo",
+              "nota": "Taquito dorado de frijoles, coronado con pulpo a la mantequilla y bañado en salsa de jitomate.",
+              "precio": "$93",
+              "foto": "doradito-de-pulpo"
+            },
+            {
+              "nombre": "Doradito la ticla",
+              "nota": "Taquito dorado de pancita de cerdo, coronado con cebiche de pescado.",
+              "precio": "$93",
+              "foto": "doradito-la-ticla"
+            },
+            {
+              "nombre": "Tacos de picaña",
+              "nota": "(3)",
+              "precio": "$188",
+              "foto": "tacos-de-picana"
+            },
+            {
+              "nombre": "Tacos de salmón",
+              "nota": "(3)",
+              "precio": "$188",
+              "foto": "tacos-de-salmon"
+            }
+          ]
+        },
+        {
+          "titulo": "De la casa",
+          "platillos": [
+            {
+              "nombre": "Coctelito de carreta",
+              "nota": "De camarón y pulpo, caliente y picosita.",
+              "precio": "$205",
+              "foto": "coctelito-de-carreta"
+            },
+            {
+              "nombre": "Ostionazo",
+              "nota": "(1)",
+              "precio": "$44",
+              "foto": "ostionazo"
+            },
+            {
+              "nombre": "Panchobalitas",
+              "nota": "Coctelito con trozos de camarón y pulpo, con un consomé picosito de la casa.",
+              "precio": "$65"
+            },
+            {
+              "nombre": "Panchobalas",
+              "nota": "Cazuelita de camarón y pulpo, caliente y picosita (100 g).",
+              "precio": "$219",
+              "foto": "panchobalas"
+            },
+            {
+              "nombre": "Tostada de atún con cueritos",
+              "nota": "(2)",
+              "precio": "$187",
+              "foto": "tostada-atun-cueritos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "empezar",
+      "nombre": "Aguachiles y cócteles",
+      "grupos": [
+        {
+          "titulo": "Para empezar",
+          "platillos": [
+            {
+              "nombre": "Aguachile de camarón",
+              "precio": "$209"
+            },
+            {
+              "nombre": "Aguachile Chiltepic",
+              "precio": "$248"
+            },
+            {
+              "nombre": "Ceviche Matanchén",
+              "precio": "$243"
+            },
+            {
+              "nombre": "Ceviche de camarón",
+              "precio": "$209"
+            },
+            {
+              "nombre": "Ceviche de pescado",
+              "precio": "$199"
+            },
+            {
+              "nombre": "Marlín Farallón",
+              "precio": "$220"
+            },
+            {
+              "nombre": "Chicharrón de pescado",
+              "precio": "$299"
+            },
+            {
+              "nombre": "Chicharrón de pulpo",
+              "precio": "$377"
+            }
+          ]
+        },
+        {
+          "titulo": "Cócteles y ensaladas",
+          "platillos": [
+            {
+              "nombre": "Camarón",
+              "precio": "$195 / $325"
+            },
+            {
+              "nombre": "Pulpo",
+              "precio": "$245 / $409"
+            },
+            {
+              "nombre": "Caracol",
+              "precio": "$238 / $479"
+            },
+            {
+              "nombre": "Callo de hacha",
+              "precio": "Pregunte al mesero"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ostiones",
+      "nombre": "Ostiones y tostadas",
+      "grupos": [
+        {
+          "titulo": "Ostiones y almejas (de temporada)",
+          "platillos": [
+            {
+              "nombre": "Ostiones en su concha",
+              "nota": "12",
+              "precio": "$290"
+            },
+            {
+              "nombre": "Ostiones ajo y perejil a la parrilla",
+              "precio": "$320"
+            },
+            {
+              "nombre": "Ostiones Rockefeller a la parrilla",
+              "nota": "12",
+              "precio": "$350"
+            },
+            {
+              "nombre": "Almeja Reina",
+              "precio": "Pregunte al mesero"
+            }
+          ]
+        },
+        {
+          "titulo": "Empanadas y tostadas",
+          "platillos": [
+            {
+              "nombre": "Empanada de camarón",
+              "precio": "$62"
+            },
+            {
+              "nombre": "Empanada de camarón con queso",
+              "precio": "$62"
+            },
+            {
+              "nombre": "Empanada de marlin",
+              "precio": "$62"
+            },
+            {
+              "nombre": "Tostada de Santa María del Oro",
+              "precio": "$115"
+            },
+            {
+              "nombre": "Tostada de ceviche de camarón",
+              "precio": "$84"
+            },
+            {
+              "nombre": "Tostada de aguachile de camarón",
+              "precio": "$84"
+            },
+            {
+              "nombre": "Tostada de ceviche de pescado",
+              "precio": "$72"
+            },
+            {
+              "nombre": "Tostada de marlin",
+              "precio": "$79"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pulpos",
+      "nombre": "Pulpos y camarones",
+      "grupos": [
+        {
+          "titulo": "Pulpos",
+          "platillos": [
+            {
+              "nombre": "A la mantequilla, al mojo de ajo",
+              "nota": "(200 g)",
+              "precio": "$436"
+            },
+            {
+              "nombre": "A la diabla, al ajillo, ranchero",
+              "nota": "(200 g)",
+              "precio": "$457"
+            },
+            {
+              "nombre": "Al chipotle",
+              "nota": "(200 g)",
+              "precio": "$457"
+            }
+          ]
+        },
+        {
+          "titulo": "Camarones y filetes",
+          "platillos": [
+            {
+              "nombre": "Camarones al mojo, a la mantequilla",
+              "nota": "Medianos (200 g)",
+              "precio": "$314"
+            },
+            {
+              "nombre": "Camarones a la diabla, chipotle, ajillo o empanizados",
+              "nota": "Medianos (200 g)",
+              "precio": "$320"
+            },
+            {
+              "nombre": "Camarones gratinados con queso",
+              "nota": "Medianos (200 g)",
+              "precio": "$336"
+            },
+            {
+              "nombre": "Filete a la mantequilla, al mojo de ajo",
+              "nota": "(200 g)",
+              "precio": "$293"
+            },
+            {
+              "nombre": "Filete empanizado, salsa diabla",
+              "nota": "(200 g)",
+              "precio": "$303"
+            },
+            {
+              "nombre": "Filete gratinado con queso",
+              "nota": "Con picadillo de camarón (200 g)",
+              "precio": "$330"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incomparables",
+      "nombre": "Los incomparables",
+      "grupos": [
+        {
+          "titulo": "Los incomparables",
+          "platillos": [
+            {
+              "nombre": "Piña Cantamar",
+              "nota": "La original",
+              "precio": "$441"
+            },
+            {
+              "nombre": "Camarones Rockefeller",
+              "nota": "(200 g)",
+              "precio": "$330"
+            },
+            {
+              "nombre": "Pescado al chipotle",
+              "nota": "(200 g)",
+              "precio": "$336"
+            },
+            {
+              "nombre": "Pescado frito",
+              "nota": "Por kilo",
+              "precio": "$546"
+            },
+            {
+              "nombre": "Momias Coras",
+              "nota": "(200 g)",
+              "precio": "$370"
+            },
+            {
+              "nombre": "Salmón Tailandés",
+              "nota": "(200 g) salsa de soya y jengibre",
+              "precio": "$359"
+            },
+            {
+              "nombre": "Camarones di Mateo",
+              "nota": "(200 g) con ajo y albahaca",
+              "precio": "$320"
+            },
+            {
+              "nombre": "Camarones Thermidor",
+              "nota": "(200 g) Exquisita receta de la casa",
+              "precio": "$362"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zarandeados",
+      "nombre": "Zarandeados",
+      "grupos": [
+        {
+          "titulo": "Los zarandeados",
+          "platillos": [
+            {
+              "nombre": "Taco camarón con queso",
+              "precio": "$58"
+            },
+            {
+              "nombre": "Taco de marlin con queso",
+              "precio": "$58"
+            },
+            {
+              "nombre": "Taco de frijoles con queso",
+              "precio": "$39"
+            },
+            {
+              "nombre": "Pescado zarandeado",
+              "nota": "Por kilo",
+              "precio": "$629"
+            },
+            {
+              "nombre": "Camarones zarandeados",
+              "nota": "(400 g)",
+              "precio": "$436"
+            },
+            {
+              "nombre": "Pulpo zarandeado",
+              "nota": "(250 g)",
+              "precio": "$546"
+            },
+            {
+              "nombre": "Salmón zarandeado",
+              "precio": "$345"
+            },
+            {
+              "nombre": "Manjares zarandeados",
+              "precio": "Pregunte a su mesero"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infantil",
+      "nombre": "Infantil",
+      "grupos": [
+        {
+          "titulo": "Menú infantil",
+          "platillos": [
+            {
+              "nombre": "Camarones empanizados",
+              "precio": "$149"
+            },
+            {
+              "nombre": "Hamburguesa de pescado",
+              "precio": "$147"
+            },
+            {
+              "nombre": "Pescadito a la mantequilla",
+              "nota": "(100 g)",
+              "precio": "$142"
+            },
+            {
+              "nombre": "Pescadito empanizado",
+              "nota": "(100 g)",
+              "precio": "$147"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
