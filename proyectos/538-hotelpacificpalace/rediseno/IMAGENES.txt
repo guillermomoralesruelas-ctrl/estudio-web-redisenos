@@ -1,0 +1,20 @@
+# Imágenes disponibles en publicDir (../sitio/assets/img), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+pricing/Especialidad%20internacional%20restaurante%20pelican%20hotel%20Pacific%20Palace%20Mazatl%C3%A1n.jpg	1600x900	634 KB
+general/Fachada%20Hotel%20Pacific%20Palce%20Mazatlan%20Sinaloa.webp	1800x1200	427 KB
+news/noticia3.jpg	900x1200	372 KB
+news/noticia2.jpg	900x1200	370 KB
+news/noticia1.jpg	900x1200	310 KB
+pricing/Buffet%20de%20restaurante%20terraza%20de%20Oceano%20Palace%20Mazatlan.jpg	1600x900	268 KB
+restaurant/Restaurante%20Sunset%20de%20Hotel%20Pacific%20Palace%20Mazatl%C3%A1n.webp	1800x1200	213 KB
+restaurant/Bar%20Polinesio%20de%20Hotel%20Pacific%20Palace%20Mazatl%C3%A1n.webp	1800x1200	185 KB
+logo.png	639x322	97 KB
+rooms/Habitacion_Junior_Suite_con_vista_a_la_Ciudad_de_Hotel_Pacific_Palace_Mazatlan.webp	1800x1200	94 KB
+rooms/Habitacion_Junior_Suite_con_vista_al_Mar_de_Hotel_Pacific_Palace_Mazatlan.webp	1800x1200	89 KB
+imagotipo.png	223x218	44 KB
+logo3.png	330x108	22 KB
+logo2.png	330x108	21 KB
+logo5.png	330x108	21 KB
+quot.png	211x216	15 KB
+logo4.png	330x108	14 KB
+logo1.png	330x108	8 KB

@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Fuentes del sitio original (Gilda Display, Barlow y Barlow Condensed), de @fontsource y solo el subconjunto latino. */
+@font-face { font-family: "Gilda Display"; src: url("../node_modules/@fontsource/gilda-display/files/gilda-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Condensed"; src: url("../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Condensed"; src: url("../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: el verde agua del logotipo (#009c97), la arena y el marino del CSS del sitio original,
+   y el naranja del atardecer (#ef9c28, también del CSS original). */
+@theme {
+  --color-arena: #f9f7f3;
+  --color-concha: #f1eeeb;
+  --color-marino: #003159;
+  --color-marino-2: #00243f;
+  --color-tinta: #16242c;
+  --color-texto: #3a4750;
+  --color-agua: #009c97;
+  --color-agua-texto: #00706c;
+  --color-agua-2: #005a57;
+  --color-atardecer: #ef9c28;
+  --font-sans: "Barlow", "Segoe UI", sans-serif;
+  --font-serif: "Gilda Display", Georgia, serif;
+  --font-cond: "Barlow Condensed", "Arial Narrow", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-serif text-tinta; font-weight: 400; line-height: 1.08; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-agua); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-claro, .btn-linea, .btn-sol {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.98rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-agua-texto text-white hover:bg-agua-2; }
+  .btn-sol { @apply bg-atardecer text-marino hover:bg-[#f5b04e]; }
+  .btn-claro { @apply bg-white text-marino hover:bg-concha; }
+  .btn-linea { @apply border border-tinta/25 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .enlace { @apply font-semibold text-agua-texto underline decoration-agua/40 underline-offset-4 hover:decoration-agua-texto; }
+  .campo { @apply w-full rounded-xl border border-tinta/20 bg-white px-4 py-3 text-tinta; min-height: 48px; }
+  .dato { @apply font-cond text-[1.05rem] font-semibold tracking-wide; }
+}
+
+/* La aguja del reloj se desliza al mover la hora; sin movimiento si la persona lo pidió. */
+.aguja { transition: transform 0.5s cubic-bezier(0.3, 0.7, 0.2, 1); }
+@media (prefers-reduced-motion: reduce) { .aguja { transition: none; } }
