@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Fuentes del sitio original (su tema de Shopify: --font-heading-family "Fjalla One" y --font-body-family Merriweather),
+   de @fontsource y solo el subconjunto latino. Sofia Pro, que el tema también carga, es comercial: no se usa. */
+@font-face { font-family: "Fjalla One"; src: url("../node_modules/@fontsource/fjalla-one/files/fjalla-one-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Merriweather"; src: url("../node_modules/@fontsource/merriweather/files/merriweather-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Merriweather"; src: url("../node_modules/@fontsource/merriweather/files/merriweather-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Merriweather"; src: url("../node_modules/@fontsource/merriweather/files/merriweather-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: el naranja (#ff6d24) de su encabezado, el amarillo (#f9cd2e) de su cinta y el carbón (33,35,38) de su tema. */
+@theme {
+  --color-crema: #fbf6ee;
+  --color-papel: #f3e9da;
+  --color-carbon: #212326;
+  --color-texto: #4b4540;
+  --color-naranja: #ff6d24;
+  --color-naranja-oscuro: #b8430a;
+  --color-amarillo: #f9cd2e;
+  --font-sans: "Merriweather", Georgia, serif;
+  --font-titulo: "Fjalla One", "Arial Narrow", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 7rem; }
+  body { @apply bg-crema text-texto font-sans antialiased; font-size: 1rem; line-height: 1.75; }
+  h1, h2, h3, h4 { @apply text-carbon font-titulo; font-weight: 400; line-height: 1.05; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-naranja-oscuro); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-naranja); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro, .btn-naranja {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-naranja-oscuro text-white hover:bg-carbon; }
+  .oscuro .btn { @apply hover:bg-naranja hover:text-carbon; }
+  .btn-naranja { @apply bg-naranja text-carbon hover:bg-amarillo; }
+  .btn-claro { @apply border border-white/45 text-white hover:border-white hover:bg-white/10; }
+  .btn-linea { @apply border border-carbon/25 text-carbon hover:border-carbon hover:bg-carbon/5; }
+  .precio { font-variant-numeric: tabular-nums; }
+  .puntos { @apply min-w-4 flex-1 border-b border-dotted border-carbon/30; transform: translateY(-0.35em); }
+  .molienda { animation: caer 0.45s ease-out both; }
+}
+
+@keyframes caer { from { opacity: 0.2; } to { opacity: 1; } }

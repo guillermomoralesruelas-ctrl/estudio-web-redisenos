@@ -1,0 +1,1067 @@
+{
+ "fuente": "https://huupa.coffee/products/<handle>.js, descargado con curl el 2026-09-26 (precios en pesos mexicanos, como los publica la tienda)",
+ "cafes": [
+  {
+   "handle": "huupa-clasico",
+   "titulo": "Café Clásico",
+   "disponible": true,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 40464297427031,
+     "tamano": "250 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40464297132119,
+     "tamano": "250 g",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40481956790359,
+     "tamano": "250 g",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40464297230423,
+     "tamano": "250 g",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40481956823127,
+     "tamano": "250 g",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40464297328727,
+     "tamano": "250 g",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40464297820247,
+     "tamano": "454 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40464297525335,
+     "tamano": "454 g",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40481956855895,
+     "tamano": "454 g",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40464297623639,
+     "tamano": "454 g",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40481956888663,
+     "tamano": "454 g",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40464297721943,
+     "tamano": "454 g",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40464298213463,
+     "tamano": "1 kg",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 626,
+     "disponible": true
+    },
+    {
+     "id": 40464297918551,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 626,
+     "disponible": true
+    },
+    {
+     "id": 40481956921431,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 626,
+     "disponible": true
+    },
+    {
+     "id": 40464298016855,
+     "tamano": "1 kg",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 626,
+     "disponible": true
+    },
+    {
+     "id": 40481956954199,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 626,
+     "disponible": true
+    },
+    {
+     "id": 40464298115159,
+     "tamano": "1 kg",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 626,
+     "disponible": true
+    }
+   ]
+  },
+  {
+   "handle": "huupa-premium",
+   "titulo": "Café Premium",
+   "disponible": true,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 40464254042199,
+     "tamano": "250 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 202,
+     "disponible": true
+    },
+    {
+     "id": 40464253845591,
+     "tamano": "250 g",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 202,
+     "disponible": true
+    },
+    {
+     "id": 40481960460375,
+     "tamano": "250 g",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 202,
+     "disponible": true
+    },
+    {
+     "id": 40464253911127,
+     "tamano": "250 g",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 202,
+     "disponible": true
+    },
+    {
+     "id": 40481960493143,
+     "tamano": "250 g",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 202,
+     "disponible": true
+    },
+    {
+     "id": 40464253976663,
+     "tamano": "250 g",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 202,
+     "disponible": true
+    },
+    {
+     "id": 40464254304343,
+     "tamano": "454 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 343,
+     "disponible": true
+    },
+    {
+     "id": 40464254107735,
+     "tamano": "454 g",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 343,
+     "disponible": true
+    },
+    {
+     "id": 40481960525911,
+     "tamano": "454 g",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 343,
+     "disponible": true
+    },
+    {
+     "id": 40464254173271,
+     "tamano": "454 g",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 343,
+     "disponible": true
+    },
+    {
+     "id": 40481960558679,
+     "tamano": "454 g",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 343,
+     "disponible": true
+    },
+    {
+     "id": 40464254238807,
+     "tamano": "454 g",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 343,
+     "disponible": true
+    },
+    {
+     "id": 40464254566487,
+     "tamano": "1 kg",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 686,
+     "disponible": true
+    },
+    {
+     "id": 40464254369879,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 686,
+     "disponible": true
+    },
+    {
+     "id": 40481960591447,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 686,
+     "disponible": true
+    },
+    {
+     "id": 40464254435415,
+     "tamano": "1 kg",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 686,
+     "disponible": true
+    },
+    {
+     "id": 40481960624215,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 686,
+     "disponible": true
+    },
+    {
+     "id": 40464254500951,
+     "tamano": "1 kg",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 686,
+     "disponible": true
+    }
+   ]
+  },
+  {
+   "handle": "huupa-descafeinado",
+   "titulo": "Café Descafeinado Natural",
+   "disponible": true,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 40464141451351,
+     "tamano": "250 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 223,
+     "disponible": true
+    },
+    {
+     "id": 40464141254743,
+     "tamano": "250 g",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 223,
+     "disponible": true
+    },
+    {
+     "id": 40481957838935,
+     "tamano": "250 g",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 223,
+     "disponible": true
+    },
+    {
+     "id": 40464141320279,
+     "tamano": "250 g",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 223,
+     "disponible": true
+    },
+    {
+     "id": 40481957871703,
+     "tamano": "250 g",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 223,
+     "disponible": true
+    },
+    {
+     "id": 40464141385815,
+     "tamano": "250 g",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 223,
+     "disponible": true
+    },
+    {
+     "id": 40464141713495,
+     "tamano": "454 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 382,
+     "disponible": true
+    },
+    {
+     "id": 40464141516887,
+     "tamano": "454 g",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 382,
+     "disponible": true
+    },
+    {
+     "id": 40481957904471,
+     "tamano": "454 g",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 382,
+     "disponible": true
+    },
+    {
+     "id": 40464141582423,
+     "tamano": "454 g",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 382,
+     "disponible": true
+    },
+    {
+     "id": 40481957937239,
+     "tamano": "454 g",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 382,
+     "disponible": true
+    },
+    {
+     "id": 40464141647959,
+     "tamano": "454 g",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 382,
+     "disponible": true
+    },
+    {
+     "id": 40464141975639,
+     "tamano": "1 kg",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 764,
+     "disponible": true
+    },
+    {
+     "id": 40464141779031,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 764,
+     "disponible": true
+    },
+    {
+     "id": 40481957970007,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 764,
+     "disponible": true
+    },
+    {
+     "id": 40464141844567,
+     "tamano": "1 kg",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 764,
+     "disponible": true
+    },
+    {
+     "id": 40481958002775,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 764,
+     "disponible": true
+    },
+    {
+     "id": 40464141910103,
+     "tamano": "1 kg",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 764,
+     "disponible": true
+    }
+   ]
+  },
+  {
+   "handle": "huupa-intenso",
+   "titulo": "Café Intenso",
+   "disponible": true,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 40481984741463,
+     "tamano": "250 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40481984577623,
+     "tamano": "250 g",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40481984610391,
+     "tamano": "250 g",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40481984643159,
+     "tamano": "250 g",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40481984675927,
+     "tamano": "250 g",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40481984708695,
+     "tamano": "250 g",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 183,
+     "disponible": true
+    },
+    {
+     "id": 40481984938071,
+     "tamano": "454 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40481984774231,
+     "tamano": "454 g",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40481984806999,
+     "tamano": "454 g",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40481984839767,
+     "tamano": "454 g",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40481984872535,
+     "tamano": "454 g",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40481984905303,
+     "tamano": "454 g",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 313,
+     "disponible": true
+    },
+    {
+     "id": 40481985134679,
+     "tamano": "1 kg",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 626,
+     "disponible": true
+    },
+    {
+     "id": 40481984970839,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 626,
+     "disponible": true
+    },
+    {
+     "id": 40481985003607,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 626,
+     "disponible": true
+    },
+    {
+     "id": 40481985036375,
+     "tamano": "1 kg",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 626,
+     "disponible": true
+    },
+    {
+     "id": 40481985069143,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 626,
+     "disponible": true
+    },
+    {
+     "id": 40481985101911,
+     "tamano": "1 kg",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 626,
+     "disponible": true
+    }
+   ]
+  },
+  {
+   "handle": "huupa-extremo",
+   "titulo": "Café Extremo",
+   "disponible": true,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 40481980383319,
+     "tamano": "250 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 182,
+     "disponible": true
+    },
+    {
+     "id": 40481980219479,
+     "tamano": "250 g",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 182,
+     "disponible": true
+    },
+    {
+     "id": 40481980252247,
+     "tamano": "250 g",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 182,
+     "disponible": true
+    },
+    {
+     "id": 40481980285015,
+     "tamano": "250 g",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 182,
+     "disponible": true
+    },
+    {
+     "id": 40481980317783,
+     "tamano": "250 g",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 182,
+     "disponible": true
+    },
+    {
+     "id": 40481980350551,
+     "tamano": "250 g",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 182,
+     "disponible": true
+    },
+    {
+     "id": 40481980579927,
+     "tamano": "454 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 304,
+     "disponible": true
+    },
+    {
+     "id": 40481980416087,
+     "tamano": "454 g",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 304,
+     "disponible": true
+    },
+    {
+     "id": 40481980448855,
+     "tamano": "454 g",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 304,
+     "disponible": true
+    },
+    {
+     "id": 40481980481623,
+     "tamano": "454 g",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 304,
+     "disponible": true
+    },
+    {
+     "id": 40481980514391,
+     "tamano": "454 g",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 304,
+     "disponible": true
+    },
+    {
+     "id": 40481980547159,
+     "tamano": "454 g",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 304,
+     "disponible": true
+    },
+    {
+     "id": 40481980776535,
+     "tamano": "1 kg",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 608,
+     "disponible": true
+    },
+    {
+     "id": 40481980612695,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 608,
+     "disponible": true
+    },
+    {
+     "id": 40481980645463,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 608,
+     "disponible": true
+    },
+    {
+     "id": 40481980678231,
+     "tamano": "1 kg",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 608,
+     "disponible": true
+    },
+    {
+     "id": 40481980710999,
+     "tamano": "1 kg",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 608,
+     "disponible": true
+    },
+    {
+     "id": 40481980743767,
+     "tamano": "1 kg",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 608,
+     "disponible": true
+    }
+   ]
+  },
+  {
+   "handle": "specialty-bourbon-amarillo",
+   "titulo": "Specialty: Bourbon Amarillo",
+   "disponible": true,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 44139595923543,
+     "tamano": "250 gr",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 432,
+     "disponible": true
+    },
+    {
+     "id": 44139595956311,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 432,
+     "disponible": true
+    },
+    {
+     "id": 44139595989079,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 432,
+     "disponible": true
+    },
+    {
+     "id": 44139596021847,
+     "tamano": "250 gr",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 432,
+     "disponible": true
+    },
+    {
+     "id": 44139596054615,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 432,
+     "disponible": true
+    },
+    {
+     "id": 44139596087383,
+     "tamano": "250 gr",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 432,
+     "disponible": true
+    }
+   ]
+  },
+  {
+   "handle": "specialty-garnica-y-caturra",
+   "titulo": "Specialty: Garnica y Caturra",
+   "disponible": true,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 44016918626391,
+     "tamano": "250 gr",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 386,
+     "disponible": true
+    },
+    {
+     "id": 44016918659159,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 386,
+     "disponible": true
+    },
+    {
+     "id": 44016918691927,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 386,
+     "disponible": true
+    },
+    {
+     "id": 44016918724695,
+     "tamano": "250 gr",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 386,
+     "disponible": true
+    },
+    {
+     "id": 44016918757463,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 386,
+     "disponible": true
+    },
+    {
+     "id": 44016918790231,
+     "tamano": "250 gr",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 386,
+     "disponible": true
+    }
+   ]
+  },
+  {
+   "handle": "specialty-manos-de-mujer-oaxaquena",
+   "titulo": "Specialty: Manos de Mujer Oaxaqueña",
+   "disponible": true,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 43928021139543,
+     "tamano": "250 gr",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 364,
+     "disponible": true
+    },
+    {
+     "id": 43928021172311,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 364,
+     "disponible": true
+    },
+    {
+     "id": 43928021205079,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 364,
+     "disponible": true
+    },
+    {
+     "id": 43928021237847,
+     "tamano": "250 gr",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 364,
+     "disponible": true
+    },
+    {
+     "id": 43928021270615,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 364,
+     "disponible": true
+    },
+    {
+     "id": 43928021303383,
+     "tamano": "250 gr",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 364,
+     "disponible": true
+    }
+   ]
+  },
+  {
+   "handle": "specialty-typica-y-bourbon-rojo",
+   "titulo": "Specialty: Typica & Bourbon Rojo",
+   "disponible": false,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 44016937074775,
+     "tamano": "250 gr",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 453,
+     "disponible": false
+    },
+    {
+     "id": 44016937107543,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 453,
+     "disponible": false
+    },
+    {
+     "id": 44016937140311,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 453,
+     "disponible": false
+    },
+    {
+     "id": 44016937173079,
+     "tamano": "250 gr",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 453,
+     "disponible": false
+    },
+    {
+     "id": 44016937205847,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 453,
+     "disponible": false
+    },
+    {
+     "id": 44016937238615,
+     "tamano": "250 gr",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 453,
+     "disponible": false
+    }
+   ]
+  },
+  {
+   "handle": "specialty-bourbon-typica",
+   "titulo": "Specialty: Bourbon Typica",
+   "disponible": false,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 42688933789783,
+     "tamano": "250 gr",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 363,
+     "disponible": false
+    },
+    {
+     "id": 42688933822551,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 363,
+     "disponible": false
+    },
+    {
+     "id": 42688933855319,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 363,
+     "disponible": false
+    },
+    {
+     "id": 42688933888087,
+     "tamano": "250 gr",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 363,
+     "disponible": false
+    },
+    {
+     "id": 42688933920855,
+     "tamano": "250 gr",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 363,
+     "disponible": false
+    },
+    {
+     "id": 42688933953623,
+     "tamano": "250 gr",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 363,
+     "disponible": false
+    },
+    {
+     "id": 42688933986391,
+     "tamano": "454 gr",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 582,
+     "disponible": false
+    },
+    {
+     "id": 42688934019159,
+     "tamano": "454 gr",
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 582,
+     "disponible": false
+    },
+    {
+     "id": 42688934051927,
+     "tamano": "454 gr",
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 582,
+     "disponible": false
+    },
+    {
+     "id": 42688934084695,
+     "tamano": "454 gr",
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 582,
+     "disponible": false
+    },
+    {
+     "id": 42688934117463,
+     "tamano": "454 gr",
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 582,
+     "disponible": false
+    },
+    {
+     "id": 42688934150231,
+     "tamano": "454 gr",
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 582,
+     "disponible": false
+    }
+   ]
+  },
+  {
+   "handle": "specialty-extraordinario-solok",
+   "titulo": "Specialty Extraordinario: Solok",
+   "disponible": false,
+   "opciones": [
+    "Tamaño",
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 42212272504919,
+     "tamano": "250 g",
+     "molido": "Sin moler - EN GRANO",
+     "precio": 832,
+     "disponible": false
+    }
+   ]
+  },
+  {
+   "handle": "sampler-5-cafes",
+   "titulo": "Huupa® Sampler - 5 cafés",
+   "disponible": true,
+   "opciones": [
+    "Molido"
+   ],
+   "variantes": [
+    {
+     "id": 40883996524631,
+     "tamano": null,
+     "molido": "Sin moler - EN GRANO",
+     "precio": 863,
+     "disponible": true
+    },
+    {
+     "id": 40883996557399,
+     "tamano": null,
+     "molido": "Para Cafetera de Espresso - FINO",
+     "precio": 863,
+     "disponible": true
+    },
+    {
+     "id": 40883996590167,
+     "tamano": null,
+     "molido": "Para Cafetera Italiana - MEDIO FINO",
+     "precio": 863,
+     "disponible": true
+    },
+    {
+     "id": 40883996622935,
+     "tamano": null,
+     "molido": "Para Cafeteras de Colar - MEDIO",
+     "precio": 863,
+     "disponible": true
+    },
+    {
+     "id": 40883996655703,
+     "tamano": null,
+     "molido": "Para Cafetera Percoladora - MEDIO GRUESO",
+     "precio": 863,
+     "disponible": true
+    },
+    {
+     "id": 40883996688471,
+     "tamano": null,
+     "molido": "Para Prensa Francesa - GRUESO",
+     "precio": 863,
+     "disponible": true
+    }
+   ]
+  }
+ ]
+}
