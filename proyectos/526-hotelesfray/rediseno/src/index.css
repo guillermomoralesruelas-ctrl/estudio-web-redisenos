@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+/* Figtree, la fuente del sitio original: solo el subconjunto latino. */
+@font-face {
+  font-family: "Figtree Variable";
+  src: url("../node_modules/@fontsource-variable/figtree/files/figtree-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Tokens: el verde piedra del logotipo de Hoteles Fray, el ámbar de Fray Junípero y el rojo de Fray Select
+   (los tres salen de sus logotipos), sobre el tono de cantera del centro de Tepic. */
+@theme {
+  --color-cantera: #f6f2ec;
+  --color-piedra: #e8e1d6;
+  --color-tinta: #1f262e;
+  --color-texto: #3f4852;
+  --color-fray: #4f6a6a;
+  --color-fray-2: #3c5252;
+  --color-ambar: #e8a020;
+  --color-ambar-texto: #8a5a00;
+  --color-rojo: #c82038;
+  --color-rojo-2: #a51a2e;
+  --font-sans: "Figtree Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cantera text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply text-tinta; font-weight: 700; line-height: 1.06; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-fray); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn, .btn-claro, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  /* El botón principal toma el color del hotel elegido (ver data-hotel en <html>). */
+  .btn { background: var(--acento); color: var(--sobre-acento); }
+  .btn:hover { background: var(--acento-2); }
+  .btn-claro { @apply bg-white text-tinta hover:bg-cantera; }
+  .btn-linea { @apply border border-tinta/25 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .enlace { @apply font-semibold underline underline-offset-4; color: var(--acento-texto); text-decoration-color: color-mix(in srgb, var(--acento-texto) 35%, transparent); }
+  .campo { @apply w-full rounded-xl border border-tinta/20 bg-white px-4 py-3 text-tinta; min-height: 48px; }
+}
+
+:root, [data-hotel="junipero"] {
+  --acento: var(--color-ambar);
+  --acento-2: #d18d10;
+  --sobre-acento: var(--color-tinta);
+  --acento-texto: var(--color-ambar-texto);
+}
+[data-hotel="select"] {
+  --acento: var(--color-rojo);
+  --acento-2: var(--color-rojo-2);
+  --sobre-acento: #ffffff;
+  --acento-texto: var(--color-rojo);
+}
+
+.fundido { transition: opacity 0.4s ease; }
+@media (prefers-reduced-motion: reduce) { .fundido { transition: none; } }

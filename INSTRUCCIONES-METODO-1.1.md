@@ -190,7 +190,7 @@ Mientras revisas el sitio de un negocio vas a encontrar cosas que le cuestan cli
 
 ## 8. Estado al 2026-09-26 y siguiente paso
 
-- **Terminados con 1.1:** `02-1mrfitness`, `175-casaorigenes`, `641-lapuertaroja`, `521-hotelboutiquepineda` y `526-hotelesfray` (Pineda y Fray sirve copias .webp de las fotos del clon en `assets/web/`, ver `rediseno/fotos-web.mjs`). Úsalos como referencia de calidad y de estilo de documentación. `641-lapuertaroja` ya se hizo con las herramientas nuevas (`nuevo-rediseno.mjs` y `qa-rediseno.mjs`).
+- **Terminados con 1.1:** `02-1mrfitness`, `175-casaorigenes`, `641-lapuertaroja`, `521-hotelboutiquepineda` y `526-hotelesfray` (Pineda y Fray sirven copias .webp de las fotos del clon en `assets/web/`, ver `rediseno/fotos-web.mjs`). Úsalos como referencia de calidad y de estilo de documentación. `641-lapuertaroja` ya se hizo con las herramientas nuevas (`nuevo-rediseno.mjs` y `qa-rediseno.mjs`).
 - **Descartado:** `172-casamariahotel`, porque su URL es de un portal de reservas de terceros.
 - **Terminado con 1.2:** `540-hotelpomelo` (Hotel Pomelo, reemplaza a 172). Squarespace: las 143 imágenes se bajaron en la PC a `assets/pomelo/` con `assets-1.2.json`; como pesan 56 MB, el rediseño usa copias .webp de las 38 que usa en `assets/pomelo-web/` (`rediseno/fotos-web.mjs`), que es su `publicDir`. Úsalo como referencia para otros sitios de Squarespace o Wix.
 - **Siguientes candidatos:** ver `METODOS.md`.
