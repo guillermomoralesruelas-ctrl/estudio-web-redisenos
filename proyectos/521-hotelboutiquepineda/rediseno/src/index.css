@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Inter Variable";
+  src: url("../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Tokens: terracota del ícono "P" de la marca, chocolate de la madera de la recepción,
+   rosa de los muros de la alberca y el azul de la bahía de Guayabitos. */
+@theme {
+  --color-arena: #f8f2ea;
+  --color-rosa: #f1d9cc;
+  --color-chocolate: #33211a;
+  --color-texto: #4a3a33;
+  --color-terracota: #8f3f1f;
+  --color-terracota-2: #74321a;
+  --color-bahia: #125d78;
+  --color-bahia-2: #0d4558;
+  --font-serif: "Cardo", Georgia, serif;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.7; }
+  h1, h2, h3 { @apply font-serif text-chocolate; font-weight: 400; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-bahia); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-terracota, .btn-claro, .btn-linea, .btn-linea-clara {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn-terracota { @apply bg-terracota text-white hover:bg-terracota-2; }
+  .btn-claro { @apply bg-arena text-chocolate hover:bg-white; }
+  .btn-linea { @apply border border-chocolate/25 text-chocolate hover:border-chocolate hover:bg-chocolate/5; }
+  .btn-linea-clara { @apply border border-white/50 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-semibold text-terracota underline decoration-terracota/30 underline-offset-4 hover:decoration-terracota; }
+}
+
+/* Botones redondos del selector de personas. */
+.paso { @apply grid size-12 place-items-center rounded-full border border-chocolate/25 text-2xl text-chocolate transition-colors hover:bg-chocolate/5 disabled:opacity-35 disabled:hover:bg-transparent; }
+
+.cambio { transition: opacity 0.35s ease; }
+@media (prefers-reduced-motion: reduce) { .cambio { transition: none; } }

@@ -1,0 +1,66 @@
+{
+  "fecha": "2026-09-26T17:33:03.572Z",
+  "carpeta": "521-hotelboutiquepineda",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 7910,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 20,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Inicio - Hotel Boutique Pineda | El mejor Hotel y Hospedaje en Rincón de Guayabitos, Nayarit",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 10714,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 19,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Inicio - Hotel Boutique Pineda | El mejor Hotel y Hospedaje en Rincón de Guayabitos, Nayarit",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8272,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 18,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel Boutique Pineda | Suites en Rincón de Guayabitos",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 10824,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 18,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel Boutique Pineda | Suites en Rincón de Guayabitos",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

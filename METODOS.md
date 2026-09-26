@@ -13,10 +13,11 @@ Los ~650 proyectos del fabricador que no aparecen aquí son solo **clones (méto
 | 641-lapuertaroja | La Puerta Roja Hotel Boutique (Álamos) | 1.1 | Terminado | `/proyectos/641-lapuertaroja/rediseno/dist/index.html` | Ver `CAMBIOS.md`. El sitio actual tiene spam de casinos en /Nosotros: avisar al cliente |
 | 172-casamariahotel | Casa Maria Hotel (Puerto Vallarta) | — | Descartado | — | La URL es de un sitio de reservas de terceros, no del hotel |
 | 540-hotelpomelo | Hotel Pomelo (Troncones) | 1.2 | Terminado | `/proyectos/540-hotelpomelo/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Reemplaza a 172. Squarespace: las 143 imágenes se bajaron en la PC a `assets/pomelo/`; el rediseño usa copias .webp en `assets/pomelo-web/` (`rediseno/fotos-web.mjs`). Su botón "Escríbenos" tiene el WhatsApp incompleto: avisar al cliente |
+| 521-hotelboutiquepineda | Hotel Boutique Pineda (Rincón de Guayabitos) | 1.1 | Terminado | `/proyectos/521-hotelboutiquepineda/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Fotos del clon a .webp en `assets/web/` (`rediseno/fotos-web.mjs`). Su página de suite tiene texto de plantilla en inglés y la fachada parece generada con IA: avisar al cliente |
 
 URL base de XAMPP: `http://localhost/project-1-25092026`
 
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 
-- Con fotos en el clon (1.1): 530-hotelizkina (Cozumel; fotos de habitaciones pequeñas), 514-hotelsuitesel (La Paz), 623-labovedahotel (Nochistlán). Revisar antes con `candidatos-1.1.mjs`.
+- Con fotos en el clon (1.1): 530-hotelizkina (Cozumel; fotos de habitaciones pequeñas), 514-hotelsuitesel (La Paz; solo 12 fotos y su sitio ya es reciente), 549-hoteltradicional (San Cristóbal), 522-hotelbravotepic (Tepic). Revisar antes con `candidatos-1.1.mjs`.
 - Sin fotos en el clon (1.2, descargar en la PC primero): 532-hotelklimt (solo 2 fotos), 534-hotelmaela (0).
