@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cal: #f6f2ec;
+  --color-piedra: #e9e2d6;
+  --color-tinta: #141414;
+  --color-grafito: #424344;
+  --color-roja: #e42320;
+  --color-roja-2: #c21b18;
+  --color-anil: #1f3561;
+  --color-anil-2: #172849;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter Variable", "Inter", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-grafito font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-serif text-tinta; font-weight: 500; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-roja); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-roja, .btn-claro, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn-roja { @apply bg-roja text-white hover:bg-roja-2; }
+  .btn-claro { @apply bg-cal text-tinta hover:bg-white; }
+  .btn-linea { @apply border border-tinta/25 text-tinta hover:border-tinta hover:bg-tinta/5; }
+}
+
+.hero-foto { transition: opacity 1.8s ease; }
+@media (prefers-reduced-motion: reduce) { .hero-foto { transition: none; } }
+
+/* Arco de puerta: rectángulo con remate de medio punto. */
+.arco { border-radius: 999px 999px 0.35rem 0.35rem; }

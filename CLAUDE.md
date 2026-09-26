@@ -4,6 +4,8 @@ Este archivo lo leen Claude (Cowork) y Claude Code en la terminal. Aquí están 
 
 Idioma de trabajo: **español**.
 
+> **¿Vas a continuar los rediseños?** Lee primero **`INSTRUCCIONES-METODO-1.1.md`** (qué se hace, para quién, el proceso paso a paso, las herramientas y las reglas) y **`METODOS.md`** (qué método lleva cada sitio y en qué estado está). En cada proyecto rediseñado, **`CAMBIOS.md`** explica en qué se diferencia del sitio original y por qué, y **`OPORTUNIDADES.md`** reúne los argumentos para acercarse al cliente (problemas reales de su sitio actual). El índice de oportunidades por prioridad está en **`OPORTUNIDADES.md`** de la raíz.
+
 ## Qué es este estudio
 
 Es un espacio para **analizar sitios web existentes, descargar sus recursos y rediseñarlos** como sitios modernos. Cada sitio es un proyecto dentro de `proyectos/`. El estado de todos los proyectos vive en una base de datos local, SQLite, en `datos/`.
@@ -14,6 +16,9 @@ Es un espacio para **analizar sitios web existentes, descargar sus recursos y re
 estudio-web/
 ├─ CLAUDE.md              ← este archivo (reglas globales)
 ├─ LEEME.md               ← guía para la persona (instalación y uso)
+├─ INSTRUCCIONES-METODO-1.1.md ← cómo continuar los rediseños (léelo primero)
+├─ METODOS.md             ← registro: qué método se usó en cada sitio
+├─ OPORTUNIDADES.md       ← índice de oportunidades de venta por cliente, ordenado por prioridad
 ├─ terminal.cmd           ← doble clic: abre el menú del estudio en PowerShell
 ├─ ejecutar-cola.cmd      ← doble clic: ejecuta los pendientes de la cola
 ├─ db.cmd                 ← atajo: db <comando>  (base de datos)
@@ -45,7 +50,12 @@ estudio-web/
       ├─ referencias/     ← capturas del sitio original
       ├─ assets/          ← imágenes descargadas (originales)
       ├─ entregables/     ← prompts, reportes, documentos para el cliente
-      └─ sitio/           ← código del sitio nuevo (Vite + React)
+      ├─ sitio/           ← método 1: código del sitio nuevo | método 3: el CLON (no se modifica)
+      ├─ investigacion/   ← método 3: original.html, crudo.json (textos), resumen.json (contacto)
+      ├─ rediseno/        ← método 1.1: sitio nuevo (Vite + React); dist/ se abre en XAMPP
+      ├─ qa/              ← capturas y reporte-rediseno.json (qa-rediseno.mjs)
+      ├─ CAMBIOS.md       ← qué cambió respecto al original y por qué (obligatorio en 1.1)
+      └─ OPORTUNIDADES.md ← argumentos para hablar con el cliente (obligatorio en 1.1)
 ```
 
 ## Panel (automatización)
@@ -142,11 +152,39 @@ Jina AI Reader (`https://r.jina.ai/`) — gratis, sin API key, sin navegador.
 Si Jina falla: registra el error en fabricador.db y continúa con el siguiente.
 Espera 1.5s entre sitios para no saturar el servicio.
 
-### Estado al 2026-09-25
-- `init` ejecutado: 1,173 bots cargados, 16 omitidos (sin URL), 1,157 pendientes
-- `scrape --plantillas`: 8 sitios de plantilla scrapeados (0 errores)
-- `clonar.mjs 1mrfitness`: sitio clonado en `proyectos/02-1mrfitness/sitio/`
-- Siguiente: continuar con `fabricador scrape --max N` en lotes
+### Herramientas adicionales (creadas en sesión 2026-09-26)
+- `herramientas/detectar-plataforma.mjs` — detecta WordPress/Wix/Shopify/etc. desde HTML
+- `herramientas/clasificar-plataformas.mjs` — corre retroactivamente sobre todos los construidos
+- `herramientas/analizar-calidad.mjs` — clasifica construidos como funcional/reparable/complejo/omitir
+- `herramientas/_clonar-loop.mjs` — clonador en loop, excluye WordPress, orden aleatorio
+- `herramientas/_recloner-reparables.mjs` — re-clona sitios marcados como reparable
+- `herramientas/mysql-setup.mjs` — crea BD `estudio_fabricador` en MySQL con tabla `sitios_plataforma`
+- Panel Fabricador en http://localhost:4000 → pestaña "Fabricador" con stats, filtros y tabla
+
+### Columna `calidad` en fabricador.db
+- `funcional` — clon local funciona bien, assets en su lugar
+- `reparable` — tenía URLs malformadas (bug de clonar.mjs corregido el 2026-09-26), re-clonar
+- `complejo`  — WordPress/Joomla/Drupal o sin assets (requiere trabajo manual)
+- `omitir`    — Wix/Shopify/Squarespace/Webflow/ueniweb/EasyBroker — no clonables
+
+### Bug corregido en clonar.mjs (2026-09-26)
+- `rutaLocal()` usaba `path.join` → backslashes en Windows dentro del HTML
+- `reemplazos` incluía URLs externas (CDNs) → se reescribían con rutas rotas
+- Fix: solo reescribir URLs del mismo dominio + CSS externos por URL completa (no pathname)
+- Plataformas dinámicas bloqueadas: wix, squarespace, shopify, webflow, godaddy-builder, **ueniweb**
+
+### Estado al 2026-09-26
+- Scrapeados: ~430 sitios (lotes de 50/100/150/200 con Jina AI Reader)
+- Construidos: ~300 sitios clonados localmente
+- Calidad: ~158 funcional, ~48 reparable (en proceso), ~55 complejo, ~39 omitir
+- WordPress/Joomla/Drupal: excluidos del clonador, pendientes para fase posterior
+- Siguiente: continuar `fabricador scrape --max N`, re-clonar reparables, luego fase de rediseño
+
+## Rediseño con método 1.1 (resumen)
+
+Proceso completo en `INSTRUCCIONES-METODO-1.1.md`. En corto:
+`node --no-warnings herramientas/candidatos-1.1.mjs <plantilla>` → `node herramientas/nuevo-rediseno.mjs <carpeta>` → plan en `entregables/plan-diseno.md` → código en `rediseno/` → `npm run build` → `node herramientas/qa-rediseno.mjs <carpeta>` (debe dar 0 problemas) → `CAMBIOS.md` → `OPORTUNIDADES.md` (del sitio y de la raíz) → `METODOS.md` → commit.
+Nunca inventar datos del negocio; no modificar `sitio/` ni `investigacion/`; no escribir en `datos/fabricador.db`.
 
 ## Reglas de seguridad
 

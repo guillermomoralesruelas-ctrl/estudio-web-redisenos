@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-crema: #f7f1e7;
+  --color-papel: #efe5d4;
+  --color-tinta: #231f20;
+  --color-tinta-2: #4a4240;
+  --color-ambar: #cc7323;
+  --color-ambar-2: #b1611a;
+  --color-salvia: #7d8f6e;
+  --color-salvia-claro: #dfe5d6;
+  --color-cobalto: #1d3f6e;
+  --color-cobalto-2: #16325a;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter Variable", "Inter", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-tinta-2 font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-serif text-tinta; text-wrap: balance; font-weight: 500; line-height: 1.05; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ambar); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-ambar, .btn-claro, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn-ambar { @apply bg-ambar text-white hover:bg-ambar-2; }
+  .btn-claro { @apply bg-crema text-tinta hover:bg-white; }
+  .btn-linea { @apply border border-tinta/25 text-tinta hover:border-tinta hover:bg-tinta/5; }
+}
+
+/* Transición lenta entre las fotos del hero (el carrusel que no funcionaba en el sitio original). */
+.hero-foto { transition: opacity 1.6s ease, transform 8s ease-out; }
+@media (prefers-reduced-motion: reduce) { .hero-foto { transition: none; transform: none !important; } }
+
+/* Líneas punteadas entre platillo y precio, como en una carta impresa. */
+.puntos { flex: 1; border-bottom: 1.5px dotted color-mix(in srgb, var(--color-tinta) 30%, transparent); transform: translateY(-0.35em); min-width: 1.5rem; }

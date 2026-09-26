@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tinta: #181030;
+  --color-tinta-2: #221842;
+  --color-morado: #4c2c8d;
+  --color-morado-2: #3a2070;
+  --color-lima: #c4d73d;
+  --color-lima-2: #d4e55a;
+  --color-lavanda: #efe9fb;
+  --color-lavanda-2: #e2d9f6;
+  --color-grafito: #3f4855;
+  --font-display: "Orbitron", "Arial Black", sans-serif;
+  --font-sans: "Work Sans Variable", "Work Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-lavanda text-grafito font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-lima); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn-lima, .btn-borde, .btn-morado {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn-lima { @apply bg-lima text-tinta hover:bg-lima-2; }
+  .btn-borde { @apply border border-white/40 text-white hover:border-white hover:bg-white/5; }
+  .btn-morado { @apply bg-morado text-white hover:bg-morado-2; }
+}

@@ -1,0 +1,25 @@
+# Imágenes disponibles en publicDir (../sitio/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+IbLGkiYGWckZWymeHf7WJD4XHE.jpg	1562x1954	852 KB
+nqwryBdXq0pQV2miIHQswJ577Jo.jpg	1920x2880	686 KB
+dTpI8JAI8jPAfRxnPaUgdzG5m1w.jpg	1920x2880	621 KB
+8DbNCrhEuBJON5NXkKZeNSlelc.jpg	1920x2880	605 KB
+5wLFQwprk613ajEBDoF3vi6tj8.jpg	1920x1080	565 KB
+kLDPigad7yC0YR0l84QBnyPvQwU.jpg	1920x1282	482 KB
+d1WfLQYVMX6Xww5jYdQBCYzb4Q.jpg	1920x1886	482 KB
+Iz6IzNotTZKzs2PG18kQU55dDsY.jpg	1920x1080	481 KB
+aMl5DylWvTpPaZC0hueTumI36Lo.jpg	1920x1080	409 KB
+x60ce6lvmktNvnKjVYVmszbxxA.jpg	1920x1080	362 KB
+7Sxafsc1qkskFahkBDHKgYVwRo.jpg	1920x1280	345 KB
+Dqv6TlIK6ygyoCJEVOvnzON5k4w.jpg	1920x1281	335 KB
+3H1xN7wHmfxOkBOMqwAyHBubuQo_scale-down-to-1024.jpg	1024x575	178 KB
+n71flf0fG64Fxmoi5BVMUth89E_scale-down-to-1024.jpg	1024x575	157 KB
+Cfbhidh4l4n2aY3ElbU4fvQ9gOY_scale-down-to-1024.jpg	1024x575	153 KB
+1uhjy4hcta50kMO9NLbDDDOHg_scale-down-to-1024.jpg	1024x575	150 KB
+dv5wEmM7OhZemjzivXoTCz3k4RQ_scale-down-to-1024.jpg	1024x575	119 KB
+XZCnXEBjrJuqBDVACWPvhOXzL28_scale-down-to-1024.jpg	1024x575	112 KB
+Ht38fMRPWLtKhsVyPeLpQ7xV0.svg	514x266	18 KB
+jWtWFhQ5b9jtz1gngLa29NgxHM.svg	514x82	5 KB
+1MUyfqOSPzbTs1EUnY4cQijWxfo.png	32x32	0 KB
+11KSGbIZoRSg4pjdnUoif6MKHI.svg	40x40	0 KB
+6tTbkXggWgQCAJ4DO2QEdXXmgM.svg	40x40	0 KB

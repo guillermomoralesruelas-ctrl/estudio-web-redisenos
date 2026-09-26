@@ -1,0 +1,136 @@
+{
+  "fecha": "2026-09-26T16:22:10.098Z",
+  "carpeta": "02-1mrfitness",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6079,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 19,
+      "rotas": [
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/visa.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/mastercard.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/amex.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/discover.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/diners.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/paypal.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/mercadopago.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/applepay.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/googlepay.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/samsungpay.svg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Gym 24 horas en Hermosillo, Sonora",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/externo/fonts.googleapis.com/css2",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/visa.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/mastercard.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/amex.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/discover.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/diners.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/paypal.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/mercadopago.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/applepay.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/googlepay.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/samsungpay.svg"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6946,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 19,
+      "rotas": [
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/visa.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/mastercard.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/amex.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/discover.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/diners.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/paypal.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/mercadopago.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/applepay.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/googlepay.svg",
+        "http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/samsungpay.svg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Gym 24 horas en Hermosillo, Sonora",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/externo/fonts.googleapis.com/css2",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/visa.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/mastercard.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/amex.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/discover.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/diners.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/paypal.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/mercadopago.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/applepay.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/googlepay.svg",
+        "404 http://127.0.0.1:43317/02-1mrfitness/sitio/assets/assets/pay/samsungpay.svg"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5523,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "1MR Fitness | Gym 24 horas en Hermosillo, Sonora",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7910,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "1MR Fitness | Gym 24 horas en Hermosillo, Sonora",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

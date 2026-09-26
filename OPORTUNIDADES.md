@@ -1,0 +1,13 @@
+# Oportunidades de venta por cliente
+
+Índice para decidir **a quién contactar primero**. El detalle de cada negocio (hallazgos, qué ofrecerle, mensaje sugerido y preguntas) está en `proyectos/<carpeta>/OPORTUNIDADES.md`. Las reglas para llenarlo están en `INSTRUCCIONES-METODO-1.1.md`, sección 4 bis.
+
+**Importante:** solo cuentan problemas del sitio **en línea**, no del clon. Antes de contactar, vuelve a abrir el sitio real porque pudo cambiar desde la captura. Guillermo envía los mensajes él mismo.
+
+| Prioridad | Carpeta | Negocio | Hallazgo principal | Contacto | Captura | Estado |
+|---|---|---|---|---|---|---|
+| **ALTA** | 641-lapuertaroja | La Puerta Roja Hotel Boutique (Álamos, Son.) | Spam de casinos en /Nosotros, botón Reservar con fechas imposibles y texto de "demo" en el inicio | Tel. (647) 428 1552, IG y FB @lapuertarojahotel | 2026-09-26 | Propuesta lista, sin contactar |
+| MEDIA-BAJA | 175-casaorigenes | Casa Orígenes (Xalapa, Ver.) | El menú con precios está en otra página y en PDF; nada dice si están abiertos ahora. Su sitio está bien hecho | WhatsApp (228) 163 5761, IG @origenes.xlp | 2026-09-26 | Propuesta lista, sin contactar |
+| BAJA | 02-1mrfitness | 1MR Fitness (Hermosillo, Son.) | Precios escondidos en una subpágina, WhatsApp sin mensaje y promoción "próximamente" sin fechas. Su sitio está bien hecho | WhatsApp 662-367-0767, IG @1onemorerep | 2026-09-26 | Propuesta lista, sin contactar |
+
+Cuando Guillermo contacte a alguien, cambia el **Estado** (por ejemplo: "Contactado 2026-10-01 por IG", "Interesado", "No interesado") para no escribirle dos veces.

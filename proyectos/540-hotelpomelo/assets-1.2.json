@@ -1,0 +1,721 @@
+{
+ "destino": "assets/pomelo",
+ "nota": "Método 1.2: imágenes para el rediseño (el clon de Squarespace no las descargó). Generado a partir de assets.json, sin duplicados, a 1500 px de ancho.",
+ "assets": [
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/ba925d88-dfc9-4638-b1f4-27138eb1323a/HotelPomelo_LogotipoRGB_Granate.png?format=1500w",
+   "archivo": "ba925d88-HotelPomelo_LogotipoRGB_Granate.png",
+   "alt": "Image 1: Hotel Pomelo"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/c25ba3c5-baa2-4051-b487-10937cc64774/Disen%CC%83o+sin+ti%CC%81tulo+%282%29.png?format=1500w",
+   "archivo": "c25ba3c5-Disen_o_sin_ti_tulo_2_.png",
+   "alt": "Image 3"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/dcda2666-a5c8-4e3a-a638-f891b0f03a95/Disen%CC%83o+sin+ti%CC%81tulo+%282%29.png?format=1500w",
+   "archivo": "dcda2666-Disen_o_sin_ti_tulo_2_.png",
+   "alt": "Image 4"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/24e14657-17fc-4128-9f7e-3ba2ffa0a27e/tim-marshall-EEv8cy3sRO8-unsplash+%281%29.jpg?format=1500w",
+   "archivo": "24e14657-tim-marshall-EEv8cy3sRO8-unsplash_1_.jpg",
+   "alt": "Image 5: tim-marshall-EEv8cy3sRO8-unsplash (1).jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/24792c44-3583-4215-bee5-a09836a1a2c7/CHIRINGUITO_5739.jpg?format=1500w",
+   "archivo": "24792c44-CHIRINGUITO_5739.jpg",
+   "alt": "Image 6"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/62773f88-0caf-4d20-9aaf-7c5da285e055/IMG_1297.jpg?format=1500w",
+   "archivo": "62773f88-IMG_1297.jpg",
+   "alt": "Image 7: Dolce far niente"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/435833d3-6a27-4f7f-884e-07194ac1c677/DSC09800.jpg?format=1500w",
+   "archivo": "435833d3-DSC09800.jpg",
+   "alt": "Image 8"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/b14e469f-9113-49dc-9fbc-771ebb216683/629A6AB9-A374-4A1D-8094-60F80E096842.PNG?format=1500w",
+   "archivo": "b14e469f-629A6AB9-A374-4A1D-8094-60F80E096842.PNG",
+   "alt": "Image 9"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/ab6f5d20-8b40-4baa-a527-23225756051b/677BCEB0-7F62-4732-B1D7-E00C98842148.PNG?format=1500w",
+   "archivo": "ab6f5d20-677BCEB0-7F62-4732-B1D7-E00C98842148.PNG",
+   "alt": "Image 10"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/e40e2a2d-4fae-4953-9ee7-5981838f4dc4/Playa+tropical+con+cuencos+y+velas.png?format=1500w",
+   "archivo": "e40e2a2d-Playa_tropical_con_cuencos_y_velas.png",
+   "alt": "Image 11"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/28bb759c-4ea1-4563-be28-03841ea4e466/Mujeres+a+caballo+en+la+costa+volca%CC%81nica.png?format=1500w",
+   "archivo": "28bb759c-Mujeres_a_caballo_en_la_costa_volca_nica.png",
+   "alt": "Image 12"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/9029f775-eaa5-4bb2-9d88-703d97297325/B894C3F9-A9D1-4E6D-A941-A0B3B388636F.PNG?format=1500w",
+   "archivo": "9029f775-B894C3F9-A9D1-4E6D-A941-A0B3B388636F.PNG",
+   "alt": "Image 13: PicNic & Cabalgata"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/37dc3e67-575a-4de9-82e9-94211a1df1cb/Composicion_10.png?format=1500w",
+   "archivo": "37dc3e67-Composicion_10.png",
+   "alt": "Image 22"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/3fb607d6-671a-4ea5-ad8e-f62731df4294/El+Chiringuito_Logotipo-07.png?format=1500w",
+   "archivo": "3fb607d6-El_Chiringuito_Logotipo-07.png",
+   "alt": "Image 23"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/e41c490d-6628-4959-8512-07f2c7fd4f3e/472560769_17889775452169078_2121538578634734797_n.jpg?format=1500w",
+   "archivo": "e41c490d-472560769_17889775452169078_2121538578634734797_n.jpg",
+   "alt": "Image 24"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/e657576a-4c4e-4206-966a-90d0ecf84389/IMG_0210.png?format=1500w",
+   "archivo": "e657576a-IMG_0210.png",
+   "alt": "Image 25"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/dddf6e35-9f60-4f51-85bb-4b7c154b14f5/DSC09011.jpg?format=1500w",
+   "archivo": "dddf6e35-DSC09011.jpg",
+   "alt": "Image 27"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/a248a615-8a2e-4ed9-a575-100f9c898b58/PelicanoFondo_Pomelo_reflejo_AzulMarino.png?format=1500w",
+   "archivo": "a248a615-PelicanoFondo_Pomelo_reflejo_AzulMarino.png",
+   "alt": "Image 28"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648516660-S1H8MN35WAB6KV2BJG5S/Galeria_habitaciones_14.jpg?format=1500w",
+   "archivo": "18-Galeria_habitaciones_14.jpg",
+   "alt": "Image 31: Galeria_habitaciones_14.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648519410-WPXQQMJS6VZV90A97N4R/Galeria_habitaciones_15.jpg?format=1500w",
+   "archivo": "19-Galeria_habitaciones_15.jpg",
+   "alt": "Image 33: Galeria_habitaciones_15.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648495782-JVUYEI5ECZ5NR9GATQGK/Galeria_habitaciones_7.jpg?format=1500w",
+   "archivo": "20-Galeria_habitaciones_7.jpg",
+   "alt": "Image 35: Galeria_habitaciones_7.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648497199-CF8B80LFNEOW4IZZ3REG/Galeria_habitaciones_8.jpg?format=1500w",
+   "archivo": "21-Galeria_habitaciones_8.jpg",
+   "alt": "Image 37: Galeria_habitaciones_8.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648511964-M8QH7KKNINQXZEH6MEJD/Galeria_Habitaciones_13.jpg?format=1500w",
+   "archivo": "22-Galeria_Habitaciones_13.jpg",
+   "alt": "Image 39: Galeria_Habitaciones_13.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648504103-816BNNMQ50ENNTJFMUT7/Galeria_habitaciones_10.jpg?format=1500w",
+   "archivo": "23-Galeria_habitaciones_10.jpg",
+   "alt": "Image 41: Galeria_habitaciones_10.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648500238-COTPH6FLGIENWQVV7GS0/Galeria_habitaciones_9.jpg?format=1500w",
+   "archivo": "24-Galeria_habitaciones_9.jpg",
+   "alt": "Image 43: Galeria_habitaciones_9.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750281213920-94SLFJZYGFGTQXUZTKJM/Galeria_habitaciones_17.jpg?format=1500w",
+   "archivo": "25-Galeria_habitaciones_17.jpg",
+   "alt": "Image 45: Galeria_habitaciones_17.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648489708-8IDXXNVIM1457M9VRKLO/Galeria_habitaciones_5.jpg?format=1500w",
+   "archivo": "26-Galeria_habitaciones_5.jpg",
+   "alt": "Image 47: Galeria_habitaciones_5.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750281213921-NCXWHFYNYRXMUZE7XAJP/Galeria_habitaciones_4.jpg?format=1500w",
+   "archivo": "27-Galeria_habitaciones_4.jpg",
+   "alt": "Image 49: Galeria_habitaciones_4.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750281216814-5TR1OSNNAUWPRHH447Q0/Galeria_habitaciones_18.jpg?format=1500w",
+   "archivo": "28-Galeria_habitaciones_18.jpg",
+   "alt": "Image 51: Galeria_habitaciones_18.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648492342-Q4ITXDC6R872UJMRD2WH/Galeria_habitaciones_6.jpg?format=1500w",
+   "archivo": "29-Galeria_habitaciones_6.jpg",
+   "alt": "Image 53: Galeria_habitaciones_6.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750281210029-OY0K25X89I991GZMU1AE/Galeria_habitaciones_3.jpg?format=1500w",
+   "archivo": "30-Galeria_habitaciones_3.jpg",
+   "alt": "Image 55: Galeria_habitaciones_3.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750281210027-EKIVJZTVHIS5JEY84JIT/Galeria_habitaciones_2.jpg?format=1500w",
+   "archivo": "31-Galeria_habitaciones_2.jpg",
+   "alt": "Image 57: Galeria_habitaciones_2.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648506101-8ZCC86M0YRG43JHD5CYO/Galeria_habitaciones_11.jpg?format=1500w",
+   "archivo": "32-Galeria_habitaciones_11.jpg",
+   "alt": "Image 59: Galeria_habitaciones_11.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648510538-0Y6SB1Z0YRD2FTDEZO2A/Galeria_habitaciones_12.jpg?format=1500w",
+   "archivo": "33-Galeria_habitaciones_12.jpg",
+   "alt": "Image 61: Galeria_habitaciones_12.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648523079-P1APQKTM1WO5B8V5PXVX/Galeria_habitaciones_16.jpg?format=1500w",
+   "archivo": "34-Galeria_habitaciones_16.jpg",
+   "alt": "Image 63: Galeria_habitaciones_16.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748648479247-Y7VZFZ766N0AW0VPWCRI/Galeria_Habitaciones_1.jpg?format=1500w",
+   "archivo": "35-Galeria_Habitaciones_1.jpg",
+   "alt": "Image 65: Galeria_Habitaciones_1.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/2ed26f78-0394-497b-af25-e09c337978c3/Postal_Pomelo3.gif",
+   "archivo": "2ed26f78-Postal_Pomelo3.gif",
+   "alt": "Image 66"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/f540702f-82dc-4311-94c5-f55704d8714b/Fotos_newsletter_hotel3.gif",
+   "archivo": "f540702f-Fotos_newsletter_hotel3.gif",
+   "alt": "Image 67"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/78352b7a-3747-40d4-9284-a4c32f282ca6/Collage_FranAngela.png?format=1500w",
+   "archivo": "78352b7a-Collage_FranAngela.png",
+   "alt": "Image 68"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/ddcca006-9c93-4760-9cf2-3b7f4b343612/Composicion_18.png?format=1500w",
+   "archivo": "ddcca006-Composicion_18.png",
+   "alt": "Image 69"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/8eae518c-63ff-46fd-a8f8-d8b2d23bda1b/flor_1.png?format=1500w",
+   "archivo": "8eae518c-flor_1.png",
+   "alt": "Image 70"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/e6b609d4-5fad-418a-ae0f-6432c67d96f2/mathieu-chirico-sFSZuKI2CvY-unsplash+%281%29.jpg?format=1500w",
+   "archivo": "e6b609d4-mathieu-chirico-sFSZuKI2CvY-unsplash_1_.jpg",
+   "alt": "Image 71"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/e37be48b-ca22-4e48-a1cf-6f8c9656bd76/Newsletter_Pomelo_Footer.png?format=1500w",
+   "archivo": "e37be48b-Newsletter_Pomelo_Footer.png",
+   "alt": "Image 73"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/135f2d4f-71ad-4d88-a6a4-7db2529d70c8/IMG_1836.jpg?format=1500w",
+   "archivo": "135f2d4f-IMG_1836.jpg",
+   "alt": "Image 5: IMG_1836.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/4c737b05-f610-4551-8e53-62807d1e8690/IMG_1838.jpg?format=1500w",
+   "archivo": "4c737b05-IMG_1838.jpg",
+   "alt": "Image 6: IMG_1838.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/b59e5bac-3563-400f-b38f-d3f5de6873c7/IMG_1873.jpg?format=1500w",
+   "archivo": "b59e5bac-IMG_1873.jpg",
+   "alt": "Image 7: IMG_1873.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/64f1a96d-0d6b-40a2-9742-6489f32419d5/IMG_1888.jpg?format=1500w",
+   "archivo": "64f1a96d-IMG_1888.jpg",
+   "alt": "Image 8: IMG_1888.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/060904f2-208c-416a-93c1-efd739d0c837/IMG_1900.jpg?format=1500w",
+   "archivo": "060904f2-IMG_1900.jpg",
+   "alt": "Image 9: IMG_1900.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/8b7034c8-6faa-43eb-8c22-8a934a349d35/IMG_1923.jpg?format=1500w",
+   "archivo": "8b7034c8-IMG_1923.jpg",
+   "alt": "Image 10: IMG_1923.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/d655ca3a-d94d-47f1-89ed-584b94a18dbd/IMG_1936.jpg?format=1500w",
+   "archivo": "d655ca3a-IMG_1936.jpg",
+   "alt": "Image 11: IMG_1936.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/842d1297-34b7-4665-bea7-4d37a57b8dcf/IMG_1958.jpg?format=1500w",
+   "archivo": "842d1297-IMG_1958.jpg",
+   "alt": "Image 12: IMG_1958.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1ac1c3b8-8790-4b23-96c5-fcdae97ba74a/IMG_1961.jpg?format=1500w",
+   "archivo": "1ac1c3b8-IMG_1961.jpg",
+   "alt": "Image 13: IMG_1961.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/5c2aa145-137d-47a8-8764-8f162a0a1487/IMG_1291.jpg?format=1500w",
+   "archivo": "5c2aa145-IMG_1291.jpg",
+   "alt": "Image 14: IMG_1291.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647827089-X82ZYSO7RPRHP0ZQF016/Galeria_Habitaciones_13.jpg?format=1500w",
+   "archivo": "53-Galeria_Habitaciones_13.jpg",
+   "alt": "Image 16: Galeria_Habitaciones_13.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647831087-RAPEEUZHTAXGDPYV61SQ/Galeria_habitaciones_15.jpg?format=1500w",
+   "archivo": "54-Galeria_habitaciones_15.jpg",
+   "alt": "Image 18: Galeria_habitaciones_15.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647818005-JF6QQP9EDWW20SZ49MXQ/Galeria_habitaciones_7.jpg?format=1500w",
+   "archivo": "55-Galeria_habitaciones_7.jpg",
+   "alt": "Image 20: Galeria_habitaciones_7.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647818727-I3NTZUIRKFZZEXZM5DVA/Galeria_habitaciones_8.jpg?format=1500w",
+   "archivo": "56-Galeria_habitaciones_8.jpg",
+   "alt": "Image 22: Galeria_habitaciones_8.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647820486-N5W3XDCVEVU17TS132I7/Galeria_habitaciones_9.jpg?format=1500w",
+   "archivo": "57-Galeria_habitaciones_9.jpg",
+   "alt": "Image 24: Galeria_habitaciones_9.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647814378-ZLBK1VOCOYHTEHH3PL5I/Galeria_habitaciones_5.jpg?format=1500w",
+   "archivo": "58-Galeria_habitaciones_5.jpg",
+   "alt": "Image 26: Galeria_habitaciones_5.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750268222951-BN2LU2ETTFIRNM1ES2BB/Galeria_habitaciones_4.jpg?format=1500w",
+   "archivo": "59-Galeria_habitaciones_4.jpg",
+   "alt": "Image 28: Galeria_habitaciones_4.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750268222949-2B08HYD9QQJQ8D3CY46I/Galeria_habitaciones_17.jpg?format=1500w",
+   "archivo": "60-Galeria_habitaciones_17.jpg",
+   "alt": "Image 30: Galeria_habitaciones_17.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647822609-PWY5036PBN2FNYAJX5BN/Galeria_habitaciones_10.jpg?format=1500w",
+   "archivo": "61-Galeria_habitaciones_10.jpg",
+   "alt": "Image 32: Galeria_habitaciones_10.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750268226407-P5ULTYC32QX3MOD619YF/Galeria_habitaciones_18.jpg?format=1500w",
+   "archivo": "62-Galeria_habitaciones_18.jpg",
+   "alt": "Image 34: Galeria_habitaciones_18.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750268321073-IQLYWJAOAP9KKR5A7W8M/Galeria_habitaciones_6.jpg?format=1500w",
+   "archivo": "63-Galeria_habitaciones_6.jpg",
+   "alt": "Image 36: Galeria_habitaciones_6.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750268217288-Y8EEYR24GYWDT2179SLB/Galeria_habitaciones_3.jpg?format=1500w",
+   "archivo": "64-Galeria_habitaciones_3.jpg",
+   "alt": "Image 38: Galeria_habitaciones_3.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1750268217277-GC3XY62SNNN9Y6W51HTC/Galeria_habitaciones_2.jpg?format=1500w",
+   "archivo": "65-Galeria_habitaciones_2.jpg",
+   "alt": "Image 40: Galeria_habitaciones_2.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647829340-FOGSQM1YFBNMNMA4B39R/Galeria_habitaciones_14.jpg?format=1500w",
+   "archivo": "66-Galeria_habitaciones_14.jpg",
+   "alt": "Image 42: Galeria_habitaciones_14.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647823893-44KMZC3MNVSOJ3ESFFF8/Galeria_habitaciones_11.jpg?format=1500w",
+   "archivo": "67-Galeria_habitaciones_11.jpg",
+   "alt": "Image 44: Galeria_habitaciones_11.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647832973-84FUMK6RLWC805JCFBD7/Galeria_habitaciones_16.jpg?format=1500w",
+   "archivo": "68-Galeria_habitaciones_16.jpg",
+   "alt": "Image 46: Galeria_habitaciones_16.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647826055-I1U1YUUTLEPGEW2T1B5J/Galeria_habitaciones_12.jpg?format=1500w",
+   "archivo": "69-Galeria_habitaciones_12.jpg",
+   "alt": "Image 48: Galeria_habitaciones_12.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1748647807875-XK9J84CDCYVF8D5MQIF7/Galeria_Habitaciones_1.jpg?format=1500w",
+   "archivo": "70-Galeria_Habitaciones_1.jpg",
+   "alt": "Image 50: Galeria_Habitaciones_1.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/4d0e148f-f7c7-4c89-9e81-5550d1ec4e06/IMG_4735.jpg?format=1500w",
+   "archivo": "4d0e148f-IMG_4735.jpg",
+   "alt": "Image 71"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/de9b5c45-157d-41fe-9ef0-83ce62b140d7/hab8.jpg?format=1500w",
+   "archivo": "de9b5c45-hab8.jpg",
+   "alt": "Image 73"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/f8bc1771-165d-4bc2-84fe-38a6c15f8aaf/MonoFondo_Pomelo_Rosa.png?format=1500w",
+   "archivo": "f8bc1771-MonoFondo_Pomelo_Rosa.png",
+   "alt": "Image 74"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/4fd9c037-d022-40c8-9f57-00575f3d11fa/IMG_2050.jpg?format=1500w",
+   "archivo": "4fd9c037-IMG_2050.jpg",
+   "alt": "Image 75"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/fc99e909-414c-4fb1-96d3-5737b7bcd544/IguanaFondo_Pomelo_Naranja.png?format=1500w",
+   "archivo": "fc99e909-IguanaFondo_Pomelo_Naranja.png",
+   "alt": "Image 76"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/2901de54-d83e-439e-939e-a4ff8b26612f/flor3.png?format=1500w",
+   "archivo": "2901de54-flor3.png",
+   "alt": "Image 77"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/84fa7d17-d993-43d2-8ffe-f67d08db7d10/IMG_6335.jpg?format=1500w",
+   "archivo": "84fa7d17-IMG_6335.jpg",
+   "alt": "Image 78"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/188e0cda-203a-4d35-81c8-958a10d90eb9/OstraFondo_Pomelo_AzulMarino.png?format=1500w",
+   "archivo": "188e0cda-OstraFondo_Pomelo_AzulMarino.png",
+   "alt": "Image 79: Descripción"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/bf493d29-cd93-464c-a204-0150e0d7358f/IMG_4097.jpg?format=1500w",
+   "archivo": "bf493d29-IMG_4097.jpg",
+   "alt": "Image 3: IMG_4097.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/a6630453-cf7c-473a-b03a-e0679ad28597/IMG_3855.jpg?format=1500w",
+   "archivo": "a6630453-IMG_3855.jpg",
+   "alt": "Image 4: IMG_3855.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/8131046e-2d67-4ac7-a713-ef63a0cc014e/N_26L-108.jpg?format=1500w",
+   "archivo": "8131046e-N_26L-108.jpg",
+   "alt": "Image 5: N_26L-108.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/65d9626c-c357-443d-a150-06e4cf05e1c0/N_26L-208.jpg?format=1500w",
+   "archivo": "65d9626c-N_26L-208.jpg",
+   "alt": "Image 6: N_26L-208.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/d654a928-00fa-4488-b296-b22dfa8f862d/N_26L-10.jpg?format=1500w",
+   "archivo": "d654a928-N_26L-10.jpg",
+   "alt": "Image 7: N_26L-10.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/e18451dc-2e87-43b8-a0ba-df472a83de77/Composicion_01.png?format=1500w",
+   "archivo": "e18451dc-Composicion_01.png",
+   "alt": "Image 9"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1d2e2a4a-c769-465b-a6f8-81b77cadbaff/HABITACION_1393.jpg?format=1500w",
+   "archivo": "1d2e2a4a-HABITACION_1393.jpg",
+   "alt": "Image 5: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/6280cfe8-4ebd-4312-9aee-6514a2ab2d36/Copia+de+HABITACION_1676.jpg?format=1500w",
+   "archivo": "6280cfe8-Copia_de_HABITACION_1676.jpg",
+   "alt": "Image 6: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/118cc039-4b5e-4feb-84c0-cef9daf28dd1/HABITACION_1366.jpg?format=1500w",
+   "archivo": "118cc039-HABITACION_1366.jpg",
+   "alt": "Image 7: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/7f5f1374-dab9-4733-a957-5e9198d0c317/HABITACION_1565.jpg?format=1500w",
+   "archivo": "7f5f1374-HABITACION_1565.jpg",
+   "alt": "Image 8: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/4e5b277f-47f1-44e5-a8a0-1df8a852255b/HABITACION_1604.jpg?format=1500w",
+   "archivo": "4e5b277f-HABITACION_1604.jpg",
+   "alt": "Image 9: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/b0ba43ad-2e66-4a8f-8650-e3a4f32ce28d/HABITACION_1078.jpg?format=1500w",
+   "archivo": "b0ba43ad-HABITACION_1078.jpg",
+   "alt": "Image 10: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/d5e364cb-c81a-415b-a11d-142baede1188/HABITACION_1414.jpg?format=1500w",
+   "archivo": "d5e364cb-HABITACION_1414.jpg",
+   "alt": "Image 11: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/52937a10-3e41-42e1-9127-418fe8df9c68/HABITACION_1031.jpg?format=1500w",
+   "archivo": "52937a10-HABITACION_1031.jpg",
+   "alt": "Image 12: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/282a3abe-1d04-4cd8-b2b1-98d7ead1f4d8/HABITACION_1100.jpg?format=1500w",
+   "archivo": "282a3abe-HABITACION_1100.jpg",
+   "alt": "Image 13: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/29e7973e-edde-4c63-9a15-93f1792002f0/HABITACION_1472-2.jpg?format=1500w",
+   "archivo": "29e7973e-HABITACION_1472-2.jpg",
+   "alt": "Image 14: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/8c945885-0a2e-4932-ac2f-6af967ed7ce9/HABITACION_1447.jpg?format=1500w",
+   "archivo": "8c945885-HABITACION_1447.jpg",
+   "alt": "Image 15: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/75e8d4e2-3a9e-45c6-9942-48fcfb3a9e90/HABITACION_1416.jpg?format=1500w",
+   "archivo": "75e8d4e2-HABITACION_1416.jpg",
+   "alt": "Image 16: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/9149394a-9480-4363-9fe4-6f318ce2f823/HABITACION_1390.jpg?format=1500w",
+   "archivo": "9149394a-HABITACION_1390.jpg",
+   "alt": "Image 17: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/12a93ac4-1b30-43d1-a70c-16aec7e3c921/HABITACION_1708.jpg?format=1500w",
+   "archivo": "12a93ac4-HABITACION_1708.jpg",
+   "alt": "Image 18: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/7b9384aa-d549-4fdc-8f88-747f9d2a4a6e/HABITACION_1633-2.jpg?format=1500w",
+   "archivo": "7b9384aa-HABITACION_1633-2.jpg",
+   "alt": "Image 19: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/3d939748-6fc4-464a-a27c-4969395c13fd/HABITACION_1679.jpg?format=1500w",
+   "archivo": "3d939748-HABITACION_1679.jpg",
+   "alt": "Image 20: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/a2d71c38-b105-48f5-a01b-afcc7b8fbd5c/HABITACION_1716.jpg?format=1500w",
+   "archivo": "a2d71c38-HABITACION_1716.jpg",
+   "alt": "Image 21: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/2a4c4211-1728-4d8c-ba67-27c12a31cdde/HABITACION_1732.jpg?format=1500w",
+   "archivo": "2a4c4211-HABITACION_1732.jpg",
+   "alt": "Image 22: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1dcaca59-5933-4f0c-9c22-659b812ab502/HABITACION_1741.jpg?format=1500w",
+   "archivo": "1dcaca59-HABITACION_1741.jpg",
+   "alt": "Image 23: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/3589c2f3-5d6b-418b-96b8-ac7a06812259/HABITACION_1766.jpg?format=1500w",
+   "archivo": "3589c2f3-HABITACION_1766.jpg",
+   "alt": "Image 24: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/fb8d86a2-a415-4555-9803-829bc13134f8/HABITACION_1772.jpg?format=1500w",
+   "archivo": "fb8d86a2-HABITACION_1772.jpg",
+   "alt": "Image 25: Habitación / Room"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/516e8148-f3e0-474c-b3f7-bde6b777b21a/PERGOLA_1838.jpg?format=1500w",
+   "archivo": "516e8148-PERGOLA_1838.jpg",
+   "alt": "Image 26: Veranda"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1afb6f6c-d0c6-4cb7-9511-d871b4e0da95/PERGOLA_1836.jpg?format=1500w",
+   "archivo": "1afb6f6c-PERGOLA_1836.jpg",
+   "alt": "Image 27: Veranda"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/36785872-6a6d-489d-80e3-69b754ca08f3/PERGOLA_1291.jpg?format=1500w",
+   "archivo": "36785872-PERGOLA_1291.jpg",
+   "alt": "Image 28: Veranda"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/768884b5-5e42-43d8-aa9b-16ef9b3df651/PERGOLA_1958.jpg?format=1500w",
+   "archivo": "768884b5-PERGOLA_1958.jpg",
+   "alt": "Image 29: Veranda"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/7cd29f27-503b-4e9e-acad-4e22212f6f47/PERGOLA_1873.jpg?format=1500w",
+   "archivo": "7cd29f27-PERGOLA_1873.jpg",
+   "alt": "Image 30: Veranda"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/c41ebdd4-767c-41df-aa78-167144837014/PERGOLA_1888.jpg?format=1500w",
+   "archivo": "c41ebdd4-PERGOLA_1888.jpg",
+   "alt": "Image 31: Veranda"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/9e4fe582-4d4b-4759-bf40-bcf7097548ec/PERGOLA_1900.jpg?format=1500w",
+   "archivo": "9e4fe582-PERGOLA_1900.jpg",
+   "alt": "Image 32: Veranda"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/c628b83d-c2a1-48c3-a08e-d72711f578dd/PERGOLA_1923.jpg?format=1500w",
+   "archivo": "c628b83d-PERGOLA_1923.jpg",
+   "alt": "Image 33: Veranda"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/9fd352af-27d2-4794-82fb-fa12523a4b65/PERGOLA_1936.jpg?format=1500w",
+   "archivo": "9fd352af-PERGOLA_1936.jpg",
+   "alt": "Image 34: Veranda"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/90898e1e-8e27-4add-b69d-dddcdc314f3a/PERGOLA_1961.jpg?format=1500w",
+   "archivo": "90898e1e-PERGOLA_1961.jpg",
+   "alt": "Image 35: Veranda"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/a6e1ce03-01e8-47a2-bbd5-56f9746759d3/PISCINA+%26+JARDIN_2054.jpg?format=1500w",
+   "archivo": "a6e1ce03-PISCINA_JARDIN_2054.jpg",
+   "alt": "Image 36: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/a44d7184-187f-4f16-8591-c6ae30e8ddd8/PISCINA+%26+JARDIN_2080.jpg?format=1500w",
+   "archivo": "a44d7184-PISCINA_JARDIN_2080.jpg",
+   "alt": "Image 37: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/c363eed5-0001-4719-abac-2cab9d999fb9/PISCINA+%26+JARDIN_1988.jpg?format=1500w",
+   "archivo": "c363eed5-PISCINA_JARDIN_1988.jpg",
+   "alt": "Image 38: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/215c09b9-d8e1-4995-aafb-1dd984e1e11d/PISCINA+%26+JARDIN_1990.jpg?format=1500w",
+   "archivo": "215c09b9-PISCINA_JARDIN_1990.jpg",
+   "alt": "Image 39: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/96bdb456-ab58-4dfa-9fb3-1cb5f8f837e3/PISCINA+%26+JARDIN_1297.jpg?format=1500w",
+   "archivo": "96bdb456-PISCINA_JARDIN_1297.jpg",
+   "alt": "Image 40: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/def76225-5100-4546-9426-a507bce60b8c/PISCINA+%26+JARDIN_1321.jpg?format=1500w",
+   "archivo": "def76225-PISCINA_JARDIN_1321.jpg",
+   "alt": "Image 41: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/f20cd858-f2b4-4036-933d-92ac4402b8be/PISCINA+%26+JARDIN_1304.jpg?format=1500w",
+   "archivo": "f20cd858-PISCINA_JARDIN_1304.jpg",
+   "alt": "Image 42: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/870a0c50-a93d-4184-892b-835cbc5a3854/PISCINA+%26+JARDIN_1323.jpg?format=1500w",
+   "archivo": "870a0c50-PISCINA_JARDIN_1323.jpg",
+   "alt": "Image 43: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/9b50abc8-71b8-4b81-9aba-589fb297de23/PISCINA+%26+JARDIN_1332.jpg?format=1500w",
+   "archivo": "9b50abc8-PISCINA_JARDIN_1332.jpg",
+   "alt": "Image 44: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/95be1d6e-9bf8-4529-b440-85767900783f/PISCINA+%26+JARDIN_1825.jpg?format=1500w",
+   "archivo": "95be1d6e-PISCINA_JARDIN_1825.jpg",
+   "alt": "Image 45: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/1986d580-04ab-4318-871f-fae4c4752cf8/PISCINA+%26+JARDIN_1841.jpg?format=1500w",
+   "archivo": "1986d580-PISCINA_JARDIN_1841.jpg",
+   "alt": "Image 46: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/37f7bb16-1d85-4dbc-8612-ad9afbcf102b/PISCINA+%26+JARDIN_1279.jpg?format=1500w",
+   "archivo": "37f7bb16-PISCINA_JARDIN_1279.jpg",
+   "alt": "Image 47: Piscina & Jardín / Pool & Garden"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/a3a5fe8d-3a1d-4ca3-94f9-d1847803d10f/CHIRINGUITO_4758.jpg?format=1500w",
+   "archivo": "a3a5fe8d-CHIRINGUITO_4758.jpg",
+   "alt": "Image 48: CHIRINGUITO_4758.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/797dddba-584c-4d32-8859-0575abb70096/C.F+%2825+de+25%29.jpg?format=1500w",
+   "archivo": "797dddba-C.F_25_de_25_.jpg",
+   "alt": "Image 49: C.F (25 de 25).jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/75579e59-b0fd-4719-a7ba-4c98d1a6dfb3/CHIRINGUITO_5730.jpg?format=1500w",
+   "archivo": "75579e59-CHIRINGUITO_5730.jpg",
+   "alt": "Image 50: CHIRINGUITO_5730.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/8d43e4b8-0776-444c-8052-787c00607846/CHIRINGUITO_5661.jpg?format=1500w",
+   "archivo": "8d43e4b8-CHIRINGUITO_5661.jpg",
+   "alt": "Image 51: CHIRINGUITO_5661.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/996894b4-ff63-458c-8885-325b1368d6da/CHIRINGUITO_5757.jpg?format=1500w",
+   "archivo": "996894b4-CHIRINGUITO_5757.jpg",
+   "alt": "Image 52: CHIRINGUITO_5757.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/ad3d4650-b894-4207-adda-11a65c77d248/CHIRINGUITO_5760.jpg?format=1500w",
+   "archivo": "ad3d4650-CHIRINGUITO_5760.jpg",
+   "alt": "Image 53: CHIRINGUITO_5760.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/4c8fa296-e427-4f2f-9a61-70d0afee1269/CHIRINGUITO_5745.jpg?format=1500w",
+   "archivo": "4c8fa296-CHIRINGUITO_5745.jpg",
+   "alt": "Image 55: CHIRINGUITO_5745.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/884a604d-1371-48cf-9fa9-8c188cea2e79/CF.Ene+%2821%29.jpg?format=1500w",
+   "archivo": "884a604d-CF.Ene_21_.jpg",
+   "alt": "Image 56: CF.Ene (21).jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/adc33dd2-fb4b-4433-ba71-c22e97331989/PhotoRed+%287%29.jpg?format=1500w",
+   "archivo": "adc33dd2-PhotoRed_7_.jpg",
+   "alt": "Image 57: PhotoRed (7).jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/b4ab928b-a791-491e-8bc6-4ce771f636b1/CHIRINGUITO_4845.jpg?format=1500w",
+   "archivo": "b4ab928b-CHIRINGUITO_4845.jpg",
+   "alt": "Image 58: CHIRINGUITO_4845.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/4853fc29-0132-47d6-95f9-137e1678280a/CHIRINGUITO_5267.jpg?format=1500w",
+   "archivo": "4853fc29-CHIRINGUITO_5267.jpg",
+   "alt": "Image 59: CHIRINGUITO_5267.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/2fca27ac-3dd9-4a0e-9998-9f95cb1039c7/CHIRINGUITO_5613.jpg?format=1500w",
+   "archivo": "2fca27ac-CHIRINGUITO_5613.jpg",
+   "alt": "Image 60: CHIRINGUITO_5613.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/4f29b6d4-9721-43c7-89bc-b8bd9ec028b7/CHIRINGUITO_5549.jpg?format=1500w",
+   "archivo": "4f29b6d4-CHIRINGUITO_5549.jpg",
+   "alt": "Image 61: CHIRINGUITO_5549.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/6ad7f722-b9c5-4142-8fed-55f3e380d5c2/CHIRINGUITO_6335.jpg?format=1500w",
+   "archivo": "6ad7f722-CHIRINGUITO_6335.jpg",
+   "alt": "Image 62: CHIRINGUITO_6335.jpg"
+  },
+  {
+   "url": "https://images.squarespace-cdn.com/content/v1/67d47bf722481f7edae5d9d8/5a099dd3-9793-468e-bb5f-2077699e4912/CHIRINGUITO_6345.jpg?format=1500w",
+   "archivo": "5a099dd3-CHIRINGUITO_6345.jpg",
+   "alt": "Image 63: CHIRINGUITO_6345.jpg"
+  }
+ ]
+}

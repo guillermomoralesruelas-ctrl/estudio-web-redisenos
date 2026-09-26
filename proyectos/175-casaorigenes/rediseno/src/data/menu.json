@@ -1,0 +1,517 @@
+[
+ {
+  "categoria": "Huevos",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "A la Mexicana",
+    "desc": "Ejotes, queso panela, frijoles, tortillas.",
+    "precio": "$115"
+   },
+   {
+    "nombre": "Con Jamón y Arepas",
+    "desc": "Arepas de mantequilla, aguacate y queso panela.",
+    "precio": "$145"
+   },
+   {
+    "nombre": "Revuelto con espárragos",
+    "desc": "Pan de masa madre y aguacate.",
+    "precio": "$155"
+   },
+   {
+    "nombre": "Huevos poché con espárragos y salsa holandesa",
+    "desc": "Espárragos asados, queso parmesano, salsa, salmón, cilantro y pan de masa madre.",
+    "precio": "$199"
+   },
+   {
+    "nombre": "Con chorizo huasteco",
+    "desc": "Con chorizo, frijoles, queso.",
+    "precio": "$125"
+   },
+   {
+    "nombre": "Benedictos",
+    "desc": "Muffin inglés, salsa bearnesa, tocino y aguacate. Extra de salmón: $30.",
+    "precio": "$185"
+   },
+   {
+    "nombre": "Omelette",
+    "desc": "Queso mozarella, jamón, espinaca, pan de masa madre y aguacate.",
+    "precio": "$155"
+   }
+  ]
+ },
+ {
+  "categoria": "Toast",
+  "nota": "Todos nuestros toast son de masa madre",
+  "items": [
+   {
+    "nombre": "De Salmón Ahumado",
+    "desc": "Salmón ahumado, aguacate y un mix de lechugas.",
+    "precio": "$190"
+   },
+   {
+    "nombre": "De Serrano",
+    "desc": "Mix de lechugas, fresa, arándano, jamón serrano, almendras tostadas y dip de queso azul.",
+    "precio": "$190"
+   },
+   {
+    "nombre": "Avocado Supremo",
+    "desc": "Hummus de aguacate, aguacate y arúgula.",
+    "precio": "$150"
+   },
+   {
+    "nombre": "De Durazno y Prosciutto",
+    "desc": "Dip de limoncello y ricota.",
+    "precio": "$185"
+   },
+   {
+    "nombre": "Scrambled",
+    "desc": "Queso crema, hummus de aguacate, huevo revuelto y germen de alfalfa.",
+    "precio": "$155"
+   }
+  ]
+ },
+ {
+  "categoria": "Sándwiches",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Sándwich de Vale",
+    "desc": "Pan brioche, lechuga, manzana, pepino, aguacate, queso panela, germen alfalfa, alioli.",
+    "precio": "$175"
+   },
+   {
+    "nombre": "Sándwich de jamón",
+    "desc": "Jamón de pavo, pan brioche, lechuga, jitomate, aguacate, queso panela, tortilla de huevo y aderezo de habanero.",
+    "precio": "$165"
+   },
+   {
+    "nombre": "Croissant Danés",
+    "desc": "Dip ricotta, tocino y huevo estrellado.",
+    "precio": "$180"
+   },
+   {
+    "nombre": "Sándwich waffleado de bono",
+    "desc": "Costra de pan de bono con relleno de jamón, queso crema, huevo estrellado con lonchas de tocino.",
+    "precio": "$199"
+   }
+  ]
+ },
+ {
+  "categoria": "Frutales",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Bowl de fruta, granola y yogurt",
+    "desc": "Yogurt, fruta de temporada.",
+    "precio": "$120"
+   },
+   {
+    "nombre": "Pancakes Isa",
+    "desc": "Esponjosos, con mantequilla y miel maple.",
+    "precio": "$160"
+   },
+   {
+    "nombre": "Waffles Healthy",
+    "desc": "Harina de almendra, plátano, arándonos y miel maple.",
+    "precio": "$185"
+   },
+   {
+    "nombre": "Waffles Regulares",
+    "desc": "Frutos rojos y helado.",
+    "precio": "$155"
+   },
+   {
+    "nombre": "Pan Francés Rojo",
+    "desc": "De frutos rojos y helado.",
+    "precio": "$165"
+   },
+   {
+    "nombre": "Pan Francés Manzana",
+    "desc": "Manzana y canela c/almendras, caramelo de café.",
+    "precio": "$159"
+   },
+   {
+    "nombre": "Avena Caliente",
+    "desc": "Leche de almendras, miel, plátano, fresa, coco rallado y nuez.",
+    "precio": "$125"
+   },
+   {
+    "nombre": "Pudding Chía",
+    "desc": "Chía remojada en leche de coco, yogurt griego, manzana verde, almendra, y coco. (Con mermelada de fresa o mango).",
+    "precio": "$145"
+   }
+  ]
+ },
+ {
+  "categoria": "Crujientes",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Chilaquiles Verdes o Rojos",
+    "desc": "Totopos de maíz, salsa verde, queso y aguacate. Proteína a elegir: Huevo, Pollo, Chorizo",
+    "precio": "$165"
+   },
+   {
+    "nombre": "Enchiladas Rojas",
+    "desc": "Pollo, queso, arrachera y aguacate (3 pzas).",
+    "precio": "$199"
+   },
+   {
+    "nombre": "Enchiladas Suizas Verdes",
+    "desc": "Salsa verde, con pollo, queso mozzarella (3 pzas).",
+    "precio": "$190"
+   },
+   {
+    "nombre": "Tostadas Motuleñas",
+    "desc": "Tostadas, frijoles, salsa de molcajete, huevo estrellado, jamón.",
+    "precio": "$175"
+   },
+   {
+    "nombre": "Trilogía de Picaditas",
+    "desc": "Picadas salsa roja, verde y frijol c/huevo estrellado. (A elegir: Pollo, Chorizo o chicharrón de arrachera).",
+    "precio": "$160"
+   },
+   {
+    "nombre": "Flautas de pollo",
+    "desc": "Rellenas de pollo, queso, crema, aguacate y lechuga. (4 pzas).",
+    "precio": "$169"
+   }
+  ]
+ },
+ {
+  "categoria": "Burritos",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Burritos de Chorizo",
+    "desc": "Crema, queso, frijoles, chorizo, tortilla de harina, pico de gallo, chips de papa crujientes.",
+    "precio": "$160"
+   },
+   {
+    "nombre": "Burritos de Pollo",
+    "desc": "Pollo al cilantro, frijoles, queso mozarella, mayonesa chipotle, ranch y ensalada.",
+    "precio": "$155"
+   }
+  ]
+ },
+ {
+  "categoria": "Ensaladas",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Ensalada Primavera",
+    "desc": "Lechugas kale, zanahoria en espaghetti, naranja, almendras tostadas y vinagreta Juliana.",
+    "precio": "$150"
+   },
+   {
+    "nombre": "Ensalada Caesar",
+    "desc": "Crutones, tocino, queso parmesano y fajitas de pollo.",
+    "precio": "$189"
+   }
+  ]
+ },
+ {
+  "categoria": "Café Frío",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Café Frappe",
+    "desc": "",
+    "precio": "$85"
+   },
+   {
+    "nombre": "Cappuchino helado",
+    "desc": "",
+    "precio": "$95"
+   },
+   {
+    "nombre": "Malteada Vainilla",
+    "desc": "",
+    "precio": "$90"
+   },
+   {
+    "nombre": "Malteada Chocolate",
+    "desc": "",
+    "precio": "$95"
+   },
+   {
+    "nombre": "Taro Ice",
+    "desc": "",
+    "precio": "$90"
+   }
+  ]
+ },
+ {
+  "categoria": "Café Caliente",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Espresso",
+    "desc": "",
+    "precio": "$55"
+   },
+   {
+    "nombre": "Americano",
+    "desc": "",
+    "precio": "$55"
+   },
+   {
+    "nombre": "Cappuchino",
+    "desc": "",
+    "precio": "$65"
+   },
+   {
+    "nombre": "Latte",
+    "desc": "",
+    "precio": "$75"
+   },
+   {
+    "nombre": "Cortado",
+    "desc": "",
+    "precio": "$55"
+   },
+   {
+    "nombre": "Mocha",
+    "desc": "",
+    "precio": "$85"
+   },
+   {
+    "nombre": "Chocolate",
+    "desc": "",
+    "precio": "$75"
+   },
+   {
+    "nombre": "Chai Latte",
+    "desc": "",
+    "precio": "$85"
+   },
+   {
+    "nombre": "Matcha Latte",
+    "desc": "",
+    "precio": "$80"
+   },
+   {
+    "nombre": "Caramel Latte",
+    "desc": "",
+    "precio": "$85"
+   },
+   {
+    "nombre": "Taro Hot",
+    "desc": "",
+    "precio": "$85"
+   },
+   {
+    "nombre": "Flat White",
+    "desc": "",
+    "precio": "$65"
+   },
+   {
+    "nombre": "Long black",
+    "desc": "",
+    "precio": "$65"
+   },
+   {
+    "nombre": "Variedad de \"té\"",
+    "desc": "Extras: Leche de Almendra/Leche de Avena $25. Extra espresso: $35.00",
+    "precio": "$40"
+   }
+  ]
+ },
+ {
+  "categoria": "Media Tarde",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Kebabs de res",
+    "desc": "Acompañados de pan pita, humus, salsa de yogurt, cous cous. (200 grs).",
+    "precio": "$245"
+   },
+   {
+    "nombre": "Smash Chicken Burger",
+    "desc": "Pan brioche con pollo crujiente y col coleslaw (190 grs.).",
+    "precio": "$185"
+   },
+   {
+    "nombre": "Hamburguesa",
+    "desc": "Arrachera o carne molida de res, queso amarillo, lechuga, tomate y pepinillo. (150 grs).",
+    "precio": "$195"
+   },
+   {
+    "nombre": "Salmón Bowl",
+    "desc": "Arroz, salmón ahumado, aguacate, espárrago, cebolla morada, germen alfalfa, ensalada (180 grs).",
+    "precio": "$230"
+   },
+   {
+    "nombre": "Tacos Arrachera",
+    "desc": "2 tacos de arrachera, pico de gallo, guacamole, papa horneada con queso (200 grs).",
+    "precio": "$250"
+   },
+   {
+    "nombre": "Tacos estilo Ensenada",
+    "desc": "De camarones en tempura o pesca del día, aderezo de col, pico de gallo (250 grs).",
+    "precio": "$225"
+   }
+  ]
+ },
+ {
+  "categoria": "Shots",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Jengibre",
+    "desc": "Jengibre y jugo de limón y naranja.",
+    "precio": "$55"
+   },
+   {
+    "nombre": "Popeye",
+    "desc": "Espinaca, fresa, jugo de naranja.",
+    "precio": "$55"
+   },
+   {
+    "nombre": "Zanahoria",
+    "desc": "Zanahoria, limón amarillo, jengibre, cúrcuma y jugo de naranja.",
+    "precio": "$50"
+   }
+  ]
+ },
+ {
+  "categoria": "Panadería y Repostería",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Pan de bono",
+    "desc": "Pieza $20, tres piezas $75.",
+    "precio": "$20"
+   },
+   {
+    "nombre": "Arepas",
+    "desc": "Pieza $23, tres piezas $80.",
+    "precio": "$23"
+   },
+   {
+    "nombre": "Croissant",
+    "desc": "",
+    "precio": "$65"
+   },
+   {
+    "nombre": "Rol de Canela",
+    "desc": "",
+    "precio": "$75"
+   },
+   {
+    "nombre": "Galletas NY Chocolate",
+    "desc": "",
+    "precio": "$50"
+   },
+   {
+    "nombre": "Galletas chocolate y nutella",
+    "desc": "",
+    "precio": "$85"
+   },
+   {
+    "nombre": "Galletas Red Velvet",
+    "desc": "",
+    "precio": "$65"
+   },
+   {
+    "nombre": "Galletas Lotus",
+    "desc": "",
+    "precio": "$70"
+   },
+   {
+    "nombre": "Concha de vainilla",
+    "desc": "",
+    "precio": "$25"
+   }
+  ]
+ },
+ {
+  "categoria": "Bebidas",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Coke",
+    "desc": "",
+    "precio": "$40"
+   },
+   {
+    "nombre": "Agua del Día",
+    "desc": "",
+    "precio": "$55"
+   },
+   {
+    "nombre": "Agua Embotellada kirkland",
+    "desc": "",
+    "precio": "$25"
+   },
+   {
+    "nombre": "Agua Mineral San Peregrino",
+    "desc": "",
+    "precio": "$65"
+   },
+   {
+    "nombre": "Agua mineral Topo Chico",
+    "desc": "",
+    "precio": "$60"
+   },
+   {
+    "nombre": "Naranjada natural",
+    "desc": "",
+    "precio": "$60"
+   },
+   {
+    "nombre": "Naranjada mineral",
+    "desc": "Extra agua marina (limón, sal): $20.00",
+    "precio": "$75"
+   }
+  ]
+ },
+ {
+  "categoria": "Smoothies",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Smoothie Banana Crema Cacahuate",
+    "desc": "Plátano, granola, leche de almendra.",
+    "precio": "$95"
+   },
+   {
+    "nombre": "Smoothie Frutos Rojos",
+    "desc": "Mix de frutos rojos, yogurt griego, leche de almendra.",
+    "precio": "$100"
+   },
+   {
+    "nombre": "Smoothie Mango",
+    "desc": "Mango, granola yogurt griego, leche de coco y granola.",
+    "precio": "$95"
+   }
+  ]
+ },
+ {
+  "categoria": "Jugos",
+  "nota": "",
+  "items": [
+   {
+    "nombre": "Jugo Verde",
+    "desc": "",
+    "precio": "$70"
+   },
+   {
+    "nombre": "Jugo de Remolacha",
+    "desc": "",
+    "precio": "$70"
+   },
+   {
+    "nombre": "Jugo de Zanahoria",
+    "desc": "",
+    "precio": "$60"
+   },
+   {
+    "nombre": "Jugo de Naranja",
+    "desc": "Extras de jugo: $35.00 [](https://casaorigenes.com.mx/) Cocina con raíces que celebra los sabores auténticos. Un espacio donde la tradición y la elegancia se en",
+    "precio": "$60"
+   }
+  ]
+ }
+]
