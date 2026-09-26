@@ -277,6 +277,8 @@ function Historia() {
 
 // ---------- Menú ----------
 
+// En el menú original, "(3)" junto a un platillo indica cuántas piezas trae la orden.
+const notaVisible = (n: string) => (/^\(\d+\)$/.test(n) ? `Orden de ${n.slice(1, -1)} ${n === "(1)" ? "pieza" : "piezas"}` : n);
 type Platillo = { nombre: string; nota?: string; precio: string; foto?: string };
 
 function Menu() {
@@ -316,7 +318,7 @@ function Menu() {
                         <span className="puntos" aria-hidden="true" />
                         <span className="precio shrink-0 text-right font-bold text-carbon">{pl.precio}</span>
                       </div>
-                      {pl.nota && <p className="text-sm">{pl.nota}</p>}
+                      {pl.nota && <p className="text-sm">{notaVisible(pl.nota)}</p>}
                     </div>
                   </li>
                 ))}

@@ -35,6 +35,7 @@ Mismo restaurante, mismos textos, precios, fotos, opiniones y datos de contacto;
 ## Qué se cambió (mismo contenido, otra forma)
 
 - Inicio, /historia, /menus, /gallery y /contact se juntaron en **una sola página**.
+- En el menú, las notas sueltas del original como "(3)" se muestran como "Orden de 3 piezas" (interpretación nuestra; ver pendientes).
 - El menú de /menus, en columnas y con encabezados sueltos, pasa a **7 pestañas** con precios en línea punteada: "Los sabrosos" (los platillos con foto del inicio del sitio, secciones "Para empezar" y "De la casa"), "Aguachiles y cócteles" ("para empezar" y "cócteles y ensaladas" de /menus), "Ostiones y tostadas", "Pulpos y camarones" ("Pulpos" y "Camarones y filetes"), "Los incomparables", "Zarandeados" e "Infantil". Dentro de cada pestaña se conservan los títulos de sección del sitio.
 - Los platillos del inicio ("los saborosos") dejan las filas de tarjetas con foto grande y van en la pestaña "Los sabrosos" como carta con miniatura.
 - Los zarandeados del inicio (tres tarjetas con foto y precio) pasan a la báscula (ver abajo).
@@ -81,6 +82,8 @@ Mismo restaurante, mismos textos, precios, fotos, opiniones y datos de contacto;
 - Contacto: Av. Niño Obrero 560, Fraccionamiento Camino Real, CP 45040, Zapopan, Jalisco; 33 3121 2616 y 33 3121 9616; elfarallondetepic@gmail.com; "Abierto todos los días de 12:00 a 18:00"; "Contamos con servicio a domicilio"; Facebook /farallondetepic e Instagram @el_farallon; el PDF del menú 2025 (enlace a su sitio).
 
 ## Pendiente de confirmar con el cliente
+
+- Que "(3)", "(2)" y "(1)" junto a los platillos del menú signifiquen piezas por orden.
 
 - **WhatsApp.** El sitio no publica ninguno. El rediseño manda los mensajes al 33 3121 2616, que parece fijo: confirmar si tiene WhatsApp o qué número usar (y cuál de los dos teléfonos es para servicio a domicilio).
 - **Reservaciones:** ¿aceptan reservaciones y por qué medio? El botón del sitio solo abre Google Maps.
