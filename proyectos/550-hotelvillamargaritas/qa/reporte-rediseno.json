@@ -1,0 +1,87 @@
+{
+  "fecha": "2026-09-26T19:08:57.662Z",
+  "carpeta": "550-hotelvillamargaritas",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5302,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [
+        "http://127.0.0.1:55118/550-hotelvillamargaritas/sitio/"
+      ],
+      "sinAlt": 0,
+      "titulo": "Hotel Villa Margaritas — Bienvenido",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to fetch at 'https://villamargaritashotel.com/api/room-types' from origin 'http://127.0.0.1:55118' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:55118/550-hotelvillamargaritas/sitio/assets/externo/cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6",
+        "404 http://127.0.0.1:55118/550-hotelvillamargaritas/sitio/assets/externo/cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7660,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [
+        "http://127.0.0.1:55118/550-hotelvillamargaritas/sitio/"
+      ],
+      "sinAlt": 0,
+      "titulo": "Hotel Villa Margaritas — Bienvenido",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to fetch at 'https://villamargaritashotel.com/api/room-types' from origin 'http://127.0.0.1:55118' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:55118/550-hotelvillamargaritas/sitio/assets/externo/cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff2?dd67030699838ea613ee6dbda90effa6",
+        "404 http://127.0.0.1:55118/550-hotelvillamargaritas/sitio/assets/externo/cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 7079,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel Villa Margaritas | Hotel en el centro de Villahermosa, Tabasco",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 11525,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel Villa Margaritas | Hotel en el centro de Villahermosa, Tabasco",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

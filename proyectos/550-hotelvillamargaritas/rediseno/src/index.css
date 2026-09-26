@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Fuentes del sitio original (Playfair Display e Inter), de @fontsource y solo el subconjunto latino. */
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: crema, champaña, negro y oro del CSS del sitio (app.css: --vm-light, --vm-champagne, --vm-dark-2, --vm-accent). */
+@theme {
+  --color-crema: #f8f6f0;
+  --color-champana: #f2f2cf;
+  --color-noche: #141414;
+  --color-noche-2: #1c1c1c;
+  --color-oro: #c9a227;
+  --color-oro-texto: #7a5f0f;
+  --color-tinta: #1c1c1c;
+  --color-texto: #46443e;
+  --font-sans: "Inter", "Segoe UI", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-serif text-tinta; font-weight: 500; line-height: 1.08; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-oro, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.98rem] font-medium transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-noche text-white hover:bg-black; }
+  .btn-oro { @apply bg-oro text-noche hover:bg-[#d8b440]; }
+  .btn-claro { @apply bg-white text-noche hover:bg-champana; }
+  .btn-linea { @apply border border-tinta/25 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .enlace { @apply font-medium text-tinta underline decoration-oro decoration-2 underline-offset-4 hover:decoration-tinta; }
+  .precio { font-variant-numeric: tabular-nums; }
+}
