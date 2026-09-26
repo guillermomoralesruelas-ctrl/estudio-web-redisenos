@@ -1,0 +1,10 @@
+{
+  "name": "estudio-herramientas",
+  "private": true,
+  "type": "module",
+  "description": "Herramientas de las fases del estudio (investigar, descargar, optimizar, QA).",
+  "dependencies": {
+    "playwright": "^1.55.0",
+    "sharp": "^0.34.0"
+  }
+}

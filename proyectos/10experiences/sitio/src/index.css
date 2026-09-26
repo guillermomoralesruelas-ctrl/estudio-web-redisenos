@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-noche: #1e1612;
+  --color-noche-2: #271d18;
+  --color-vela: #a37932;
+  --color-vela-claro: #bf954d;
+  --color-champan: #d6bf8e;
+  --color-crema: #efe6d4;
+  --color-papel: #eaddc4;
+  --color-tinta: #2b1e17;
+  --color-sello: #8e3a22;
+
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Nunito Sans Variable", "Nunito Sans", "Avenir Next", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body {
+    @apply bg-noche text-crema font-sans antialiased;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+  h1, h2, h3 { @apply font-display; font-weight: 500; line-height: 1.05; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  ::selection { background: var(--color-vela); color: var(--color-noche); }
+  :focus-visible { outline: 2px solid var(--color-champan); outline-offset: 3px; border-radius: 2px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-primario, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3 font-semibold transition-colors;
+    min-height: 44px;
+  }
+  .btn-primario { @apply bg-vela text-noche hover:bg-vela-claro; }
+  .btn-linea { @apply border border-champan/60 text-crema hover:border-champan hover:bg-crema/5; }
+  .enlace { @apply text-champan underline decoration-champan/40 underline-offset-4 hover:decoration-champan; }
+  /* Borde perforado de sello postal para las postales del pasaporte */
+  .postal {
+    background: #f6eedd;
+    box-shadow: 0 1px 0 rgba(43, 30, 23, 0.08), 0 14px 30px -18px rgba(43, 30, 23, 0.55);
+  }
+  /* Textura de papel sutil hecha con gradientes (sin imágenes extra) */
+  .papel {
+    background-color: var(--color-papel);
+    background-image:
+      radial-gradient(rgba(43, 30, 23, 0.05) 1px, transparent 1px),
+      radial-gradient(rgba(43, 30, 23, 0.035) 1px, transparent 1px);
+    background-size: 22px 22px, 13px 13px;
+    background-position: 0 0, 7px 11px;
+  }
+  .sin-scrollbar { scrollbar-width: none; }
+  .sin-scrollbar::-webkit-scrollbar { display: none; }
+}

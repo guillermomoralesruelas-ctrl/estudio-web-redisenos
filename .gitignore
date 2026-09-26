@@ -1,0 +1,21 @@
+# Dependencias y compilados
+node_modules/
+dist/
+
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Base de datos local (se exporta a datos/estudio.json, que sí se versiona)
+datos/estudio.db
+datos/estudio.db-*
+
+# Copias temporales
+_papelera/
+Claude outputs/
+.DS_Store
+Thumbs.db
+
+# Registros crudos de Claude por fase (pesados)
+proyectos/*/.panel/fase-*.jsonl

@@ -1,0 +1,269 @@
+{
+  "generado": "2026-09-25T12:10:39.249Z",
+  "nota": "Exportación automática de datos/estudio.db. No editar a mano.",
+  "proyectos": [
+    {
+      "id": 1,
+      "slug": "10experiences",
+      "nombre": "10 Experiences Tour",
+      "cliente": "10 Experiences",
+      "url_origen": "https://10experiencestour.com/es/",
+      "rubro": "Experiencia gastronomica y cultural de lujo - Cozumel",
+      "estado": "revision",
+      "stack": "vite-react-tailwind",
+      "url_preview": null,
+      "url_produccion": null,
+      "hosting": "vercel",
+      "repo": null,
+      "notas": null,
+      "creado": "2026-09-25 05:12:56",
+      "actualizado": "2026-09-25 06:10:39"
+    }
+  ],
+  "tareas": [
+    {
+      "id": 3,
+      "proyecto_id": 1,
+      "titulo": "Confirmar idioma principal del publico (ES o EN)",
+      "responsable": "persona",
+      "estado": "pendiente",
+      "notas": null,
+      "creado": "2026-09-25 05:12:57",
+      "cerrado": null,
+      "slug": "10experiences"
+    },
+    {
+      "id": 4,
+      "proyecto_id": 1,
+      "titulo": "Quien administra dominio y DNS",
+      "responsable": "persona",
+      "estado": "pendiente",
+      "notas": null,
+      "creado": "2026-09-25 05:12:57",
+      "cerrado": null,
+      "slug": "10experiences"
+    },
+    {
+      "id": 6,
+      "proyecto_id": 1,
+      "titulo": "Revisar sitio en 375/768/1280/1920",
+      "responsable": "claude",
+      "estado": "pendiente",
+      "notas": null,
+      "creado": "2026-09-25 05:12:58",
+      "cerrado": null,
+      "slug": "10experiences"
+    },
+    {
+      "id": 7,
+      "proyecto_id": 1,
+      "titulo": "Confirmar ubicacion Melgar (experiencia diurna)",
+      "responsable": "persona",
+      "estado": "pendiente",
+      "notas": null,
+      "creado": "2026-09-25 06:09:46",
+      "cerrado": null,
+      "slug": "10experiences"
+    },
+    {
+      "id": 8,
+      "proyecto_id": 1,
+      "titulo": "Conectar MCP de BuilderBot a la cuenta",
+      "responsable": "persona",
+      "estado": "pendiente",
+      "notas": null,
+      "creado": "2026-09-25 06:09:46",
+      "cerrado": null,
+      "slug": "10experiences"
+    },
+    {
+      "id": 9,
+      "proyecto_id": 1,
+      "titulo": "Revisar sitio v1 y mandar comentarios",
+      "responsable": "persona",
+      "estado": "pendiente",
+      "notas": null,
+      "creado": "2026-09-25 06:10:39",
+      "cerrado": null,
+      "slug": "10experiences"
+    },
+    {
+      "id": 1,
+      "proyecto_id": 1,
+      "titulo": "Descargar imagenes (103)",
+      "responsable": "persona",
+      "estado": "hecha",
+      "notas": null,
+      "creado": "2026-09-25 05:12:57",
+      "cerrado": "2026-09-25 06:09:46",
+      "slug": "10experiences"
+    },
+    {
+      "id": 2,
+      "proyecto_id": 1,
+      "titulo": "Preguntas frecuentes reales y politica de cancelacion",
+      "responsable": "persona",
+      "estado": "hecha",
+      "notas": null,
+      "creado": "2026-09-25 05:12:57",
+      "cerrado": "2026-09-25 06:09:46",
+      "slug": "10experiences"
+    },
+    {
+      "id": 5,
+      "proyecto_id": 1,
+      "titulo": "Crear sitio Vite + React + Tailwind",
+      "responsable": "claude",
+      "estado": "hecha",
+      "notas": null,
+      "creado": "2026-09-25 05:12:57",
+      "cerrado": "2026-09-25 06:10:39",
+      "slug": "10experiences"
+    }
+  ],
+  "bitacora": [
+    {
+      "id": 15,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 06:10:39",
+      "autor": "claude",
+      "accion": "Tarea #5 hecha",
+      "detalle": "Crear sitio Vite + React + Tailwind",
+      "slug": "10experiences"
+    },
+    {
+      "id": 14,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 06:10:38",
+      "autor": "claude",
+      "accion": "Fase: diseno -> revision",
+      "detalle": null,
+      "slug": "10experiences"
+    },
+    {
+      "id": 13,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 06:10:38",
+      "autor": "claude",
+      "accion": "Sitio v1 construido",
+      "detalle": "Vite+React+Tailwind; plan en entregables/plan-diseno.md",
+      "slug": "10experiences"
+    },
+    {
+      "id": 12,
+      "proyecto_id": null,
+      "fecha": "2026-09-25 06:09:51",
+      "autor": "persona",
+      "accion": "Skill frontend-design instalada",
+      "detalle": "fuente: github.com/anthropics/skills",
+      "slug": null
+    },
+    {
+      "id": 11,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 06:09:46",
+      "autor": "claude",
+      "accion": "Fase: assets -> diseno",
+      "detalle": null,
+      "slug": "10experiences"
+    },
+    {
+      "id": 10,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 06:09:46",
+      "autor": "claude",
+      "accion": "Contenido completado",
+      "detalle": "FAQ, politica de cancelacion, acordeones, textos de Chef y Fundadores tomados del sitio",
+      "slug": "10experiences"
+    },
+    {
+      "id": 9,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 06:09:46",
+      "autor": "claude",
+      "accion": "Tarea #2 hecha",
+      "detalle": "Preguntas frecuentes reales y politica de cancelacion",
+      "slug": "10experiences"
+    },
+    {
+      "id": 8,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 06:09:46",
+      "autor": "claude",
+      "accion": "Tarea #1 hecha",
+      "detalle": "Descargar imagenes (103)",
+      "slug": "10experiences"
+    },
+    {
+      "id": 7,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 05:13:13",
+      "autor": "persona",
+      "accion": "Assets sincronizados",
+      "detalle": "103/103",
+      "slug": "10experiences"
+    },
+    {
+      "id": 6,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 05:12:57",
+      "autor": "claude",
+      "accion": "Fase: analisis -> assets",
+      "detalle": null,
+      "slug": "10experiences"
+    },
+    {
+      "id": 5,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 05:12:56",
+      "autor": "claude",
+      "accion": "Analisis del sitio original",
+      "detalle": "PROYECTO.md, contenido.md y assets.json creados por Claude",
+      "slug": "10experiences"
+    },
+    {
+      "id": 4,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 05:12:56",
+      "autor": "claude",
+      "accion": "Campo hosting actualizado",
+      "detalle": "vercel",
+      "slug": "10experiences"
+    },
+    {
+      "id": 3,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 05:12:56",
+      "autor": "claude",
+      "accion": "Campo rubro actualizado",
+      "detalle": "Experiencia gastronomica y cultural de lujo - Cozumel",
+      "slug": "10experiences"
+    },
+    {
+      "id": 2,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 05:12:56",
+      "autor": "claude",
+      "accion": "Campo cliente actualizado",
+      "detalle": "10 Experiences",
+      "slug": "10experiences"
+    },
+    {
+      "id": 1,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 05:12:56",
+      "autor": "claude",
+      "accion": "Proyecto creado",
+      "detalle": "https://10experiencestour.com/es/",
+      "slug": "10experiences"
+    }
+  ],
+  "accesos": [],
+  "assets_resumen": [
+    {
+      "slug": "10experiences",
+      "total": 103,
+      "descargados": 103
+    }
+  ]
+}

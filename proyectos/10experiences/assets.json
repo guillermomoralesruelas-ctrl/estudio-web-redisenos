@@ -1,0 +1,419 @@
+{
+  "base": "https://10experiencestour.com/wp-content/uploads/",
+  "destino": "assets",
+  "nota": "Excepciones de nombre en el sitio: ilustracion de Tlaxcala = 'talxcala'; sello admitido de Jalisco = 'jaslico'. La foto guerry-guia-color.jpg esta rota en el sitio original y se omite.",
+  "assets": [
+    {
+      "carpeta": "marca",
+      "ruta": "2024/08/logo-header-10experiences-june-2026.png"
+    },
+    {
+      "carpeta": "marca",
+      "ruta": "2026/06/logo-10experiences-june-2026.png"
+    },
+    {
+      "carpeta": "marca",
+      "ruta": "2024/08/10EXP_IMAGENES-WEB_WHATSAPP-300x300.webp"
+    },
+    {
+      "carpeta": "secciones",
+      "ruta": "2026/06/mexico-told-through-the-senses-10experiences-june-2026.jpg"
+    },
+    {
+      "carpeta": "secciones",
+      "ruta": "2026/06/how-it-works-10experiences-june-2026.jpg"
+    },
+    {
+      "carpeta": "secciones",
+      "ruta": "2026/06/exp1-june-2026.jpg"
+    },
+    {
+      "carpeta": "secciones",
+      "ruta": "2026/06/exp2-june-2026.jpg"
+    },
+    {
+      "carpeta": "secciones",
+      "ruta": "2026/06/the-chef-alejandro-torres-10experiences-june-2026.jpg"
+    },
+    {
+      "carpeta": "secciones",
+      "ruta": "2026/06/lorena-sanroman-10experiences-june-2026.jpg"
+    },
+    {
+      "carpeta": "secciones",
+      "ruta": "2026/06/the-founders-10experiences-june-2026.jpg"
+    },
+    {
+      "carpeta": "equipo",
+      "ruta": "2026/06/adrian-guia-color.jpg"
+    },
+    {
+      "carpeta": "equipo",
+      "ruta": "2026/06/cristina-mesera-color-julio-2026.jpg"
+    },
+    {
+      "carpeta": "equipo",
+      "ruta": "2026/06/gerardo-guia-color-julio-2026.jpg"
+    },
+    {
+      "carpeta": "equipo",
+      "ruta": "2026/06/maria-color.jpg"
+    },
+    {
+      "carpeta": "equipo",
+      "ruta": "2026/06/moises-mesero-color-julio-2026.jpg"
+    },
+    {
+      "carpeta": "equipo",
+      "ruta": "2026/06/sergio-sous-chef-color-julio-2026.jpg"
+    },
+    {
+      "carpeta": "equipo",
+      "ruta": "2026/06/delta-sous-chef-color.jpg"
+    },
+    {
+      "carpeta": "equipo",
+      "ruta": "2026/06/javier-mesero-color.jpg"
+    },
+    {
+      "carpeta": "galeria/the-moment",
+      "ruta": "2026/06/the-moment-1-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-moment",
+      "ruta": "2026/06/the-moment-2-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-moment",
+      "ruta": "2026/06/the-moment-3-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-moment",
+      "ruta": "2026/06/the-moment-4-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-moment",
+      "ruta": "2026/06/the-moment-5-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-moment",
+      "ruta": "2026/06/the-moment-6-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-moment",
+      "ruta": "2026/06/the-moment-7-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-moment",
+      "ruta": "2026/06/the-moment-8-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/where-it-happens",
+      "ruta": "2026/06/where-it-happens-1-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/where-it-happens",
+      "ruta": "2026/06/where-it-happens-2-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/where-it-happens",
+      "ruta": "2026/06/where-it-happens-3-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/where-it-happens",
+      "ruta": "2026/06/where-it-happens-4-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/where-it-happens",
+      "ruta": "2026/06/where-it-happens-5-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/where-it-happens",
+      "ruta": "2026/06/where-it-happens-6-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/where-it-happens",
+      "ruta": "2026/06/where-it-happens-7-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/where-it-happens",
+      "ruta": "2026/06/where-it-happens-8-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-makers",
+      "ruta": "2026/06/the-makers-1-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-makers",
+      "ruta": "2026/06/the-makers-2-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-makers",
+      "ruta": "2026/06/the-makers-3-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-makers",
+      "ruta": "2026/06/the-makers-4-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-makers",
+      "ruta": "2026/06/the-makers-5-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-makers",
+      "ruta": "2026/06/the-makers-6-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-makers",
+      "ruta": "2026/06/the-makers-7-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-makers",
+      "ruta": "2026/06/the-makers-8-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-details",
+      "ruta": "2026/06/the-details-1-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-details",
+      "ruta": "2026/06/the-details-2-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-details",
+      "ruta": "2026/06/the-details-3-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-details",
+      "ruta": "2026/06/the-details-4-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-details",
+      "ruta": "2026/06/the-details-5-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-details",
+      "ruta": "2026/06/the-details-6-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-details",
+      "ruta": "2026/06/the-details-7-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/the-details",
+      "ruta": "2026/06/the-details-8-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/mexico-reimagined",
+      "ruta": "2026/06/mexico-reimagined-1-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/mexico-reimagined",
+      "ruta": "2026/06/mexico-reimagined-2-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/mexico-reimagined",
+      "ruta": "2026/06/mexico-reimagined-3-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/mexico-reimagined",
+      "ruta": "2026/06/mexico-reimagined-4-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/mexico-reimagined",
+      "ruta": "2026/06/mexico-reimagined-5-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/mexico-reimagined",
+      "ruta": "2026/06/mexico-reimagined-6-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/mexico-reimagined",
+      "ruta": "2026/06/mexico-reimagined-7-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "galeria/mexico-reimagined",
+      "ruta": "2026/06/mexico-reimagined-8-10experiences-june-2026.webp"
+    },
+    {
+      "carpeta": "viaje",
+      "ruta": "2026/07/the-journey-10experiences-july-2026.webp"
+    },
+    {
+      "carpeta": "viaje",
+      "ruta": "2026/07/the-journey-original-10experiences-july-2026.webp"
+    },
+    {
+      "carpeta": "viaje",
+      "ruta": "2026/07/the-journey-taco-10experiences-july_2026.webp"
+    },
+    {
+      "carpeta": "viaje",
+      "ruta": "2026/07/the-journey-mayan-calendar-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje",
+      "ruta": "2026/07/the-journey-leaves-1-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje",
+      "ruta": "2026/07/the-journey-leaves-2-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/veracruz",
+      "ruta": "2026/07/the-journey-veracruz-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/veracruz",
+      "ruta": "2026/07/the-journey-veracruz-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/veracruz",
+      "ruta": "2026/07/the-journey-admitted-stamp-veracruz-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/cdmx",
+      "ruta": "2026/07/the-journey-cdmx-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/cdmx",
+      "ruta": "2026/07/the-journey-cdmx-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/cdmx",
+      "ruta": "2026/07/the-journey-admitted-stamp-cdmx-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/cozumel",
+      "ruta": "2026/07/the-journey-cozumel-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/cozumel",
+      "ruta": "2026/07/the-journey-cozumel-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/cozumel",
+      "ruta": "2026/07/the-journey-admitted-stamp-cozumel-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/nuevo-leon",
+      "ruta": "2026/07/the-journey-nuevo-leon-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/nuevo-leon",
+      "ruta": "2026/07/the-journey-nuevo-leon-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/nuevo-leon",
+      "ruta": "2026/07/the-journey-admitted-stamp-nuevo-leon-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/san-luis-potosi",
+      "ruta": "2026/07/the-journey-san-luis-potosi-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/san-luis-potosi",
+      "ruta": "2026/07/the-journey-san-luis-potosi-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/san-luis-potosi",
+      "ruta": "2026/07/the-journey-admitted-stamp-san-luis-potosi-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/oaxaca",
+      "ruta": "2026/07/the-journey-oaxaca-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/oaxaca",
+      "ruta": "2026/07/the-journey-oaxaca-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/oaxaca",
+      "ruta": "2026/07/the-journey-admitted-stamp-oaxaca-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/puebla",
+      "ruta": "2026/07/the-journey-puebla-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/puebla",
+      "ruta": "2026/07/the-journey-puebla-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/puebla",
+      "ruta": "2026/07/the-journey-admitted-stamp-puebla-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/yucatan",
+      "ruta": "2026/07/the-journey-yucatan-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/yucatan",
+      "ruta": "2026/07/the-journey-yucatan-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/yucatan",
+      "ruta": "2026/07/the-journey-admitted-stamp-yucatan-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/state-of-mexico",
+      "ruta": "2026/07/the-journey-state-of-mexico-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/state-of-mexico",
+      "ruta": "2026/07/the-journey-state-of-mexico-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/state-of-mexico",
+      "ruta": "2026/07/the-journey-admitted-stamp-state-of-mexico-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/sinaloa",
+      "ruta": "2026/07/the-journey-sinaloa-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/sinaloa",
+      "ruta": "2026/07/the-journey-sinaloa-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/sinaloa",
+      "ruta": "2026/07/the-journey-admitted-stamp-sinaloa-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/jalisco",
+      "ruta": "2026/07/the-journey-jalisco-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/jalisco",
+      "ruta": "2026/07/the-journey-jalisco-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/jalisco",
+      "ruta": "2026/07/the-journey-admitted-stamp-jaslico-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/michoacan",
+      "ruta": "2026/07/the-journey-michoacan-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/michoacan",
+      "ruta": "2026/07/the-journey-michoacan-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/michoacan",
+      "ruta": "2026/07/the-journey-admitted-stamp-michoacan-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/tlaxcala",
+      "ruta": "2026/07/the-journey-talxcala-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/tlaxcala",
+      "ruta": "2026/07/the-journey-tlaxcala-postage-stamp-10experiences-july-2026.png"
+    },
+    {
+      "carpeta": "viaje/estados/tlaxcala",
+      "ruta": "2026/07/the-journey-admitted-stamp-tlaxcala-10experiences-july-2026.png"
+    }
+  ]
+}

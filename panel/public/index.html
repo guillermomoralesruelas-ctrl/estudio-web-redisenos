@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Estudio Web · Panel</title>
+<style>
+  :root {
+    --fondo: #f4f3f0; --panel: #ffffff; --borde: #e3e0da; --texto: #1d1c1a; --suave: #6b6760; --tenue: #9a958c;
+    --acento: #2f5d50; --acento-2: #3f7a69; --acento-texto: #ffffff;
+    --ok: #2f7d4f; --espera: #b7791f; --error: #b3432f; --curso: #2f5d9e;
+    --log-fondo: #1c1b19; --log-texto: #e7e4dd;
+    --radio: 8px; --sombra: 0 1px 2px rgba(0,0,0,.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --fondo: #151513; --panel: #1e1d1b; --borde: #33312d; --texto: #ece9e2; --suave: #a8a397; --tenue: #7a766d;
+      --acento: #4f9a84; --acento-2: #5fb09a; --acento-texto: #0f1412; --log-fondo: #0f0f0e; --sombra: none; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--fondo); color: var(--texto); }
+  button, input, textarea { font: inherit; color: inherit; }
+  a { color: var(--acento); }
+  .app { display: grid; grid-template-columns: 290px 1fr 360px; min-height: 100vh; }
+  @media (max-width: 1100px) { .app { grid-template-columns: 1fr; } }
+
+  /* Barra lateral */
+  aside.lateral { background: var(--panel); border-right: 1px solid var(--borde); padding: 20px; display: flex; flex-direction: column; gap: 18px; }
+  .marca { font-weight: 700; font-size: 17px; letter-spacing: -.01em; }
+  .marca small { display: block; font-weight: 400; color: var(--suave); font-size: 13px; }
+  form.nuevo { display: flex; flex-direction: column; gap: 8px; }
+  form.nuevo label { font-size: 13px; color: var(--suave); }
+  input[type=url], input[type=text], textarea { width: 100%; padding: 10px 12px; border: 1px solid var(--borde); border-radius: var(--radio); background: var(--fondo); }
+  input:focus, textarea:focus, button:focus-visible { outline: 2px solid var(--acento); outline-offset: 1px; }
+  .check { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--suave); }
+  .btn { border: 1px solid var(--borde); background: var(--panel); padding: 9px 14px; border-radius: var(--radio); cursor: pointer; min-height: 40px; }
+  .btn:hover { border-color: var(--suave); }
+  .btn.primario { background: var(--acento); border-color: var(--acento); color: var(--acento-texto); font-weight: 600; }
+  .btn.primario:hover { background: var(--acento-2); }
+  .btn.peligro { color: var(--error); }
+  .btn:disabled { opacity: .45; cursor: not-allowed; }
+  ul.proyectos { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  ul.proyectos button { width: 100%; text-align: left; border: 1px solid transparent; background: none; padding: 10px 12px; border-radius: var(--radio); cursor: pointer; display: grid; gap: 2px; }
+  ul.proyectos button:hover { background: var(--fondo); }
+  ul.proyectos button[aria-current="true"] { background: var(--fondo); border-color: var(--borde); }
+  .p-titulo { font-weight: 600; display: flex; gap: 8px; align-items: center; }
+  .p-num { font-variant-numeric: tabular-nums; color: var(--tenue); }
+  .p-sub { font-size: 12.5px; color: var(--suave); }
+  .barra { height: 4px; background: var(--borde); border-radius: 2px; overflow: hidden; margin-top: 4px; }
+  .barra i { display: block; height: 100%; background: var(--acento); }
+  .punto { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .punto.curso { background: var(--curso); animation: latido 1.2s infinite; }
+  .punto.espera { background: var(--espera); }
+  .punto.error { background: var(--error); }
+  @keyframes latido { 50% { opacity: .3; } }
+  .estado-claude { margin-top: auto; font-size: 12.5px; color: var(--suave); border-top: 1px solid var(--borde); padding-top: 12px; }
+
+  /* Centro */
+  main { padding: 24px 28px; min-width: 0; }
+  .vacio { color: var(--suave); max-width: 520px; margin: 12vh auto; text-align: center; }
+  .vacio h1 { color: var(--texto); font-size: 26px; margin: 0 0 8px; }
+  header.cab h1 { margin: 0; font-size: 24px; letter-spacing: -.01em; }
+  header.cab .meta { color: var(--suave); font-size: 13.5px; margin-top: 2px; word-break: break-all; }
+  .acciones { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 20px; }
+  .pestanas { display: flex; gap: 4px; border-bottom: 1px solid var(--borde); margin-bottom: 14px; }
+  .pestanas button { border: none; background: none; padding: 10px 14px; cursor: pointer; color: var(--suave); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .pestanas button[aria-selected="true"] { color: var(--texto); border-bottom-color: var(--acento); font-weight: 600; }
+  .log { background: var(--log-fondo); color: var(--log-texto); border-radius: var(--radio); padding: 14px 16px; height: calc(100vh - 270px); min-height: 360px; overflow: auto; font: 13px/1.55 ui-monospace, "Cascadia Code", Consolas, monospace; }
+  .log .l { white-space: pre-wrap; word-break: break-word; padding: 1px 0; }
+  .log .ts { color: #6f6b63; margin-right: 8px; }
+  .log .f { color: #8fb8a8; margin-right: 6px; }
+  .log .herramienta { color: #9fb3cf; }
+  .log .claude { color: #f1ede4; }
+  .log .sistema { color: #c9b98a; }
+  .log .fin { color: #7fd19b; font-weight: 600; }
+  .log .aviso { color: #e0b169; }
+  .log .error { color: #f08a78; font-weight: 600; }
+  .docs { display: grid; grid-template-columns: 220px 1fr; gap: 16px; }
+  @media (max-width: 800px) { .docs { grid-template-columns: 1fr; } }
+  .docs ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+  .docs ul button { width: 100%; text-align: left; border: none; background: none; padding: 8px 10px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+  .docs ul button[aria-current="true"], .docs ul button:hover { background: var(--panel); }
+  .md { background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio); padding: 20px 26px; max-height: calc(100vh - 270px); overflow: auto; }
+  .md h1 { font-size: 22px; } .md h2 { font-size: 18px; margin-top: 1.6em; } .md h3 { font-size: 16px; }
+  .md table { border-collapse: collapse; font-size: 14px; margin: 10px 0; } .md td, .md th { border: 1px solid var(--borde); padding: 6px 10px; text-align: left; vertical-align: top; }
+  .md pre { background: var(--fondo); padding: 10px 12px; border-radius: 6px; overflow: auto; font-size: 13px; }
+  .md code { font-size: 13px; } .md blockquote { border-left: 3px solid var(--acento); margin: 0; padding-left: 12px; color: var(--suave); }
+  .galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .galeria figure { margin: 0; background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio); overflow: hidden; }
+  .galeria img { width: 100%; height: 180px; object-fit: cover; object-position: top; display: block; cursor: zoom-in; }
+  .galeria figcaption { font-size: 12px; color: var(--suave); padding: 6px 10px; }
+
+  /* Derecha: checklist */
+  aside.checklist { background: var(--panel); border-left: 1px solid var(--borde); padding: 20px; }
+  aside.checklist h2 { font-size: 15px; margin: 0 0 12px; }
+  ol.fases { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  ol.fases li { border: 1px solid var(--borde); border-radius: var(--radio); padding: 10px 12px; }
+  ol.fases li.en_curso { border-color: var(--curso); }
+  ol.fases li.esperando { border-color: var(--espera); background: color-mix(in srgb, var(--espera) 8%, transparent); }
+  ol.fases li.error { border-color: var(--error); }
+  ol.fases li.proximamente { opacity: .5; }
+  .f-cab { display: grid; grid-template-columns: 26px 1fr auto; gap: 8px; align-items: start; }
+  .icono { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; font-size: 12px; font-weight: 700; border: 1.5px solid var(--borde); color: var(--tenue); }
+  .hecha .icono { background: var(--ok); border-color: var(--ok); color: #fff; }
+  .en_curso .icono { border-color: var(--curso); color: var(--curso); animation: latido 1.2s infinite; }
+  .esperando .icono { background: var(--espera); border-color: var(--espera); color: #fff; }
+  .error .icono { background: var(--error); border-color: var(--error); color: #fff; }
+  .f-nombre { font-weight: 600; font-size: 14px; }
+  .f-desc { font-size: 12.5px; color: var(--suave); }
+  .f-dato { font-size: 12px; color: var(--tenue); white-space: nowrap; }
+  .f-resumen { font-size: 13px; color: var(--suave); margin-top: 8px; white-space: pre-wrap; max-height: 160px; overflow: auto; }
+  .f-botones { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .f-botones .btn { min-height: 34px; padding: 6px 10px; font-size: 13.5px; }
+  .f-cambios { margin-top: 8px; display: none; gap: 6px; flex-direction: column; }
+  .f-cambios.abierto { display: flex; }
+  .costo-total { margin-top: 14px; font-size: 13px; color: var(--suave); }
+  .aviso-top { background: color-mix(in srgb, var(--error) 12%, transparent); color: var(--texto); border: 1px solid var(--error); padding: 10px 12px; border-radius: var(--radio); font-size: 13.5px; }
+  .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: var(--texto); color: var(--fondo); padding: 10px 16px; border-radius: var(--radio); font-size: 14px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  .toast.ver { opacity: 1; }
+  dialog.visor { border: none; padding: 0; background: transparent; max-width: 95vw; max-height: 95vh; }
+  dialog.visor::backdrop { background: rgba(0,0,0,.85); }
+  dialog.visor img { max-width: 95vw; max-height: 92vh; display: block; }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="lateral">
+    <div class="marca">Estudio Web<small>Panel de rediseño de sitios</small></div>
+    <form class="nuevo" id="form-nuevo">
+      <label for="url">URL del sitio a rediseñar</label>
+      <input id="url" type="url" required placeholder="https://www.ejemplo.com" autocomplete="off" />
+      <input id="nombre" type="text" placeholder="Nombre (opcional)" autocomplete="off" />
+      <label class="check"><input type="checkbox" id="iniciar" checked /> Empezar la investigación al crear</label>
+      <button class="btn primario" type="submit">Crear proyecto</button>
+    </form>
+    <div>
+      <div class="p-sub" style="margin-bottom:6px">Proyectos</div>
+      <ul class="proyectos" id="lista"></ul>
+    </div>
+    <div class="estado-claude" id="estado-claude">Comprobando Claude Code…</div>
+  </aside>
+
+  <main id="centro">
+    <div class="vacio"><h1>Pega una URL para empezar</h1><p>El panel crea la carpeta numerada, investiga el sitio, descarga las imágenes, propone un concepto, construye el sitio nuevo y lo revisa. Te pide aprobación en el concepto y en la versión final.</p></div>
+  </main>
+
+  <aside class="checklist" id="derecha"><h2>Progreso</h2><p class="f-desc">Elige o crea un proyecto.</p></aside>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<dialog class="visor" id="visor"><img alt="" id="visor-img" /></dialog>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (t) => String(t ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+let actual = null;      // id del proyecto seleccionado
+let datos = null;       // estado completo
+let pestana = 'actividad';
+let docActual = null;
+
+function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('ver'); clearTimeout(el._t); el._t = setTimeout(() => el.classList.remove('ver'), 3500); }
+async function api(ruta, opts = {}) {
+  const r = await fetch(ruta, { headers: { 'Content-Type': 'application/json' }, ...opts, body: opts.body ? JSON.stringify(opts.body) : undefined });
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(j.error || 'Error ' + r.status);
+  return j;
+}
+
+// ---------- Markdown mínimo ----------
+function md(texto) {
+  const lineas = texto.replace(/\r/g, '').split('\n');
+  let html = '', enLista = null, enTabla = false, enCodigo = false;
+  const inline = (s) => esc(s).replace(/`([^`]+)`/g, '<code>$1</code>').replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>').replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  const cerrar = () => { if (enLista) { html += `</${enLista}>`; enLista = null; } if (enTabla) { html += '</table>'; enTabla = false; } };
+  for (const l of lineas) {
+    if (l.startsWith('```')) { cerrar(); html += enCodigo ? '</pre>' : '<pre>'; enCodigo = !enCodigo; continue; }
+    if (enCodigo) { html += esc(l) + '\n'; continue; }
+    if (/^\s*\|/.test(l)) {
+      if (/^\s*\|[\s:|-]+\|\s*$/.test(l)) continue;
+      if (!enTabla) { cerrar(); html += '<table>'; enTabla = true; }
+      html += '<tr>' + l.trim().replace(/^\||\|$/g, '').split('|').map((c) => `<td>${inline(c.trim())}</td>`).join('') + '</tr>';
+      continue;
+    }
+    const h = l.match(/^(#{1,4})\s+(.*)/);
+    if (h) { cerrar(); html += `<h${h[1].length}>${inline(h[2])}</h${h[1].length}>`; continue; }
+    const li = l.match(/^\s*([-*]|\d+\.)\s+(.*)/);
+    if (li) { const tipo = /\d/.test(li[1]) ? 'ol' : 'ul'; if (enLista !== tipo) { cerrar(); html += `<${tipo}>`; enLista = tipo; } html += `<li>${inline(li[2].replace(/^\[( |x)\]\s*/, (m, x) => (x === 'x' ? '☑ ' : '☐ ')))}</li>`; continue; }
+    if (/^>\s?/.test(l)) { cerrar(); html += `<blockquote>${inline(l.replace(/^>\s?/, ''))}</blockquote>`; continue; }
+    if (/^---+$/.test(l.trim())) { cerrar(); html += '<hr>'; continue; }
+    if (!l.trim()) { cerrar(); continue; }
+    cerrar(); html += `<p>${inline(l)}</p>`;
+  }
+  cerrar(); if (enCodigo) html += '</pre>';
+  return html;
+}
+
+// ---------- Lista de proyectos ----------
+async function cargarLista() {
+  const lista = await api('/api/proyectos');
+  $('#lista').innerHTML = lista.map((p) => `
+    <li><button data-id="${p.id}" aria-current="${p.id === actual}">
+      <span class="p-titulo"><span class="p-num">${String(p.numero ?? '–').padStart(2, '0')}</span> ${esc(p.nombre)}
+        ${p.corriendo ? '<span class="punto curso" title="En curso"></span>' : p.esperando ? '<span class="punto espera" title="Espera tu aprobación"></span>' : p.error ? '<span class="punto error" title="Con error"></span>' : ''}</span>
+      <span class="p-sub">${esc(p.carpeta)} · ${p.hechas}/${p.total} fases</span>
+      <span class="barra"><i style="width:${Math.round((p.hechas / p.total) * 100)}%"></i></span>
+    </button></li>`).join('') || '<li class="p-sub">Aún no hay proyectos.</li>';
+  $('#lista').querySelectorAll('button').forEach((b) => b.onclick = () => seleccionar(Number(b.dataset.id)));
+}
+
+async function estadoClaude() {
+  const e = await api('/api/estado');
+  $('#estado-claude').innerHTML = e.claude
+    ? `Claude Code: <strong>listo</strong><br><span style="word-break:break-all">${esc(e.claude)}</span>`
+    : `<div class="aviso-top">No encontré Claude Code. Instálalo en CMD con:<br><code>npm install -g @anthropic-ai/claude-code</code><br>y reinicia el panel.</div>`;
+}
+
+// ---------- Proyecto seleccionado ----------
+async function seleccionar(id) {
+  actual = id; docActual = null;
+  await refrescar();
+  await cargarLista();
+  const act = await api(`/api/proyectos/${id}/actividad`);
+  const log = $('#log'); if (log) { log.innerHTML = ''; act.forEach(pintarLinea); log.scrollTop = log.scrollHeight; }
+}
+async function refrescar() {
+  if (!actual) return;
+  datos = await api(`/api/proyectos/${actual}`);
+  pintarCentro(); pintarDerecha();
+}
+function pintarCentro() {
+  const d = datos, corriendo = d.ejecutando != null;
+  const logPrevio = $('#log')?.innerHTML;
+  $('#centro').innerHTML = `
+    <header class="cab">
+      <h1>${String(d.numero).padStart(2, '0')} · ${esc(d.nombre)}</h1>
+      <div class="meta"><a href="${esc(d.url_origen)}" target="_blank" rel="noopener">${esc(d.url_origen)}</a> · proyectos/${esc(d.carpeta)} · ${d.archivos.assets} imágenes</div>
+    </header>
+    <div class="acciones">
+      <button class="btn primario" id="b-todo" ${corriendo ? 'disabled' : ''}>Ejecutar hasta la próxima aprobación</button>
+      <button class="btn peligro" id="b-detener" ${corriendo ? '' : 'disabled'}>Detener</button>
+      <button class="btn" id="b-vista" ${d.archivos.sitio ? '' : 'disabled'}>${d.vista ? 'Abrir sitio' : 'Ver sitio'}</button>
+      <button class="btn" id="b-carpeta">Abrir carpeta</button>
+    </div>
+    <div class="pestanas" role="tablist">
+      ${['actividad:Actividad en vivo', 'documentos:Documentos', 'capturas:Capturas'].map((t) => { const [k, v] = t.split(':'); return `<button role="tab" data-p="${k}" aria-selected="${pestana === k}">${v}</button>`; }).join('')}
+    </div>
+    <section id="contenido-pestana"></section>`;
+  $('#b-todo').onclick = () => accion('todo');
+  $('#b-detener').onclick = () => accion('detener');
+  $('#b-vista').onclick = async () => { try { const r = await api(`/api/proyectos/${actual}/vista`, { method: 'POST', body: {} }); toast('Abriendo el sitio…'); setTimeout(() => window.open(r.url, '_blank'), d.vista ? 0 : 2500); refrescar(); } catch (e) { toast(e.message); } };
+  $('#b-carpeta').onclick = () => accion('abrir-carpeta');
+  $('#centro').querySelectorAll('[role=tab]').forEach((b) => b.onclick = () => { pestana = b.dataset.p; pintarCentro(); if (pestana === 'actividad') seleccionarLog(); });
+  pintarPestana(logPrevio);
+}
+async function seleccionarLog() { const act = await api(`/api/proyectos/${actual}/actividad`); const log = $('#log'); log.innerHTML = ''; act.forEach(pintarLinea); log.scrollTop = log.scrollHeight; }
+function pintarPestana(logPrevio) {
+  const c = $('#contenido-pestana'), d = datos;
+  if (pestana === 'actividad') {
+    c.innerHTML = '<div class="log" id="log" aria-live="polite"></div>';
+    if (logPrevio) { $('#log').innerHTML = logPrevio; $('#log').scrollTop = $('#log').scrollHeight; } else seleccionarLog();
+  } else if (pestana === 'documentos') {
+    if (!d.archivos.docs.length) { c.innerHTML = '<p class="f-desc">Todavía no hay documentos. Aparecen conforme avanzan las fases.</p>'; return; }
+    docActual = docActual && d.archivos.docs.includes(docActual) ? docActual : d.archivos.docs[0];
+    c.innerHTML = `<div class="docs"><ul>${d.archivos.docs.map((f) => `<li><button data-f="${esc(f)}" aria-current="${f === docActual}">${esc(f)}</button></li>`).join('')}</ul><article class="md" id="md">Cargando…</article></div>`;
+    c.querySelectorAll('[data-f]').forEach((b) => b.onclick = () => { docActual = b.dataset.f; pintarPestana(); });
+    fetch(`/f/${encodeURIComponent(d.carpeta)}/${docActual.split('/').map(encodeURIComponent).join('/')}`).then((r) => r.text()).then((t) => { $('#md').innerHTML = md(t); });
+  } else {
+    if (!d.archivos.imagenes.length) { c.innerHTML = '<p class="f-desc">Todavía no hay capturas. La fase 1 guarda las del sitio original; la fase 5, las del sitio nuevo.</p>'; return; }
+    c.innerHTML = `<div class="galeria">${d.archivos.imagenes.map((f) => { const src = `/f/${encodeURIComponent(d.carpeta)}/${f.split('/').map(encodeURIComponent).join('/')}?t=${Date.now()}`; return `<figure><img src="${src}" alt="${esc(f)}" loading="lazy"><figcaption>${esc(f)}</figcaption></figure>`; }).join('')}</div>`;
+    c.querySelectorAll('.galeria img').forEach((img) => img.onclick = () => { $('#visor-img').src = img.src; $('#visor').showModal(); });
+  }
+}
+$('#visor').onclick = () => $('#visor').close();
+
+const ICONO = { hecha: '✓', en_curso: '…', esperando: '!', error: '×', pendiente: '', proximamente: '' };
+const ETIQUETA = { hecha: 'Hecha', en_curso: 'En curso', esperando: 'Tu aprobación', error: 'Error', pendiente: 'Pendiente', proximamente: 'Próximamente' };
+function pintarDerecha() {
+  const d = datos, corriendo = d.ejecutando != null;
+  const costo = d.fases.reduce((s, f) => s + (f.costo_usd || 0), 0);
+  $('#derecha').innerHTML = `<h2>Progreso · ${d.fases.filter((f) => f.estado === 'hecha').length}/${d.fases.filter((f) => f.tipo !== 'proximamente').length}</h2>
+    <ol class="fases">${d.fases.map((f) => `
+      <li class="${f.estado}">
+        <div class="f-cab">
+          <span class="icono" aria-hidden="true">${ICONO[f.estado] || f.numero}</span>
+          <div><div class="f-nombre">${f.numero}. ${esc(f.nombre)}${f.aprobacion ? ' ✋' : ''}</div><div class="f-desc">${esc(f.desc)}</div></div>
+          <span class="f-dato">${ETIQUETA[f.estado]}${f.costo_usd ? `<br>$${f.costo_usd.toFixed(2)}` : ''}</span>
+        </div>
+        ${f.resumen && f.estado !== 'pendiente' ? `<div class="f-resumen">${esc(f.resumen)}</div>` : ''}
+        ${f.estado === 'esperando' ? `
+          <div class="f-botones">
+            <button class="btn primario" data-aprobar="${f.numero}" data-seguir="1">Aprobar y continuar</button>
+            <button class="btn" data-aprobar="${f.numero}">Solo aprobar</button>
+            <button class="btn" data-abrir-cambios="${f.numero}">Pedir cambios</button>
+          </div>
+          <div class="f-cambios" id="cambios-${f.numero}">
+            <textarea rows="4" placeholder="¿Qué quieres cambiar? Sé concreto: colores, secciones, tono…"></textarea>
+            <button class="btn primario" data-enviar-cambios="${f.numero}">Rehacer con estos cambios</button>
+          </div>` : ''}
+        ${f.tipo === 'claude' && ['pendiente', 'error', 'hecha'].includes(f.estado) && !corriendo ? `
+          <div class="f-botones"><button class="btn" data-correr="${f.numero}">${f.estado === 'pendiente' ? 'Ejecutar solo esta fase' : f.estado === 'error' ? 'Reintentar' : 'Volver a ejecutar'}</button></div>` : ''}
+      </li>`).join('')}</ol>
+    <div class="costo-total">Costo aproximado acumulado: $${costo.toFixed(2)} USD</div>`;
+  const D = $('#derecha');
+  D.querySelectorAll('[data-aprobar]').forEach((b) => b.onclick = () => accion('aprobar', { fase: Number(b.dataset.aprobar), seguir: !!b.dataset.seguir }));
+  D.querySelectorAll('[data-abrir-cambios]').forEach((b) => b.onclick = () => $(`#cambios-${b.dataset.abrirCambios}`).classList.toggle('abierto'));
+  D.querySelectorAll('[data-enviar-cambios]').forEach((b) => b.onclick = () => { const n = b.dataset.enviarCambios; accion('cambios', { fase: Number(n), comentario: $(`#cambios-${n} textarea`).value }); });
+  D.querySelectorAll('[data-correr]').forEach((b) => b.onclick = () => { const n = Number(b.dataset.correr); if (datos.fases[n].estado === 'hecha' && !confirm(`La fase ${n} ya está hecha. ¿Ejecutarla de nuevo? Puede reescribir sus archivos.`)) return; accion('fase', { fase: n }); });
+}
+async function accion(tipo, body = {}) {
+  try { await api(`/api/proyectos/${actual}/${tipo}`, { method: 'POST', body }); await refrescar(); cargarLista(); }
+  catch (e) { toast(e.message); }
+}
+
+function pintarLinea(e) {
+  const log = $('#log'); if (!log) return;
+  const abajo = log.scrollHeight - log.scrollTop - log.clientHeight < 60;
+  const div = document.createElement('div');
+  div.className = 'l ' + e.tipo;
+  const pref = e.tipo === 'herramienta' ? '→ ' : e.tipo === 'claude' ? '' : '';
+  div.innerHTML = `<span class="ts">${esc(e.ts.slice(11, 19))}</span><span class="f">[${e.fase}]</span>${esc(pref + e.texto)}`;
+  log.appendChild(div);
+  if (abajo) log.scrollTop = log.scrollHeight;
+}
+
+// ---------- Eventos en vivo ----------
+const fuente = new EventSource('/api/eventos');
+let pendiente = null;
+fuente.onmessage = (m) => {
+  const e = JSON.parse(m.data);
+  if (e.evento === 'log' && e.proyecto === actual && pestana === 'actividad') pintarLinea(e);
+  if (e.evento === 'estado' || (e.evento === 'log' && ['fin', 'error', 'sistema'].includes(e.tipo))) {
+    clearTimeout(pendiente);
+    pendiente = setTimeout(() => { cargarLista(); if (e.proyecto === actual) refrescar(); }, 250);
+  }
+};
+
+// ---------- Nuevo proyecto ----------
+$('#form-nuevo').onsubmit = async (ev) => {
+  ev.preventDefault();
+  try {
+    const p = await api('/api/proyectos', { method: 'POST', body: { url: $('#url').value, nombre: $('#nombre').value, iniciar: $('#iniciar').checked } });
+    $('#url').value = ''; $('#nombre').value = '';
+    toast(`Proyecto ${p.carpeta} creado`);
+    await cargarLista(); seleccionar(p.id);
+  } catch (e) { toast(e.message); }
+};
+
+estadoClaude(); cargarLista().then(async () => { const l = await api('/api/proyectos'); if (l.length) seleccionar(l[l.length - 1].id); });
+</script>
+</body>
+</html>

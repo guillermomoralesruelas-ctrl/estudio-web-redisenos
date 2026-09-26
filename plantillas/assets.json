@@ -1,0 +1,9 @@
+{
+  "base": "https://ejemplo.com/wp-content/uploads/",
+  "destino": "assets",
+  "nota": "Cada asset usa 'ruta' (se une con base) o 'url' completa. 'carpeta' organiza el destino. 'archivo' es opcional.",
+  "assets": [
+    { "carpeta": "marca", "ruta": "2024/01/logo.png" },
+    { "carpeta": "secciones", "url": "https://ejemplo.com/imagen-hero.jpg", "archivo": "hero.jpg" }
+  ]
+}
