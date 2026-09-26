@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T12:10:39.249Z",
+  "generado": "2026-09-26T00:55:28.375Z",
   "nota": "Exportación automática de datos/estudio.db. No editar a mano.",
   "proyectos": [
     {
@@ -17,7 +17,121 @@
       "repo": null,
       "notas": null,
       "creado": "2026-09-25 05:12:56",
-      "actualizado": "2026-09-25 06:10:39"
+      "actualizado": "2026-09-25 18:55:26",
+      "numero": 1,
+      "carpeta": "01-10experiences"
+    }
+  ],
+  "fases": [
+    {
+      "proyecto_id": 1,
+      "numero": 0,
+      "estado": "hecha",
+      "inicio": null,
+      "fin": "2026-09-25 18:55:26",
+      "costo_usd": null,
+      "resumen": null,
+      "comentarios": null,
+      "carpeta": "01-10experiences"
+    },
+    {
+      "proyecto_id": 1,
+      "numero": 1,
+      "estado": "hecha",
+      "inicio": null,
+      "fin": "2026-09-25 18:55:26",
+      "costo_usd": null,
+      "resumen": null,
+      "comentarios": null,
+      "carpeta": "01-10experiences"
+    },
+    {
+      "proyecto_id": 1,
+      "numero": 2,
+      "estado": "hecha",
+      "inicio": null,
+      "fin": "2026-09-25 18:55:27",
+      "costo_usd": null,
+      "resumen": null,
+      "comentarios": null,
+      "carpeta": "01-10experiences"
+    },
+    {
+      "proyecto_id": 1,
+      "numero": 3,
+      "estado": "hecha",
+      "inicio": null,
+      "fin": "2026-09-25 18:55:27",
+      "costo_usd": null,
+      "resumen": null,
+      "comentarios": null,
+      "carpeta": "01-10experiences"
+    },
+    {
+      "proyecto_id": 1,
+      "numero": 4,
+      "estado": "hecha",
+      "inicio": null,
+      "fin": "2026-09-25 18:55:27",
+      "costo_usd": null,
+      "resumen": null,
+      "comentarios": null,
+      "carpeta": "01-10experiences"
+    },
+    {
+      "proyecto_id": 1,
+      "numero": 5,
+      "estado": "hecha",
+      "inicio": null,
+      "fin": "2026-09-25 18:55:27",
+      "costo_usd": null,
+      "resumen": null,
+      "comentarios": null,
+      "carpeta": "01-10experiences"
+    },
+    {
+      "proyecto_id": 1,
+      "numero": 6,
+      "estado": "hecha",
+      "inicio": null,
+      "fin": "2026-09-25 18:55:27",
+      "costo_usd": null,
+      "resumen": null,
+      "comentarios": null,
+      "carpeta": "01-10experiences"
+    },
+    {
+      "proyecto_id": 1,
+      "numero": 7,
+      "estado": "proximamente",
+      "inicio": null,
+      "fin": "2026-09-25 18:55:27",
+      "costo_usd": null,
+      "resumen": null,
+      "comentarios": null,
+      "carpeta": "01-10experiences"
+    },
+    {
+      "proyecto_id": 1,
+      "numero": 8,
+      "estado": "proximamente",
+      "inicio": null,
+      "fin": "2026-09-25 18:55:28",
+      "costo_usd": null,
+      "resumen": null,
+      "comentarios": null,
+      "carpeta": "01-10experiences"
+    }
+  ],
+  "versiones": [
+    {
+      "id": 1,
+      "proyecto_id": 1,
+      "etiqueta": "10experiences-v1",
+      "commit_hash": "3518999",
+      "fecha": "2026-09-25 18:55:28",
+      "notas": null,
+      "carpeta": "01-10experiences"
     }
   ],
   "tareas": [
@@ -122,6 +236,42 @@
     }
   ],
   "bitacora": [
+    {
+      "id": 19,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 18:55:28",
+      "autor": "claude",
+      "accion": "Versión registrada",
+      "detalle": "10experiences-v1",
+      "slug": "10experiences"
+    },
+    {
+      "id": 18,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 18:55:26",
+      "autor": "claude",
+      "accion": "Campo carpeta actualizado",
+      "detalle": "01-10experiences",
+      "slug": "10experiences"
+    },
+    {
+      "id": 17,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 18:55:26",
+      "autor": "claude",
+      "accion": "Campo numero actualizado",
+      "detalle": "1",
+      "slug": "10experiences"
+    },
+    {
+      "id": 16,
+      "proyecto_id": 1,
+      "fecha": "2026-09-25 18:55:02",
+      "autor": "persona",
+      "accion": "Commit v1",
+      "detalle": "git tag 10experiences-v1",
+      "slug": "10experiences"
+    },
     {
       "id": 15,
       "proyecto_id": 1,
