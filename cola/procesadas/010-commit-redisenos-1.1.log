@@ -1,0 +1,271 @@
+﻿Script: 20260926-2330-commit-redisenos-1.1.ps1
+Inicio: 09/26/2026 10:59:46
+Fin: 09/26/2026 10:59:49
+Codigo de salida: 0
+----------------------------------------
+Agregando 26 rutas a git...
+powershell.exe : warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+En C:\xampp\htdocs\project-1-25092026\herramientas\ejecutar-cola.ps1: 40 Carácter: 13
++   $salida = & powershell -NoProfile -ExecutionPolicy Bypass -File $s. ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: in the... Git touches it:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+warning: in the working copy of 'CLAUDE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'herramientas/descargar-assets.mjs', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'INSTRUCCIONES-METODO-1.1.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'METODOS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'OPORTUNIDADES.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'herramientas/candidatos-1.1.mjs', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'herramientas/nuevo-rediseno.mjs', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'herramientas/qa-rediseno.mjs', LF will be replaced by CRLF the next time Git touches 
+it
+warning: in the working copy of 'plantillas/rediseno-1.1/CAMBIOS.md', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/OPORTUNIDADES.md', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/gitignore.txt', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/index.html', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/package.json', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/plan-diseno.md', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/src/App.tsx', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/src/data/content.ts', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/src/index.css', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/src/main.tsx', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/tsconfig.json', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'plantillas/rediseno-1.1/vite.config.ts', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/CAMBIOS.md', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/OPORTUNIDADES.md', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/entregables/plan-diseno.md', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/qa/reporte-rediseno.json', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/rediseno/.gitignore', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/rediseno/index.html', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/rediseno/package-lock.json', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/rediseno/package.json', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/rediseno/src/App.tsx', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/rediseno/src/data/content.ts', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/rediseno/src/index.css', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/rediseno/src/main.tsx', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/rediseno/tsconfig.json', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/02-1mrfitness/rediseno/vite.config.ts', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/CAMBIOS.md', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/OPORTUNIDADES.md', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/entregables/plan-diseno.md', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/qa/reporte-rediseno.json', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/.gitignore', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/index.html', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/package-lock.json', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/package.json', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/src/App.tsx', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/src/data/content.ts', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/src/data/menu.json', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/src/index.css', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/src/main.tsx', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/tsconfig.json', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/175-casaorigenes/rediseno/vite.config.ts', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/540-hotelpomelo/assets-1.2.json', LF will be replaced by CRLF the next time 
+Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/CAMBIOS.md', LF will be replaced by CRLF the next time Git 
+touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/OPORTUNIDADES.md', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/entregables/plan-diseno.md', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/qa/reporte-rediseno.json', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/.gitignore', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/IMAGENES.txt', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/index.html', LF will be replaced by CRLF the next 
+time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/package-lock.json', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/package.json', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/src/App.tsx', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/src/data/content.ts', LF will be replaced by CRLF 
+the next time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/src/index.css', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/src/main.tsx', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/tsconfig.json', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'proyectos/641-lapuertaroja/rediseno/vite.config.ts', LF will be replaced by CRLF the 
+next time Git touches it
+M  .gitignore
+M  CLAUDE.md
+A  INSTRUCCIONES-METODO-1.1.md
+A  METODOS.md
+A  OPORTUNIDADES.md
+A  herramientas/candidatos-1.1.mjs
+M  herramientas/descargar-assets.mjs
+A  herramientas/nuevo-rediseno.mjs
+A  herramientas/qa-rediseno.mjs
+A  plantillas/rediseno-1.1/CAMBIOS.md
+A  plantillas/rediseno-1.1/OPORTUNIDADES.md
+A  plantillas/rediseno-1.1/gitignore.txt
+A  plantillas/rediseno-1.1/index.html
+A  plantillas/rediseno-1.1/package.json
+A  plantillas/rediseno-1.1/plan-diseno.md
+A  plantillas/rediseno-1.1/src/App.tsx
+A  plantillas/rediseno-1.1/src/data/content.ts
+A  plantillas/rediseno-1.1/src/index.css
+A  plantillas/rediseno-1.1/src/main.tsx
+A  plantillas/rediseno-1.1/tsconfig.json
+A  plantillas/rediseno-1.1/vite.config.ts
+A  proyectos/02-1mrfitness/CAMBIOS.md
+A  proyectos/02-1mrfitness/OPORTUNIDADES.md
+A  proyectos/02-1mrfitness/entregables/comparacion-antes-despues.jpg
+A  proyectos/02-1mrfitness/entregables/plan-diseno.md
+A  proyectos/02-1mrfitness/qa/reporte-rediseno.json
+A  proyectos/02-1mrfitness/rediseno/.gitignore
+A  proyectos/02-1mrfitness/rediseno/index.html
+A  proyectos/02-1mrfitness/rediseno/package-lock.json
+A  proyectos/02-1mrfitness/rediseno/package.json
+A  proyectos/02-1mrfitness/rediseno/src/App.tsx
+A  proyectos/02-1mrfitness/rediseno/src/data/content.ts
+A  proyectos/02-1mrfitness/rediseno/src/index.css
+A  proyectos/02-1mrfitness/rediseno/src/main.tsx
+A  proyectos/02-1mrfitness/rediseno/tsconfig.json
+A  proyectos/02-1mrfitness/rediseno/vite.config.ts
+A  proyectos/175-casaorigenes/CAMBIOS.md
+A  proyectos/175-casaorigenes/OPORTUNIDADES.md
+A  proyectos/175-casaorigenes/entregables/comparacion-antes-despues.jpg
+A  proyectos/175-casaorigenes/entregables/plan-diseno.md
+A  proyectos/175-casaorigenes/qa/reporte-rediseno.json
+A  proyectos/175-casaorigenes/rediseno/.gitignore
+A  proyectos/175-casaorigenes/rediseno/index.html
+A  proyectos/175-casaorigenes/rediseno/package-lock.json
+A  proyectos/175-casaorigenes/rediseno/package.json
+A  proyectos/175-casaorigenes/rediseno/src/App.tsx
+A  proyectos/175-casaorigenes/rediseno/src/data/content.ts
+A  proyectos/175-casaorigenes/rediseno/src/data/menu.json
+A  proyectos/175-casaorigenes/rediseno/src/index.css
+A  proyectos/175-casaorigenes/rediseno/src/main.tsx
+A  proyectos/175-casaorigenes/rediseno/tsconfig.json
+A  proyectos/175-casaorigenes/rediseno/vite.config.ts
+A  proyectos/540-hotelpomelo/assets-1.2.json
+A  proyectos/641-lapuertaroja/CAMBIOS.md
+A  proyectos/641-lapuertaroja/OPORTUNIDADES.md
+A  proyectos/641-lapuertaroja/entregables/comparacion-antes-despues.jpg
+A  proyectos/641-lapuertaroja/entregables/plan-diseno.md
+A  proyectos/641-lapuertaroja/qa/reporte-rediseno.json
+A  proyectos/641-lapuertaroja/rediseno/.gitignore
+A  proyectos/641-lapuertaroja/rediseno/IMAGENES.txt
+[main cfb176b] M├®todo 1.1: redise├▒os de 1MR Fitness, Casa Or├¡genes y La Puerta Roja, CAMBIOS.md y OPORTUNIDADES.md por sitio, herramientas (candidatos, nuevo-rediseno, qa-rediseno) e INSTRUCCIONES-METODO-1.1.md
+ 69 files changed, 12632 insertions(+), 11 deletions(-)
+ create mode 100644 INSTRUCCIONES-METODO-1.1.md
+ create mode 100644 METODOS.md
+ create mode 100644 OPORTUNIDADES.md
+ create mode 100644 herramientas/candidatos-1.1.mjs
+ create mode 100644 herramientas/nuevo-rediseno.mjs
+ create mode 100644 herramientas/qa-rediseno.mjs
+ create mode 100644 plantillas/rediseno-1.1/CAMBIOS.md
+ create mode 100644 plantillas/rediseno-1.1/OPORTUNIDADES.md
+ create mode 100644 plantillas/rediseno-1.1/gitignore.txt
+ create mode 100644 plantillas/rediseno-1.1/index.html
+ create mode 100644 plantillas/rediseno-1.1/package.json
+ create mode 100644 plantillas/rediseno-1.1/plan-diseno.md
+ create mode 100644 plantillas/rediseno-1.1/src/App.tsx
+ create mode 100644 plantillas/rediseno-1.1/src/data/content.ts
+ create mode 100644 plantillas/rediseno-1.1/src/index.css
+ create mode 100644 plantillas/rediseno-1.1/src/main.tsx
+ create mode 100644 plantillas/rediseno-1.1/tsconfig.json
+ create mode 100644 plantillas/rediseno-1.1/vite.config.ts
+ create mode 100644 proyectos/02-1mrfitness/CAMBIOS.md
+ create mode 100644 proyectos/02-1mrfitness/OPORTUNIDADES.md
+ create mode 100644 proyectos/02-1mrfitness/entregables/comparacion-antes-despues.jpg
+ create mode 100644 proyectos/02-1mrfitness/entregables/plan-diseno.md
+ create mode 100644 proyectos/02-1mrfitness/qa/reporte-rediseno.json
+ create mode 100644 proyectos/02-1mrfitness/rediseno/.gitignore
+ create mode 100644 proyectos/02-1mrfitness/rediseno/index.html
+ create mode 100644 proyectos/02-1mrfitness/rediseno/package-lock.json
+ create mode 100644 proyectos/02-1mrfitness/rediseno/package.json
+ create mode 100644 proyectos/02-1mrfitness/rediseno/src/App.tsx
+ create mode 100644 proyectos/02-1mrfitness/rediseno/src/data/content.ts
+ create mode 100644 proyectos/02-1mrfitness/rediseno/src/index.css
+ create mode 100644 proyectos/02-1mrfitness/rediseno/src/main.tsx
+ create mode 100644 proyectos/02-1mrfitness/rediseno/tsconfig.json
+ create mode 100644 proyectos/02-1mrfitness/rediseno/vite.config.ts
+ create mode 100644 proyectos/175-casaorigenes/CAMBIOS.md
+ create mode 100644 proyectos/175-casaorigenes/OPORTUNIDADES.md
+ create mode 100644 proyectos/175-casaorigenes/entregables/comparacion-antes-despues.jpg
+ create mode 100644 proyectos/175-casaorigenes/entregables/plan-diseno.md
+ create mode 100644 proyectos/175-casaorigenes/qa/reporte-rediseno.json
+ create mode 100644 proyectos/175-casaorigenes/rediseno/.gitignore
+ create mode 100644 proyectos/175-casaorigenes/rediseno/index.html
+ create mode 100644 proyectos/175-casaorigenes/rediseno/package-lock.json
+ create mode 100644 proyectos/175-casaorigenes/rediseno/package.json
+ create mode 100644 proyectos/175-casaorigenes/rediseno/src/App.tsx
+ create mode 100644 proyectos/175-casaorigenes/rediseno/src/data/content.ts
+ create mode 100644 proyectos/175-casaorigenes/rediseno/src/data/menu.json
+ create mode 100644 proyectos/175-casaorigenes/rediseno/src/index.css
+ create mode 100644 proyectos/175-casaorigenes/rediseno/src/main.tsx
+ create mode 100644 proyectos/175-casaorigenes/rediseno/tsconfig.json
+ create mode 100644 proyectos/175-casaorigenes/rediseno/vite.config.ts
+ create mode 100644 proyectos/540-hotelpomelo/assets-1.2.json
+ create mode 100644 proyectos/641-lapuertaroja/CAMBIOS.md
+ create mode 100644 proyectos/641-lapuertaroja/OPORTUNIDADES.md
+ create mode 100644 proyectos/641-lapuertaroja/entregables/comparacion-antes-despues.jpg
+ create mode 100644 proyectos/641-lapuertaroja/entregables/plan-diseno.md
+ create mode 100644 proyectos/641-lapuertaroja/qa/reporte-rediseno.json
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/.gitignore
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/IMAGENES.txt
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/index.html
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/package-lock.json
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/package.json
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/src/App.tsx
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/src/data/content.ts
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/src/index.css
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/src/main.tsx
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/tsconfig.json
+ create mode 100644 proyectos/641-lapuertaroja/rediseno/vite.config.ts
+cfb176b M├®todo 1.1: redise├▒os de 1MR Fitness, Casa Or├¡genes y La Puerta Roja, CAMBIOS.md y OPORTUNIDADES.md por sitio, herramientas (candidatos, nuevo-rediseno, qa-rediseno) e INSTRUCCIONES-METODO-1.1.md
+cd53451 fabricador: guarda original.html en scrape; clonar.mjs; CLAUDE.md actualizado
+de260fb fabricador: orquestador masivo con SQLite (1,173 sitios)
+

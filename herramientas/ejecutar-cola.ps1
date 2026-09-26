@@ -18,7 +18,7 @@ function Siguiente-Numero {
     Where-Object { $_.Name -match '^(\d{3})-' } | ForEach-Object { [int]$Matches[1] }
   $max = 0
   if ($nums) { $max = ($nums | Measure-Object -Maximum).Maximum }
-  return '{0:D3}' -f ($max + 1)
+  return '{0:D3}' -f [int]($max + 1)
 }
 function Nombre-Limpio($base) { return ($base -replace '^\d{8}-\d{4}-', '') }
 
