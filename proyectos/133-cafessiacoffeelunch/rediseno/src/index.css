@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Fuentes de su sitio (Google Fonts en el original: Playfair Display y DM Sans), servidas con @fontsource, solo latino. */
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-600-italic.woff2") format("woff2"); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: el naranja (#e6661f) y el verde olivo (#9e8c18) de su logo y su CSS, el café oscuro (#2a2118) de su texto,
+   el rosa (#f7bcb2) de su acento y el blanco del vaso de papel. */
+@theme {
+  --color-vaso: #fffdf9;
+  --color-crema: #f4ece2;
+  --color-cafe: #2a2118;
+  --color-texto: #5a4a3c;
+  --color-naranja: #e6661f;
+  --color-naranja-oscuro: #a8440e;
+  --color-olivo: #5f5410;
+  --color-olivo-claro: #c4b53a;
+  --color-rosa: #f7bcb2;
+  --font-sans: "DM Sans", "Segoe UI", sans-serif;
+  --font-titulo: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+  body { @apply bg-vaso text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3, h4, legend { @apply text-cafe; line-height: 1.08; text-wrap: balance; }
+  .oscuro h2, .oscuro h3, .oscuro legend { color: var(--color-vaso); }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-naranja-oscuro); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-olivo-claro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-cafe, .btn-linea, .btn-linea-cafe, .btn-claro, .btn-naranja {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-naranja-oscuro text-white hover:bg-cafe; }
+  .btn-cafe { @apply bg-cafe text-vaso hover:bg-vaso hover:text-cafe; }
+  .btn-linea, .btn-linea-cafe { @apply border-2 border-cafe/70 text-cafe hover:border-cafe hover:bg-cafe/5; }
+  .btn-naranja { @apply bg-naranja text-cafe hover:bg-vaso; }
+  .btn-claro { @apply border-2 border-vaso/50 text-vaso hover:border-vaso hover:bg-vaso/10; }
+  .precio { font-variant-numeric: tabular-nums; }
+  .puntos { @apply min-w-4 flex-1 border-b border-dotted border-cafe/35; transform: translateY(-0.35em); }
+  .capa { transition: y 0.5s ease, height 0.5s ease; }
+}

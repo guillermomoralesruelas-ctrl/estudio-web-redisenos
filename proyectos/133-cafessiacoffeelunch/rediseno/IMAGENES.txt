@@ -1,0 +1,20 @@
+# Imágenes disponibles en publicDir (../sitio/assets/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+muffing-papas.png	896x1200	1406 KB
+americano.png	1024x1024	1222 KB
+chai-latte.png	864x1184	1177 KB
+latte.png	1024x1024	1167 KB
+dirty-chai-latte.png	864x1184	1162 KB
+capuccino.png	864x1184	1157 KB
+croissant-papas.png	1408x736	1120 KB
+tisana.png	864x1184	1097 KB
+morning-burrito-papas.png	864x1184	1083 KB
+limonada.png	864x1184	1028 KB
+map.png	1198x744	497 KB
+hero-bg1.jpg	1536x1024	440 KB
+galleta.png	611x378	430 KB
+refresco.jpeg	1000x1000	242 KB
+banana-crumble.jpeg	900x1600	166 KB
+logo.png	768x321	24 KB
+logo-c.png	50x49	4 KB
+favicon.png	32x32	2 KB
