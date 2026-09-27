@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Su sitio usa fuentes del sistema. Bricolage Grotesque (títulos) y Figtree (texto), de @fontsource, solo latino. */
+@font-face { font-family: "Bricolage Grotesque"; src: url("../node_modules/@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Bricolage Grotesque"; src: url("../node_modules/@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: el azul marino y el verde salvia de su logo; el naranja del atardecer sobre la presa (sus paquetes de lancha
+   "al atardecer") para las acciones. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-marino: #0b3f5c;
+  --color-salvia: #5f8f78;
+  --color-salvia-hondo: #3d6653;
+  --color-sol: #c2521b;
+  --color-sol-hondo: #a3410f;
+  --color-claro: #9fd0c0;
+  --color-cielo: #eef4f7;
+  --color-arena: #f7f2ea;
+  --color-texto: #3b4a55;
+  --font-display: "Bricolage Grotesque", "Segoe UI", sans-serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply text-marino font-display; font-weight: 800; line-height: 1.05; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-sol-hondo); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-claro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-sol text-white hover:bg-sol-hondo; }
+  .btn-linea { @apply border-2 border-marino/25 text-marino hover:border-marino hover:bg-cielo; }
+  .btn-claro { @apply border-2 border-white/60 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-bold text-sol-hondo underline decoration-2 underline-offset-4 hover:text-marino; }
+  .oscuro .enlace { @apply text-claro hover:text-white; }
+}
+
