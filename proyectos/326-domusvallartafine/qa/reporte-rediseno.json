@@ -1,0 +1,128 @@
+{
+  "fecha": "2026-09-27T15:30:28.388Z",
+  "carpeta": "326-domusvallartafine",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5462,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 142,
+      "rotas": [
+        "https://domusvallarta.com/media/portrait-817-qsmcs1jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "DOMUS Vallarta Fine Real Estate | Bienes Raíces en Riviera Nayarit y Puerto Vallarta",
+      "errores": [
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "bootstrap is not defined",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/casas-y-villas.webp",
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/departamentos.webp",
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/lotes.webp",
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/fraccional.webp",
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/preventa.webp",
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/inventario-mls.webp"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7638,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 142,
+      "rotas": [
+        "https://domusvallarta.com/media/portrait-817-qsmcs1jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "DOMUS Vallarta Fine Real Estate | Bienes Raíces en Riviera Nayarit y Puerto Vallarta",
+      "errores": [
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "bootstrap is not defined",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/casas-y-villas.webp",
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/departamentos.webp",
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/lotes.webp",
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/fraccional.webp",
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/preventa.webp",
+        "404 http://127.0.0.1:44201/assets/img/menu-cards/inventario-mls.webp"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6092,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 14,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "DOMUS Vallarta | Bienes raíces en Puerto Vallarta y Riviera Nayarit",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 10606,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 14,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "DOMUS Vallarta | Bienes raíces en Puerto Vallarta y Riviera Nayarit",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
