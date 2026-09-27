@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* Fuentes: Nunito es la de su tema (main-custom.css); Zilla Slab para títulos y Caveat solo para lo "escrito a mano"
+   en la postal. De @fontsource, solo el subconjunto latino. */
+@font-face { font-family: "Nunito"; src: url("../node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Nunito"; src: url("../node_modules/@fontsource/nunito/files/nunito-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Nunito"; src: url("../node_modules/@fontsource/nunito/files/nunito-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "Zilla Slab"; src: url("../node_modules/@fontsource/zilla-slab/files/zilla-slab-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Zilla Slab"; src: url("../node_modules/@fontsource/zilla-slab/files/zilla-slab-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Caveat"; src: url("../node_modules/@fontsource/caveat/files/caveat-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+
+/* Tokens: el naranja de su símbolo (#e96b00), su verde (#007b37) llevado a bosque, el lago de su panorámica, el papel de
+   una postal y la tinta azul de pluma. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-bosque: #0f3b2a;
+  --color-bosque-claro: #1a5a40;
+  --color-naranja: #e96b00;
+  --color-naranja-hondo: #a64700;
+  --color-naranja-claro: #ff9a3d;
+  --color-lago: #1d5c63;
+  --color-papel: #f6efe2;
+  --color-carton: #ebe0cb;
+  --color-tinta: #1c2620;
+  --color-pluma: #27407a;
+  --font-sans: "Nunito", "Segoe UI", sans-serif;
+  --font-titulo: "Zilla Slab", Georgia, serif;
+  --font-mano: "Caveat", "Segoe Print", cursive;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-titulo; font-weight: 700; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-pluma); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-naranja); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-4 sm:px-8; }
+  .btn, .btn-bosque, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-extrabold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-naranja text-tinta hover:bg-[#ff8a24]; }
+  .btn-bosque { @apply bg-bosque text-white hover:bg-bosque-claro; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .btn-claro { @apply border-2 border-white/45 text-white hover:border-white hover:bg-white/10; }
+  .cifra { font-variant-numeric: tabular-nums; }
+  .enlace { @apply font-bold text-naranja-hondo underline decoration-2 underline-offset-4 hover:text-tinta; }
+  .chip { @apply rounded-full border-2 border-tinta/20 bg-white px-3 py-1.5 text-sm font-bold text-tinta transition-colors hover:border-tinta; min-height: 40px; }
+  .chip[aria-pressed="true"] { @apply border-pluma bg-pluma text-white; }
+}
+
+/* La postal: cartulina con renglones para la dirección. */
+.cartulina {
+  background-color: #fbf7ee;
+  background-image: radial-gradient(rgba(28, 38, 32, 0.035) 1px, transparent 1px);
+  background-size: 6px 6px;
+}
+.renglon { border-bottom: 1.5px solid rgba(39, 64, 122, 0.35); }
+
+/* Al cambiar de experiencia, la postal "cae" en su lugar (quieta con prefers-reduced-motion). */
+.cae { animation: cae 0.45s cubic-bezier(0.2, 0.8, 0.2, 1); }
+@keyframes cae { from { opacity: 0; transform: translateY(-10px) rotate(-2deg); } to { opacity: 1; transform: none; } }
+.sello { animation: sella 0.35s ease-out; transform-origin: center; }
+@keyframes sella { from { opacity: 0; transform: scale(1.25) rotate(-8deg); } to { opacity: 1; transform: none; } }
