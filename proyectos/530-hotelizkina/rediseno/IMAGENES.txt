@@ -1,0 +1,23 @@
+# Imágenes disponibles en publicDir (../sitio/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+fonts/fontawesome-webfont.svg	?	437 KB
+fonts/fl-bigmug-line.svg	?	270 KB
+uploads/rooms/1751058587_d803ce025057a01e13ba.jpg	1600x1090	243 KB
+uploads/rooms/1751061146_b9d8733e2493e40472af.jpg	1600x1067	235 KB
+uploads/rooms/1751060663_f6fd16194c7df36484ee.jpg	1600x1067	232 KB
+uploads/rooms/1751058069_e11f34ef263036ce4a2c.jpg	1600x1067	226 KB
+images/about-us-1.jpg	720x459	53 KB
+uploads/settings/1752010006_5d2bd3e7ab5387051d49.png	310x310	14 KB
+uploads/settings/1752009691_21605acbfa40e6edfafa.webp	426x428	12 KB
+images/estancia/estancia-2.jpg	210x210	12 KB
+images/estancia/estancia-3.jpg	210x210	12 KB
+images/estancia/estancia-6.jpg	210x210	11 KB
+images/estancia/estancia-4.jpg	210x210	10 KB
+images/estancia/estancia-5.jpg	210x210	9 KB
+images/logo/izkina-cafe.png	426x428	9 KB
+fonts/lg.svg	?	9 KB
+images/estancia/estancia-1.jpg	210x210	7 KB
+uploads/settings/1752009826_e1a4564dcc83e7297b29.webp	210x50	5 KB
+images/loading.gif	32x32	3 KB
+images/divider-decorate.png	54x11	1 KB
+images/breadcrumbs-decorate.png	55x11	0 KB

@@ -1,0 +1,66 @@
+{
+  "fecha": "2026-09-27T12:01:52.244Z",
+  "carpeta": "530-hotelizkina",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3914,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 21,
+      "rotas": [],
+      "sinAlt": 1,
+      "titulo": "Hotel Izkina",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6225,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 21,
+      "rotas": [],
+      "sinAlt": 1,
+      "titulo": "Hotel Izkina",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5781,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel Izkina | Casa hotel en el centro de Cozumel",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9753,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel Izkina | Casa hotel en el centro de Cozumel",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

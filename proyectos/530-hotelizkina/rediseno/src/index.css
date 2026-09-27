@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Fuentes de su sitio (style.css las pide a Google Fonts): Oswald para títulos y Lato para el texto.
+   De @fontsource, solo el subconjunto latino. */
+@font-face { font-family: "Oswald"; src: url("../node_modules/@fontsource/oswald/files/oswald-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Oswald"; src: url("../node_modules/@fontsource/oswald/files/oswald-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: las paredes de chukum de sus fotos, el café y el arena de su logotipo, el verde salvia de su sección "IZKINA"
+   y el agua de la alberca (el turquesa #267377 de su CSS, oscurecido). Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-chukum: #f3ebdf;
+  --color-papel: #fbf7f1;
+  --color-tinta: #2b2118;
+  --color-texto: #5a4a3b;
+  --color-cafe: #7a5f3c;
+  --color-arena: #d7a46f;
+  --color-salvia: #a3b5aa;
+  --color-agua: #1f6468;
+  --font-sans: "Lato", "Segoe UI", sans-serif;
+  --font-titulo: "Oswald", "Arial Narrow", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-chukum text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.7; }
+  h1, h2, h3 { @apply text-tinta font-titulo; font-weight: 500; line-height: 1.08; letter-spacing: 0; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-agua); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-arena); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-agua, .btn-linea, .btn-arena {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-cafe text-white hover:bg-tinta; }
+  .btn-agua { @apply bg-agua text-white hover:bg-tinta; }
+  .btn-arena { @apply bg-arena text-tinta hover:bg-white; }
+  .btn-linea { @apply border border-tinta/30 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .cifra { font-variant-numeric: tabular-nums; }
+  .enlace { @apply font-bold text-agua underline decoration-arena decoration-2 underline-offset-4 hover:text-tinta; }
+}
+
+/* "¿Con qué quieres despertar?": el camino del centro a la esquina se dibuja (quieto con prefers-reduced-motion). */
+.camino { stroke-dasharray: 1; stroke-dashoffset: 1; animation: trazar 0.7s ease-out forwards; }
+@keyframes trazar { to { stroke-dashoffset: 0; } }
+.pajaro { transition: opacity 0.25s, transform 0.25s; transform-box: fill-box; transform-origin: center; }
+.ficha { animation: aparece 0.35s ease-out; }
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
