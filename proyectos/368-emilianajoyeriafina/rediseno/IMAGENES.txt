@@ -1,0 +1,21 @@
+# Imágenes disponibles en publicDir (../sitio/assets/cdn/shop), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+collections/IMG-4449.png	1500x1500	3329 KB
+collections/IMG-4446.png	1086x1448	1730 KB
+files/IMG_9186.jpg	3024x4032	1083 KB
+files/IMG_1822.jpg	3024x4032	1047 KB
+files/IMG_2336.jpg	3024x4032	914 KB
+files/6CB3AF3A-4EBF-4823-935E-A8E60F8E6268.jpg	3024x4032	762 KB
+files/IMG_3068.jpg	3024x3024	750 KB
+collections/9FF5FC95-E68F-4E76-995C-E6731D7B6C63.jpg	1500x2000	346 KB
+files/IMG_1786.jpg	3070x1947	261 KB
+t/1/assets/sparkle.gif	500x500	175 KB
+collections/272E5EE1-EA0D-4586-96DC-02A9FD59005C.webp	1080x1080	171 KB
+collections/835237B4-0EC3-4BC0-87FA-CBD6C008009C.jpg	1179x1158	145 KB
+files/EE60A0DF-6E66-4CA0-8467-72607EFA3CC5.jpg	1440x1440	133 KB
+collections/F75FC1F0-C562-4B8A-A478-7577483EE511.webp	1080x1080	119 KB
+files/xx-removebg-preview.png	416x382	63 KB
+files/1000_F_318385552_gIYiK3XJrldCD66Fon6k4XRAK68KXqz3-removebg-preview.png	389x247	31 KB
+files/diamante.png	512x512	11 KB
+files/Emiliana_logo-01.png	978x280	9 KB
+files/Emiliana_logo-05.png	32x32	2 KB

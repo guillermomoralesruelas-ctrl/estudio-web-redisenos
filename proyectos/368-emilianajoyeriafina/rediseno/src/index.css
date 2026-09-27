@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/latin-600.css";
+@import "@fontsource/lato/latin-400.css";
+@import "@fontsource/lato/latin-700.css";
+
+@theme {
+  --color-fondo:     #faf9f6;
+  --color-oscuro:    #0f0c07;
+  --color-tinta:     #2c2010;
+  --color-oro:       #b8903a;
+  --color-oro-suave: #f0e6c8;
+  --color-piedra:    #7a5f3a;
+  --font-serif:      "Cormorant Garamond", "Georgia", serif;
+  --font-sans:       "Lato", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3, h4 { font-family: var(--font-serif); font-weight: 600; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-oro {
+    @apply inline-flex items-center gap-2 bg-oro text-white font-sans font-bold
+           px-6 py-3 rounded-sm text-sm tracking-wide transition-opacity;
+  }
+  .btn-oro:hover { opacity: 0.88; }
+  .btn-contorno {
+    @apply inline-flex items-center gap-2 border border-current font-sans font-bold
+           px-6 py-3 rounded-sm text-sm tracking-wide transition-colors;
+  }
+}
