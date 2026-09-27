@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* Fuente de su tema (Elementor): Archivo en todo el sitio. De @fontsource, solo el subconjunto latino. */
+@font-face { font-family: "Archivo"; src: url("../node_modules/@fontsource/archivo/files/archivo-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Archivo"; src: url("../node_modules/@fontsource/archivo/files/archivo-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Archivo"; src: url("../node_modules/@fontsource/archivo/files/archivo-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
+
+/* Tokens: los colores de su logo y de su fachada (el perrito de triángulos naranja, amarillo, azul y café) y el azul
+   marino de sus uniformes y de su tema (#180A32). Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-marino: #180a32;
+  --color-marino-suave: #2a1d45;
+  --color-naranja: #eb6f3e;
+  --color-naranja-honda: #b9461a;
+  --color-amarillo: #f5b920;
+  --color-azul: #008fd2;
+  --color-azul-hondo: #006a9e;
+  --color-crema: #fff8ee;
+  --color-texto: #4a4458;
+  --font-sans: "Archivo", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply text-marino; font-weight: 800; line-height: 1.08; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .noche h1, .noche h2, .noche h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-azul-hondo); outline-offset: 3px; border-radius: 4px; }
+  .noche :focus-visible { outline-color: var(--color-amarillo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-[0.98rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-naranja text-marino hover:bg-amarillo; }
+  .btn-linea { @apply border-2 border-marino/25 text-marino hover:border-marino hover:bg-white; }
+  .btn-claro { @apply border-2 border-white/50 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-semibold text-naranja-honda underline decoration-2 underline-offset-4 hover:text-marino; }
+  .noche .enlace { @apply text-amarillo hover:text-white; }
+  .antetitulo { @apply text-base font-semibold text-naranja-honda; }
+  .noche .antetitulo { @apply text-amarillo; }
+}
+
+/* Triángulos de su logo como decoración. */
+.tri { clip-path: polygon(0 0, 100% 50%, 0 100%); }
+.tri-b { clip-path: polygon(0 0, 100% 0, 50% 100%); }
+
+/* Checklist: la palomita se dibuja al marcar (quieta con prefers-reduced-motion). */
+.palomita path { stroke-dasharray: 1; stroke-dashoffset: 0; animation: palomear 0.35s ease-out; }
+@keyframes palomear { from { stroke-dashoffset: 1; } }
+.aparece { animation: aparece 0.3s ease-out; }
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
