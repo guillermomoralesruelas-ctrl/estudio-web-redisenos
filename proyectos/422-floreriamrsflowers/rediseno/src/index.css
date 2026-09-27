@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/latin-600.css";
+@import "@fontsource/lato/latin-400.css";
+@import "@fontsource/lato/latin-700.css";
+
+/* Tokens de Florería Mrs. Flowers */
+@theme {
+  --color-fondo:       #fdf8f0;
+  --color-tinta:       #2a1f1a;
+  --color-oscuro:      #1a2e24;
+  --color-rosa:        #e06b8a;
+  --color-rosa-suave:  #fceef3;
+  --color-dorado:      #b8962e;
+  --color-crema:       #f0e6d0;
+  --font-titulo: "Cormorant Garamond", Georgia, serif;
+  --font-sans:   "Lato", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3 { font-family: var(--font-titulo); text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rosa); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-wa {
+    @apply inline-flex items-center gap-2 rounded-full bg-oscuro px-6 py-3 text-white font-bold text-sm leading-tight transition-colors hover:bg-green-900 focus-visible:ring-2 focus-visible:ring-oscuro focus-visible:ring-offset-2;
+  }
+  .btn-wa-rosa {
+    @apply inline-flex items-center gap-2 rounded-full bg-rosa px-6 py-3 text-white font-bold text-sm leading-tight transition-colors hover:bg-pink-700 focus-visible:ring-2 focus-visible:ring-rosa focus-visible:ring-offset-2;
+  }
+  .cat-btn {
+    @apply rounded-xl border-2 border-crema px-4 py-2 text-sm font-bold transition-all cursor-pointer bg-fondo text-tinta hover:border-rosa hover:text-rosa;
+  }
+  .cat-btn.activa {
+    @apply border-rosa bg-rosa-suave text-rosa;
+  }
+}
