@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Raleway es la fuente de su tema de Odoo; Marcellus, romanas grabadas como las del letrero de su recepción.
+   @fontsource, solo latino. */
+@font-face { font-family: "Raleway"; src: url("../node_modules/@fontsource/raleway/files/raleway-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Raleway"; src: url("../node_modules/@fontsource/raleway/files/raleway-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Raleway"; src: url("../node_modules/@fontsource/raleway/files/raleway-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Raleway"; src: url("../node_modules/@fontsource/raleway/files/raleway-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Marcellus"; src: url("../node_modules/@fontsource/marcellus/files/marcellus-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+
+/* Tokens: su color 1 (#343A40) y su color 2 (#A48D78) de Odoo, el taupe oscurecido para texto, y marfil, arena y luz
+   sacados de sus fotos. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-carbon: #343a40;
+  --color-carbon-hondo: #2a2e33;
+  --color-taupe: #a48d78;
+  --color-taupe-hondo: #6b5644;
+  --color-marfil: #f6f1ea;
+  --color-arena: #e9dfd2;
+  --color-luz: #e8c98f;
+  --color-gris: #5c5f63;
+  --font-sans: "Raleway", "Segoe UI", sans-serif;
+  --font-titulo: "Marcellus", "Georgia", serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-marfil text-carbon font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; font-variant-numeric: lining-nums; }
+  h1, h2, h3 { @apply font-titulo font-normal; line-height: 1.12; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-taupe-hondo); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro, .btn-luz {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-carbon text-white hover:bg-taupe-hondo; }
+  .btn-luz { @apply bg-luz text-carbon-hondo hover:bg-white; }
+  .btn-linea { @apply border border-carbon/35 text-carbon hover:border-carbon hover:bg-arena; }
+  .btn-claro { @apply border border-white/60 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-semibold text-taupe-hondo underline decoration-1 underline-offset-4 hover:text-carbon; }
+}
+
+/* El pase se "imprime" con un fundido corto cuando cambia (quieto con prefers-reduced-motion). */
+.imprime { animation: imprime 0.35s ease-out; }
+@keyframes imprime { from { opacity: 0.4; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+
