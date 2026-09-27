@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Montserrat es la fuente de su sitio (pages_styles-v7.css). @fontsource, solo latino. */
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-300-normal.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: el azul de su barra (#34455F) y su verde (#246157, oscurecido), un cobre del banner de preventa y arena y
+   oro nuestros. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-marino: #34455f;
+  --color-noche: #1f2738;
+  --color-mar: #1f5a50;
+  --color-cobre: #8a4f2a;
+  --color-arena: #f4efe6;
+  --color-oro: #d9b779;
+  --color-oro-hondo: #9a7630; /* línea del tope y foco: 3.66:1 sobre arena */
+  --color-tinta: #1f2633;
+  --color-gris: #5a6272;
+  --font-sans: "Montserrat", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-white text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { line-height: 1.12; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro-hondo); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro, .btn-oro {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm px-5 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-marino text-white hover:bg-noche; }
+  .btn-oro { @apply bg-oro text-noche hover:bg-white; }
+  .btn-linea { @apply border border-tinta/30 text-tinta hover:border-marino hover:bg-arena; }
+  .btn-claro { @apply border border-white/60 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-semibold text-mar underline decoration-1 underline-offset-4 hover:text-marino; }
+}
+
+/* La ficha elegida aparece con un fundido corto (quieta con prefers-reduced-motion). */
+.aparece { animation: aparece 0.3s ease-out; }
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
