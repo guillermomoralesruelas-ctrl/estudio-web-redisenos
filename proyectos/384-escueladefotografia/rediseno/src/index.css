@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Barlow Condensed (títulos, condensada como el logotipo "Susunaga Escuela de Fotografía & Arte"), Barlow (texto) e
+   IBM Plex Mono (la lectura del visor: velocidad, diafragma, ISO). De @fontsource, solo latino. */
+@font-face { font-family: "Barlow Condensed"; src: url("../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Condensed"; src: url("../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "IBM Plex Mono"; src: url("../node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+
+/* Tokens: el rojo de su logo (#9a0103), el negro de un cuarto oscuro y un papel de impresión cálido.
+   Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-tinta: #151413;
+  --color-carbon: #22201e;
+  --color-rojo: #9a0103;
+  --color-rojo-hondo: #6e0002;
+  --color-rojo-claro: #ff7a6e;
+  --color-papel: #f4f1ea;
+  --color-texto: #4a4642;
+  --color-humo: #a8a29a;
+  --color-visor: #e9e4d8;
+  --font-sans: "Barlow", "Segoe UI", sans-serif;
+  --font-titulo: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-titulo text-tinta; font-weight: 700; line-height: 1.02; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .noche h1, .noche h2, .noche h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-rojo); outline-offset: 3px; border-radius: 2px; }
+  .noche :focus-visible { outline-color: var(--color-rojo-claro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-claro, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-3 text-[1rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-rojo text-white hover:bg-rojo-hondo; }
+  .btn-claro { @apply border-2 border-white/60 text-white hover:border-white hover:bg-white/10; }
+  .btn-linea { @apply border-2 border-tinta/30 text-tinta hover:border-tinta; }
+  .enlace { @apply font-semibold text-rojo underline decoration-2 underline-offset-4 hover:text-tinta; }
+  .noche .enlace { @apply text-rojo-claro hover:text-white; }
+}
+
+/* El visor: la foto nueva "revela" al cambiar de cámara o de toma (quieta con prefers-reduced-motion). */
+.revela { animation: revela 0.45s ease-out; }
+@keyframes revela { from { opacity: 0; filter: brightness(1.8) contrast(0.6); } to { opacity: 1; filter: none; } }
