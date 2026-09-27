@@ -1,0 +1,17 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content/uploads/2026), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+07/153A4804-compressed.webp	590x885	187 KB
+07/537136.jpg	1080x570	164 KB
+07/1629.jpg	890x490	159 KB
+07/153A4845-compressed.webp	720x480	110 KB
+08/hotel-para-parejas-en-aguascalientes.webp	720x480	97 KB
+04/hotel-y-spa-la-mezquita.webp	1029x576	75 KB
+07/153A4411-compressed.webp	520x780	59 KB
+04/logo-lamezquita-color.png	700x141	58 KB
+07/153A4573-compressed.webp	520x347	54 KB
+04/figura_verde.svg	272x56	48 KB
+04/Logo-la-mezquita-1024x215.png	1024x215	48 KB
+04/hotelyspalamezquita121_1-1.webp	500x334	37 KB
+04/cropped-cropped-logo-mezquita-icon-192x192.png	192x192	36 KB
+04/cropped-cropped-logo-mezquita-icon-180x180.png	180x180	33 KB
+04/cropped-cropped-logo-mezquita-icon-32x32.png	32x32	2 KB

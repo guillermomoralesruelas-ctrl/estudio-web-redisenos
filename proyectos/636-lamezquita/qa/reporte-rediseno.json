@@ -1,0 +1,86 @@
+{
+  "fecha": "2026-09-27T07:04:26.968Z",
+  "carpeta": "636-lamezquita",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6726,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 4,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel en Aguascalientes | La Mezquita",
+      "errores": [
+        "Access to font at 'https://clinicasantuario.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1xlfq.woff2' from origin 'http://127.0.0.1:54921' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://clinicasantuario.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxieyp8kv8jhgfvrjjfecg.woff2' from origin 'http://127.0.0.1:54921' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://clinicasantuario.com/wp-content/uploads/elementor/google-fonts/fonts/lato-s6uyw4bmutphjx4wxg.woff2' from origin 'http://127.0.0.1:54921' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://clinicasantuario.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1xlfq.woff2' from origin 'http://127.0.0.1:54921' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://clinicasantuario.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-jtusjig1_i6t8kchkm459wlhyw.woff2' from origin 'http://127.0.0.1:54921' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9819,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 4,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel en Aguascalientes | La Mezquita",
+      "errores": [
+        "Access to font at 'https://clinicasantuario.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxieyp8kv8jhgfvrjjfecg.woff2' from origin 'http://127.0.0.1:54921' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://clinicasantuario.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrlcz7z1xlfq.woff2' from origin 'http://127.0.0.1:54921' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://clinicasantuario.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1xlfq.woff2' from origin 'http://127.0.0.1:54921' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://clinicasantuario.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-jtusjig1_i6t8kchkm459wlhyw.woff2' from origin 'http://127.0.0.1:54921' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8370,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Mezquita | Hotel boutique y spa para adultos en Aguascalientes",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 13514,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Mezquita | Hotel boutique y spa para adultos en Aguascalientes",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

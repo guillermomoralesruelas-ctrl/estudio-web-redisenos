@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* Fuentes de su sitio (solo latino, con @fontsource): Cormorant en los títulos (su trazo se parece a la letra del logo
+   "LA MEZQUITA") y Poppins en el texto. Su sitio las pide a otro dominio (clinicasantuario.com) y no cargan. */
+@font-face { font-family: "Cormorant"; src: url("../node_modules/@fontsource/cormorant/files/cormorant-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant"; src: url("../node_modules/@fontsource/cormorant/files/cormorant-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant"; src: url("../node_modules/@fontsource/cormorant/files/cormorant-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("../node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("../node_modules/@fontsource/poppins/files/poppins-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("../node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: el cobre de su logo (#b5663a), el oro de su CSS (#d3b574), su crema (#ffedde, apagada), el verde de los
+   azulejos del salón y la noche de sus lámparas. */
+@theme {
+  --color-arena: #f7f0e6;
+  --color-crema: #efe3d2;
+  --color-noche: #1b1511;
+  --color-cobre: #b5663a;
+  --color-cobre-oscuro: #8e4a22;
+  --color-oro: #d9b56f;
+  --color-oro-claro: #e9c98c;
+  --color-azulejo: #1f5b58;
+  --color-tinta: #231a15;
+  --color-texto: #5a4a3f;
+  --font-sans: "Poppins", "Segoe UI", sans-serif;
+  --font-titulo: "Cormorant", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+  body { @apply bg-arena text-texto font-sans antialiased; font-size: 1rem; line-height: 1.7; }
+  h1, h2, h3 { @apply text-tinta; line-height: 1.05; text-wrap: balance; }
+  .oscuro h2, .oscuro h3 { color: var(--color-arena); }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-cobre-oscuro); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-oro-claro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { font-family: var(--font-titulo); font-weight: 600; letter-spacing: 0.005em; }
+  .titulo.italic { font-weight: 500; }
+  .btn, .btn-linea, .btn-oro, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-medium transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-cobre-oscuro text-white hover:bg-tinta; }
+  .btn-linea { @apply border border-tinta/40 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .btn-oro { @apply bg-oro text-tinta hover:bg-oro-claro; }
+  .btn-claro { @apply border border-arena/50 text-arena hover:border-arena hover:bg-arena/10; }
+  .enlace { @apply font-medium text-cobre-oscuro underline decoration-cobre/50 decoration-2 underline-offset-4 hover:decoration-cobre-oscuro; }
+  .precio { font-variant-numeric: tabular-nums; }
+  /* El arco de su cabecera y sus puertas, como marco de foto (el trazado está en <ArcoDefs> de App.tsx). */
+  .arco { clip-path: url(#arco-clip); }
+  .puerta-luz { transition: opacity 0.5s ease; }
+  details > summary { list-style: none; cursor: pointer; }
+  details > summary::-webkit-details-marker { display: none; }
+  details[open] .mas { transform: rotate(45deg); }
+  .mas { transition: transform 0.2s ease; }
+}
