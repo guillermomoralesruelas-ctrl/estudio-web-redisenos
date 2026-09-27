@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Fuentes de su tema (Astra): Forum en títulos y DM Sans en texto. De @fontsource, solo el subconjunto latino. */
+@font-face { font-family: "Forum"; src: url("../node_modules/@fontsource/forum/files/forum-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: el amarillo (#ffd936), el verde musgo (#536942) y el blanco verdoso (#f6f8f5) de su tema, y el azul
+   profundo de sus fotos de cenote. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-abismo: #06161f;
+  --color-cenote: #0c3446;
+  --color-turquesa: #7fd3dc;
+  --color-sol: #ffd936;
+  --color-musgo: #536942;
+  --color-piedra: #f6f8f5;
+  --color-texto: #2d3a33;
+  --font-sans: "DM Sans", "Segoe UI", sans-serif;
+  --font-titulo: "Forum", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-piedra text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-titulo text-abismo; font-weight: 400; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-musgo); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-sol); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-sol text-abismo hover:bg-white; }
+  .btn-linea { @apply border border-abismo/30 text-abismo hover:border-abismo hover:bg-abismo/5; }
+  .btn-claro { @apply border border-white/50 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-bold text-musgo underline decoration-2 underline-offset-4 hover:text-abismo; }
+  .oscuro .enlace { @apply text-sol hover:text-white; }
+}
+
+/* "How far into the water?": el buzo baja o sube hasta el nivel elegido (quieto con prefers-reduced-motion). */
+.buzo { transition: transform 0.7s cubic-bezier(0.45, 0, 0.2, 1); }
+.rayo { animation: brillo 6s ease-in-out infinite alternate; }
+@keyframes brillo { from { opacity: 0.25; } to { opacity: 0.55; } }
+.ficha { animation: aparece 0.35s ease-out; }
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
