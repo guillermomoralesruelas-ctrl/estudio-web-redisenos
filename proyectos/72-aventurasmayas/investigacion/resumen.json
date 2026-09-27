@@ -1,0 +1,23 @@
+{
+  "sitio": "https://www.aventurasmayas.com.mx/",
+  "fecha": "2026-09-26T05:08:39.565Z",
+  "motor": "jina-reader",
+  "slug": "aventurasmayas",
+  "nombre": "Aventuras Mayas",
+  "rubro": "TURISMO",
+  "ciudad": "Cancún, Quintana Roo",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.aventurasmayas.com.mx/",
+      "titulo": "logo-tripadvisor-excelencia.svg"
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": [],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": []
+}

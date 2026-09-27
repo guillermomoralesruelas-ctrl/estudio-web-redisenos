@@ -1,0 +1,154 @@
+{
+  "sitio": "https://barberiaencancun.com/",
+  "fecha": "2026-09-26T08:20:11.533Z",
+  "motor": "jina-reader",
+  "slug": "hommebarbers",
+  "nombre": "Homme Barbers",
+  "rubro": "SPA",
+  "ciudad": "Cancún, Q.R.",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://barberiaencancun.com/",
+      "titulo": "Barbería en Cancún | Homme Barbers – Corte, Afeitado y Faciales Sin Cita"
+    },
+    {
+      "url": "https://barberiaencancun.com/corte-pelo-hombre-cancun/",
+      "titulo": "Corte de Pelo para Hombre en Cancún"
+    },
+    {
+      "url": "https://barberiaencancun.com/afeitado-y-arreglo-de-barba-cancun/",
+      "titulo": "Afeitado y Arreglo de Barba en Cancún | Diseño de Barba Profesional"
+    },
+    {
+      "url": "https://barberiaencancun.com/facial-exfoliante-cancun/",
+      "titulo": "Facial Exfoliante para Hombres en Cancún"
+    },
+    {
+      "url": "https://barberiaencancun.com/depilacion-cera-hombre-cancun/",
+      "titulo": "Depilación para Hombres en Cancún – Cejas y Espalda"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 998 103 3712",
+      "100086734545957"
+    ],
+    "emails": [],
+    "whatsapp": [],
+    "redes": [
+      "https://www.facebook.com/people/Homme-Barbers/100086734545957/",
+      "https://www.instagram.com/homme.barbers/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/12/Diseno-sin-titulo-43-min.png",
+      "alt": "Image 1: Diseño sin título (43)-min"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-014.png",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-min.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/6-min-1.jpg",
+      "alt": "Image 6: Barbershop cancun"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-1-min.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-2-min.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-3-min.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-4-min.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-5-min.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-6-min.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-06.png",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-09.png",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-08.png",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-07.png",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/unnamed-4.png",
+      "alt": "Image 17: HUGO ALBERTO SAMBERINO"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/unnamed-3.png",
+      "alt": "Image 18: Victor Monsalve"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/unnamed-2.png",
+      "alt": "Image 19: Javier Lopez"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/as-4-mejores-barberias-en-Cancun-min-1-1024x576.jpg",
+      "alt": "Image 21: Las 4 mejores barberías en Cancún-min (1)"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/01/Corte-de-Pelo-Hombre-en-Cancun-1-1-min-1024x683.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/01/Tendencias-en-Cortes-de-Cabello-para-Hombres-2025-1-min-1024x683.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/Mostrador-de-Homme-Barbers-Cancun.jpg",
+      "alt": "Image 24: Mostrador principal de Homme Barbers en Cancún, con productos de barbería y decoración moderna."
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/01/fabe844c70cc03de730b44a6e5641e07.jpg",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2025/12/Diseno-sin-titulo-45-min.png",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://barberiaencancun.com/corte-pelo-hombre-cancun/",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-030.png",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://barberiaencancun.com/afeitado-y-arreglo-de-barba-cancun/",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://barberiaencancun.com/facial-exfoliante-cancun/",
+      "alt": "Image 5"
+    }
+  ]
+}

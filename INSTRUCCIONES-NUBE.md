@@ -8,7 +8,7 @@
 2. Toma como modelo los últimos rediseños terminados: `proyectos/579-integra360`, `proyectos/35-altheawellnessclinic`, `proyectos/384-escueladefotografia`, `proyectos/326-domusvallartafine` y `proyectos/557-humaredaprime` (su `entregables/plan-diseno.md`, `CAMBIOS.md`, `OPORTUNIDADES.md`, `rediseno/src/*`, `rediseno/index.html` y `rediseno/fotos-web.mjs`).
 3. Instala las herramientas una vez: `cd herramientas && npm install`. En la nube, Chromium ya está en `/opt/pw-browsers` y Playwright lo encuentra solo; no ejecutes `playwright install`.
 
-## Tu lista: lote 3 (solo estos 20)
+## Tu lista: lote 3 (solo estos 30)
 
 | # | Carpeta | Negocio | Sitio original |
 |---|---|---|---|
@@ -32,6 +32,18 @@
 | 18 | `322-doggieshospital` | Doggie's Hospital Veterinario, Monterrey | https://doggies.mx/ |
 | 19 | `337-drtoothsaltillo` | Dr. Tooth, Saltillo (dental) | https://drtooth.com.mx/ |
 | 20 | `607-kenaxturismo` | Kenax Turismo, Querétaro | https://kenaxturismo.com/ |
+| 21 | `294-dentalevolution` | Dental Evolution, Cancún | https://www.dentalevolution.com.mx/ |
+| 22 | `580-interlingua` | Interlingua, Cancún (escuela de idiomas) | https://www.interlingua.com.mx/ |
+| 23 | `612-kiteboardmexicoikarus` | Kiteboard Mexico Ikarus, Cancún (escuela y hotel boutique) | https://kiteboardmexico.com/ |
+| 24 | `396-estudiolotus` | Estudio Lotus, Guadalajara | https://estudiolotus.com/ |
+| 25 | `503-hommebarbers` | Homme Barbers, Cancún | https://barberiaencancun.com/ |
+| 26 | `492-hermesspa` | Hermes Spa, Guadalajara | https://www.hermesspa.com.mx/ |
+| 27 | `346-dulcevegamake` | Dulce Vega Make up Artist Studio, Guadalajara | https://dulcevega.mx/ |
+| 28 | `398-eveliosportfishing` | Evelio Sport Fishing, Puerto Escondido | https://www.eveliosfishing.com/ |
+| 29 | `72-aventurasmayas` | Aventuras Mayas, Cancún | https://www.aventurasmayas.com.mx/ |
+| 30 | `555-huatulcotoursand` | Huatulco Tours and Travel, Huatulco | https://www.huatulcotoursandtravel.com/ |
+
+Del 21 al 30 son de reserva: se agregaron porque algunos de los primeros 20 se van a descartar. Hazlos todos, en orden.
 
 Sus clones (`sitio/`) y textos (`investigacion/`) ya vienen en el repositorio. **No trabajes en ningún otro proyecto**: la PC de Guillermo está haciendo otros sitios en paralelo (Explora Valle, Dolcebella Spa, Hollywood Meeting Planners, CuadroxCuadro, El Palmar, IAAC, ARIA y los que siga eligiendo).
 
@@ -71,6 +83,6 @@ La lista completa y al día está en `METODOS.md` (el título entre comillas de 
 - No modificar `sitio/` ni `investigacion/`, y no escribir en `datos/fabricador.db`.
 - Obligatorio en cada sitio: un solo H1, WhatsApp con mensaje prellenado (con el número real), barra fija en el celular, enlace a Google Maps, `prefers-reduced-motion`, contraste AA, JSON-LD del tipo correcto, title y description reales, y ningún script ni mapa de terceros.
 
-## Al terminar los 20
+## Al terminar los 30
 
 Escribe un resumen corto en `entregables-nube-3.md` en la raíz: por cada sitio, el commit, el resultado del QA (o el motivo del descarte), el elemento memorable, la prioridad y el hallazgo principal de oportunidades, y lo que hay que confirmar con el cliente. Haz commit y push.

@@ -1,0 +1,1345 @@
+body {
+   font-family: Poppins;
+   font-size: 14px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+}
+
+   body > header {
+      background-color: #fff;
+   }
+
+.dropdown-item {
+   width: 150px;
+}
+
+.text-white {
+   color: rgba(255, 255, 255, 1) !important;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-outline-secondary {
+   height: 40px;
+   border-radius: 8px;
+   font-weight: bold;
+}
+
+.btn-primary {
+   width: 253px;
+   font-size: 16px;
+   background-color: #3f0a8b;
+}
+
+.btn-secondary {
+   width: 200px;
+   font-size: 15px;
+   background-color: #7fd859;
+}
+
+   .btn-secondary:hover {
+      background-color: #4caf50;
+   }
+
+
+.btn-outline-primary {
+   color: #120241;
+   border-color: #120241;
+}
+
+.btn-outline-secondary {
+   width: 200px;
+   font-size: 15px;
+   color: #7fd859;
+   background-color: #fff;
+   border-color: #7fd859;
+}
+
+   .btn-outline-secondary:hover {
+      background-color: #7fd859;
+   }
+
+.btn-mas-informacion {
+   background-color: #3f0a8b;
+}
+
+   .btn-primary:hover,
+   .btn-outline-primary:hover,
+   .btn-mas-informacion:hover {
+      background-color: #120241;
+      color: #fff;
+   }
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+   color: #ced4da !important;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #ced4da !important;
+   opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #ced4da !important;
+   opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #ced4da !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #ced4da !important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color: #ced4da !important;
+}
+
+h1 {
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.breadcrumb {
+   font-size: 14px !important;
+   margin: 40px 70px 20px 20px;
+}
+
+.breadcrumb li {
+   font-size: 14px;
+}
+
+.breadcrumb-item a {
+   font-size: 14px;
+   text-decoration: none;
+   color: rgba(18, 2, 65, .5);
+}
+
+.breadcrumb-item.active {
+   font-weight: bolder !important;
+}
+
+.breadcrumb-item a:hover {
+   color: #3f0a8b;
+}
+
+.breadcrumb-item.black a {
+   color: rgba(255, 255, 255, .5);
+}
+
+   .breadcrumb-item.black a:hover {
+      color: rgba(255, 255, 255, .75);
+   }
+
+.breadcrumb-item.black.active {
+   color: rgba(255, 255, 255, 1);
+}
+
+
+
+.icon-tam-1 {
+   font-size: 1rem;
+}
+
+.icon-tam-2 {
+   font-size: 1.25rem;
+}
+
+.icon-tam-3 {
+   font-size: 1.5rem;
+}
+
+.icon-tam-4 {
+   font-size: 1.75rem;
+}
+
+.icon-tam-5 {
+   font-size: 2rem;
+}
+
+.icon-tam-huge {
+   font-size: 4rem;
+}
+
+
+.tituloPagina {
+   font-weight: bold;
+   text-align: center;
+   color: #120241;
+}
+
+   .tituloPagina.black {
+      color: #ffffff;
+   }
+
+   .tituloPagina.titulo-secundario.black {
+      color: #b7b4c8 !important;
+   }
+
+.subtituloPagina {
+   text-align: center;
+   color: #120241;
+}
+
+   .subtituloPagina.black {
+      color: #ffffff;
+   }
+
+.x-small {
+   font-size: 9px;
+}
+
+.max-width {
+   overflow: hidden;
+   max-width: 100%;
+   text-overflow: ellipsis;
+   width: fit-content;
+   white-space: nowrap;
+}
+
+.inicio-movil a {
+   font-size: 12px;
+   color: rgba(255,255,255,.55);
+   text-decoration: none;
+}
+
+   .inicio-movil a:hover {
+      color: rgba(255,255,255,.75);
+   }
+
+.audio-link {
+   color: #120241;
+   font-weight: normal;
+}
+
+#divAudio a:hover {
+   color: #3f0a8b !important;
+   font-weight: bold !important;
+}
+
+.seccion-deshabilitada {
+   pointer-events: none;
+   opacity: 0.5;
+   background-color: #f2f2f2;
+   color: #999;
+   cursor: not-allowed;
+}
+
+.seccion-deshabilitada-black {
+   pointer-events: none;
+   opacity: 0.5;
+   cursor: not-allowed;
+}
+
+/* Move reCAPTCHA v3 badge to the left */
+.grecaptcha-badge {
+   width: 70px !important;
+   overflow: hidden !important;
+   transition: all 0.3s ease !important;
+   left: 4px !important;
+}
+
+   .grecaptcha-badge:hover {
+      width: 256px !important;
+   }
+
+/*-- Progress bar ------------------------*/
+.seccion-metodologia .progress {
+   width: 100px;
+   height: 100px;
+   float: left;
+   line-height: 150px;
+   background: none;
+   margin: 10px 10px 10px 0px;
+   box-shadow: none;
+   position: relative;
+}
+
+   .seccion-metodologia .progress:after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+/*      border: 10px solid #aeadfa;*/
+      border: 12px solid #aeadfa;
+      position: absolute;
+      top: 0;
+      left: 0;
+   }
+
+   .seccion-metodologia .progress > span {
+      width: 50%;
+      height: 100%;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      z-index: 1;
+   }
+
+   .seccion-metodologia .progress .progress-left {
+      left: 0
+   }
+
+   .seccion-metodologia .progress .progress-bar {
+      width: 100%;
+      height: 100%;
+      background: none;
+      border-width: 12px;
+      border-style: solid;
+      position: absolute;
+      top: 0;
+   }
+
+   .seccion-metodologia .progress .progress-left .progress-bar {
+      left: 100%;
+      border-top-right-radius: 80px;
+      border-bottom-right-radius: 80px;
+      border-left: 0;
+      -webkit-transform-origin: center left;
+      transform-origin: center left;
+   }
+
+   .seccion-metodologia .progress .progress-right {
+      right: 0;
+   }
+
+      .seccion-metodologia .progress .progress-right .progress-bar {
+         left: -100%;
+         border-top-left-radius: 80px;
+         border-bottom-left-radius: 80px;
+         border-right: 0;
+         -webkit-transform-origin: center right;
+         transform-origin: center right;
+         animation: loading-1 1.8s linear forwards;
+      }
+
+   .seccion-metodologia .progress .progress-value {
+      width: 90%;
+      height: 90%;
+      border-radius: 50%;
+      background-color: transparent;
+      font-size: 14px;
+      font-weight: bold;
+      color: #ffffff;
+      line-height: 85px;
+      display: grid;
+      place-items: center;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+   }
+
+   .progress.blue .progress-bar {
+      border-color: #FFFFFD;
+   }
+
+   .progress.blue .progress-left .progress-bar {
+      animation: loading-2 1.5s linear forwards 1.8s;
+   }
+
+   .progress.yellow .progress-bar {
+      border-color: #FFFFFD;
+   }
+
+   .progress.yellow .progress-right .progress-bar {
+      animation: loading-3 1.8s linear forwards;
+   }
+
+   .progress.yellow .progress-left .progress-bar {
+      animation: none;
+   }
+
+@keyframes loading-1 {
+   0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+   }
+
+   100% {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+   }
+}
+
+@keyframes loading-2 {
+   0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+   }
+
+   100% {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+   }
+}
+
+@keyframes loading-3 {
+   0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+   }
+
+   100% {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg)
+   }
+}
+
+/*-- Fin progress bar ------------------------*/
+
+
+#carouselPrincipal .carousel-item img {
+   object-fit: fill;
+   object-position: center;
+   overflow: hidden;
+}
+
+#carouselPrincipal .carousel-indicators {
+   background-image: linear-gradient(91deg, #fff 1%, rgba(255, 255, 255, 0) 57%);
+   width: 200px;
+   border-radius: 10px;
+   left: calc((100% - 200px)/2);
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+   #carouselPrincipal .carousel-indicators button {
+      background-color: #aeadfa;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+   }
+
+      #carouselPrincipal .carousel-indicators button.active {
+         background-color: #3f0a8b;
+      }
+
+#carouselPrincipal .control-prev,
+#carouselPrincipal .control-next {
+   position: absolute;
+   bottom:-10px;
+   color: navy;
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+#carouselPrincipal .carousel-control-prev,
+#carouselPrincipal .carousel-control-next {
+   color: #120241 !important;
+   z-index: 3;
+   width: 50px;
+   
+   height: 30px;
+   top: calc(100% - 50px);
+}
+
+#carouselPrincipal .carousel-control-prev {
+   left: calc((100% - 200px)/2);
+}
+
+#carouselPrincipal .carousel-control-next {
+   left: calc((100% - 200px)/2 + 170px);
+}
+
+.formulario {
+   margin: 0;
+   border-radius: 16px;
+   background-color: #fff;
+   box-shadow: 0 1px 3px 1px rgba(102, 102, 102, 0.16);
+   z-index: 5;
+}
+
+   .formulario .titulo {
+      width: 100%;
+      top: 0;
+      border-start-end-radius: 16px;
+      border-start-start-radius: 16px;
+      padding-top: 5px;
+      background-color: #3f0a8b;
+   }
+
+      .formulario .titulo span {
+         font-size: 16px;
+         font-weight: bold;
+      }
+
+   .formulario .subtitulo {
+      font-weight: normal;
+   }
+
+   .formulario input,
+   .formulario select {
+      font-size: 14px;
+      border-radius: 4px;
+      border: solid 0.8px #3f0a8b;
+   }
+
+   .formulario label {
+      font-size: 12px;
+      font-weight: 600;
+      color: #7675c0;
+   }
+
+   .formulario .politicas {
+      font-size: 10px;
+   }
+
+   .formulario .btn-primary {
+      /*width: 270px;*/
+      width: 200px;
+      height: 36px;
+   }
+
+
+.seccion-formulario {
+   height: 440px;
+
+   background-color: #fff;
+}
+
+/*--- Sección: Contadores ---*/
+.seccion-contadores {
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(to right, #06000e 0%, #1d2180 52%, #c36ee8 100%);
+}
+
+.counter-section i {
+   display: block;
+   margin: 0 0 10px
+}
+
+.counter-section span {
+   font-size: 27px;
+   margin: 17.8px 0 16px;
+   font-weight: bold;
+   text-align: left;
+}
+
+.counter-section .counter-title {
+   font-size: 16px;
+   margin: 12px 0 0;
+   text-align: center;
+}
+
+.seccion-contadores .counter-icon {
+   font-size: 40px !important;
+   margin-bottom: 15px !important
+}
+
+.seccion-cursos .titulo {
+   margin-left: 23px;
+   margin-right: 23px;
+   text-align: center;
+   color: #fff;
+}
+
+.seccion-cursos .subtitulo {
+   font-size: 16px;
+   margin-left: 31px;
+   margin-right: 31px;
+   text-align: center;
+   color: #fff;
+}
+
+.seccion-cursos .todos-los-cursos {
+   height: 26px;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+   color: #fff;
+}
+
+.seccion-cursos .card-cursos {
+   width: 280px;
+   background-color: #ffffff;
+   text-align: center;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+   .seccion-cursos .card-cursos.black {
+      background: rgba(17, 17, 24, 0.85);
+      border: 2.5px solid rgba(255, 255, 255, 0.08);
+      text-align: center;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+      height: 100%;
+      cursor: pointer;
+   }
+
+   .seccion-cursos .card-cursos.black:hover {
+      transform: translateY(-4px);
+   }
+
+   /*--- Tarjetas: efecto reveal ---*/
+   .seccion-cursos .card-cursos.black {
+      position: relative;
+      overflow: hidden;
+   }
+
+      .seccion-cursos .card-cursos.black::before {
+         content: '';
+         position: absolute;
+         inset: 0;
+         background: rgba(0, 0, 0, 0.7);
+         transition: opacity 0.35s ease;
+         z-index: 0;
+         pointer-events: none;
+      }
+
+      .seccion-cursos .card-cursos.black > * {
+         position: relative;
+         z-index: 1;
+         transition: filter 0.35s ease;
+      }
+
+      .seccion-cursos .card-cursos.black:not(:hover):not(:focus-within) > * {
+         filter: saturate(0.6) brightness(0.7);
+      }
+
+      .seccion-cursos .card-cursos.black:hover::before,
+      .seccion-cursos .card-cursos.black:focus-within::before {
+         opacity: 0;
+      }
+
+/*-------------------------------------------*/
+.boton-card-curso {
+   position: relative;
+   overflow: hidden;
+   transition: all 0.3s ease;
+   transform: translateY(0);
+}
+
+   .boton-card-curso::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.3) 100%);
+      opacity: 1;
+      transition: opacity 0.3s ease;
+      z-index: 0;
+   }
+
+   .boton-card-curso span {
+      position: relative;
+      z-index: 1;
+   }
+
+   /* Efecto hover directo en el botón */
+   .boton-card-curso:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      color: #ffffff !important;
+      filter: brightness(1.2) saturate(1.2);
+   }
+
+      .boton-card-curso:hover::before {
+         opacity: 0;
+      }
+
+   /* Efecto activo (cuando se presiona) */
+   .boton-card-curso:active {
+      transform: translateY(0);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   }
+
+.card-cursos:hover .boton-card-curso::before {
+   opacity: 0;
+}
+/*-------------------------------------------*/
+
+   .seccion-cursos .card-cursos .boton-compra {
+      border-color: #ffffff;
+      border: solid 2px;
+      border-radius: 15px;
+      font-weight: 600;
+   }
+
+   .seccion-cursos .card-cursos .mas-informacion {
+      background-color: #3f0a8b;
+   }
+
+
+.seccion-cursos .card-cursos .check {
+   position: relative;
+   left: -140px;
+   top: calc(-30%);
+}
+
+.seccion-cursos .card-titulo {
+   min-height: 60px;
+   font-size: 16px;
+   font-weight: 600;
+   margin-top: 10px;
+   color: #ffffff;
+}
+
+.seccion-cursos .card-titulo a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+   .seccion-cursos .card-titulo a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+   }
+
+.seccion-cursos .card-texto {
+   height: 50px;
+   margin: 0px 0 7px;
+   padding-left: 25px;
+   padding-right: 25px;
+   font-size: 12px;
+   color: #ffffff;
+}
+
+.seccion-cursos .card-texto.black {
+   font-size: 1em;
+   font-weight:700;
+   min-height: 150px;
+}
+
+.seccion-cursos .card-item {
+   height: 16px;
+   margin-left: 50px;
+   font-size: 12px;
+   text-align: left;
+   color: #ffffff;
+}
+
+.seccion-cursos .extra-space {
+   height: 32px !important;
+}
+
+
+/*--- Sección: Metodología ---*/
+   .seccion-metodologia .titulo {
+      text-align: center;
+      color: #ffffff;
+   }
+
+   .seccion-metodologia .subtitulo {
+      font-size: 18px;
+      text-align: center;
+      color: #ffffff;
+   }
+
+   .seccion-metodologia .texto {
+      width: 85px;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      font-size: 15px;
+      text-align: center;
+      color: #ffffff;
+   }
+
+   .seccion-metodologia #metodologia-contadores {
+      background-color: transparent;
+   }
+
+   .seccion-metodologia .card-metodo img {
+      width: 89px;
+      height: 86px;
+      margin-bottom: 25px;
+      margin-top: 0;
+   }
+
+   .seccion-metodologia .item .card-metodo img {
+      width: 89px;
+      height: 86px;
+      margin-bottom: 25px;
+      margin-top: 0;
+      margin-left: calc(50% - 45px);
+      margin-right: calc(50% - 44px);
+   }
+
+   .seccion-metodologia .card-metodo .card-titulo {
+      height: 24px;
+      margin: 13px 0px 18px 0px;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      color: #120241;
+   }
+
+   .seccion-metodologia .card-metodo .card-texto {
+      min-height: 64px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      text-align: center;
+      color: #120241;
+   }
+
+   .seccion-metodologia .owl-theme .owl-dots {
+      background-color: #f7f7f9 !important;
+   }
+
+
+/*--- Sección: Test ---*/
+/*.seccion-test {
+   flex-grow: 0;
+   padding-bottom: 30px;
+   background-color: #fff;
+}
+
+.seccion-test .titulo {
+   margin-top: 20px;
+   text-align: center;
+   color: #120241;
+}
+
+.seccion-test .subtitulo {
+   font-size: 16px;
+   text-align: center;
+   color: #120241;
+}
+
+.seccion-test .texto {
+   margin-top: 24px;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+   color: #120241;
+}*/
+
+.condiciones {
+   font-size: 12px;
+}
+
+.condiciones-link {
+   text-decoration: none;
+}
+
+.btn-verde {
+   background-color: #4BA226;
+   border-color: #000000;
+   border-radius: 50px;
+   margin-top: 20px;
+   font-size: 18px;
+}
+
+.btn-agergar-carrito {
+   background-color: #7737E6;
+   border-radius: 50px !important;
+   font-size: .75rem;
+}
+
+.btn-pagar {
+   background-color: #4BA226;
+   border-radius: 50px !important;
+   font-size: .75rem;
+}
+
+   .btn-agergar-carrito:disabled,
+   .btn-pagar:disabled {
+      background-color: #6c757d;
+   }
+
+.btn-agergar-carrito:hover {
+   background-color: #7737E6;
+   box-shadow: 0 0 0 0.25rem rgba(13,110,253,.5);
+}
+
+.btn-pagar:hover {
+   background-color: #4BA226;
+   box-shadow: 0 0 0 0.25rem rgba(13,110,253,.5);
+}
+
+/*----------------------------------------------*/
+.mensaje-aprobacion {
+   border-radius: 20px;
+   box-shadow: 0 0px 0px 1px #9E36EF;
+   background-color: #fff;
+}
+
+   .mensaje-aprobacion .titulo {
+      font-size: calc(18px + 0.390625vw);
+      font-weight: bold;
+      color: #fff;
+      background-image: linear-gradient(to right, #681EF4 0%, #CC4AF6 100%);
+      height: 51px;
+      width: 100%;
+      border-start-end-radius: 16px;
+      border-start-start-radius: 16px;
+      padding-top: 5px;
+   }
+
+
+   .mensaje-aprobacion .gracias {
+      color: #7737E6;
+      font-weight: bold;
+   }
+
+   .mensaje-aprobacion #cerrarCompra {
+      background-image: linear-gradient(to right, #681EF4 0%, #CC4AF6 100%);
+      border-color: #fff;
+      border-radius: 10px;
+      height: 40px;
+      max-width: 100% !important;
+   }
+
+.grecaptcha-badge {
+   z-index: 999 !important;
+}
+
+@media print {
+   .mensaje-aprobacion .titulo {
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact !important;
+   }
+}
+
+.seccion-faqs .texto-secundario {
+   font-size: 14px;
+}
+
+/* --- Estilos responsivos --- */
+@media screen and (max-width: 575px) {
+   .progress {
+      float: right;
+      margin: 10px 20px 10px 0px;
+   }
+
+   .seccion-cursos .posicion-centro {
+      display: none;
+   }
+
+   .seccion-metodologia .titulo {
+      margin-top: 20px;
+   }
+
+   .seccion-metodologia .subtitulo {
+      font-size: 16px;
+   }
+
+
+   .seccion-metodologia .columnas {
+      display: none;
+   }
+
+   #btn-ver-metodologia-bottom,
+   #btn-test-top {
+      display: none;
+   }
+
+   .condiciones {
+      font-size: 10px;
+   }
+}
+
+/* Dispositivos pequeños (teléfonos horizontales, 576 px y superiores) */
+@media screen and (min-width: 576px) {
+   .w-sm-100 {
+      width: 100% !important;
+   }
+
+   .w-sm-90 {
+      width: 90% !important;
+   }
+
+   .w-sm-80 {
+      width: 80% !important;
+   }
+
+   .w-sm-75 {
+      width: 75% !important;
+   }
+
+   .w-sm-50 {
+      width: 50% !important;
+   }
+
+   .w-sm-25 {
+      width: 25% !important;
+   }
+
+   .h-sm-100 {
+      height: 100% !important;
+   }
+
+   .h-sm-75 {
+      height: 75% !important;
+   }
+
+   .h-sm-50 {
+      height: 50% !important;
+   }
+
+   .h-sm-25 {
+      height: 25% !important;
+   }
+
+   h1 {
+      font-size: 24px;
+   }
+
+      .formulario .titulo span {
+         font-size: 20px;
+      }
+
+      .formulario input,
+      .formulario select {
+         font-size: 14px;
+      }
+
+      .formulario label {
+         font-size: 10px;
+         font-weight: bold;
+      }
+
+      .formulario .politicas {
+         font-size: 8px;
+      }
+
+   .seccion-cursos .posicion-top {
+      display: none;
+   }
+
+   .seccion-cursos .subtitulo {
+      font-size: 16px;
+      margin-left: 120px;
+      margin-right: 120px;
+   }
+
+   .seccion-metodologia .carrusel {
+      display: none;
+   }
+
+   #btn-ver-metodologia-top,
+   #btn-test-bottom {
+      display: none;
+   }
+
+/*   .seccion-test {
+      padding-bottom: 40px;
+   }*/
+}
+
+@media screen and (max-width: 767px) {
+   .show-md {
+      display: none;
+   }
+
+   .tituloPagina {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 20px;
+   }
+
+   .seccion-contadores {
+      height: 368px;
+   }
+
+   #btn-ver-cursos-top {
+      display: none;
+   }
+
+   .seccion-metodologia {
+      padding: 20px 5px 20px 5px;
+   }
+}
+
+/* Dispositivos medianos (tabletas, 768 px y superiores) */
+@media screen and (min-width: 768px) {
+   .w-md-100 {
+      width: 100% !important;
+   }
+
+   .w-md-90 {
+      width: 90% !important;
+   }
+
+   .w-md-80 {
+      width: 80% !important;
+   }
+
+   .w-md-75 {
+      width: 75% !important;
+   }
+
+   .w-md-50 {
+      width: 50% !important;
+   }
+
+   .w-md-25 {
+      width: 25% !important;
+   }
+
+   .h-md-100 {
+      height: 100% !important;
+   }
+
+   .h-md-75 {
+      height: 75% !important;
+   }
+
+   .h-md-50 {
+      height: 50% !important;
+   }
+
+   .h-md-25 {
+      height: 25% !important;
+   }
+
+   .hide-md {
+      display: none;
+   }
+
+   .tituloPagina {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      font-size: 24px;
+   }
+
+   .btn-primary {
+      width: 260px;
+      height: 40px;
+   }
+
+   .seccion-contadores {
+      height: 233px;
+   }
+
+   .seccion-metodologia {
+      padding: 30px 0px 0px 20px;
+   }
+
+/*      .seccion-test .subtitulo {
+         font-size: 12px;
+      }*/
+
+/*      .seccion-test .texto,*/
+      .seccion-business .texto {
+         margin-top: 16px;
+         font-size: 16px;
+      }
+
+   .seccion-cursos .card-cursos .check {
+      left: -130px;
+   }
+
+   #btn-ver-cursos-bottom {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 991px) {
+   .hide-xm-md {
+      display: none;
+   }
+
+   .subtituloPagina {
+      font-size: 16px;
+   }
+
+   .formulario .titulo {
+      height: 40px;
+   }
+
+   .formulario .div-subtitulo {
+      margin-top: 5px;
+   }
+
+   .formulario .form-group {
+      margin-top: 0px;
+   }
+
+   .formulario .btn-primary {
+      margin-top: 10px;
+   }
+}
+
+/* Dispositivos grandes (computadoras de escritorio, 992 px y superiores) */
+@media screen and (min-width: 992px) {
+   .w-lg-100 {
+      width: 100% !important;
+   }
+
+   .w-lg-90 {
+      width: 90% !important;
+   }
+
+   .w-lg-80 {
+      width: 80% !important;
+   }
+
+   .w-lg-75 {
+      width: 75% !important;
+   }
+
+   .w-lg-50 {
+      width: 50% !important;
+   }
+
+   .w-lg-25 {
+      width: 25% !important;
+   }
+
+   .h-lg-100 {
+      height: 100% !important;
+   }
+
+   .h-lg-75 {
+      height: 75% !important;
+   }
+
+   .h-lg-50 {
+      height: 50% !important;
+   }
+
+   .h-lg-25 {
+      height: 25% !important;
+   }
+
+   .tituloPagina {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-size: 40px;
+   }
+
+   .subtituloPagina {
+      font-size: 24px;
+   }
+
+   h1 {
+      font-size: 32px;
+      font-weight: bolder;
+   }
+
+   .btn-primary {
+      width: 265px;
+      height: 51px;
+   }
+
+   .formulario .titulo {
+      height: 51px;
+   }
+
+      .formulario .titulo span {
+         font-size: 24px;
+      }
+
+   .formulario .div-subtitulo {
+      margin-top: 20px;
+   }
+
+   .formulario .form-group {
+      margin-top: 10px;
+   }
+
+   .formulario .btn-primary {
+      margin-top: 15px;
+   }
+
+   .formulario .politicas {
+      font-size: 10px;
+   }
+
+   .seccion-cursos .card-cursos .check {
+      left: -110px;
+   }
+
+      .seccion-cursos .subtitulo {
+         font-size: 18px;
+      }
+
+      .seccion-business .texto {
+         margin-top: 35px;
+         font-size: 24px;
+      }
+
+/*   .seccion-test {
+      padding-bottom: 70px;
+   }
+
+      .seccion-test .subtitulo {
+         padding-left: 50px;
+         padding-right: 50px;
+         font-size: 24px;
+      }
+
+      .seccion-test .texto {
+         padding-left: 50px;
+         padding-right: 50px;
+         margin-top: 35px;
+         font-size: 24px;
+      }*/
+
+   .btn-agergar-carrito,
+   .btn-pagar {
+      font-size: 1rem;
+   }
+
+   .seccion-faqs .tituloPagina {
+      font-size: 30px;
+   }
+}
+
+@media screen and (min-width: 1050px) {
+   .seccion-cursos .card-cursos .check {
+      left: -120px;
+   }
+}
+
+/* Dispositivos extra grandes (escritorios grandes, 1200 px y más) */
+@media screen and (min-width: 1200px) {
+   .w-xl-100 {
+      width: 100% !important;
+   }
+
+   .w-xl-90 {
+      width: 90% !important;
+   }
+
+   .w-xl-80 {
+      width: 80% !important;
+   }
+
+   .w-xl-75 {
+      width: 75% !important;
+   }
+
+   .w-xl-50 {
+      width: 50% !important;
+   }
+
+   .w-xl-25 {
+      width: 25% !important;
+   }
+
+   .h-xl-100 {
+      height: 100% !important;
+   }
+
+   .h-xl-75 {
+      height: 75% !important;
+   }
+
+   .h-xl-50 {
+      height: 50% !important;
+   }
+
+   .h-xl-25 {
+      height: 25% !important;
+   }
+
+   .seccion-metodologia {
+      padding: 30px 49px 20px 49px;    
+   }
+
+   .seccion-cursos .card-cursos .check {
+      left: -140px;
+   }
+}
+
+@media screen and (min-width: 1400px) {
+   .formulario-index {
+      top: 100px;
+   }
+}

@@ -1,0 +1,907 @@
+.navbar-fondo {
+   background-color: rgb(107,70,254) !important;
+}
+
+#submenuLogin {
+   background-color: #8B5CF6 !important;
+}
+
+.top-68 {
+   top: -68px;
+}
+
+.seccion-diapositiva {
+   background: #633AB4;
+   background: linear-gradient(135deg, rgba(99, 58, 180, 1) 0%, rgba(121, 88, 193, 1) 35%, rgba(204, 188, 217, 1) 50%, rgba(121, 88, 193, 1) 65%, rgba(99, 58, 180, 1) 100%);
+   position: relative;
+   background-size: 250% 250%;
+   animation: animacion-fondo 10s ease-in-out infinite;
+}
+
+@Keyframes animacion-fondo {
+   0% {
+      background-position: 0% 50%;
+   }
+
+   50% {
+      background-position: 100% 50%;
+   }
+
+   100% {
+      background-position: 0% 50%;
+   }
+}
+
+.seccion-diapositiva .boton-cursos {
+   position: absolute;
+   top: 66%;
+   left: 35%;
+   border-color: #ffffff;
+   border: solid 2px;
+   border-radius: 50px;
+   font-size: 2.8vw;
+   font-weight: 400;
+}
+
+.seccion-diapositiva .boton-potencial {
+   position: absolute;
+   top: 65%;
+   left: 28%;
+   border-color: #ffffff;
+   border: solid 2px;
+   border-radius: 50px;
+   font-size: 2.8vw;
+   font-weight: 400;
+}
+
+.seccion-diapositiva .links {
+   position: absolute;
+   top: 87%;
+   left: 7%;
+}
+
+
+   .seccion-diapositiva .links a {
+      font-size: 4vw;
+      color: #ffffff;
+   }
+
+.seccion-diapositiva .link-terminos {
+   position: absolute;
+   top: 63%;
+   left: 49%;
+}
+
+.seccion-diapositiva .link-terminos-promocion {
+   position: absolute;
+   top: 86%;
+   left: 35%;
+   display: inline-block;
+}
+   .seccion-diapositiva .link-terminos a,
+   .seccion-diapositiva .link-terminos-promocion a {
+      font-size: 2.5vw;      
+      color: #ffffff;
+      text-decoration: none;
+   }
+
+      .seccion-diapositiva .link-terminos a:hover,
+      .seccion-diapositiva .link-terminos-promocion a:hover {
+         text-decoration: underline;
+      }
+
+.formulario-index {
+   width: 330px;
+   height: 440px;
+}
+
+   .formulario-index .titulo {
+      background-image: linear-gradient(to right, #651DF4 0%, #CD4AF5 80%);
+      color: #fff;
+   }
+
+   .formulario-index .btn-primary {
+      background-image: linear-gradient(to right, #681EF4 0%, #CC4AF6 100%);
+      border-color: transparent !important;
+      border-radius: 10px;
+      width: 150px !important;
+      height: 30px !important;
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+   }
+
+.seccion-live {
+   margin-bottom: 30px;
+}
+
+   .seccion-live h2 {
+      font-size: calc(2.5em + 1vw);
+      font-weight: 800;
+      color: #5E17EB;
+      line-height: 0.8em;
+   }
+
+   .seccion-live h3 {
+      font-size: calc(2.5em + 1vw);
+      font-weight: 800;
+      line-height: 0.9em;
+   }
+
+   .seccion-live .subtitle {
+      font-size: calc(1em + 1vw);
+      font-weight: 800
+   }
+
+   .seccion-live .live-card {
+      width: 90%;
+      margin-left: 5%;
+      border-radius: 20px;
+   }
+
+   .seccion-live .profesional-card {
+      color: #ffffff;
+      background: #502EDD;
+      background: linear-gradient(90deg,rgba(80, 46, 221, 1) 0%, rgba(21, 13, 81, 1) 100%);
+   }
+
+   .seccion-live .premium-card {
+      color: #000000;
+      background: #F5F4F9;
+      background: linear-gradient(90deg,rgba(245, 244, 249, 1) 0%, rgba(139, 139, 220, 1) 100%)
+   }
+
+   .seccion-live .div-tag {
+      text-align: end;
+   }
+
+      .seccion-live .div-tag .tag {
+         font-size: calc(0.8em + 0.4vw);
+         color: black;
+         background-color: #FAD642;
+         font-weight: 800;
+      }
+
+         .seccion-live .div-tag .tag img {
+            width: calc(0.4em + 0.4vw);
+         }
+
+   .seccion-live .live-card .subtitle {
+      font-size: calc(0.8em + 0.4vw);
+      font-weight: 800;
+      line-height: 0.9em;
+   }
+
+   .seccion-live .live-card .precio {
+      font-size: calc(4em + 0.5vw);
+      font-weight: 800;
+      line-height: 1em;
+   }
+
+   .seccion-live .live-card .precio-nota {
+      font-size: calc(0.6em + 0.4vw);
+      font-weight: 400;
+      position: relative;
+      top: -25px;
+      padding-left: 7rem !important;
+   }
+
+   .seccion-live .live-card .beneficios {
+      text-align: start;
+      margin-left: 50px;
+      font-size: calc(0.75em + 0.7vw);
+      font-weight: 800;
+      line-height: 0.9em;
+   }
+
+   .seccion-live .profesional-card .beneficios i,
+   .seccion-live .profesional-card .horario i {
+      color: #AEFD63;
+   }
+
+   .seccion-live .premium-card .beneficios i,
+   .seccion-live .premium-card .horario i {
+      color: #2864B2;
+   }
+
+    .seccion-live .live-card .horario {
+        /*font-size: calc(0.7em + 0.6vw);*/
+        font-size: calc(0.55em + 0.55vw);
+        font-weight: 800;
+        line-height: 1em;
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+
+   .seccion-live .live-card .borde {
+      border-left: 1px solid #715CCB;
+   }
+
+   .seccion-live button {
+      border: 2px solid #ffffff;
+   }
+
+      .seccion-live button p {
+         font-weight: 800;
+         line-height: 1em;
+         margin-bottom: 0;
+      }
+
+/*.seccion-live #encabezado {
+   border: 3px solid #5E17EB;
+   color: #5E17EB;
+   border-left: 0;
+   border-start-end-radius: 225px;
+   border-end-end-radius: 225px;
+}
+
+   .seccion-live #encabezado h2 {
+      font-weight: 900;
+   }
+
+   .seccion-live #texto1 {
+      font-weight: 900;
+      font-size: clamp(14px, 0.75em + 1.2vw, 22px);
+      margin-top: 30px;
+   }
+
+   .seccion-live #texto2 {
+      font-weight: bold;
+      font-size: clamp(25px, 0.5em + 2.5vw, 45px);
+      font-weight: 900;
+      margin-top: 10px;
+      background: linear-gradient(to right, #8B53FE, #5DDFE6);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom:30px;
+   }
+
+.seccion-live #texto3 {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+   width:400px;*/
+   /*background-color: #7642DD;*/
+   /*background-color: #411889;
+   color: #ffffff;
+   border-radius: 25px;
+   font-size: calc(0.6em + 0.8vw);
+}
+
+   .seccion-live #texto4 {
+      color: #7473C1;
+      font-size: clamp(15px, 0.4em + 1vw, 25px);
+      font-weight: 900;
+      margin-top: 20px;
+   }
+
+.seccion-live .divImagenes {
+   position: relative;
+   top: 0px;
+}*/
+
+.seccion-live .btn-verde {
+   width: 165px;
+}
+
+.testimonio-boton {
+   background-image: linear-gradient(to right, #681EF4 0%, #CC4AF6 100%);
+   border-color: transparent !important;
+   border-radius: 50px;
+   font-size: 20px;
+}
+
+.seccion-metodologia {
+   background-color: #3F0B8B;
+}
+
+   .seccion-metodologia .titulo {
+      font-size: clamp(1.3rem, 2vw + 1rem, 3rem);
+      font-weight: normal;
+   }
+
+      .seccion-metodologia .titulo span {
+         font-family: Interlingua2023, 'Source Sans Pro', sans-serif;
+         font-size: clamp(1.5rem, 2.5vw + 1rem, 3.2rem);
+      }
+
+   .seccion-metodologia #metodologia-contadores .texto {
+      color: #ffffff;
+   }
+
+   .seccion-metodologia .div-maestros {
+      transform: rotate(100deg);
+      min-width: 100px !important;
+      min-height: 100px !important;
+   }
+
+   .seccion-metodologia .div-egresados {
+      transform: rotate(45deg);
+      min-width: 100px !important;
+      min-height: 100px !important;
+   }
+
+   .seccion-metodologia .div-experiencia {
+      transform: rotate(-100deg);
+      min-width: 100px !important;
+      min-height: 100px !important;
+   }
+
+   .seccion-metodologia .div-alumnos {
+      transform: rotate(-180deg);
+      min-width: 100px !important;
+      min-height: 100px !important;
+   }
+
+.seccion-metodologia-beneficios {
+   background-color: #6336BD;
+   margin-top: 1px;
+}
+
+   .seccion-metodologia-beneficios .beneficios img {
+      height: 30px;
+      margin-bottom: 10px;
+      margin-top: 0;
+   }
+
+   .seccion-metodologia-beneficios .beneficios p {
+      color: #ffffff;
+      font-size: 10px;
+   }
+
+.seccion-business .interlingua-business {
+   position: relative;
+   padding-top: 1px;
+   padding-bottom: 30px;
+   z-index: 1;
+}
+
+   .seccion-business .interlingua-business .fondo {
+      position: absolute;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      z-index: -1
+   }
+
+.seccion-business .carrusel-business {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   background-color: #6545FF;
+}
+
+.seccion-business .titulo {
+   font-family: Arial;
+   font-size: clamp(1.5rem, 3vw + 1rem, 5rem);
+   font-weight:900;
+   text-shadow: -3px -3px 2px gray, 3px -3px 2px gray, -3px 3px 2px gray, 3px 3px 2px gray;
+   color: #ffffff;
+}
+
+.seccion-business .subtitulo {   
+   font-size: clamp(1rem, 1vw + .5rem, 2rem);
+   font-weight: 900;
+   text-shadow: -1px -1px 0px gray, 1px -1px 0px gray, -1px 1px 0px gray, 1px 1px 0px gray;
+   color: #ffffff;
+}
+
+.seccion-business .cotiza-boton {
+   background-color: #4BA226;
+   border-radius: 50px;
+   border: 2px solid #ffffff;
+   font-size: clamp(18px, 1vw + 1rem, 25px);
+   font-weight: bold;
+}
+
+
+.seccion-business .texto {
+   margin-top: 24px;
+   font-size: 16px;
+   color: #ffffff;
+}
+
+.seccion-business .card-texto {
+   font-size: 18px;
+   color: #ffffff;
+}
+
+.seccion-business .carrusel-empresarial-texto {
+   font-size: 8px;
+}
+
+.seccion-business #carrusel-empresarial img {
+   width: 40%
+}
+
+.seccion-business .owl-theme .owl-dots {
+   display: none;
+}
+
+.seccion-aprender {
+   /*background-color: #7642DD;*/
+   background-color: #3F0B8B;
+}
+
+   .seccion-aprender #encabezado {
+      color: #EDF0F2;
+      font-size: clamp(15px, 1.25vw + 2.5rem, 65px);
+      line-height: clamp(15px, 1.25vw + 2.5rem, 65px);
+      font-weight: bolder;
+      margin: 10px;
+      padding: 10px;
+      border: 12px solid #D1C7E2;
+   }
+
+/*--------------------------------*/
+.text-animation {
+   transform: scale(0.3);
+   opacity: 0;
+   transition: all 1.2s ease-out;
+}
+
+.text-show {
+   transform: scale(1);
+   opacity: 1;
+}
+
+[data-animation="fade"] {
+   opacity: 0;
+   transform: translate(0);
+   transition: .6s ease-in .3s;
+   --opacity: 1;
+   --transform: translate(100%);
+}
+
+[data-animation="show"] {
+   opacity: 0;
+   transform: scale(0);
+   transition: .6s ease-in .3s;
+   --opacity: 1;
+   --transform: scale(1);
+}
+ 
+[data-animation="up"] {
+   opacity: 0;
+   transform: translateY(100%);
+   transition: .6s ease-in .3s;
+   --opacity: 1;
+   --transform: translateY(0);
+}
+
+.unset {
+   opacity: var(--opacity);
+   transform: var(--transform);
+}
+
+/*--------------------------------*/
+
+.seccion-aprender #texto {
+   color: #ffffff;
+   font-size: clamp(20px, 0.75vw + 1.25rem, 35px);
+   line-height: clamp(23px, 0.75vw + 1.5rem, 38px);
+   font-weight: bold;
+   padding: 25px;
+/*   border: 1px solid #411889;
+   background-color: #411889;
+   border-left: 0;
+   border-start-end-radius: 25px;
+   border-end-end-radius: 25px;*/
+   width: 70%;
+}
+
+   .seccion-aprender img {
+      width: clamp(150px, 50vw + 5rem, 500px);
+   }
+
+.seccion-experiencia .titulo {
+   color: #000000;
+   font-size: 25px;
+   font-weight: bolder;
+   margin-top: 15px;
+   margin-bottom: 0px;
+}
+
+   .seccion-experiencia .titulo span {
+      color: #512EDF;
+   }
+
+.seccion-experiencia .test-boton {
+   background-color: #4BA226;
+   border-radius: 30px;
+   border: 2px solid #ffffff;
+   font-size: 20px;
+}
+
+.seccion-experiencia .div-relleno {
+   height: 20px;
+}
+
+.seccion-experiencia #picTest {
+   position: relative;
+   bottom: 0px;
+}
+
+   .seccion-experiencia #picTest img {
+      width: clamp(75px, 25vw + 2.5rem, 250px);
+   }
+
+
+.seccion-mensaje {
+   background: rgb(0,47,126);
+   background: linear-gradient(to right, #7A65E4, #002B73);
+}
+
+   .seccion-mensaje .row {
+      height: 200px;
+   }
+
+   .seccion-mensaje p {
+      font-size: 1.2em;
+   }
+
+.margen-1 {
+   margin-top: -23px;
+   margin-bottom: 13px;
+}
+
+.margen-2 {
+   background-color: #ffffff !important;
+   margin-top: 0px;
+   margin-bottom: 48px;
+}
+
+.margen-3 {
+   margin-top: 35px;
+   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 349px) {
+   .seccion-aprender #encabezado {
+      font-size: 16px;
+      line-height: 17px;
+      margin: 5px;
+      padding: 7px;
+      border: 4px solid #D1C7E2;
+   }
+
+   .seccion-aprender #texto {
+      font-size: 12px;
+      line-height: 13px;
+      padding: 10px;
+/*      border-start-end-radius: 15px;
+      border-end-end-radius: 15px;*/
+   }
+
+   .seccion-aprender img {
+      width:100px;
+   }
+}
+
+@media screen and (min-width: 350px) {
+   .seccion-metodologia #metodologia-contadores .texto {
+      font-size: clamp(15px, 1vw + 0.5rem, 25px);
+   }
+
+   .seccion-metodologia .div-maestros {
+      min-width: 100px !important;
+      min-height: 100px !important;
+   }
+
+   .seccion-metodologia .div-egresados {
+      width: 125px !important;
+      height: 125px !important;
+      min-width: 125px !important;
+      min-height: 125px !important;
+   }
+
+   .seccion-metodologia .div-experiencia {
+      width: 150px !important;
+      height: 150px !important;
+      min-width: 150px !important;
+      min-height: 150px !important;
+   }
+
+   .seccion-metodologia .div-alumnos {
+      width: 170px !important;
+      height: 170px !important;
+      min-width: 170px !important;
+      min-height: 170px !important;
+   }
+
+   .seccion-metodologia #contador-maestros,
+   .seccion-metodologia #contador-egresados,
+   .seccion-metodologia #contador-experiencia,
+   .seccion-metodologia #contador-alumnos {
+      font-size: 20px !important;
+   }
+}
+
+@media screen and (max-width: 575px) {
+/*   .seccion-live #encabezado {
+      width: 180px;
+      padding: 5px;
+   }
+
+      .seccion-live #encabezado h2 {
+         font-size: 20px;
+      }
+
+   .seccion-live .divImagenes img {
+      width: 100%;
+   }*/
+
+   .margen-2 {
+      margin-top: 0px;
+      margin-bottom: 25px;
+   }
+
+   .margen-3 {
+      margin-top: 25px;
+      margin-bottom: 0px;
+   }
+}
+
+@media screen and (min-width: 576px) {
+   .formulario-index {
+      left: initial;
+      right: 24px;
+      height: 430px;
+   }
+
+ /*  .seccion-live #encabezado {
+      width: clamp(180px, 1.5em + 40vw, 600px);
+      padding: 10px;
+   }
+
+      .seccion-live #encabezado h2 {
+         font-size: clamp(14px, 1em + 3vw, 61px);
+      }
+
+   .seccion-live .divImagenes img {
+      width: 75%;
+   }*/
+
+   .seccion-live .btn-verde {
+      width: 190px;
+   }
+
+   .seccion-business .carrusel-empresarial-texto {
+      font-size: 10px;
+   }
+
+   .seccion-business #carrusel-empresarial img {
+      width: 50%
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .seccion-experiencia .titulo {
+      text-align: center;
+      margin-left: 55px;
+      margin-right: 55px;
+   }
+
+   .seccion-experiencia #divTestTop {
+      display: none;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .seccion-experiencia #divTestBottom {
+      display: none;
+   }
+
+/*   .seccion-live .divImagenes img {
+      width: 100%;
+   }
+*/
+   .seccion-diapositiva .boton-cursos {
+      top: 76%;
+      left: 15%;
+      font-size: 1.5vw;
+   }
+
+   .seccion-diapositiva .boton-potencial {
+      top: 73%;
+      left: 10%;
+      font-size: 1.5vw;
+   }
+
+   .seccion-diapositiva .links {
+      top: 88%;
+      left: 7%;
+   }
+
+      .seccion-diapositiva .links a {
+         font-size: 3vw;
+      }
+
+   .seccion-diapositiva .link-terminos {
+      top: 70%;
+      left: 22.5%;
+   }
+
+   .seccion-diapositiva .link-terminos-promocion {
+      top: 83%;
+      left: 13%;
+   }
+
+      .seccion-diapositiva .link-terminos-promocion a {
+         font-size: 1.25vw;
+      }
+
+      .seccion-diapositiva .link-terminos a {
+         font-size: 1vw;
+      }
+
+/*   .seccion-live .divImagenes {
+      top: -50px;
+   }*/
+
+   .seccion-metodologia-beneficios .beneficios p {
+      font-size: 14px;
+   }
+
+   .seccion-business .carrusel-empresarial-texto {
+      font-size: 12px;
+   }
+
+   .seccion-business #carrusel-empresarial img {
+      width: 60%
+   }
+
+   .seccion-experiencia {
+      padding: 45px 20px 0px 10px;
+      background-color: #ffffff;
+   }
+
+      .seccion-experiencia .titulo {
+         text-align: left;
+      }
+
+      .seccion-experiencia button {
+         padding-left: 15px;
+         padding-right: 15px;
+         font-size: 14px;
+      }
+
+   .seccion-experiencia .div-relleno {
+      height: 520px;
+   }
+
+   .seccion-mensaje .row {
+      height: 275px;
+   }
+
+   .seccion-mensaje p {
+      font-size: 2.1em;
+   }
+}
+
+@media screen and (max-width: 991px) {
+   .formulario-index {
+      position: relative;
+      top: -50px;
+      left: calc(50% - 165px);
+   }
+}
+
+@media screen and (min-width: 992px) {
+   .formulario-index {
+      position: absolute;
+      top: 50px;
+      width: 326px;
+      height: 430px;
+   }
+
+      .formulario-index .titulo {
+         height: 40px !important;
+      }
+
+         .formulario-index .titulo span {
+            font-size: 16px !important;
+         }
+
+      .formulario-index #formContacto .div-subtitulo {
+         margin-top: 5px;
+      }
+
+      .formulario-index #formContacto .form-group {
+         margin-top: 0px;
+      }
+
+      .formulario-index #formContacto .btn-primary {
+         margin-top: 10px;
+      }
+
+      .formulario-index #formContacto .politicas {
+         font-size: 8px;
+      }
+
+/*   .seccion-live .divImagenes img {
+      width: 431px;
+   }*/
+   .seccion-live .btn-verde {
+      width: 200px;
+   }
+
+   .seccion-metodologia-beneficios .beneficios img {
+      height: 50px;
+   }
+
+   .seccion-business .carrusel-empresarial-texto {
+      font-size: 14px;
+   }
+
+   .seccion-business #carrusel-empresarial img {
+      width: 70%
+   }
+
+   .seccion-experiencia button {
+      padding-left: 25px;
+      padding-right: 25px;
+      font-size: 20px;
+   }
+   .seccion-experiencia .titulo {
+      font-size: 30px;
+   }
+
+   .seccion-experiencia .div-relleno {
+      height: 175px;
+   }
+
+   .seccion-mensaje .row {
+      height: 280px;
+   }
+
+   .seccion-mensaje p {
+      font-size: 2.6em;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   .formulario-index {
+      top: 80px;
+      height: 510px;
+   }
+      .formulario-index .titulo {
+         height: 51px !important;
+      }
+
+         .formulario-index .titulo span {
+            font-size: 24px !important;
+         }
+
+      .formulario-index #formContacto .div-subtitulo {
+         margin-top: 20px;
+      }
+
+      .formulario-index #formContacto .form-group {
+         margin-top: 10px;
+      }
+
+      .formulario-index #formContacto .btn-primary {
+         margin-top: 15px;
+      }
+
+      .formulario-index #formContacto .politicas {
+         font-size: 10px;
+      }
+
+   .seccion-business .carrusel-empresarial-texto {
+      font-size: 18px;
+   }
+
+   .seccion-business #carrusel-empresarial img {
+      width: 80%
+   }
+
+   .seccion-experiencia .div-relleno {
+      height: 220px;
+   }
+
+   .seccion-aprender #texto {
+      width: 60%;
+   }
+}

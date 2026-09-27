@@ -1,0 +1,360 @@
+{
+  "sitio": "https://www.dentalevolution.com.mx/",
+  "fecha": "2026-09-26T06:54:17.755Z",
+  "motor": "jina-reader",
+  "slug": "dentalevolution",
+  "nombre": "Dental Evolution",
+  "rubro": "SALUD",
+  "ciudad": "Cancún, Quintana Roo",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.dentalevolution.com.mx/",
+      "titulo": "Dentistas en Cancún | Dental Evolution Clínica Dental en Cancún"
+    },
+    {
+      "url": "https://www.dentalevolution.com.mx/coronas.html",
+      "titulo": "Clínica Dental, Dentistas y Odontólogos en Cancún | Dental Evolution"
+    },
+    {
+      "url": "https://www.dentalevolution.com.mx/blanqueamiento.html",
+      "titulo": "Clínica Dental, Dentistas y Odontólogos en Cancún | Dental Evolution"
+    },
+    {
+      "url": "https://www.dentalevolution.com.mx/carillas.html",
+      "titulo": "Clínica Dental, Dentistas y Odontólogos en Cancún | Dental Evolution"
+    },
+    {
+      "url": "https://www.dentalevolution.com.mx/implante-corona.html",
+      "titulo": "Clínica Dental, Dentistas y Odontólogos en Cancún | Dental Evolution"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "392338211",
+      "1 866-218-0980\n\n84-447-8793",
+      "1-844-214-2169",
+      "480191258",
+      "3828028095",
+      "369177974",
+      "998) 887-85-61\n\n(998) 884-86-81\n\n(998) 172-40-68",
+      "4143197307",
+      "212040628",
+      "470972420",
+      "3781578204",
+      "277154269",
+      "449952449",
+      "402915553",
+      "4137477340",
+      "4282079701",
+      "237863951",
+      "4248717851",
+      "4048493050",
+      "428732888",
+      "445858131",
+      "250905472",
+      "203544059",
+      "297535695",
+      "374456421",
+      "3804695890",
+      "4088040662",
+      "298539262",
+      "3991149158",
+      "3805515961",
+      "4194164367)\n\n1",
+      "4194164367)\n\n2",
+      "4194164367)\n\n3",
+      "998) 887-85-61\n\n(998) 884-86-81",
+      "998) 172-40-68",
+      "1-866-218-0980\n\n84-447-8793",
+      "3906853688",
+      "518935703",
+      "4067955707",
+      "311762830",
+      "416335776",
+      "260052772",
+      "3792783203",
+      "3984730722",
+      "460190945",
+      "458762454",
+      "174911546",
+      "3995840663",
+      "4204821835",
+      "501113216",
+      "4227158605",
+      "140416463",
+      "4002733341",
+      "4224139187",
+      "4234624561",
+      "4083210595",
+      "166034289",
+      "4044010495",
+      "345222287",
+      "120949604",
+      "369269633",
+      "192610094",
+      "107406138",
+      "3919734281",
+      "3939473535"
+    ],
+    "emails": [],
+    "whatsapp": [],
+    "redes": [
+      "https://twitter.com/dentalevolution",
+      "https://www.facebook.com/DentalEvolutionCancun",
+      "https://www.youtube.com/channel/UCAgv_qft9Bn8yxtiXAiIbqQ",
+      "https://www.youtube.com/watch?v=iDYIKPikyL4",
+      "https://www.youtube.com/watch?v=72FsCukOCoY"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.dentalevolution.com.mx/images/twitter-ico.png?crc=392338211",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/facebook-ico.png?crc=480191258",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/youtube-ico.png?crc=82775634",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/eng.png?crc=3828028095",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/aaid-2.png?crc=369177974",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/whatsapp.png?crc=66687682",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/logo-header.jpg?crc=4143197307",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/dentaduras-home.jpg?crc=212040628",
+      "alt": "Image 8: odontologia estetica Cancun"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/implantes-home.jpg?crc=470972420",
+      "alt": "Image 9: implantes dentales en cancun"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/bullet-1.png?crc=3781578204",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/separador-1.png?crc=277154269",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/coronas-puentes-home.jpg?crc=449952449",
+      "alt": "Image 24: brackets en cancun"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/bannerfotos.jpg?crc=402915553",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/videosbanner.jpg?crc=4137477340",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/banner-invisaling.jpg?crc=4282079701",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/guided.jpg?crc=237863951",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/odontologia-cancun.jpg?crc=4248717851",
+      "alt": "Image 30: odontologo en cancun"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/mockup-banner-home.jpg?crc=4048493050",
+      "alt": "Image 31"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/flechis-1.png?crc=428732888",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/banneresp.jpg?crc=445858131",
+      "alt": "Image 34"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/ahorra.png?crc=250905472",
+      "alt": "Image 35"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/mejor.png?crc=203544059",
+      "alt": "Image 37"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/equipo-dental-home.jpg?crc=297535695",
+      "alt": "Image 38: dentistas en Cancún"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/tratemientos-dentales-seguros.jpg?crc=374456421",
+      "alt": "Image 39: endodoncia en Cancún"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/emergencia-dental-banner.jpg?crc=3804695890",
+      "alt": "Image 42: Dentistas en Cancún, Emergencia Dental"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/dentista-cancun.png?crc=4088040662",
+      "alt": "Image 44"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/comillas-2.jpg?crc=298539262",
+      "alt": "Image 45"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/comillas-1.jpg?crc=3991149158",
+      "alt": "Image 46"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/turismo-dental-cancun.jpg?crc=3805515961",
+      "alt": "Image 47: odontologos en Cancún"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/bullet-2.png?crc=4194164367",
+      "alt": "Image 48"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/whatsapp2.png?crc=66687682",
+      "alt": "Image 51"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/aaid.png?crc=3906853688",
+      "alt": "Image 52"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/bg-im1.jpg?crc=518935703",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/dental-crowns-1.jpg?crc=4067955707",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/coronas-porcelana-interna-3.jpg?crc=311762830",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/sr1198x198.jpg?crc=12743877",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/sr2198x198.jpg?crc=416335776",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/comillas-3.png?crc=260052772",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/comillas-4.png?crc=3792783203",
+      "alt": "Image 31"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/blanqueamiento-laser-interna-1.jpg?crc=3984730722",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/process-laser-2.jpg?crc=460190945",
+      "alt": "Image 26: laser whitening cancun"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/process-laser-1.jpg?crc=458762454",
+      "alt": "Image 27: laser whitening cancun"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/process-laser-3.jpg?crc=174911546",
+      "alt": "Image 28: laser whitening cancun"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/blanqueamiento-laser-interna-2.jpg?crc=3995840663",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/veneers-1.jpg?crc=4204821835",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/carillas-porcelana-interna-2.jpg?crc=501113216",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/s1.png?crc=4227158605",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/s3.png?crc=140416463",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/s2.png?crc=4002733341",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/s4.png?crc=4224139187",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/veneers-12.jpg?crc=4234624561",
+      "alt": "Image 31"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/veneers-2.jpg?crc=4083210595",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/veneers-3.jpg?crc=166034289",
+      "alt": "Image 33"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/implantes-dentales-interna-1.jpg?crc=4044010495",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/implantes-dentales-interna-2.jpg?crc=345222287",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/implant-crown-1.jpg?crc=42944815",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/implant-crown-2.jpg?crc=120949604",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/implant-crown-3.jpg?crc=369269633",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/abutment.jpg?crc=192610094",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/sr2.jpg?crc=107406138",
+      "alt": "Image 31"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/sr1.jpg?crc=3919734281",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://www.dentalevolution.com.mx/images/imagen%20pegada%20921x656.png?crc=3939473535",
+      "alt": "Image 33"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/11/lg-DV.png",
+      "archivo": "lg-DV.png",
+      "alt": "Image 2: DULCE VEGA Makeup Artist Studio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/plugins/trx_addons/components/cpt/layouts/shortcodes/language/flags/en.png",
+      "archivo": "en.png",
+      "alt": "Image 3: English"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/plugins/trx_addons/components/cpt/layouts/shortcodes/language/flags/de.png",
+      "archivo": "de.png",
+      "alt": "Image 5: Deutsch"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/plugins/trx_addons/components/cpt/layouts/shortcodes/language/flags/es.png",
+      "archivo": "es.png",
+      "alt": "Image 6: Español"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/lg-DV.png",
+      "archivo": "lg-DV.png",
+      "alt": "Image 7: DULCE VEGA Makeup Artist Studio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2021/07/mobile-logo.png",
+      "archivo": "mobile-logo.png",
+      "alt": "Image 14: DULCE VEGA Makeup Artist Studio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2021/06/lg-DV-Blanco.png",
+      "archivo": "lg-DV-Blanco.png",
+      "alt": "Image 15: DULCE VEGA Makeup Artist Studio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/11/Vector-Smart-Object-6.png",
+      "archivo": "Vector-Smart-Object-6.png",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/27749751_1605198329535464_6824307540869276068_n.png",
+      "archivo": "27749751_1605198329535464_6824307540869276068_n.png",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2023/01/servicios-dulce-vega.png",
+      "archivo": "servicios-dulce-vega.png",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/labiales-indelebles-dulce-vega.png",
+      "archivo": "labiales-indelebles-dulce-vega.png",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/DSC_9024A.jpeg",
+      "archivo": "DSC_9024A.jpeg",
+      "alt": "Image 39"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2018/06/Dulce-Vega-colaboradora-oficial-768x664.jpeg",
+      "archivo": "Dulce-Vega-colaboradora-oficial-768x664.jpeg",
+      "alt": "Image 40"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2018/05/DULCE-VEGA-cindo-an%CC%83os-ensen%CC%83ando-maquillaje-de-alto-nivel-842x664.jpeg",
+      "archivo": "DULCE-VEGA-cindo-an_os-ensen_ando-maquillaje-de-alto-nivel-842x664.jpeg",
+      "alt": "Image 41"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2016/03/Dulce-Vega-en-el-evento-mexico-en-el-alma-890x640.jpeg",
+      "archivo": "Dulce-Vega-en-el-evento-mexico-en-el-alma-890x640.jpeg",
+      "alt": "Image 42"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2016/03/La-marca-Dulce-Vega-colaborado-on-Liverpool-890x664.jpeg",
+      "archivo": "La-marca-Dulce-Vega-colaborado-on-Liverpool-890x664.jpeg",
+      "alt": "Image 43"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2023/05/DELINEADOR-DE-OJOS-LIQUIDO-BLANCO-DV-630x630.jpg",
+      "archivo": "DELINEADOR-DE-OJOS-LIQUIDO-BLANCO-DV-630x630.jpg",
+      "alt": "Image 44: DELINEADOR LIQUIDO BLANCO"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2023/02/Maquillaje-en-crema-01-630x630.jpg",
+      "archivo": "Maquillaje-en-crema-01-630x630.jpg",
+      "alt": "Image 45: MAQUILLAJE EN CREMA Nº01 MARFIL"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2023/02/Fijador-Dulce-Vega-630x630.jpg",
+      "archivo": "Fijador-Dulce-Vega-630x630.jpg",
+      "alt": "Image 46: FIJADOR PARA MAQUILLAJE"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/12/DV-SMOKEY-LIGHT-BROWN-630x630.jpg",
+      "archivo": "DV-SMOKEY-LIGHT-BROWN-630x630.jpg",
+      "alt": "Image 47: DV DELINEADOR LIGHT BROWN"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://pixel.wp.com/g.gif?v=ext&blog=207561505&post=17711&tz=-5&srv=dulcevega.mx&j=1%3A16.2&host=dulcevega.mx&ref=&fcp=1256&rand=0.8384443806837077",
+      "archivo": "g.gif",
+      "alt": "Image 48"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/los-mejores-cursos-de-maquillaje-profesional.jpeg",
+      "archivo": "los-mejores-cursos-de-maquillaje-profesional.jpeg",
+      "alt": "Image 16: los-mejores-cursos-de-maquillaje-profesional"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/Dulce-Vega-lanza-su-nueva-linea-de-cosmeticos-profesional.jpeg",
+      "archivo": "Dulce-Vega-lanza-su-nueva-linea-de-cosmeticos-profesional.jpeg",
+      "alt": "Image 17: Dulce-Vega-lanza-su-nueva-linea-de-cosmeticos-profesional"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/Dulce-Vega-maquillista-de-zapopan.jpeg",
+      "archivo": "Dulce-Vega-maquillista-de-zapopan.jpeg",
+      "alt": "Image 18: Dulce-Vega-maquillista-de-zapopan"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/Dulce-Vega-maquillista-profesional.jpeg",
+      "archivo": "Dulce-Vega-maquillista-profesional.jpeg",
+      "alt": "Image 19: Dulce-Vega-maquillista-profesional"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/Dulce-Vega-naquillista-de-jalisco.jpeg",
+      "archivo": "Dulce-Vega-naquillista-de-jalisco.jpeg",
+      "alt": "Image 20: Dulce-Vega-naquillista-de-jalisco"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/dulce-vega-celebrities.png",
+      "archivo": "dulce-vega-celebrities.png",
+      "alt": "Image 23"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/portada-novia-1.jpg",
+      "archivo": "portada-novia-1.jpg",
+      "alt": "Image 24: portada novia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/Maquilla-de-color-naturalmente-bello.jpeg",
+      "archivo": "Maquilla-de-color-naturalmente-bello.jpeg",
+      "alt": "Image 25: Maquilla-de-color-naturalmente-bello"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/maquillajes-sociales-profesionales.jpeg",
+      "archivo": "maquillajes-sociales-profesionales.jpeg",
+      "alt": "Image 26: maquillajes-sociales-profesionales"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/Novia_de_fantasia_dulce_vega.jpeg",
+      "archivo": "Novia_de_fantasia_dulce_vega.jpeg",
+      "alt": "Image 27: Novia_de_fantasia_dulce_vega"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2022/10/Novias-totalmente-bellas-Dulce-Vega.jpeg",
+      "archivo": "Novias-totalmente-bellas-Dulce-Vega.jpeg",
+      "alt": "Image 28: Novias-totalmente-bellas-Dulce-Vega"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dulcevega.mx/wp-content/uploads/2021/06/sectigo.png",
+      "archivo": "sectigo.png",
+      "alt": "Image 32"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://pixel.wp.com/g.gif?v=ext&blog=207561505&post=22334&tz=-5&srv=dulcevega.mx&j=1%3A16.2&host=dulcevega.mx&ref=&fcp=1500&rand=0.38007670744444944",
+      "archivo": "g.gif",
+      "alt": "Image 33"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://pixel.wp.com/g.gif?v=ext&blog=207561505&post=22431&tz=-5&srv=dulcevega.mx&j=1%3A16.2&host=dulcevega.mx&ref=&fcp=1936&rand=0.4172170590121693",
+      "archivo": "g.gif",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://pixel.wp.com/g.gif?v=ext&blog=207561505&post=22594&tz=-5&srv=dulcevega.mx&j=1%3A16.2&host=dulcevega.mx&ref=&fcp=1948&rand=0.5471734305037258",
+      "archivo": "g.gif",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://pixel.wp.com/g.gif?v=ext&blog=207561505&post=17462&tz=-5&srv=dulcevega.mx&j=1%3A16.2&host=dulcevega.mx&ref=&fcp=1224&rand=0.16688066767574017",
+      "archivo": "g.gif",
+      "alt": "Image 18"
+    }
+  ]
+}

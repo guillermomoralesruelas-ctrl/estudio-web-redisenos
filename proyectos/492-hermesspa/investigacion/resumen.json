@@ -1,0 +1,174 @@
+{
+  "sitio": "https://www.hermesspa.com.mx/",
+  "fecha": "2026-09-26T08:16:03.413Z",
+  "motor": "jina-reader",
+  "slug": "hermesspa",
+  "nombre": "Hermes Spa",
+  "rubro": "SPA",
+  "ciudad": "Guadalajara, Jal",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.hermesspa.com.mx/",
+      "titulo": "Spa Exclusivo para Mujeres | Bienestar y Relajación en Hermes Spa"
+    },
+    {
+      "url": "https://www.hermesspa.com.mx/nuestras-terapias/",
+      "titulo": "Spa Exclusivo para Mujeres | Experiencia Personalizada en Hermes Spa"
+    },
+    {
+      "url": "https://www.hermesspa.com.mx/blog/",
+      "titulo": "Blog - Hermes Spa"
+    },
+    {
+      "url": "https://www.hermesspa.com.mx/contact/",
+      "titulo": "Contacto | Spa Exclusivo para Mujeres - Hermesspa"
+    },
+    {
+      "url": "https://www.hermesspa.com.mx/service/masajes/",
+      "titulo": "Terapia Masajes - Hermes Spa"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "33) 2808 0011",
+      "+3328080011",
+      "523328080011",
+      "+523328080011",
+      "+800 3510 494",
+      "+8003510494",
+      "2026-06-16",
+      "18.14.12-4-200",
+      "18.14.12-4",
+      "18.14.13-1-200",
+      "18.14.13-1",
+      "18.14.13-2-200",
+      "18.14.13-2",
+      "18.14.12-1-200",
+      "18.14.12-1",
+      "18.14.12-200",
+      "18.14.12-2-200",
+      "18.14.12-2",
+      "800 3510 494",
+      "33) 2620 3101",
+      "523326203101",
+      "208003510494",
+      "1756252093295.1400107"
+    ],
+    "emails": [
+      "host@hermesspa.com.mx"
+    ],
+    "whatsapp": [
+      "wa.me/523328080011)",
+      "wa.me/523326203101)"
+    ],
+    "redes": [
+      "https://www.facebook.com/Hermesspamasajes",
+      "https://www.youtube.com/@hermesspa-h1i",
+      "https://www.tiktok.com/@hermesparamujeres",
+      "https://www.instagram.com/hermespamujeres/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Nuevo-Logo-Hermes.webp",
+      "alt": "Image 1: Hermes Spa"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Faciales-Hermes-Spa-1.png",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/elementor/thumbs/Seduction-rbbrrmqfegg5dc3cbecreyldvbqsdmqyxo2ajgpkn4.png",
+      "alt": "Image 5: masajes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Sueco-768x660.png",
+      "alt": "Image 6: Masajes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Faciales-Hermes-Spa-768x660.png",
+      "alt": "Image 7: Faciales"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Deluxe-768x660.png",
+      "alt": "Image 8: Depilacion"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.12-4-200x200.jpeg",
+      "alt": "Image 9: Testimonios Clientes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.13-1-200x200.jpeg",
+      "alt": "Image 10: Testimonios Clientes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.13-2-200x200.jpeg",
+      "alt": "Image 11: Testimonios Clientes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.12-1-200x200.jpeg",
+      "alt": "Image 12: Testimonios Clientes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/Testimonios-Clientes2-200x200.jpeg",
+      "alt": "Image 13: Testimonios Clientes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/Testimonios-Clientes-200x200.jpeg",
+      "alt": "Image 14: Testimonios Clientes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.12-200x200.jpeg",
+      "alt": "Image 15: Testimonios Clientes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.12-2-200x200.jpeg",
+      "alt": "Image 16: Testimonios Clientes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/4-Galeria.png",
+      "alt": "Image 25: relajante"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Descontracturante.png",
+      "alt": "Image 26: descontracturante"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/NUESTRAS-CLIENTAS.png",
+      "alt": "Image 27: seduction"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/4-Manos.png",
+      "alt": "Image 28: 4 manos"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Piedras-Calientes.png",
+      "alt": "Image 29: piedras calientes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Sueco.png",
+      "alt": "Image 4: masajes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Faciales-Hermes-Spa.png",
+      "alt": "Image 5: faciales"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Deluxe.png",
+      "alt": "Image 6: masajes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Tantrico-1024x683.png",
+      "alt": "Image 2: masajes"
+    },
+    {
+      "src": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/4-Galeria-1.png",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://taniaalvarez1756252093295.1400107.misitiohostgator.com/wp-content/uploads/2025/08/rsw_1280h_791-1.webp",
+      "alt": "Image 4: Reserva tu cita"
+    }
+  ]
+}

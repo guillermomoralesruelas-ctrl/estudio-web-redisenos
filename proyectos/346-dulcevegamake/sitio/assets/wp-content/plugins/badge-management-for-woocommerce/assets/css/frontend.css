@@ -1,0 +1,164 @@
+/**
+ * Frontend style
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ */
+
+.phoen-wcbm-clearfix:before,
+.phoen-wcbm-clearfix:after {
+    content : "";
+    display : table;
+}
+
+.phoen-wcbm-clearfix:after {
+    clear : both;
+}
+
+.phoen-wcbm-clearfix {
+    zoom : 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.phoen-wcbm-badge {
+    position    : absolute;
+    box-sizing  : border-box;
+    text-align  : center;
+    z-index     : 10;
+    font-family : "Open Sans", sans-serif;
+    font-size   : 13px;
+}
+
+.phoen-wcbm-badge img {
+    max-width  : 200px;
+    max-height : 200px;
+}
+
+.phoen-wcbm-badge__wrap {
+    width  : 100%;
+    height : 100%;
+}
+
+p.phoen-wcbm-badge-txt {
+    margin  : 0;
+    padding : 0;
+}
+
+.container-image-and-badge {
+    position    : relative;
+    display     : block;
+    text-indent : 0;
+    line-height : 0;
+}
+
+.phoen-wcbm-badge img {
+    margin : 0 !important;
+}
+
+span.onsale {
+    z-index : 10;
+}
+
+.phoen-wcbm-badge-advanced .phoen-wcbm-badge-text,
+.phoen-wcbm-badge-advanced .phoen-wcbm-badge-text-advanced,
+.phoen-wcbm-on-sale-badge-advanced .phoen-wcbm-badge-text-advanced {
+    position : absolute;
+    left     : 0;
+    top      : 0;
+    width    : 100%;
+    height   : 100%;
+    z-index  : 14;
+}
+
+/* Shortcode */
+.phoen-wcbm-shortcode-badge-container .container-image-and-badge {
+    display : inline-block;
+}
+
+/* ============================================================================================
+ *            T h e m e s  a n d   p l u g i n s    C o m p a t i b i l i t y
+ * ============================================================================================
+*/
+
+/* - - - hide in cart items - - - */
+.cart_item .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/* - - - hide badges on product thumbnails - - - - */
+.product-thumbnails .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/* ----- Flatsome ----- */
+.phoen-wcbm-theme-flatsome .iosSlider.product-thumbnails .phoen-wcbm-badge,
+.phoen-wcbm-theme-flatsome #mini-cart-content .container-image-and-badge .phoen-wcbm-badge {
+    display : none !important;
+}
+
+.phoen-wcbm-theme-flatsome #mini-cart-content .container-image-and-badge,
+.phoen-wcbm-theme-flatsome .products .container-image-and-badge,
+.phoen-wcbm-theme-flatsome .phoen-wcbm-badge img {
+    position : static !important;
+}
+
+/* ----- Avada ----- */
+.fusion-menu-cart-items .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/* ----- Wishlist ----- */
+#phoen-wcwl-form .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/* ---- Frequently Bough together ---- */
+.phoen-wfbt-section .phoen-wcbm-badge, .phoen-wfbt-form .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/*---- Save for later ---- */
+#ywsfl_container_list .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/* ---- Quick View ---- */
+.phoen-quick-view-nav .container-image-and-badge {
+    position : static !important;
+    width    : 100% !important;
+    padding  : 0 !important;
+}
+
+.phoen-quick-view-nav .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/* ---------- Ajax Search ---------- */
+.phoen-ajaxsearchform-container .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/* ---------- Product Bundles -------------- */
+.phoen-wcpb-product-bundled-items .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/* ------ Storefront Sticky Add to Cart -------- */
+.ssatc-sticky-add-to-cart .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/* ------ Request a Quote ------- */
+.phoen-ywraq-list-widget-wrapper .phoen-wcbm-badge {
+    display : none !important;
+}
+
+/* ------ Added to cart popup ------- */
+.phoen-wacp-content table.cart-list .phoen-wcbm-badge {
+    display : none;
+}
+
+/* ------ Basel Theme -------- */
+body.phoen-wcbm-theme-basel .container-image-and-badge > img,
+body.phoen-wcbm-theme-basel .container-image-and-badge *:not(.phoen-wcbm-badge) img {
+    width : 100%;
+}

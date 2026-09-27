@@ -1,0 +1,169 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/12/Diseno-sin-titulo-43-min.png",
+      "archivo": "Diseno-sin-titulo-43-min.png",
+      "alt": "Image 1: Diseño sin título (43)-min"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-014.png",
+      "archivo": "icons-014.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-min.jpg",
+      "archivo": "orte-de-cabello-min.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/6-min-1.jpg",
+      "archivo": "6-min-1.jpg",
+      "alt": "Image 6: Barbershop cancun"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-1-min.jpg",
+      "archivo": "orte-de-cabello-1-min.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-2-min.jpg",
+      "archivo": "orte-de-cabello-2-min.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-3-min.jpg",
+      "archivo": "orte-de-cabello-3-min.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-4-min.jpg",
+      "archivo": "orte-de-cabello-4-min.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-5-min.jpg",
+      "archivo": "orte-de-cabello-5-min.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/12/orte-de-cabello-6-min.jpg",
+      "archivo": "orte-de-cabello-6-min.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-06.png",
+      "archivo": "icons-06.png",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-09.png",
+      "archivo": "icons-09.png",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-08.png",
+      "archivo": "icons-08.png",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-07.png",
+      "archivo": "icons-07.png",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/unnamed-4.png",
+      "archivo": "unnamed-4.png",
+      "alt": "Image 17: HUGO ALBERTO SAMBERINO"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/unnamed-3.png",
+      "archivo": "unnamed-3.png",
+      "alt": "Image 18: Victor Monsalve"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/unnamed-2.png",
+      "archivo": "unnamed-2.png",
+      "alt": "Image 19: Javier Lopez"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/as-4-mejores-barberias-en-Cancun-min-1-1024x576.jpg",
+      "archivo": "as-4-mejores-barberias-en-Cancun-min-1-1024x576.jpg",
+      "alt": "Image 21: Las 4 mejores barberías en Cancún-min (1)"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/01/Corte-de-Pelo-Hombre-en-Cancun-1-1-min-1024x683.jpg",
+      "archivo": "Corte-de-Pelo-Hombre-en-Cancun-1-1-min-1024x683.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/01/Tendencias-en-Cortes-de-Cabello-para-Hombres-2025-1-min-1024x683.jpg",
+      "archivo": "Tendencias-en-Cortes-de-Cabello-para-Hombres-2025-1-min-1024x683.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/Mostrador-de-Homme-Barbers-Cancun.jpg",
+      "archivo": "Mostrador-de-Homme-Barbers-Cancun.jpg",
+      "alt": "Image 24: Mostrador principal de Homme Barbers en Cancún, con productos de barbería y decoración moderna."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/01/fabe844c70cc03de730b44a6e5641e07.jpg",
+      "archivo": "fabe844c70cc03de730b44a6e5641e07.jpg",
+      "alt": "Image 26"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2025/12/Diseno-sin-titulo-45-min.png",
+      "archivo": "Diseno-sin-titulo-45-min.png",
+      "alt": "Image 27"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/corte-pelo-hombre-cancun/",
+      "archivo": "corte-pelo-hombre-cancun",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/wp-content/uploads/2024/11/icons-030.png",
+      "archivo": "icons-030.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/afeitado-y-arreglo-de-barba-cancun/",
+      "archivo": "afeitado-y-arreglo-de-barba-cancun",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaencancun.com/facial-exfoliante-cancun/",
+      "archivo": "facial-exfoliante-cancun",
+      "alt": "Image 5"
+    }
+  ]
+}

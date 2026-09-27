@@ -1,0 +1,296 @@
+.seccion-plan-selector {
+   background: #000000;
+   color: #f0eff8;
+   padding: 0 0 40px;
+}
+
+main {
+   background: #000000;
+}
+
+.seccion-plan-selector h3 {
+   font-size: calc(2em + 1vw);
+   font-weight: 800;
+   margin-top: 16px;
+   margin-bottom: 14px;
+}
+
+.plan-selector-header span,
+.plan-question-label span {
+   color: #8b5cf6;
+}
+
+.plan-selector-header {
+   margin-bottom: 36px;
+}
+
+.plan-text-top {
+   display: inline-flex;
+   align-items: center;
+   gap: 8px;
+   background: #3F0B8B;
+   border: 1px solid rgba(108, 59, 255, 0.35);
+   border-radius: 999px;
+   padding: 10px 14px 10px 14px;
+   margin-bottom: 20px;
+}
+
+   .plan-text-top h2 {
+      color: #ffffff;
+      font-size: calc(0.75em + 1.5vw);
+      font-weight: normal;
+      margin-bottom: 0;
+   }
+
+   .plan-text-top img {
+      width: calc(0.75em + 0.5vw);
+      vertical-align: baseline;
+   }
+
+.plan-subhead {
+   color: #ffffff;
+   max-width: 520px;
+   margin: 0 auto;
+   font-size: calc(0.90em + .15vw);
+   font-weight: 800;
+}
+
+.plan-selector {
+   position: relative;
+}
+
+.plan-selector input[type="radio"] {
+   position: absolute;
+   opacity: 0;
+   pointer-events: none;
+}
+
+.plan-question {
+   margin-bottom: 30px;
+}
+
+.plan-question-label {
+   font-size: calc(1.75em + .75vw);
+   font-weight: 700;
+   color: #a09bb8;
+   margin-bottom: 12px;
+}
+
+.plan-question-buttons {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 12px;
+}
+
+.plan-btn {
+   display: inline-flex;
+   align-items: center;
+   gap: 6px;
+   padding: 10px 18px;
+   border-radius: 999px;
+   border: 1px solid rgba(255, 255, 255, 0.15);
+   background: rgba(17, 17, 24, 0.8);
+   color: #d4d2e2;
+   font-size: 14px;
+   font-weight: 600;
+   cursor: pointer;
+   transition: all 0.2s ease;
+}
+
+.plan-btn:hover {
+   border-color: rgba(255, 255, 255, 0.3);
+   transform: translateY(-1px);
+}
+
+.plan-selector-cards {
+   margin-bottom: 24px;
+}
+
+.plan-card {
+   border-radius: 20px;
+   border: 1.5px solid rgba(255, 255, 255, 0.08);
+   background: rgba(17, 17, 24, 0.85);
+   padding: 30px 28px 26px;
+   transition: all 0.3s ease;
+   height: 100%;
+   cursor: pointer;
+}
+
+.plan-card h3 {
+   font-weight: 700;
+   margin-bottom: 12px;
+}
+
+.plan-card strong {
+   color: #ffffff;
+}
+
+.plan-diff {
+   color: #b2afc6;
+   font-size: 14px;
+   margin-bottom: 18px;
+}
+
+.plan-price {
+   margin-bottom: 0px;
+   margin-left: 40px;
+   font-size: calc(2em + 0.5vw);
+   font-weight: 800;
+   line-height: 1em;
+}
+
+.plan-price span {
+   font-size: 13px;
+   font-weight: 500;
+   vertical-align: super;
+   color: #b2afc6;
+}
+
+.plan-price-note {
+   margin-bottom: 20px;
+   margin-left: 70px;
+   font-size: 13px;
+   color: #9a96b3;
+}
+
+.plan-features {
+   list-style: none;
+   padding-left: 0;
+   margin: 0 0 24px;
+}
+
+.plan-features li {
+   display: flex;
+   gap: 8px;
+   margin-bottom: 10px;
+   color: #b7b4c8;
+   font-size: 13.5px;
+}
+
+.plan-features i {
+   color: #8b5cf6;
+   margin-top: 3px;
+}
+
+.card-flex .plan-features i {
+   color: #f5a623;
+}
+
+.card-flex .plan-price,
+.card-flex h3 {
+   color: #F4A623;
+}
+
+.plan-badge {
+   display: inline-flex;
+   align-items: center;
+   gap: 6px;
+   font-size: 11px;
+   font-weight: 600;
+   letter-spacing: 0.08em;
+   text-transform: uppercase;
+   padding: 5px 12px;
+   border-radius: 999px;
+   margin-bottom: 16px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.badge-live {
+   color: #c4b5fd;
+   border-color: rgba(139, 92, 246, 0.5);
+   background: rgba(108, 59, 255, 0.2);
+}
+
+.badge-flex {
+   color: #f5a623;
+   border-color: rgba(245, 166, 35, 0.5);
+   background: rgba(245, 166, 35, 0.15);
+}
+
+.plan-badge-recommended {
+   display: none;
+}
+
+.plan-cta {
+   color: #ffffff;
+   font-weight: 600;
+   cursor: pointer;
+   transition: all 0.2s ease;
+   display: inline-flex;
+   border: 1px solid rgba(108, 59, 255, 0.35);
+   border-radius: 999px;
+   padding: 5px 60px 5px 60px;
+}
+
+.cta-live {
+   background: #6c3bff;
+   box-shadow: 0 10px 24px rgba(108, 59, 255, 0.35);
+}
+
+.cta-live:hover {
+   background: #8b5cf6;
+}
+
+.cta-flex {
+   background: #f5a623;
+   box-shadow: 0 10px 24px rgba(245, 166, 35, 0.35);
+}
+
+.cta-flex:hover {
+   background: #f7b84b;
+}
+
+#plan-live:checked ~ .plan-question .btn-live {
+   background: rgba(108, 59, 255, 0.25);
+   border-color: #6c3bff;
+   color: #ffffff;
+}
+
+#plan-flex:checked ~ .plan-question .btn-flex {
+   background: rgba(245, 166, 35, 0.25);
+   border-color: #f5a623;
+   color: #ffffff;
+}
+
+#plan-live:checked ~ .plan-selector-cards .card-live {
+   border-color: #6c3bff;
+   box-shadow: 0 24px 60px rgba(108, 59, 255, 0.2), 0 0 0 1px rgba(108, 59, 255, 0.25);
+   transform: translateY(-4px);
+}
+
+#plan-live:checked ~ .plan-selector-cards .card-flex {
+   opacity: 0.45;
+   transform: scale(0.98);
+}
+
+#plan-flex:checked ~ .plan-selector-cards .card-flex {
+   border-color: #f5a623;
+   box-shadow: 0 24px 60px rgba(245, 166, 35, 0.15), 0 0 0 1px rgba(245, 166, 35, 0.2);
+   transform: translateY(-4px);
+}
+
+#plan-flex:checked ~ .plan-selector-cards .card-live {
+   opacity: 0.45;
+   transform: scale(0.98);
+}
+
+#plan-live:checked ~ .plan-selector-cards .card-live .plan-badge-default,
+#plan-flex:checked ~ .plan-selector-cards .card-flex .plan-badge-default {
+   display: none;
+}
+
+#plan-live:checked ~ .plan-selector-cards .card-live .plan-badge-recommended,
+#plan-flex:checked ~ .plan-selector-cards .card-flex .plan-badge-recommended {
+   display: inline;
+}
+
+@media (max-width: 767px) {
+   .seccion-plan-selector {
+      padding: 60px 0 50px;
+   }
+
+   .plan-card {
+      padding: 26px 22px 22px;
+   }
+}

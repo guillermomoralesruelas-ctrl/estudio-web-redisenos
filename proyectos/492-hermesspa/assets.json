@@ -1,0 +1,157 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Nuevo-Logo-Hermes.webp",
+      "archivo": "Nuevo-Logo-Hermes.webp",
+      "alt": "Image 1: Hermes Spa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Faciales-Hermes-Spa-1.png",
+      "archivo": "Faciales-Hermes-Spa-1.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/elementor/thumbs/Seduction-rbbrrmqfegg5dc3cbecreyldvbqsdmqyxo2ajgpkn4.png",
+      "archivo": "Seduction-rbbrrmqfegg5dc3cbecreyldvbqsdmqyxo2ajgpkn4.png",
+      "alt": "Image 5: masajes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Sueco-768x660.png",
+      "archivo": "Sueco-768x660.png",
+      "alt": "Image 6: Masajes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Faciales-Hermes-Spa-768x660.png",
+      "archivo": "Faciales-Hermes-Spa-768x660.png",
+      "alt": "Image 7: Faciales"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Deluxe-768x660.png",
+      "archivo": "Deluxe-768x660.png",
+      "alt": "Image 8: Depilacion"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.12-4-200x200.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-16-at-18.14.12-4-200x200.jpeg",
+      "alt": "Image 9: Testimonios Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.13-1-200x200.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-16-at-18.14.13-1-200x200.jpeg",
+      "alt": "Image 10: Testimonios Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.13-2-200x200.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-16-at-18.14.13-2-200x200.jpeg",
+      "alt": "Image 11: Testimonios Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.12-1-200x200.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-16-at-18.14.12-1-200x200.jpeg",
+      "alt": "Image 12: Testimonios Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/Testimonios-Clientes2-200x200.jpeg",
+      "archivo": "Testimonios-Clientes2-200x200.jpeg",
+      "alt": "Image 13: Testimonios Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/Testimonios-Clientes-200x200.jpeg",
+      "archivo": "Testimonios-Clientes-200x200.jpeg",
+      "alt": "Image 14: Testimonios Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.12-200x200.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-16-at-18.14.12-200x200.jpeg",
+      "alt": "Image 15: Testimonios Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-16-at-18.14.12-2-200x200.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-16-at-18.14.12-2-200x200.jpeg",
+      "alt": "Image 16: Testimonios Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/4-Galeria.png",
+      "archivo": "4-Galeria.png",
+      "alt": "Image 25: relajante"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Descontracturante.png",
+      "archivo": "Descontracturante.png",
+      "alt": "Image 26: descontracturante"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/NUESTRAS-CLIENTAS.png",
+      "archivo": "NUESTRAS-CLIENTAS.png",
+      "alt": "Image 27: seduction"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/4-Manos.png",
+      "archivo": "4-Manos.png",
+      "alt": "Image 28: 4 manos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Piedras-Calientes.png",
+      "archivo": "Piedras-Calientes.png",
+      "alt": "Image 29: piedras calientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Sueco.png",
+      "archivo": "Sueco.png",
+      "alt": "Image 4: masajes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Faciales-Hermes-Spa.png",
+      "archivo": "Faciales-Hermes-Spa.png",
+      "alt": "Image 5: faciales"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Deluxe.png",
+      "archivo": "Deluxe.png",
+      "alt": "Image 6: masajes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/Tantrico-1024x683.png",
+      "archivo": "Tantrico-1024x683.png",
+      "alt": "Image 2: masajes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hermesspa.com.mx/wp-content/uploads/2025/09/4-Galeria-1.png",
+      "archivo": "4-Galeria-1.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://taniaalvarez1756252093295.1400107.misitiohostgator.com/wp-content/uploads/2025/08/rsw_1280h_791-1.webp",
+      "archivo": "rsw_1280h_791-1.webp",
+      "alt": "Image 4: Reserva tu cita"
+    }
+  ]
+}

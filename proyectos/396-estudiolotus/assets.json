@@ -1,0 +1,187 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/lotus-logo.png",
+      "archivo": "lotus-logo.png",
+      "alt": "Image 1: Diseño, web, video y Fotografía en Guadalajara Mexico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/filamacion.png",
+      "archivo": "filamacion.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/05/post-produccion.jpg",
+      "archivo": "post-produccion.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/05/banner.jpg",
+      "archivo": "banner.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/05/grabacion-de-video.jpg",
+      "archivo": "grabacion-de-video.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/larozse-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "archivo": "larozse-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "alt": "Image 7: larozse.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/bolier-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "archivo": "bolier-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "alt": "Image 8: bolier.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/mapmaster-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "archivo": "mapmaster-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "alt": "Image 9: mapmaster.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/darkside-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "archivo": "darkside-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "alt": "Image 10: darkside.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/digit-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "archivo": "digit-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "alt": "Image 11: digit.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/col-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "archivo": "col-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "alt": "Image 12: col.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/zusman-np9a2wcyx3tx3mfqga0biwi6wyvait17ha7v9qi864.png",
+      "archivo": "zusman-np9a2wcyx3tx3mfqga0biwi6wyvait17ha7v9qi864.png",
+      "alt": "Image 13: zusman.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/zing-np9a2wcyx3tx3mfqga0biwi6wyvait17ha7v9qi864.png",
+      "archivo": "zing-np9a2wcyx3tx3mfqga0biwi6wyvait17ha7v9qi864.png",
+      "alt": "Image 14: zing.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/madrin-np9a2wcyx3tx3mfqga0biwi6wyvait17ha7v9qi864.png",
+      "archivo": "madrin-np9a2wcyx3tx3mfqga0biwi6wyvait17ha7v9qi864.png",
+      "alt": "Image 15: madrin.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/armond-1-np9a2wcyx3tx3mfqga0biwi6wyvait17ha7v9qi864.png",
+      "archivo": "armond-1-np9a2wcyx3tx3mfqga0biwi6wyvait17ha7v9qi864.png",
+      "alt": "Image 16: armond-1.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/x.venox_-np9a2wcyx3tx3mfqga0biwi6wyvait17ha7v9qi864.png",
+      "archivo": "x.venox_-np9a2wcyx3tx3mfqga0biwi6wyvait17ha7v9qi864.png",
+      "alt": "Image 17: x.venox_.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/geo-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "archivo": "geo-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "alt": "Image 18: geo.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/elementor/thumbs/fifthflour-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "archivo": "fifthflour-np9a2xat3xv7f8edasey3e9nicqnqi4xtevcr0gtzw.png",
+      "alt": "Image 19: fifthflour.png"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/1470399662_Marketing.png",
+      "archivo": "1470399662_Marketing.png",
+      "alt": "Image 32"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/1470399671_SEO.png",
+      "archivo": "1470399671_SEO.png",
+      "alt": "Image 33"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/1470399715_E-Commerce.png",
+      "archivo": "1470399715_E-Commerce.png",
+      "alt": "Image 34"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/1470399674_App_Development.png",
+      "archivo": "1470399674_App_Development.png",
+      "alt": "Image 35"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/1470399667_Newsletter.png",
+      "archivo": "1470399667_Newsletter.png",
+      "alt": "Image 36"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/1470399656_Branding.png",
+      "archivo": "1470399656_Branding.png",
+      "alt": "Image 37"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/15349744_1704832013161727_2034696459580397206_n-1.jpg",
+      "archivo": "15349744_1704832013161727_2034696459580397206_n-1.jpg",
+      "alt": "Image 38"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/Bridesmaids0Dbridsmade1.jpg",
+      "archivo": "Bridesmaids0Dbridsmade1.jpg",
+      "alt": "Image 39"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/44.png",
+      "archivo": "44.png",
+      "alt": "Image 40"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/INICIquienes-somos-web-1024x416.jpg",
+      "archivo": "INICIquienes-somos-web-1024x416.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2016/09/LOGOS.jpg",
+      "archivo": "LOGOS.jpg",
+      "alt": "Image 3: logos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudiolotus.com/wp-content/uploads/2018/04/diseno-depagina-web-guadalajara.jpg",
+      "archivo": "diseno-depagina-web-guadalajara.jpg",
+      "alt": "Image 3"
+    }
+  ]
+}

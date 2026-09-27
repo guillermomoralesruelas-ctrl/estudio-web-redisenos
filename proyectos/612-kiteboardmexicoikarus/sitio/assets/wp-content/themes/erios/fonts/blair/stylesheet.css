@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Blair ITC';
+    src: url('BlairITC-Medium.eot');
+    src: url('BlairITC-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BlairITC-Medium.woff2') format('woff2'),
+        url('BlairITC-Medium.woff') format('woff'),
+        url('BlairITC-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

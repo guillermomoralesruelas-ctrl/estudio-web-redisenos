@@ -1,0 +1,421 @@
+/* --- Estilos para menú --- */
+.seccion-navbar nav {
+   /*background: #120241;*/
+   background-color: transparent;
+}
+
+.interlingua-logo {
+   height: 40px;
+   font-family: Interlingua2023, 'Source Sans Pro', sans-serif;
+   font-size: 32px;
+   /* font-weight: bold;*/
+   text-align: left;
+   color: #ffffff;
+   text-decoration: none;
+   padding-left: 10px !important;
+   line-height: 1;
+}
+
+   .interlingua-logo:focus,
+   .interlingua-logo:hover {
+      color: #ffffff;
+   }
+
+   .interlingua-logo .menu-alumno {
+      font-size: 32px;
+      text-align: left;
+      color: #120241;
+   }
+
+.interlingua-logo-footer {
+   height: 40px;
+   font-family: Interlingua2023, 'Source Sans Pro', sans-serif;
+   font-size: 40px;
+   text-align: left;
+   color: #411889;
+   text-decoration: none;
+   padding-left: 10px !important;
+   line-height: 1;
+}
+
+   .interlingua-logo-footer:focus,
+   .interlingua-logo-footer:hover {
+      color: #411889;
+   }
+
+.menu-opcion-sm {
+   display: inline-block;
+}
+
+#mnuPromocionActiva {
+  color:wheat;
+}
+
+.menu,
+.submenu {
+   font-size: 16px;
+}
+
+   .submenu a {
+      text-decoration: none;
+   }
+
+.menu-top {
+   height: 52px;
+   padding-left: 24px;
+   padding-right: 32px;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   color: #120241;
+}
+
+.texto-color {
+   color: #7fd859;
+}
+
+.menu-top .btn-primary {
+   background-color: rgba(127,216,89, 1);
+   border-color: rgba(127,216,89, 1);
+   color: rgba(255,255,255,.55);
+   width: 88px;
+   height: 24px;
+   font-size: 12px;
+   padding-top: 2px;
+}
+
+   .menu-top .btn-primary:focus,
+   .menu-top .btn-primary:hover {
+      background-color: rgba(127,216,89,1);
+      border-color: rgba(127,216,89,1);
+      color: rgba(255,255,255,.95);
+      font-weight: bold;
+   }
+
+.menu-top-link a {
+   color: rgba(63,10,139,.75);
+   text-align: center;
+   margin-left: 25px;
+   text-decoration: none;
+}
+
+   .menu-top-link a:focus,
+   .menu-top-link a:hover {
+      color: rgba(63,10,139,.95);
+      font-weight: bold;
+   }
+
+.menu-link a {
+   color: rgba(255,255,255,.55);
+}
+
+   .menu-link a:focus,
+   .menu-link a:hover {
+      /*color: rgba(255,255,255,.75);
+      background-color: #A793FF;*/
+      color: rgba(255,255,255, 1);
+      background-color: rgb(175, 173, 245, .5);
+      border-radius: 50px;
+      height: 26px;
+   }
+
+   .nav-link {
+      padding:0px;
+   }
+
+#submenuLogin {
+   /*background-color: rgba(107, 70, 254, 0.90);*/
+   background-color: #6A697D;
+}
+
+   #submenuLogin a:focus,
+   #submenuLogin a:hover {
+      height: 28px;
+   }
+
+
+.div-navbar-button {
+   width: 56px !important;
+}
+
+.div-submenus {
+   width: calc(100% - 58px);
+}
+
+#search, #carrito {
+   width: 22px;
+   height: 22px;
+   object-fit: contain;
+   margin: 0px;
+}
+
+.redes-sociales {
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+   .redes-sociales a {
+      margin-left: 8px !important;
+   }
+
+.separador-vertical {
+   color: #fff;
+}
+
+
+/* --- Estilos para pie de página --- */
+.footer {
+   width: 100%;
+   white-space: nowrap;
+   min-height: 317px;
+   padding: 36px 30px 36px 30px;
+   /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(to right, #120241 0%, #3f0a8c 93%);*/
+   background-color: #ffffff;
+}
+
+   .footer span {
+      /*color: rgba(255,255,255,.75);*/
+      color: #000000;
+   }
+
+   .footer ul {
+      list-style: none;
+      padding-left: 20px;
+   }
+
+/*   .footer li {
+      margin-top: 3px;
+      margin-bottom: 17px;
+   }*/
+
+   .footer a,
+   .footer a:visited {
+      /*color: rgba(255,255,255,.55);*/
+      color: #000000;
+      text-align: center;
+      text-decoration: none;
+   }
+
+      .footer a:focus,
+      .footer a:hover {
+         /*color: rgba(255,255,255,.75);*/
+         color: #000000;
+         text-decoration: underline;
+      }
+
+   .footer .horizontal-line {
+      color: #fff;
+   }
+
+   .footer .razon-social {
+      font-weight: bolder;
+      font-size: calc(0.5em + .5vw);
+   }
+
+   .footer .direccion {
+      font-size: calc(0.4em + .5vw);
+   }
+
+   .footer .copy-right {
+      font-size: calc(0.5em + .5vw);
+   }
+
+   .footer .blank-bottom {
+      height: 50px;
+   }
+
+/* --- Estilos input de búsqueda --- */
+.search-div {
+   position: fixed;
+   top: 50px;
+   right: 180px;
+   width: 450px;
+   height: 80px;
+   display: none;
+   z-index: 9999;
+   background-color: #fff;
+   padding-left: 10px;
+   border: solid 1px #120241;
+   -webkit-border-radius: 10px;
+   -webkit-box-orient: vertical;
+   -webkit-transition: 200ms -webkit-transform;
+   box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.search-close {
+   margin: 0 auto;
+   background-color: transparent;
+   font-weight: bold;
+   color: #120241;
+   border: none;
+   width: auto;
+   float: right;
+   clear: both;
+   cursor: pointer;
+}
+
+#search-input {
+   border-radius: 4px;
+   border: solid 0.8px #3f0a8b;
+}
+
+/* --- Estilos responsivos --- */
+@media screen and (max-width: 575px) {
+   .navbar-brand {
+      margin-left: 0px;
+      margin-right: 0px;
+   }
+
+   .menu-opcion-sm {
+      padding-left: 0px;
+      padding-right: 5px;
+   }
+
+      .menu-opcion-sm a {
+         font-size: 12px;
+      }
+
+   .menu-opcion-md {
+      display: none !important;
+   }
+
+   .interlingua-logo {
+      height: 26px;
+      margin: 0 5px 0 5px;
+      /*padding-left: 0px;*/
+      padding-right: 0px;
+      font-size: 32px;
+      /*      font-weight: bold;
+      text-align: left;
+      color: #fff;*/
+   }
+
+      .interlingua-logo .menu-alumno {
+         font-size: 32px;
+      }
+
+   .interlingua-logo-footer {
+      height: 26px;
+      margin: 0 5px 0 5px;
+      padding-left: 0px;
+      padding-right: 0px;
+      font-size: 40px;
+   }
+
+   .menu-top {
+      padding-left: 5px;
+      padding-right: 5px;
+   }
+
+   .footer {
+      padding: 36px 10px 36px 10px;
+   }
+
+      .footer ul {
+         padding-left: 10px;
+      }
+}
+
+@media screen and (max-width: 575px) {
+   #iniciar-sesion-top {
+      display: none;
+   }
+}
+
+
+@media screen and (min-width: 576px) {
+   .menu {
+      padding-left: 26px;
+   }
+
+/*   .menu-opcion-sm {
+      display: none !important;
+   }*/
+}
+
+@media screen and (max-width: 767px) {
+   #texto-adicional-boton {
+      display: none;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .menu-top .btn-primary {
+      width: 128px;
+   }
+
+   .footer .vertical-lines {
+      border-left: 1px solid rgba(255,255,255,.45);
+   }
+
+   .footer .horizontal-line {
+      display: none;
+   }
+
+   .break-dr {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 991px) {
+   .menu-alumno,
+   #navbarCollapse .separador-vertical {
+      display: none;
+   }
+
+   #navbarCollapse a {
+      margin-left: 25px;
+   }
+
+   #opcion-telefono {
+      margin-top: 25px;
+      margin-bottom: 25px;
+   }
+
+   .menu-top {
+      font-size: 12px;
+   }
+
+   #carrito, #search {
+      display: none !important;
+   }
+}
+
+@media screen and (min-width: 992px) {
+   .menu-top .btn-primary {
+      width: 148px;
+      height: 36px;
+      font-size: 14px;
+      padding-top: 4px;
+   }
+
+   .div-navbar-button {
+      width: 20px !important;
+   }
+
+   .menu {
+      height: 52px;
+      padding: 10px 26px 14px 33px;
+   }
+
+   .menu-top-link a {
+      font-size: 14px;
+   }
+
+   .d-none-logo-blanco,
+   .menu-opcion-md {
+      display: none !important;
+   }
+
+   .menu-opcion-sm {
+      display: none !important;
+   }
+
+   .menu .redes-sociales {
+      display: none;
+   }
+
+   .footer .vertical-lines {
+      border-right: 1px solid rgba(255,255,255,.45);
+   }
+}

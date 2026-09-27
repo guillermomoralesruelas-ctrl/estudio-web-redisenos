@@ -1,0 +1,145 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/fb03fd17-cb81-428b-b9ca-ebca19964ca2/l51,t1,w399,h499/image.png",
+      "archivo": "image.png",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/e97840ab-cfa6-4de6-8338-e2ed9dfd4111/l0,t0,w960,h720/image-768x576.jpg",
+      "archivo": "image-768x576.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/c0ffe21f-ec4e-4b2b-aa9d-5eb9770a4f31/l1,t0,w559,h419/image.jpg",
+      "archivo": "image.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/95d5c4f5-ba84-4977-b89c-c13a42bce579/l0,t135,w1080,h810/image-768x576.jpg",
+      "archivo": "image-768x576.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/72e60d23-37e6-4820-bd7a-61d50827f305/l118,t0,w844,h633/image-768x576.jpg",
+      "archivo": "image-768x576.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/eaaedc82-6e2f-4942-8cc9-aedf66176770/l0,t283,w1280,h394/image-911x280.jpg",
+      "archivo": "image-911x280.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/c232146e-60b4-4e7d-b671-65ae7a2c26ae/l193,t0,w720,h720/image.jpg",
+      "archivo": "image.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/636748c6-4a78-44ac-b778-ce0d1b0023ec/l177,t0,w898,h898/image-768x768.jpg",
+      "archivo": "image-768x768.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/4b031cff-edfe-4c39-8d3b-4a585834749f/l73,t0,w398,h398/image.jpg",
+      "archivo": "image.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/0bc77320-8315-4a10-a42d-e45736c5752f/l180,t0,w720,h720/image.jpg",
+      "archivo": "image.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/0bc77320-8315-4a10-a42d-e45736c5752f/image-576x384.jpg",
+      "archivo": "image-576x384.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/c81138e6-5e33-4b05-a5d8-6003e8fed71c/image-594x384.jpg",
+      "archivo": "image-594x384.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/95d5c4f5-ba84-4977-b89c-c13a42bce579/image-384x384.jpg",
+      "archivo": "image-384x384.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/4b58a969-b554-4da9-af64-83c46c9fbc7a/image-663x384.jpg",
+      "archivo": "image-663x384.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/c934c51c-e481-4e66-8b7f-016528e03dfa/image-384x512.jpg",
+      "archivo": "image-384x512.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/66489f48-8e1c-4b40-9df2-777e7d232295/image-384x511.jpg",
+      "archivo": "image-384x511.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/ae9a07ec-7f51-42d0-8687-f6c376a10ef7/image-384x833.jpg",
+      "archivo": "image-384x833.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/75c550ed-2815-4eb2-aa45-3956b26afdd7/image-384x480.jpg",
+      "archivo": "image-384x480.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/2dfb2dc6-7893-4ace-92c6-d9eb0b366b5b/image-384x512.jpg",
+      "archivo": "image-384x512.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/b3d7c364-f539-4326-8015-7afa1d93fff6/image-384x512.jpg",
+      "archivo": "image-384x512.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/cd418f5a-90bb-4b5f-a481-730c958c7ac8/l0,t75,w1200,h1438/image-455x545.jpg",
+      "archivo": "image-455x545.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/wp-content/uploads/go-x/u/b87ad721-0071-4801-b468-f929afd40123/l0,t0,w950,h950/image.png",
+      "archivo": "image.png",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.eveliosfishing.com/",
+      "archivo": "imagen",
+      "alt": "Image 23: en"
+    }
+  ]
+}

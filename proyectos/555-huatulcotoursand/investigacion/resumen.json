@@ -1,0 +1,23 @@
+{
+  "sitio": "https://www.huatulcotoursandtravel.com/",
+  "fecha": "2026-09-26T08:41:59.627Z",
+  "motor": "jina-reader",
+  "slug": "huatulcotoursand",
+  "nombre": "Huatulco Tours and Travel",
+  "rubro": "TURISMO",
+  "ciudad": "Huatulco, Oaxaca",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.huatulcotoursandtravel.com/",
+      "titulo": "Robot Challenge Screen"
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": [],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": []
+}

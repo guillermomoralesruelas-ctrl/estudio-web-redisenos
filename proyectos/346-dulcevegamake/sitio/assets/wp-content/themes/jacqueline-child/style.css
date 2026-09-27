@@ -1,0 +1,27 @@
+/*
+ Theme Name:   Jacqueline Child Theme
+ Theme URI:    http://jacqueline.themerex.net
+ Description:  Jacqueline Child Theme
+ Author:       ThemeREX
+ Author URI:   https://themerex.net/
+ Template:     jacqueline
+ Version:      1.0
+ Tags:         flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
+ Text Domain:  jacqueline
+*/
+
+
+/* =Theme customization starts here
+------------------------------------------------------------ */
+
+
+
+
+/* = Catálogo PDF Creator
+----------------------------------------*/
+.woocommerce-pdf-catalog {
+	display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}

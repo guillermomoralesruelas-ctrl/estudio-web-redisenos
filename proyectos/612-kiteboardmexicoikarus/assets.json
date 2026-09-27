@@ -1,0 +1,157 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png",
+      "archivo": "en_US.png",
+      "alt": "Image 1: en_US"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_MX.png",
+      "archivo": "es_MX.png",
+      "alt": "Image 2: es_MX"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/de_DE.png",
+      "archivo": "de_DE.png",
+      "alt": "Image 3: de_DE"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/plugins/translatepress-multilingual/assets/images/flags/fr_FR.png",
+      "archivo": "fr_FR.png",
+      "alt": "Image 4: fr_FR"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2019/07/logo-light2-e1669772196355.png",
+      "archivo": "logo-light2-e1669772196355.png",
+      "alt": "Image 5: logo-light2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2023/10/locationmap-600x390.jpg",
+      "archivo": "locationmap-600x390.jpg",
+      "alt": "Image 10: Location Map"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2023/11/logosGoodTravelScan.jpg",
+      "archivo": "logosGoodTravelScan.jpg",
+      "alt": "Image 11: Good Travel Scan"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2019/07/home1_erios_logo.png",
+      "archivo": "home1_erios_logo.png",
+      "alt": "Image 12: Tripadvisor"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/de/0a/default-avatar-2020-35.jpg?w=1200&h=1200&s=1",
+      "archivo": "default-avatar-2020-35.jpg",
+      "alt": "Image 14: Patsy H profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/5d/default-avatar-2020-32.jpg?w=1200&h=1200&s=1",
+      "archivo": "default-avatar-2020-32.jpg",
+      "alt": "Image 21: D O profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e5/66/default-avatar-2020-53.jpg?w=1200&h=1200&s=1",
+      "archivo": "default-avatar-2020-53.jpg",
+      "alt": "Image 28: Catherine S profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/b1/9b/c1/caption.jpg?w=3000&h=3000&s=1",
+      "archivo": "caption.jpg",
+      "alt": "Image 35: Mike J profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f3/23/default-avatar-2020-28.jpg?w=1200&h=1200&s=1",
+      "archivo": "default-avatar-2020-28.jpg",
+      "alt": "Image 42: Andréanne T profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/90/d3/f3/a-r.jpg?w=50&h=50&s=1",
+      "archivo": "a-r.jpg",
+      "alt": "Image 49: Alexandre R profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e8/5b/default-avatar-2020-61.jpg?w=1200&h=1200&s=1",
+      "archivo": "default-avatar-2020-61.jpg",
+      "alt": "Image 56: mtadventurer profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ed/00/default-avatar-2020-4.jpg?w=1200&h=1200&s=1",
+      "archivo": "default-avatar-2020-4.jpg",
+      "alt": "Image 63: OnAir642158 profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e9/60/default-avatar-2020-64.jpg?w=1200&h=1200&s=1",
+      "archivo": "default-avatar-2020-64.jpg",
+      "alt": "Image 70: Pat D profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2022/11/NOBILE.jpg",
+      "archivo": "NOBILE.jpg",
+      "alt": "Image 76: Sponsor"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2022/11/mystic.jpg",
+      "archivo": "mystic.jpg",
+      "alt": "Image 77: Sponsor"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2022/11/ion.jpg",
+      "archivo": "ion.jpg",
+      "alt": "Image 78: Sponsor"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2022/11/aairush.jpg",
+      "archivo": "aairush.jpg",
+      "alt": "Image 79: Sponsor"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2022/11/duotone.jpg",
+      "archivo": "duotone.jpg",
+      "alt": "Image 80: Logo Duotone"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/elementor/thumbs/5a52207f2f93c7a8d5137fd4-rjapjmxz80ab12vvyif8l2i9jm23hmemodqttfy6h2.png",
+      "archivo": "5a52207f2f93c7a8d5137fd4-rjapjmxz80ab12vvyif8l2i9jm23hmemodqttfy6h2.png",
+      "alt": "Image 81: 5a52207f2f93c7a8d5137fd4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2022/11/2hours.jpg",
+      "archivo": "2hours.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiteboardmexico.com/wp-content/uploads/2022/11/3hours-group.jpg",
+      "archivo": "3hours-group.jpg",
+      "alt": "Image 10"
+    }
+  ]
+}

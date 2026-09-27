@@ -1,0 +1,295 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/slider/el-ingles-frena-tu-carrera.png?v=2025",
+      "archivo": "el-ingles-frena-tu-carrera.png",
+      "alt": "Image 2: ¿El inglés frena tu carrera?"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/icon/earth.webp",
+      "archivo": "earth.webp",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/por-que-material-incluido.png?v=2025",
+      "archivo": "por-que-material-incluido.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/por-que-maestros-en-vivo.png?v=2025",
+      "archivo": "por-que-maestros-en-vivo.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/por-que-horarios-flexibles.png?v=2024",
+      "archivo": "por-que-horarios-flexibles.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/por-que-google-for-education.png?v=2024",
+      "archivo": "por-que-google-for-education.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/por-que-sin-inscripcion.png?v=2024",
+      "archivo": "por-que-sin-inscripcion.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/por-que-clases-online.png?v=2025",
+      "archivo": "por-que-clases-online.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/interlingua-business-fondo.jpg?v=2025",
+      "archivo": "interlingua-business-fondo.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/carrusel-empresarial/interlingua-business-redbull.png?v=2024",
+      "archivo": "interlingua-business-redbull.png",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/carrusel-empresarial/interlingua-business-henkel.png?v=2024",
+      "archivo": "interlingua-business-henkel.png",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/carrusel-empresarial/interlingua-business-steren.png?v=2024",
+      "archivo": "interlingua-business-steren.png",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/carrusel-empresarial/interlingua-business-bbb.png?v=2024",
+      "archivo": "interlingua-business-bbb.png",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/carrusel-empresarial/interlingua-business-wing-stop.png?v=2025",
+      "archivo": "interlingua-business-wing-stop.png",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/carrusel-empresarial/interlingua-business-ibm.png?v=2025",
+      "archivo": "interlingua-business-ibm.png",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/carrusel-empresarial/interlingua-business-loreal.png?v=2025",
+      "archivo": "interlingua-business-loreal.png",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/carrusel-empresarial/interlingua-business-amazon.png?v=2024",
+      "archivo": "interlingua-business-amazon.png",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/profesor-interlingua.png",
+      "archivo": "profesor-interlingua.png",
+      "alt": "Image 33"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/testimonio/Martin.png?v=2025",
+      "archivo": "Martin.png",
+      "alt": "Image 35"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/testimonio/Javier.png?v=2025",
+      "archivo": "Javier.png",
+      "alt": "Image 36"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/testimonio/Carlos.png?v=2025",
+      "archivo": "Carlos.png",
+      "alt": "Image 37"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/testimonio/Karla.png?v=2025",
+      "archivo": "Karla.png",
+      "alt": "Image 38"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/testimonio/Patricia.png?v=2025",
+      "archivo": "Patricia.png",
+      "alt": "Image 39"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/testimonio/Ana.png?v=2025",
+      "archivo": "Ana.png",
+      "alt": "Image 40"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/testimonio/Ines.png?v=2025",
+      "archivo": "Ines.png",
+      "alt": "Image 41"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/testimonio/Damian.png?v=2025",
+      "archivo": "Damian.png",
+      "alt": "Image 42"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/icon/whatsapp-icon.png",
+      "archivo": "whatsapp-icon.png",
+      "alt": "Image 44: WhatsApp Chat"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/icon/card-flex.png",
+      "archivo": "card-flex.png",
+      "alt": "Image 2: cursos de ingles online"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/icon/card-live.png",
+      "archivo": "card-live.png",
+      "alt": "Image 3: cursos de ingles online"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/icon/card-sabatino.png",
+      "archivo": "card-sabatino.png",
+      "alt": "Image 4: cursos de ingles interlingua sabatino"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/icon/card-sabatino-flex.png",
+      "archivo": "card-sabatino-flex.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/icon/card-smart-english.png",
+      "archivo": "card-smart-english.png",
+      "alt": "Image 6: Smart English"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/icon/card-curso-toefl.png",
+      "archivo": "card-curso-toefl.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/icon/card-juniors.png",
+      "archivo": "card-juniors.png",
+      "alt": "Image 8: cursos de ingles online Interlingua Juniors"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/carita-interlingua.png",
+      "archivo": "carita-interlingua.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/practica-mejora-habilidades.jpg?v=2025",
+      "archivo": "practica-mejora-habilidades.jpg",
+      "alt": "Image 10: Practica y mejora tus habilidades"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/Cursos-Ingles",
+      "archivo": "Cursos-Ingles",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/certificacion-en-ingles.png",
+      "archivo": "certificacion-en-ingles.png",
+      "alt": "Image 2: Certificación en ingles"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/TOEFLitp.png?v=2025",
+      "archivo": "TOEFLitp.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/cursos-de-ingles-validez-oficial-SEP.jpg?v=2024",
+      "archivo": "cursos-de-ingles-validez-oficial-SEP.jpg",
+      "alt": "Image 4: cursos de ingles con validez oficial sep"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/Registro-STPS.jpg?v=2024",
+      "archivo": "Registro-STPS.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/En-que-consiste-curso-TOEFL.jpg?v=2025",
+      "archivo": "En-que-consiste-curso-TOEFL.jpg",
+      "alt": "Image 7: En qué consiste el curso"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/Certificaciones-Ingles",
+      "archivo": "Certificaciones-Ingles",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/icon/icon-pause-button.png",
+      "archivo": "icon-pause-button.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/conoces-interlingua-business.jpg?v=2025",
+      "archivo": "conoces-interlingua-business.jpg",
+      "alt": "Image 33: ¿Conoces Interlingu inglés Business?"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/experiencia.png",
+      "archivo": "experiencia.png",
+      "alt": "Image 34"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/birrete.png",
+      "archivo": "birrete.png",
+      "alt": "Image 35"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.interlingua.com.mx/images/servicios-medida-empresa.jpg?v=2025",
+      "archivo": "servicios-medida-empresa.jpg",
+      "alt": "Image 36: Servicios a la medida para tu empresa"
+    }
+  ]
+}

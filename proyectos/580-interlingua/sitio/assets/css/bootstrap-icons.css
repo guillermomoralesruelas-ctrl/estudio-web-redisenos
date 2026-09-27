@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'bootstrap-icons';
+  src: url('../fonts/bootstrap-icons.eot?64333086');
+  src: url('../fonts/bootstrap-icons.eot?64333086#iefix') format('embedded-opentype'),
+       url('../fonts/bootstrap-icons.woff?64333086') format('woff'),
+       url('../fonts/bootstrap-icons.woff2?64333086') format('woff2'),
+       url('../fonts/bootstrap-icons.ttf?64333086') format('truetype'),
+       url('../fonts/bootstrap-icons.svg?64333086#bootstrap-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'bootstrap-icons';
+    src: url('../fonts/bootstrap-icons.svg?64333086#bootstrap-icons') format('svg');
+  }
+}
+*/
+.bi::before,
+[class^="bi-"]:before, [class*=" bi-"]:before {
+  font-family: "bootstrap-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.bi-volume-up:before { content: '\e800'; } /* '' */
+.bi-youtube:before { content: '\e801'; } /* '' */
+.bi-whatsapp:before { content: '\e802'; } /* '' */
+.bi-trash3:before { content: '\e803'; } /* '' */
+.bi-tiktok:before { content: '\e804'; } /* '' */
+.bi-telephone:before { content: '\e805'; } /* '' */
+.bi-star-fill:before { content: '\e806'; } /* '' */
+.bi-spotify:before { content: '\e807'; } /* '' */
+.bi-soundwave:before { content: '\e808'; } /* '' */
+.bi-plus-lg:before { content: '\e809'; } /* '' */
+.bi-person-workspace:before { content: '\e80a'; } /* '' */
+.bi-person:before { content: '\e80b'; } /* '' */
+.bi-people-fill:before { content: '\e80c'; } /* '' */
+.bi-pc-display:before { content: '\e80d'; } /* '' */
+.bi-mortarboard:before { content: '\e80e'; } /* '' */
+.bi-mic:before { content: '\e80f'; } /* '' */
+.bi-lock:before { content: '\e810'; } /* '' */
+.bi-linkedin:before { content: '\e811'; } /* '' */
+.bi-lightbulb:before { content: '\e812'; } /* '' */
+.bi-laptop:before { content: '\e813'; } /* '' */
+.bi-instagram:before { content: '\e814'; } /* '' */
+.bi-heart-fill:before { content: '\e815'; } /* '' */
+.bi-file-earmark-text:before { content: '\e816'; } /* '' */
+.bi-file-earmark-medical:before { content: '\e817'; } /* '' */
+.bi-file:before { content: '\e818'; } /* '' */
+.bi-facebook:before { content: '\e819'; } /* '' */
+.bi-eye-slash:before { content: '\e81a'; } /* '' */
+.bi-eye:before { content: '\e81b'; } /* '' */
+.bi-envelope-fill:before { content: '\e81c'; } /* '' */
+.bi-credit-card:before { content: '\e81d'; } /* '' */
+.bi-coin:before { content: '\e81e'; } /* '' */
+.bi-clock:before { content: '\e81f'; } /* '' */
+.bi-arrow-right-circle:before { content: '\e820'; } /* '' */
+.bi-arrow-left-circle:before { content: '\e821'; } /* '' */
+.bi-chevron-left:before { content: '\e822'; } /* '' */
+.bi-chevron-right:before { content: '\e823'; } /* '' */
+.bi-check-circle-fill:before { content: '\e824'; } /* '' */
+.bi-cart3:before { content: '\e825'; } /* '' */
+.bi-card-checklist:before { content: '\e826'; } /* '' */
+.bi-calendar4-week:before { content: '\e827'; } /* '' */
+.bi-check-circle:before { content: '\e828'; } /* '' */
+.bi-book:before { content: '\e829'; } /* '' */
+.bi-arrow-right-short:before { content: '\e82a'; } /* '' */
+.bi-telephone-fill:before { content: '\e82b'; } /* '' */
+.bi-user:before { content: '\e82c'; } /* '' */
+.bi-question-circle-fill:before { content: '\e82d'; } /* '' */
+.bi-filetype-pdf:before { content: '\e82e'; } /* '' */
+.bi-calendar4:before { content: '\e82f'; } /* '' */
+.bi-clock-24:before { content: '\e830'; } /* '' */
+.bi-clock-money:before { content: '\e831'; } /* '' */
+.bi-clock-fill:before { content: '\e832'; } /* '' */
+.bi-lock-fill:before { content: '\e833'; } /* '' */
+.bi-shield-fill-check:before { content: '\e834'; } /* '' */
+.bi-buildings:before { content: '\e835'; } /* '' */
+.bi-no-coin:before { content: '\e836'; } /* '' */
+.bi-tags:before { content: '\e837'; } /* '' */
+.bi-circle-arrow-left:before { content: '\e838'; } /* '' */
+.bi-circle-arrow-right:before { content: '\e839'; } /* '' */
+.bi-hand-holding-dollar-solid:before { content: '\e83a'; } /* '' */
+.bi-search:before { content: '\e83b'; } /* '' */
+.bi-dash-lg:before { content: '\e83c'; } /* '' */
+.bi-arrow-left-short:before { content: '\e83d'; } /* '' */
+.bi-download:before { content: '\e83e'; } /* '' */
+.bi-business-service-solid:before { content: '\e841'; } /* '' */
+.bi-business-invoice-solid:before { content: '\e842'; } /* '' */
+.bi-business-students-solid:before { content: '\e843'; } /* '' */
+.bi-business-ticket-solid:before { content: '\e844'; } /* '' */
+.bi-assessment:before { content: '\e845'; } /* '' */
+.bi-approved:before { content: '\e846'; } /* '' */
+.bi-users:before { content: '\e847'; } /* '' */
+.bi-risk-assessment:before { content: '\e848'; } /* '' */
+.bi-closed-group:before { content: '\e849'; } /* '' */
+.bi-open-group:before { content: '\e84a'; } /* '' */
+.bi-one-to-one:before { content: '\e84b'; } /* '' */
+.bi-circle-user-regular:before { content: '\e84c'; } /* '' */
+.bi-contact:before { content: '\e84d'; } /* '' */
+.bi-control:before { content: '\e84e'; } /* '' */
+.bi-document:before { content: '\e84f'; } /* '' */
+.bi-group:before { content: '\e850'; } /* '' */
+.bi-kardex:before { content: '\e851'; } /* '' */
+.bi-schedule:before { content: '\e852'; } /* '' */
+.bi-boleta:before { content: '\e853'; } /* '' */
+.bi-lista:before { content: '\e854'; } /* '' */
+.bi-list-fill:before { content: '\e855'; } /* '' */
+.bi-report-card-fill:before { content: '\e856'; } /* '' */
+.bi-reporte:before { content: '\e857'; } /* '' */
+.bi-internacional:before { content: '\e858'; } /* '' */
+.bi-x-circle:before { content: '\e859'; } /* '' */
+.bi-chevron-down:before { content: '\e85a'; } /* '' */
+.bi-list:before { content: '\e85b'; } /* '' */
+.bi-chevron-up:before { content: '\e85c'; } /* '' */
+.bi-volume-low:before { content: '\e85d'; } /* '' */
+.bi-volume-xmark:before { content: '\e85e'; } /* '' */
+.bi-circle-play:before { content: '\e85f'; } /* '' */
+.bi-circle-pause:before { content: '\e860'; } /* '' */
+.bi-clock-fill-flexible:before { content: '\e861'; } /* '' */
+.bi-send-voice-message:before { content: '\e862'; } /* '' */
+.bi-ticket-solid:before { content: '\e86b'; } /* '' */
+.bi-thumbs-up-alt:before { content: '\f164'; } /* '' */

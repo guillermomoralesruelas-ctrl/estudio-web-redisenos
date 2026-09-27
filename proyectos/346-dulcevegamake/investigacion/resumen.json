@@ -1,0 +1,220 @@
+{
+  "sitio": "https://dulcevega.mx/",
+  "fecha": "2026-09-26T07:14:19.668Z",
+  "motor": "jina-reader",
+  "slug": "dulcevegamake",
+  "nombre": "Dulce Vega Make up Artist Studio",
+  "rubro": "SPA",
+  "ciudad": "Guadalajara, Jalisco",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://dulcevega.mx/",
+      "titulo": "DULCE VEGA Makeup Artist Studio"
+    },
+    {
+      "url": "https://dulcevega.mx/biografia/",
+      "titulo": "Biografía"
+    },
+    {
+      "url": "https://dulcevega.mx/peinados/",
+      "titulo": "Peinados"
+    },
+    {
+      "url": "https://dulcevega.mx/maquillaje/",
+      "titulo": "Maquillaje"
+    },
+    {
+      "url": "https://dulcevega.mx/servicios/",
+      "titulo": "Servicios"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 331 591 3402",
+      "+523315913402",
+      "1605198329535464",
+      "6824307540869276068",
+      "+52 3315913402",
+      "3315913402",
+      "332306 9699",
+      "3323069699",
+      "332306 9700",
+      "3323069700",
+      "207561505",
+      "0.8384443806837077",
+      "44500\n\n33 1591 3402",
+      "33 2306 9699",
+      "33 2306 9700  \n33 1115 5243",
+      "0.38007670744444944",
+      "0.4172170590121693",
+      "0.5471734305037258",
+      "523311155243",
+      "0.16688066767574017"
+    ],
+    "emails": [
+      "info@dulcevega.mx"
+    ],
+    "whatsapp": [
+      "whatsapp.com/send?phone=523311155243&text=Hola,%20quiero%20contratar%20el%20paquete%20de%20novia%20de%20$8,300%20con%20el%20staff,%20me%20podr%C3%ADas%20ayudar)",
+      "whatsapp.com/send?phone=523311155243&text=Hola,%20quiero%20contratar%20el%20paquete%20de%20quincea%C3%B1era%20de%20$6,000%20con%20el%20staff,%20me%20podr%C3%ADas%20ayudar)",
+      "whatsapp.com/send?phone=523311155243&text=Hola,%20quiero%20contratar%20el%20paquete%20social%20de%20$1,800%20con%20el%20staff,%20me%20podr%C3%ADas%20ayudar)"
+    ],
+    "redes": [
+      "https://www.facebook.com/DulceVegaMakeupArtistStudio",
+      "https://www.tiktok.com/@dulcevegamakeup",
+      "https://www.instagram.com/dulcevegamakeup/",
+      "https://www.youtube.com/channel/UCDaE7_Q1Y9mA8J8PdAdrCsA"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/11/lg-DV.png",
+      "alt": "Image 2: DULCE VEGA Makeup Artist Studio"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/plugins/trx_addons/components/cpt/layouts/shortcodes/language/flags/en.png",
+      "alt": "Image 3: English"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/plugins/trx_addons/components/cpt/layouts/shortcodes/language/flags/de.png",
+      "alt": "Image 5: Deutsch"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/plugins/trx_addons/components/cpt/layouts/shortcodes/language/flags/es.png",
+      "alt": "Image 6: Español"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/lg-DV.png",
+      "alt": "Image 7: DULCE VEGA Makeup Artist Studio"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2021/07/mobile-logo.png",
+      "alt": "Image 14: DULCE VEGA Makeup Artist Studio"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2021/06/lg-DV-Blanco.png",
+      "alt": "Image 15: DULCE VEGA Makeup Artist Studio"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/11/Vector-Smart-Object-6.png",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/27749751_1605198329535464_6824307540869276068_n.png",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2023/01/servicios-dulce-vega.png",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/labiales-indelebles-dulce-vega.png",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/DSC_9024A.jpeg",
+      "alt": "Image 39"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2018/06/Dulce-Vega-colaboradora-oficial-768x664.jpeg",
+      "alt": "Image 40"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2018/05/DULCE-VEGA-cindo-an%CC%83os-ensen%CC%83ando-maquillaje-de-alto-nivel-842x664.jpeg",
+      "alt": "Image 41"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2016/03/Dulce-Vega-en-el-evento-mexico-en-el-alma-890x640.jpeg",
+      "alt": "Image 42"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2016/03/La-marca-Dulce-Vega-colaborado-on-Liverpool-890x664.jpeg",
+      "alt": "Image 43"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2023/05/DELINEADOR-DE-OJOS-LIQUIDO-BLANCO-DV-630x630.jpg",
+      "alt": "Image 44: DELINEADOR LIQUIDO BLANCO"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2023/02/Maquillaje-en-crema-01-630x630.jpg",
+      "alt": "Image 45: MAQUILLAJE EN CREMA Nº01 MARFIL"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2023/02/Fijador-Dulce-Vega-630x630.jpg",
+      "alt": "Image 46: FIJADOR PARA MAQUILLAJE"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/12/DV-SMOKEY-LIGHT-BROWN-630x630.jpg",
+      "alt": "Image 47: DV DELINEADOR LIGHT BROWN"
+    },
+    {
+      "src": "https://pixel.wp.com/g.gif?v=ext&blog=207561505&post=17711&tz=-5&srv=dulcevega.mx&j=1%3A16.2&host=dulcevega.mx&ref=&fcp=1256&rand=0.8384443806837077",
+      "alt": "Image 48"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/los-mejores-cursos-de-maquillaje-profesional.jpeg",
+      "alt": "Image 16: los-mejores-cursos-de-maquillaje-profesional"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/Dulce-Vega-lanza-su-nueva-linea-de-cosmeticos-profesional.jpeg",
+      "alt": "Image 17: Dulce-Vega-lanza-su-nueva-linea-de-cosmeticos-profesional"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/Dulce-Vega-maquillista-de-zapopan.jpeg",
+      "alt": "Image 18: Dulce-Vega-maquillista-de-zapopan"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/Dulce-Vega-maquillista-profesional.jpeg",
+      "alt": "Image 19: Dulce-Vega-maquillista-profesional"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/Dulce-Vega-naquillista-de-jalisco.jpeg",
+      "alt": "Image 20: Dulce-Vega-naquillista-de-jalisco"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/dulce-vega-celebrities.png",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/portada-novia-1.jpg",
+      "alt": "Image 24: portada novia"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/Maquilla-de-color-naturalmente-bello.jpeg",
+      "alt": "Image 25: Maquilla-de-color-naturalmente-bello"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/maquillajes-sociales-profesionales.jpeg",
+      "alt": "Image 26: maquillajes-sociales-profesionales"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/Novia_de_fantasia_dulce_vega.jpeg",
+      "alt": "Image 27: Novia_de_fantasia_dulce_vega"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2022/10/Novias-totalmente-bellas-Dulce-Vega.jpeg",
+      "alt": "Image 28: Novias-totalmente-bellas-Dulce-Vega"
+    },
+    {
+      "src": "https://dulcevega.mx/wp-content/uploads/2021/06/sectigo.png",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://pixel.wp.com/g.gif?v=ext&blog=207561505&post=22334&tz=-5&srv=dulcevega.mx&j=1%3A16.2&host=dulcevega.mx&ref=&fcp=1500&rand=0.38007670744444944",
+      "alt": "Image 33"
+    },
+    {
+      "src": "https://pixel.wp.com/g.gif?v=ext&blog=207561505&post=22431&tz=-5&srv=dulcevega.mx&j=1%3A16.2&host=dulcevega.mx&ref=&fcp=1936&rand=0.4172170590121693",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://pixel.wp.com/g.gif?v=ext&blog=207561505&post=22594&tz=-5&srv=dulcevega.mx&j=1%3A16.2&host=dulcevega.mx&ref=&fcp=1948&rand=0.5471734305037258",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://pixel.wp.com/g.gif?v=ext&blog=207561505&post=17462&tz=-5&srv=dulcevega.mx&j=1%3A16.2&host=dulcevega.mx&ref=&fcp=1224&rand=0.16688066767574017",
+      "alt": "Image 18"
+    }
+  ]
+}
