@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* Outfit (títulos, geométrica y redonda como las letras de su logo) y Heebo (texto, una de las fuentes de su sitio).
+   De @fontsource, solo el subconjunto latino. */
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Heebo"; src: url("../node_modules/@fontsource/heebo/files/heebo-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Heebo"; src: url("../node_modules/@fontsource/heebo/files/heebo-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: el azul marino y el petróleo de su sitio, el naranja del fondo de su sesión de moda y un papel cálido como
+   el fondo blanco del estudio. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-tinta: #011f50;
+  --color-petroleo: #005b64;
+  --color-naranja: #b8441a;
+  --color-naranja-hondo: #8f3212;
+  --color-durazno: #f0a07a;
+  --color-papel: #f7f4ee;
+  --color-muro: #e9e4da;
+  --color-texto: #3d4552;
+  --font-sans: "Heebo", "Segoe UI", sans-serif;
+  --font-titulo: "Outfit", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-titulo text-tinta; font-weight: 600; line-height: 1.05; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .noche h1, .noche h2, .noche h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-naranja); outline-offset: 3px; border-radius: 4px; }
+  .noche :focus-visible { outline-color: var(--color-durazno); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-naranja text-white hover:bg-naranja-hondo; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta; }
+  .btn-claro { @apply border-2 border-white/50 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-semibold text-petroleo underline decoration-2 underline-offset-4 hover:text-tinta; }
+  .noche .enlace { @apply text-white hover:text-durazno; }
+  /* Las esquinas del visor, como los corchetes de su logo "[producto]". */
+  .visor { position: relative; }
+  .visor::before, .visor::after { content: ""; position: absolute; width: 2.25rem; height: 2.25rem; border-color: var(--color-tinta); pointer-events: none; }
+  .visor::before { top: -0.75rem; left: -0.75rem; border-top: 3px solid; border-left: 3px solid; }
+  .visor::after { bottom: -0.75rem; right: -0.75rem; border-bottom: 3px solid; border-right: 3px solid; }
+}
+
+/* El set del estudio: la luz y el papel cambian con suavidad (quietos con prefers-reduced-motion). */
+.set-luz { transition: opacity 0.35s ease; }
+.set-papel { transition: fill 0.35s ease; }
+.aparece { animation: aparece 0.3s ease-out; }
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
