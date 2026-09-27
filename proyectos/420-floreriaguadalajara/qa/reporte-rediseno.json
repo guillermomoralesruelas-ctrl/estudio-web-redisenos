@@ -1,0 +1,106 @@
+{
+  "fecha": "2026-09-27T13:59:14.230Z",
+  "carpeta": "420-floreriaguadalajara",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 9208,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 126,
+      "rotas": [
+        "http://127.0.0.1:56786/420-floreriaguadalajara/sitio/",
+        "http://127.0.0.1:56786/420-floreriaguadalajara/sitio/"
+      ],
+      "sinAlt": 0,
+      "titulo": "INICIO | FLORERÍA GUADALAJARA | 22 años contigo!",
+      "errores": [
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2.7.0' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "jQuery(...).datepicker is not a function",
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/revicons/revicons.woff?5510888' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/revicons/revicons.ttf?5510888' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:56786/?wc-ajax=get_refreshed_fragments"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 31739,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 125,
+      "rotas": [
+        "http://127.0.0.1:56786/420-floreriaguadalajara/sitio/",
+        "http://127.0.0.1:56786/420-floreriaguadalajara/sitio/"
+      ],
+      "sinAlt": 0,
+      "titulo": "INICIO | FLORERÍA GUADALAJARA | 22 años contigo!",
+      "errores": [
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2.7.0' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "jQuery(...).datepicker is not a function",
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/revicons/revicons.woff?5510888' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://floreriaguadalajara.com/wp-content/plugins/revslider/sr6/assets/fonts/revicons/revicons.ttf?5510888' from origin 'http://127.0.0.1:56786' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:56786/?wc-ajax=get_refreshed_fragments"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5336,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 13,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Florería Guadalajara | Rosas, Tulipanes y Arreglos — Entrega el mismo día",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6586,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 13,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Florería Guadalajara | Rosas, Tulipanes y Arreglos — Entrega el mismo día",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
