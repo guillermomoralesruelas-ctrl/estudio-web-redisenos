@@ -1,0 +1,25 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg	?	896 KB
+themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg	?	730 KB
+uploads/2021/12/B75.jpg	1600x898	335 KB
+uploads/2021/12/WhatsApp-Image-2021-07-31-at-12.03.03-PM.jpeg	1200x1600	300 KB
+themes/Divi/core/admin/fonts/modules/all/modules.svg	?	292 KB
+uploads/2021/12/WhatsApp-Image-2021-03-11-at-1.04.22-PM.jpeg	1280x1280	258 KB
+uploads/2021/12/WhatsApp-Image-2021-07-31-at-12.03.02-PM-e1639518498277.jpeg	1200x1008	202 KB
+uploads/2021/12/WhatsApp-Image-2021-07-31-at-12.03.02-PM-1-e1639518393390.jpeg	1176x1056	184 KB
+uploads/2021/12/WhatsApp-Image-2021-07-31-at-12.03.03-PM-1-e1639518571540.jpeg	1084x1044	167 KB
+uploads/2020/09/cropped-perfil-1.png	512x512	149 KB
+uploads/2022/08/ES-HORA-DE-REGRESAR-400x250.png	400x250	149 KB
+themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg	?	141 KB
+uploads/2022/11/%C2%BFARO-O-PELOTA-400x250.png	400x250	141 KB
+uploads/2021/12/WhatsApp-Image-2021-07-31-at-12.03.01-PM-e1639518263663.jpeg	927x908	119 KB
+uploads/2021/12/INSTAGRAM-CUADRADO-DEGRADADO.png	1080x1080	47 KB
+uploads/2021/12/WhatsApp-Image-2021-12-15-at-5.14.02-PM.jpeg	1024x574	37 KB
+uploads/2020/09/logo-1.png	1087x614	37 KB
+uploads/2020/09/cropped-perfil-1-192x192.png	192x192	18 KB
+uploads/2021/07/WhatsApp-Image-2021-07-15-at-5.30.29-PM-400x250.jpeg	400x250	17 KB
+uploads/2020/09/cropped-perfil-1-180x180.png	180x180	16 KB
+themes/Divi/includes/builder/styles/images/preloader.gif	32x32	9 KB
+themes/Divi/includes/builder/styles/images/subscribe-loader.gif	16x16	1 KB
+uploads/2020/09/cropped-perfil-1-32x32.png	32x32	1 KB
