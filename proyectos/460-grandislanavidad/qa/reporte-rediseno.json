@@ -1,0 +1,100 @@
+{
+  "fecha": "2026-09-27T15:19:48.746Z",
+  "carpeta": "460-grandislanavidad",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 10769,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 97,
+      "rotas": [
+        "",
+        "",
+        "https://ib.adnxs.com/px?consent=1&id=1312913&t=1",
+        "https://ib.adnxs.com/seg?add=23295234&consent=1&t=1",
+        "https://bat.bing.com/action/0?ti=187221792&Ver=2&mid=adf23e1e-daaa-4f49-b45b-8dd1f76be84c&bo=1&sid=e47676a0ba8611f1935d95b080e7eb87&vid=e476a410ba8611f186989ba2fab0b51e&vids=1&msclkid=N&uach=pv%3D19.0.0&pi=918639831&lg=es&sw=1280&sh=800&sc=24&nwd=1&tl=Inicio%20-%20Grand%20Isla%20Navidad%20Resort&p=http%3A%2F%2F127.0.0.1%3A55713%2F460-grandislanavidad%2Fsitio%2Findex.html&r=&lt=4182&evt=pageLoad&sv=2&cdb=AQAS&rn=893522",
+        "https://bat.bing.com/action/0?ti=187221792&Ver=2&mid=adf23e1e-daaa-4f49-b45b-8dd1f76be84c&bo=2&sid=e47676a0ba8611f1935d95b080e7eb87&vid=e476a410ba8611f186989ba2fab0b51e&vids=0&msclkid=N&ec=HOME_PAGE&ea=HOME_PAGE&p=http%3A%2F%2F127.0.0.1%3A55713%2F460-grandislanavidad%2Fsitio%2Findex.html&sw=1280&sh=800&sc=24&nwd=1&evt=custom&cdb=AQAS&rn=624847"
+      ],
+      "sinAlt": 7,
+      "titulo": "Inicio - Grand Isla Navidad Resort",
+      "errores": [
+        "Access to script at 'https://www.islanavidad.com.mx/wp-includes/js/dist/script-modules/block-library/image/view.min.js?ver=25ee935fd6c67371d0f3' from origin 'http://127.0.0.1:55713' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to script at 'https://www.islanavidad.com.mx/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=efaa5193bbad9c60ffd1' from origin 'http://127.0.0.1:55713' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://forecast7.com/es/19d11n104d34/manzanillo/?format=json' from origin 'https://weatherwidget.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "WeatherWidget.io: Weather Data could not be retrieved",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to image at 'https://www.islanavidad.com.mx/wp-content/uploads/2025/08/video-home-preview.webp' from origin 'http://127.0.0.1:55713' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 13232,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 95,
+      "rotas": [
+        "",
+        "",
+        "https://ib.adnxs.com/px?consent=1&id=1312913&t=1",
+        "https://ib.adnxs.com/seg?add=23295234&consent=1&t=1",
+        "https://bat.bing.com/action/0?ti=187221792&Ver=2&mid=544b7176-2220-4dbe-abec-c91a8847ace0&bo=1&sid=eee0e7a0ba8611f180438d5464971e1b&vid=eee10610ba8611f195375dcaabec78c0&vids=1&msclkid=N&uach=pv%3D19.0.0&pi=918639831&lg=es&sw=390&sh=844&sc=24&nwd=1&tl=Inicio%20-%20Grand%20Isla%20Navidad%20Resort&p=http%3A%2F%2F127.0.0.1%3A55713%2F460-grandislanavidad%2Fsitio%2Findex.html&r=&lt=3288&evt=pageLoad&sv=2&cdb=AQAS&rn=432877",
+        "https://bat.bing.com/action/0?ti=187221792&Ver=2&mid=544b7176-2220-4dbe-abec-c91a8847ace0&bo=2&sid=eee0e7a0ba8611f180438d5464971e1b&vid=eee10610ba8611f195375dcaabec78c0&vids=0&msclkid=N&ec=HOME_PAGE&ea=HOME_PAGE&p=http%3A%2F%2F127.0.0.1%3A55713%2F460-grandislanavidad%2Fsitio%2Findex.html&sw=390&sh=844&sc=24&nwd=1&evt=custom&cdb=AQAS&rn=863995"
+      ],
+      "sinAlt": 7,
+      "titulo": "Inicio - Grand Isla Navidad Resort",
+      "errores": [
+        "Access to script at 'https://www.islanavidad.com.mx/wp-includes/js/dist/script-modules/block-library/image/view.min.js?ver=25ee935fd6c67371d0f3' from origin 'http://127.0.0.1:55713' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to script at 'https://www.islanavidad.com.mx/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=efaa5193bbad9c60ffd1' from origin 'http://127.0.0.1:55713' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://forecast7.com/es/19d11n104d34/manzanillo/?format=json' from origin 'https://weatherwidget.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "WeatherWidget.io: Weather Data could not be retrieved",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to image at 'https://www.islanavidad.com.mx/wp-content/uploads/2025/08/video-home-preview.webp' from origin 'http://127.0.0.1:55713' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6317,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 17,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Grand Isla Navidad Resort | Todo Incluido frente a Barra de Navidad",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 10330,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 17,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Grand Isla Navidad Resort | Todo Incluido frente a Barra de Navidad",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

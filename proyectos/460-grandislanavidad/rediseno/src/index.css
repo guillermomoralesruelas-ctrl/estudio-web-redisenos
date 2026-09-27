@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/latin-500.css";
+@import "@fontsource/cormorant-garamond/latin-600.css";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+
+@theme {
+  --color-fondo:        #0e0c09;
+  --color-panel:        #1c1714;
+  --color-panel2:       #2a221c;
+  --color-tinta:        #f0ead8;
+  --color-tinta-suave:  #b8aa8e;
+  --color-acento:       #8e623a;
+  --color-dorado:       #be8627;
+  --color-agua:         #3a6b7c;
+  --color-cta:          #7a3b14;
+  --color-cta-hover:    #5c2c0e;
+  --font-serif:         "Cormorant Garamond", Georgia, serif;
+  --font-sans:          "Inter Variable", "Inter", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-fondo text-tinta font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-dorado);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .contenedor {
+    @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8;
+  }
+  .btn-reserva {
+    @apply inline-flex items-center gap-2 rounded px-5 py-3 text-sm font-medium font-sans
+           bg-cta text-tinta hover:bg-cta-hover transition-colors;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 rounded border border-acento px-5 py-3 text-sm font-medium font-sans
+           text-tinta hover:bg-acento/20 transition-colors;
+  }
+  .etiqueta {
+    @apply text-xs tracking-widest uppercase font-sans text-tinta-suave;
+  }
+}
