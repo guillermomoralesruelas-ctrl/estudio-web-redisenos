@@ -1,0 +1,662 @@
+[
+ {
+  "id": "d3100",
+  "marca": "Nikon",
+  "modelo": "D3100",
+  "total": 28,
+  "fotos": [
+   {
+    "n": 9,
+    "f": "5.6",
+    "v": "1/500",
+    "iso": 800,
+    "mm": 200,
+    "lente": null,
+    "anio": "2013",
+    "autor": null
+   },
+   {
+    "n": 88,
+    "f": "9",
+    "v": "4\"",
+    "iso": 100,
+    "mm": 18,
+    "lente": "18.0-55.0 mm f/3.5-5.6",
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 135,
+    "f": "1.8",
+    "v": "1/20",
+    "iso": 400,
+    "mm": 35,
+    "lente": null,
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 136,
+    "f": "5.6",
+    "v": "1/125",
+    "iso": 400,
+    "mm": 32,
+    "lente": null,
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 63,
+    "f": "5.6",
+    "v": "1/250",
+    "iso": 400,
+    "mm": 200,
+    "lente": null,
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 103,
+    "f": "5.6",
+    "v": "1/125",
+    "iso": 400,
+    "mm": 52,
+    "lente": "18.0-55.0 mm f/3.5-5.6",
+    "anio": "2015",
+    "autor": null
+   }
+  ]
+ },
+ {
+  "id": "d5100",
+  "marca": "Nikon",
+  "modelo": "D5100",
+  "total": 24,
+  "fotos": [
+   {
+    "n": 14,
+    "f": "5.6",
+    "v": "1/2500",
+    "iso": 400,
+    "mm": 40,
+    "lente": "18.0-55.0 mm f/3.5-5.6",
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 32,
+    "f": "16",
+    "v": "1/1000",
+    "iso": 1000,
+    "mm": 18,
+    "lente": null,
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 49,
+    "f": "5.6",
+    "v": "1/1250",
+    "iso": 400,
+    "mm": 34,
+    "lente": null,
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 144,
+    "f": "4.5",
+    "v": "1/2000",
+    "iso": 6400,
+    "mm": 28,
+    "lente": "18.0-55.0 mm f/3.5-5.6",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 180,
+    "f": "3.5",
+    "v": "1/60",
+    "iso": 1000,
+    "mm": 18,
+    "lente": null,
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 23,
+    "f": "4.5",
+    "v": "1/60",
+    "iso": 100,
+    "mm": 18,
+    "lente": null,
+    "anio": "2014",
+    "autor": null
+   }
+  ]
+ },
+ {
+  "id": "rebel-t3i",
+  "marca": "Canon",
+  "modelo": "Rebel T3i",
+  "total": 19,
+  "fotos": [
+   {
+    "n": 16,
+    "f": "20",
+    "v": "1/60",
+    "iso": 200,
+    "mm": 30,
+    "lente": "EF-S18-55mm f/3.5-5.6 IS II",
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 35,
+    "f": "5.6",
+    "v": "1/1000",
+    "iso": 100,
+    "mm": 55,
+    "lente": "EF-S18-55mm f/3.5-5.6 IS II",
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 65,
+    "f": "4.5",
+    "v": "1/1000",
+    "iso": 100,
+    "mm": 35,
+    "lente": "EF-S18-55mm f/3.5-5.6 IS II",
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 95,
+    "f": "3.5",
+    "v": "1/1600",
+    "iso": 1600,
+    "mm": 18,
+    "lente": "EF-S18-55mm f/3.5-5.6 IS II",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 117,
+    "f": "22",
+    "v": "1/1600",
+    "iso": 800,
+    "mm": 55,
+    "lente": "EF-S18-55mm f/3.5-5.6 IS II",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 125,
+    "f": "5.6",
+    "v": "1/1000",
+    "iso": 800,
+    "mm": 43,
+    "lente": "EF-S18-55mm f/3.5-5.6 IS II",
+    "anio": "2015",
+    "autor": null
+   }
+  ]
+ },
+ {
+  "id": "d700",
+  "marca": "Nikon",
+  "modelo": "D700",
+  "total": 18,
+  "fotos": [
+   {
+    "n": 42,
+    "f": "4.5",
+    "v": "1/800",
+    "iso": 100,
+    "mm": 80,
+    "lente": "70.0-300.0 mm f/4.5-5.6",
+    "anio": "2014",
+    "autor": "Arturo Ortiz"
+   },
+   {
+    "n": 43,
+    "f": "4.5",
+    "v": "1/800",
+    "iso": 320,
+    "mm": 95,
+    "lente": "70.0-300.0 mm f/4.5-5.6",
+    "anio": "2014",
+    "autor": "Arturo Ortiz"
+   },
+   {
+    "n": 46,
+    "f": "4.8",
+    "v": "1/800",
+    "iso": 250,
+    "mm": 116,
+    "lente": null,
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 54,
+    "f": "4.5",
+    "v": "1/500",
+    "iso": 125,
+    "mm": 70,
+    "lente": "70.0-300.0 mm f/4.5-5.6",
+    "anio": "2014",
+    "autor": "Arturo Ortiz"
+   },
+   {
+    "n": 57,
+    "f": "4.5",
+    "v": "1/800",
+    "iso": 200,
+    "mm": 70,
+    "lente": "70.0-300.0 mm f/4.5-5.6",
+    "anio": "2014",
+    "autor": "Arturo Ortiz"
+   },
+   {
+    "n": 60,
+    "f": "4.5",
+    "v": "1/160",
+    "iso": 640,
+    "mm": 82,
+    "lente": null,
+    "anio": "2014",
+    "autor": null
+   }
+  ]
+ },
+ {
+  "id": "rebel-t3",
+  "marca": "Canon",
+  "modelo": "Rebel T3",
+  "total": 14,
+  "fotos": [
+   {
+    "n": 105,
+    "f": "3.2",
+    "v": "1/100",
+    "iso": 100,
+    "mm": 50,
+    "lente": "EF50mm f/1.8 II",
+    "anio": "2015",
+    "autor": "Abraham Rivera"
+   },
+   {
+    "n": 109,
+    "f": "2.8",
+    "v": "1/1250",
+    "iso": 100,
+    "mm": 50,
+    "lente": "EF50mm f/1.8 II",
+    "anio": "2015",
+    "autor": "Abraham Rivera"
+   },
+   {
+    "n": 112,
+    "f": "5.6",
+    "v": "1/1000",
+    "iso": 100,
+    "mm": 260,
+    "lente": "EF75-300mm f/4-5.6",
+    "anio": "2015",
+    "autor": "Abraham Rivera"
+   },
+   {
+    "n": 113,
+    "f": "5.6",
+    "v": "1/1000",
+    "iso": 200,
+    "mm": 55,
+    "lente": "EF-S18-55mm f/3.5-5.6 III",
+    "anio": "2015",
+    "autor": "Abraham Rivera"
+   },
+   {
+    "n": 201,
+    "f": "1.8",
+    "v": "1/2500",
+    "iso": 200,
+    "mm": 50,
+    "lente": "50mm",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 202,
+    "f": "1.8",
+    "v": "1/1250",
+    "iso": 200,
+    "mm": 50,
+    "lente": "50mm",
+    "anio": "2015",
+    "autor": null
+   }
+  ]
+ },
+ {
+  "id": "d90",
+  "marca": "Nikon",
+  "modelo": "D90",
+  "total": 14,
+  "fotos": [
+   {
+    "n": 147,
+    "f": "1.4",
+    "v": "1/1500",
+    "iso": 100,
+    "mm": 50,
+    "lente": "50.0 mm f/1.4",
+    "anio": "2015",
+    "autor": "Pepe Herrera"
+   },
+   {
+    "n": 153,
+    "f": "1.4",
+    "v": "1/3000",
+    "iso": 100,
+    "mm": 50,
+    "lente": "50.0 mm f/1.4",
+    "anio": "2015",
+    "autor": "Pepe Herrera"
+   },
+   {
+    "n": 154,
+    "f": "1.4",
+    "v": "1/4000",
+    "iso": 100,
+    "mm": 50,
+    "lente": "50.0 mm f/1.4",
+    "anio": "2015",
+    "autor": "Pepe Herrera"
+   },
+   {
+    "n": 156,
+    "f": "4.8",
+    "v": "1/250",
+    "iso": 4000,
+    "mm": 70,
+    "lente": "70.0-300.0 mm f/4.5-5.6",
+    "anio": "2015",
+    "autor": "Pepe Herrera"
+   },
+   {
+    "n": 165,
+    "f": "1.4",
+    "v": "1/350",
+    "iso": 400,
+    "mm": 50,
+    "lente": "50.0 mm f/1.4",
+    "anio": "2015",
+    "autor": "Pepe Herrera"
+   },
+   {
+    "n": 169,
+    "f": "1.4",
+    "v": "1/4000",
+    "iso": 100,
+    "mm": 50,
+    "lente": "50.0 mm f/1.4",
+    "anio": "2015",
+    "autor": "Pepe Herrera"
+   }
+  ]
+ },
+ {
+  "id": "d3200",
+  "marca": "Nikon",
+  "modelo": "D3200",
+  "total": 12,
+  "fotos": [
+   {
+    "n": 22,
+    "f": "13",
+    "v": "1/125",
+    "iso": 100,
+    "mm": 300,
+    "lente": null,
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 25,
+    "f": "3.5",
+    "v": "1/80",
+    "iso": 3200,
+    "mm": 18,
+    "lente": null,
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 119,
+    "f": "4.2",
+    "v": "1/4000",
+    "iso": 1600,
+    "mm": 62,
+    "lente": "55.0-200.0 mm f/4.0-5.6",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 120,
+    "f": "4.8",
+    "v": "1/250",
+    "iso": 1600,
+    "mm": 112,
+    "lente": "55.0-200.0 mm f/4.0-5.6",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 186,
+    "f": "9",
+    "v": "1/100",
+    "iso": 100,
+    "mm": 18,
+    "lente": "18.0-55.0 mm f/3.5-5.6",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 187,
+    "f": "11",
+    "v": "1/100",
+    "iso": 200,
+    "mm": 18,
+    "lente": "18.0-55.0 mm f/3.5-5.6",
+    "anio": "2015",
+    "autor": null
+   }
+  ]
+ },
+ {
+  "id": "alpha-slt-a37",
+  "marca": "Sony",
+  "modelo": "Alpha SLT-A37",
+  "total": 7,
+  "fotos": [
+   {
+    "n": 83,
+    "f": "5.6",
+    "v": "1/60",
+    "iso": 100,
+    "mm": 55,
+    "lente": "DT 18-55mm F3.5-5.6 SAM",
+    "anio": "2014",
+    "autor": null
+   },
+   {
+    "n": 91,
+    "f": "5.6",
+    "v": "1/640",
+    "iso": 400,
+    "mm": 55,
+    "lente": "DT 18-55mm F3.5-5.6 SAM",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 97,
+    "f": "9",
+    "v": "1/80",
+    "iso": 100,
+    "mm": 200,
+    "lente": "DT 55-200mm F4-5.6 SAM",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 102,
+    "f": "4",
+    "v": "1/80",
+    "iso": 100,
+    "mm": 55,
+    "lente": "DT 55-200mm F4-5.6 SAM",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 111,
+    "f": "5.6",
+    "v": "1/1000",
+    "iso": 200,
+    "mm": 200,
+    "lente": "DT 55-200mm F4-5.6 SAM",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 121,
+    "f": "4",
+    "v": "1/320",
+    "iso": 200,
+    "mm": 24,
+    "lente": "DT 18-55mm F3.5-5.6 SAM",
+    "anio": "2015",
+    "autor": null
+   }
+  ]
+ },
+ {
+  "id": "d3300",
+  "marca": "Nikon",
+  "modelo": "D3300",
+  "total": 5,
+  "fotos": [
+   {
+    "n": 99,
+    "f": "6.3",
+    "v": "1/640",
+    "iso": 100,
+    "mm": 21,
+    "lente": null,
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 100,
+    "f": "7.1",
+    "v": "1/800",
+    "iso": 100,
+    "mm": 55,
+    "lente": null,
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 141,
+    "f": "5.6",
+    "v": "1/125",
+    "iso": 100,
+    "mm": 55,
+    "lente": null,
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 142,
+    "f": "4",
+    "v": "1/200",
+    "iso": 200,
+    "mm": 26,
+    "lente": null,
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 181,
+    "f": "3.5",
+    "v": "1/60",
+    "iso": 200,
+    "mm": 18,
+    "lente": "18.0-55.0 mm f/3.5-5.6",
+    "anio": "2015",
+    "autor": null
+   }
+  ]
+ },
+ {
+  "id": "eos-70d",
+  "marca": "Canon",
+  "modelo": "EOS 70D",
+  "total": 5,
+  "fotos": [
+   {
+    "n": 191,
+    "f": "5",
+    "v": "1/40",
+    "iso": 320,
+    "mm": 50,
+    "lente": "EF-S18-135mm f/3.5-5.6 IS STM",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 203,
+    "f": "1.8",
+    "v": "1/2500",
+    "iso": 200,
+    "mm": 50,
+    "lente": "50mm",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 204,
+    "f": "5.6",
+    "v": "1/800",
+    "iso": 160,
+    "mm": 135,
+    "lente": "EF-S18-135mm f/3.5-5.6 IS STM",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 206,
+    "f": "5.6",
+    "v": "1/125",
+    "iso": 6400,
+    "mm": 81,
+    "lente": "EF-S18-135mm f/3.5-5.6 IS STM",
+    "anio": "2015",
+    "autor": null
+   },
+   {
+    "n": 207,
+    "f": "5.6",
+    "v": "1/125",
+    "iso": 320,
+    "mm": 93,
+    "lente": "EF-S18-135mm f/3.5-5.6 IS STM",
+    "anio": "2015",
+    "autor": null
+   }
+  ]
+ }
+]
