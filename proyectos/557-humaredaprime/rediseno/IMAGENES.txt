@@ -1,0 +1,15 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content/uploads/2026/06), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+Humareda-Prime-Brindis.jpeg	960x1280	387 KB
+Humareda-Prime-Interior.jpg	1470x827	304 KB
+interior-restaurante-humareda-prime-boca-del-rio.jpeg	960x1280	235 KB
+humareda-prime-steakhouse-boca-del-rio-cortes-vino.jpeg	1280x853	199 KB
+Humareda-Prime-Cocteleria.jpeg	853x1280	188 KB
+Humareda-Prime-Exterior.jpg	1470x827	178 KB
+ribeye-filete-parrilla-vegetales.jpeg	853x1280	163 KB
+Humareda-Prime-Flameado.jpeg	853x1280	163 KB
+Humareda-Prime-Vista-al-Mar.jpeg	853x1280	136 KB
+Logo_Humareda_Prime.png	500x200	21 KB
+cropped-Site-Icon-Humareda-Prime-192x192.png	192x192	13 KB
+cropped-Site-Icon-Humareda-Prime-180x180.png	180x180	12 KB
+cropped-Site-Icon-Humareda-Prime-32x32.png	32x32	1 KB

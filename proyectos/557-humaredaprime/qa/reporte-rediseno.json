@@ -1,0 +1,66 @@
+{
+  "fecha": "2026-09-27T11:16:03.959Z",
+  "carpeta": "557-humaredaprime",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4495,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 3,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Humareda Prime | Steak House en Boca del Río, Veracruz - Humareda Prime",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6112,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 3,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Humareda Prime | Steak House en Boca del Río, Veracruz - Humareda Prime",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5932,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Humareda Prime | Steak House en Boca del Río, Veracruz",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7829,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Humareda Prime | Steak House en Boca del Río, Veracruz",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

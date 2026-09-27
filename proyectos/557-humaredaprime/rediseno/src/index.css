@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Fuentes de su marca (su CSS de Elementor: --Principal: Playfair Display, --Secundario: Lato), con @fontsource, solo latino. */
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: su negro (#071108), su rojo (#ed3237) y su blanco (#FEFEFE), de su CSS; el ámbar de la luz de sus lámparas;
+   un rojo más oscuro para botones con texto blanco (AA) y un crema para la sección clara. */
+@theme {
+  --color-carbon: #071108;
+  --color-tizon: #111c12;
+  --color-blanco: #fefefe;
+  --color-humo: #bfc3bb;
+  --color-rojo: #ed3237;
+  --color-brasa: #c41f27;
+  --color-ambar: #e8a257;
+  --color-hueso: #f4efe7;
+  --color-tierra: #5a4a3c;
+  --font-sans: "Lato", "Segoe UI", sans-serif;
+  --font-titulo: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-carbon text-humo font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3, legend { @apply font-titulo text-blanco; font-weight: 500; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ambar); outline-offset: 3px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3 text-[0.95rem] font-bold tracking-wide transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-brasa text-white hover:bg-[#9e161d]; }
+  .btn-linea { @apply border border-blanco/60 text-blanco hover:border-blanco hover:bg-blanco/10; }
+  .cursiva { @apply font-titulo italic text-rojo; }
+}
+
+@keyframes humo {
+  0% { transform: translateY(0) scale(1); opacity: 0; }
+  20% { opacity: 0.55; }
+  100% { transform: translateY(-46px) scale(1.8); opacity: 0; }
+}
+.humo { animation: humo 4.2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+.cielo { transition: fill 0.8s ease; }
