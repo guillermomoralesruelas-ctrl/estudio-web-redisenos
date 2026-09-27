@@ -1,0 +1,190 @@
+{
+  "sitio": "https://doggies.mx/",
+  "fecha": "2026-09-26T07:05:00.478Z",
+  "motor": "jina-reader",
+  "slug": "doggieshospital",
+  "nombre": "Doggie's Hospital Veterinario",
+  "rubro": "VETERINARIA",
+  "ciudad": "Monterrey, Nuevo León",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://doggies.mx/",
+      "titulo": "Doggie's Hospital Veterinario | Especialistas en Cuidado Animal en Monterrey"
+    },
+    {
+      "url": "https://doggies.mx/aviso-de-privacidad.html",
+      "titulo": "Aviso de privacidad"
+    },
+    {
+      "url": "https://doggies.mx/terminos-y-condiciones.html",
+      "titulo": "Términos y condiciones"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+528112340944",
+      "+52 81 12 34 09 44",
+      "+52 81 96 88 67 60",
+      "+528196886760"
+    ],
+    "emails": [
+      "atencion@doggies.mx"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.instagram.com/doggieshospitalveterinario/",
+      "https://www.facebook.com/doggieshospital"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://doggies.mx/images/logotipo-tradicional-doggies-horizontal.png",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://doggies.mx/images/patita_cursor_p.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://doggies.mx/images/foto-portada.webp",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://doggies.mx/images/corazon.png",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://doggies.mx/images/FORMA-1.png",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://doggies.mx/images/quienes-somos_doggies_n1.webp",
+      "alt": "Image 16: Profesional de Doggie's realizando una ecografía a un perro en Monterrey"
+    },
+    {
+      "src": "https://doggies.mx/images/quienes-somos_doggies_n3.webp",
+      "alt": "Image 17: Veterinario atendiendo la pata lesionada de un perro en citología"
+    },
+    {
+      "src": "https://doggies.mx/images/quienes-somos_doggies_n2.webp",
+      "alt": "Image 18: Veterinaria examinando cuidadosamente a una mascota canina durante una consulta"
+    },
+    {
+      "src": "https://doggies.mx/images/cirugia_doggies_02.webp",
+      "alt": "Image 19: Cirujana veterinaria realizando una operación con atención y precisión en un quirófano de Doggie's"
+    },
+    {
+      "src": "https://doggies.mx/images/doggies_instalaciones.webp",
+      "alt": "Image 20: Quirófano de Doggie's Hospital Veterinario, mostrando un equipo moderno y estéril, preparado para procedimientos veterinarios especializados."
+    },
+    {
+      "src": "https://doggies.mx/images/logo-doggies-horizontal.png",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://doggies.mx/images/cirugia_doggies_dic23_2.webp",
+      "alt": "Image 22: Equipo de cirujanos veterinarios realizando una operación en Doggie's"
+    },
+    {
+      "src": "https://doggies.mx/images/estetica_doggies.webp",
+      "alt": "Image 23: Veterinario brindando atención cariñosa a un golden retriever durante una consulta."
+    },
+    {
+      "src": "https://doggies.mx/images/dermatologia_doggies.webp",
+      "alt": "Image 24: Veterinario en Doggie's Hospital Veterinario utilizando una lámpara UV en un examen dermatológico de un gato"
+    },
+    {
+      "src": "https://doggies.mx/images/resonancia_magnetica_1.webp",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://doggies.mx/images/radiologia_1.webp",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://doggies.mx/images/cardiologia_doggies_02.webp",
+      "alt": "Image 27: Sesión de ultrasonido en Doggie's Hospital Veterinario"
+    },
+    {
+      "src": "https://doggies.mx/images/FORMA-3.png",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://doggies.mx/images/forma-punteada-2.png",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://doggies.mx/images/amtope_logo-1.png",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://doggies.mx/images/ISVPS_logo-1.png",
+      "alt": "Image 31"
+    },
+    {
+      "src": "https://doggies.mx/images/clove_logo-1.png",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://doggies.mx/images/logo_ammvepe_300.png",
+      "alt": "Image 33"
+    },
+    {
+      "src": "https://doggies.mx/images/851434_8a97293ad7684098b3b0b6b91a2963c5~mv2.webp",
+      "alt": "Image 35"
+    },
+    {
+      "src": "https://doggies.mx/images/perrito-portada_v3-2.webp",
+      "alt": "Image 38: Retrato de bulldog francés color crema, posando con una mirada atenta"
+    },
+    {
+      "src": "https://doggies.mx/images/Eye-Clinic-Logo.png",
+      "alt": "Image 39"
+    },
+    {
+      "src": "https://doggies.mx/images/FACHADA-SUR.webp",
+      "alt": "Image 40: Fachada de Doggie's Hospital Veterinario, destacando su servicio disponible 24/7 en Monterrey. En la foto también se puede ver a su aliado Eye Clinic"
+    },
+    {
+      "src": "https://doggies.mx/images/hospital_24_7_doggies.webp",
+      "alt": "Image 41: Veterinaria de Doggie's reconfortando a un perro que esta hospitalizado después de un tratamiento veterinario"
+    },
+    {
+      "src": "https://doggies.mx/images/laboratorio-y-patologia_doggies.webp",
+      "alt": "Image 42: Técnico veterinario preparando análisis de sangre en el equipamiento de laboratorio en Doggie's"
+    },
+    {
+      "src": "https://doggies.mx/images/laparoscopia_doggies.webp",
+      "alt": "Image 43: Cirujanos veterinarios en Doggie's realizando una laparoscopia"
+    },
+    {
+      "src": "https://doggies.mx/images/medicina-felina_doggies.webp",
+      "alt": "Image 44: Profesional de Doggie's Hospital Veterinario administrando anestesia a un gato antes de un procedimiento"
+    },
+    {
+      "src": "https://doggies.mx/images/estetica_doggies_1.webp",
+      "alt": "Image 45: servicio de estética veterinaria en Doggie's"
+    },
+    {
+      "src": "https://doggies.mx/images/radiologia-y-ultrasonido_doggies.webp",
+      "alt": "Image 46: Veterinarios preparando a un perro para un examen de rayos X "
+    },
+    {
+      "src": "https://doggies.mx/images/Cirugias_Icon.png",
+      "alt": "Image 47"
+    },
+    {
+      "src": "https://doggies.mx/images/Pacientes_Icon.png",
+      "alt": "Image 48"
+    },
+    {
+      "src": "https://doggies.mx/images/Supervivencia_Icon.png",
+      "alt": "Image 49"
+    },
+    {
+      "src": "https://doggies.mx/images/forma-punteada.png",
+      "alt": "Image 50"
+    }
+  ]
+}

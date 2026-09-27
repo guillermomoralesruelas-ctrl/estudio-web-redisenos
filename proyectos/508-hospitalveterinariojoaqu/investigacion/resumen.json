@@ -1,0 +1,166 @@
+{
+  "sitio": "https://www.hveterinario.com/",
+  "fecha": "2026-09-26T08:22:37.221Z",
+  "motor": "jina-reader",
+  "slug": "hospitalveterinariojoaqu",
+  "nombre": "Hospital Veterinario Joaquín Buxadé",
+  "rubro": "SALUD",
+  "ciudad": "Puebla, Puebla",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.hveterinario.com/",
+      "titulo": "Hospital Veterinario Joaquin Buxade Hospital Veterinario en Puebla Hospitalizacion de Mascotas Diagnostico de Mascotas Estetica Canina Laboratorio Cirugia Tienda de Alimento para Mascotas"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+5212213611332",
+      "222) 296 7091",
+      "222) 290 8808"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "whatsapp.com/send?phone=+5212213611332&text=Hola)"
+    ],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "https://www.hveterinario.com/images/logo-web5.png",
+      "alt": "Image 1: Hospital Veterinario"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/icon/phone-ic.png",
+      "alt": "Image 2: phone"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/slider-image/unidad-recta-a-cholula-hospital-veterinario.jpg",
+      "alt": "Image 4: slider-2"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/slider-image/consulta-mascotas-hospital-veterinario.jpg",
+      "alt": "Image 5: slider-2"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/slider-image/hospitzalacion-mascotas-puebla-b.jpg",
+      "alt": "Image 6: slider-2"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/slider-image/cirugia-mascotas-hospital-veterinario.jpg",
+      "alt": "Image 7: slider-2"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/slider-image/diagnostico-laboratorio-hospital-veterinario.jpg",
+      "alt": "Image 8: slider-2"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/slider-image/rehabilitacion-fisioterapia-de-perros-mascotas.jpg",
+      "alt": "Image 9: slider-2"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/intro/consulta2g.jpg",
+      "alt": "Image 10: salud"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/icon/intro-icon-1.png",
+      "alt": "Image 11: Intro Icon"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/intro/estetica.jpg",
+      "alt": "Image 12: estetica"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/icon/intro-icon-3.png",
+      "alt": "Image 13: Intro Icon"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/intro/tienda.jpg",
+      "alt": "Image 14: tienda"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/icon/intro-icon-2.png",
+      "alt": "Image 15: Intro Icon"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/icon/insurance.png",
+      "alt": "Image 16: insurance"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/services/dog.png",
+      "alt": "Image 20: servicios"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/icon/quotes.png",
+      "alt": "Image 21: quotes"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/testimonial/05.jpg",
+      "alt": "Image 25: Clientes"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/testimonial/06.jpg",
+      "alt": "Image 26: Clientes"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/testimonial/07.jpg",
+      "alt": "Image 27: Clientes"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/testimonial/04.jpg",
+      "alt": "Image 28: Clientes"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/alan.jpg",
+      "alt": "Image 29: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/ellian.jpg",
+      "alt": "Image 30: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/montse.jpg",
+      "alt": "Image 31: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/marcoflores.jpg",
+      "alt": "Image 32: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/01Buxade.jpg",
+      "alt": "Image 33: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/02Natziely.jpg",
+      "alt": "Image 34: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/06.jpg",
+      "alt": "Image 35: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/dani.jpg",
+      "alt": "Image 36: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/03.jpg",
+      "alt": "Image 37: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/05.jpg",
+      "alt": "Image 38: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/08.jpg",
+      "alt": "Image 39: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/erick.jpg",
+      "alt": "Image 40: Equipo"
+    },
+    {
+      "src": "https://www.hveterinario.com/images/team/cristina.jpg",
+      "alt": "Image 41: Equipo"
+    }
+  ]
+}

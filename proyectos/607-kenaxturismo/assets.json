@@ -1,0 +1,319 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/logopajaro.png",
+      "archivo": "logopajaro.png",
+      "alt": "Image 2: Kenax"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/04/3-800x600.jpg",
+      "archivo": "3-800x600.jpg",
+      "alt": "Image 3: Tour del Mezcal y Tradición Oaxaqueña"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/2-8-800x600.jpg",
+      "archivo": "2-8-800x600.jpg",
+      "alt": "Image 4: Zona Arqueológica del Tajín y Tecolutla"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/2-7-800x600.jpg",
+      "archivo": "2-7-800x600.jpg",
+      "alt": "Image 5: Zona Arqueológica de Teotihuacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/FOTOS-VIAJES1-400x284.jpg",
+      "archivo": "FOTOS-VIAJES1-400x284.jpg",
+      "alt": "Image 6: Huasca y los Prismas Basálticos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/FOTOS-VIAJES31-1-400x284.jpg",
+      "archivo": "FOTOS-VIAJES31-1-400x284.jpg",
+      "alt": "Image 7: Grutas de Cacahuamilpa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Tour-escolar-a-las-Grutas-de-la-Estrella1-400x284.jpg",
+      "archivo": "Tour-escolar-a-las-Grutas-de-la-Estrella1-400x284.jpg",
+      "alt": "Image 8: Grutas de la estrella y Taxco"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Tour-escolar-a-Teotihuacan-31-400x284.jpg",
+      "archivo": "Tour-escolar-a-Teotihuacan-31-400x284.jpg",
+      "alt": "Image 9: Zona arqueológica Teotihuacan y talleres"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/images.jpg",
+      "archivo": "images.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/10/5571-400x250.jpg",
+      "archivo": "5571-400x250.jpg",
+      "alt": "Image 13: Capadocia: La tierra de las Chimeneas de Hadas y Ciudades Subterráneas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/10/10976-400x250.jpg",
+      "archivo": "10976-400x250.jpg",
+      "alt": "Image 14: Petra: La joya escondida de Jordania"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/10/50289-400x250.jpg",
+      "archivo": "50289-400x250.jpg",
+      "alt": "Image 15: París, la imprescindible de Europa: Más allá de la Torre Eiffel"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/logo-kenax-1.png",
+      "archivo": "logo-kenax-1.png",
+      "alt": "Image 16: Kenax logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/pagos.png",
+      "archivo": "pagos.png",
+      "alt": "Image 17: pagos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2025/09/7-2-800x600.jpg",
+      "archivo": "7-2-800x600.jpg",
+      "alt": "Image 3: Día de las Madres en Huatulco"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2025/09/6-3-800x600.jpg",
+      "archivo": "6-3-800x600.jpg",
+      "alt": "Image 4: Viaje a Manzanill"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2025/09/5-2-800x600.jpg",
+      "archivo": "5-2-800x600.jpg",
+      "alt": "Image 5: Mérida"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Vuelo-en-globo-en-Teotihuacan-800x600.jpg",
+      "archivo": "Vuelo-en-globo-en-Teotihuacan-800x600.jpg",
+      "alt": "Image 6: Vuelo en globo en Teotihuacan"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Mariposa-Monarca-2-800x600.jpg",
+      "archivo": "Mariposa-Monarca-2-800x600.jpg",
+      "alt": "Image 7: Mariposa Monarca"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Mariposa-Monarca-5-800x600.jpg",
+      "archivo": "Mariposa-Monarca-5-800x600.jpg",
+      "alt": "Image 8: Mariposa Monarca"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/12/cccwe1-800x600.png",
+      "archivo": "cccwe1-800x600.png",
+      "alt": "Image 9: Sierra Gorda"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Chiapas-Magico-2-1-800x600.jpg",
+      "archivo": "Chiapas-Magico-2-1-800x600.jpg",
+      "alt": "Image 10: Chiapas Mágico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Dia-de-Muertos-en-Michoacan-6-800x600.jpg",
+      "archivo": "Dia-de-Muertos-en-Michoacan-6-800x600.jpg",
+      "alt": "Image 11: Día de Muertos en Michoacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Tour-a-Tlalpujahua-4-800x600.jpg",
+      "archivo": "Tour-a-Tlalpujahua-4-800x600.jpg",
+      "alt": "Image 12: Tour a Tlalpujahua"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Zacatlan-de-las-Manzanas-y-Chigahuapan-800x600.jpg",
+      "archivo": "Zacatlan-de-las-Manzanas-y-Chigahuapan-800x600.jpg",
+      "alt": "Image 13: Zacatlán de las Manzanas y Chigahuapan"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Ruta-del-queso-3-800x600.jpg",
+      "archivo": "Ruta-del-queso-3-800x600.jpg",
+      "alt": "Image 14: Ruta del queso"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Chiapas-Magico-2-800x600.jpg",
+      "archivo": "Chiapas-Magico-2-800x600.jpg",
+      "alt": "Image 15: Chiapas Mágico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Avistamiento-de-Luciernagas-3-800x600.jpg",
+      "archivo": "Avistamiento-de-Luciernagas-3-800x600.jpg",
+      "alt": "Image 16: Avistamiento de Luciérnagas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Brilla-Fest-3-800x600.jpg",
+      "archivo": "Brilla-Fest-3-800x600.jpg",
+      "alt": "Image 17: Brilla Fest"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/31-800x600.jpg",
+      "archivo": "31-800x600.jpg",
+      "alt": "Image 18: Africam Safari y Cholula: Aventura Salvaje y Encanto Cultural"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/1-2-800x600.jpg",
+      "archivo": "1-2-800x600.jpg",
+      "alt": "Image 19: Aventura en Grutas de Xajhá"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/5-2-800x600.jpg",
+      "archivo": "5-2-800x600.jpg",
+      "alt": "Image 20: Bernal y Freixenet"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/1-2-1-800x600.jpg",
+      "archivo": "1-2-1-800x600.jpg",
+      "alt": "Image 21: Castillo de Gillow y Pueblos Mágicos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Brilla-Fest-2-800x600.jpg",
+      "archivo": "Brilla-Fest-2-800x600.jpg",
+      "alt": "Image 22: Brilla Fest"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/12/ASDASD-800x600.png",
+      "archivo": "ASDASD-800x600.png",
+      "alt": "Image 23: Grutas de Tolantongo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/1-800x600.jpg",
+      "archivo": "1-800x600.jpg",
+      "alt": "Image 24: Honey y Cascadas Paraíso"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/ChatGPT-Image-5-feb-2026-19_37_421-800x600.png",
+      "archivo": "ChatGPT-Image-5-feb-2026-19_37_421-800x600.png",
+      "alt": "Image 25: Las Estacas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Nevado-de-Toluca-5-800x600.jpg",
+      "archivo": "Nevado-de-Toluca-5-800x600.jpg",
+      "alt": "Image 26: Nevado de Toluca"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/unnamed-file-1-800x600.jpg",
+      "archivo": "unnamed-file-1-800x600.jpg",
+      "alt": "Image 27: Pozas Azules de Atzala y Taxco de Alarcón"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/2-5-800x600.jpg",
+      "archivo": "2-5-800x600.jpg",
+      "alt": "Image 28: Prismas Basálticos y Real del Monte"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Nevado-de-Toluca-6-800x600.jpg",
+      "archivo": "Nevado-de-Toluca-6-800x600.jpg",
+      "alt": "Image 29: Nevado de Toluca"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2026/02/1-4-800x600.jpg",
+      "archivo": "1-4-800x600.jpg",
+      "alt": "Image 30: Valle de Bravo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2025/09/2-2-3-800x600.jpg",
+      "archivo": "2-2-3-800x600.jpg",
+      "alt": "Image 34: Ixtapa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Grutas-de-Cacahuamilpa-y-Taxco-800x600.jpg",
+      "archivo": "Grutas-de-Cacahuamilpa-y-Taxco-800x600.jpg",
+      "alt": "Image 35: Grutas de Cacahuamilpa y Taxco"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Los-Cabos-2-800x600.jpg",
+      "archivo": "Los-Cabos-2-800x600.jpg",
+      "alt": "Image 36: Viaje a Los Cabos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Mil-cascadas-5-800x600.jpg",
+      "archivo": "Mil-cascadas-5-800x600.jpg",
+      "alt": "Image 37: Mil cascadas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Ruta-Maya-3-800x600.jpg",
+      "archivo": "Ruta-Maya-3-800x600.jpg",
+      "alt": "Image 38: Ruta Maya"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Ruta-Turquesa-800x600.jpg",
+      "archivo": "Ruta-Turquesa-800x600.jpg",
+      "alt": "Image 39: Ruta Turquesa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Cancun-Magico-3-800x600.jpg",
+      "archivo": "Cancun-Magico-3-800x600.jpg",
+      "alt": "Image 40: Cancún Mágico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/De-fiesta-en-Tequila-800x600.jpg",
+      "archivo": "De-fiesta-en-Tequila-800x600.jpg",
+      "alt": "Image 41: De fiesta en Tequila"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2024/09/Huasteca-Adventere-4-800x600.jpg",
+      "archivo": "Huasteca-Adventere-4-800x600.jpg",
+      "alt": "Image 42: Aventura en la Huasteca"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kenaxturismo.com/wp-content/uploads/2025/09/2-2-1-800x600.jpg",
+      "archivo": "2-2-1-800x600.jpg",
+      "alt": "Image 43: Viaje a Acapulco"
+    }
+  ]
+}

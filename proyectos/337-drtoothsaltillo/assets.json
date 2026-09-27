@@ -1,0 +1,301 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/32.-Logo-horizontal-version-2026-e1778798603678-300x66.png",
+      "archivo": "32.-Logo-horizontal-version-2026-e1778798603678-300x66.png",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Ana-Claudia-Antes_1.jpg",
+      "archivo": "Ana-Claudia-Antes_1.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Ana-Claudia-Despues_1.jpg",
+      "archivo": "Ana-Claudia-Despues_1.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Daniela-Saldana-Antes_1.jpg",
+      "archivo": "Daniela-Saldana-Antes_1.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Daniela-Saldana-Despues_1.jpg",
+      "archivo": "Daniela-Saldana-Despues_1.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Erika-Liliana-Antes_1.jpg",
+      "archivo": "Erika-Liliana-Antes_1.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Erika-Liliana-Despues_1.jpg",
+      "archivo": "Erika-Liliana-Despues_1.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/lucia-de-Valle-Antes_1.jpg",
+      "archivo": "lucia-de-Valle-Antes_1.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Lucia-de-valle-Despues_1.jpg",
+      "archivo": "Lucia-de-valle-Despues_1.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Marcela-Guerrero-Antes_1.jpg",
+      "archivo": "Marcela-Guerrero-Antes_1.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Marcela-Guerrero-Despues_1.jpg",
+      "archivo": "Marcela-Guerrero-Despues_1.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Erika-Trevino-Antes_1.jpg",
+      "archivo": "Erika-Trevino-Antes_1.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Erika-Trevino-Despues_1.jpg",
+      "archivo": "Erika-Trevino-Despues_1.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Paty-Montanez-Antes_1.jpg",
+      "archivo": "Paty-Montanez-Antes_1.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Paty-Montanez-Despues_1.jpg",
+      "archivo": "Paty-Montanez-Despues_1.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Cristina-San-Miguel-Antes_1.jpg",
+      "archivo": "Cristina-San-Miguel-Antes_1.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Cristina-San-Miguel-Despues_1.jpg",
+      "archivo": "Cristina-San-Miguel-Despues_1.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Yessica-Torres-Antes_1.jpg",
+      "archivo": "Yessica-Torres-Antes_1.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/Yessica-Torres-Despues_1.jpg",
+      "archivo": "Yessica-Torres-Despues_1.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/implantologia-icono.png",
+      "archivo": "implantologia-icono.png",
+      "alt": "Image 44"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/diseno-de-sonrisa-icono.png",
+      "archivo": "diseno-de-sonrisa-icono.png",
+      "alt": "Image 45"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/ortodoncia-icono.png",
+      "archivo": "ortodoncia-icono.png",
+      "alt": "Image 46"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/ortodoncia-invisible-icono.png",
+      "archivo": "ortodoncia-invisible-icono.png",
+      "alt": "Image 47"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/recontorneo-gingival-icono.png",
+      "archivo": "recontorneo-gingival-icono.png",
+      "alt": "Image 48"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/bruxismo-icono.png",
+      "archivo": "bruxismo-icono.png",
+      "alt": "Image 49"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/control.png",
+      "archivo": "control.png",
+      "alt": "Image 50"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/periodoncia-icono.png",
+      "archivo": "periodoncia-icono.png",
+      "alt": "Image 51"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/rehabilitacion-osea-icono.png",
+      "archivo": "rehabilitacion-osea-icono.png",
+      "alt": "Image 52"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/rehabilitacion-icono.png",
+      "archivo": "rehabilitacion-icono.png",
+      "alt": "Image 53"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/cirugia-maxilofacial-icono.png",
+      "archivo": "cirugia-maxilofacial-icono.png",
+      "alt": "Image 54"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/odontologia-libre-de-metal-icono.png",
+      "archivo": "odontologia-libre-de-metal-icono.png",
+      "alt": "Image 55"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/director-general-dr-luis-saucedo.png",
+      "archivo": "director-general-dr-luis-saucedo.png",
+      "alt": "Image 56"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/formacion.png",
+      "archivo": "formacion.png",
+      "alt": "Image 57"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/director-clinico-dra-yolitzma-lugo.png",
+      "archivo": "director-clinico-dra-yolitzma-lugo.png",
+      "alt": "Image 58"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/short1-768x662.jpg",
+      "archivo": "short1-768x662.jpg",
+      "alt": "Image 60"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/podcast1-768x387.jpg",
+      "archivo": "podcast1-768x387.jpg",
+      "alt": "Image 61"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/34.-Logo-horizontal-negro-version-2026-e1778799263748-768x165.png",
+      "archivo": "34.-Logo-horizontal-negro-version-2026-e1778799263748-768x165.png",
+      "alt": "Image 62"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/editada-1-1024x768.jpg",
+      "archivo": "editada-1-1024x768.jpg",
+      "alt": "Image 63"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/odontologia-digital-saltillo-dentista-1-300x200.jpg",
+      "archivo": "odontologia-digital-saltillo-dentista-1-300x200.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://secure.gravatar.com/avatar/369ba835e68263eb36bc7e232a0aca1481c28473b17e7d9fdb1fd0f9b103f22a?s=128&d=https%3A%2F%2Fdrtooth.com.mx%2Fwp-content%2Fuploads%2Fdirector-general-dr-luis-saucedo-150x150.png&r=g",
+      "archivo": "369ba835e68263eb36bc7e232a0aca1481c28473b17e7d9fdb1fd0f9b103f22a",
+      "alt": "Image 4: Luis Saucedo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/odontologia-digital-saltillo-dentista-300x200.jpg",
+      "archivo": "odontologia-digital-saltillo-dentista-300x200.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/74151-1-300x200.jpg",
+      "archivo": "74151-1-300x200.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/2149164306-1-300x200.jpg",
+      "archivo": "2149164306-1-300x200.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/odontologia-digital-saltillo-dentista-1-768x512.jpg",
+      "archivo": "odontologia-digital-saltillo-dentista-1-768x512.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/odontologia-digital-saltillo-dentista-768x512.jpg",
+      "archivo": "odontologia-digital-saltillo-dentista-768x512.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/74151-1-768x512.jpg",
+      "archivo": "74151-1-768x512.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/2149164306-1-768x512.jpg",
+      "archivo": "2149164306-1-768x512.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/68180-768x329.jpg",
+      "archivo": "68180-768x329.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drtooth.com.mx/wp-content/uploads/271Y_91gmsp1d8pp6urjk5l47ap1d89m7ap9d959kubbm68-768x432.jpg",
+      "archivo": "271Y_91gmsp1d8pp6urjk5l47ap1d89m7ap9d959kubbm68-768x432.jpg",
+      "alt": "Image 7"
+    }
+  ]
+}

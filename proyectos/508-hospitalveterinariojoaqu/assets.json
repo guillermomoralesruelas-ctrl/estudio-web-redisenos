@@ -1,0 +1,211 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/logo-web5.png",
+      "archivo": "logo-web5.png",
+      "alt": "Image 1: Hospital Veterinario"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/icon/phone-ic.png",
+      "archivo": "phone-ic.png",
+      "alt": "Image 2: phone"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/slider-image/unidad-recta-a-cholula-hospital-veterinario.jpg",
+      "archivo": "unidad-recta-a-cholula-hospital-veterinario.jpg",
+      "alt": "Image 4: slider-2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/slider-image/consulta-mascotas-hospital-veterinario.jpg",
+      "archivo": "consulta-mascotas-hospital-veterinario.jpg",
+      "alt": "Image 5: slider-2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/slider-image/hospitzalacion-mascotas-puebla-b.jpg",
+      "archivo": "hospitzalacion-mascotas-puebla-b.jpg",
+      "alt": "Image 6: slider-2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/slider-image/cirugia-mascotas-hospital-veterinario.jpg",
+      "archivo": "cirugia-mascotas-hospital-veterinario.jpg",
+      "alt": "Image 7: slider-2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/slider-image/diagnostico-laboratorio-hospital-veterinario.jpg",
+      "archivo": "diagnostico-laboratorio-hospital-veterinario.jpg",
+      "alt": "Image 8: slider-2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/slider-image/rehabilitacion-fisioterapia-de-perros-mascotas.jpg",
+      "archivo": "rehabilitacion-fisioterapia-de-perros-mascotas.jpg",
+      "alt": "Image 9: slider-2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/intro/consulta2g.jpg",
+      "archivo": "consulta2g.jpg",
+      "alt": "Image 10: salud"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/icon/intro-icon-1.png",
+      "archivo": "intro-icon-1.png",
+      "alt": "Image 11: Intro Icon"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/intro/estetica.jpg",
+      "archivo": "estetica.jpg",
+      "alt": "Image 12: estetica"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/icon/intro-icon-3.png",
+      "archivo": "intro-icon-3.png",
+      "alt": "Image 13: Intro Icon"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/intro/tienda.jpg",
+      "archivo": "tienda.jpg",
+      "alt": "Image 14: tienda"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/icon/intro-icon-2.png",
+      "archivo": "intro-icon-2.png",
+      "alt": "Image 15: Intro Icon"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/icon/insurance.png",
+      "archivo": "insurance.png",
+      "alt": "Image 16: insurance"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/services/dog.png",
+      "archivo": "dog.png",
+      "alt": "Image 20: servicios"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/icon/quotes.png",
+      "archivo": "quotes.png",
+      "alt": "Image 21: quotes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/testimonial/05.jpg",
+      "archivo": "05.jpg",
+      "alt": "Image 25: Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/testimonial/06.jpg",
+      "archivo": "06.jpg",
+      "alt": "Image 26: Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/testimonial/07.jpg",
+      "archivo": "07.jpg",
+      "alt": "Image 27: Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/testimonial/04.jpg",
+      "archivo": "04.jpg",
+      "alt": "Image 28: Clientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/alan.jpg",
+      "archivo": "alan.jpg",
+      "alt": "Image 29: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/ellian.jpg",
+      "archivo": "ellian.jpg",
+      "alt": "Image 30: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/montse.jpg",
+      "archivo": "montse.jpg",
+      "alt": "Image 31: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/marcoflores.jpg",
+      "archivo": "marcoflores.jpg",
+      "alt": "Image 32: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/01Buxade.jpg",
+      "archivo": "01Buxade.jpg",
+      "alt": "Image 33: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/02Natziely.jpg",
+      "archivo": "02Natziely.jpg",
+      "alt": "Image 34: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/06.jpg",
+      "archivo": "06.jpg",
+      "alt": "Image 35: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/dani.jpg",
+      "archivo": "dani.jpg",
+      "alt": "Image 36: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/03.jpg",
+      "archivo": "03.jpg",
+      "alt": "Image 37: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/05.jpg",
+      "archivo": "05.jpg",
+      "alt": "Image 38: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/08.jpg",
+      "archivo": "08.jpg",
+      "alt": "Image 39: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/erick.jpg",
+      "archivo": "erick.jpg",
+      "alt": "Image 40: Equipo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hveterinario.com/images/team/cristina.jpg",
+      "archivo": "cristina.jpg",
+      "alt": "Image 41: Equipo"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "sitio": "https://holboxphotos.com/",
+  "fecha": "2026-09-26T08:18:22.464Z",
+  "motor": "jina-reader",
+  "slug": "holboxphotos",
+  "nombre": "HolboxPhotos",
+  "rubro": "EVENTOS",
+  "ciudad": "Sayulita, Nayarit",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://holboxphotos.com/",
+      "titulo": "HolboxPhotos - Plataforma de experiencias únicas"
+    },
+    {
+      "url": "https://holboxphotos.com/politica-de-cookies/",
+      "titulo": "Política de Cookies - Fotógrafos en Isla Holbox"
+    },
+    {
+      "url": "https://holboxphotos.com/politica-privacidad/",
+      "titulo": "Política de privacidad - Fotógrafos en Isla Holbox"
+    },
+    {
+      "url": "https://holboxphotos.com/destinos/destinos/",
+      "titulo": "⏫🥇DESTINOS - Somos el fotógrafo que estás buscando🧡"
+    },
+    {
+      "url": "https://holboxphotos.com/destinos/mexico-destinos/mexico/",
+      "titulo": "⏫🥇México - Somos el fotógrafo que estás buscando🧡"
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": [
+      "info@holboxphotos.com"
+    ],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "https://holboxphotos.com/wp-content/smush-webp/2021/08/cropped-wedding-photography-logo-maker-1196b-1-1-1.png.webp",
+      "alt": "Image 1: HolboxPhotos"
+    },
+    {
+      "src": "https://holboxphotos.com/wp-content/uploads/2023/09/whatsapp-logo-58x58.png",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://holboxphotos.com/wp-content/uploads/2024/07/tour-chichen-itza43.jpg",
+      "alt": "Image 2: México"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/assets/img/logo.png",
+      "archivo": "logo.png",
+      "alt": "Image 1: Ecoturismo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/assets/img/banner/aire_m.jpg",
+      "archivo": "aire_m.jpg",
+      "alt": "Image 3: Aire"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/assets/img/banner/agua_m.jpg",
+      "archivo": "agua_m.jpg",
+      "alt": "Image 4: Agua"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/assets/img/banner/tierra_m.jpg",
+      "archivo": "tierra_m.jpg",
+      "alt": "Image 5: Tierra"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/assets/img/banner/aire.jpg",
+      "archivo": "aire.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://ecoturismo.com.mx/assets/img/logo.png",
+      "archivo": "logo.png",
+      "alt": "Image 1: Ecoturismo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://ecoturismo.com.mx/assets/img/banner/aire_m.jpg",
+      "archivo": "aire_m.jpg",
+      "alt": "Image 3: Aire"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://ecoturismo.com.mx/assets/img/banner/agua_m.jpg",
+      "archivo": "agua_m.jpg",
+      "alt": "Image 4: Agua"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://ecoturismo.com.mx/assets/img/banner/tierra_m.jpg",
+      "archivo": "tierra_m.jpg",
+      "alt": "Image 5: Aventuras en Tierra"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://ecoturismo.com.mx/imagenes/fotos/ex_238_01.jpg",
+      "archivo": "ex_238_01.jpg",
+      "alt": "Image 6: imagen 238"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://ecoturismo.com.mx/imagenes/fotos/ex_7_01.jpg",
+      "archivo": "ex_7_01.jpg",
+      "alt": "Image 7: imagen 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://ecoturismo.com.mx/imagenes/fotos/ex_189_01.jpg",
+      "archivo": "ex_189_01.jpg",
+      "alt": "Image 8: imagen 189"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_7_01.jpg",
+      "archivo": "ex_7_01.jpg",
+      "alt": "Image 6: imagen 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_238_01.jpg",
+      "archivo": "ex_238_01.jpg",
+      "alt": "Image 7: imagen 238"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_189_01.jpg",
+      "archivo": "ex_189_01.jpg",
+      "alt": "Image 8: imagen 189"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_241_01.jpg",
+      "archivo": "ex_241_01.jpg",
+      "alt": "Image 9: imagen 241"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_257_01.jpg",
+      "archivo": "ex_257_01.jpg",
+      "alt": "Image 10: imagen 257"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_244_01.jpg",
+      "archivo": "ex_244_01.jpg",
+      "alt": "Image 11: imagen 244"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_143_01.jpg",
+      "archivo": "ex_143_01.jpg",
+      "alt": "Image 6: imagen 143"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_3_01.jpg",
+      "archivo": "ex_3_01.jpg",
+      "alt": "Image 7: imagen 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_112_01.jpg",
+      "archivo": "ex_112_01.jpg",
+      "alt": "Image 8: imagen 112"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_149_01.jpg",
+      "archivo": "ex_149_01.jpg",
+      "alt": "Image 9: imagen 149"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_254_01.jpg",
+      "archivo": "ex_254_01.jpg",
+      "alt": "Image 10: imagen 254"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_144_01.jpg",
+      "archivo": "ex_144_01.jpg",
+      "alt": "Image 11: imagen 144"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_249_01.jpg",
+      "archivo": "ex_249_01.jpg",
+      "alt": "Image 12: imagen 249"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_10_01.jpg",
+      "archivo": "ex_10_01.jpg",
+      "alt": "Image 13: imagen 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_113_01.jpg",
+      "archivo": "ex_113_01.jpg",
+      "alt": "Image 14: imagen 113"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_129_01.jpg",
+      "archivo": "ex_129_01.jpg",
+      "alt": "Image 15: imagen 129"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_84_01.jpg",
+      "archivo": "ex_84_01.jpg",
+      "alt": "Image 16: imagen 84"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_188_01.jpg",
+      "archivo": "ex_188_01.jpg",
+      "alt": "Image 17: imagen 188"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_86_01.jpg",
+      "archivo": "ex_86_01.jpg",
+      "alt": "Image 18: imagen 86"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_12_01.jpg",
+      "archivo": "ex_12_01.jpg",
+      "alt": "Image 19: imagen 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_237_01.jpg",
+      "archivo": "ex_237_01.jpg",
+      "alt": "Image 20: imagen 237"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_106_01.jpg",
+      "archivo": "ex_106_01.jpg",
+      "alt": "Image 21: imagen 106"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_175_01.jpg",
+      "archivo": "ex_175_01.jpg",
+      "alt": "Image 22: imagen 175"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_186_01.jpg",
+      "archivo": "ex_186_01.jpg",
+      "alt": "Image 23: imagen 186"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_166_01.jpg",
+      "archivo": "ex_166_01.jpg",
+      "alt": "Image 24: imagen 166"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_1_01.jpg",
+      "archivo": "ex_1_01.jpg",
+      "alt": "Image 25: imagen 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_83_01.jpg",
+      "archivo": "ex_83_01.jpg",
+      "alt": "Image 26: imagen 83"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_202_01.jpg",
+      "archivo": "ex_202_01.jpg",
+      "alt": "Image 27: imagen 202"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_250_01.jpg",
+      "archivo": "ex_250_01.jpg",
+      "alt": "Image 28: imagen 250"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_235_01.jpg",
+      "archivo": "ex_235_01.jpg",
+      "alt": "Image 29: imagen 235"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_11_01.jpg",
+      "archivo": "ex_11_01.jpg",
+      "alt": "Image 30: imagen 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_243_01.jpg",
+      "archivo": "ex_243_01.jpg",
+      "alt": "Image 6: imagen 243"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_236_01.jpg",
+      "archivo": "ex_236_01.jpg",
+      "alt": "Image 7: imagen 236"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_224_01.jpg",
+      "archivo": "ex_224_01.jpg",
+      "alt": "Image 8: imagen 224"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_247_01.jpg",
+      "archivo": "ex_247_01.jpg",
+      "alt": "Image 9: imagen 247"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_115_01.jpg",
+      "archivo": "ex_115_01.jpg",
+      "alt": "Image 10: imagen 115"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_133_01.jpg",
+      "archivo": "ex_133_01.jpg",
+      "alt": "Image 11: imagen 133"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_165_01.jpg",
+      "archivo": "ex_165_01.jpg",
+      "alt": "Image 12: imagen 165"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_13_01.jpg",
+      "archivo": "ex_13_01.jpg",
+      "alt": "Image 13: imagen 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_185_01.jpg",
+      "archivo": "ex_185_01.jpg",
+      "alt": "Image 14: imagen 185"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_217_01.jpg",
+      "archivo": "ex_217_01.jpg",
+      "alt": "Image 15: imagen 217"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_255_01.jpg",
+      "archivo": "ex_255_01.jpg",
+      "alt": "Image 16: imagen 255"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_4_01.jpg",
+      "archivo": "ex_4_01.jpg",
+      "alt": "Image 17: imagen 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_226_01.jpg",
+      "archivo": "ex_226_01.jpg",
+      "alt": "Image 18: imagen 226"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_248_01.jpg",
+      "archivo": "ex_248_01.jpg",
+      "alt": "Image 19: imagen 248"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ecoturismo.com.mx/imagenes/fotos/ex_246_01.jpg",
+      "archivo": "ex_246_01.jpg",
+      "alt": "Image 20: imagen 246"
+    }
+  ]
+}

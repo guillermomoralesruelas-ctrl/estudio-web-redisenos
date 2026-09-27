@@ -1,0 +1,106 @@
+{
+  "sitio": "https://www.katarsis.mx/",
+  "fecha": "2026-09-26T09:05:46.253Z",
+  "motor": "jina-reader",
+  "slug": "katarsiscdmx",
+  "nombre": "Katarsis CDMX",
+  "rubro": "SALUD",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.katarsis.mx/",
+      "titulo": "Katarsis, ayuda psicológica de lunes a domingo."
+    },
+    {
+      "url": "https://www.katarsis.mx/nuestro-equipo",
+      "titulo": "Psicólogos Online de Katarsis"
+    },
+    {
+      "url": "https://www.katarsis.mx/nosotros",
+      "titulo": "Ayuda Psicológica en Línea, Psicólogos Online"
+    },
+    {
+      "url": "https://www.katarsis.mx/empresas",
+      "titulo": "Katarsis Centro de Ayuda Psicológica Online"
+    },
+    {
+      "url": "https://www.katarsis.mx/faq",
+      "titulo": "Ayuda Psicológica, Psicólogos Online - Preguntas Frecuentes"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "525551073098",
+      "55 51 07 30 98",
+      "5551073098"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/525551073098/?text=Hola,%20deseo%20%20informaci%C3%B3n)[](https://wa.me/525551073098/?text=Hola,%20deseo%20%20informaci%C3%B3n)[![Image"
+    ],
+    "redes": [
+      "https://www.facebook.com/katarsismx/",
+      "https://www.facebook.com/psicadistancia/",
+      "https://www.linkedin.com/in/katarsis-centro-de-atenci%C3%B3n-psicol%C3%B3gica-integral-ab39a6b6/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.katarsis.mx/logo1m.webp",
+      "alt": "Image 1: Katarsis Logo"
+    },
+    {
+      "src": "https://www.katarsis.mx/banner1.jpeg",
+      "alt": "Image 2: No estas solo"
+    },
+    {
+      "src": "https://www.katarsis.mx/banner2.jpg",
+      "alt": "Image 3: Soledad"
+    },
+    {
+      "src": "https://www.katarsis.mx/skype-logo.png",
+      "alt": "Image 4: Skype"
+    },
+    {
+      "src": "https://www.katarsis.mx/facetime.png",
+      "alt": "Image 5: Facetime"
+    },
+    {
+      "src": "https://www.katarsis.mx/phone.png",
+      "alt": "Image 6: Phone"
+    },
+    {
+      "src": "https://www.katarsis.mx/gmail.webp",
+      "alt": "Image 7: Gmail"
+    },
+    {
+      "src": "https://www.katarsis.mx/whatsapp.png",
+      "alt": "Image 8: WhatsApp"
+    },
+    {
+      "src": "https://www.katarsis.mx/messenger.png",
+      "alt": "Image 9: Messenger"
+    },
+    {
+      "src": "https://www.katarsis.mx/blur.png",
+      "alt": "Image 10: WhatsApp"
+    },
+    {
+      "src": "https://www.katarsis.mx/icon_messenger.png",
+      "alt": "Image 27: FB Icon"
+    },
+    {
+      "src": "https://www.katarsis.mx/servicios_katarsis_3.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.katarsis.mx/esquema_katarsis_4.png",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.katarsis.mx/terapias_katarsis_6.png",
+      "alt": "Image 4"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+/*
+Theme Name: 	Betheme Child
+Theme URI: 		http://themes.muffingroup.com/betheme
+Author: 		Muffin group
+Author URI: 	http://muffingroup.com
+Description:	Child Theme for Betheme - Premium WordPress Theme
+Template:		betheme
+Version: 		1.6
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+/* Blockquote ------------------------------------------------------------------------ */
+blockquote{font-size:12px;line-height:21px;font-family:Patua One;display:block;height:auto;margin:0 0 5px 15px;top:5px;position:relative;/*background:url(../images/stripes/textline.png) repeat-y*/}
+blockquote:before{content:""}
+blockquote:after{content:"";width:55px;height:40px;background:url(../images/blockquote.png);position:absolute;left:-25px;top:-15px}
+.blockquote{margin-bottom:10px}
+.blockquote blockquote{margin-bottom:15px}
+.blockquote p.author{margin-left:15px}
+.blockquote p.author i{margin-right:5px}
+
+
+.btn_full {
+  background-color: #842d4f !important;
+}

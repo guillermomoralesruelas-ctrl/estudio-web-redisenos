@@ -1,0 +1,253 @@
+{
+  "sitio": "https://www.buceoproyectoazul.com.mx/",
+  "fecha": "2026-09-26T07:26:58.168Z",
+  "motor": "jina-reader",
+  "slug": "escueladebuceo",
+  "nombre": "Escuela de Buceo Proyecto Azul",
+  "rubro": "TURISMO",
+  "ciudad": "La Paz, Baja California Sur",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.buceoproyectoazul.com.mx/",
+      "titulo": "Escuela de Buceo, Tienda de Equipo y Viajes..."
+    },
+    {
+      "url": "https://www.buceoproyectoazul.com.mx/nosotros/",
+      "titulo": "Nosotros | Escuela de BUCEO PROYECTO AZUL s.a. de c.v."
+    },
+    {
+      "url": "https://www.buceoproyectoazul.com.mx/tienda-2/",
+      "titulo": "Tienda de Equipo de Buceo"
+    },
+    {
+      "url": "https://www.buceoproyectoazul.com.mx/albercas/",
+      "titulo": "Nuestras 2 Albercas Cdmx"
+    },
+    {
+      "url": "https://www.buceoproyectoazul.com.mx/cursos/",
+      "titulo": "Cursos | Escuela de BUCEO PROYECTO AZUL s.a. de c.v."
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "55.63.06.15.63",
+      "5563061563",
+      "55.41.67.49.56",
+      "5541674956",
+      "55.54.78.41.50",
+      "5554784150",
+      "105025586",
+      "0.6427216556901123",
+      "0.707827775210898",
+      "55 4167-4956",
+      "55 6306-1563",
+      "55 5478 4150",
+      "796562646",
+      "0.281490263781768",
+      "0.2240389915599994",
+      "889929-700"
+    ],
+    "emails": [
+      "info@www.buceoproyectoazul.com.mx",
+      "info@buceoproyectoazul.com.mx"
+    ],
+    "whatsapp": [
+      "wa.me/5554784150)[55.63.06.15.63](tel:5563061563)"
+    ],
+    "redes": [
+      "https://www.facebook.com/buceoproyectoazul/",
+      "https://www.instagram.com/buceoproyectoazuloficial/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/plugins/polylang/flags/mx.png",
+      "alt": "Image 1: es"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/01/logo-PA-bco.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/04/cabopulmo1.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2021/06/partner-join-today-dan-world.png",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/skindiver-700x500.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-water-ocean-diving-underwater-biology-957263-pxhere.com_-700x500.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/water-ocean-person-recreation-diving-underwater-1172509-pxhere.com_-700x500.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-ocean-diving-underwater-biology-holiday-600667-pxhere.com_-700x500.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/padi-logo-BN3.png",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/SSI-logo-BN2.png",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://pixel.wp.com/g.gif?v=ext&blog=105025586&post=4312&tz=-5&srv=www.buceoproyectoazul.com.mx&j=1%3A14.5&host=www.buceoproyectoazul.com.mx&ref=&fcp=384&rand=0.6427216556901123",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://pixel.wp.com/g.gif?v=ext&blog=105025586&post=4616&tz=-5&srv=www.buceoproyectoazul.com.mx&j=1%3A14.5&host=www.buceoproyectoazul.com.mx&ref=&fcp=0&rand=0.707827775210898",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/01/tilos.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/01/tusa.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/01/intova.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/01/cressi.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/01/AqL.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/08/pocket-1.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/09/tiloscobalt2.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/08/slate3.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/06/cressi-gorilla-bag1.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/plugins/wp-google-map-plugin/assets/images//default_marker.png",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i3678!3i7292!4i256!2m3!1e0!2sm!3i796562646!3m13!2ses!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyBA0U6tVEKSEgTpl0he_RdwJKl2v_ul6CA&token=128930",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://maps.gstatic.com/mapfiles/transparent.png",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://pixel.wp.com/g.gif?v=ext&blog=105025586&post=4619&tz=-5&srv=www.buceoproyectoazul.com.mx&j=1%3A14.5&host=www.buceoproyectoazul.com.mx&ref=&fcp=500&rand=0.281490263781768",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/01/lv.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/01/pl.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://pixel.wp.com/g.gif?v=ext&blog=105025586&post=4622&tz=-5&srv=www.buceoproyectoazul.com.mx&j=1%3A14.5&host=www.buceoproyectoazul.com.mx&ref=&fcp=632&rand=0.2240389915599994",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2019/11/make-way-for-the-tiger-sharks-438-700x450.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-ocean-diving-underwater-mediterranean-vehicle-1001739-pxhere.com_-700x450.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-water-ocean-light-black-and-white-photography-1087258-pxhere.com_-700x450.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-recreation-diving-underwater-portrait-biology-739360-pxhere.com_-700x450.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-water-ocean-diving-underwater-biology-957263-pxhere.com_-700x450.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-ocean-diving-underwater-biology-holiday-600667-pxhere.com_-700x450.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/water-ocean-person-recreation-diving-underwater-1172509-pxhere.com_-700x450.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/NightDive-700x450.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-water-recreation-diving-underwater-biology-899332-pxhere.com_-700x450.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/skindiver-700x450.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-nature-ocean-adventure-travel-diving-636866-pxhere.com_-700x450.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-water-ocean-photography-explore-diving-901393-pxhere.com_-700x450.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2019/11/courtney-mattison-confluence-4-700x450.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-water-nature-ocean-girl-sunshine-839793-pxhere.com_-700x450.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-military-diving-underwater-army-biology-1160263-pxhere.com_-700x450.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/04/mobilechallenge-animals-aquarium-889929-700x450.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/sea-water-ocean-explore-recreation-diving-747035-pxhere.com_-700x450.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/water-people-boat-diving-vehicle-extreme-sport-775877-pxhere.com_-700x450.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://www.buceoproyectoazul.com.mx/wp-content/uploads/2018/02/vehicle-training-tent-swimming-dive-sports-769132-pxhere.com_-700x450.jpg",
+      "alt": "Image 24"
+    }
+  ]
+}

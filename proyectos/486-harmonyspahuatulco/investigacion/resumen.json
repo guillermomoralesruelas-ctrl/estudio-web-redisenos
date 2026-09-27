@@ -1,0 +1,23 @@
+{
+  "sitio": "https://www.spahuatulco.com/",
+  "fecha": "2026-09-26T08:14:09.358Z",
+  "motor": "jina-reader",
+  "slug": "harmonyspahuatulco",
+  "nombre": "Harmony Spa Huatulco",
+  "rubro": "SPA",
+  "ciudad": "Huatulco, Oaxaca",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.spahuatulco.com/",
+      "titulo": "Robot Challenge Screen"
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": [],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": []
+}

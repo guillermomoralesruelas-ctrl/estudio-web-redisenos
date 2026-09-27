@@ -1,0 +1,25 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxphotos.com/wp-content/smush-webp/2021/08/cropped-wedding-photography-logo-maker-1196b-1-1-1.png.webp",
+      "archivo": "cropped-wedding-photography-logo-maker-1196b-1-1-1.png.webp",
+      "alt": "Image 1: HolboxPhotos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxphotos.com/wp-content/uploads/2023/09/whatsapp-logo-58x58.png",
+      "archivo": "whatsapp-logo-58x58.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxphotos.com/wp-content/uploads/2024/07/tour-chichen-itza43.jpg",
+      "archivo": "tour-chichen-itza43.jpg",
+      "alt": "Image 2: México"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "sitio": "https://foriu.mx/",
+  "fecha": "2026-09-26T07:47:06.186Z",
+  "motor": "jina-reader",
+  "slug": "foriu",
+  "nombre": "Foriu",
+  "rubro": "SPA",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://foriu.mx/",
+      "titulo": "Robot Challenge Screen"
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": [],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": []
+}

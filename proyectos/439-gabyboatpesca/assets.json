@@ -1,0 +1,61 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "http://xperienceixtapa.com/wp-content/uploads/2026/07/Xperience-Ixtapa-DMC-Services-1.png",
+      "archivo": "Xperience-Ixtapa-DMC-Services-1.png",
+      "alt": "Image 1: Xperience Ixtapa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/df4aeccfd632b0cd9176a7c8dc6ca277",
+      "archivo": "df4aeccfd632b0cd9176a7c8dc6ca277",
+      "alt": "Image 3: Español"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://xperienceixtapa.com/wp-content/uploads/2026/05/pesca-360x240.jpeg",
+      "archivo": "pesca-360x240.jpeg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://xperienceixtapa.com/wp-content/uploads/2026/05/IMG_20251223_180103264_HDR_AE-scaled-360x240.jpg",
+      "archivo": "IMG_20251223_180103264_HDR_AE-scaled-360x240.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://xperienceixtapa.com/wp-content/uploads/2026/05/Bloody-Hook-125-360x240.jpg",
+      "archivo": "Bloody-Hook-125-360x240.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://xperienceixtapa.com/wp-content/uploads/2026/05/hiace-300x140.png",
+      "archivo": "hiace-300x140.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://xperienceixtapa.com/wp-content/uploads/2026/05/color-white-300x135.png",
+      "archivo": "color-white-300x135.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://xperienceixtapa.com/wp-content/uploads/2023/01/F-C85-C21-019-360x240.jpg",
+      "archivo": "F-C85-C21-019-360x240.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://xperienceixtapa.com/wp-content/uploads/2021/12/Waterfall-Hiking-27-1024x768-1-360x240.jpg",
+      "archivo": "Waterfall-Hiking-27-1024x768-1-360x240.jpg",
+      "alt": "Image 10"
+    }
+  ]
+}

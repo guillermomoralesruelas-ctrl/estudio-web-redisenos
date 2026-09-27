@@ -1,0 +1,229 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/wp-content/uploads/2024/08/Mesa-de-trabajo-17-8.png",
+      "archivo": "Mesa-de-trabajo-17-8.png",
+      "alt": "Image 1: company logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/wp-content/uploads/2024/08/Mesa-de-trabajo-14-8.png",
+      "archivo": "Mesa-de-trabajo-14-8.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/wp-content/uploads/2024/08/Mesa-de-trabajo-40-1024x502.png",
+      "archivo": "Mesa-de-trabajo-40-1024x502.png",
+      "alt": "Image 4: El Cielo Residencial león guanajuato"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://a.tile.openstreetmap.org/10/222/450.png",
+      "archivo": "450.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://c.tile.openstreetmap.org/10/222/449.png",
+      "archivo": "449.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://c.tile.openstreetmap.org/10/221/450.png",
+      "archivo": "450.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://b.tile.openstreetmap.org/10/223/450.png",
+      "archivo": "450.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://b.tile.openstreetmap.org/10/222/451.png",
+      "archivo": "451.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://b.tile.openstreetmap.org/10/221/449.png",
+      "archivo": "449.png",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://a.tile.openstreetmap.org/10/223/449.png",
+      "archivo": "449.png",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://a.tile.openstreetmap.org/10/221/451.png",
+      "archivo": "451.png",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://c.tile.openstreetmap.org/10/223/451.png",
+      "archivo": "451.png",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://b.tile.openstreetmap.org/10/220/450.png",
+      "archivo": "450.png",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://c.tile.openstreetmap.org/10/224/450.png",
+      "archivo": "450.png",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://a.tile.openstreetmap.org/10/220/449.png",
+      "archivo": "449.png",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://b.tile.openstreetmap.org/10/224/449.png",
+      "archivo": "449.png",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://c.tile.openstreetmap.org/10/220/451.png",
+      "archivo": "451.png",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://a.tile.openstreetmap.org/10/224/451.png",
+      "archivo": "451.png",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/wp-content/themes/wpresidence-child/css/css-images/single.png",
+      "archivo": "single.png",
+      "alt": "Image 20: Marker"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/",
+      "archivo": "imagen",
+      "alt": "Image 21: zh-CN"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://a.tile.openstreetmap.org/10/225/450.png",
+      "archivo": "450.png",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://c.tile.openstreetmap.org/10/225/449.png",
+      "archivo": "449.png",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://b.tile.openstreetmap.org/10/225/451.png",
+      "archivo": "451.png",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/page/2/",
+      "archivo": "2",
+      "alt": "Image 24: zh-CN"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/page/3/",
+      "archivo": "3",
+      "alt": "Image 21: zh-CN"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/wp-content/uploads/2024/08/Mesa-de-trabajo-26-8.png",
+      "archivo": "Mesa-de-trabajo-26-8.png",
+      "alt": "Image 2: company logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/wp-content/uploads/2026/08/IMG-20260818-WA0015-105x70.jpg",
+      "archivo": "IMG-20260818-WA0015-105x70.jpg",
+      "alt": "Image 24: slider-thumb"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/wp-content/uploads/2026/07/IMG-20260720-WA0091-105x70.jpg",
+      "archivo": "IMG-20260720-WA0091-105x70.jpg",
+      "alt": "Image 25: slider-thumb"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/wp-content/uploads/2026/07/IMG-20260710-WA0015-105x70.jpg",
+      "archivo": "IMG-20260710-WA0015-105x70.jpg",
+      "alt": "Image 26: slider-thumb"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-12-at-12.33.58-PM-1-105x70.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-12-at-12.33.58-PM-1-105x70.jpeg",
+      "alt": "Image 27: slider-thumb"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://c.tile.openstreetmap.org/10/222/452.png",
+      "archivo": "452.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://a.tile.openstreetmap.org/10/223/452.png",
+      "archivo": "452.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://b.tile.openstreetmap.org/10/221/452.png",
+      "archivo": "452.png",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://b.tile.openstreetmap.org/10/224/452.png",
+      "archivo": "452.png",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://a.tile.openstreetmap.org/10/220/452.png",
+      "archivo": "452.png",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://c.tile.openstreetmap.org/10/225/452.png",
+      "archivo": "452.png",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://inmobiliariatitan.com/tipos/renta/",
+      "archivo": "renta",
+      "alt": "Image 25: zh-CN"
+    }
+  ]
+}

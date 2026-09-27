@@ -1,0 +1,61 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://media.slotfile.com/CACHE/images/creator/6f772105-06a4-446f-9f63-feaecfe6e76e/estudio-184-logo-5FJEINV-192x192.webp",
+      "archivo": "estudio-184-logo-5FJEINV-192x192.webp",
+      "alt": "Image 1: Estudio 184"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://media.slotfile.com/CACHE/images/creator/6f772105-06a4-446f-9f63-feaecfe6e76e/estudio-184-image-E1mPeYo-300x200.webp",
+      "archivo": "estudio-184-image-E1mPeYo-300x200.webp",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://media.slotfile.com/CACHE/images/creator/6f772105-06a4-446f-9f63-feaecfe6e76e/estudio-184-image-E1mPeYo-960x640.webp",
+      "archivo": "estudio-184-image-E1mPeYo-960x640.webp",
+      "alt": "Image 4: Estudio 184"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://media.slotfile.com/CACHE/images/creatorimage/2a2d7bf4-84a3-4925-bfa3-5398f8b7dc6c/estudio-184-image-R0yxncW-960x640.webp",
+      "archivo": "estudio-184-image-R0yxncW-960x640.webp",
+      "alt": "Image 5: Estudio 184"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://media.slotfile.com/CACHE/images/creatorimage/0cbd2dc7-fa6f-4f86-b297-9741f5e95995/estudio-184-image-JdUEAaa-960x640.webp",
+      "archivo": "estudio-184-image-JdUEAaa-960x640.webp",
+      "alt": "Image 6: Estudio 184"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://media.slotfile.com/CACHE/images/creatorimage/28ca0b66-506c-4f08-b379-4998e4fcd9b4/estudio-184-image-ARBmtYb-960x640.webp",
+      "archivo": "estudio-184-image-ARBmtYb-960x640.webp",
+      "alt": "Image 7: Estudio 184"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://media.slotfile.com/CACHE/images/creatorimage/97e562b5-66bd-4429-9c22-5759dc4875d8/estudio-184-image-f3qeu4h-960x640.webp",
+      "archivo": "estudio-184-image-f3qeu4h-960x640.webp",
+      "alt": "Image 8: Estudio 184"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://media.slotfile.com/CACHE/images/course/57a4d341-01e0-4926-8b5e-bdd92e7a604b/tatuajes-image-gkHkTN3-450x300.webp",
+      "archivo": "tatuajes-image-gkHkTN3-450x300.webp",
+      "alt": "Image 9: Tattoos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://media.slotfile.com/CACHE/images/course/3270f69d-e473-4413-823d-c62a33f9d2cf/piercings-image-R2UNvZi-450x300.webp",
+      "archivo": "piercings-image-R2UNvZi-450x300.webp",
+      "alt": "Image 10: Piercings"
+    }
+  ]
+}

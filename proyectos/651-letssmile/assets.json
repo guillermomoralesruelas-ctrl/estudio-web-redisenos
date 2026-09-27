@@ -1,0 +1,361 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2024/03/Lets-Smile-Dentistry-Logo-Verde-Blanco.png",
+      "archivo": "Lets-Smile-Dentistry-Logo-Verde-Blanco.png",
+      "alt": "Image 1: Lets Smile Dentistry Logo Verde Blanco"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Lets-Smile-Dentistry-Team-Mexicali-Dental-Clinic-1024x683.webp",
+      "archivo": "Lets-Smile-Dentistry-Team-Mexicali-Dental-Clinic-1024x683.webp",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/11/Dental-Office-2-1024x768.jpg",
+      "archivo": "Dental-Office-2-1024x768.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/5de6544bbb3ef1f7ce5fa9dcf2fffe60",
+      "archivo": "5de6544bbb3ef1f7ce5fa9dcf2fffe60",
+      "alt": "Image 4: MX"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Tomas-Garcia-Implant-Specialist-Mexicali-1.webp",
+      "archivo": "Tomas-Garcia-Implant-Specialist-Mexicali-1.webp",
+      "alt": "Image 11: Dr. Tomás García DDS, Mexicali dentist specialized in All-on-4 and immediate full mouth restorations."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Angel-Alvarado-Root-Canal-Specialist-Mexicali-1.webp",
+      "archivo": "Angel-Alvarado-Root-Canal-Specialist-Mexicali-1.webp",
+      "alt": "Image 12: Angel Alvarado Root Canal Specialist Mexicali 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Martin-Salinas-Restorative-Dentistry-Mexicali-1.webp",
+      "archivo": "Martin-Salinas-Restorative-Dentistry-Mexicali-1.webp",
+      "alt": "Image 13: Dr. Martín Salinas, restorative dentistry and dental crown specialist in Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/05/Dra-Maria-Jose-Ochoa-Ruiz-General-Dentist-Mexicali.webp",
+      "archivo": "Dra-Maria-Jose-Ochoa-Ruiz-General-Dentist-Mexicali.webp",
+      "alt": "Image 14: Dra. María José Ochoa, general and preventive dentist at Let's Smile Dentistry in Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Daniel-Aguilar-Periodontics-Specialist-Mexicali-1.webp",
+      "archivo": "Daniel-Aguilar-Periodontics-Specialist-Mexicali-1.webp",
+      "alt": "Image 15: Dr. Daniel Aguilar, DDS, periodontist and gum health specialist in Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Rodrigo-Gonzalez-Oral-Rehabilitation-Specialist-Mexicali-1.webp",
+      "archivo": "Rodrigo-Gonzalez-Oral-Rehabilitation-Specialist-Mexicali-1.webp",
+      "alt": "Image 16: Dr. Rodrigo González, oral rehabilitation and smile design specialist in Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/3shape-Logo.png",
+      "archivo": "3shape-Logo.png",
+      "alt": "Image 17: 3shape Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/Shining-Logo.png",
+      "archivo": "Shining-Logo.png",
+      "alt": "Image 18: Shining Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/RAYFase-Logo.png",
+      "archivo": "RAYFase-Logo.png",
+      "alt": "Image 19: RAYFase Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/SprintRay-Logo.png",
+      "archivo": "SprintRay-Logo.png",
+      "alt": "Image 20: SprintRay Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/ADA-Logo.png",
+      "archivo": "ADA-Logo.png",
+      "alt": "Image 21: ADA Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/American-Academy-Logo.png",
+      "archivo": "American-Academy-Logo.png",
+      "alt": "Image 22: American Academy Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/ITI-Logo.png",
+      "archivo": "ITI-Logo.png",
+      "alt": "Image 23: ITI Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/Ilapeo-Logo.png",
+      "archivo": "Ilapeo-Logo.png",
+      "alt": "Image 24: Ilapeo Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/Full-Arch-Club-Logo.png",
+      "archivo": "Full-Arch-Club-Logo.png",
+      "alt": "Image 25: Full Arch Club Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/Straumann-Logo.png",
+      "archivo": "Straumann-Logo.png",
+      "alt": "Image 26: Straumann Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/Medit-Logo.png",
+      "archivo": "Medit-Logo.png",
+      "alt": "Image 27: Medit Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/Ivoclar-Logo.png",
+      "archivo": "Ivoclar-Logo.png",
+      "alt": "Image 28: Ivoclar Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2025/12/Neodent-Logo.png",
+      "archivo": "Neodent-Logo.png",
+      "alt": "Image 29: Neodent Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/06/ChIJ_7nbwURz14ARSWUzepxidwI.jpg",
+      "archivo": "ChIJ_7nbwURz14ARSWUzepxidwI.jpg",
+      "alt": "Image 39: Let's Smile Dentistry place picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/06/ChIJ_7nbwURz14ARSWUzepxidwI_cba9c99609ba095f9e9fce26dbdf90b7.jpg",
+      "archivo": "ChIJ_7nbwURz14ARSWUzepxidwI_cba9c99609ba095f9e9fce26dbdf90b7.jpg",
+      "alt": "Image 40: Iris Villarino profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/06/ChIJ_7nbwURz14ARSWUzepxidwI_c2eaddbe2583f5674e4dcff68c55f615.jpg",
+      "archivo": "ChIJ_7nbwURz14ARSWUzepxidwI_c2eaddbe2583f5674e4dcff68c55f615.jpg",
+      "alt": "Image 41: Adriana Rey profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/06/ChIJ_7nbwURz14ARSWUzepxidwI_2ac2b4d4273b1fa7abf65f997689aa9b.jpg",
+      "archivo": "ChIJ_7nbwURz14ARSWUzepxidwI_2ac2b4d4273b1fa7abf65f997689aa9b.jpg",
+      "alt": "Image 42: Wu Jingrou profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/06/ChIJ_7nbwURz14ARSWUzepxidwI_351bba65a7ef7c3aaaa3c4d48bc332f9.jpg",
+      "archivo": "ChIJ_7nbwURz14ARSWUzepxidwI_351bba65a7ef7c3aaaa3c4d48bc332f9.jpg",
+      "alt": "Image 43: Irene Villa profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/06/ChIJ_7nbwURz14ARSWUzepxidwI_30588cf921c8b21a5fe5dcb15b5428a8.jpg",
+      "archivo": "ChIJ_7nbwURz14ARSWUzepxidwI_30588cf921c8b21a5fe5dcb15b5428a8.jpg",
+      "alt": "Image 44: john clement profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/06/ChIJ_7nbwURz14ARSWUzepxidwI_c386e402b4b6d8622cb6a42248a5b077.jpg",
+      "archivo": "ChIJ_7nbwURz14ARSWUzepxidwI_c386e402b4b6d8622cb6a42248a5b077.jpg",
+      "alt": "Image 45: Damon Baggs profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/06/ChIJ_7nbwURz14ARSWUzepxidwI_15536f74039f3766d5eb83810195405e.jpg",
+      "archivo": "ChIJ_7nbwURz14ARSWUzepxidwI_15536f74039f3766d5eb83810195405e.jpg",
+      "alt": "Image 46: Michelle voor den Dag profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/06/ChIJ_7nbwURz14ARSWUzepxidwI_1d84c29ac576f7b76b057460a00e2883.jpg",
+      "archivo": "ChIJ_7nbwURz14ARSWUzepxidwI_1d84c29ac576f7b76b057460a00e2883.jpg",
+      "alt": "Image 47: Maciel Garcia Fuentes profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Lets-Smile-Dentistry-Founders-1.webp",
+      "archivo": "Lets-Smile-Dentistry-Founders-1.webp",
+      "alt": "Image 11: Dr. Tomás García and Andrea Moreno, founders of Let's Smile Dentistry clinic in Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Tomas-Garcia-Lets-Smile-Dentistry-Founder-1-819x1024.webp",
+      "archivo": "Tomas-Garcia-Lets-Smile-Dentistry-Founder-1-819x1024.webp",
+      "alt": "Image 12: Dr. Tomás García, DDS, experienced oral implantologist and dental implant specialist in Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/DDS-Angel-Alvarado-Root-Canal-Specialist-Mexicali-1-819x1024.webp",
+      "archivo": "DDS-Angel-Alvarado-Root-Canal-Specialist-Mexicali-1-819x1024.webp",
+      "alt": "Image 13: Dr. Ángel Alvarado, DDS, endodontist and root canal specialist at Let's Smile Dentistry Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Martin-Salinas-Restorative-Dentistry-Mexicali-1-819x1024.webp",
+      "archivo": "Martin-Salinas-Restorative-Dentistry-Mexicali-1-819x1024.webp",
+      "alt": "Image 14: Dr. Martín Salinas, restorative dentistry and dental crown specialist in Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Jose-Preciado-Restorative-Dentistry-Mexicali-1.webp",
+      "archivo": "Jose-Preciado-Restorative-Dentistry-Mexicali-1.webp",
+      "alt": "Image 15: Jose Preciado Restorative Dentistry Mexicali 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Daniel-Aguilar-Periodontics-Specialist-Mexicali-1-819x1024.webp",
+      "archivo": "Daniel-Aguilar-Periodontics-Specialist-Mexicali-1-819x1024.webp",
+      "alt": "Image 17: Dr. Daniel Aguilar, DDS, periodontist and gum health specialist in Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Andrea-Moreno-Patient-Coordinator-Mexicali-Dental-Tourism.webp",
+      "archivo": "Andrea-Moreno-Patient-Coordinator-Mexicali-Dental-Tourism.webp",
+      "alt": "Image 19: Andrea Moreno, patient coordinator helping international patients with dental tourism in Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/05/Adriana-Rey-General-Manageer-Mexicali-819x1024.webp",
+      "archivo": "Adriana-Rey-General-Manageer-Mexicali-819x1024.webp",
+      "alt": "Image 20: Adriana Rey General Manageer Mexicali"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/05/Fer-Acosta-Patient-Experience-Manager-Mexicali-819x1024.webp",
+      "archivo": "Fer-Acosta-Patient-Experience-Manager-Mexicali-819x1024.webp",
+      "alt": "Image 21: Fer Acosta Patient Experience Manager Mexicali"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/05/Danly-Receptionist-Lets-Smile-Mexicali-819x1024.webp",
+      "archivo": "Danly-Receptionist-Lets-Smile-Mexicali-819x1024.webp",
+      "alt": "Image 22: Danly Receptionist Lets Smile Mexicali"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Lets-Smile-Dentistry-Team-Mexicali-Dental-Clinic-1.webp",
+      "archivo": "Lets-Smile-Dentistry-Team-Mexicali-Dental-Clinic-1.webp",
+      "alt": "Image 23: Lets Smile Dentistry Team Mexicali Dental Clinic 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/lets-smile-dentistry-patient-care-operatory-mexicali.webp",
+      "archivo": "lets-smile-dentistry-patient-care-operatory-mexicali.webp",
+      "alt": "Image 11: A Let’s Smile Dentistry team member welcoming a patient in a treatment room"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/lets-smile-dentistry-reception-mexicali.webp",
+      "archivo": "lets-smile-dentistry-reception-mexicali.webp",
+      "alt": "Image 12: Let’s Smile Dentistry reception area in Mexicali"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/lets-smile-dentistry-cbct-imaging-room-mexicali.webp",
+      "archivo": "lets-smile-dentistry-cbct-imaging-room-mexicali.webp",
+      "alt": "Image 13: RAYPreMiere CBCT imaging equipment at Let’s Smile Dentistry"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/lets-smile-dentistry-treatment-rooms-mexicali.webp",
+      "archivo": "lets-smile-dentistry-treatment-rooms-mexicali.webp",
+      "alt": "Image 14: Modern dental treatment rooms at Let’s Smile Dentistry in Mexicali"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/lets-smile-dentistry-rayface-digital-imaging-mexicali.webp",
+      "archivo": "lets-smile-dentistry-rayface-digital-imaging-mexicali.webp",
+      "alt": "Image 15: RAYFace facial scanning workstation at Let’s Smile Dentistry"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/lets-smile-dentistry-kids-dental-operatory-mexicali.webp",
+      "archivo": "lets-smile-dentistry-kids-dental-operatory-mexicali.webp",
+      "alt": "Image 16: Child-friendly pediatric dental room at Let’s Smile Dentistry"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/lets-smile-dentistry-raypremiere-cbct-5d-planning-mexicali.webp",
+      "archivo": "lets-smile-dentistry-raypremiere-cbct-5d-planning-mexicali.webp",
+      "alt": "Image 17: RAYPreMiere CBCT imaging equipment at Let’s Smile Dentistry"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/lets-smile-dentistry-intraoral-scanning-mexicali.webp",
+      "archivo": "lets-smile-dentistry-intraoral-scanning-mexicali.webp",
+      "alt": "Image 18: Dentist reviewing an intraoral scan with a patient at Let’s Smile Dentistry"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/lets-smile-dentistry-ceramill-cad-cam-milling-mexicali.webp",
+      "archivo": "lets-smile-dentistry-ceramill-cad-cam-milling-mexicali.webp",
+      "alt": "Image 20: Ceramill milling equipment used in a CAD CAM dental workflow"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/euronda-e10-class-b-autoclave-sterilization-lets-smile-dentistry-mexicali.webp",
+      "archivo": "euronda-e10-class-b-autoclave-sterilization-lets-smile-dentistry-mexicali.webp",
+      "alt": "Image 21: Euronda E10 Class B autoclave used for instrument sterilization"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/durr-tornado-oil-free-medical-air-compressor-lets-smile-dentistry-mexicali.webp",
+      "archivo": "durr-tornado-oil-free-medical-air-compressor-lets-smile-dentistry-mexicali.webp",
+      "alt": "Image 22: Dürr Dental Tornado compressor for oil-free medical-grade air"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/08/durr-tyscor-hygienic-anti-retraction-suction-lets-smile-dentistry-mexicali.webp",
+      "archivo": "durr-tyscor-hygienic-anti-retraction-suction-lets-smile-dentistry-mexicali.webp",
+      "alt": "Image 23: Dürr Dental Tyscor hygienic suction system with anti-retraction protection"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/05/Lets-Smile-Dental-Team-Mexicali-scaled.webp",
+      "archivo": "Lets-Smile-Dental-Team-Mexicali-scaled.webp",
+      "alt": "Image 24: The Let’s Smile Dentistry clinical and patient experience team in Mexicali"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Tomas-Garcia-Lets-Smile-Dentistry-Founder-1.webp",
+      "archivo": "Tomas-Garcia-Lets-Smile-Dentistry-Founder-1.webp",
+      "alt": "Image 11: Dr. Tomás García, DDS, experienced oral implantologist and dental implant specialist in Mexicali."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Tomas-Garcia-Implant-Specialist-Mexicali-1-819x1024.webp",
+      "archivo": "Tomas-Garcia-Implant-Specialist-Mexicali-1-819x1024.webp",
+      "alt": "Image 12: Dr. Tomás García DDS, Mexicali dentist specialized in All-on-4 and immediate full mouth restorations."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://letssmiledentistry.com/wp-content/uploads/2026/01/Lets-Smile-Dentistry-Founders.webp",
+      "archivo": "Lets-Smile-Dentistry-Founders.webp",
+      "alt": "Image 13: Lets Smile Dentistry Founders"
+    }
+  ]
+}

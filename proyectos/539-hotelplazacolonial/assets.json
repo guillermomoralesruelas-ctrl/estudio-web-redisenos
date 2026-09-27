@@ -1,0 +1,97 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2016/08/logo-maint.png",
+      "archivo": "logo-maint.png",
+      "alt": "Image 1: logo-maint"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2026/04/HotelPlazaColonial109-85x85.jpg",
+      "archivo": "HotelPlazaColonial109-85x85.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2026/04/HotelPlazaColonial185-85x85.jpg",
+      "archivo": "HotelPlazaColonial185-85x85.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2017/11/eflwou-85x85.jpg",
+      "archivo": "eflwou-85x85.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2026/04/HotelPlazaColonial203.jpg",
+      "archivo": "HotelPlazaColonial203.jpg",
+      "alt": "Image 8: HotelPlazaColonial203"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2026/04/HotelPlazaColonial126.jpg",
+      "archivo": "HotelPlazaColonial126.jpg",
+      "alt": "Image 9: HotelPlazaColonial126"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2026/04/HotelPlazaColonial206.jpg",
+      "archivo": "HotelPlazaColonial206.jpg",
+      "alt": "Image 10: HotelPlazaColonial206"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2026/04/HotelPlazaColonial20.jpg",
+      "archivo": "HotelPlazaColonial20.jpg",
+      "alt": "Image 11: HotelPlazaColonial20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2018/02/hotel-libre-humo-horiz.png",
+      "archivo": "hotel-libre-humo-horiz.png",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2016/08/slide2.jpg",
+      "archivo": "slide2.jpg",
+      "alt": "Image 4: slide2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2018/02/smoke-free-room-horiz.png",
+      "archivo": "smoke-free-room-horiz.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2016/08/jr-suite.jpg",
+      "archivo": "jr-suite.jpg",
+      "alt": "Image 6: jr-suite"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2018/02/habitacion-libre-humo-horiz.png",
+      "archivo": "habitacion-libre-humo-horiz.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2025/11/ALBERCA2-300x300.jpg",
+      "archivo": "ALBERCA2-300x300.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.hotelplazacolonial.com/wp-content/uploads/2017/02/estacionamiento_colonial-300x185.jpg",
+      "archivo": "estacionamiento_colonial-300x185.jpg",
+      "alt": "Image 5"
+    }
+  ]
+}

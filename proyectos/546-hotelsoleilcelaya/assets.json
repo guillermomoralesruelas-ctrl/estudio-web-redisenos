@@ -1,0 +1,211 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/otros/espanol.png",
+      "archivo": "espanol.png",
+      "alt": "Image 1: language"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/otros/english.png",
+      "archivo": "english.png",
+      "alt": "Image 2: language"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/logo4.png",
+      "archivo": "logo4.png",
+      "alt": "Image 3: Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/img/shape.png",
+      "archivo": "shape.png",
+      "alt": "Image 4: Shape"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/ejecutiva.jpg",
+      "archivo": "ejecutiva.jpg",
+      "alt": "Image 5: Room Images"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/jr.jpg",
+      "archivo": "jr.jpg",
+      "alt": "Image 6: Room Images"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/master.jpg",
+      "archivo": "master.jpg",
+      "alt": "Image 7: Room Images"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/logo.png",
+      "archivo": "logo.png",
+      "alt": "Image 8: Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/redes/fb.png",
+      "archivo": "fb.png",
+      "alt": "Image 9: Facebook"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/redes/tw.png",
+      "archivo": "tw.png",
+      "alt": "Image 10: Twitter"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/slider/001.jpg",
+      "archivo": "001.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/slider/002.jpg",
+      "archivo": "002.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/slider/005.jpg",
+      "archivo": "005.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/ejecutiva/001.jpg",
+      "archivo": "001.jpg",
+      "alt": "Image 4: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/ejecutiva/002.jpg",
+      "archivo": "002.jpg",
+      "alt": "Image 5: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/ejecutiva/003.jpg",
+      "archivo": "003.jpg",
+      "alt": "Image 6: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/ejecutiva/004.jpg",
+      "archivo": "004.jpg",
+      "alt": "Image 7: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/ejecutiva/005.jpg",
+      "archivo": "005.jpg",
+      "alt": "Image 8: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/ejecutiva/006.jpg",
+      "archivo": "006.jpg",
+      "alt": "Image 9: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/jr/001.jpg",
+      "archivo": "001.jpg",
+      "alt": "Image 4: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/jr/003.jpg",
+      "archivo": "003.jpg",
+      "alt": "Image 5: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/jr/004.jpg",
+      "archivo": "004.jpg",
+      "alt": "Image 6: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/jr/005.jpg",
+      "archivo": "005.jpg",
+      "alt": "Image 7: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/jr/006.jpg",
+      "archivo": "006.jpg",
+      "alt": "Image 8: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/jr/007.jpg",
+      "archivo": "007.jpg",
+      "alt": "Image 9: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/jr/008.jpg",
+      "archivo": "008.jpg",
+      "alt": "Image 10: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/master/001.jpg",
+      "archivo": "001.jpg",
+      "alt": "Image 4: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/master/002.jpg",
+      "archivo": "002.jpg",
+      "alt": "Image 5: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/master/003.jpg",
+      "archivo": "003.jpg",
+      "alt": "Image 6: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/master/004.jpg",
+      "archivo": "004.jpg",
+      "alt": "Image 7: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/master/005.jpg",
+      "archivo": "005.jpg",
+      "alt": "Image 8: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/master/006.jpg",
+      "archivo": "006.jpg",
+      "alt": "Image 9: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/master/007.jpg",
+      "archivo": "007.jpg",
+      "alt": "Image 10: Slider 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.soleilcelaya.com.mx/imagenes/habitaciones/master/008.jpg",
+      "archivo": "008.jpg",
+      "alt": "Image 11: Slider 1"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "sitio": "https://xperienceixtapa.com/",
+  "fecha": "2026-09-26T07:53:13.211Z",
+  "motor": "jina-reader",
+  "slug": "gabyboatpesca",
+  "nombre": "Gaby Boat – Pesca Chica y Snorkel – Xperience Ixtapa",
+  "rubro": "TURISMO",
+  "ciudad": "Zihuatanejo, Guerrero",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://xperienceixtapa.com/",
+      "titulo": "Xperience Ixtapa &#8211; DMC Services"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 755 100 5705\n\n8",
+      "180103264",
+      "21-019-360",
+      "768-1-360"
+    ],
+    "emails": [],
+    "whatsapp": [],
+    "redes": [
+      "https://www.facebook.com/xperienceixtapaadventures/",
+      "https://www.instagram.com/xperienceixtapa/",
+      "https://www.youtube.com/channel/UCqqGqGm2OofKO_kUhWbwTnw",
+      "https://www.youtube.com/watch?v=_vI9Gx3aIes",
+      "https://instagram.com/xperienceixtapa/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "http://xperienceixtapa.com/wp-content/uploads/2026/07/Xperience-Ixtapa-DMC-Services-1.png",
+      "alt": "Image 1: Xperience Ixtapa"
+    },
+    {
+      "src": "blob:http://localhost/df4aeccfd632b0cd9176a7c8dc6ca277",
+      "alt": "Image 3: Español"
+    },
+    {
+      "src": "https://xperienceixtapa.com/wp-content/uploads/2026/05/pesca-360x240.jpeg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://xperienceixtapa.com/wp-content/uploads/2026/05/IMG_20251223_180103264_HDR_AE-scaled-360x240.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://xperienceixtapa.com/wp-content/uploads/2026/05/Bloody-Hook-125-360x240.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://xperienceixtapa.com/wp-content/uploads/2026/05/hiace-300x140.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://xperienceixtapa.com/wp-content/uploads/2026/05/color-white-300x135.png",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://xperienceixtapa.com/wp-content/uploads/2023/01/F-C85-C21-019-360x240.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://xperienceixtapa.com/wp-content/uploads/2021/12/Waterfall-Hiking-27-1024x768-1-360x240.jpg",
+      "alt": "Image 10"
+    }
+  ]
+}

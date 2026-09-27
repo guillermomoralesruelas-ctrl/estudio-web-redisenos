@@ -1,0 +1,241 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/preloader.gif",
+      "archivo": "preloader.gif",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/logoalas4.jpg",
+      "archivo": "logoalas4.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.google.com/images/cleardot.gif",
+      "archivo": "cleardot.gif",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/sliderimages/maja1slide.jpg",
+      "archivo": "maja1slide.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/sliderimages/maja2slide.jpg",
+      "archivo": "maja2slide.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/logoavlm2.jpg",
+      "archivo": "logoavlm2.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/vuelo-en-parapente-valle-de-bravo-070126.jpg",
+      "archivo": "vuelo-en-parapente-valle-de-bravo-070126.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/vuela-el-penon-temascaltepec-180822.jpg",
+      "archivo": "vuela-el-penon-temascaltepec-180822.jpg",
+      "alt": "Image 11: Vuela El Peñon Temascaltepec en Parapente"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/enamorados070722.jpg",
+      "archivo": "enamorados070722.jpg",
+      "alt": "Image 12: Enamorados"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/vueloterapiamedit070722.jpg",
+      "archivo": "vueloterapiamedit070722.jpg",
+      "alt": "Image 13: Vuelo Terapia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/puebleando2.jpg",
+      "archivo": "puebleando2.jpg",
+      "alt": "Image 14: Volando y Puebleando"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/anillo070722.jpg",
+      "archivo": "anillo070722.jpg",
+      "alt": "Image 15: Anillo de Compromiso"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/tourdeundia070722.jpg",
+      "archivo": "tourdeundia070722.jpg",
+      "alt": "Image 16: cascada"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/dos-dias-vuelo-en-parapente-home070126.jpg",
+      "archivo": "dos-dias-vuelo-en-parapente-home070126.jpg",
+      "alt": "Image 17: DosDiasUnaNoche"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/vueloterapia070722.jpg",
+      "archivo": "vueloterapia070722.jpg",
+      "alt": "Image 18: RelajacionenPareja"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/alas-del-hombre-certificado-safe-travelsb.jpg",
+      "archivo": "alas-del-hombre-certificado-safe-travelsb.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/quote.png",
+      "archivo": "quote.png",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/person2.jpg",
+      "archivo": "person2.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/person3.jpg",
+      "archivo": "person3.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/person4.jpg",
+      "archivo": "person4.jpg",
+      "alt": "Image 25"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/person1.jpg",
+      "archivo": "person1.jpg",
+      "alt": "Image 27"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/client-maja2.png",
+      "archivo": "client-maja2.png",
+      "alt": "Image 40"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/client-nayaritturb.png",
+      "archivo": "client-nayaritturb.png",
+      "alt": "Image 41"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/client-jalisco.png",
+      "archivo": "client-jalisco.png",
+      "alt": "Image 42"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/client-jalisco2.png",
+      "archivo": "client-jalisco2.png",
+      "alt": "Image 43"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/x-alast.png",
+      "archivo": "x-alast.png",
+      "alt": "Image 44"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/vuelo-en-parapente-valle-de-bravo-maja2.jpg",
+      "archivo": "vuelo-en-parapente-valle-de-bravo-maja2.jpg",
+      "alt": "Image 7: vuelo en parapente en valle de bravo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/vuelo-en-parapente-valle-de-bravo-maja1.jpg",
+      "archivo": "vuelo-en-parapente-valle-de-bravo-maja1.jpg",
+      "alt": "Image 8: vuelo en parapente en valle de bravo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/vuelo-en-parapente-valle-de-bravo02.jpg",
+      "archivo": "vuelo-en-parapente-valle-de-bravo02.jpg",
+      "alt": "Image 9: vuelo en parapente en valle de bravo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/alas-reserva-vuelo-en-parapente.png",
+      "archivo": "alas-reserva-vuelo-en-parapente.png",
+      "alt": "Image 11: Paypal"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/paypalbutton.png",
+      "archivo": "paypalbutton.png",
+      "alt": "Image 12: Paypal"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.paypalobjects.com/es_XC/i/scr/pixel.gif",
+      "archivo": "pixel.gif",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/mencion-sectur-vuelo-en-parapente3.jpg",
+      "archivo": "mencion-sectur-vuelo-en-parapente3.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/cena-romantica-valle-de-bravo.jpg",
+      "archivo": "cena-romantica-valle-de-bravo.jpg",
+      "alt": "Image 7: vuelo en parapente en valle de bravo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/hotel-mision-valle-de-bravo-02.jpg",
+      "archivo": "hotel-mision-valle-de-bravo-02.jpg",
+      "alt": "Image 9: vuelo en parapente en valle de bravo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/banner-hoteles-mision3.jpg",
+      "archivo": "banner-hoteles-mision3.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/masaje-relajacion-valle-de-bravo.jpg",
+      "archivo": "masaje-relajacion-valle-de-bravo.jpg",
+      "alt": "Image 7: vuelo en parapente en valle de bravo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/valle-de-bravo-stupa.jpg",
+      "archivo": "valle-de-bravo-stupa.jpg",
+      "alt": "Image 9: vuelo en parapente en valle de bravo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://alas.com.mx/assets/images/hotel-mision-01.jpg",
+      "archivo": "hotel-mision-01.jpg",
+      "alt": "Image 10: vuelo en parapente en valle de bravo"
+    }
+  ]
+}

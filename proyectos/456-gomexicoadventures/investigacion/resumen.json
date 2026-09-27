@@ -1,0 +1,23 @@
+{
+  "sitio": "https://gomexicoadventures.com/",
+  "fecha": "2026-09-26T08:01:30.594Z",
+  "motor": "jina-reader",
+  "slug": "gomexicoadventures",
+  "nombre": "Go México Adventures",
+  "rubro": "TURISMO",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://gomexicoadventures.com/",
+      "titulo": ""
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": [],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": []
+}

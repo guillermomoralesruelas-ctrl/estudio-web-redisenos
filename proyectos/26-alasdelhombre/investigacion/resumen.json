@@ -1,0 +1,215 @@
+{
+  "sitio": "https://alas.com.mx/",
+  "fecha": "2026-09-26T04:45:33.118Z",
+  "motor": "jina-reader",
+  "slug": "alasdelhombre",
+  "nombre": "Alas del Hombre",
+  "rubro": "TURISMO",
+  "ciudad": "Valle de Bravo, Estado de México",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://alas.com.mx/",
+      "titulo": "Vuelo en Parapente en Valle de Bravo - Escuela de Vuelo en Parapente - Paragliding Mexico Temascaltepec"
+    },
+    {
+      "url": "https://alas.com.mx/vuelo-en-parapente-en-valle-de-bravo.php",
+      "titulo": "Vuelo en Parapente en Valle De Bravo"
+    },
+    {
+      "url": "https://alas.com.mx/paragliding-valle-de-bravo-mexico.php",
+      "titulo": "Paragliding Valle De Bravo Mexico"
+    },
+    {
+      "url": "https://alas.com.mx/paquetes-de-aventura-enamorados.php",
+      "titulo": "Paquete de Aventura Enamorados en Valle de Bravo"
+    },
+    {
+      "url": "https://alas.com.mx/paquetes-de-aventura-vuelo-terapia.php",
+      "titulo": "Paquete de Aventura Vuelo Terapia en Valle de Bravo"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 726 262 6382",
+      "230543845",
+      "+5217222541403",
+      "32151100001",
+      "726 262 6382",
+      "7262626382",
+      "722 254 1403",
+      "726) 262 6382",
+      "722) 254 1403"
+    ],
+    "emails": [
+      "reservaciones@alas.com.mx"
+    ],
+    "whatsapp": [
+      "whatsapp.com/send?phone=+5217222541403&text=Hola)"
+    ],
+    "redes": [
+      "https://www.facebook.com/alas.del.hombre/",
+      "https://twitter.com/alasdelhombre",
+      "https://www.instagram.com/alasdelhombre/",
+      "https://www.youtube.com/user/alasdelhombre1976?feature=results_main"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://alas.com.mx/assets/images/preloader.gif",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/logoalas4.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.google.com/images/cleardot.gif",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://alas.com.mx/sliderimages/maja1slide.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://alas.com.mx/sliderimages/maja2slide.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/logoavlm2.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://alas.com.mx/assets/vuelo-en-parapente-valle-de-bravo-070126.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/vuela-el-penon-temascaltepec-180822.jpg",
+      "alt": "Image 11: Vuela El Peñon Temascaltepec en Parapente"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/enamorados070722.jpg",
+      "alt": "Image 12: Enamorados"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/vueloterapiamedit070722.jpg",
+      "alt": "Image 13: Vuelo Terapia"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/puebleando2.jpg",
+      "alt": "Image 14: Volando y Puebleando"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/anillo070722.jpg",
+      "alt": "Image 15: Anillo de Compromiso"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/tourdeundia070722.jpg",
+      "alt": "Image 16: cascada"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/dos-dias-vuelo-en-parapente-home070126.jpg",
+      "alt": "Image 17: DosDiasUnaNoche"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/vueloterapia070722.jpg",
+      "alt": "Image 18: RelajacionenPareja"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/alas-del-hombre-certificado-safe-travelsb.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/quote.png",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/person2.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/person3.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/person4.jpg",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/person1.jpg",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/client-maja2.png",
+      "alt": "Image 40"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/client-nayaritturb.png",
+      "alt": "Image 41"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/client-jalisco.png",
+      "alt": "Image 42"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/client-jalisco2.png",
+      "alt": "Image 43"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/x-alast.png",
+      "alt": "Image 44"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/vuelo-en-parapente-valle-de-bravo-maja2.jpg",
+      "alt": "Image 7: vuelo en parapente en valle de bravo"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/vuelo-en-parapente-valle-de-bravo-maja1.jpg",
+      "alt": "Image 8: vuelo en parapente en valle de bravo"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/vuelo-en-parapente-valle-de-bravo02.jpg",
+      "alt": "Image 9: vuelo en parapente en valle de bravo"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/alas-reserva-vuelo-en-parapente.png",
+      "alt": "Image 11: Paypal"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/paypalbutton.png",
+      "alt": "Image 12: Paypal"
+    },
+    {
+      "src": "https://www.paypalobjects.com/es_XC/i/scr/pixel.gif",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/mencion-sectur-vuelo-en-parapente3.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/cena-romantica-valle-de-bravo.jpg",
+      "alt": "Image 7: vuelo en parapente en valle de bravo"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/hotel-mision-valle-de-bravo-02.jpg",
+      "alt": "Image 9: vuelo en parapente en valle de bravo"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/banner-hoteles-mision3.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/masaje-relajacion-valle-de-bravo.jpg",
+      "alt": "Image 7: vuelo en parapente en valle de bravo"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/valle-de-bravo-stupa.jpg",
+      "alt": "Image 9: vuelo en parapente en valle de bravo"
+    },
+    {
+      "src": "https://alas.com.mx/assets/images/hotel-mision-01.jpg",
+      "alt": "Image 10: vuelo en parapente en valle de bravo"
+    }
+  ]
+}

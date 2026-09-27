@@ -1,0 +1,91 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/logo1m.webp",
+      "archivo": "logo1m.webp",
+      "alt": "Image 1: Katarsis Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/banner1.jpeg",
+      "archivo": "banner1.jpeg",
+      "alt": "Image 2: No estas solo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/banner2.jpg",
+      "archivo": "banner2.jpg",
+      "alt": "Image 3: Soledad"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/skype-logo.png",
+      "archivo": "skype-logo.png",
+      "alt": "Image 4: Skype"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/facetime.png",
+      "archivo": "facetime.png",
+      "alt": "Image 5: Facetime"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/phone.png",
+      "archivo": "phone.png",
+      "alt": "Image 6: Phone"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/gmail.webp",
+      "archivo": "gmail.webp",
+      "alt": "Image 7: Gmail"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/whatsapp.png",
+      "archivo": "whatsapp.png",
+      "alt": "Image 8: WhatsApp"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/messenger.png",
+      "archivo": "messenger.png",
+      "alt": "Image 9: Messenger"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/blur.png",
+      "archivo": "blur.png",
+      "alt": "Image 10: WhatsApp"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/icon_messenger.png",
+      "archivo": "icon_messenger.png",
+      "alt": "Image 27: FB Icon"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/servicios_katarsis_3.png",
+      "archivo": "servicios_katarsis_3.png",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/esquema_katarsis_4.png",
+      "archivo": "esquema_katarsis_4.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.katarsis.mx/terapias_katarsis_6.png",
+      "archivo": "terapias_katarsis_6.png",
+      "alt": "Image 4"
+    }
+  ]
+}
