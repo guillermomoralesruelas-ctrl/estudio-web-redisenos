@@ -1,0 +1,150 @@
+@import "tailwindcss";
+@import "@fontsource-variable/plus-jakarta-sans/wght.css";
+@import "@fontsource-variable/inter";
+
+/* ===== TOKENS ilimago — agencia premium, fondo oscuro, acento azul eléctrico ===== */
+@theme {
+  --color-fondo: #0a0a14;
+  --color-fondo2: #11111f;
+  --color-fondo3: #181830;
+  --color-tinta: #e8e8f0;
+  --color-tinta2: #a0a0c0;
+  --color-acento: #3d6bff;
+  --color-acento2: #6b8fff;
+  --color-blanco: #ffffff;
+  --font-sans: "Plus Jakarta Sans Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Plus Jakarta Sans Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
+  }
+  body {
+    @apply bg-fondo text-tinta font-sans antialiased;
+    padding-bottom: 4rem; /* espacio para la barra móvil */
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-titulo);
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-acento);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .contenedor {
+    @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8;
+  }
+
+  /* ===== BOTONES ===== */
+  .btn-primario {
+    @apply inline-flex items-center gap-2 rounded-full bg-acento px-6 py-3 text-sm font-semibold text-blanco transition-all;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .btn-primario {
+      @apply hover:bg-acento2 hover:scale-105;
+      transition: background-color 0.2s, transform 0.2s;
+    }
+  }
+  .btn-secundario {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-tinta transition-all;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .btn-secundario {
+      @apply hover:border-acento hover:text-blanco;
+      transition: border-color 0.2s, color 0.2s;
+    }
+  }
+
+  /* ===== TARJETA BASE ===== */
+  .card {
+    @apply rounded-2xl bg-fondo2 border border-white/8 overflow-hidden;
+  }
+
+  /* ===== BADGE PLAN RECOMENDADO ===== */
+  .badge-rec {
+    @apply inline-block rounded-full bg-acento px-3 py-0.5 text-xs font-bold uppercase tracking-wider text-blanco;
+  }
+
+  /* ===== ANIMACIONES ===== */
+  @media (prefers-reduced-motion: no-preference) {
+    .fade-up {
+      animation: fadeUp 0.6s ease both;
+    }
+    .fade-in {
+      animation: fadeIn 0.5s ease both;
+    }
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  /* ===== CALCULADORA DE INVERSIÓN ===== */
+  .plan-selector {
+    @apply cursor-pointer rounded-xl border-2 border-white/10 bg-fondo2 p-4 text-left transition-all;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .plan-selector {
+      transition: border-color 0.2s, background-color 0.2s, transform 0.15s;
+    }
+    .plan-selector:hover {
+      border-color: var(--color-acento2);
+    }
+  }
+  .plan-selector.activo {
+    @apply border-acento bg-fondo3;
+  }
+
+  /* ===== BARRA BOTTOM MÓVIL ===== */
+  .barra-movil {
+    @apply fixed bottom-0 left-0 right-0 z-50 flex h-16 items-center justify-around border-t border-white/10 bg-fondo2/95 backdrop-blur-sm;
+  }
+  .barra-movil a {
+    @apply flex flex-col items-center gap-0.5 text-tinta2 transition-colors;
+    font-size: 0.65rem;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .barra-movil a {
+      transition: color 0.2s;
+    }
+  }
+  .barra-movil a:hover,
+  .barra-movil a:focus-visible {
+    color: var(--color-acento2);
+  }
+
+  /* ===== CLIENTES TICKER ===== */
+  @media (prefers-reduced-motion: no-preference) {
+    .ticker-track {
+      animation: ticker 40s linear infinite;
+    }
+    .ticker-track:hover {
+      animation-play-state: paused;
+    }
+    @keyframes ticker {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+  }
+}
