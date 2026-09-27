@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Archivo (títulos, sans pesada como el "REMAX" de su logo) e Inter (texto). @fontsource, solo el subconjunto latino. */
+@font-face { font-family: "Archivo"; src: url("../node_modules/@fontsource/archivo/files/archivo-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Archivo"; src: url("../node_modules/@fontsource/archivo/files/archivo-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2") format("woff2-variations"); font-weight: 100 900; font-style: normal; font-display: swap; }
+
+/* Tokens: el azul marino y el rojo del logo de RE/MAX Espacios Hábitat, y los tonos de tierra de sus fotos aéreas de
+   terrenos en Hermosillo. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-marino: #0b1f5c;
+  --color-rojo: #c8102e;
+  --color-rojo-hondo: #9c0c23;
+  --color-arena: #f5f0e6;
+  --color-tierra: #e8dcc4;
+  --color-tierra-honda: #7a5a2e;
+  --color-cielo: #dfe7f3;
+  --color-texto: #3b4152;
+  --font-sans: "Inter", "Segoe UI", sans-serif;
+  --font-titulo: "Archivo", "Arial", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-titulo text-marino; font-weight: 800; line-height: 1.05; letter-spacing: -0.015em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .noche h1, .noche h2, .noche h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-rojo); outline-offset: 3px; border-radius: 3px; }
+  .noche :focus-visible { outline-color: #fff; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-[0.98rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-rojo text-white hover:bg-rojo-hondo; }
+  .btn-linea { @apply border-2 border-marino/25 text-marino hover:border-marino; }
+  .btn-claro { @apply border-2 border-white/50 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-semibold text-rojo-hondo underline decoration-2 underline-offset-4 hover:text-marino; }
+  .noche .enlace { @apply text-white hover:text-cielo; }
+}
+
+/* El plano: el lote elegido "se asienta" al cambiar (quieto con prefers-reduced-motion). */
+.lote { transition: fill-opacity 0.25s ease, stroke-opacity 0.25s ease; }
+.asienta { animation: asienta 0.35s ease-out; transform-box: fill-box; transform-origin: 0% 100%; }
+@keyframes asienta { from { opacity: 0.3; transform: scale(0.94); } to { opacity: 1; transform: none; } }
