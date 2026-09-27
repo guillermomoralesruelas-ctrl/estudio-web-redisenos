@@ -1,0 +1,130 @@
+{
+  "fecha": "2026-09-27T18:07:47.536Z",
+  "carpeta": "308-desertikaspa",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 800,
+      "desbordeX": 0,
+      "h1": 4,
+      "imagenes": 51,
+      "rotas": [
+        "http://127.0.0.1:58380/web/image/website/3/logo/Desertika%20Spa?unique=408a3b8"
+      ],
+      "sinAlt": 0,
+      "titulo": "Desertika Spa | Spa en Pareja, Masajes Relajantes y Wellness en CDMX",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:58380/308-desertikaspa/sitio/assets/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2.7.0",
+        "404 http://127.0.0.1:58380/web/assets/3/79f770e/web.assets_frontend_minimal.min.js",
+        "404 http://127.0.0.1:58380/web/image/42728-56cf9fe7/Desertika_Header_1.webp",
+        "404 http://127.0.0.1:58380/web/image/39067-a1d4d278/Desertika_TestimonioFondo.jpg",
+        "404 http://127.0.0.1:58380/web/image/website/3/logo/Desertika%20Spa?unique=408a3b8",
+        "404 http://127.0.0.1:58380/web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2",
+        "404 http://127.0.0.1:58380/RUTA_REAL/Butler.woff2",
+        "404 http://127.0.0.1:58380/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+        "404 http://127.0.0.1:58380/_custom/web.assets_frontend/website/static/src/fonts/icomoon.ttf?oi35g2",
+        "404 http://127.0.0.1:58380/web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff",
+        "404 http://127.0.0.1:58380/RUTA_REAL/Butler.woff",
+        "404 http://127.0.0.1:58380/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff?v=4.7.0",
+        "404 http://127.0.0.1:58380/_custom/web.assets_frontend/website/static/src/fonts/icomoon.woff?oi35g2",
+        "404 http://127.0.0.1:58380/RUTA_REAL/Butler.ttf",
+        "404 http://127.0.0.1:58380/web/image/website/3/favicon?unique=408a3b8"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 844,
+      "desbordeX": 0,
+      "h1": 4,
+      "imagenes": 51,
+      "rotas": [
+        "http://127.0.0.1:58380/web/image/website/3/logo/Desertika%20Spa?unique=408a3b8"
+      ],
+      "sinAlt": 0,
+      "titulo": "Desertika Spa | Spa en Pareja, Masajes Relajantes y Wellness en CDMX",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:58380/308-desertikaspa/sitio/assets/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2.7.0",
+        "404 http://127.0.0.1:58380/web/assets/3/79f770e/web.assets_frontend_minimal.min.js",
+        "404 http://127.0.0.1:58380/web/image/39722-fdb663b7/Desertika_Header_1.jpg",
+        "404 http://127.0.0.1:58380/web/image/38657-435393c3/fondo-logo.png",
+        "404 http://127.0.0.1:58380/web/image/39067-a1d4d278/Desertika_TestimonioFondo.jpg",
+        "404 http://127.0.0.1:58380/web/image/website/3/logo/Desertika%20Spa?unique=408a3b8",
+        "404 http://127.0.0.1:58380/web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2",
+        "404 http://127.0.0.1:58380/RUTA_REAL/Butler.woff2",
+        "404 http://127.0.0.1:58380/_custom/web.assets_frontend/website/static/src/fonts/icomoon.ttf?oi35g2",
+        "404 http://127.0.0.1:58380/web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff",
+        "404 http://127.0.0.1:58380/RUTA_REAL/Butler.woff",
+        "404 http://127.0.0.1:58380/_custom/web.assets_frontend/website/static/src/fonts/icomoon.woff?oi35g2",
+        "404 http://127.0.0.1:58380/RUTA_REAL/Butler.ttf"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 10776,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 18,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Desértika Spa | Masajes, faciales y spa en pareja en CDMX",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 15417,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 18,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Desértika Spa | Masajes, faciales y spa en pareja en CDMX",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

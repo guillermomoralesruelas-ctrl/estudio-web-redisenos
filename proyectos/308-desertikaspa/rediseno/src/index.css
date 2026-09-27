@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Tokens de Desértika: verde salvia y tinta de su CSS (o-color-1 #8A9177, texto #292122), terracota de sus
+   toallas bordadas y arena para el reloj. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-tinta: #2b2521;
+  --color-salvia: #8a9177;
+  --color-salvia-honda: #555a48;
+  --color-salvia-clara: #e3e5d8;
+  --color-terracota: #8f3c26;
+  --color-arena: #d9c3a0;
+  --color-crema: #f6f1e8;
+  --color-duna: #ece3d3;
+  --color-noche: #2f2a22;
+  --font-sans: "Open Sans", "Segoe UI", sans-serif;
+  --font-titulo: "Fraunces", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-terracota); outline-offset: 3px; }
+  #tiempo :focus-visible, footer :focus-visible, nav[aria-label="Acciones rápidas"] :focus-visible { outline-color: var(--color-arena); }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center rounded-full px-6 py-3 font-semibold transition-colors; }
+  .boton-terracota { @apply bg-terracota text-white hover:bg-[#763020]; }
+  .boton-salvia { @apply bg-salvia-honda text-white hover:bg-[#44483a]; }
+  .boton-borde { @apply border-2 border-tinta/70 text-tinta hover:bg-tinta hover:text-crema; }
+  .boton-crema { @apply bg-crema text-terracota hover:bg-white; }
+  .ficha { @apply min-h-11 rounded-full border border-crema/40 px-4 py-2 text-crema transition-colors hover:border-arena; }
+  .ficha-activa { @apply border-arena bg-arena text-noche; }
+  .precio { @apply inline-flex min-h-11 flex-col items-center justify-center leading-tight sm:flex-row sm:justify-between rounded-2xl sm:rounded-full border border-tinta/25 bg-white/60 px-3 py-1.5 text-[0.9rem] tabular-nums transition-colors hover:border-terracota hover:bg-white min-w-22 sm:min-w-36 gap-0 sm:gap-4 sm:px-4 sm:py-2 sm:text-base; }
+  .enlace { @apply font-semibold text-salvia-honda underline decoration-1 underline-offset-4 hover:text-terracota; }
+  .enlace-claro { @apply underline decoration-crema/40 underline-offset-4 hover:text-white hover:decoration-crema; }
+  .enlace-nav { @apply text-tinta hover:text-terracota; }
+  .barra-boton { @apply flex min-h-16 flex-col items-center justify-center px-2 py-2 text-center text-sm font-semibold leading-tight; }
+  .arco { border-radius: 999px 999px 1.25rem 1.25rem; }
+  .arco-bajo { border-radius: 1.25rem 1.25rem 999px 999px; }
+}
+
+/* Reloj de arena: la arena de arriba sube o baja con los minutos y los granos caen. */
+.arena-arriba { transform-box: fill-box; transform-origin: 50% 100%; transition: transform 600ms ease; }
+.chorro { animation: caer 900ms linear infinite; }
+@keyframes caer { to { stroke-dashoffset: -16; } }
+@media (prefers-reduced-motion: reduce) {
+  .arena-arriba { transition: none; }
+  .chorro { animation: none; }
+}
