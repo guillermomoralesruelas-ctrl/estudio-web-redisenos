@@ -1,0 +1,607 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/09/maria-alejandra-y-pedro-luis.jpg",
+      "archivo": "maria-alejandra-y-pedro-luis.jpg",
+      "alt": "Image 2: Boda Maria Alejandra y Pedro Luis"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2018/10/antesala-novia-1.jpg",
+      "archivo": "antesala-novia-1.jpg",
+      "alt": "Image 3: Antesala de boda Caracas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/novia-fotografia-de-bodas.jpg",
+      "archivo": "novia-fotografia-de-bodas.jpg",
+      "alt": "Image 4: arreglo de la novia el día de su boda"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/antesala-close-up-novia.jpg",
+      "archivo": "antesala-close-up-novia.jpg",
+      "alt": "Image 5: retrato-novia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/novios-en-contraluz-en-boda.jpg",
+      "archivo": "novios-en-contraluz-en-boda.jpg",
+      "alt": "Image 6: boda-novios-contraluz"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/boda-nocturna.jpg",
+      "archivo": "boda-nocturna.jpg",
+      "alt": "Image 7: sesion-fotos-bokeh"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/novios-en-sesion-de-fotos-de-boda.jpg",
+      "archivo": "novios-en-sesion-de-fotos-de-boda.jpg",
+      "alt": "Image 8: novios en sesion de fotos de boda"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2019/07/pose-sesion-de-fotos-15-anos.jpg",
+      "archivo": "pose-sesion-de-fotos-15-anos.jpg",
+      "alt": "Image 9: poses sesion de fotos 15 años"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/quinceac3b1era-en-exteriores.jpg",
+      "archivo": "quinceac3b1era-en-exteriores.jpg",
+      "alt": "Image 10: quinceanera-exteriores"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/fotografia-profesional-para-15-anos.jpg",
+      "archivo": "fotografia-profesional-para-15-anos.jpg",
+      "alt": "Image 11: fotografía de 15 años en caracas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2019/07/poses-sesion-de-fotos-quinceanera.jpg",
+      "archivo": "poses-sesion-de-fotos-quinceanera.jpg",
+      "alt": "Image 12: poses de sesion fotográfica quinceañera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/quinceac3b1era-retrato.jpg",
+      "archivo": "quinceac3b1era-retrato.jpg",
+      "alt": "Image 13: Retrato de quinceañera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/fotografica-15-anos.jpg.jpg",
+      "archivo": "fotografica-15-anos.jpg.jpg",
+      "alt": "Image 14: fotografía profesional de 15 años en ciudad de mexico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2019/07/quinceanera-sesion-de-fotos-poses.jpg",
+      "archivo": "quinceanera-sesion-de-fotos-poses.jpg",
+      "alt": "Image 15: poses sesion de fotos quinceañera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/sesic3b3n-de-fotos-de-embarazo.jpg",
+      "archivo": "sesic3b3n-de-fotos-de-embarazo.jpg",
+      "alt": "Image 16: sesion-fotos-embarazo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/sesion-de-fotos-newborn.jpg",
+      "archivo": "sesion-de-fotos-newborn.jpg",
+      "alt": "Image 17: sesión de fotos bebe new born"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/embarazo-en-exteriores.jpg",
+      "archivo": "embarazo-en-exteriores.jpg",
+      "alt": "Image 18: embarazo-exteriores"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/fotos-de-embarazo-1.jpg",
+      "archivo": "fotos-de-embarazo-1.jpg",
+      "alt": "Image 19: fotos-de-embarazo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/fotografia-para-embarazadas.jpg",
+      "archivo": "fotografia-para-embarazadas.jpg",
+      "alt": "Image 20: fotografía de embarazo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/fotografo-de-embarazo-1.jpg",
+      "archivo": "fotografo-de-embarazo-1.jpg",
+      "alt": "Image 21: fotografía de embarazadas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/sesic3b3n-de-fotos-de-embarazada.jpg",
+      "archivo": "sesic3b3n-de-fotos-de-embarazada.jpg",
+      "alt": "Image 22: fotografia-embarazada"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/new-born-foto-pose.jpg",
+      "archivo": "new-born-foto-pose.jpg",
+      "alt": "Image 23: fotos-new-born"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/embarazada-con-vuelo-de-telas.jpg",
+      "archivo": "embarazada-con-vuelo-de-telas.jpg",
+      "alt": "Image 24: sesion-embarazada-telas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/sesion-de-fotos-de-bebes.jpg",
+      "archivo": "sesion-de-fotos-de-bebes.jpg",
+      "alt": "Image 25: sesion de fotos de bebe recien nacido"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/fotografia-para-embarazadas-pareja.jpg",
+      "archivo": "fotografia-para-embarazadas-pareja.jpg",
+      "alt": "Image 26: sesion fotográfica de embarazada"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/sesion-fotografica-recien-nacido.jpg",
+      "archivo": "sesion-fotografica-recien-nacido.jpg",
+      "alt": "Image 27: sesion fotográfica bebe recién nacido"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/sesion-de-fotos-embarazada-1.jpg",
+      "archivo": "sesion-de-fotos-embarazada-1.jpg",
+      "alt": "Image 28: sesion de fotos embarazada"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/producto-fotografia-gastronomica.jpg",
+      "archivo": "producto-fotografia-gastronomica.jpg",
+      "alt": "Image 29: helado fotografía gastronómica"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/gastronc3b3mico-fresas.jpg",
+      "archivo": "gastronc3b3mico-fresas.jpg",
+      "alt": "Image 30: fotografia-gastronomica"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/gastronc3b3mico-cupcake.jpg",
+      "archivo": "gastronc3b3mico-cupcake.jpg",
+      "alt": "Image 31: foto-gastronomico-cupcake"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/paletas-fotografia-profesiona.jpg",
+      "archivo": "paletas-fotografia-profesiona.jpg",
+      "alt": "Image 32: fotografia de alimentos profesional"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/diseno-de-fotografia-gastronomica.jpg",
+      "archivo": "diseno-de-fotografia-gastronomica.jpg",
+      "alt": "Image 33: diseño de fotografía gastronómica"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/helado-fotografia-gastronomica.jpg",
+      "archivo": "helado-fotografia-gastronomica.jpg",
+      "alt": "Image 34: campaña con fotografía gastronómica"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/gastronc3b3mico-barra.jpg",
+      "archivo": "gastronc3b3mico-barra.jpg",
+      "alt": "Image 35: fotografia-gastronomica"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/marca-modelo-ropa-deportiva.jpg",
+      "archivo": "marca-modelo-ropa-deportiva.jpg",
+      "alt": "Image 36: Marca modelo ropa deportiva"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/marca-sesic3b3n-exterior.jpg",
+      "archivo": "marca-sesic3b3n-exterior.jpg",
+      "alt": "Image 37: Marca sesión exterior"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/marca-evento-corporativo.jpg",
+      "archivo": "marca-evento-corporativo.jpg",
+      "alt": "Image 38: Marca evento corporativo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/marca-zapatos-infantiles.jpg",
+      "archivo": "marca-zapatos-infantiles.jpg",
+      "alt": "Image 39: Marca zapatos infantiles"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/marca-sesic3b3n-producto.jpg",
+      "archivo": "marca-sesic3b3n-producto.jpg",
+      "alt": "Image 40: Marca sesión producto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/marcas-conferencia-corporativo.jpg",
+      "archivo": "marcas-conferencia-corporativo.jpg",
+      "alt": "Image 41: Marcas conferencia corporativo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/sesic3b3n-graduacic3b3n.jpg",
+      "archivo": "sesic3b3n-graduacic3b3n.jpg",
+      "alt": "Image 42: sesion-fotos-graduacion"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/sesic3b3n-de-fotos-modelaje.jpg",
+      "archivo": "sesic3b3n-de-fotos-modelaje.jpg",
+      "alt": "Image 43: sesion-fotos-modelaje"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/sesic3b3n-baile.jpg",
+      "archivo": "sesic3b3n-baile.jpg",
+      "alt": "Image 44: sesion-fotografica-bailarina"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/fotografia-profesional-sesion.jpg",
+      "archivo": "fotografia-profesional-sesion.jpg",
+      "alt": "Image 45: fotografia profesional en estudio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/retrato-corporativo.jpg",
+      "archivo": "retrato-corporativo.jpg",
+      "alt": "Image 46: retrato profesional en estudio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/sesion-fotografica-profesional.jpg",
+      "archivo": "sesion-fotografica-profesional.jpg",
+      "alt": "Image 47: s"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/modelo-sesion-de-fotos-profesional.jpg",
+      "archivo": "modelo-sesion-de-fotos-profesional.jpg",
+      "alt": "Image 48: retrato de modelo en estudio profesional"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/retrato-sesion-de-fotos.jpg",
+      "archivo": "retrato-sesion-de-fotos.jpg",
+      "alt": "Image 49: retrato profesional en estudio fotografico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/retrato-sesion-de-fotos-profesional.jpg",
+      "archivo": "retrato-sesion-de-fotos-profesional.jpg",
+      "alt": "Image 50: sesion de fotos en estudio fotográfico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/sesion-de-fotos-profesionales-modelo.jpg",
+      "archivo": "sesion-de-fotos-profesionales-modelo.jpg",
+      "alt": "Image 51: sesion de fotos profesional en estudio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/01/sesion-profesional-de-fotos-en-exteriores.jpg",
+      "archivo": "sesion-profesional-de-fotos-en-exteriores.jpg",
+      "alt": "Image 52: sesion en exteriores ciudad de méxico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/01/sesion-de-fotos-exterior.jpg",
+      "archivo": "sesion-de-fotos-exterior.jpg",
+      "alt": "Image 53: sesion de fotos profoesional ciudad de mexico en exteriores"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2019/07/poses-sesion-de-fotos-cumpleanos.jpg",
+      "archivo": "poses-sesion-de-fotos-cumpleanos.jpg",
+      "alt": "Image 54: poses sesion de fotos cumpleaños"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2018/10/logo-070.jpg?w=50",
+      "archivo": "logo-070.jpg",
+      "alt": "Image 55"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://pixel.wp.com/g.gif?blog=108288074&v=wpcom&tz=-6&user_id=0&post=369&subd=estudio070&host=estudio070.com&ref=&rand=0.6558382860220116",
+      "archivo": "g.gif",
+      "alt": "Image 58"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2023/04/novia-en-sesion-de-fotos.jpg",
+      "archivo": "novia-en-sesion-de-fotos.jpg",
+      "alt": "Image 1: fotografia-bodas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/antesala-de-bodas.jpg",
+      "archivo": "antesala-de-bodas.jpg",
+      "alt": "Image 2: Fotógrafo de bodas Caracas - Antesala"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/post-boda-en-caracas.jpg",
+      "archivo": "post-boda-en-caracas.jpg",
+      "alt": "Image 3: post-boda-caracas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/antesala-contraluz.jpg",
+      "archivo": "antesala-contraluz.jpg",
+      "alt": "Image 6: antesala-novia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/boda-civil.jpg",
+      "archivo": "boda-civil.jpg",
+      "alt": "Image 7: boda-civil-070"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/10/sabina-silva-estudio070.jpg?w=408",
+      "archivo": "sabina-silva-estudio070.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/10/cristhian-canizales-estudio070.jpg?w=405",
+      "archivo": "cristhian-canizales-estudio070.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2023/04/fotografia-de-boda-en-la-playa.jpg?w=1003",
+      "archivo": "fotografia-de-boda-en-la-playa.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2023/04/fotografia-bodas.jpg?w=997",
+      "archivo": "fotografia-bodas.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2023/04/fotografo-de-bodas-2022.jpg?w=1024",
+      "archivo": "fotografo-de-bodas-2022.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/09/testimonio-boda.jpg?w=664",
+      "archivo": "testimonio-boda.jpg",
+      "alt": "Image 13: testimonio boda caracas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/02/arreglos-de-la-novia-cdmx-14.jpg?w=918",
+      "archivo": "arreglos-de-la-novia-cdmx-14.jpg",
+      "alt": "Image 14: sesion-fotos-arreglo-novia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2021/02/arreglos-de-la-novia-cdmx-10.jpg?w=402",
+      "archivo": "arreglos-de-la-novia-cdmx-10.jpg",
+      "alt": "Image 15: sesion-fotos-arreglo-novia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://pixel.wp.com/g.gif?blog=108288074&v=wpcom&tz=-6&user_id=0&post=6041&subd=estudio070&host=estudio070.com&ref=&rand=0.7778744171246901",
+      "archivo": "g.gif",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/quinceac3b1era-en-exteriores-1.jpg",
+      "archivo": "quinceac3b1era-en-exteriores-1.jpg",
+      "alt": "Image 1: sesion-quinceanera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/pastel-quinceac3b1era-1.jpg",
+      "archivo": "pastel-quinceac3b1era-1.jpg",
+      "alt": "Image 2: pastel-quinceanera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/quinceac3b1era-reflejo.jpg",
+      "archivo": "quinceac3b1era-reflejo.jpg",
+      "alt": "Image 3: retrato-quinceanera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/quinceac3b1era-con-cristales.jpg",
+      "archivo": "quinceac3b1era-con-cristales.jpg",
+      "alt": "Image 4: retrato-quinceanera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/retrato-de-quinceac3b1era-antesala.jpg",
+      "archivo": "retrato-de-quinceac3b1era-antesala.jpg",
+      "alt": "Image 5: retrato-quinceanera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/salc3b3n-de-fiestas-quinceac3b1era.jpg",
+      "archivo": "salc3b3n-de-fiestas-quinceac3b1era.jpg",
+      "alt": "Image 6: sesion-fotos-quinceanera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/sesic3b3n-de-fotos-quinceac3b1era.jpg",
+      "archivo": "sesic3b3n-de-fotos-quinceac3b1era.jpg",
+      "alt": "Image 7: salon-fiesta-quinceanos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/quinceac3b1os-con-piano.jpg",
+      "archivo": "quinceac3b1os-con-piano.jpg",
+      "alt": "Image 8: sesion-fotos-quinceanera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/sesic3b3n-de-fotos-en-fiesta-quinceac3b1era-1.jpg",
+      "archivo": "sesic3b3n-de-fotos-en-fiesta-quinceac3b1era-1.jpg",
+      "alt": "Image 11: fiesta-quinceanera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/quinceac3b1os-retrato.jpg",
+      "archivo": "quinceac3b1os-retrato.jpg",
+      "alt": "Image 12: sesion-fotos-quinceanera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/quinceac3b1os-retrato-maquillaje.jpg",
+      "archivo": "quinceac3b1os-retrato-maquillaje.jpg",
+      "alt": "Image 14: antesala-quinceanera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2019/07/sesic3b3n-de-fotos-quinceac3b1era-1.jpg",
+      "archivo": "sesic3b3n-de-fotos-quinceac3b1era-1.jpg",
+      "alt": "Image 16: Sesión fotográfica en exteriores"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/09/sesion-de-fotos-quinceanera-cdmx.jpg",
+      "archivo": "sesion-de-fotos-quinceanera-cdmx.jpg",
+      "alt": "Image 17: sesion-fotos-quinceañera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2023/04/equipo-de-fotografos-de-boda.jpg?w=1024",
+      "archivo": "equipo-de-fotografos-de-boda.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/fotografia-de-alimentos-cdmx.jpg",
+      "archivo": "fotografia-de-alimentos-cdmx.jpg",
+      "alt": "Image 7: fotografia de alimentos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/marcas-zapatos-catalogo.jpg",
+      "archivo": "marcas-zapatos-catalogo.jpg",
+      "alt": "Image 8: Fotografía para catálogo de marcas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/marcas-ropa-deportiva-catalogo.jpg",
+      "archivo": "marcas-ropa-deportiva-catalogo.jpg",
+      "alt": "Image 9: Fotografía de marcas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/marcas-fotografia-evento-corporativo.jpg",
+      "archivo": "marcas-fotografia-evento-corporativo.jpg",
+      "alt": "Image 10: Servicio corporativo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/marcas-negocios.jpg",
+      "archivo": "marcas-negocios.jpg",
+      "alt": "Image 11: Corporativo servicio fotográfico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/marcas-catalogo-producto.jpg",
+      "archivo": "marcas-catalogo-producto.jpg",
+      "alt": "Image 12: Fotografía de producto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/marcas-botes.jpg",
+      "archivo": "marcas-botes.jpg",
+      "alt": "Image 13: Fotografía para marcas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/catalogo-zapatos-fotos-marcas.jpg",
+      "archivo": "catalogo-zapatos-fotos-marcas.jpg",
+      "alt": "Image 14: Fotos marcas catálogo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/marcas-sesion-corporativa.jpg",
+      "archivo": "marcas-sesion-corporativa.jpg",
+      "alt": "Image 15: Sesión de fotos corporativo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/gastronomico-gourmet.jpg?w=389",
+      "archivo": "gastronomico-gourmet.jpg",
+      "alt": "Image 1: Fotografía negocio gastronómico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/gastronomico-helado.jpg?w=390",
+      "archivo": "gastronomico-helado.jpg",
+      "alt": "Image 2: Foto gastronómica postres"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/06/gastronc3b3mico-cocktail.jpg?w=683",
+      "archivo": "gastronc3b3mico-cocktail.jpg",
+      "alt": "Image 3: cocktail-foto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/11/fotografo-de-alimentos-3.jpg?w=1024",
+      "archivo": "fotografo-de-alimentos-3.jpg",
+      "alt": "Image 4: fotografia-alimentos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/gastronomico-pastel.jpg?w=878",
+      "archivo": "gastronomico-pastel.jpg",
+      "alt": "Image 5: Foto gastronómica pastel"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/wp-content/uploads/2020/08/gastronomico-foto.jpg?w=879",
+      "archivo": "gastronomico-foto.jpg",
+      "alt": "Image 6: Foto gastronómica"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://estudio070.com/fotografia-de-alimentos-cdmx/",
+      "archivo": "fotografia-de-alimentos-cdmx",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/48f76619a5bd00ce057f2024dcf38bc1",
+      "archivo": "48f76619a5bd00ce057f2024dcf38bc1",
+      "alt": "Image 8"
+    }
+  ]
+}

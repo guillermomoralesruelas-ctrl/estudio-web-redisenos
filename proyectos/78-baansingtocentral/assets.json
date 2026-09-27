@@ -1,0 +1,451 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/baan-singto-central-logo-web.webp",
+      "archivo": "baan-singto-central-logo-web.webp",
+      "alt": "Image 1: Baan Singto Central Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/logo-superior-baan-singto-central-kru-carlos.webp",
+      "archivo": "logo-superior-baan-singto-central-kru-carlos.webp",
+      "alt": "Image 2: Baan Singto Central Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/logo-baan-singto-central-negro-blanco.webp",
+      "archivo": "logo-baan-singto-central-negro-blanco.webp",
+      "alt": "Image 3: Baan Singto Logo Intermedio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/intro/baan-singto-lat-1.webp",
+      "archivo": "baan-singto-lat-1.webp",
+      "alt": "Image 4: Acceso a Baan Singto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/icono-intermedio-muay-thai-bsc.webp",
+      "archivo": "icono-intermedio-muay-thai-bsc.webp",
+      "alt": "Image 5: Icono Intermedio BSC"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/intro/kru-carlos-lat-2.webp",
+      "archivo": "kru-carlos-lat-2.webp",
+      "alt": "Image 6: Kru Carlos - 2 - Baan Singto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/intro/kru-carlos-lat-3.webp",
+      "archivo": "kru-carlos-lat-3.webp",
+      "alt": "Image 8: Kru Carlos - 3 - Baan Singto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/intro/baan-singto-lat-4.webp",
+      "archivo": "baan-singto-lat-4.webp",
+      "alt": "Image 10: Clases en Baan Singto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/1000x1300/414141/636363",
+      "archivo": "636363",
+      "alt": "Image 12: Hero Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/intro/baan-singto-lat-6.webp",
+      "archivo": "baan-singto-lat-6.webp",
+      "alt": "Image 14: Calentamiento en Baan Singto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/intro/kru-carlos-lat-7.webp",
+      "archivo": "kru-carlos-lat-7.webp",
+      "alt": "Image 16: Kru Carlos - 7 - Baan Singto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/intro/kru-carlos-lat-8.webp",
+      "archivo": "kru-carlos-lat-8.webp",
+      "alt": "Image 18: Kru Carlos - 8 - Baan Singto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/800x800/4d4d4d/838383",
+      "archivo": "838383",
+      "alt": "Image 20: Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/800x800/2d2d2d/838383",
+      "archivo": "838383",
+      "alt": "Image 21: Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/600x730/5d5d5d/838383",
+      "archivo": "838383",
+      "alt": "Image 27: Project Preview"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/1200x800/5d5d5d/838383",
+      "archivo": "838383",
+      "alt": "Image 28: Project Preview"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/horario-clases-baansingto-central-la-perla-abril-2026.webp",
+      "archivo": "horario-clases-baansingto-central-la-perla-abril-2026.webp",
+      "alt": "Image 64: Horarios Clases Baan Singto - Abril 2026"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/qr-code-horarios-abril-2026.webp",
+      "archivo": "qr-code-horarios-abril-2026.webp",
+      "alt": "Image 65: Código QR - Horarios"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/rangos-de-precios-mensualidades-anualidades-BSC.webp",
+      "archivo": "rangos-de-precios-mensualidades-anualidades-BSC.webp",
+      "alt": "Image 66: Precios Clases Baan Singto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/logo-baan-singto-central-blanco.webp",
+      "archivo": "logo-baan-singto-central-blanco.webp",
+      "alt": "Image 67: Icono de Baan Singto Central"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/barrido-muay-thai.webp",
+      "archivo": "barrido-muay-thai.webp",
+      "alt": "Image 68: barrido muay thai -  baan singto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/1400x1400/4d4d4d/838383",
+      "archivo": "838383",
+      "alt": "Image 2: Hero Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/600x730/4d4d4d/838383",
+      "archivo": "838383",
+      "alt": "Image 3: Project Preview"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/1200x800/4d4d4d/838383",
+      "archivo": "838383",
+      "alt": "Image 4: Project Preview"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/300x300/4d4d4d/838383",
+      "archivo": "838383",
+      "alt": "Image 17: Object"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/01_hero-img.webp",
+      "archivo": "01_hero-img.webp",
+      "alt": "Image 2: Hero Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/02_hero-img.webp",
+      "archivo": "02_hero-img.webp",
+      "alt": "Image 3: Hero Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/screens/01.webp",
+      "archivo": "01.webp",
+      "alt": "Image 4: Rayo Demo Screen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/screens/02.webp",
+      "archivo": "02.webp",
+      "alt": "Image 5: Rayo Demo Screen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/screens/03.webp",
+      "archivo": "03.webp",
+      "alt": "Image 6: Rayo Demo Screen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/screens/04.webp",
+      "archivo": "04.webp",
+      "alt": "Image 7: Rayo Demo Screen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/screens/05.webp",
+      "archivo": "05.webp",
+      "alt": "Image 8: Rayo Demo Screen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/screens/06.webp",
+      "archivo": "06.webp",
+      "alt": "Image 9: Rayo Demo Screen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/screens/07.webp",
+      "archivo": "07.webp",
+      "alt": "Image 10: Rayo Demo Screen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/screens/08.webp",
+      "archivo": "08.webp",
+      "alt": "Image 11: Rayo Demo Screen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/screens/09.webp",
+      "archivo": "09.webp",
+      "alt": "Image 12: Rayo Demo Screen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/02_card-img.webp",
+      "archivo": "02_card-img.webp",
+      "alt": "Image 14: Demo Card Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/01_card-img.webp",
+      "archivo": "01_card-img.webp",
+      "alt": "Image 15: Demo Card Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/01_resp-img.webp",
+      "archivo": "01_resp-img.webp",
+      "alt": "Image 16: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/inner/06_faq.webp",
+      "archivo": "06_faq.webp",
+      "alt": "Image 17: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/inner/07_contact.webp",
+      "archivo": "07_contact.webp",
+      "alt": "Image 18: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/inner/03_services.webp",
+      "archivo": "03_services.webp",
+      "alt": "Image 19: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/inner/04_team.webp",
+      "archivo": "04_team.webp",
+      "alt": "Image 20: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/inner/05_pricing.webp",
+      "archivo": "05_pricing.webp",
+      "alt": "Image 21: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/inner/01_about-me.webp",
+      "archivo": "01_about-me.webp",
+      "alt": "Image 22: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/inner/02_about-us.webp",
+      "archivo": "02_about-us.webp",
+      "alt": "Image 23: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/inner/08_404.webp",
+      "archivo": "08_404.webp",
+      "alt": "Image 24: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-01.webp",
+      "archivo": "sec-01.webp",
+      "alt": "Image 25: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-02.webp",
+      "archivo": "sec-02.webp",
+      "alt": "Image 26: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-03.webp",
+      "archivo": "sec-03.webp",
+      "alt": "Image 27: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-04.webp",
+      "archivo": "sec-04.webp",
+      "alt": "Image 28: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-05.webp",
+      "archivo": "sec-05.webp",
+      "alt": "Image 29: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-06.webp",
+      "archivo": "sec-06.webp",
+      "alt": "Image 30: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-07.webp",
+      "archivo": "sec-07.webp",
+      "alt": "Image 31: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-08.webp",
+      "archivo": "sec-08.webp",
+      "alt": "Image 32: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/01_comp-img.webp",
+      "archivo": "01_comp-img.webp",
+      "alt": "Image 41: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-09.webp",
+      "archivo": "sec-09.webp",
+      "alt": "Image 44: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-10.webp",
+      "archivo": "sec-10.webp",
+      "alt": "Image 45: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-11.webp",
+      "archivo": "sec-11.webp",
+      "alt": "Image 46: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-14.webp",
+      "archivo": "sec-14.webp",
+      "alt": "Image 48: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/components/sec-15.webp",
+      "archivo": "sec-15.webp",
+      "alt": "Image 50: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/01_fea-img.webp",
+      "archivo": "01_fea-img.webp",
+      "alt": "Image 60: Rayo Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/02_fea-img.webp",
+      "archivo": "02_fea-img.webp",
+      "alt": "Image 61: Rayo Illustration"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/03_fea-img.webp",
+      "archivo": "03_fea-img.webp",
+      "alt": "Image 62: Rayo Illustration"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/04_fea-img.webp",
+      "archivo": "04_fea-img.webp",
+      "alt": "Image 63: Illustration"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/06_fea-img.webp",
+      "archivo": "06_fea-img.webp",
+      "alt": "Image 64: Illustration"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://baansingtocentral.com/img/demo/05_fea-img.webp",
+      "archivo": "05_fea-img.webp",
+      "alt": "Image 65: Illustration"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/600x600/5d5d5d/838383",
+      "archivo": "838383",
+      "alt": "Image 1: Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/1200x1000/4d4d4d/838383",
+      "archivo": "838383",
+      "alt": "Image 5: Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/800x920/4d4d4d/838383",
+      "archivo": "838383",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/800x800/5d5d5d/838383",
+      "archivo": "838383",
+      "alt": "Image 23: Illustration"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/100x100/5d5d5d/838383",
+      "archivo": "838383",
+      "alt": "Image 29: Icon"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/100x100/838383/5d5d5d",
+      "archivo": "5d5d5d",
+      "alt": "Image 37: Icon"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dummyimage.com/300x300/5d5d5d/838383",
+      "archivo": "838383",
+      "alt": "Image 39: Image"
+    }
+  ]
+}

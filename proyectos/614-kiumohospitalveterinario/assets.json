@@ -1,0 +1,469 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Kiumo-hospital-logo-1024x980.png",
+      "archivo": "Kiumo-hospital-logo-1024x980.png",
+      "alt": "Image 2: Kiumo Hospital veterinario"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/T5.png",
+      "archivo": "T5.png",
+      "alt": "Image 3: Kiumo-arte-gráfico-5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/T2.png",
+      "archivo": "T2.png",
+      "alt": "Image 4: Kiumo-arte-gráfico-2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/v1.png",
+      "archivo": "v1.png",
+      "alt": "Image 5: Médico Veterinario Zootecnista Especialista en Culiacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/v5.png",
+      "archivo": "v5.png",
+      "alt": "Image 6: Grooming para mascotas, spa para mascotas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/v3-1.png",
+      "archivo": "v3-1.png",
+      "alt": "Image 7: Médico Médico Veterinario Zootecnista en Culiacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/v2.png",
+      "archivo": "v2.png",
+      "alt": "Image 8: Médico Médico Veterinario Zootecnista en Culiacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/08/Inicio_kiumoguadalupe_banner1-1.webp",
+      "archivo": "Inicio_kiumoguadalupe_banner1-1.webp",
+      "alt": "Image 11: Hospital Veterinario Kiumo, Sucursal Guadalupe en Culiacán."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/T4.png",
+      "archivo": "T4.png",
+      "alt": "Image 12: Kiumo-arte-gráfico-4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/08/Inicio_bloque1_grooming.webp",
+      "archivo": "Inicio_bloque1_grooming.webp",
+      "alt": "Image 13: Perrito en su cita de grooming para mascotas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/08/Inicio_bloque1_quirofano.webp",
+      "archivo": "Inicio_bloque1_quirofano.webp",
+      "alt": "Image 14: Kiumo Hospital veterinario - Quirófano para mascotas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/T1.png",
+      "archivo": "T1.png",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/004.png",
+      "archivo": "004.png",
+      "alt": "Image 16: Servicio de grooming para mascotas / spa para mascotas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/003.png",
+      "archivo": "003.png",
+      "alt": "Image 17: Farmacia veterinaria especializada"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/001-3.png",
+      "archivo": "001-3.png",
+      "alt": "Image 18: Consultorio veterinario en Culiacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/002-1.png",
+      "archivo": "002-1.png",
+      "alt": "Image 19: Tienda de alimento para perros y gatos en Culiacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/T3.png",
+      "archivo": "T3.png",
+      "alt": "Image 20: Kiumo-arte-gráfico-3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/339x471.jpg",
+      "archivo": "339x471.jpg",
+      "alt": "Image 21: Farmacia veterinaria"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/08/Inicio_bloque3_gromingdepomeranian.jpg",
+      "archivo": "Inicio_bloque3_gromingdepomeranian.jpg",
+      "alt": "Image 22: Spa para mascotas, corte de pelo para mascotas, grooming para mascotas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Expereince-icon-img.png",
+      "archivo": "Expereince-icon-img.png",
+      "alt": "Image 23: Kiumo-arte-gráfico-0"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/T6.png",
+      "archivo": "T6.png",
+      "alt": "Image 24: Kiumo-arte-gráfico-6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Register-now-design-element.png",
+      "archivo": "Register-now-design-element.png",
+      "alt": "Image 25: Kiumo-arte-gráfico-01"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/a3-1.jpg",
+      "archivo": "a3-1.jpg",
+      "alt": "Image 26: Servicio de ultrasonido para mascotas en Culiacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/a2-1.jpg",
+      "archivo": "a2-1.jpg",
+      "alt": "Image 27: Rayos x para perros y gatos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/a4-1.jpg",
+      "archivo": "a4-1.jpg",
+      "alt": "Image 28: Quirófano veterinario, emergencias veterinarias, Hospital veterinario 24 horas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Captura-de-Pantalla-2024-05-24-a-las-14.19.21.png",
+      "archivo": "Captura-de-Pantalla-2024-05-24-a-las-14.19.21.png",
+      "alt": "Image 31: PRO PLAN de Purina"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/pic1.jpg",
+      "archivo": "pic1.jpg",
+      "alt": "Image 32: Consultorio veterinario"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Captura-de-Pantalla-2024-05-24-a-las-14.21.36.png",
+      "archivo": "Captura-de-Pantalla-2024-05-24-a-las-14.21.36.png",
+      "alt": "Image 33: Kiumo Hospital Veterinario - Grooming para mascotas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Captura-de-Pantalla-2024-05-24-a-las-14.16.27.png",
+      "archivo": "Captura-de-Pantalla-2024-05-24-a-las-14.16.27.png",
+      "alt": "Image 35: Perrito"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Captura-de-Pantalla-2024-05-24-a-las-14.16.01.png",
+      "archivo": "Captura-de-Pantalla-2024-05-24-a-las-14.16.01.png",
+      "alt": "Image 36: Gato gris"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Captura-de-Pantalla-2024-05-24-a-las-14.13.38.png",
+      "archivo": "Captura-de-Pantalla-2024-05-24-a-las-14.13.38.png",
+      "alt": "Image 37: Golden doodle"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Captura-de-Pantalla-2024-05-24-a-las-14.16.53.png",
+      "archivo": "Captura-de-Pantalla-2024-05-24-a-las-14.16.53.png",
+      "alt": "Image 38: Perrito"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Captura-de-Pantalla-2024-05-24-a-las-14.15.10.png",
+      "archivo": "Captura-de-Pantalla-2024-05-24-a-las-14.15.10.png",
+      "alt": "Image 39: Gatito con una bandana roja"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/IMG_1912-scaled.jpg",
+      "archivo": "IMG_1912-scaled.jpg",
+      "alt": "Image 40: Kiumo Hospital Veterinario - perro bulldog"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/06/B2-1-300x173.png",
+      "archivo": "B2-1-300x173.png",
+      "alt": "Image 41: Golpe de calor en mascotas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/06/B2-2-300x173.jpg",
+      "archivo": "B2-2-300x173.jpg",
+      "alt": "Image 42: Kiumo - Cuidado dental de perros y gatos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/02/B2-1-300x173.jpg",
+      "archivo": "B2-1-300x173.jpg",
+      "alt": "Image 43: Todo lo que debes saber sobre la esterilización de perros y gatos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Kiumo-hospital-logo.png",
+      "archivo": "Kiumo-hospital-logo.png",
+      "alt": "Image 44: Kiumo Hospital veterinario"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Footer-headphone-icon.png",
+      "archivo": "Footer-headphone-icon.png",
+      "alt": "Image 45: Kiumo-arte-gráfico-03"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Captura-de-Pantalla-2024-05-24-a-las-13.30.05.png",
+      "archivo": "Captura-de-Pantalla-2024-05-24-a-las-13.30.05.png",
+      "alt": "Image 10: Médico veterinario con un perro"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/IMG_2779-2.jpg",
+      "archivo": "IMG_2779-2.jpg",
+      "alt": "Image 12: Hospital veterinario"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/IMG_2614-2.jpg",
+      "archivo": "IMG_2614-2.jpg",
+      "alt": "Image 13: Alimento para perro NUPEC en Culiacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/IMG_2748-2.jpg",
+      "archivo": "IMG_2748-2.jpg",
+      "alt": "Image 14: Tienda de alimento para perros y gatos en Culiacán - Excellent de Purina"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Register-now-dog-img.png",
+      "archivo": "Register-now-dog-img.png",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/PurinaProPlan.png",
+      "archivo": "PurinaProPlan.png",
+      "alt": "Image 18: PurinaProPlan"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/PurinaExcelent.png",
+      "archivo": "PurinaExcelent.png",
+      "alt": "Image 19: PurinaExcelent"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Diamond-Logo.png",
+      "archivo": "Diamond-Logo.png",
+      "alt": "Image 20: Diamond-Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/NuPec.png",
+      "archivo": "NuPec.png",
+      "alt": "Image 21: NuPec"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Hills-Logo.png",
+      "archivo": "Hills-Logo.png",
+      "alt": "Image 22: Hills-Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/TasteOfTheWild.png",
+      "archivo": "TasteOfTheWild.png",
+      "alt": "Image 23: TasteOfTheWild"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/RoyalCanin.png",
+      "archivo": "RoyalCanin.png",
+      "alt": "Image 24: RoyalCanin"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/11/002-1.jpg",
+      "archivo": "002-1.jpg",
+      "alt": "Image 5: 002 (1)"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/11/001-1.jpg",
+      "archivo": "001-1.jpg",
+      "alt": "Image 6: 001 (1)"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/11/005.jpg",
+      "archivo": "005.jpg",
+      "alt": "Image 7: 005"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/11/003-1.jpg",
+      "archivo": "003-1.jpg",
+      "alt": "Image 8: 003 (1)"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/06/B2-1.png",
+      "archivo": "B2-1.png",
+      "alt": "Image 15: Golpe de calor en mascotas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/06/B2-2.jpg",
+      "archivo": "B2-2.jpg",
+      "alt": "Image 16: Kiumo - Cuidado dental de perros y gatos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/02/B2-1.jpg",
+      "archivo": "B2-1.jpg",
+      "alt": "Image 17: Todo lo que debes saber sobre la esterilización de perros y gatos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://kiumo.com.mx/wp-content/uploads/2024/05/T6.png",
+      "archivo": "T6.png",
+      "alt": "Image 3: Kiumo-arte-gráfico-6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://kiumo.com.mx/wp-content/uploads/2024/05/T3.png",
+      "archivo": "T3.png",
+      "alt": "Image 4: Kiumo-arte-gráfico-3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://kiumo.com.mx/wp-content/uploads/2024/11/008.jpg",
+      "archivo": "008.jpg",
+      "alt": "Image 5: 008"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://kiumo.com.mx/wp-content/uploads/2024/11/007.jpg",
+      "archivo": "007.jpg",
+      "alt": "Image 6: 007"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://kiumo.com.mx/wp-content/uploads/2024/11/006.jpg",
+      "archivo": "006.jpg",
+      "alt": "Image 7: 006"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://kiumo.com.mx/wp-content/uploads/2024/11/004.jpg",
+      "archivo": "004.jpg",
+      "alt": "Image 8: 004"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/01/IMG_0650-1.jpg",
+      "archivo": "IMG_0650-1.jpg",
+      "alt": "Image 3: IMG_0650 (1)"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/01/IMG_0647-1.jpg",
+      "archivo": "IMG_0647-1.jpg",
+      "alt": "Image 4: IMG_0647 (1)"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/01/IMG_0686-1.jpg",
+      "archivo": "IMG_0686-1.jpg",
+      "alt": "Image 5: Kiumo Check Farmacia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/01/Captura-de-pantalla-2025-01-12-235458-1024x677.png",
+      "archivo": "Captura-de-pantalla-2025-01-12-235458-1024x677.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/01/IMG_0647.jpg",
+      "archivo": "IMG_0647.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/01/IMG_0686.jpg",
+      "archivo": "IMG_0686.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/01/DSC09333-1024x576.jpg",
+      "archivo": "DSC09333-1024x576.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2025/01/IMG_0650-1-1024x576.jpg",
+      "archivo": "IMG_0650-1-1024x576.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/Sparkle-design-element.png",
+      "archivo": "Sparkle-design-element.png",
+      "alt": "Image 24"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/07/Captura-de-Pantalla-2024-07-17-a-las-12.47.36.png",
+      "archivo": "Captura-de-Pantalla-2024-07-17-a-las-12.47.36.png",
+      "alt": "Image 25"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/IMG_2491-2.jpg",
+      "archivo": "IMG_2491-2.jpg",
+      "alt": "Image 27: Perro en su servicio de grooming para mascotas en Culiacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/07/IMG_2846-1-1.jpg",
+      "archivo": "IMG_2846-1-1.jpg",
+      "alt": "Image 29: IMG_2846 (1) (1)"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kiumo.com.mx/wp-content/uploads/2024/05/IMG_2509-1-2.jpg",
+      "archivo": "IMG_2509-1-2.jpg",
+      "alt": "Image 31: Perrito en su cita de grooming para mascotas"
+    }
+  ]
+}

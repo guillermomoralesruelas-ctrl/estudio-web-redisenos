@@ -1,0 +1,441 @@
+{
+  "sitio": "https://juancamaney.com/",
+  "fecha": "2026-09-26T09:03:04.102Z",
+  "motor": "jina-reader",
+  "slug": "juancamaney",
+  "nombre": "Juan Camaney",
+  "rubro": "SPA",
+  "ciudad": "Mérida, Yucatán",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://juancamaney.com/",
+      "titulo": "Juan Camaney: Barbería Tradicional en Mérida"
+    },
+    {
+      "url": "https://juancamaney.com/reservar_con_los_mejores_barberos_en_merida/",
+      "titulo": "Reserva con los mejores barberos en Mérida, Juan Camaney"
+    },
+    {
+      "url": "https://juancamaney.com/barberia-merida-corte-de-cabello-para-hombre/",
+      "titulo": "La Mejor Barbería en Mérida: Corte de Cabello para Hombre"
+    },
+    {
+      "url": "https://juancamaney.com/servicios/",
+      "titulo": "Servicios de Barbería y Corte de Cabello en Juan Camaney"
+    },
+    {
+      "url": "https://juancamaney.com/tienda/",
+      "titulo": "Tienda - Juan Camaney"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "999 902 9264",
+      "529999029264",
+      "1605034377575",
+      "939549500578472",
+      "+52) 999 131 7745",
+      "+52) 999 902 9264",
+      "+52) 7223671354",
+      "527223671354",
+      "999 131 77 45",
+      "999 902 92 64",
+      "439447945",
+      "450604456",
+      "442876729",
+      "1605111686268-400",
+      "5366-1024",
+      "5363-1024",
+      "5367-1024",
+      "5368-1024",
+      "2019-12-10",
+      "2018-08-18",
+      "09.23.21-4-1-1024",
+      "07.49.09-1-1024",
+      "2018-10-04",
+      "17.31.18-1024",
+      "07.49.06-1024",
+      "09.23.21-2-1024",
+      "2018-07-19",
+      "18.17.37-1024",
+      "09.23.21-3-1024",
+      "2019-12-11",
+      "09.23.21-1-1024",
+      "09.23.21-6-1024",
+      "2019-02-11",
+      "09.20.23-1-1024",
+      "09.20.23-2-1024",
+      "09.20.23-3-1024",
+      "09.23.21-7-1024",
+      "1741882699319",
+      "+52) 9995183511",
+      "+52) 5551628589",
+      "+52) 9995499993",
+      "529995499993",
+      "263264798"
+    ],
+    "emails": [
+      "barberia@juancamaney.mx"
+    ],
+    "whatsapp": [
+      "wa.me/529999029264)",
+      "wa.me/529999029264?text=Quiero%20saber%20el%20precio%20de%20los%20producto%20)",
+      "wa.me/527223671354?text=Quiero%20saber%20el%20precio%20de%20los%20producto%20)",
+      "wa.me/529995499993?text=Quiero%20saber%20el%20precio%20de%20los%20producto%20)"
+    ],
+    "redes": [
+      "https://www.youtube.com/watch?v=jkbk_99N1FQ",
+      "https://www.instagram.com/juan_camaney_barberia/",
+      "https://www.youtube.com/watch?v=3i1vm1y5lN0",
+      "https://www.youtube.com/channel/UCtybUcR8XyzmN4nTbvaNy0w",
+      "https://www.facebook.com/juancamaneybarberia",
+      "http://instagram.com/juan_camaney_barberia/",
+      "http://www.facebook.com/juancamaneybarberia",
+      "http://instagram.com/juan_camaney_barberia",
+      "http://youtube.com/channel/UCtybUcR8XyzmN4nTbvaNy0w/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/logo-juan-camaney-barberia-1.png",
+      "alt": "Image 1: logo"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/logo_alternate.png",
+      "alt": "Image 2: logo"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/juan-camaney-barberia-sillon-de-entrada-1.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2016/06/oldfashion_barber_chair.png",
+      "alt": "Image 4: oldfashion_barber_chair"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/icono-complementos-300x300.png",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2022/06/diario-yucatan.png",
+      "alt": "Image 6: diario-yucatan"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2022/06/donde-ir.png",
+      "alt": "Image 7: donde-ir"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2016/06/featured_logo2-e1605034377575.png",
+      "alt": "Image 8: featured_logo2"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2022/06/gusto-buen-vivir.png",
+      "alt": "Image 9: gusto-buen-vivir"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2022/06/top-yucatan.png",
+      "alt": "Image 10: top-yucatan"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2022/06/turismo-a-fondo.png",
+      "alt": "Image 11: turismo-a-fondo"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-pomada-revolucionaria-fuerte-1-720x720.png",
+      "alt": "Image 36: Pomada Para Cabello – «Revolucionaria» – Anticaída"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-pomada-burguesa-mate-720x720.png",
+      "alt": "Image 37: Pomada Para Cabello – «Burguesa» – Acabado Mate"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2013/06/juan-camaney-pomada-imperial-super-fuerte-1-720x720.png",
+      "alt": "Image 38: Pomada Para Cabello – «Imperial» – Extrafuerte"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-aceite-para-barba-citrico-720x720.png",
+      "alt": "Image 39: Aceite Para Barba – Elixir Original – Cítrico"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-aceite-para-barba-maderas-1-720x720.png",
+      "alt": "Image 40: Aceite Para Barba – Elixir Clásico – Maderas"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/mercado-libre-logo-juan-camaney-tienda-en-linea.png",
+      "alt": "Image 41: mercado-libre-logo-juan-camaney-tienda-en-linea"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/whatsapp-logo-juan-camaney-tienda-en-linea-1.png",
+      "alt": "Image 42: whatsapp-logo-juan-camaney-tienda-en-linea"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/straight_razor_shaving.png",
+      "alt": "Image 43: straight_razor_shaving"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/calavera2-150x150.png",
+      "alt": "Image 44"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/preguntas_juan-camaney.png",
+      "alt": "Image 45"
+    },
+    {
+      "src": "blob:http://localhost/2ae2cc6f0544e8fcceb52fb6a599a7ea",
+      "alt": "Image 46"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/cuadro-juan-camaney-proximamente.png",
+      "alt": "Image 9: Reserva con los mejores barberos en Mérida, Juan Camaney"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/revslider/shutterstock_439447945-compressor.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-barberia-acerca-de-4.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/revslider/shutterstock_450604456_large-compressor.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-barberia-acerca-de-2.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/shutterstock_442876729_dark-compressor-280x375.png",
+      "alt": "Image 7: shutterstock_442876729_dark-compressor"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/barberia-rodante-juan-camaney-e1605111686268-400x400.png",
+      "alt": "Image 8: barberia-rodante-juan-camaney"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/BARBERIA-5272-683x1024.jpg",
+      "alt": "Image 9: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/BARBERIA-5366-1024x683.jpg",
+      "alt": "Image 10: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-paseo-interlomas-1-1024x682.jpg",
+      "alt": "Image 11: juan-camaney-paseo-interlomas-1"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/BARBERIA-5363-1024x683.jpg",
+      "alt": "Image 12: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/BARBERIA-5367-1024x683.jpg",
+      "alt": "Image 13: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/BARBERIA-5368-1024x683.jpg",
+      "alt": "Image 14: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-paseo-interlomas-2-1024x682.jpg",
+      "alt": "Image 15: juan-camaney-paseo-interlomas-2"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.25.38-PM-3-768x1024.jpeg",
+      "alt": "Image 16: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2018-08-18-at-09.23.21-4-1-1024x768.jpeg",
+      "alt": "Image 17: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-paseo-interlomas-4-1024x682.jpg",
+      "alt": "Image 18: juan-camaney-paseo-interlomas-4"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.27.01-PM-576x1024.jpeg",
+      "alt": "Image 19: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2018-08-18-at-07.49.09-1-1024x768.jpeg",
+      "alt": "Image 20: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2018-10-04-at-17.31.18-1024x768.jpeg",
+      "alt": "Image 21: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.27.02-PM-1-1024x576.jpeg",
+      "alt": "Image 22: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2018-08-18-at-07.49.06-1024x768.jpeg",
+      "alt": "Image 23: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.25.38-PM-4-1024x768.jpeg",
+      "alt": "Image 24: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2018-08-18-at-09.23.21-2-1024x768.jpeg",
+      "alt": "Image 25: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2018-07-19-at-18.17.37-1024x574.jpeg",
+      "alt": "Image 26: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.25.38-PM-1-1024x1024.jpeg",
+      "alt": "Image 27: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.25.38-PM-5-1024x768.jpeg",
+      "alt": "Image 28: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2018-08-18-at-09.23.21-3-1024x768.jpeg",
+      "alt": "Image 29: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-11-at-12.32.46-PM-1024x576.jpeg",
+      "alt": "Image 30: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-11-at-12.32.45-PM-1-1024x576.jpeg",
+      "alt": "Image 31: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2018-08-18-at-09.23.21-1-1024x768.jpeg",
+      "alt": "Image 32: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.26.40-PM-1024x576.jpeg",
+      "alt": "Image 33: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.27.02-PM-1024x576.jpeg",
+      "alt": "Image 34: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.25.38-PM-2-1024x768.jpeg",
+      "alt": "Image 35: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2018-08-18-at-09.23.21-6-1024x576.jpeg",
+      "alt": "Image 36: Juan Camaney Barbería Tradicional Aceite para barba"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-02-11-at-09.20.23-1-1024x576.jpeg",
+      "alt": "Image 37: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.25.38-PM-1024x576.jpeg",
+      "alt": "Image 38: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-11-at-12.32.45-PM-1024x576.jpeg",
+      "alt": "Image 39: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-02-11-at-09.20.23-2-1024x576.jpeg",
+      "alt": "Image 40: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-paseo-interlomas-3-1024x682.jpg",
+      "alt": "Image 41: juan-camaney-paseo-interlomas-3"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-11-at-12.32.46-PM-1-1024x576.jpeg",
+      "alt": "Image 42: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-10-at-12.27.02-PM-2-576x1024.jpeg",
+      "alt": "Image 43: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-02-11-at-09.20.23-3-1024x576.jpeg",
+      "alt": "Image 44: Juan Camaney Barbería Tradicional"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2018-08-18-at-09.23.21-7-1024x576.jpeg",
+      "alt": "Image 45: Juan Camaney Barbería Tradicional Menjurje para barba"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/WhatsApp-Image-2019-12-11-at-12.32.47-PM-1024x576.jpeg",
+      "alt": "Image 46: Juan Camaney Barbería - Mesa de billar"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2022/12/barberia-juan-camaney-sucursal-urban-center.jpg",
+      "alt": "Image 47: barberia-juan-camaney-sucursal-urban-center"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2025/03/social_media__vintage__whatsapp_-512-300x300.webp",
+      "alt": "Image 48"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2025/03/Menu_Juan_Camaney_Barberia-scaled-e1741882699319.jpg",
+      "alt": "Image 9: Menu_Juan_Camaney_Barberia"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/pomada_juan_camaney_banner.gif",
+      "alt": "Image 10: pomada_juan_camaney_banner"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/shaver.freevision.me6shutterstock_263264798-compressor.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/aroma_clasico.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/aroma_fresco.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/barba-imperial.png",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/aroma_original.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/11/colonia.png",
+      "alt": "Image 15: colonia"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-aceite-para-barba-maderas-1-300x300.png",
+      "alt": "Image 16: Aceite Para Barba - Elixir Clásico - Maderas"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-aceite-para-barba-citrico-300x300.png",
+      "alt": "Image 17: Aceite Para Barba - Elixir Original - Cítrico"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-champu-300x300.png",
+      "alt": "Image 18: Champú Tradicional Para Barba Y Cabello"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-colonia-aftershave-300x300.png",
+      "alt": "Image 19: Colonia De Antaño - Aftershave"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-pocion-limpia-barba-300x300.png",
+      "alt": "Image 20: Poción Limpia Barba - Spray Sanitizante De Barba"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-pomada-burguesa-mate-300x300.png",
+      "alt": "Image 21: Pomada Para Cabello - \"Burguesa\" - Acabado Mate"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2013/06/juan-camaney-pomada-imperial-super-fuerte-1-300x300.png",
+      "alt": "Image 22: Pomada Para Cabello - \"Imperial\" - Extrafuerte"
+    },
+    {
+      "src": "https://juancamaney.com/wp-content/uploads/2020/10/juan-camaney-pomada-revolucionaria-fuerte-1-300x300.png",
+      "alt": "Image 23: Pomada Para Cabello - \"Revolucionaria\" - Anticaída"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "sitio": "https://barre-7.com.mx/",
+  "fecha": "2026-09-26T08:17:23.287Z",
+  "motor": "jina-reader",
+  "slug": "hmoestudiobarre",
+  "nombre": "HMO Estudio BARRE 7",
+  "rubro": "FITNESS",
+  "ciudad": "Hermosillo, Sonora",
+  "plantilla": "fitness-gym",
+  "paginasRevisadas": [
+    {
+      "url": "https://barre-7.com.mx/",
+      "titulo": "HMO Estudio"
+    },
+    {
+      "url": "https://barre-7.com.mx/regreso/",
+      "titulo": "ES HORA DE REGRESAR BARRE 7"
+    },
+    {
+      "url": "https://barre-7.com.mx/blog/",
+      "titulo": "Blog"
+    },
+    {
+      "url": "https://barre-7.com.mx/comunidad/",
+      "titulo": "Comunidad"
+    },
+    {
+      "url": "https://barre-7.com.mx/tienda/",
+      "titulo": "Tienda"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "5216621502587",
+      "2021-12-15",
+      "2021-03-11",
+      "2021-07-31",
+      "1639518571540",
+      "1639518393390",
+      "1639518498277",
+      "1639518263663",
+      "2021-07-15",
+      "7-767301326952339",
+      "1037217586627377",
+      "7053450685131522048",
+      "1066759177006551",
+      "5129480708628152320",
+      "828302084185596",
+      "7073783399613202432",
+      "993143841034752",
+      "3441246643595247616",
+      "1057651867917282",
+      "2003540121177030656",
+      "1066660890349713",
+      "4637140331085692928",
+      "1149103908772077",
+      "589831110049923072"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "whatsapp.com/send?phone=5216621502587&text=Hola)"
+    ],
+    "redes": [
+      "https://www.youtube.com/watch?v=btkD0gmW4A4",
+      "https://www.facebook.com/BARRE-7-767301326952339/",
+      "https://www.instagram.com/barre.7/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2020/09/logo-1.png",
+      "alt": "Image 1: BARRE 7"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/12/B75.jpg",
+      "alt": "Image 2: B75"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/12/WhatsApp-Image-2021-12-15-at-5.14.02-PM.jpeg",
+      "alt": "Image 3: WhatsApp Image 2021-12-15 at 5.14.02 PM"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/12/WhatsApp-Image-2021-03-11-at-1.04.22-PM.jpeg",
+      "alt": "Image 4: WhatsApp Image 2021-03-11 at 1.04.22 PM"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/12/WhatsApp-Image-2021-07-31-at-12.03.03-PM-1-e1639518571540.jpeg",
+      "alt": "Image 5: WhatsApp Image 2021-07-31 at 12.03.03 PM (1)"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/12/WhatsApp-Image-2021-07-31-at-12.03.02-PM-1-e1639518393390.jpeg",
+      "alt": "Image 6: WhatsApp Image 2021-07-31 at 12.03.02 PM (1)"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/12/WhatsApp-Image-2021-07-31-at-12.03.03-PM.jpeg",
+      "alt": "Image 7: WhatsApp Image 2021-07-31 at 12.03.03 PM"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/12/WhatsApp-Image-2021-07-31-at-12.03.02-PM-e1639518498277.jpeg",
+      "alt": "Image 8: WhatsApp Image 2021-07-31 at 12.03.02 PM"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/12/WhatsApp-Image-2021-07-31-at-12.03.01-PM-e1639518263663.jpeg",
+      "alt": "Image 9: WhatsApp Image 2021-07-31 at 12.03.01 PM"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/07/WhatsApp-Image-2021-07-15-at-5.30.29-PM-400x250.jpeg",
+      "alt": "Image 10: Beneficios"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2022/11/%C2%BFARO-O-PELOTA-400x250.png",
+      "alt": "Image 11: ¿ARO O PELOTA?"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2022/08/ES-HORA-DE-REGRESAR-400x250.png",
+      "alt": "Image 12: ES HORA DE REGRESAR"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2022/08/ES-HORA-DE-REGRESAR-1080x675.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2022/06/antes-y-despues-belleza-post-instagram-piel-1-1-400x250.png",
+      "alt": "Image 3: CEREBRO DE PAN (resumen)"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2022/03/funcional-en-barre-400x250.png",
+      "alt": "Image 4: ENTRENAMIENTO FUNCIONAL EN BARRE"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2022/02/%C2%BFIMPORTA-TU-EDAD-400x250.png",
+      "alt": "Image 5: ¿IMPORTA TU EDAD?"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2022/06/antes-y-despues-belleza-post-instagram-piel-1-400x250.png",
+      "alt": "Image 7: CEREBRO DE PAN"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2022/03/Entrenamiento-400x250.png",
+      "alt": "Image 8: ENTRENAMIENTO FUNCIONAL"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2022/04/SE-TERMINARON-LAS-VACACIONES-400x250.jpg",
+      "alt": "Image 10: COMO RETOMAR BUENOS HÁBITOS DESPUÉS DE VACACIONES"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2022/02/PROCRASTINACION-400x250.png",
+      "alt": "Image 11: PROCRASTINACIÓN"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/80296542_1037217586627377_7053450685131522048_n.jpg",
+      "alt": "Image 2: 80296542_1037217586627377_7053450685131522048_n"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/c5.jpg",
+      "alt": "Image 3: c5"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/82812047_1066759177006551_5129480708628152320_n.jpg",
+      "alt": "Image 4: 82812047_1066759177006551_5129480708628152320_n"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/c2-1.jpg",
+      "alt": "Image 5: c2"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/WhatsApp-Image-2021-07-31-at-12.03.03-PM-1.jpeg",
+      "alt": "Image 6: WhatsApp Image 2021-07-31 at 12.03.03 PM (1)"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/53889045_828302084185596_7073783399613202432_n.jpg",
+      "alt": "Image 7: 53889045_828302084185596_7073783399613202432_n"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/WhatsApp-Image-2021-07-31-at-12.03.01-PM.jpeg",
+      "alt": "Image 8: WhatsApp Image 2021-07-31 at 12.03.01 PM"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/c8.jpg",
+      "alt": "Image 9: c8"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/WhatsApp-Image-2021-07-31-at-12.03.02-PM.jpeg",
+      "alt": "Image 10: WhatsApp Image 2021-07-31 at 12.03.02 PM"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/WhatsApp-Image-2021-07-31-at-12.03.03-PM.jpeg",
+      "alt": "Image 11: WhatsApp Image 2021-07-31 at 12.03.03 PM"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/c4.jpg",
+      "alt": "Image 12: c4"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/74575220_993143841034752_3441246643595247616_n.jpg",
+      "alt": "Image 13: 74575220_993143841034752_3441246643595247616_n"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/c7.jpg",
+      "alt": "Image 14: c7"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/vc.jpg",
+      "alt": "Image 15: vc"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/82538801_1057651867917282_2003540121177030656_n.jpg",
+      "alt": "Image 16: 82538801_1057651867917282_2003540121177030656_n"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/c6.jpg",
+      "alt": "Image 17: c6"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/82234109_1066660890349713_4637140331085692928_n.jpg",
+      "alt": "Image 18: 82234109_1066660890349713_4637140331085692928_n"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2021/08/95386719_1149103908772077_589831110049923072_n.jpg",
+      "alt": "Image 19: 95386719_1149103908772077_589831110049923072_n"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2023/08/Adaptadores-51.jpg",
+      "alt": "Image 2: Adaptadores-51"
+    },
+    {
+      "src": "https://barre-7.com.mx/wp-content/uploads/2023/08/2packmorada.jpg",
+      "alt": "Image 3: 2packmorada"
+    }
+  ]
+}

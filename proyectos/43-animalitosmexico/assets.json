@@ -1,0 +1,691 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/home.png",
+      "archivo": "home.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/animalitos-grooming-icon.png",
+      "archivo": "animalitos-grooming-icon.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/animalitos-hospital-icon.png",
+      "archivo": "animalitos-hospital-icon.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/nosotros.png",
+      "archivo": "nosotros.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/ubi.png",
+      "archivo": "ubi.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/cont.png",
+      "archivo": "cont.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Logos/animalitos-logo-hero.png",
+      "archivo": "animalitos-logo-hero.png",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/home/animalitos-perro-1.png",
+      "archivo": "animalitos-perro-1.png",
+      "alt": "Image 11: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/home/dog.png",
+      "archivo": "dog.png",
+      "alt": "Image 12: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-02.jpg",
+      "archivo": "iconos-animalitos-02.jpg",
+      "alt": "Image 13: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-3.jpg",
+      "archivo": "iconos-animalitos-3.jpg",
+      "alt": "Image 14: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-4.jpg",
+      "archivo": "iconos-animalitos-4.jpg",
+      "alt": "Image 15: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-5.jpg",
+      "archivo": "iconos-animalitos-5.jpg",
+      "alt": "Image 16: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-6.jpg",
+      "archivo": "iconos-animalitos-6.jpg",
+      "alt": "Image 17: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-7.jpg",
+      "archivo": "iconos-animalitos-7.jpg",
+      "alt": "Image 18: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-8.jpg",
+      "archivo": "iconos-animalitos-8.jpg",
+      "alt": "Image 19: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-9.jpg",
+      "archivo": "iconos-animalitos-9.jpg",
+      "alt": "Image 20: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-10.jpg",
+      "archivo": "iconos-animalitos-10.jpg",
+      "alt": "Image 21: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-11.jpg",
+      "archivo": "iconos-animalitos-11.jpg",
+      "alt": "Image 22: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-12.jpg",
+      "archivo": "iconos-animalitos-12.jpg",
+      "alt": "Image 23: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/iconos-animalitos-13.jpg",
+      "archivo": "iconos-animalitos-13.jpg",
+      "alt": "Image 24: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/scroll-down.gif",
+      "archivo": "scroll-down.gif",
+      "alt": "Image 25: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/animalitos-slider-2.jpg",
+      "archivo": "animalitos-slider-2.jpg",
+      "alt": "Image 26: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/heart.png",
+      "archivo": "heart.png",
+      "alt": "Image 27: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/fotos/animal4.png",
+      "archivo": "animal4.png",
+      "alt": "Image 29: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/fotos/animal1.png",
+      "archivo": "animal1.png",
+      "alt": "Image 30: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/fotos/animal2.png",
+      "archivo": "animal2.png",
+      "alt": "Image 31: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/fotos/animal3.png",
+      "archivo": "animal3.png",
+      "alt": "Image 32: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/home/hospital-1.jpg",
+      "archivo": "hospital-1.jpg",
+      "alt": "Image 34: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/home/hospital-2.jpg",
+      "archivo": "hospital-2.jpg",
+      "alt": "Image 35: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/home/rx.png",
+      "archivo": "rx.png",
+      "alt": "Image 37: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/home/brain.png",
+      "archivo": "brain.png",
+      "alt": "Image 38: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/home/hospital-3.jpg",
+      "archivo": "hospital-3.jpg",
+      "alt": "Image 39: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/home/hospital-4.jpg",
+      "archivo": "hospital-4.jpg",
+      "alt": "Image 40: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/banner-tab-1.jpg",
+      "archivo": "banner-tab-1.jpg",
+      "alt": "Image 43: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/home/dog-resp.jpg",
+      "archivo": "dog-resp.jpg",
+      "alt": "Image 57: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/banner-tab-2.jpg",
+      "archivo": "banner-tab-2.jpg",
+      "alt": "Image 58: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/home/dog-resp-2.jpg",
+      "archivo": "dog-resp-2.jpg",
+      "alt": "Image 63: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/banner-tab-3.jpg",
+      "archivo": "banner-tab-3.jpg",
+      "alt": "Image 64: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/banner-tab-4.jpg",
+      "archivo": "banner-tab-4.jpg",
+      "alt": "Image 65: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/miguel-angel-map.png",
+      "archivo": "miguel-angel-map.png",
+      "alt": "Image 66: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/vertiz-map.png",
+      "archivo": "vertiz-map.png",
+      "alt": "Image 67: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/Interlomas-map.png",
+      "archivo": "Interlomas-map.png",
+      "alt": "Image 68: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/polanco-map.png",
+      "archivo": "polanco-map.png",
+      "alt": "Image 69: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/prado-norte-map.png",
+      "archivo": "prado-norte-map.png",
+      "alt": "Image 70: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/banners/zona-esmeralda-map.png",
+      "archivo": "zona-esmeralda-map.png",
+      "alt": "Image 71: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8380.jpg",
+      "archivo": "IMG_8380.jpg",
+      "alt": "Image 10: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8367.jpg",
+      "archivo": "IMG_8367.jpg",
+      "alt": "Image 11: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8374.jpg",
+      "archivo": "IMG_8374.jpg",
+      "alt": "Image 12: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8390.jpg",
+      "archivo": "IMG_8390.jpg",
+      "alt": "Image 13: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8369.jpg",
+      "archivo": "IMG_8369.jpg",
+      "alt": "Image 14: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8382.jpg",
+      "archivo": "IMG_8382.jpg",
+      "alt": "Image 15: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-02.png",
+      "archivo": "iconos-animalitos-02.png",
+      "alt": "Image 19: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-3.png",
+      "archivo": "iconos-animalitos-3.png",
+      "alt": "Image 20: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-4.png",
+      "archivo": "iconos-animalitos-4.png",
+      "alt": "Image 21: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-5.png",
+      "archivo": "iconos-animalitos-5.png",
+      "alt": "Image 22: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-6.png",
+      "archivo": "iconos-animalitos-6.png",
+      "alt": "Image 23: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-7.png",
+      "archivo": "iconos-animalitos-7.png",
+      "alt": "Image 24: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-8.png",
+      "archivo": "iconos-animalitos-8.png",
+      "alt": "Image 25: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-9.png",
+      "archivo": "iconos-animalitos-9.png",
+      "alt": "Image 26: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-10.png",
+      "archivo": "iconos-animalitos-10.png",
+      "alt": "Image 27: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-11.png",
+      "archivo": "iconos-animalitos-11.png",
+      "alt": "Image 28: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-12.png",
+      "archivo": "iconos-animalitos-12.png",
+      "alt": "Image 29: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/iconos-landing/iconos-animalitos-13.png",
+      "archivo": "iconos-animalitos-13.png",
+      "alt": "Image 30: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mapa-landing/Pin2.gif",
+      "archivo": "Pin2.gif",
+      "alt": "Image 33: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8370.jpg",
+      "archivo": "IMG_8370.jpg",
+      "alt": "Image 34: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8388.jpg",
+      "archivo": "IMG_8388.jpg",
+      "alt": "Image 35: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8389.jpg",
+      "archivo": "IMG_8389.jpg",
+      "alt": "Image 36: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8368.jpg",
+      "archivo": "IMG_8368.jpg",
+      "alt": "Image 37: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/miguel-angel/IMG_8385.jpg",
+      "archivo": "IMG_8385.jpg",
+      "alt": "Image 38: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/animalitos-servicios-1.jpg",
+      "archivo": "animalitos-servicios-1.jpg",
+      "alt": "Image 39: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/animalitos-servicios-3.jpg",
+      "archivo": "animalitos-servicios-3.jpg",
+      "alt": "Image 40: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/proxi.png",
+      "archivo": "proxi.png",
+      "alt": "Image 41"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/Iconos/animalitos-servicios-2.jpg",
+      "archivo": "animalitos-servicios-2.jpg",
+      "alt": "Image 42: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/fachada1.jpg",
+      "archivo": "fachada1.jpg",
+      "alt": "Image 10: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/recepcion2.jpg",
+      "archivo": "recepcion2.jpg",
+      "alt": "Image 11: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/recepcion1.jpg",
+      "archivo": "recepcion1.jpg",
+      "alt": "Image 12: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/tienda1.jpg",
+      "archivo": "tienda1.jpg",
+      "alt": "Image 13: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/consultorio4.jpg",
+      "archivo": "consultorio4.jpg",
+      "alt": "Image 14: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/tienda2.jpg",
+      "archivo": "tienda2.jpg",
+      "alt": "Image 15: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/fachada1-2.jpg",
+      "archivo": "fachada1-2.jpg",
+      "alt": "Image 16: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/consultorio4-1.jpg",
+      "archivo": "consultorio4-1.jpg",
+      "alt": "Image 18: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mapa-landing/Pin5.gif",
+      "archivo": "Pin5.gif",
+      "alt": "Image 33: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/consultorio2.jpg",
+      "archivo": "consultorio2.jpg",
+      "alt": "Image 34: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/recepcion3-2.jpg",
+      "archivo": "recepcion3-2.jpg",
+      "alt": "Image 35: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/landing-image16.jpeg",
+      "archivo": "landing-image16.jpeg",
+      "alt": "Image 36: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/consultorio3.jpg",
+      "archivo": "consultorio3.jpg",
+      "alt": "Image 37: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/vertiz/consulta.jpg",
+      "archivo": "consulta.jpg",
+      "alt": "Image 38: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/fachada1.jpg",
+      "archivo": "fachada1.jpg",
+      "alt": "Image 10: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/tienda1.jpg",
+      "archivo": "tienda1.jpg",
+      "alt": "Image 11: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/equipo1.jpg",
+      "archivo": "equipo1.jpg",
+      "alt": "Image 12: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/consultorio1.jpg",
+      "archivo": "consultorio1.jpg",
+      "alt": "Image 13: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/consultorio2.jpg",
+      "archivo": "consultorio2.jpg",
+      "alt": "Image 14: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/tienda2.jpg",
+      "archivo": "tienda2.jpg",
+      "alt": "Image 15: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mapa-landing/Pin1.gif",
+      "archivo": "Pin1.gif",
+      "alt": "Image 33: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/equipo2.jpg",
+      "archivo": "equipo2.jpg",
+      "alt": "Image 34: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/consultorio3.jpg",
+      "archivo": "consultorio3.jpg",
+      "alt": "Image 35: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/equipov1.jpg",
+      "archivo": "equipov1.jpg",
+      "alt": "Image 36: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/recepcion1.jpg",
+      "archivo": "recepcion1.jpg",
+      "alt": "Image 37: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Interlomas/fachada2.jpg",
+      "archivo": "fachada2.jpg",
+      "alt": "Image 38: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/fachada1.jpg",
+      "archivo": "fachada1.jpg",
+      "alt": "Image 10: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/tomo1.jpg",
+      "archivo": "tomo1.jpg",
+      "alt": "Image 11: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/tienda1.jpg",
+      "archivo": "tienda1.jpg",
+      "alt": "Image 12: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/consultorio1.jpg",
+      "archivo": "consultorio1.jpg",
+      "alt": "Image 13: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/tienda2.jpg",
+      "archivo": "tienda2.jpg",
+      "alt": "Image 14: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/equipo1.jpg",
+      "archivo": "equipo1.jpg",
+      "alt": "Image 15: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/fachada1-2.jpg",
+      "archivo": "fachada1-2.jpg",
+      "alt": "Image 16: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/tienda1-2.jpg",
+      "archivo": "tienda1-2.jpg",
+      "alt": "Image 18: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mapa-landing/Pin3.gif",
+      "archivo": "Pin3.gif",
+      "alt": "Image 33: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/tomo2.jpg",
+      "archivo": "tomo2.jpg",
+      "alt": "Image 34: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/consultorio3.jpg",
+      "archivo": "consultorio3.jpg",
+      "alt": "Image 35: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/consultorio4.jpg",
+      "archivo": "consultorio4.jpg",
+      "alt": "Image 36: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/tienda3.jpg",
+      "archivo": "tienda3.jpg",
+      "alt": "Image 37: ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://animalitosmexico.com/assets/images/mosaico-landing/Polanco/fachada2.jpg",
+      "archivo": "fachada2.jpg",
+      "alt": "Image 38: ..."
+    }
+  ]
+}

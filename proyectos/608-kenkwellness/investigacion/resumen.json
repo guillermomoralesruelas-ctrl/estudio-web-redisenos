@@ -1,0 +1,261 @@
+{
+  "sitio": "https://kenkowellness.com.mx/",
+  "fecha": "2026-09-26T09:07:47.534Z",
+  "motor": "jina-reader",
+  "slug": "kenkwellness",
+  "nombre": "Kenkō Wellness",
+  "rubro": "FITNESS",
+  "ciudad": "Naucalpan, Estado de México",
+  "plantilla": "fitness-gym",
+  "paginasRevisadas": [
+    {
+      "url": "https://kenkowellness.com.mx/",
+      "titulo": "Kenkō Wellness – Casa Holística"
+    },
+    {
+      "url": "https://kenkowellness.com.mx/giftcard/",
+      "titulo": "Giftcard – Kenkō Wellness"
+    },
+    {
+      "url": "https://kenkowellness.com.mx/filosofia-kenko/",
+      "titulo": "Filosofía Kenko – Kenkō Wellness"
+    },
+    {
+      "url": "https://kenkowellness.com.mx/formula-kenko-360/",
+      "titulo": "Fórmula Kenko 360 – Kenkō Wellness"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "61569814375033",
+      "5215519398546",
+      "5555487500",
+      "0514-9856-47565",
+      "55) 1939 8546",
+      "5519398546",
+      "55) 5548 7500",
+      "5215564359242"
+    ],
+    "emails": [
+      "instructoralina@gmail.com",
+      "claudia.garcia@kenkowellness.com.mx",
+      "hola@kenkowellness.com.mx",
+      "mailtoclaudia.garcia@kenkowellness.com.mx"
+    ],
+    "whatsapp": [
+      "whatsapp.com/send/?phone=5215519398546)",
+      "whatsapp.com/send/?phone=5215564359242)"
+    ],
+    "redes": [
+      "https://www.facebook.com/profile.php?id=61569814375033",
+      "https://www.instagram.com/wellness.kenko",
+      "https://www.tiktok.com/@kenkowellnessmx"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/02/kenko-logo-1024x367.png",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/Flower-and-foliage-2-1.png",
+      "alt": "Image 3: Flower and foliage 2"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/kenko.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/kenko2.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/kenko3.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2026/08/herbolaria-y-microdosis.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/kenko5.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/30faa8d7-mail.png",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/a46c75be-call.png",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/fd1919a4-location.png",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/spa-PM7ZZZA.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/beautiful-young-woman-at-a-spa-salon-PX5DCH3.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/at-spa-salon-P79EBGA.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/beautiful-young-woman-relaxing-with-head-massage-8JQUYL4.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/Flower-and-foliage-3.png",
+      "alt": "Image 16: Flower and foliage 3"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/01/kenko.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/mente-equilibrio.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/01/yoga.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/01/imagen.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/01/imagen2.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/01/kenko1.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/quote-2-home-1.png",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/01/kenko2.jpg",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/quote-red.png",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/Flower-and-foliage-34.png",
+      "alt": "Image 27: Flower and foliage 34"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/claudiagarcia-150x150.jpg",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/luciagarcia-150x150.jpg",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/rosariogarcia-150x150.jpg",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/jorgehumbertocamacho-150x150.jpg",
+      "alt": "Image 31"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/female-message-therapist-giving-a-massage-at-a-spa-W-1.jpg",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/16-Flower-Watercolor-reflect.png",
+      "alt": "Image 33: 16-Flower-Watercolor-reflect.png"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/10/yoga-1024x683.jpg",
+      "alt": "Image 34: ¿Cuál es tu Tipo de Yoga Ideal?"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/09/juventud-eterna-1024x683.jpg",
+      "alt": "Image 35: El Secreto de la Eterna Juventud no es un Mito: Un Periplo por las “Zonas Azules”"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/06/meditacion-1024x683.jpg",
+      "alt": "Image 36: El Poder Transformador de la Meditación: Un Camino Hacia el Bienestar Comprobado por la Ciencia"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/Flower-and-foliage-32.png",
+      "alt": "Image 37: Flower and foliage 32"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/gal1-1024x683.jpg",
+      "alt": "Image 38"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/gal2-1024x683.jpg",
+      "alt": "Image 39"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/gal3-1024x683.jpg",
+      "alt": "Image 40"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/gal4-1024x683.jpg",
+      "alt": "Image 41"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/gal5-1024x683.jpg",
+      "alt": "Image 42"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/gal6-1024x683.jpg",
+      "alt": "Image 43"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/gal7-1024x683.jpg",
+      "alt": "Image 44"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/gal8-1024x683.jpg",
+      "alt": "Image 45"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/02/kenko-logo.png",
+      "alt": "Image 47: kenko logo"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/03/yoga-newsletter.png",
+      "alt": "Image 49: yoga-newsletter"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2025/05/GIFT_CARD_baja--1024x649.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/S2-portrait-of-young-beautiful-woman-with-flower-near-A82TQZE-removebg.png",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/about-Hot-Water-Bath.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/about-Massage-Therapy.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/about-Leaves.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://kenkowellness.com.mx/wp-content/uploads/2021/12/smiling-brunette-enjoying-a-head-massage-in-the-he-PUV7ZAZ.jpg",
+      "alt": "Image 4"
+    }
+  ]
+}

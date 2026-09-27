@@ -1,0 +1,25 @@
+/*
+Theme Name: Shaver
+Theme URI: http://shaver.freevision.me/
+Author: freevision
+Author URI: http://freevision.me/
+Description: The Shaver is a Premium WordPress Theme, suitable for hair salons, beauty salons and hairdresser.
+Version: 4.6
+Text Domain: shaver
+Domain Path: /lang
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, translation-ready
+*/
+
+/**
+* Built on the Whiteboard Framework
+* http://whiteboardframework.com
+*/
+
+/*************** Add Custom CSS after this line ***************/
+
+@media only screen and (max-width: 48em) {
+/*************** Add mobile only custom CSS after this line  ***************/
+
+}
