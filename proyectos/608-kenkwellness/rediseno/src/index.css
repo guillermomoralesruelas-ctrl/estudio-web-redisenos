@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Fuentes: Prata en títulos y Lato en texto, las dos que usa su sitio (Elementor). De @fontsource, solo latino. */
+@font-face { font-family: "Prata"; src: url("../node_modules/@fontsource/prata/files/prata-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: el morado (#67568C), el verde azulado (#3A878F, oscurecido para texto) y el morado noche (#322F52) de su
+   sitio, más su rosa pálido (#FFF2FA). Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-noche: #322f52;
+  --color-morado: #67568c;
+  --color-teal: #3a878f;
+  --color-teal-hondo: #2f6f76;
+  --color-agua: #b9e3e0;
+  --color-lila: #e9c8dc;
+  --color-rosa: #fff2fa;
+  --color-fondo: #fdf9fb;
+  --color-texto: #3d3a4f;
+  --font-sans: "Lato", "Segoe UI", sans-serif;
+  --font-titulo: "Prata", "Georgia", serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.7; }
+  h1, h2, h3 { @apply font-titulo text-noche; font-weight: 400; line-height: 1.15; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .noche h1, .noche h2, .noche h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-teal-hondo); outline-offset: 3px; border-radius: 4px; }
+  .noche :focus-visible { outline-color: var(--color-agua); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-morado text-white hover:bg-noche; }
+  .btn-linea { @apply border-2 border-teal-hondo text-teal-hondo hover:bg-teal-hondo hover:text-white; }
+  .btn-claro { @apply bg-agua text-noche hover:bg-white; }
+  .enlace { @apply font-bold text-teal-hondo underline decoration-2 underline-offset-4 hover:text-noche; }
+  .noche .enlace { @apply text-agua hover:text-white; }
+  .cifra { font-variant-numeric: tabular-nums; }
+}
+
+/* "Tu Plan 360": los pétalos del mandala se abren al elegir un servicio. */
+.petalo { transform-box: fill-box; transform-origin: 50% 100%; transition: transform 0.35s ease, fill 0.25s ease, opacity 0.25s ease; }
+.petalo[data-on="true"] { transform: scale(1.12); }
