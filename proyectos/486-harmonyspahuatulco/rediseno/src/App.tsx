@@ -176,7 +176,7 @@ function IdaYVuelta() {
               className="aspect-[4/3] w-full rounded-xl object-cover"
             />
             <h3 className="mt-5 font-titulo text-2xl">{elegido.nombre}</h3>
-            <p className="mt-1 text-sm text-white/60">{elegido.duracion} · {mxn(elegido.precio)}</p>
+            <p className="mt-1 text-sm text-white/60">{elegido.duracion}, {mxn(elegido.precio)}</p>
             <p className="mt-3 text-white/80">{elegido.descripcion}</p>
             <a href={waPaquete(elegido)} target="_blank" rel="noopener" className="btn mt-5 bg-terracota text-profundo hover:bg-white">
               <IconoWa /> Reservar {elegido.nombre} por WhatsApp
