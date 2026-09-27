@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Fuentes: Syne en títulos y Work Sans en texto (dos de las familias que carga su tema de WordPress.com).
+   De @fontsource, solo el subconjunto latino. Space Mono no se usa: los números de cuadro van en Work Sans tabular. */
+@font-face { font-family: "Syne"; src: url("../node_modules/@fontsource/syne/files/syne-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Work Sans"; src: url("../node_modules/@fontsource/work-sans/files/work-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Work Sans"; src: url("../node_modules/@fontsource/work-sans/files/work-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: el ámbar de su tema (#e7a203, y #b47f02 en hover), su gris carbón (#3a3a3a) y el negro del cuarto oscuro.
+   Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-oscuro: #141312;
+  --color-carbon: #2a2826;
+  --color-ambar: #e7a203;
+  --color-ambar-hondo: #8a5f00;
+  --color-papel: #f6f3ec;
+  --color-texto: #3a3a3a;
+  --font-sans: "Work Sans", "Segoe UI", sans-serif;
+  --font-titulo: "Syne", "Arial", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-titulo text-oscuro; font-weight: 700; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .noche h1, .noche h2, .noche h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-ambar-hondo); outline-offset: 3px; border-radius: 4px; }
+  .noche :focus-visible { outline-color: var(--color-ambar); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-ambar text-oscuro hover:bg-white; }
+  .btn-claro { @apply border border-white/50 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-semibold text-ambar-hondo underline decoration-2 underline-offset-4 hover:text-oscuro; }
+  .noche .enlace { @apply text-ambar hover:text-white; }
+  .cifra { font-variant-numeric: tabular-nums; }
+}
+
+/* "La hoja de contactos": la tira de negativo con sus perforaciones y el círculo de lápiz graso. */
+.tira {
+  background-color: #0b0a09;
+  background-image:
+    radial-gradient(circle at center, #f6f3ec22 0 40%, transparent 42%),
+    radial-gradient(circle at center, #f6f3ec22 0 40%, transparent 42%);
+  background-size: 22px 14px, 22px 14px;
+  background-position: 0 4px, 0 calc(100% - 4px);
+  background-repeat: repeat-x;
+}
+.lapiz { stroke-dasharray: 1; stroke-dashoffset: 0; animation: marcar 0.5s ease-out; }
+@keyframes marcar { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+.revelado { animation: revelar 0.6s ease-out; }
+@keyframes revelar { from { opacity: 0; filter: brightness(2.2) sepia(0.6); } to { opacity: 1; filter: none; } }
