@@ -1,0 +1,21 @@
+# Imágenes disponibles en publicDir (../sitio/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+00_Galeria_03.jpg	800x800	62 KB
+00_Galeria_01.jpg	800x800	56 KB
+00_Galeria_02.jpg	800x800	49 KB
+home_footer.jpg	964x291	46 KB
+00_ServicioDom_01.jpg	800x800	33 KB
+00_Quienes_Somos.jpg	336x336	23 KB
+00_Logo_BizeNiza.jpg	204x110	6 KB
+00_Promociones.jpg	174x174	6 KB
+00_Especiales.jpg	174x174	5 KB
+contacto_logo.jpg	140x90	4 KB
+icono_instagram.png	22x22	1 KB
+icono_twitter.png	22x22	1 KB
+icono_privacidad.png	22x22	1 KB
+icono_time.png	22x22	1 KB
+icono_face.png	22x22	1 KB
+icono_tel.png	22x22	1 KB
+icono_home.png	22x22	1 KB
+icono_terminos.png	22x22	0 KB
+icono_cel.png	22x22	0 KB
