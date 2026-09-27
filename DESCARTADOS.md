@@ -24,6 +24,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `391-estanteriavinoslicores` | Estantería Vinos & Licores | Culiacán, Sin. | `sin-contacto` | Licorería solo de envío a domicilio en Shopify, sin WhatsApp ni tienda física. La base dice Aguascalientes pero el sitio anuncia envío en Culiacán | PC |
 | `316-distribuidoraeanpets` | Distribuidora Ean Pet's | Ciudad de México | `sin-fotos` | Ninguna foto propia: productos de fabricante, gráficos de Canva con perros y gatos de banco, una imagen hecha con ChatGPT y el logo solo a 32×32 px. Sí tiene WhatsApp (55 3901 1584) | Nube |
 | `469-grupoandersons` | Grupo Anderson's | Cancún, Q. Roo (la base dice San Luis Potosí) | `cadena` | Consorcio restaurantero con 50 unidades en varios países y sin canal para el comensal (ni WhatsApp ni `tel:`). Sus 50 ubicaciones con coordenadas están en `investigacion/original.html` si se retoma | Nube |
+| `353-elclaustro` | El Claustro, Educación Continua de la Universidad del Claustro de Sor Juana | Ciudad de México | `sin-fotos` | Sus imágenes de curso son de banco, ilustraciones, dos parecen hechas con IA y el resto son postales con texto; solo dos podrían ser propias (un pasillo y sus publicaciones), a 300 px. Tampoco publica dirección (sí WhatsApp 56 2139 9597 y 56 2139 9598). Es una universidad con seis áreas de contacto y decenas de programas | PC |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
