@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Fuentes de su tema (YOOtheme "Vision" en theme.9.css): Barlow Semi Condensed para títulos y Barlow para el texto.
+   De @fontsource, solo el subconjunto latino. */
+@font-face { font-family: "Barlow Semi Condensed"; src: url("../node_modules/@fontsource/barlow-semi-condensed/files/barlow-semi-condensed-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: la noche azul (#181937) y el rosa (#ff2e64) de su tema y de su logo, el gris de su texto (#4a4e58),
+   los pinos de Temascaltepec y el cielo de sus capturas 360. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-noche: #141a3d;
+  --color-niebla: #f3f5f8;
+  --color-papel: #ffffff;
+  --color-texto: #454b5c;
+  --color-rosa: #ff2e64;
+  --color-rosa-hondo: #c8174a;
+  --color-pino: #2f5d3a;
+  --color-cielo: #dbe9f6;
+  --font-sans: "Barlow", "Segoe UI", sans-serif;
+  --font-titulo: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-niebla text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply text-noche font-titulo; font-weight: 600; line-height: 1.05; letter-spacing: -0.005em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rosa-hondo); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-rosa); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-pino, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-rosa text-noche hover:bg-white; }
+  .btn-pino { @apply bg-pino text-white hover:bg-noche; }
+  .btn-linea { @apply border border-noche/30 text-noche hover:border-noche hover:bg-noche/5; }
+  .btn-claro { @apply border border-white/45 text-white hover:border-white hover:bg-white/10; }
+  .cifra { font-variant-numeric: tabular-nums; }
+  .enlace { @apply font-bold text-rosa-hondo underline decoration-2 underline-offset-4 hover:text-noche; }
+}
+
+/* "El recorrido de tu vuelo": el trazo se dibuja (quieto con prefers-reduced-motion). */
+.recorrido { stroke-dasharray: 1; stroke-dashoffset: 1; animation: trazar 1.1s ease-in-out forwards; }
+@keyframes trazar { to { stroke-dashoffset: 0; } }
+.ficha { animation: aparece 0.35s ease-out; }
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
