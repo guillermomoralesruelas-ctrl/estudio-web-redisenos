@@ -1,0 +1,18 @@
+# Imágenes disponibles en publicDir (../sitio/assets/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+historia-restaurante.png	1024x939	1803 KB
+img/background.webp	2752x1536	301 KB
+platillos/Coladelangostaalamantequilla.jpeg	854x1280	149 KB
+platillos/Tentaculosteriyaki.jpeg	854x1280	143 KB
+platillos/Acamayasenchipotladas.jpeg	854x1280	134 KB
+platillos/salmonensalsachuntey.jpeg	854x1280	121 KB
+platillos/Picadasdehueva.jpeg	854x1280	121 KB
+platillos/Camaronesalmojodeajo.jpeg	854x1280	118 KB
+platillos/Lomochilelimon.jpeg	854x1280	118 KB
+platillos/EnsaladaMichelle.jpeg	854x1280	115 KB
+platillos/Caldoderebanadaderobalo.jpeg	854x1280	115 KB
+platillos/Vuelvealavidamarinera.jpeg	854x1280	99 KB
+platillos/Platanorellenodemariscos.jpeg	854x1280	92 KB
+platillos/DobladasMalpica.jpeg	854x1280	83 KB
+img/fotomenu.png	621x826	62 KB
+favicon.png	291x278	21 KB

@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/* Fuentes (solo latino, con @fontsource). Sus fuentes Avenza y Modern Deluxe Smooth son comerciales y no están en
+   @fontsource: Crimson Pro se parece a los títulos de su carta impresa; Raleway es la de los botones de su sitio;
+   Barlow Condensed, a la letra condensada de los renglones de su PDF. */
+@font-face { font-family: "Crimson Pro"; src: url("../node_modules/@fontsource/crimson-pro/files/crimson-pro-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Crimson Pro"; src: url("../node_modules/@fontsource/crimson-pro/files/crimson-pro-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Raleway"; src: url("../node_modules/@fontsource/raleway/files/raleway-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Raleway"; src: url("../node_modules/@fontsource/raleway/files/raleway-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Raleway"; src: url("../node_modules/@fontsource/raleway/files/raleway-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow Condensed"; src: url("../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: los colores de su CSS (vino #7E2625, crema #F0E6C2, azul marino #1C3762, ladrillo #BD550E, aquí oscurecido
+   para texto y botones), el oro de su logo y su carta (#A67C2E) y el papel de su menú impreso. */
+@theme {
+  --color-papel: #fbf7ec;
+  --color-arena: #f0e6c2;
+  --color-vino: #7e2625;
+  --color-marino: #1c3762;
+  --color-ladrillo: #9a430a;
+  --color-oro: #a67c2e;
+  --color-oro-claro: #d9b56a;
+  --color-tinta: #2b1a17;
+  --color-texto: #56423b;
+  --font-sans: "Raleway", "Segoe UI", sans-serif;
+  --font-titulo: "Crimson Pro", Georgia, serif;
+  --font-renglon: "Barlow Condensed", "Arial Narrow", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+  body { @apply bg-papel text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3, h4 { @apply text-tinta; line-height: 1.05; text-wrap: balance; }
+  .oscuro h2, .oscuro h3 { color: var(--color-papel); }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ladrillo); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-oro-claro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { font-family: var(--font-titulo); font-weight: 600; }
+  .titulo.italic { font-weight: 500; }
+  .renglon { font-family: var(--font-renglon); font-weight: 600; letter-spacing: 0.01em; line-height: 1.2; }
+  .btn, .btn-linea, .btn-claro, .btn-arena {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-ladrillo text-white hover:bg-vino; }
+  .btn-linea { @apply border-2 border-tinta/60 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .btn-arena { @apply bg-arena text-vino hover:bg-papel; }
+  .btn-claro { @apply border-2 border-arena/60 text-arena hover:border-arena hover:bg-arena/10; }
+  .precio { font-variant-numeric: tabular-nums; }
+  .puntos { @apply min-w-4 flex-1 border-b border-dotted border-tinta/35; transform: translateY(-0.3em); }
+  .tira { scrollbar-width: thin; scroll-snap-type: x proximity; }
+  .tira > * { scroll-snap-align: start; }
+  .salsa { transition: fill 0.45s ease; }
+
+  /* El marco de su carta impresa: doble filete dorado con listones en las esquinas de arriba. */
+  .marco {
+    position: relative;
+    border: 2px solid var(--color-oro);
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 6px var(--color-papel), inset 0 0 0 7.5px var(--color-oro);
+  }
+  .marco::before, .marco::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    width: 26px;
+    height: 26px;
+    border-top: 2px solid var(--color-oro);
+    background: linear-gradient(135deg, var(--color-arena) 50%, transparent 50%);
+  }
+  .marco::before { left: -2px; border-left: 2px solid var(--color-oro); border-top-left-radius: 10px; }
+  .marco::after { right: -2px; border-right: 2px solid var(--color-oro); border-top-right-radius: 10px; background: linear-gradient(225deg, var(--color-arena) 50%, transparent 50%); }
+}
