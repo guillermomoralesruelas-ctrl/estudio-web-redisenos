@@ -1,0 +1,116 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource/cormorant-garamond/latin-600.css";
+
+/* Tokens del proyecto — High Point León: lujo oscuro + dorado */
+@theme {
+  --color-fondo:    #0D0D0D;
+  --color-fondo-2:  #141414;
+  --color-fondo-3:  #1C1C1C;
+  --color-tinta:    #FFFFFF;
+  --color-tinta-2:  #C8C8C8;
+  --color-acento:   #C9A227;
+  --color-acento-2: #A8841D;
+  --color-borde:    #2A2A2A;
+  --font-sans:      "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo:    "Cormorant Garamond", Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    @apply bg-fondo text-tinta font-sans antialiased;
+    background-color: var(--color-fondo);
+    color: var(--color-tinta);
+  }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible {
+    outline: 3px solid var(--color-acento);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .contenedor {
+    @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8;
+  }
+  .btn-dorado {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.75rem;
+    background-color: var(--color-acento);
+    color: #0D0D0D;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn-dorado:hover {
+    background-color: var(--color-acento-2);
+  }
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.75rem;
+    border: 1px solid var(--color-acento);
+    color: var(--color-acento);
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn-outline:hover {
+    background-color: var(--color-acento);
+    color: #0D0D0D;
+  }
+  .titulo-seccion {
+    font-family: var(--font-titulo);
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 600;
+    color: var(--color-tinta);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  }
+  .subtitulo-dorado {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-acento);
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+  .linea-dorada {
+    width: 3rem;
+    height: 1px;
+    background-color: var(--color-acento);
+    margin: 1rem 0;
+  }
+  .card-oscura {
+    background-color: var(--color-fondo-3);
+    border: 1px solid var(--color-borde);
+    border-radius: 4px;
+  }
+}
