@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gran Familia | Cocina potosina, desayunos y comida corrida en San Luis Potosí</title>
+    <meta name="description" content="Restaurante de cocina potosina en Av. Vasco de Quiroga 209, San Luis Potosí. Desayunos y almuerzos, comida corrida de lunes a viernes y barbacoa de borrego los fines de semana. Abierto diario de 8:00 a.m. a 6:00 p.m." />
+    <meta name="theme-color" content="#faf6ee" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gran Familia: donde la tradición se sienta a la mesa" />
+    <meta property="og:description" content="Cocina potosina en San Luis Potosí. Desayunos, comida corrida y barbacoa de borrego los fines de semana. Reserva tu mesa por WhatsApp." />
+    <meta property="og:image" content="./mesa.webp" />
+    <meta property="og:locale" content="es_MX" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "@id": "https://www.lagranfamilia.mx/#restaurante",
+        "name": "Gran Familia",
+        "alternateName": "Gran Familia Cocina Potosina Tradicional",
+        "description": "Restaurante de cocina potosina tradicional: desayunos y almuerzos, comida corrida de lunes a viernes y barbacoa de borrego los sábados y domingos.",
+        "url": "https://www.lagranfamilia.mx/",
+        "image": "https://www.lagranfamilia.mx/assets/img/IMG-20251213-WA0090.jpg",
+        "logo": "https://www.lagranfamilia.mx/assets/img/LOGO/LOGOTIPO%20NEGRO%20SIN%20FONDO.png",
+        "telephone": "+52 444 411 5560",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. Vasco de Quiroga 209, Industrial Aviación 1ra Secc.",
+          "postalCode": "78140",
+          "addressLocality": "San Luis Potosí",
+          "addressRegion": "S.L.P.",
+          "addressCountry": "MX"
+        },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Gran%20Familia%2C%20Av.%20Vasco%20de%20Quiroga%20209%2C%20Industrial%20Aviaci%C3%B3n%201ra%20Secc%2C%2078140%20San%20Luis%20Potos%C3%AD%2C%20S.L.P.",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "08:00",
+            "closes": "18:00"
+          }
+        ],
+        "servesCuisine": ["Mexicana", "Potosina"],
+        "priceRange": "$$",
+        "currenciesAccepted": "MXN",
+        "acceptsReservations": true,
+        "hasMenu": {
+          "@type": "Menu",
+          "name": "Menú de Gran Familia",
+          "hasMenuSection": [
+            { "@type": "MenuSection", "name": "Menú de la mañana: desayunos y almuerzos potosinos" },
+            { "@type": "MenuSection", "name": "Menú de la tarde: comida corrida y antojitos potosinos" },
+            {
+              "@type": "MenuSection",
+              "name": "Especiales de fin de semana",
+              "hasMenuItem": [
+                { "@type": "MenuItem", "name": "Barbacoa de borrego (1 kg)", "offers": { "@type": "Offer", "price": "780", "priceCurrency": "MXN" } },
+                { "@type": "MenuItem", "name": "Taco de barbacoa", "offers": { "@type": "Offer", "price": "33", "priceCurrency": "MXN" } },
+                { "@type": "MenuItem", "name": "Menudo chico", "offers": { "@type": "Offer", "price": "116", "priceCurrency": "MXN" } },
+                { "@type": "MenuItem", "name": "Quesabirria", "offers": { "@type": "Offer", "price": "55", "priceCurrency": "MXN" } }
+              ]
+            }
+          ]
+        },
+        "potentialAction": {
+          "@type": "ReserveAction",
+          "target": "https://wa.me/524444115560"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

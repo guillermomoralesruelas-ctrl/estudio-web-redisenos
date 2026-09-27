@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Fuentes de su sitio (su tailwind-config.js: Besley en títulos y Lato en texto), con @fontsource y solo latino. */
+@font-face { font-family: "Besley"; src: url("../node_modules/@fontsource/besley/files/besley-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Besley"; src: url("../node_modules/@fontsource/besley/files/besley-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Besley"; src: url("../node_modules/@fontsource/besley/files/besley-latin-600-italic.woff2") format("woff2"); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: su rojo (#B91C1C) y su verde (#15803D, un tono más oscuro para texto) de tailwind-config.js, el negro de su
+   logo, el mantel a cuadros de su foto de la mesa y el papel crema de fonda. */
+@theme {
+  --color-manta: #faf6ee;
+  --color-maiz: #f1e7d2;
+  --color-rojo: #b91c1c;
+  --color-rojo-oscuro: #8f1616;
+  --color-verde: #166534;
+  --color-tinta: #1c1917;
+  --color-texto: #44403c;
+  --font-sans: "Lato", "Segoe UI", sans-serif;
+  --font-titulo: "Besley", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+  body { @apply bg-manta text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply text-tinta; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rojo); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: #fff; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { font-family: var(--font-titulo); font-weight: 700; letter-spacing: -0.01em; }
+  .btn, .btn-linea, .btn-blanco {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[1rem] font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-rojo text-white hover:bg-rojo-oscuro; }
+  .btn-linea { @apply border-2 border-tinta/70 text-tinta hover:bg-tinta hover:text-manta; }
+  .btn-blanco { @apply bg-white text-rojo hover:bg-manta; }
+  .enlace { @apply font-bold text-rojo underline decoration-rojo/40 decoration-2 underline-offset-4 hover:decoration-rojo; }
+  .precio { font-variant-numeric: tabular-nums; }
+  /* El mantel a cuadros de su foto de la mesa: campo de "¿Qué día vienes?". */
+  .mantel {
+    background-color: #fbf8f1;
+    background-image:
+      linear-gradient(90deg, rgb(185 28 28 / 0.55) 50%, transparent 50%),
+      linear-gradient(rgb(185 28 28 / 0.55) 50%, transparent 50%);
+    background-size: 44px 44px;
+    background-blend-mode: multiply;
+  }
+  /* Renglón de carta impresa: nombre, puntos y precio. */
+  .puntos { flex: 1; min-width: 1.5rem; border-bottom: 2px dotted rgb(28 25 23 / 0.3); transform: translateY(-0.35em); }
+  .plato-dia { transition: transform 0.25s ease; }
+  .plato-dia[aria-pressed="true"] { transform: translateY(-6px); }
+}

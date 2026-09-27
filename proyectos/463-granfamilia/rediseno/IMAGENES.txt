@@ -1,0 +1,13 @@
+# Imágenes disponibles en publicDir (../sitio/assets/assets/img), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+PLATILLOS_Y_OTROS/ensaladas_granfamilia_opt.jpg	1500x1500	505 KB
+PLATILLOS_Y_OTROS/omelette_gran_familia_opt.jpg	1500x1500	415 KB
+PLATILLOS_Y_OTROS/hotcakes_con_nutella_gran_familia_opt.jpg	1500x1500	384 KB
+PLATILLOS_Y_OTROS/cecina_gran_familia_opt.jpg	1500x1500	359 KB
+LOGO/LOGOTIPO%20BLANCO%20SIN%20FONDO.png	2312x1795	356 KB
+PLATILLOS_Y_OTROS/servir_plato_granfamilia_opt.jpg	1500x1500	300 KB
+PLATILLOS_Y_OTROS/chilaquiles_con_huevo_granfamilia_opt.jpg	1500x1500	299 KB
+WhatsApp%20Image%202025-12-13%20at%2016.22.57_3b30f1c9.jpg	1500x1500	291 KB
+LOGO/LOGOTIPO%20NEGRO%20SIN%20FONDO.png	2312x1795	269 KB
+IMG-20251213-WA0090.jpg	1179x1194	211 KB
+WhatsApp%20Image%202025-12-13%20at%2016.24.05_6f16f09-1.jpg	1500x1027	205 KB
