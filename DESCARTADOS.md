@@ -44,3 +44,4 @@ Salieron en `candidatos-1.1.mjs` el 2026-09-27 y se saltaron solo por la URL o e
 | `409-fairmontmayakoba` | Fairmont Mayakoba | Cancún, Q. Roo (según la base) | `cadena` | Hotel de la cadena Fairmont |
 | `452-goldsgym` | Gold's Gym Saltillo | Saltillo, Coah. | `cadena` · `pocas-fotos` | Franquicia internacional; la URL es la página de sucursales de la marca y solo hay 6 fotos locales |
 | `448-georgieurisfotografia` | Georgi Euris Fotografía | Ciudad de México | `pocas-fotos` | Sitio propio (georgieuris.com) pero solo 16 fotos locales. No está descartado: es buen candidato si las fotos sirven |
+| `372-ensalsateqdancecenter` | EnsalSateq Dance Center | Corregidora, Qro. | `url-ajena` | La URL es salsavida.com, un directorio de salsa, no el sitio de la academia |
