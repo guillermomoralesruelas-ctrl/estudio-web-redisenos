@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Tokens: ver "Dirección visual" en entregables/plan-diseno.md.
+   turquesa, ámbar, naranja y vino son los cuatro cuadros de su logo (logo1.png). */
+@theme {
+  --color-turquesa: #54b5bf;
+  --color-turquesahondo: #1d6b73;
+  --color-ambar: #f2a516;
+  --color-naranja: #f24e29;
+  --color-naranjahondo: #c2381a;
+  --color-vino: #8c1c1c;
+  --color-papel: #fbf7f2;
+  --color-noche: #2a1414;
+  --color-tinta: #26221f;
+  --color-gris: #5f5a55;
+  --font-titulo: "Newsreader Variable", "Georgia", serif;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-papel text-tinta font-sans antialiased; }
+  h1, h2, h3 { @apply font-titulo font-medium text-balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-turquesahondo); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full bg-turquesahondo px-6 py-3 text-[0.95rem] font-semibold text-white transition-colors hover:bg-noche; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-turquesahondo px-6 py-3 text-[0.95rem] font-semibold text-turquesahondo transition-colors hover:bg-turquesahondo hover:text-white; }
+}
