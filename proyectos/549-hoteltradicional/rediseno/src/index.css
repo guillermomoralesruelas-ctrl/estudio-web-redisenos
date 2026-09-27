@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* Fuentes de su sitio (style.css las pide a Google Fonts): Josefin Sans para títulos y Poppins para el texto.
+   De @fontsource, solo el subconjunto latino. */
+@font-face { font-family: "Josefin Sans"; src: url("../node_modules/@fontsource/josefin-sans/files/josefin-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Josefin Sans"; src: url("../node_modules/@fontsource/josefin-sans/files/josefin-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("../node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("../node_modules/@fontsource/poppins/files/poppins-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("../node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: el naranja del logotipo (#cc7100), el cal de los muros de la casona, la madera del pasillo y los colores del
+   brocado de sus textiles (añil, grana y morado de Zinacantán). Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-cal: #f7f1e6;
+  --color-papel: #fffbf4;
+  --color-tinta: #2b1f1a;
+  --color-texto: #5a4a40;
+  --color-naranja: #cc7100;
+  --color-ocre: #8f4a00;
+  --color-anil: #25285e;
+  --color-anil-2: #33377a;
+  --color-grana: #a3243b;
+  --color-morado: #6e3f8f;
+  --color-jade: #2f7d6d;
+  --color-oro: #e9b35f;
+  --font-sans: "Poppins", "Segoe UI", sans-serif;
+  --font-titulo: "Josefin Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-texto font-sans antialiased; font-size: 1rem; line-height: 1.7; }
+  h1, h2, h3 { @apply text-tinta font-titulo; font-weight: 700; line-height: 1.05; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-anil); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-oro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro, .btn-oro {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-ocre text-white hover:bg-tinta; }
+  .btn-oro { @apply bg-oro text-tinta hover:bg-white; }
+  .btn-claro { @apply bg-white text-anil hover:bg-oro; }
+  .btn-linea { @apply border border-tinta/30 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .cifra { font-variant-numeric: tabular-nums; }
+  .enlace { @apply font-semibold text-ocre underline decoration-naranja decoration-2 underline-offset-4 hover:text-tinta; }
+}
+
+/* "Teje tu viaje": cada franja aparece de izquierda a derecha, como si se tejiera (quieto con prefers-reduced-motion). */
+.franja { animation: tejer 0.45s ease-out both; transform-box: fill-box; transform-origin: left center; }
+@keyframes tejer { from { opacity: 0; transform: scaleX(0.2); } to { opacity: 1; transform: none; } }
+.ficha { animation: aparece 0.35s ease-out; }
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }

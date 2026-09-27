@@ -1,0 +1,21 @@
+# Imágenes disponibles en publicDir (../sitio/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+slider/slider3.jpg	1200x600	335 KB
+scbg.jpg	2477x1500	308 KB
+partner3.png	300x300	178 KB
+dealsbg.jpg	2520x1050	170 KB
+partner5.png	300x300	161 KB
+slider/slider7.jpg	1200x600	151 KB
+loader.png	800x600	149 KB
+slider/slider2.jpg	1200x600	147 KB
+partner7.png	300x300	143 KB
+partner6.png	300x300	128 KB
+partner4.png	300x300	125 KB
+partner2.png	300x300	118 KB
+logotradicional.png	261x74	60 KB
+testemonial3.jpg	400x400	44 KB
+testemonial5.jpg	400x400	39 KB
+testemonial1.jpg	400x400	38 KB
+testemonial4.jpg	400x400	30 KB
+quote.png	512x512	30 KB
+testemonial2.jpg	400x400	21 KB
