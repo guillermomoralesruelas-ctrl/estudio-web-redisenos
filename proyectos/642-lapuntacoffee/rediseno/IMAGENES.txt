@@ -1,0 +1,12 @@
+# Imágenes disponibles en publicDir (../sitio/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+screenshot-2.png	1372x1836	2774 KB
+screenshot-1.png	1372x1830	2720 KB
+IMG_5206.jpg	1536x2048	577 KB
+IMG_8614.jpg	1536x2048	563 KB
+IMG_5164.jpg	1152x2048	539 KB
+IMG_5143.jpg	1536x2048	477 KB
+IMG_5119.jpg	2000x1500	374 KB
+sunshine-smoothie.webp	765x1020	86 KB
+2b0fda41-5733-410c-b29e-b98d95baee72.JPG	1600x1600	67 KB
+IMG_1927.jpg	1600x900	11 KB

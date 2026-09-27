@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Fuentes: su sitio usa la letra del sistema y su logo una letra redonda y gruesa de los setenta que no está en @fontsource.
+   Shrikhand (títulos) y Outfit (texto), servidas con @fontsource, solo latino. */
+@font-face { font-family: "Shrikhand"; src: url("../node_modules/@fontsource/shrikhand/files/shrikhand-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: su rosa (#F0C6DD, su --peach), su amarillo (#F1CC69, --sand) y su naranja (#F0A42F, --orange), los del logo;
+   el turquesa de la alberca y la piedra clara de la orilla de sus fotos; y versiones oscuras para cumplir contraste AA. */
+@theme {
+  --color-cal: #fffaf6;
+  --color-rosa: #f0c6dd;
+  --color-sol: #f1cc69;
+  --color-naranja: #f0a42f;
+  --color-alberca: #7fd6d8;
+  --color-alberca-honda: #0d5a60;
+  --color-quemado: #8a4200;
+  --color-tinta: #2b1a24;
+  --color-texto: #5b4450;
+  --font-sans: "Outfit", "Segoe UI", sans-serif;
+  --font-titulo: "Shrikhand", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+  body { @apply bg-cal text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3, legend { @apply text-tinta; font-weight: 400; line-height: 1.05; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-alberca-honda); outline-offset: 3px; border-radius: 6px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-tinta, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-alberca-honda text-white hover:bg-tinta; }
+  .btn-tinta { @apply bg-tinta text-cal hover:bg-alberca-honda; }
+  .btn-linea { @apply border-2 border-tinta/70 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .precio { font-variant-numeric: tabular-nums; }
+  .puntos { @apply min-w-4 flex-1 border-b border-dotted border-tinta/40; transform: translateY(-0.35em); }
+}

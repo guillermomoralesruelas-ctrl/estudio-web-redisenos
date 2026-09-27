@@ -1,0 +1,143 @@
+{
+  "fecha": "2026-09-27T08:27:58.293Z",
+  "carpeta": "642-lapuntacoffee",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3606,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/2b0fda41-5733-410c-b29e-b98d95baee72.JPG",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/2b0fda41-5733-410c-b29e-b98d95baee72.JPG",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_1927.jpg",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5119.jpg",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5143.jpg",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5164.jpg",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/screenshot-1.png",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/screenshot-2.png",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/sunshine-smoothie.webp",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5206.jpg",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_8614.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "La Punta Coffee — Beach • Coffee • Vibes",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/2b0fda41-5733-410c-b29e-b98d95baee72.JPG",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/2b0fda41-5733-410c-b29e-b98d95baee72.JPG",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5143.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_1927.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5119.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5143.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5164.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/screenshot-1.png",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/screenshot-2.png",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/sunshine-smoothie.webp",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5206.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_8614.jpg"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6633,
+      "desbordeX": 164,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/2b0fda41-5733-410c-b29e-b98d95baee72.JPG",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/2b0fda41-5733-410c-b29e-b98d95baee72.JPG",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_1927.jpg",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5119.jpg",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5143.jpg",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5164.jpg",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/screenshot-1.png",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/screenshot-2.png",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/sunshine-smoothie.webp",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5206.jpg",
+        "http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_8614.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "La Punta Coffee — Beach • Coffee • Vibes",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/2b0fda41-5733-410c-b29e-b98d95baee72.JPG",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/2b0fda41-5733-410c-b29e-b98d95baee72.JPG",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5143.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_1927.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5119.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5143.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5164.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/screenshot-1.png",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/screenshot-2.png",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/sunshine-smoothie.webp",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_5206.jpg",
+        "404 http://127.0.0.1:59825/642-lapuntacoffee/sitio/IMG_8614.jpg"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6466,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Punta Coffee | Coffee, juices & smoothies by the pool in Puerto Escondido",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9048,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Punta Coffee | Coffee, juices & smoothies by the pool in Puerto Escondido",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
