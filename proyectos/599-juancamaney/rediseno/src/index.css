@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* Fuentes: Rye (la del letrero del Oeste de su tema) para el nombre, el H1 y la etiqueta del disco; Playfair Display
+   (títulos) y Trocchi (texto), las otras familias que carga su tema. De @fontsource, solo el subconjunto latino. */
+@font-face { font-family: "Rye"; src: url("../node_modules/@fontsource/rye/files/rye-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Trocchi"; src: url("../node_modules/@fontsource/trocchi/files/trocchi-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+
+/* Tokens: el dorado de su tema (#d6ae4c), el cuero oscuro de sus fotos de producto y el papel de sus etiquetas.
+   Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-noche: #15100c;
+  --color-cuero: #241a13;
+  --color-oro: #d6ae4c;
+  --color-oro-hondo: #7a5a14;
+  --color-crema: #f4ecdc;
+  --color-hueso: #efe4cf;
+  --color-polvo: #c9bba3;
+  --color-tinta: #2b2119;
+  --color-vino: #8a3b32;
+  --font-sans: "Trocchi", Georgia, serif;
+  --font-titulo: "Playfair Display", Georgia, serif;
+  --font-letrero: "Rye", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.7; }
+  h1, h2, h3 { @apply font-titulo text-tinta; font-weight: 700; line-height: 1.12; text-wrap: balance; }
+  h1 { @apply font-letrero; font-weight: 400; line-height: 1.08; }
+  p { text-wrap: pretty; }
+  .noche h1, .noche h2, .noche h3 { @apply text-hueso; }
+  :focus-visible { outline: 3px solid var(--color-oro-hondo); outline-offset: 3px; border-radius: 4px; }
+  .noche :focus-visible { outline-color: var(--color-oro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-claro, .btn-oscuro {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-[0.98rem] transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-oro text-noche hover:bg-hueso; }
+  .btn-claro { @apply border border-oro/70 text-hueso hover:border-hueso hover:bg-hueso/10; }
+  .btn-oscuro { @apply bg-tinta text-crema hover:bg-vino; }
+  .enlace { @apply text-oro-hondo underline decoration-1 underline-offset-4 hover:text-tinta; }
+  .noche .enlace { @apply text-oro hover:text-hueso; }
+  .cifra { font-variant-numeric: tabular-nums lining-nums; }
+  /* Renglón de menú de barbería: nombre, línea de puntos y precio. */
+  .renglon { @apply flex items-baseline gap-3; }
+  .renglon::after { content: ""; order: 1; flex: 1; border-bottom: 2px dotted currentColor; opacity: 0.35; transform: translateY(-0.3em); }
+  .renglon > .precio { order: 2; }
+}
+
+/* Tapiz de damasco dibujado por nosotros (su sitio usa texturas de banco). */
+.tapiz {
+  background-color: var(--color-noche);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='96' viewBox='0 0 64 96'%3E%3Cg fill='none' stroke='%23d6ae4c' stroke-opacity='.09' stroke-width='1.4'%3E%3Cpath d='M32 8c10 12 14 22 0 40C18 30 22 20 32 8Z'/%3E%3Cpath d='M32 48c-8 10-20 12-28 4 8-2 16 0 28-4Zm0 0c8 10 20 12 28 4-8-2-16 0-28-4Z'/%3E%3Cpath d='M32 56v32M24 80c4-4 12-4 16 0'/%3E%3Ccircle cx='0' cy='0' r='6'/%3E%3Ccircle cx='64' cy='0' r='6'/%3E%3Ccircle cx='0' cy='96' r='6'/%3E%3Ccircle cx='64' cy='96' r='6'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* La rockola: el disco gira mientras suena; con prefers-reduced-motion se queda quieto. */
+.disco { transform-box: fill-box; transform-origin: center; }
+.disco.sonando { animation: girar 1.8s linear infinite; }
+@keyframes girar { to { transform: rotate(360deg); } }
+.brazo { transform-box: view-box; transform-origin: 236px 112px; transition: transform 0.6s ease; transform: rotate(-24deg); }
+.brazo.puesto { transform: rotate(0deg); }
+.burbuja { animation: subir 3.2s linear infinite; }
+@keyframes subir { from { transform: translateY(0); opacity: 0.9; } to { transform: translateY(-150px); opacity: 0; } }
