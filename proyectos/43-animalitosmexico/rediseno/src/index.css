@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Su sitio usa Gotham Rounded (de pago). En su lugar, Nunito: también redondeada, libre, de @fontsource y solo latino. */
+@font-face { font-family: "Nunito"; src: url("../node_modules/@fontsource/nunito/files/nunito-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Nunito"; src: url("../node_modules/@fontsource/nunito/files/nunito-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Nunito"; src: url("../node_modules/@fontsource/nunito/files/nunito-latin-900-normal.woff2") format("woff2"); font-weight: 900; font-style: normal; font-display: swap; }
+
+/* Tokens: el azul de su logo y de todo su sitio (#008fd3) y los círculos de color de sus fotos (rosa, amarillo y
+   verde). Versiones más oscuras para texto y botones. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-azul: #008fd3;
+  --color-azul-hondo: #006ea8;
+  --color-noche: #0a3d62;
+  --color-rosa: #e72b66;
+  --color-rosa-hondo: #c81b50;
+  --color-amarillo: #ffd200;
+  --color-verde: #a1c53a;
+  --color-cielo: #f2f8fc;
+  --color-texto: #44546a;
+  --font-sans: "Nunito", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply text-noche; font-weight: 900; line-height: 1.08; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .noche h1, .noche h2, .noche h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-rosa-hondo); outline-offset: 3px; border-radius: 6px; }
+  .noche :focus-visible { outline-color: var(--color-amarillo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro, .btn-urgencia {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-azul-hondo text-white hover:bg-noche; }
+  .btn-urgencia { @apply bg-rosa-hondo text-white hover:bg-noche; }
+  .btn-linea { @apply border-2 border-noche/20 text-noche hover:border-noche hover:bg-cielo; }
+  .btn-claro { @apply border-2 border-white/60 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-bold text-azul-hondo underline decoration-2 underline-offset-4 hover:text-noche; }
+  .noche .enlace { @apply text-amarillo hover:text-white; }
+}
+
+/* Buscador: el pin elegido late (quieto con prefers-reduced-motion). */
+.latido { animation: latido 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes latido { from { opacity: 0.55; transform: scale(1); } to { opacity: 0; transform: scale(2.6); } }
+.aparece { animation: aparece 0.3s ease-out; }
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
