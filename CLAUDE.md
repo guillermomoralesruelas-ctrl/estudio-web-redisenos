@@ -4,7 +4,7 @@ Este archivo lo leen Claude (Cowork) y Claude Code en la terminal. Aquí están 
 
 Idioma de trabajo: **español**.
 
-> **¿Vas a continuar los rediseños?** Lee primero **`INSTRUCCIONES-METODO-1.1.md`** (qué se hace, para quién, el proceso paso a paso, las herramientas y las reglas) y **`METODOS.md`** (qué método lleva cada sitio y en qué estado está). En cada proyecto rediseñado, **`CAMBIOS.md`** explica en qué se diferencia del sitio original y por qué, y **`OPORTUNIDADES.md`** reúne los argumentos para acercarse al cliente (problemas reales de su sitio actual). El índice de oportunidades por prioridad está en **`OPORTUNIDADES.md`** de la raíz.
+> **¿Vas a continuar los rediseños?** Lee primero **`INSTRUCCIONES-METODO-1.1.md`** (qué se hace, para quién, el proceso paso a paso, las herramientas y las reglas) y **`METODOS.md`** (qué método lleva cada sitio y en qué estado está). En cada proyecto rediseñado, **`CAMBIOS.md`** explica en qué se diferencia del sitio original y por qué, y **`OPORTUNIDADES.md`** reúne los argumentos para acercarse al cliente (problemas reales de su sitio actual). El índice de oportunidades por prioridad está en **`OPORTUNIDADES.md`** de la raíz. Los sitios descartados o saltados, con el tipo de motivo para reclasificarlos después, van en **`DESCARTADOS.md`**.
 
 ## Qué es este estudio
 

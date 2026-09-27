@@ -33,7 +33,7 @@ birthstone selector, selector por ocasión, reloj countdown, calculadora de inve
 
 ## Cómo hacer cada sitio (método 1.1)
 
-1. **Revisa las fotos primero.** Si hay menos de 3 fotos propias del negocio con calidad usable, descártalo: agrega su fila en `METODOS.md` como "Descartado" con el motivo, haz el commit y pasa al siguiente. Las fotos sacadas de Google Maps (EXIF de Picasa/Google), de banco, generadas con IA o de otro negocio no cuentan.
+1. **Revisa las fotos primero.** Si hay menos de 3 fotos propias del negocio con calidad usable, descártalo: agrega su fila en `METODOS.md` como "Descartado" con el motivo y otra en `DESCARTADOS.md` con la clave del motivo (`sin-fotos`, `sin-contacto`, `url-ajena`, `cadena`, `pocas-fotos`), haz el commit y pasa al siguiente. Las fotos sacadas de Google Maps (EXIF de Picasa/Google), de banco, generadas con IA o de otro negocio no cuentan.
 2. `node herramientas/nuevo-rediseno.mjs <carpeta>` y luego `cd proyectos/<carpeta>/rediseno && npm install`.
 3. `node herramientas/qa-rediseno.mjs <carpeta>` para diagnosticar el clon.
 4. Crea `rediseno/fotos-web.mjs` como el de los modelos: copias `.webp` solo de las fotos que uses, en `../assets/web`, que es el `publicDir` de `vite.config.ts`.

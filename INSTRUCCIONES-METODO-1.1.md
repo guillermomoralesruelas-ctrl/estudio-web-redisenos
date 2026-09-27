@@ -23,7 +23,7 @@
 | **1.1** | **Rediseño a mano usando el clon del método 3 como materia prima.** Se toman sus imágenes y sus textos y se construye un sitio nuevo en `rediseno/`, corrigiendo todo lo roto. | **El método actual.** Para clones con calidad `funcional`. |
 | **1.2** | El mismo proceso que el 1.1, pero ejecutado **en la PC de Guillermo** (Claude Code en la terminal o el panel), porque desde la nube no se llega al sitio o el clon está roto o incompleto. En ese caso se recupera el contenido con `herramientas/investigar.mjs` y `descargar-assets.mjs`. | Para sitios bloqueados para la nube, o con clon `complejo` o `reparable`. Se anota en `METODOS.md`. |
 
-**Regla:** cada vez que empieces, termines o descartes un sitio, actualiza `METODOS.md`.
+**Regla:** cada vez que empieces, termines o descartes un sitio, actualiza `METODOS.md`. Si lo descartas (o lo saltas al elegir candidatos), agrega también su fila en `DESCARTADOS.md` con la clave del motivo (`sin-fotos`, `sin-contacto`, `url-ajena`, `cadena`, `pocas-fotos`) y el detalle, para poder reclasificarlo después.
 
 ## 3. Reglas que no se rompen
 

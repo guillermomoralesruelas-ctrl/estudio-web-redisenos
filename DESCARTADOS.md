@@ -1,0 +1,46 @@
+# Sitios descartados y saltados
+
+Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué, para poder reclasificarlos después (otro método, pedirle material al cliente o sacarlos de la lista). `METODOS.md` sigue llevando el estado de cada sitio; aquí va el motivo agrupado por tipo.
+
+**Regla:** cada vez que se descarte un sitio, o se salte al elegir candidatos, se agrega su fila aquí además de en `METODOS.md`. Esto vale para la PC y para la nube.
+
+## Tipos de motivo
+
+| Clave | Motivo | Cómo se podría recuperar |
+|---|---|---|
+| `sin-fotos` | Menos de 3 fotos propias usables: las del clon son de banco, de fabricante, de Google Maps (EXIF de Picasa/Google), hechas con IA o de otro negocio | Método 1.2 si el negocio da fotos propias |
+| `sin-contacto` | No hay WhatsApp, teléfono ni dirección, así que no se pueden cumplir los requisitos de WhatsApp prellenado y Google Maps | Retomar si el cliente da un número y una ubicación |
+| `url-ajena` | La URL de la base apunta a un directorio, portal de reservas, revista o nota de prensa, no al sitio del negocio | Buscar el sitio propio del negocio y volver a clonar; si no tiene, es cliente para sitio nuevo (método 1) |
+| `cadena` | Cadena o corporativo grande: no es el tipo de cliente del estudio | Solo si Guillermo decide lo contrario |
+| `pocas-fotos` | Tiene fotos propias pero muy pocas o de baja calidad para un rediseño completo | Revisar a mano; puede servir para un sitio de una página |
+
+## Descartados (revisados a fondo)
+
+| Carpeta | Negocio | Ciudad | Motivo | Detalle | Dónde |
+|---|---|---|---|---|---|
+| `172-casamariahotel` | Casa Maria Hotel | Puerto Vallarta, Jal. | `url-ajena` | La URL es de un sitio de reservas de terceros, no del hotel | PC |
+| `139-cafeole` | Café Olé | Loreto, BCS | `sin-fotos` | Solo 3 fotos grandes, todas con EXIF de Picasa (de Google Maps), y una parece del hotel vecino. cafeole.shop parece generado por terceros: sin teléfono, dirección incompleta, reseñas con el mismo avatar | PC |
+| `596-joyeriapaco` | Joyería Paco | Taxco, Gro. | `sin-contacto` | Joyería de mayoreo en Shopify sin teléfono, WhatsApp ni dirección física | PC |
+| `391-estanteriavinoslicores` | Estantería Vinos & Licores | Culiacán, Sin. | `sin-contacto` | Licorería solo de envío a domicilio en Shopify, sin WhatsApp ni tienda física. La base dice Aguascalientes pero el sitio anuncia envío en Culiacán | PC |
+| `316-distribuidoraeanpets` | Distribuidora Ean Pet's | Ciudad de México | `sin-fotos` | Ninguna foto propia: productos de fabricante, gráficos de Canva con perros y gatos de banco, una imagen hecha con ChatGPT y el logo solo a 32×32 px. Sí tiene WhatsApp (55 3901 1584) | Nube |
+| `469-grupoandersons` | Grupo Anderson's | Cancún, Q. Roo (la base dice San Luis Potosí) | `cadena` | Consorcio restaurantero con 50 unidades en varios países y sin canal para el comensal (ni WhatsApp ni `tel:`). Sus 50 ubicaciones con coordenadas están en `investigacion/original.html` si se retoma | Nube |
+
+## Saltados al elegir candidatos (sin revisar a fondo)
+
+Salieron en `candidatos-1.1.mjs` el 2026-09-27 y se saltaron solo por la URL o el tamaño del negocio. No se abrió el clon con cuidado, así que conviene revisarlos antes de darlos por perdidos.
+
+| Carpeta | Negocio | Ciudad | Motivo | Detalle |
+|---|---|---|---|---|
+| `513-hotelspamansion` | Hotel & Spa Mansión Solís by Hotsson | Morelia, Mich. | `url-ajena` · `cadena` | La URL es hotelesenmorelia.com (portal) y el hotel es de la cadena Hotsson |
+| `647-latorrada` | La Torrada | Monterrey, N. L. | `url-ajena` | La URL es una reseña en residente.mx |
+| `406-expobodaxv` | Expo Boda & XV Años 2026 | Xalapa, Ver. | `url-ajena` | La URL es una nota en golpepolitico.com |
+| `153-cartiermonterrey` | Cartier Monterrey | Monterrey, N. L. | `url-ajena` · `cadena` | La URL es una nota en hola.com y es una marca de lujo internacional |
+| `380-escondidoplace` | Escondido Place | San Miguel de Allende, Gto. | `url-ajena` | La URL es una nota en adn40.mx; además solo 7 fotos locales |
+| `632-lagarduna` | La Garduña | Zacatecas, Zac. | `url-ajena` | La URL es una nota en imagenzac.com.mx; solo 7 fotos locales |
+| `381-escueladebaile` | Escuela de baile Citlali | Monterrey, N. L. | `url-ajena` | La URL es un directorio (infoescuelas.com.mx) |
+| `213-chinahousemexicali` | China House Mexicali | Mexicali, B. C. | `url-ajena` | La URL es un directorio (mexicali.org) |
+| `511-hotelspadona` | Hotel & Spa Doña Urraca | San Miguel de Allende, Gto. | `url-ajena` | La URL es de momondo.mx (buscador de viajes); solo 7 fotos locales |
+| `609-kevinveleznutriologo` | Kevin Velez, nutriólogo | Cancún, Q. Roo | `url-ajena` | La URL es un directorio (avena.io) |
+| `409-fairmontmayakoba` | Fairmont Mayakoba | Cancún, Q. Roo (según la base) | `cadena` | Hotel de la cadena Fairmont |
+| `452-goldsgym` | Gold's Gym Saltillo | Saltillo, Coah. | `cadena` · `pocas-fotos` | Franquicia internacional; la URL es la página de sucursales de la marca y solo hay 6 fotos locales |
+| `448-georgieurisfotografia` | Georgi Euris Fotografía | Ciudad de México | `pocas-fotos` | Sitio propio (georgieuris.com) pero solo 16 fotos locales. No está descartado: es buen candidato si las fotos sirven |
