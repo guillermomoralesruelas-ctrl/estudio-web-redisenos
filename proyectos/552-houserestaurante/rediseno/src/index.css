@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Fuentes de su sitio (Oswald, la letra condensada de su logo y sus títulos; Jost, la de su texto), con @fontsource y
+   solo latino. */
+@font-face { font-family: "Oswald"; src: url("../node_modules/@fontsource/oswald/files/oswald-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Oswald"; src: url("../node_modules/@fontsource/oswald/files/oswald-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Jost"; src: url("../node_modules/@fontsource/jost/files/jost-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Jost"; src: url("../node_modules/@fontsource/jost/files/jost-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Jost"; src: url("../node_modules/@fontsource/jost/files/jost-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+
+/* Tokens: el negro de su logo, las mesas encaladas y el jardín de noche de su foto del comedor, el ámbar de sus botones
+   (#FFB846) y dos colores para las dos cocinas de su carta. */
+@theme {
+  --color-cal: #f6f2ea;
+  --color-lino: #ece5d8;
+  --color-carbon: #1d1b18;
+  --color-noche: #15171b;
+  --color-texto: #47423b;
+  --color-vela: #ffb846;
+  --color-ambar: #8a5207;
+  --color-chile: #a3301e;
+  --color-olivo: #4d5a26;
+  --font-sans: "Jost", "Segoe UI", sans-serif;
+  --font-titulo: "Oswald", "Arial Narrow", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply text-carbon; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ambar); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-vela); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { font-family: var(--font-titulo); font-weight: 500; letter-spacing: 0.005em; }
+  .btn, .btn-linea, .btn-vela, .btn-linea-clara {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 text-[1rem] font-medium transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-carbon text-cal hover:bg-black; }
+  .btn-linea { @apply border-2 border-carbon text-carbon hover:bg-carbon hover:text-cal; }
+  .btn-vela { @apply bg-vela text-carbon hover:bg-[#ffc76b]; }
+  .btn-linea-clara { @apply border-2 border-cal/70 text-cal hover:bg-cal hover:text-carbon; }
+  .enlace { @apply font-medium text-ambar underline decoration-ambar/40 decoration-2 underline-offset-4 hover:decoration-ambar; }
+  .precio { font-variant-numeric: tabular-nums; }
+  /* El cuadro de su logo, como marco. */
+  .cuadro { outline: 2px solid currentColor; outline-offset: -2px; }
+  /* Renglón de carta impresa: nombre, puntos y precio. */
+  .puntos { flex: 1; min-width: 1.5rem; border-bottom: 2px dotted rgb(29 27 24 / 0.28); transform: translateY(-0.35em); }
+  .plato-mesa { transition: opacity 0.3s ease, transform 0.3s ease; transform-box: fill-box; transform-origin: center; }
+  .plato-mesa[data-encendido="false"] { opacity: 0.28; }
+  .plato-mesa[data-elegido="true"] { transform: scale(1.18); }
+  .deslizador { -webkit-appearance: none; appearance: none; width: 100%; height: 44px; background: transparent; cursor: pointer; }
+  .deslizador::-webkit-slider-runnable-track { height: 6px; border-radius: 3px; background: linear-gradient(90deg, var(--color-chile), #b9ab8f 50%, var(--color-olivo)); }
+  .deslizador::-moz-range-track { height: 6px; border-radius: 3px; background: linear-gradient(90deg, var(--color-chile), #b9ab8f 50%, var(--color-olivo)); }
+  .deslizador::-webkit-slider-thumb { -webkit-appearance: none; width: 30px; height: 30px; margin-top: -12px; background: var(--color-cal); border: 3px solid var(--color-carbon); border-radius: 0; }
+  .deslizador::-moz-range-thumb { width: 26px; height: 26px; background: var(--color-cal); border: 3px solid var(--color-carbon); border-radius: 0; }
+}
