@@ -1,0 +1,115 @@
+{
+  "fecha": "2026-09-27T14:00:21.407Z",
+  "carpeta": "634-lagranaeventos",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 2367,
+      "desbordeX": 0,
+      "h1": 5,
+      "imagenes": 5,
+      "rotas": [
+        "https://lagranaeventos.com/wp-content/uploads/2018/09/La_Grana_Eventos_800px-600x300.png",
+        "https://lagranaeventos.com/wp-content/uploads/2018/09/IMG-20180802-WA0008-600x450.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Terraza Jardin para Eventos, Bodas, Bautizos, XV Años | Zapopan | La Grana",
+      "errores": [
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Access to font at 'http://lagranaeventos.com/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff' from origin 'http://127.0.0.1:45535' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Access to font at 'http://lagranaeventos.com/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.ttf' from origin 'http://127.0.0.1:45535' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "wp is not defined",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "wp is not defined",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "jQuery is not defined",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 3411,
+      "desbordeX": 0,
+      "h1": 5,
+      "imagenes": 5,
+      "rotas": [
+        "https://lagranaeventos.com/wp-content/uploads/2018/09/La_Grana_Eventos_800px-400x200.png",
+        "https://lagranaeventos.com/wp-content/uploads/2018/09/IMG-20180802-WA0008-400x300.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Terraza Jardin para Eventos, Bodas, Bautizos, XV Años | Zapopan | La Grana",
+      "errores": [
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Access to font at 'http://lagranaeventos.com/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff' from origin 'http://127.0.0.1:45535' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://lagranaeventos.com/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.ttf' from origin 'http://127.0.0.1:45535' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "wp is not defined",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "wp is not defined",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "jQuery is not defined",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5714,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 10,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Terraza jardín para eventos, bodas y XV años en Zapopan | La Grana Eventos",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7722,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 10,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Terraza jardín para eventos, bodas y XV años en Zapopan | La Grana Eventos",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

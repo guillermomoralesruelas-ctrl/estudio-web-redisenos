@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Fuentes de su tema (Avada): Montserrat en títulos y Open Sans en texto. De @fontsource, solo el subconjunto latino. */
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("../node_modules/@fontsource/montserrat/files/montserrat-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Open Sans"; src: url("../node_modules/@fontsource/open-sans/files/open-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Open Sans"; src: url("../node_modules/@fontsource/open-sans/files/open-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: el guinda de su logo y de su tema (#930f3e, la grana cochinilla), el verde del Bosque de La Primavera
+   y del pasto de sus fotos, y un crema cálido. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-grana: #930f3e;
+  --color-grana-honda: #5e0a28;
+  --color-bosque: #1f3a2b;
+  --color-pasto: #7fae4c;
+  --color-crema: #faf6ef;
+  --color-papel: #ffffff;
+  --color-texto: #3b3033;
+  --font-sans: "Open Sans", "Segoe UI", sans-serif;
+  --font-titulo: "Montserrat", "Arial", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-titulo text-bosque; font-weight: 700; line-height: 1.12; letter-spacing: -0.015em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-grana); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: #ffffff; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-grana text-white hover:bg-grana-honda; }
+  .btn-linea { @apply border border-bosque/30 text-bosque hover:border-bosque hover:bg-bosque/5; }
+  .btn-claro { @apply border border-white/55 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-semibold text-grana underline decoration-2 underline-offset-4 hover:text-bosque; }
+  .cifra { font-variant-numeric: tabular-nums; }
+}
+
+/* "¿Cuánto jardín ocupa tu fiesta?": las mesas aparecen al subir los invitados (quietas con prefers-reduced-motion). */
+.mesa { animation: aparece-mesa 0.3s ease-out both; transform-box: fill-box; transform-origin: center; }
+@keyframes aparece-mesa { from { opacity: 0; transform: scale(0.4); } to { opacity: 1; transform: none; } }
+.ficha { animation: aparece 0.35s ease-out; }
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
