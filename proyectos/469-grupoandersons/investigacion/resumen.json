@@ -1,0 +1,741 @@
+{
+  "sitio": "https://grupoandersons.com/",
+  "fecha": "2026-09-26T08:07:58.984Z",
+  "motor": "jina-reader",
+  "slug": "grupoandersons",
+  "nombre": "Grupo Anderson's",
+  "rubro": "GASTRONOMIA",
+  "ciudad": "San Luis Potosí, San Luis Potosí",
+  "plantilla": "restaurante-bar",
+  "paginasRevisadas": [
+    {
+      "url": "https://grupoandersons.com/",
+      "titulo": "Home | Grupo Anderson's - El grupo restaurantero líder en México"
+    },
+    {
+      "url": "http://grupoandersons.com/en/",
+      "titulo": "Home | Grupo Anderson's - El grupo restaurantero líder en México"
+    },
+    {
+      "url": "https://grupoandersons.com/prensa/",
+      "titulo": "Prensa - Grupo Anderson's"
+    },
+    {
+      "url": "https://grupoandersons.com/aviso-de-privacidad/",
+      "titulo": "Aviso de privacidad - Grupo Anderson's | Consorcio Restaurantero Mas Grande de México"
+    },
+    {
+      "url": "https://grupoandersons.com/tyc-vales/",
+      "titulo": "Tyc vales - Grupo Anderson's | Consorcio Restaurantero Mas Grande de México"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "2025-11-21",
+      "16.50.45-1-1024",
+      "16.50.45-1",
+      "208.100.58.80",
+      "20231012-0063",
+      "998) 193 17 00"
+    ],
+    "emails": [
+      "avisodeprivacidad@andermail.com"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.facebook.com/grupoandersons/?locale=es_LA",
+      "https://www.instagram.com/gpoandersons/?hl=es",
+      "https://www.tiktok.com/@grupoandersons"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/GA-white-no-date-1024x402.png",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/foto-galeria-freds-exteriores-dia.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/02/locacion-bodega-argentina-web.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/Nicoletta-Best-Italian-Restaurant-in-cancun.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/Ilios-Best-Greek-Restaurant.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/Harrys-the-best-Steakhouse-in-Cancun.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/01/img-nav-ubic-cancuvn.png",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/01/DSC7595.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/bak2-1024x576.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/bak1-1024x576.jpg",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/reataurant-bar_BN.png",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/bak2.jpg",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/bak1.jpg",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/1A-1024x576.jpg",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-21-at-16.50.45-1-1024x576.jpeg",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/LOGO-MC-BN.png",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-21-at-16.50.45.jpeg",
+      "alt": "Image 33"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-21-at-16.50.45-1.jpeg",
+      "alt": "Image 34"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/prop1-1024x576.jpg",
+      "alt": "Image 35"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/prop2-1024x576.jpg",
+      "alt": "Image 36"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/international-hotel_BN.png",
+      "alt": "Image 39"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/prop2.jpg",
+      "alt": "Image 40"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/prop1.jpg",
+      "alt": "Image 41"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/inter1-1024x576.jpg",
+      "alt": "Image 42"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/inter2-1024x576.jpg",
+      "alt": "Image 43"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/latam-premio_BN.png",
+      "alt": "Image 46"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/inter2.jpg",
+      "alt": "Image 47"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/inter1.jpg",
+      "alt": "Image 48"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/dna2-1024x576.jpg",
+      "alt": "Image 49"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/dna1-1024x576.jpg",
+      "alt": "Image 50"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/logo_BN.png",
+      "alt": "Image 53"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/dna1.jpg",
+      "alt": "Image 54"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/dna2.jpg",
+      "alt": "Image 55"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/taste2-1024x576.jpg",
+      "alt": "Image 56"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/taste1-1-1024x576.jpg",
+      "alt": "Image 57"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/taste-mexico_BN.png",
+      "alt": "Image 60"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/taste1-1.jpg",
+      "alt": "Image 61"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/taste2.jpg",
+      "alt": "Image 62"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/dimon1-1024x576.jpg",
+      "alt": "Image 63"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/dimon2-1024x576.jpg",
+      "alt": "Image 64"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/diamond-premio-1.png",
+      "alt": "Image 67"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/dimon2.jpg",
+      "alt": "Image 68"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/dimon1.jpg",
+      "alt": "Image 69"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/FINAL-marcas-que-enamoran-todos-Firefly-Upscaler-2x-scale-1024x576.jpg",
+      "alt": "Image 70"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/FINAL-marcas-que-enamoran-1todos-Firefly-Upscaler-2x-scale-1024x576.jpg",
+      "alt": "Image 71"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/logo-marcasquenamoran1.png",
+      "alt": "Image 74"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/FINAL-marcas-que-enamoran-todos-Firefly-Upscaler-2x-scale.jpg",
+      "alt": "Image 75"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/FINAL-marcas-que-enamoran-1todos-Firefly-Upscaler-2x-scale.jpg",
+      "alt": "Image 76"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/don2-1024x576.jpg",
+      "alt": "Image 77"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/DON1-1024x576.jpg",
+      "alt": "Image 78"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/donde-ir_BN.png",
+      "alt": "Image 81"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/DON1.jpg",
+      "alt": "Image 82"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/don2.jpg",
+      "alt": "Image 83"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/3A-1024x576.jpg",
+      "alt": "Image 84"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/3B-1024x576.jpg",
+      "alt": "Image 85"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/premio-100-imperdibles-de-mexico-grupo-andersons_BN.png",
+      "alt": "Image 88"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/3B.jpg",
+      "alt": "Image 89"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/3A.jpg",
+      "alt": "Image 90"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/best1-1024x576.jpg",
+      "alt": "Image 91"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/best2-1024x576.jpg",
+      "alt": "Image 92"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/best-of-the-best_BN.png",
+      "alt": "Image 95"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/best1.jpg",
+      "alt": "Image 96"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/best2.jpg",
+      "alt": "Image 97"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2026/08/whatsnew-nicoletta.jpg.jpeg",
+      "alt": "Image 110"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png",
+      "alt": "Image 111"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/vg.png",
+      "alt": "Image 139"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/th.png",
+      "alt": "Image 140"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/forbes.png",
+      "alt": "Image 141"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2025/10/FOODWINE-logo-GA1.png",
+      "alt": "Image 142"
+    },
+    {
+      "src": "https://bahamabaypoolclub.com/wp-content/uploads/2025/08/GA-logo-1.png",
+      "alt": "Image 149"
+    },
+    {
+      "src": "https://bahamabaypoolclub.com/wp-content/uploads/2025/08/Logo-Bahamas-Nassau-03.png",
+      "alt": "Image 165"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/02/GA-white-no-date.png",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/2024/05/foto-galeria-porfirios-interiores-tulum.jpeg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/2024/05/foto-galeria-freds-exteriores-dia.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/2024/05/Nicoletta-Best-Italian-Restaurant-in-cancun.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/2024/05/Ilios-Best-Greek-Restaurant.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/2024/05/Harrys-the-best-Steakhouse-in-Cancun.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/01/DSC7595.jpg",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/01/img-nav-ubic-cancuvn.png",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/bak2-1024x576.jpg",
+      "alt": "Image 39"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/bak1-1024x576.jpg",
+      "alt": "Image 40"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/reataurant-bar_BN.png",
+      "alt": "Image 41"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/bak2.jpg",
+      "alt": "Image 42"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/bak1.jpg",
+      "alt": "Image 43"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/1A-1024x576.jpg",
+      "alt": "Image 44"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/11/WhatsApp-Image-2025-11-21-at-16.50.45-1-1024x576.jpeg",
+      "alt": "Image 45"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/LOGO-MC-BN.png",
+      "alt": "Image 48"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/11/WhatsApp-Image-2025-11-21-at-16.50.45.jpeg",
+      "alt": "Image 49"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/11/WhatsApp-Image-2025-11-21-at-16.50.45-1.jpeg",
+      "alt": "Image 50"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/prop1-1024x576.jpg",
+      "alt": "Image 51"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/prop2-1024x576.jpg",
+      "alt": "Image 52"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/international-hotel_BN.png",
+      "alt": "Image 55"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/prop2.jpg",
+      "alt": "Image 56"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/prop1.jpg",
+      "alt": "Image 57"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/inter1-1024x576.jpg",
+      "alt": "Image 58"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/inter2-1024x576.jpg",
+      "alt": "Image 59"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/latam-premio_BN.png",
+      "alt": "Image 62"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/inter2.jpg",
+      "alt": "Image 63"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/inter1.jpg",
+      "alt": "Image 64"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/dna2-1024x576.jpg",
+      "alt": "Image 65"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/dna1-1024x576.jpg",
+      "alt": "Image 66"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/logo_BN.png",
+      "alt": "Image 69"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/dna1.jpg",
+      "alt": "Image 70"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/dna2.jpg",
+      "alt": "Image 71"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/taste2-1024x576.jpg",
+      "alt": "Image 72"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/taste1-1-1024x576.jpg",
+      "alt": "Image 73"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/taste-mexico_BN.png",
+      "alt": "Image 76"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/taste1-1.jpg",
+      "alt": "Image 77"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/taste2.jpg",
+      "alt": "Image 78"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/dimon1-1024x576.jpg",
+      "alt": "Image 79"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/dimon2-1024x576.jpg",
+      "alt": "Image 80"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/diamond-premio-1.png",
+      "alt": "Image 83"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/dimon2.jpg",
+      "alt": "Image 84"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/dimon1.jpg",
+      "alt": "Image 85"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/FINAL-marcas-que-enamoran-todos-Firefly-Upscaler-2x-scale-1024x576.jpg",
+      "alt": "Image 86"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/FINAL-marcas-que-enamoran-1todos-Firefly-Upscaler-2x-scale-1024x576.jpg",
+      "alt": "Image 87"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/logo-marcasquenamoran1.png",
+      "alt": "Image 90"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/FINAL-marcas-que-enamoran-todos-Firefly-Upscaler-2x-scale.jpg",
+      "alt": "Image 91"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/FINAL-marcas-que-enamoran-1todos-Firefly-Upscaler-2x-scale.jpg",
+      "alt": "Image 92"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/don2-1024x576.jpg",
+      "alt": "Image 93"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/DON1-1024x576.jpg",
+      "alt": "Image 94"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/donde-ir_BN.png",
+      "alt": "Image 97"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/DON1.jpg",
+      "alt": "Image 98"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/don2.jpg",
+      "alt": "Image 99"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/3A-1024x576.jpg",
+      "alt": "Image 100"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/3B-1024x576.jpg",
+      "alt": "Image 101"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/premio-100-imperdibles-de-mexico-grupo-andersons_BN.png",
+      "alt": "Image 104"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/3B.jpg",
+      "alt": "Image 105"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/3A.jpg",
+      "alt": "Image 106"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/best1-1024x576.jpg",
+      "alt": "Image 107"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/best2-1024x576.jpg",
+      "alt": "Image 108"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/best-of-the-best_BN.png",
+      "alt": "Image 111"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/best1.jpg",
+      "alt": "Image 112"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/best2.jpg",
+      "alt": "Image 113"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2026/08/whatsnew-nicoletta.jpg.jpeg",
+      "alt": "Image 126"
+    },
+    {
+      "src": "http://grupoandersons.com/en/wp-content/plugins/revslider/sr6/assets/assets/dummy.png",
+      "alt": "Image 127"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/vg.png",
+      "alt": "Image 155"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/th.png",
+      "alt": "Image 156"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/forbes.png",
+      "alt": "Image 157"
+    },
+    {
+      "src": "https://grupoandersons.com/en/wp-content/uploads/sites/2/2025/10/FOODWINE-logo-GA1.png",
+      "alt": "Image 158"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/Forbes-logo-GA.png",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/MundoEjecutivo-logo.png",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/dondeir-logo-grupo-andersons.png",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/hotbook-logo-grupo-andersons.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/AD.png",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/Use-today-logo-grupo-andersons.png",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/the-happening-logo.png",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/Vogue-logo-grupo-andersons.png",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/FOODWINE-logo-GA.png",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/Excelsior-logo-grupo-andersons.png",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/TV-Azteca-logo.png",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/El-Economista-grupo-andersons.png",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/buzzfeed-logo-grupo-andersons.png",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/Mexico-desconocido-logo.png",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/RSVP-grupo-andersons.png",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/chilango-logo-grupo-andersons.png",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/Cosmopolitan-grupo-andersons.png",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/elconocedor-logo-grupo-andersons.png",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/elsoldemexico-logo-grupo-andersons.png",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/Selecciones-grupo-andersons.png",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/foodandpleasure-logo-grupo-andersons.png",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/DesignHunter-logo-grupo-andersons.png",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/gourmet-logo-grupo-andersons.png",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/insolente-logo-grupo-andersons.png",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/jetset-logo-grupo-andersons.png",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/newyorkpost-logo-grupo-andersons.png",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/universal-logo-GA.png",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/merca-logo.png",
+      "alt": "Image 31"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/foodandtravel-logo.png",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/quien-logo-grupo-andersons.png",
+      "alt": "Image 33"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/heraldo-logo.png",
+      "alt": "Image 34"
+    },
+    {
+      "src": "https://grupoandersons.com/wp-content/uploads/2024/05/MIT-SLOAN-logo-grupo-andersons.png",
+      "alt": "Image 35"
+    }
+  ]
+}

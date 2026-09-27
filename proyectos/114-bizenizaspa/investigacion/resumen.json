@@ -1,0 +1,365 @@
+{
+  "sitio": "https://www.bizenizaspa.com/",
+  "fecha": "2026-09-26T05:33:17.159Z",
+  "motor": "jina-reader",
+  "slug": "bizenizaspa",
+  "nombre": "Bizeniza Spa",
+  "rubro": "SPA",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.bizenizaspa.com/",
+      "titulo": ""
+    },
+    {
+      "url": "https://www.bizenizaspa.com/corporal",
+      "titulo": ""
+    },
+    {
+      "url": "https://www.bizenizaspa.com/facial",
+      "titulo": ""
+    },
+    {
+      "url": "https://www.bizenizaspa.com/rituales",
+      "titulo": ""
+    },
+    {
+      "url": "https://www.bizenizaspa.com/otros",
+      "titulo": ""
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "222.225.09.35",
+      "22.27.28.49.70",
+      "5212227284970",
+      "00\n\n1\n\n2\n\n3\n\n4\n\n5\n\n6\n\n7\n\n8\n\n9\n\n10\n\n11\n\n12\n\n13\n\n14\n\n15\n\n16\n\n17\n\n18\n\n19\n\n20\n\n21\n\n22\n\n23\n\n00\n\n05\n\n10\n\n15\n\n20\n\n25\n\n30\n\n35\n\n40\n\n45\n\n50\n\n55"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Masaje%20Personalizado%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Metzonalli%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Yiri%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Pamiwuari%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Yamania%20piedras%20calientes%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Momotlalo%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Suki%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Kab%20yeet%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Maya%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Yolitia%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Nelpilollia%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Yen%20Cose%20Sika%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Reflexolog%C3%ADa%20en%20manos%20o%20pies%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Tankugni%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Bari%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Xitse%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Microdermoabrasi%C3%B3n%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Sepori%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Tuchkiin%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Haki%20Muki%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Tlanextia%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Hiyuul%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Chichilihui%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Bajichi%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Petlani%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Yumari%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Batsi%20(ritual%20princesa)%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Kiimak%20(ritual%20de%20parejas)%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Yeto%20Lut%20(velo%20de%20novia)%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Paxia%20(Ritual%20mam%C3%A1%20-%20hija)%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Hopi%20(Ritual%20cumplea%C3%B1os)%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27X%C3%BCtha%20Jati%20Purificante%20espalda%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Arihua%20post%20parto%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Envoltura%20corporal%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Xhinte%20-%20xitse%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Presoterapia%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Exfoleante%20corporal%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Cepanca%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Maderoterapia%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)",
+      "whatsapp.com/send?phone=5212227284970?&text=Hola%20buen%20d%C3%ADa,%20estoy%20interesado%20en%20su%20servicio:%20%27Tlahueltic%20Depilaci%C3%B3n%27.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s.)"
+    ],
+    "redes": [
+      "https://twitter.com/BizeNizaSpa",
+      "https://www.instagram.com/bizeniza/?hl=es-la"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.bizenizaspa.com/images/00_Logo_BizeNiza.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "src": "blob:http://localhost/c660c87deb864aee12399b535907f2e7",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/00_Quienes_Somos.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/00_Especiales.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/00_Promociones.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/home_footer.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/contacto_logo.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/icono_home.png",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/icono_tel.png",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/icono_cel.png",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/icono_time.png",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/icono_twitter.png",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/icono_face.png",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/icono_instagram.png",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/icono_privacidad.png",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/icono_terminos.png",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/01_flor_blanca_2002x58.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/card_corporal2.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio64.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio63.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio62.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio61.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio60.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio59.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio58.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio57.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio56.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio55.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio54.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio53.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio52.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio51.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio50.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio49.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio48.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporales/servicio47.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/02_serv_azul.png",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/corporal_footer.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/card_facial2.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio90.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio75.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio74.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio73.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio72.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio70.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio69.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio68.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio67.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio66.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/faciales/servicio65.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/facial_footer.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/card_rituales2.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/rituales/servicio89.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/rituales/servicio88.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/rituales/servicio87.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/rituales/servicio86.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/rituales/servicio85.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/rituales_footer.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/card_otros2.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/otros/servicio84.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/otros/servicio83.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/otros/servicio82.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/otros/servicio81.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/otros/servicio80.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/otros/servicio79.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/otros/servicio78.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/otros/servicio77.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/otros/servicio76.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.bizenizaspa.com/images/otros_footer.jpg",
+      "alt": "Image 14"
+    }
+  ]
+}

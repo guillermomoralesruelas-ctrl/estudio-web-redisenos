@@ -1,0 +1,480 @@
+/* Estilos Generales */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --main-color: rgb(255, 255, 255);
+    --blue: #34455F; 
+    --darkblue:#21273e;
+    --font-color: #464646;
+    --gris: #CED4DA;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: var(--main-color);
+}
+
+.row{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+}
+
+.blue-text{
+    color: var(--blue);
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+
+.bg-darkblue{
+    background-color: var(--darkblue);
+}
+
+.btn-blue{
+    background-color: var(--blue);
+    color: #fff !important;
+}
+
+.btn-blue:hover, .btn-blue:focus{
+    background-color: var(--darkblue);
+    border-color: var(--darkblue);
+    color: #fff !important;
+}
+
+.btn-green{
+    background-color: #318173;
+    color: #fff !important;
+    border-radius: 0;
+}
+
+.btn-green:hover, .btn-green:focus{
+    background-color: #246157;
+    border-color:#246157;
+    color: #fff !important;
+}
+
+.btn-darkblue{
+    background-color: var(--darkblue);
+    color: #fff !important;
+}
+
+.btn-darkblue:hover, .btn-darkblue:focus{
+    background-color: #181c2c;
+    border-color:#181c2c ;
+    color: #fff !important;
+}
+
+.btn-outline-blue{
+    background-color: #fff;
+    border: 1px solid var(--blue) !important;
+    color: var(--blue) !important;
+}
+
+.btn-outline-blue:hover, .btn-outline-blue:focus{
+    background-color: var(--darkblue);
+    border: 1px solid var(--blue) !important;
+    color: #fff !important;
+}
+
+.fondo-oscuro{
+    background-color: rgba(26, 26, 26, 0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.fs-0{
+    font-size: 72px !important;
+}
+
+.mt-6{
+    margin-top: 5rem !important;
+}
+
+.mb-6{
+    margin-bottom: 5rem !important;
+}
+
+.my-6{
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+}
+
+.shadow-3 {
+    box-shadow: 0 1px 8px #0003,0 3px 4px #00000024,0 3px 3px -2px #0000001f;
+}
+
+/*Home Page*/
+.blue-square{
+    background: linear-gradient(265.25deg, #192B44 0%, #34455F 100%);
+    height: 200px;
+    width: 200px;
+    font-size: 56px;
+}
+.blue-square span{
+    padding-top: 56px;
+}
+
+.map-listing:hover{
+    cursor: pointer;
+}
+
+.video-container{
+    height: 70vh;
+}
+
+/* Header */
+.dropdown-menu-blue {
+    --bs-dropdown-color: #dee2e6;
+    --bs-dropdown-bg: var(--blue);
+    --bs-dropdown-border-color: var(--bs-border-color-translucent);
+    --bs-dropdown-box-shadow: ;
+    --bs-dropdown-link-color: #dee2e6;
+    --bs-dropdown-link-hover-color: #fff;
+    --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+    --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg: var(--darkblue);
+    --bs-dropdown-link-disabled-color: #adb5bd;
+    --bs-dropdown-header-color: #adb5bd;
+}
+
+/* Footer */
+#whatsapp {
+    position: fixed;
+    z-index: 1000;
+    right: 25px;
+    bottom: 95px;
+    width: 60px;
+    height: 60px;
+    background-color:#25D366 ;
+    color: #fff !important;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 45px;
+    transition: 0.3s;
+    line-height: 1.35;
+}
+
+#whatsapp:hover {
+    transition: 0.3s;
+    background-color: #128C7E;
+    color: #F1F2F5 !important;
+}
+
+#email_contact{
+    position: fixed;
+    z-index: 1000;
+    right: 25px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background-color:var(--darkblue) ;
+    color: #F1F2F5 !important;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 45px;
+    transition: 0.3s;
+    line-height: 1.35;
+}
+#email_contact:hover{
+    transition: 0.3s;
+    background-color: #F1F2F5;
+    color: #069 !important;
+}
+
+/* Formulario de Busqueda */
+.choices__inner {
+    
+    background-color: white;
+    padding: 7.5px 7.5px 3.75px;
+    border: 1px solid #ddd;
+    border-radius: 2.5px;
+    min-height: 100%;
+}
+
+.choices{
+    margin-bottom: 0px;
+    min-width: 230px;
+}
+
+.choices__list--single {
+    padding: 12px 16px 12px 4px;
+}
+
+.choices__list--dropdown .choices__item--selectable, .choices__list[aria-expanded] .choices__item--selectable {
+    padding-right: 0;
+}
+
+/* Paginación */
+.pagination{
+    margin-bottom: 0;
+    padding-bottom: 4rem;
+    justify-content: center!important;
+}
+
+.page-link {
+    color: #1a1a1a;
+    background-color: #fff;
+    border: 1px solid var(--blue);
+}
+
+.page-link:hover {
+    color: #fff;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.page-item.active .page-link {
+    background-color: var(--darkblue);
+    border-color: var(--darkblue);
+}
+
+.page-item.disabled .page-link {
+    color: #1a1a1a;
+    background-color: #fff;
+    border-color: var(--blue);
+}
+
+#fb_messenger{
+    position: fixed;
+    z-index: 1000;
+    right: 25px;
+    bottom: 25px;
+    width: 60px;
+    height: 60px;
+    background-color:#006AFF ;
+    color: #F1F2F5 !important;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 40px;
+    transition: 0.3s;
+    line-height: 1.5;
+}
+
+#fb_messenger:hover{
+    background-color: #0757c7;
+    transition: 0.3s;
+}
+
+/* Blog */
+.blog-article img{
+    width: 100%;
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+[data-fancybox]:hover{
+    cursor: pointer;
+}
+
+.grecaptcha-badge { visibility: hidden !important; }
+
+@media (max-width:992px){
+
+    .fs-0{
+        font-size: 2rem !important;
+    }
+
+
+    #whatsapp {
+        right: 25px;
+        bottom: 95px;
+        width: 60px;
+        height: 60px;
+        font-size: 45px;
+    }
+
+
+    #email_contact{
+        right: 25px;
+        bottom: 20px;
+        width: 60px;
+        height: 60px;
+        font-size: 45px;
+    }
+
+    .video-container{
+        height: 92vh;
+    }
+    
+
+}
+
+/* ── Domus Mobile Offcanvas Menu ─────────────────────────── */
+
+.dmenu-body {
+    padding: 1.1rem 1.1rem 0;
+    overflow-y: auto;
+}
+
+.dmenu-section-title {
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.45);
+    margin-bottom: .8rem;
+    margin-left: .1rem;
+}
+
+/* — Cards grid ————————————————————————— */
+.dmenu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .6rem;
+    margin-bottom: 1.4rem;
+}
+
+.dmenu-card {
+    position: relative;
+    height: 115px;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none !important;
+    background-size: cover;
+    background-position: center;
+    transition: transform .15s ease, opacity .15s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.dmenu-card:active { transform: scale(.96); opacity: .88; }
+
+/* Active: white ring */
+.dmenu-card--active::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 2.5px solid #fff;
+    border-radius: 12px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.dmenu-card__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.72) 0%, rgba(0,0,0,.18) 55%, transparent 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 11px;
+    z-index: 1;
+}
+
+.dmenu-card__icon {
+    color: rgba(255,255,255,.92);
+    font-size: 1.45rem;
+    margin-bottom: 5px;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.45));
+}
+
+.dmenu-card__label {
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    text-shadow: 0 1px 5px rgba(0,0,0,.55);
+    padding: 0 6px;
+}
+
+.dmenu-card--casas      { background-image: url('/assets/img/menu-cards/casas-y-villas.webp'); }
+.dmenu-card--condos     { background-image: url('/assets/img/menu-cards/departamentos.webp'); }
+.dmenu-card--lotes      { background-image: url('/assets/img/menu-cards/lotes.webp'); }
+.dmenu-card--fraccional { background-image: url('/assets/img/menu-cards/fraccional.webp'); }
+.dmenu-card--preventa   { background-image: url('/assets/img/menu-cards/preventa.webp'); }
+.dmenu-card--mls        { background-image: url('/assets/img/menu-cards/inventario-mls.webp'); }
+
+/* — Secondary links ———————————————————— */
+.dmenu-links { margin-bottom: 1rem; }
+
+.dmenu-link {
+    display: flex;
+    align-items: center;
+    padding: .7rem .4rem;
+    color: rgba(255,255,255,.88) !important;
+    text-decoration: none !important;
+    font-size: .95rem;
+    border-bottom: 1px solid rgba(255,255,255,.07);
+    border-radius: 6px;
+    transition: background .15s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.dmenu-link:last-child { border-bottom: none; }
+.dmenu-link:active,
+.dmenu-link:hover     { background: rgba(255,255,255,.07); color: #fff !important; }
+.dmenu-link.is-active { color: #fff !important; font-weight: 600; }
+
+.dmenu-link__icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background: rgba(255,255,255,.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+    margin-right: .85rem;
+    flex-shrink: 0;
+}
+
+.dmenu-link__chevron {
+    margin-left: auto;
+    font-size: .7rem;
+    color: rgba(255,255,255,.3);
+}
+
+/* — Bottom bar (lang + social) ————————— */
+.dmenu-bottom {
+    border-top: 1px solid rgba(255,255,255,.1);
+    padding: .85rem .4rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dmenu-lang {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.dmenu-lang a,
+.dmenu-lang span.dmenu-lang__opt {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    font-size: .82rem;
+    font-weight: 600;
+    padding: .28rem .55rem;
+    border-radius: 20px;
+    letter-spacing: .03em;
+    transition: background .15s, color .15s;
+}
+
+.dmenu-lang a:hover          { color: #fff; background: rgba(255,255,255,.1); }
+.dmenu-lang__sep             { color: rgba(255,255,255,.2); font-size: .7rem; }
+.dmenu-lang__current         { color: #fff !important; background: rgba(255,255,255,.15) !important; }
+
+.dmenu-social {
+    display: flex;
+    gap: 1rem;
+}
+
+.dmenu-social a {
+    color: rgba(255,255,255,.55);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color .15s, transform .15s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.dmenu-social a:active,
+.dmenu-social a:hover { color: #fff; transform: scale(1.12); }

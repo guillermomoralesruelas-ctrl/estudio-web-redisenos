@@ -1,0 +1,341 @@
+{
+  "sitio": "https://www.fotoproducto.com/",
+  "fecha": "2026-09-26T07:48:28.289Z",
+  "motor": "jina-reader",
+  "slug": "fotoproducto",
+  "nombre": "Foto Producto",
+  "rubro": "EVENTOS",
+  "ciudad": "Guadalajara, Jalisco",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.fotoproducto.com/",
+      "titulo": "Inicio - Foto Producto"
+    },
+    {
+      "url": "https://www.fotoproducto.com/servicios/",
+      "titulo": "Servicios - Foto Producto"
+    },
+    {
+      "url": "https://www.fotoproducto.com/nuestro-estudio/",
+      "titulo": "Nuestro Estudio - Foto Producto"
+    },
+    {
+      "url": "https://www.fotoproducto.com/servicios",
+      "titulo": "Servicios - Foto Producto"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "523335596393",
+      "2023-08-24",
+      "2023-10-03",
+      "33 3559 6393"
+    ],
+    "emails": [
+      "fotoproducto675@gmail.com"
+    ],
+    "whatsapp": [
+      "wa.me/523335596393?text=%C2%A1Hola%21%20%F0%9F%91%8B%F0%9F%98%8A%20Te%20contacto%20desde%20el%20sitio%20web%20de%20Foto%20Producto%20%F0%9F%93%B8%E2%9C%A8.%20Me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%2C%20por%20favor.%20%C2%A1Gracias%21)",
+      "wa.me/523335596393?text=Me%20contacto%20del%20sitio%20web%20de%20fotoproducto)"
+    ],
+    "redes": [
+      "https://www.instagram.com/foto_producto.com1/",
+      "https://www.facebook.com/fotoproductogdl"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/00-Logo_Foto_del_Producto_.png",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/elementor/thumbs/00-Logo_Foto_del_Producto_-qb4fp53zjb9of00988r8nz1u4gev3p0nzpwt1meyyc.png",
+      "alt": "Image 2: 00 Logo_Foto_del_Producto_"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/197A9023.jpg",
+      "alt": "Image 4: 197A9023"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/12.jpg",
+      "alt": "Image 6: 12"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/01.jpg",
+      "alt": "Image 8: 01"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/05.jpg",
+      "alt": "Image 10: 05"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/10.jpg",
+      "alt": "Image 12: Fotografía de Alimentos"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/03.jpg",
+      "alt": "Image 14: 03"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/IMG_94254.jpg",
+      "alt": "Image 16: fotografia de producto sesión moda"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/00b-portada-Redes-Sociales.jpg",
+      "alt": "Image 18: Fotografía Publicitaria y Redes"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/1.jpg",
+      "alt": "Image 20: Fotoproducto Bolsa"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/2.jpg",
+      "alt": "Image 22: Foto producto silla"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/3.jpg",
+      "alt": "Image 24: Foto Producto bebidas"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/4.jpg",
+      "alt": "Image 26: Foto Producto COmida"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/5.jpg",
+      "alt": "Image 28: Foto producto Moda"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/6.jpg",
+      "alt": "Image 30: Foto Producto Muebles"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/7.jpg",
+      "alt": "Image 32: Foto producto Naturaleza"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/8.jpg",
+      "alt": "Image 34: Foto producto moda"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/9.jpg",
+      "alt": "Image 36: Foto Producto Compuesta"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/10-1.jpg",
+      "alt": "Image 38: Foto Producto Comercial"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/11.jpg",
+      "alt": "Image 40: Fotografia alimentos compuesta"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/12-1.jpg",
+      "alt": "Image 42: Fotografía alimentos compuesta"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/13.jpg",
+      "alt": "Image 44: Fotografía Alimentos compuesta"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/14.jpg",
+      "alt": "Image 46: Foto Producto Compuesta"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/IMG_94002.jpg",
+      "alt": "Image 48: Foto Producto Modelos"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/6-1.jpg",
+      "alt": "Image 50: Fotoproducto muebles"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/7-1.jpg",
+      "alt": "Image 52: Fotoproducto Flores"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/8-1.jpg",
+      "alt": "Image 54: Fotoproducto Moda Bolsa"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/10-2.jpg",
+      "alt": "Image 56: Fotoproducto alimento composición"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/11-1.jpg",
+      "alt": "Image 58: Fotoproducto alimento composición"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/06a.jpg",
+      "alt": "Image 60: Fotoproducto Ropa"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/00-Portada-Video-institucional.jpg",
+      "alt": "Image 62: fotoproducto video"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/IMG_93338.jpg",
+      "alt": "Image 64: fotografia de producto sesión moda"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/IMG_93510.jpg",
+      "alt": "Image 66: fotografia de producto sesión moda"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/IMG_93696.jpg",
+      "alt": "Image 68: fotografia de producto sesión moda"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/IMG_93764.jpg",
+      "alt": "Image 70: fotografia de producto sesión moda"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/IMG_93953.jpg",
+      "alt": "Image 72: fotografia de producto sesión moda"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/IMG_94105.jpg",
+      "alt": "Image 74: fotografia de producto sesión moda"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/IMG_94176.jpg",
+      "alt": "Image 76: fotografia de producto sesión moda"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/01B.jpg",
+      "alt": "Image 78: Fotografía Publicitaria y Redes"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/02.jpg",
+      "alt": "Image 80: 02"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/03A.jpg",
+      "alt": "Image 82: 03A"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/05b.jpg",
+      "alt": "Image 84: 05b"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/197A8967.jpg",
+      "alt": "Image 86: 197A8967"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/1-1.jpg",
+      "alt": "Image 88: 1"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/2-1.jpg",
+      "alt": "Image 90: 2"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/3-1.jpg",
+      "alt": "Image 92: 3"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/4-1.jpg",
+      "alt": "Image 94: 4"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/6-2.jpg",
+      "alt": "Image 96: 6"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/7-2.jpg",
+      "alt": "Image 98: 7"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/8-2.jpg",
+      "alt": "Image 100: 8"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/9-2.jpg",
+      "alt": "Image 102: 9"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/10-3.jpg",
+      "alt": "Image 104: 10"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/11-2.jpg",
+      "alt": "Image 106: 11"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/01-2.jpg",
+      "alt": "Image 108: 01"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/00-Logo_Foto_del_Producto_-150x150.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/13b.jpg",
+      "alt": "Image 2: 13b"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/13a.jpg",
+      "alt": "Image 4: 13a"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/13-Portada.jpg",
+      "alt": "Image 6: Five hands in teamwork with a photography camera in tripode. Black and white"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/13e.jpg",
+      "alt": "Image 8: 13e"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/13d.jpg",
+      "alt": "Image 10: 13d"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/13c.jpg",
+      "alt": "Image 12: 13c"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/3C-meat.jpg",
+      "alt": "Image 26: 3C meat"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/1A-Qin.jpg",
+      "alt": "Image 28: 1A Qin"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/1B-cartographic.jpg",
+      "alt": "Image 30: 1B cartographic"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/1C-sara-juana.jpg",
+      "alt": "Image 32: 1C sara juana"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/1D-shaft.jpg",
+      "alt": "Image 34: 1D shaft"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/2A-cloe.jpg",
+      "alt": "Image 36: 2A cloe"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/2B-riazul.jpg",
+      "alt": "Image 38: 2B riazul"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/2C-guadalajara-plaza-expo.jpg",
+      "alt": "Image 40: 2C guadalajara plaza expo"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/2D-proforest.jpg",
+      "alt": "Image 42: 2D proforest"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/3A-BIRDMAN.jpg",
+      "alt": "Image 44: 3A BIRDMAN"
+    },
+    {
+      "src": "https://www.fotoproducto.com/wp-content/uploads/2023/08/3B-albar.jpg",
+      "alt": "Image 46: 3B albar"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "sitio": "https://educacioncontinuadelclaustro.mx/",
+  "fecha": "2026-09-26T07:15:48.196Z",
+  "motor": "jina-reader",
+  "slug": "elclaustro",
+  "nombre": "El Claustro",
+  "rubro": "EDUCACION",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "educacion",
+  "paginasRevisadas": [
+    {
+      "url": "https://educacioncontinuadelclaustro.mx/",
+      "titulo": "Educación Continua - El Claustro"
+    },
+    {
+      "url": "https://educacioncontinuadelclaustro.mx/producto/curso-escribe-claro-y-preciso-redaccion-intermedia/",
+      "titulo": "Curso Escribe claro y preciso (Redacción Intermedia) Inicio: Septiembre - El Claustro"
+    },
+    {
+      "url": "https://educacioncontinuadelclaustro.mx/idiomas/",
+      "titulo": "Idiomas - El Claustro"
+    },
+    {
+      "url": "https://educacioncontinuadelclaustro.mx/diplomados-con-opcion-a-titulacion/",
+      "titulo": "Diplomados con opción a titulación - El Claustro"
+    },
+    {
+      "url": "https://educacioncontinuadelclaustro.mx/gastronomia-para-todas-y-todos/",
+      "titulo": "Gastronomía para todas y todos - El Claustro"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "55 5130 3380",
+      "56 1498 2443",
+      "55 7670 4373",
+      "55 46031852",
+      "56 2139 9596",
+      "56 2117 7065",
+      "525621399597",
+      "55-5130-3300",
+      "55 5130 3300",
+      "5546031852",
+      "56) 2139-9598",
+      "525621399598"
+    ],
+    "emails": [
+      "ggarciaa@elclaustro.edu.mx",
+      "rperez@elclaustro.edu.mx",
+      "cursosenlinea@elclaustro.edu.mx"
+    ],
+    "whatsapp": [
+      "whatsapp.com/send/?phone=525621399597&text&app_absent=0)",
+      "wa.me/525621399598)"
+    ],
+    "redes": [
+      "https://www.youtube.com/watch?v=EFWCBmzFRVQ"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/DGEC_UCSJ-1024x246.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/cenado-150x150.jpg",
+      "alt": "Image 10: cenado"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/cfe-150x150.jpg",
+      "alt": "Image 11: cfe"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/chefs-150x150.jpg",
+      "alt": "Image 12: chefs"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/feria-de-culturas-150x150.jpg",
+      "alt": "Image 13: feria-de-culturas"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/grupo-modelo-150x150.jpg",
+      "alt": "Image 14: grupo-modelo"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/suprema-corte-150x150.jpg",
+      "alt": "Image 15: suprema-corte"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/shp-150x150.jpg",
+      "alt": "Image 16: shp"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/secretaria-de-cultura-150x150.jpg",
+      "alt": "Image 17: secretaria-de-cultura"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/salinas-150x150.jpg",
+      "alt": "Image 18: salinas"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/pepsico-150x150.jpg",
+      "alt": "Image 19: pepsico"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/liberpool-150x150.jpg",
+      "alt": "Image 20: liberpool"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/las-brisas-150x150.jpg",
+      "alt": "Image 21: las-brisas"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/ine-150x150.jpg",
+      "alt": "Image 22: ine"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/imss-150x150.jpg",
+      "alt": "Image 23: imss"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/alcandia-xochimilco-150x150.jpg",
+      "alt": "Image 24: alcandia-xochimilco"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/bimbo-150x150.jpg",
+      "alt": "Image 25: bimbo"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/diseno-artesanal-300x300.jpg",
+      "alt": "Image 36: <b>Curso - Taller </b> Acercamiento al diseño artesanal de México<br><b> Inicio: Enero</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/histpria-de-la-alimentacion-300x300.jpg",
+      "alt": "Image 37: <b>Diplomado</b> Historia de la alimentación, la cocina y la gastronomía de la Ciudad de México <br><b>Inicio: Agosto</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/panaderia-europea-matutino-300x300.jpg",
+      "alt": "Image 38: <b>Diplomado</b> Panadería europea (matutino)<br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/09/costos-receta-estandar-precios-300x300.jpg",
+      "alt": "Image 39: <b>Taller</b> Costos, receta estándar y precios <br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/dos-ri8qvnsks1n75t3jiihb02h3tigrp3hh2y4rlc9do0-300x300.jpg",
+      "alt": "Image 40: <b>Gastronomía Empresarial:</b> Formación y Experiencias a la Medida<br>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/hablar-en-publico-300x300.jpg",
+      "alt": "Image 41: <b>Curso - Taller </b>Técnicas para hablar en público con eficacia <br><b> Inicio: Julio</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/relajacion-300x300.jpg",
+      "alt": "Image 42: <b>Curso - Taller </b> Técnicas de relajación y visualización <br><b> Inicio: Junio</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/redaccion-300x300.jpg",
+      "alt": "Image 43: <b>Curso</b> Escribe claro y preciso (Redacción Intermedia)<br><b> Inicio: Septiembre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/bancos2-1024x172.jpg",
+      "alt": "Image 44"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/cropped-EL-CLAUSTRO-LOGO-03.png",
+      "alt": "Image 45"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/06/logo-RECLA_blanco-1024x504.png",
+      "alt": "Image 46"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/redaccion.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/margarita.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/06/SIELE-RRSS_4-300x300.jpg",
+      "alt": "Image 2: <b>SIELE</b> Certifica tu español con reconocimiento internacional <br>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/nahualt-2-300x300.jpg",
+      "alt": "Image 3: <b>Curso</b> de Masewalkopa: Lengua y Cultura Náhuatl<br> (pt 2) <br><b>Inicio: Agosto</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/05/curso-nocturno-300x300.jpg",
+      "alt": "Image 4: <b>Curso nocturno de inglés</b> Inglés Lift Up @ Nights! <br><b>Inicio: Julio</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/frances-1-300x300.jpg",
+      "alt": "Image 5: <b>Curso</b> Parlez-vous français? Nivel 1 Conociendo gente en francés<br><b>Agosto</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/frances-2-300x300.jpg",
+      "alt": "Image 6: <b>Curso</b> Parlez – vous français? Nivel 2 (A1.2) <br><b>Inicio: Agosto</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/idioma-ingles-300x300.jpg",
+      "alt": "Image 7: <b>Curso de inglés entre semana</b> Lift Up on Weekdays!<br><b>Inicio: Agosto</b><br><b>¡Iniciamos cada 6 semanas!</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/Italiano-300x300.jpg",
+      "alt": "Image 8: <b>Curso</b> de italiano: Vivi l’Italia Nivel 1 (A1.1) <br><b>Inicio: Agosto</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/02/aleman-300x300.jpg",
+      "alt": "Image 9: <b>Curso de alemán nivel 1</b> Ruhig bleiben und Deutsch sprechen<br><b>Inicio: Agosto</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/malestares-sociales-300x300.jpg",
+      "alt": "Image 2: <b>Diplomado</b> Teoría crítica: Malestares sociales contemporáneos y resistencia <br><b>Inicio: Julio</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/creacion-de-pensamiento-poetico-300x300.jpg",
+      "alt": "Image 3: <b>Diplomado</b><br> Creación y pensamiento poético <br><b>Inicio: Agosto</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/sistemas-de-inocuidad-300x300.jpg",
+      "alt": "Image 5: <b>Diplomado</b> Sistemas de calidad e inocuidad en proceso de preparación y servicio de los alimentos <br><b>Inicio: Septiembre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/09/desarrollo-estrategico-300x300.jpg",
+      "alt": "Image 6: <b>Diplomado</b> Desarrollo estratégico de proyectos de la comunicación <br><b>Inicio: Noviembre </b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/diseno-y-administracion-8-300x300.jpg",
+      "alt": "Image 7: <b>Diplomado</b> Diseño y administración de negocios creativos <br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/sostenibilidad-300x300.jpg",
+      "alt": "Image 8: <b>Diplomado</b> La Sostenibilidad: eje integral para comprender los problemas del presente y futuro <br><b>Inicio: Próximamente</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/curaduria-300x300.jpg",
+      "alt": "Image 9: <b>Diplomado</b> Curaduría crítica y museografía contemporánea <br><b>Inicio: En curso</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/edicioon-de-publicaciones-300x300.jpg",
+      "alt": "Image 10: <b>Diplomado</b> Edición de publicaciones impresas y digitales <br><b>Inicio: En curso</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/neurodesarrollo-300x300.jpg",
+      "alt": "Image 11: <b>Diplomado</b><br> Neurodesarrollo e intervención temprana <br><b>Inicio: En curso</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/desarrollo-gastronomico-300x300.jpg",
+      "alt": "Image 12: <b>Diplomado</b> Aplicaciones de la nutrición para el desarrollo gastronómico en México <br><b>Inicio: En curso</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/VIRREINAL_CUADRADO-300x300.jpg",
+      "alt": "Image 13: <b>Diplomado</b> Cultura Virreinal <br><b> Inicio: En curso</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/alta-cocina-ultimos-300x300.jpg",
+      "alt": "Image 3: <b>Diplomado</b> Alta cocina <br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/cocina-mexicana-vegetal-300x300.jpg",
+      "alt": "Image 4: <b>Diplomado</b> Cocina mexicana contemporánea<br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/pasteleria-basica-nuevo-horario-300x300.jpg",
+      "alt": "Image 5: <b>Diplomado</b> Pastelería básica <br><b>Inicio: Noviembre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/cocina-europea-300x300.jpg",
+      "alt": "Image 6: <b>Diplomado</b> Panadería Europea <br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/cocina-regional-300x300.jpg",
+      "alt": "Image 7: <b>Diplomado</b> Cocina Regional Mexicana <br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/pasteleria-300x300.jpg",
+      "alt": "Image 8: <b>Diplomado</b> Repostería <b>(sabatino)</b><br><b>Inicio: Noviembre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/07/cocina-regional-sabatino-300x300.jpg",
+      "alt": "Image 9: <b>Diplomado</b> Cocina regional mexicana (sabatino) <br><b>Inicio: Noviembre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/reposteria-300x300.jpg",
+      "alt": "Image 10: <b>Diplomado</b> Repostería<br><b>Inicio: Enero</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/base-de-la-cocina-300x300.jpg",
+      "alt": "Image 11: <b>Diplomado</b> Bases de la cocina profesional<br><b>Inicio: Enero</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/panaderia-sabatino-300x300.jpg",
+      "alt": "Image 12: <b>Diplomado</b> Panadería internacional (sabatino) <br><b>Inicio: Mayo</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/base-de-la-cocina-matutino-300x300.jpg",
+      "alt": "Image 13: <b>Diplomado</b> Bases de la cocina profesional (matutino) <br><b>Inicio: Noviembre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/panaderia-creativa-300x300.jpg",
+      "alt": "Image 14: <b>Diplomado</b> Panadería creativa y experimental (matutino)<br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/panaderia-mexicana-matutino-300x300.jpg",
+      "alt": "Image 15: <b>Diplomado</b> Panadería mexicana (matutino)<br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/reposteria-matutino-300x300.jpg",
+      "alt": "Image 17: <b>Diplomado</b> Repostería (matutino)<br><b>Inicio: Enero</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/tendecias-e-inovacion-matutino-300x300.jpg",
+      "alt": "Image 18: <b>Diplomado</b> Alta pastelería (matutino)<br><b>Inicio: Noviembre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/pasteleria-matutino-300x300.jpg",
+      "alt": "Image 19: <b>Diplomado </b> Pastelería básica (matutino) <br><b>Inicio: Septiembre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/03/cocina-internacional-300x300.jpg",
+      "alt": "Image 20: <b>Diplomado</b> Cocina internacional: técnicas, ingredientes y recetas<br><b>Inicio: Febrero</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/09/pan-de-muerto-ultimos-lugares-300x300.jpg",
+      "alt": "Image 21: <b>Clase única</b> Pan de muerto<br><b> Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/09/babka-300x300.jpg",
+      "alt": "Image 22: <b>Clase única</b> Babka y panqué de naranja y jengibre <br><b> Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/09/galletas-navidenas-300x300.jpg",
+      "alt": "Image 23: <b>Clase única</b> Galletas navideñas<br><b> Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/08/cocina-callejera-asia-300x300.jpg",
+      "alt": "Image 24: <b>Taller</b> Cocina callejera: Asia <br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/09/cocina-italiana-300x300.jpg",
+      "alt": "Image 25: <b>Taller</b> Cocina italiana navideña<br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/09/reposteria-y-panaderia-300x300.jpg",
+      "alt": "Image 26: <b>Taller</b> Repostería y panadería navideña <br><b>Inicio: Octubre</b>"
+    },
+    {
+      "src": "https://educacioncontinuadelclaustro.mx/wp-content/uploads/2026/09/cocina-navidena-300x300.jpg",
+      "alt": "Image 27: <b>Taller</b> Cocina navideña sin complicaciones <br><b>Inicio: Octubre</b>"
+    }
+  ]
+}
