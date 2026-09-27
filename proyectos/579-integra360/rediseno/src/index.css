@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Roboto es la fuente de su sitio (styling-options.css y Elementor); Outfit, para títulos y cifras, se parece a las
+   mayúsculas geométricas de "INTEGRA 360" en su logo. @fontsource, solo latino. */
+@font-face { font-family: "Roboto"; src: url("../node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Roboto"; src: url("../node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Roboto"; src: url("../node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-300-normal.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: el azul petróleo de su símbolo (#087898, oscurecido), el azul de su tema (#004274, más hondo) y el gris del logo;
+   ámbar, ocre y cantera son nuestros. Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-noche: #0b2a3c;
+  --color-azul: #0a6a88;
+  --color-ambar: #e3a93b;
+  --color-ocre: #9a6410;
+  --color-cantera: #f2f0eb;
+  --color-tinta: #1c2a33;
+  --color-gris: #56606a;
+  --color-violeta: #6b4a86;
+  --font-sans: "Roboto", "Segoe UI", sans-serif;
+  --font-titulo: "Outfit", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-white text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { font-family: var(--font-titulo); line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ambar); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-4 sm:px-8; }
+  .btn, .btn-linea, .btn-claro, .btn-ambar {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-[0.95rem] font-medium transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-azul text-white hover:bg-noche; }
+  .btn-ambar { @apply bg-ambar text-noche hover:bg-white; }
+  .btn-linea { @apply border border-tinta/30 text-tinta hover:border-azul hover:bg-cantera; }
+  .btn-claro { @apply border border-white/60 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-medium text-azul underline decoration-1 underline-offset-4 hover:text-noche; }
+  .cifra { font-family: var(--font-titulo); }
+}
+
+/* El sector elegido gira hasta su rumbo y la ficha aparece con un fundido corto (quietos con prefers-reduced-motion). */
+.sector { transition: transform 0.45s cubic-bezier(0.3, 0.7, 0.3, 1); transform-origin: 300px 300px; }
+.aparece { animation: aparece 0.3s ease-out; }
+@keyframes aparece { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+/* Halo blanco para que los textos de la rosa se lean sobre los puntos. */
+.halo { paint-order: stroke; stroke: #ffffff; stroke-width: 4px; stroke-linejoin: round; }

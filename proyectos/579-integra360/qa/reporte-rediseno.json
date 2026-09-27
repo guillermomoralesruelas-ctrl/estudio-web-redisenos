@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-09-27T17:40:17.292Z",
+  "carpeta": "579-integra360",
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6074,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 17,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Integra 360 | Casas y terrenos en venta en Pachuca, Hidalgo",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9944,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 17,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Integra 360 | Casas y terrenos en venta en Pachuca, Hidalgo",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
