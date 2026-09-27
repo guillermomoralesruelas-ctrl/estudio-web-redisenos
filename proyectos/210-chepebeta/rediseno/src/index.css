@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Fuentes de su sitio: Playfair Display (títulos, --font-display) y Montserrat (texto, --font-body), variables, de
+   @fontsource-variable y solo el subconjunto latino. Los Noto Sans de su CSS son para el coreano y el japonés de su
+   selector de idiomas: no se usan. */
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../node_modules/@fontsource-variable/playfair-display/files/playfair-display-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 400 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../node_modules/@fontsource-variable/playfair-display/files/playfair-display-latin-wght-italic.woff2") format("woff2-variations");
+  font-weight: 400 900; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../node_modules/@fontsource-variable/montserrat/files/montserrat-latin-wght-normal.woff2") format("woff2-variations");
+  font-weight: 300 800; font-style: normal; font-display: swap;
+}
+
+/* Tokens: el negro #120905, el crema #f8f7f3, el texto #2a1f19 y el cuero #914f2f de su CSS; el celeste #5bb0d7 de su
+   logo y el dorado #e0af3b de sus medallas y su cursor. */
+@theme {
+  --color-noche: #120905;
+  --color-noche-2: #22150e;
+  --color-crema: #f8f7f3;
+  --color-crema-oscura: #ece7df;
+  --color-tinta: #2a1f19;
+  --color-cuero: #914f2f;
+  --color-celeste: #5bb0d7;
+  --color-oro: #e0af3b;
+  --font-sans: "Montserrat", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
+  body { @apply bg-crema text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.7; }
+  h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-cuero); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-celeste); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-celeste, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-cuero text-crema hover:bg-tinta; }
+  .btn-celeste { @apply bg-celeste text-noche hover:bg-crema; }
+  .btn-linea { @apply border border-tinta/30 text-tinta hover:border-tinta hover:bg-tinta/5; }
+  .btn-claro { @apply border border-crema/45 text-crema hover:border-crema hover:bg-crema/10; }
+  .precio { font-variant-numeric: tabular-nums; }
+  .puntos { @apply min-w-4 flex-1 border-b border-dotted border-tinta/35; transform: translateY(-0.3em); }
+  .campo { @apply mt-1 block w-full rounded-xl border border-tinta/25 bg-white px-4 py-3 text-tinta; min-height: 48px; }
+  /* El despiece: las zonas de la res */
+  .zona { cursor: pointer; transition: fill 0.25s ease; }
+}

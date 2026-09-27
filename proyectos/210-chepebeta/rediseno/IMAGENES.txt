@@ -1,0 +1,22 @@
+# Imágenes disponibles en publicDir (../sitio/assets/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+14-D5k7Q9js.png	1350x1080	3729 KB
+10-eOH67FdP.png	1350x1080	3592 KB
+5-CeESOmBZ.png	1350x1080	3513 KB
+3-CkO5q_ds.png	1350x1080	3456 KB
+12-XpX9aXcu.png	1350x1080	3370 KB
+1-Cfup0fq_.png	1350x1080	3356 KB
+7-CgghJZ4f.png	1350x1080	3326 KB
+13-CM2LMX1b.png	1350x1080	3221 KB
+8-t5g4sTjn.png	1350x1080	3191 KB
+6-fi199rbT.png	1350x1080	3064 KB
+2-2V871clG.png	1350x1080	3014 KB
+9-zmNQtZu1.png	1350x1080	2975 KB
+alma-polaroid-stamps-BIn5hQYH.png	1920x1080	2881 KB
+4-B-MMAYMo.png	1350x1080	2823 KB
+11-Ccyv___2.png	1350x1080	2769 KB
+hero-bg-C7vJ14OE.jpg	1024x1024	252 KB
+logo-chepebeta-tb_CjZGR.png	1920x1341	250 KB
+tango-event-DQBoQuSh.jpg	1024x1024	184 KB
+menu-entradas-BAK5drUC.jpg	1024x1024	165 KB
+wine-pairing-B2hgLQB3.jpg	1024x1024	105 KB

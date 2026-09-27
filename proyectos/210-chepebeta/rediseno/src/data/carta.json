@@ -1,0 +1,1583 @@
+[
+ {
+  "id": "entradas",
+  "pestana": "Entradas",
+  "titulo": "Entradas",
+  "frase": "El comienzo del ritual. Sabores clásicos como nuestras empanadas cortadas a cuchillo, picaditas y la provoletta.",
+  "secciones": [
+   {
+    "titulo": "Empanadas",
+    "nota": "Las horneadas son las tradicionales argentinas; las gourmet llevan los rellenos de la casa.",
+    "platillos": [
+     {
+      "nombre": "Horneada de carne Angus",
+      "precios": [
+       {
+        "valor": "$69"
+       }
+      ]
+     },
+     {
+      "nombre": "Horneada de jamón y queso",
+      "precios": [
+       {
+        "valor": "$69"
+       }
+      ]
+     },
+     {
+      "nombre": "Horneada de espinaca y requesón",
+      "precios": [
+       {
+        "valor": "$69"
+       }
+      ]
+     },
+     {
+      "nombre": "Gourmet Campo",
+      "detalle": "Carne cortada a cuchillo.",
+      "precios": [
+       {
+        "valor": "$79"
+       }
+      ]
+     },
+     {
+      "nombre": "Gourmet Piquín",
+      "detalle": "Carne molida Angus con un toque de chile.",
+      "precios": [
+       {
+        "valor": "$79"
+       }
+      ]
+     },
+     {
+      "nombre": "Gourmet Rajas",
+      "detalle": "Queso y rajas de chile poblano.",
+      "precios": [
+       {
+        "valor": "$79"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Para picar y compartir",
+    "platillos": [
+     {
+      "nombre": "Guacamole",
+      "precios": [
+       {
+        "valor": "$159"
+       }
+      ]
+     },
+     {
+      "nombre": "Carpaccio de Betabel",
+      "detalle": "Finas láminas de betabel.",
+      "precios": [
+       {
+        "valor": "$180"
+       }
+      ]
+     },
+     {
+      "nombre": "Panela Fundido Adobado",
+      "precios": [
+       {
+        "valor": "$190"
+       }
+      ]
+     },
+     {
+      "nombre": "Tablita de Chorizo Gourmet",
+      "precios": [
+       {
+        "valor": "$250"
+       }
+      ]
+     },
+     {
+      "nombre": "Tablita Mixta",
+      "detalle": "Chorizo y morcilla.",
+      "precios": [
+       {
+        "valor": "$290"
+       }
+      ]
+     },
+     {
+      "nombre": "Carpaccio de Res",
+      "detalle": "Filete de res sellado y curado.",
+      "precios": [
+       {
+        "valor": "$280"
+       }
+      ]
+     },
+     {
+      "nombre": "Picadita",
+      "detalle": "Jamón serrano, queso, aceitunas y tomates cherry.",
+      "precios": [
+       {
+        "valor": "$290"
+       }
+      ]
+     },
+     {
+      "nombre": "Provoletta",
+      "detalle": "Queso provolone fundido a la parrilla.",
+      "precios": [
+       {
+        "valor": "$299"
+       }
+      ]
+     },
+     {
+      "nombre": "Matambre de Campo",
+      "detalle": "Rodajas de carne fría arrollada, rellena con verduras y queso parmesano.",
+      "precios": [
+       {
+        "valor": "$349"
+       }
+      ]
+     },
+     {
+      "nombre": "Entradita",
+      "detalle": "Matambre + Picadita.",
+      "precios": [
+       {
+        "valor": "$369"
+       }
+      ]
+     },
+     {
+      "nombre": "Compadrita",
+      "detalle": "Queso Panela adobado fundido, chorizo gourmet, guacamole con chimichurri y tomate cherry.",
+      "precios": [
+       {
+        "valor": "$390"
+       }
+      ]
+     },
+     {
+      "nombre": "Chicharrón de rib eye",
+      "detalle": "Rib eye horneado sobre una cama de guacamole.",
+      "precios": [
+       {
+        "valor": "$399"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "acompanar",
+  "pestana": "Para acompañar",
+  "titulo": "Para acompañar",
+  "frase": "Realza los sabores de tu mesa con guarniciones artesanales, como nuestras icónicas papas fritas crujientes.",
+  "secciones": [
+   {
+    "titulo": "Guarniciones y ensaladas",
+    "platillos": [
+     {
+      "nombre": "Papas a la Francesa",
+      "precios": [
+       {
+        "valor": "$99"
+       }
+      ]
+     },
+     {
+      "nombre": "Papas Provenzal",
+      "detalle": "Ajo y perejil.",
+      "precios": [
+       {
+        "valor": "$129"
+       }
+      ]
+     },
+     {
+      "nombre": "Ensalada de Tomate",
+      "detalle": "Rebanadas de tomate con chimichurri.",
+      "precios": [
+       {
+        "valor": "$129"
+       }
+      ]
+     },
+     {
+      "nombre": "Ensalada Mixta",
+      "detalle": "Lechuga, tomate, zanahoria y cebolla.",
+      "precios": [
+       {
+        "valor": "$199"
+       }
+      ]
+     },
+     {
+      "nombre": "Ensalada Che Pebeta",
+      "detalle": "Lechuga hidropónica, cherry, zanahoria, aguacate, cebolla, queso Panela, Gouda, Mozzarella y aceitunas, aderezo de la casa.",
+      "precios": [
+       {
+        "etiqueta": "chica",
+        "valor": "$199"
+       },
+       {
+        "etiqueta": "grande",
+        "valor": "$299"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pastas",
+  "pestana": "Pastas y pizzas",
+  "titulo": "Pastas y pizzas",
+  "frase": "Nuestra herencia italiana. Pastas amasadas a mano y pizzas de masa madre.",
+  "secciones": [
+   {
+    "titulo": "Pastas",
+    "nota": "Con la salsa que elijas: boloñesa, crema a los cuatro quesos o fileto (la salsa de tomate a la argentina). Agrega parmesano +$20, pollo +$60, jamón serrano +$70 o salmón +$90.",
+    "platillos": [
+     {
+      "nombre": "Spaghetti",
+      "precios": [
+       {
+        "valor": "$190"
+       }
+      ]
+     },
+     {
+      "nombre": "Fettuccine",
+      "precios": [
+       {
+        "valor": "$200"
+       }
+      ]
+     },
+     {
+      "nombre": "Ñoqui Casero",
+      "precios": [
+       {
+        "valor": "$220"
+       }
+      ]
+     },
+     {
+      "nombre": "Agnolotti Casero",
+      "detalle": "Relleno de jamón y queso.",
+      "precios": [
+       {
+        "valor": "$240"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Pizzas",
+    "nota": "Son rectangulares: la chica mide 30 × 20 cm y la grande 60 × 20 cm.",
+    "platillos": [
+     {
+      "nombre": "La Musa",
+      "detalle": "Mozzarella.",
+      "precios": [
+       {
+        "etiqueta": "chica",
+        "valor": "$169"
+       },
+       {
+        "etiqueta": "grande",
+        "valor": "$330"
+       }
+      ]
+     },
+     {
+      "nombre": "Margarita",
+      "detalle": "Mozzarella, tomate y ajo.",
+      "precios": [
+       {
+        "etiqueta": "chica",
+        "valor": "$179"
+       },
+       {
+        "etiqueta": "grande",
+        "valor": "$350"
+       }
+      ]
+     },
+     {
+      "nombre": "Fugazetta",
+      "detalle": "Mozzarella y cebolla salteada.",
+      "precios": [
+       {
+        "etiqueta": "chica",
+        "valor": "$179"
+       },
+       {
+        "etiqueta": "grande",
+        "valor": "$350"
+       }
+      ]
+     },
+     {
+      "nombre": "Verduras",
+      "detalle": "Mozzarella, aceitunas, morrones y cebolla.",
+      "precios": [
+       {
+        "etiqueta": "chica",
+        "valor": "$199"
+       },
+       {
+        "etiqueta": "grande",
+        "valor": "$390"
+       }
+      ]
+     },
+     {
+      "nombre": "Pepperoni o Jamón",
+      "precios": [
+       {
+        "etiqueta": "chica",
+        "valor": "$219"
+       },
+       {
+        "etiqueta": "grande",
+        "valor": "$420"
+       }
+      ]
+     },
+     {
+      "nombre": "Chorizo Gourmet",
+      "detalle": "Mozzarella y rodajas de chorizo.",
+      "precios": [
+       {
+        "etiqueta": "chica",
+        "valor": "$229"
+       },
+       {
+        "etiqueta": "grande",
+        "valor": "$450"
+       }
+      ]
+     },
+     {
+      "nombre": "Serrano",
+      "detalle": "Mozzarella y jamón serrano.",
+      "precios": [
+       {
+        "etiqueta": "chica",
+        "valor": "$239"
+       },
+       {
+        "etiqueta": "grande",
+        "valor": "$470"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "parrilla",
+  "pestana": "De la parrilla",
+  "titulo": "De la parrilla",
+  "frase": "El orgullo de la Pampa en Monterrey. Cortes High Choice seleccionados, asados con maestría.",
+  "secciones": [
+   {
+    "titulo": "Parrilladas Angus",
+    "nota": "Para compartir: cada una dice para cuántas personas es y cuántos gramos lleva de cada corte.",
+    "platillos": [
+     {
+      "nombre": "Pituca, para 2 personas",
+      "detalle": "200 g Vacío + 200 g Picaña + 200 g Arrachera + 1 Brocheta.",
+      "precios": [
+       {
+        "valor": "$890"
+       }
+      ]
+     },
+     {
+      "nombre": "Piba, para 3 personas",
+      "detalle": "400 g Bife de Vacío + 400 g Picaña + 2 Brochetas de Chorizo.",
+      "precios": [
+       {
+        "valor": "$1,290"
+       }
+      ]
+     },
+     {
+      "nombre": "Che Pebeta, para 4 personas",
+      "detalle": "400 g Bife de Vacío + 400 g Picaña + 400 g Arrachera + 2 Brochetas de Chorizo.",
+      "precios": [
+       {
+        "valor": "$1,690"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Cortes Angus",
+    "nota": "Cortes de res Angus de calidad High Choice, de origen nacional. En varios eliges 200 o 400 gramos. ¿De qué parte sale cada corte? Míralo en El despiece.",
+    "platillos": [
+     {
+      "nombre": "Arrachera",
+      "precios": [
+       {
+        "etiqueta": "200 g",
+        "valor": "$290"
+       },
+       {
+        "etiqueta": "400 g",
+        "valor": "$490"
+       }
+      ]
+     },
+     {
+      "nombre": "Picaña",
+      "precios": [
+       {
+        "etiqueta": "200 g",
+        "valor": "$320"
+       },
+       {
+        "etiqueta": "400 g",
+        "valor": "$590"
+       }
+      ]
+     },
+     {
+      "nombre": "Lomo",
+      "detalle": "Caña de filete.",
+      "precios": [
+       {
+        "etiqueta": "200 g",
+        "valor": "$320"
+       },
+       {
+        "etiqueta": "400 g",
+        "valor": "$590"
+       }
+      ]
+     },
+     {
+      "nombre": "Vacío",
+      "precios": [
+       {
+        "etiqueta": "200 g",
+        "valor": "$350"
+       },
+       {
+        "etiqueta": "400 g",
+        "valor": "$690"
+       }
+      ]
+     },
+     {
+      "nombre": "Rib Eye Angus",
+      "detalle": "500 g.",
+      "precios": [
+       {
+        "valor": "$1,190"
+       }
+      ]
+     },
+     {
+      "nombre": "Tira de Asado",
+      "detalle": "400 g, corte nacional, extra suave.",
+      "precios": [
+       {
+        "valor": "$399"
+       }
+      ]
+     },
+     {
+      "nombre": "Churrasco Rib Eye",
+      "detalle": "½ kilo.",
+      "precios": [
+       {
+        "valor": "$690"
+       }
+      ]
+     },
+     {
+      "nombre": "Bife angosto (New York) de 1 pulgada",
+      "detalle": "250 g, de unos 2.5 cm de grueso.",
+      "precios": [
+       {
+        "valor": "$390"
+       }
+      ]
+     },
+     {
+      "nombre": "Bife angosto (New York) de 2 pulgadas",
+      "detalle": "500 g, de unos 5 cm de grueso.",
+      "precios": [
+       {
+        "valor": "$690"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "casa",
+  "pestana": "De la casa",
+  "titulo": "Platillos de la casa",
+  "frase": "Recetas que han cruzado el océano: desde nuestra emblemática milanesa y el infaltable choripán artesanal, hasta creaciones contemporáneas que honran nuestra herencia en cada bocado.",
+  "secciones": [
+   {
+    "titulo": "Platillos de la casa",
+    "platillos": [
+     {
+      "nombre": "Tender de Pollo",
+      "detalle": "3 tenders de filete de pollo con papas.",
+      "precios": [
+       {
+        "valor": "$169"
+       }
+      ]
+     },
+     {
+      "nombre": "Choripán",
+      "detalle": "Torta de chorizo gourmet con tomate, lechuga y chimichurri.",
+      "precios": [
+       {
+        "valor": "$199"
+       }
+      ]
+     },
+     {
+      "nombre": "Pollo",
+      "detalle": "Pechuga al carbón con chimichurri.",
+      "precios": [
+       {
+        "valor": "$199"
+       }
+      ]
+     },
+     {
+      "nombre": "Atún",
+      "detalle": "Medallón de 200 g.",
+      "precios": [
+       {
+        "valor": "$220"
+       }
+      ]
+     },
+     {
+      "nombre": "Hamburguesa Angus",
+      "detalle": "Carne Angus sin huevo ni conservantes, pan casero, con papas.",
+      "precios": [
+       {
+        "etiqueta": "sola",
+        "valor": "$229"
+       },
+       {
+        "etiqueta": "con huevo",
+        "valor": "$249"
+       }
+      ]
+     },
+     {
+      "nombre": "Milanesa empanizada",
+      "detalle": "De pechuga de pollo o de arrachera. Incluye papas.",
+      "precios": [
+       {
+        "etiqueta": "de pollo",
+        "valor": "$199"
+       },
+       {
+        "etiqueta": "de arrachera",
+        "valor": "$299"
+       }
+      ]
+     },
+     {
+      "nombre": "Milanesa napolitana",
+      "detalle": "De pechuga de pollo o de arrachera, cubierta de salsa de tomate y queso.",
+      "precios": [
+       {
+        "etiqueta": "de pollo",
+        "valor": "$269"
+       },
+       {
+        "etiqueta": "de arrachera",
+        "valor": "$369"
+       }
+      ]
+     },
+     {
+      "nombre": "Torta de Lomito",
+      "detalle": "Pan casero, filete de res, tomate, lechuga y mayonesa con chimichurri.",
+      "precios": [
+       {
+        "valor": "$359"
+       }
+      ]
+     },
+     {
+      "nombre": "Salmón Patagónico",
+      "detalle": "Salmón de las costas del Sur con finas hierbas.",
+      "precios": [
+       {
+        "valor": "$369"
+       }
+      ]
+     },
+     {
+      "nombre": "Chamorro",
+      "detalle": "Chamorro horneado al vino tinto.",
+      "precios": [
+       {
+        "valor": "$369"
+       }
+      ]
+     },
+     {
+      "nombre": "Costilla de Res",
+      "precios": [
+       {
+        "valor": "$399"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "postres",
+  "pestana": "Postres y café",
+  "titulo": "Postres y café",
+  "frase": "El final dulce de nuestra historia. Déjate seducir por delicias tradicionales como nuestro legendario Balcarce. Orgullosamente, somos el único restaurante en Monterrey que ofrece este tesoro de la repostería argentina.",
+  "secciones": [
+   {
+    "titulo": "Postres",
+    "platillos": [
+     {
+      "nombre": "Rogel Individual",
+      "detalle": "“Mil hojas” — 5 finísimas capas crocantes unidas con dulce de leche y coronado con merengue suizo flameado.",
+      "precios": [
+       {
+        "valor": "$89"
+       }
+      ]
+     },
+     {
+      "nombre": "Tiramisú",
+      "detalle": "Italiano por origen. Huevos, café, almendras, licor y queso crema. Una rebanada que eleva.",
+      "precios": [
+       {
+        "valor": "$199"
+       }
+      ]
+     },
+     {
+      "nombre": "Balcarce",
+      "detalle": "Originario de Balcarce, Buenos Aires. Pionono, crema de leche, merengues crocantes, dulce de leche y nueces.",
+      "precios": [
+       {
+        "valor": "$229"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Alfajores",
+    "nota": "Por pieza o en caja de 12.",
+    "platillos": [
+     {
+      "nombre": "Alfajor de Maicena",
+      "detalle": "Tapas de harina de maíz unidas con dulce de leche y coco. Legado de Andalucía.",
+      "precios": [
+       {
+        "etiqueta": "por pieza",
+        "valor": "$25"
+       },
+       {
+        "etiqueta": "caja de 12",
+        "valor": "$250"
+       }
+      ]
+     },
+     {
+      "nombre": "Alfajor de Chocolate",
+      "precios": [
+       {
+        "etiqueta": "por pieza",
+        "valor": "$30"
+       },
+       {
+        "etiqueta": "caja de 12",
+        "valor": "$300"
+       }
+      ]
+     },
+     {
+      "nombre": "Alfajor Santafecino",
+      "detalle": "Tradicional alfajor de Santa Fe desde 1851. Tres tapas crocantes con dulce de leche y glaseado fino.",
+      "precios": [
+       {
+        "valor": "$59"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Café y té",
+    "platillos": [
+     {
+      "nombre": "Café",
+      "precios": [
+       {
+        "valor": "$60"
+       }
+      ]
+     },
+     {
+      "nombre": "Café Doble",
+      "precios": [
+       {
+        "valor": "$80"
+       }
+      ]
+     },
+     {
+      "nombre": "Té",
+      "precios": [
+       {
+        "valor": "$50"
+       }
+      ]
+     },
+     {
+      "nombre": "Cappuccino",
+      "precios": [
+       {
+        "valor": "$90"
+       }
+      ]
+     },
+     {
+      "nombre": "Espresso",
+      "precios": [
+       {
+        "valor": "$60"
+       }
+      ]
+     },
+     {
+      "nombre": "Carajillo",
+      "precios": [
+       {
+        "valor": "$189"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vinos",
+  "pestana": "Vinos",
+  "titulo": "La bodega",
+  "frase": "Nuestra cava privada. Selección curada de vinos de autor y etiquetas boutique.",
+  "secciones": [
+   {
+    "titulo": "Vinos de autor",
+    "nota": "¿Traes tu propia botella? El descorche (abrirla y servirla en tu mesa) cuesta $290.",
+    "platillos": [
+     {
+      "nombre": "Alma Negra Misterio",
+      "detalle": "16 meses de barrica de roble",
+      "precios": [
+       {
+        "valor": "$2,590"
+       }
+      ]
+     },
+     {
+      "nombre": "Claroscuro — Gran Reserva Malbec",
+      "detalle": "18 meses de barrica y 12 meses de botella",
+      "precios": [
+       {
+        "valor": "$2,390"
+       }
+      ]
+     },
+     {
+      "nombre": "El Enemigo — Bonarda",
+      "detalle": "12 meses de barrica de roble",
+      "precios": [
+       {
+        "valor": "$2,290"
+       }
+      ]
+     },
+     {
+      "nombre": "Antucura — Cabernet Franc Reserva",
+      "detalle": "12 meses de barrica y 8 meses de botella",
+      "precios": [
+       {
+        "valor": "$1,690"
+       }
+      ]
+     },
+     {
+      "nombre": "Claroscuro — Gran Malbec, Blend de Malbec",
+      "detalle": "12 meses de barrica y 6 meses de botella",
+      "precios": [
+       {
+        "valor": "$1,590"
+       }
+      ]
+     },
+     {
+      "nombre": "Catena — Malbec",
+      "detalle": "12 meses de barrica de roble",
+      "precios": [
+       {
+        "valor": "$1,290"
+       }
+      ]
+     },
+     {
+      "nombre": "Catena — Cabernet",
+      "detalle": "12 meses de barrica de roble",
+      "precios": [
+       {
+        "valor": "$1,290"
+       }
+      ]
+     },
+     {
+      "nombre": "Casir dos Santos — Cabernet Sauvignon",
+      "detalle": "12 meses de barrica y 6 meses de botella",
+      "precios": [
+       {
+        "valor": "$1,290"
+       }
+      ]
+     },
+     {
+      "nombre": "Norton — Reserva Malbec",
+      "detalle": "12 meses de barrica y 6 meses de botella",
+      "precios": [
+       {
+        "valor": "$1,190"
+       }
+      ]
+     },
+     {
+      "nombre": "Claroscuro, Tintas de Uco — Malbec, Franc, Petite Verdot",
+      "detalle": "6 meses de barrica",
+      "precios": [
+       {
+        "valor": "$1,090"
+       }
+      ]
+     },
+     {
+      "nombre": "Antucura — Cabernet Sauvignon",
+      "detalle": "8 meses en barricas de roble francés",
+      "precios": [
+       {
+        "valor": "$990"
+       }
+      ]
+     },
+     {
+      "nombre": "Malbec Dulce Cafayate",
+      "detalle": "6 meses de barrica",
+      "precios": [
+       {
+        "valor": "$990"
+       }
+      ]
+     },
+     {
+      "nombre": "Hey Malbec! — Matías Riccitelli",
+      "precios": [
+       {
+        "valor": "$950"
+       }
+      ]
+     },
+     {
+      "nombre": "Navarro Correas — Blend",
+      "detalle": "12 meses de barrica de roble",
+      "precios": [
+       {
+        "valor": "$950"
+       }
+      ]
+     },
+     {
+      "nombre": "Los Maza — Roble Shiraz",
+      "detalle": "6 meses de barrica",
+      "precios": [
+       {
+        "valor": "$890"
+       }
+      ]
+     },
+     {
+      "nombre": "Patagonia — Malbec",
+      "precios": [
+       {
+        "valor": "$790"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Vino por copa",
+    "platillos": [
+     {
+      "nombre": "Antucura — Cabernet Sauvignon",
+      "detalle": "Argentina, 8 meses de barrica",
+      "precios": [
+       {
+        "valor": "$219"
+       }
+      ]
+     },
+     {
+      "nombre": "Patagonia — Malbec",
+      "detalle": "Argentina, 3 meses de barrica",
+      "precios": [
+       {
+        "valor": "$189"
+       }
+      ]
+     },
+     {
+      "nombre": "Cal y Canto — Tinto",
+      "detalle": "España",
+      "precios": [
+       {
+        "valor": "$159"
+       }
+      ]
+     },
+     {
+      "nombre": "Cal y Canto — Verdejo Blanco",
+      "detalle": "España",
+      "precios": [
+       {
+        "valor": "$149"
+       }
+      ]
+     },
+     {
+      "nombre": "Zinfandel — Rosado",
+      "detalle": "México",
+      "precios": [
+       {
+        "valor": "$129"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Vino por botella",
+    "nota": "20% de descuento en botellas para llevar.",
+    "platillos": [
+     {
+      "nombre": "Moscato Giallo — Blanco Espumoso",
+      "detalle": "México",
+      "precios": [
+       {
+        "valor": "$1,090"
+       }
+      ]
+     },
+     {
+      "nombre": "Casa Madero 2V",
+      "detalle": "México",
+      "precios": [
+       {
+        "valor": "$890"
+       }
+      ]
+     },
+     {
+      "nombre": "Lujuria — Blanco Dulce",
+      "detalle": "Chile",
+      "precios": [
+       {
+        "valor": "$790"
+       }
+      ]
+     },
+     {
+      "nombre": "Fragolino La Gioiosa — Rosado Espumoso",
+      "detalle": "Italia",
+      "precios": [
+       {
+        "valor": "$760"
+       }
+      ]
+     },
+     {
+      "nombre": "Comuna, Pinot Grigio — Vino Blanco",
+      "detalle": "Argentina",
+      "precios": [
+       {
+        "valor": "$690"
+       }
+      ]
+     },
+     {
+      "nombre": "Rosado Beringer",
+      "detalle": "Estados Unidos",
+      "precios": [
+       {
+        "valor": "$690"
+       }
+      ]
+     },
+     {
+      "nombre": "La Belle Angele — Sauvignon Blanc",
+      "detalle": "Francia",
+      "precios": [
+       {
+        "valor": "$690"
+       }
+      ]
+     },
+     {
+      "nombre": "Cal y Canto Verdejo Blanco",
+      "detalle": "España",
+      "precios": [
+       {
+        "valor": "$590"
+       }
+      ]
+     },
+     {
+      "nombre": "Lambrusco Espumoso",
+      "detalle": "Italia",
+      "precios": [
+       {
+        "valor": "$590"
+       }
+      ]
+     },
+     {
+      "nombre": "Rosado Zinfandel",
+      "detalle": "México",
+      "precios": [
+       {
+        "valor": "$490"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Vinos mexicanos",
+    "platillos": [
+     {
+      "nombre": "Gran Reserva — Cabernet Franc",
+      "detalle": "24 meses de barrica",
+      "precios": [
+       {
+        "valor": "$1,790"
+       }
+      ]
+     },
+     {
+      "nombre": "Tres Raíces — Cabernet Reserva",
+      "detalle": "15 meses de barrica",
+      "precios": [
+       {
+        "valor": "$1,590"
+       }
+      ]
+     },
+     {
+      "nombre": "Tres Raíces — Pinot Noir",
+      "detalle": "12 meses de barrica",
+      "precios": [
+       {
+        "valor": "$1,290"
+       }
+      ]
+     },
+     {
+      "nombre": "Tres Raíces — Nebbiolo",
+      "detalle": "12 meses de barrica",
+      "precios": [
+       {
+        "valor": "$1,290"
+       }
+      ]
+     },
+     {
+      "nombre": "Casa Madero 3V",
+      "detalle": "12 meses de barrica de roble",
+      "precios": [
+       {
+        "valor": "$1,190"
+       }
+      ]
+     },
+     {
+      "nombre": "San Miguel — Syrah",
+      "detalle": "10 meses de barrica",
+      "precios": [
+       {
+        "valor": "$1,190"
+       }
+      ]
+     },
+     {
+      "nombre": "Piedra de Oro — Cabernet Malbec",
+      "detalle": "6 meses de barrica",
+      "precios": [
+       {
+        "valor": "$990"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Vinos de España",
+    "platillos": [
+     {
+      "nombre": "Valdubón Roble",
+      "detalle": "4 meses de barrica",
+      "precios": [
+       {
+        "valor": "$890"
+       }
+      ]
+     },
+     {
+      "nombre": "Tuercebotas — Garnacha Rioja",
+      "detalle": "4 meses de barrica",
+      "precios": [
+       {
+        "valor": "$850"
+       }
+      ]
+     },
+     {
+      "nombre": "Cal y Canto — VDT Castilla, Tempranillo, Merlot, Syrah",
+      "precios": [
+       {
+        "valor": "$650"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "De Italia, Portugal y Francia",
+    "platillos": [
+     {
+      "nombre": "Gran Passione Rosso — Merlot",
+      "detalle": "Italia, 3 meses de barrica, edición limitada",
+      "precios": [
+       {
+        "valor": "$890"
+       }
+      ]
+     },
+     {
+      "nombre": "Lisboa Bonita — Blend",
+      "precios": [
+       {
+        "valor": "$690"
+       }
+      ],
+      "detalle": "Portugal"
+     },
+     {
+      "nombre": "Pierre Jean — Merlot",
+      "precios": [
+       {
+        "valor": "$690"
+       }
+      ],
+      "detalle": "Francia"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bebidas",
+  "pestana": "Bebidas",
+  "titulo": "Bebidas",
+  "frase": "Limonadas, sangría, clericot, fernet, cervezas y destilados.",
+  "secciones": [
+   {
+    "titulo": "Sin alcohol y preparadas",
+    "platillos": [
+     {
+      "nombre": "Agua",
+      "detalle": "335 ml",
+      "precios": [
+       {
+        "valor": "$50"
+       }
+      ]
+     },
+     {
+      "nombre": "Refresco",
+      "detalle": "355 ml",
+      "precios": [
+       {
+        "valor": "$59"
+       }
+      ]
+     },
+     {
+      "nombre": "Limonada",
+      "detalle": "355 ml",
+      "precios": [
+       {
+        "valor": "$59"
+       }
+      ]
+     },
+     {
+      "nombre": "Limonada Mineral",
+      "detalle": "355 ml",
+      "precios": [
+       {
+        "valor": "$69"
+       }
+      ]
+     },
+     {
+      "nombre": "San Pellegrino",
+      "detalle": "330 ml",
+      "precios": [
+       {
+        "valor": "$70"
+       }
+      ]
+     },
+     {
+      "nombre": "Agua Perrier",
+      "detalle": "330 ml",
+      "precios": [
+       {
+        "valor": "$75"
+       }
+      ]
+     },
+     {
+      "nombre": "Sangría",
+      "detalle": "355 ml",
+      "precios": [
+       {
+        "valor": "$120"
+       }
+      ]
+     },
+     {
+      "nombre": "Agua de Piedra",
+      "detalle": "650 ml",
+      "precios": [
+       {
+        "valor": "$129"
+       }
+      ]
+     },
+     {
+      "nombre": "Clericot",
+      "detalle": "335 ml",
+      "precios": [
+       {
+        "valor": "$149"
+       }
+      ]
+     },
+     {
+      "nombre": "Bebida Preparada",
+      "precios": [
+       {
+        "valor": "$159"
+       }
+      ]
+     },
+     {
+      "nombre": "Fernet",
+      "detalle": "335 ml",
+      "precios": [
+       {
+        "valor": "$169"
+       }
+      ]
+     },
+     {
+      "nombre": "Aperol Spritz",
+      "detalle": "335 ml",
+      "precios": [
+       {
+        "valor": "$169"
+       }
+      ]
+     },
+     {
+      "nombre": "Jarra de Limonada",
+      "detalle": "1500 ml",
+      "precios": [
+       {
+        "valor": "$249"
+       }
+      ]
+     },
+     {
+      "nombre": "Jarra de Limonada Mineral",
+      "detalle": "1000 ml",
+      "precios": [
+       {
+        "valor": "$290"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Cervezas",
+    "platillos": [
+     {
+      "nombre": "Cerveza Corona / Pacífico / Victoria",
+      "detalle": "355 ml",
+      "precios": [
+       {
+        "valor": "$69"
+       }
+      ]
+     },
+     {
+      "nombre": "Modelo Especial y Negra",
+      "detalle": "355 ml",
+      "precios": [
+       {
+        "valor": "$69"
+       }
+      ]
+     },
+     {
+      "nombre": "Stella / Ultra",
+      "detalle": "355 ml",
+      "precios": [
+       {
+        "valor": "$79"
+       }
+      ]
+     },
+     {
+      "nombre": "Cerveza Artesanal",
+      "detalle": "355 ml",
+      "precios": [
+       {
+        "valor": "$99"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Licores, gin, brandy y ron",
+    "platillos": [
+     {
+      "nombre": "Licor / Ron",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$150"
+       }
+      ]
+     },
+     {
+      "nombre": "Gin Bombay / Hendrick's",
+      "precios": [
+       {
+        "valor": "$200"
+       }
+      ]
+     },
+     {
+      "nombre": "Brandy / Cognac",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$250"
+       }
+      ]
+     },
+     {
+      "nombre": "Ron Zacapa",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$250"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Tequila y mezcal",
+    "platillos": [
+     {
+      "nombre": "Tequila Tradicional",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$150"
+       }
+      ]
+     },
+     {
+      "nombre": "María Trifulcas Blanco",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$180"
+       }
+      ]
+     },
+     {
+      "nombre": "María Trifulcas Añejo",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$190"
+       }
+      ]
+     },
+     {
+      "nombre": "Herradura / Don Julio",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$200"
+       }
+      ]
+     },
+     {
+      "nombre": "Maestro Dobel",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$210"
+       }
+      ]
+     },
+     {
+      "nombre": "Siete Leguas Blanco / 1800",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$210"
+       }
+      ]
+     },
+     {
+      "nombre": "Don Julio 70 / Ultra",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$240"
+       }
+      ]
+     },
+     {
+      "nombre": "Mezcal 400 Conejos y otros",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$190"
+       }
+      ]
+     },
+     {
+      "nombre": "Ojo de Tigre / Montelobos",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$200"
+       }
+      ]
+     },
+     {
+      "nombre": "Danzantes / Mitre",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$249"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "titulo": "Whisky",
+    "platillos": [
+     {
+      "nombre": "Buchanan's / Chivas / Black",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$220"
+       }
+      ]
+     },
+     {
+      "nombre": "Glenfiddich",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$290"
+       }
+      ]
+     },
+     {
+      "nombre": "Macallan",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$350"
+       }
+      ]
+     },
+     {
+      "nombre": "Johnnie Walker 18 años",
+      "detalle": "44 ml",
+      "precios": [
+       {
+        "valor": "$450"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
