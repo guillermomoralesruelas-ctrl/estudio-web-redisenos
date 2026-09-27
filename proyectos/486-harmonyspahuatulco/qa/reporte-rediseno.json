@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-09-27T23:19:23.898Z",
+  "carpeta": "486-harmonyspahuatulco",
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3556,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Harmony Spa Huatulco | Temazcal y masajes en Crucecita",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5545,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Harmony Spa Huatulco | Temazcal y masajes en Crucecita",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
