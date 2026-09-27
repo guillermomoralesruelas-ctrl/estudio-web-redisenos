@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Oswald (títulos, condensada como los carteles de pelea) y Barlow (texto). De @fontsource, solo latino. */
+@font-face { font-family: "Oswald"; src: url("../node_modules/@fontsource/oswald/files/oswald-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Oswald"; src: url("../node_modules/@fontsource/oswald/files/oswald-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+
+/* Tokens: el rojo y el negro de su tabla de horarios y de su local, y un papel cálido. Los colores de cada disciplina
+   son los de su tabla (oscurecidos donde hacía falta para el contraste). Contrastes en entregables/plan-diseno.md. */
+@theme {
+  --color-tinta: #121212;
+  --color-carbon: #1f1d1b;
+  --color-rojo: #c62828;
+  --color-rojo-hondo: #9e1b1b;
+  --color-rojo-claro: #d0463f;
+  --color-azul: #0063ad;
+  --color-petroleo: #007599;
+  --color-verde: #4a7a00;
+  --color-morado: #6b4bb0;
+  --color-oro: #e8c872;
+  --color-papel: #f6f1e7;
+  --color-texto: #4a4540;
+  --font-sans: "Barlow", "Segoe UI", sans-serif;
+  --font-titulo: "Oswald", "Arial Narrow", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-titulo text-tinta; font-weight: 700; line-height: 1.02; text-transform: uppercase; letter-spacing: 0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .noche h1, .noche h2, .noche h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-rojo); outline-offset: 3px; border-radius: 4px; }
+  .noche :focus-visible { outline-color: var(--color-oro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-claro, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-3 text-[0.98rem] font-semibold uppercase tracking-wide transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-rojo text-white hover:bg-rojo-hondo; }
+  .btn-claro { @apply border-2 border-white/60 text-white hover:border-white hover:bg-white/10; }
+  .btn-linea { @apply border-2 border-tinta/30 text-tinta hover:border-tinta; }
+  .enlace { @apply font-semibold text-rojo-hondo underline decoration-2 underline-offset-4 hover:text-tinta; }
+  .noche .enlace { @apply text-oro hover:text-white; }
+}
+
+/* La semana: las clases elegidas "entran" al marcarlas (quietas con prefers-reduced-motion). */
+.entra { animation: entra 0.25s ease-out; }
+@keyframes entra { from { opacity: 0; transform: scale(0.92); } to { opacity: 1; transform: none; } }
