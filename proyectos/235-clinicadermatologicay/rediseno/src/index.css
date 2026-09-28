@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Cormorant Garamond para títulos (romanas elegantes como el sitio original) y DM Sans para texto.
+   @fontsource, solo subset latin. */
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+
+/* Tokens de color. Contrastes en plan-diseno.md. */
+@theme {
+  --color-noche: #0e0e0e;
+  --color-noche-2: #1a1a1a;
+  --color-piedra: #2a2a2a;
+  --color-bronce: #b89a6a;
+  --color-bronce-hondo: #8a7149;
+  --color-crema: #f5f0e8;
+  --color-hueso: #f0ece4;
+  --color-gris-claro: #5a5a5a;
+  --font-sans: "DM Sans", "Segoe UI", sans-serif;
+  --font-titulo: "Cormorant Garamond", "Georgia", serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-noche text-hueso font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; font-variant-numeric: lining-nums; }
+  h1, h2, h3 { @apply font-titulo font-medium; line-height: 1.1; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-bronce); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+
+  .btn, .btn-linea, .btn-bronce, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.9375rem] font-medium transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-bronce text-noche hover:bg-bronce-hondo hover:text-crema; }
+  .btn-bronce { @apply bg-bronce text-noche hover:bg-hueso; }
+  .btn-linea { @apply border border-hueso/30 text-hueso hover:border-bronce hover:text-bronce; }
+  .btn-claro { @apply bg-crema text-noche hover:bg-hueso; }
+  .enlace { @apply font-medium text-bronce underline decoration-1 underline-offset-4 hover:text-hueso; }
+}
+
+/* Animación del selector de equipos */
+.fade-in { animation: fadeIn 0.25s ease-out; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: none; }
+}

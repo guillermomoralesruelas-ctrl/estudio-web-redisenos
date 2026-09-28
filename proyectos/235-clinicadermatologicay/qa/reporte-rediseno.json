@@ -1,0 +1,66 @@
+{
+  "fecha": "2026-09-28T12:59:39.597Z",
+  "carpeta": "235-clinicadermatologicay",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 9457,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 81,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Dr. Arístides Arellano | Cirujano Plástico en Puebla",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9399,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 81,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Dr. Arístides Arellano | Cirujano Plástico en Puebla",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4557,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Dr. Arístides Arellano — Cirujano Plástico en Puebla | Clínica Dermatológica",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7731,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Dr. Arístides Arellano — Cirujano Plástico en Puebla | Clínica Dermatológica",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
