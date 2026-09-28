@@ -1,0 +1,277 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/hollywood-cancun_logo.jpeg",
+      "archivo": "hollywood-cancun_logo.jpeg",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/eu-r8lsuhtai3fwcb3pu4h9ail85vdhsujmgxsjw42g6s.png",
+      "archivo": "eu-r8lsuhtai3fwcb3pu4h9ail85vdhsujmgxsjw42g6s.png",
+      "alt": "Image 2: eu"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/mx-r8lsugvgb9em0p52zm2mq0trkhi4l5fw4t52eu3ud0.png",
+      "archivo": "mx-r8lsugvgb9em0p52zm2mq0trkhi4l5fw4t52eu3ud0.png",
+      "alt": "Image 3: mx"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/star.png",
+      "archivo": "star.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/organizacion-de-eventos-en-cancun-mexico-hollywood-cancun-9-r8lzpvy2neptp3dsnpfjyq7b5lu1a0dk4o8romgzy8.jpg",
+      "archivo": "organizacion-de-eventos-en-cancun-mexico-hollywood-cancun-9-r8lzpvy2neptp3dsnpfjyq7b5lu1a0dk4o8romgzy8.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/organizacion-de-eventos-en-cancun-mexico-hollywood-cancun-2-r8lzpofd4qfj47opvm6jes3meiv3kfjpfn0vues5c0.jpg",
+      "archivo": "organizacion-de-eventos-en-cancun-mexico-hollywood-cancun-2-r8lzpofd4qfj47opvm6jes3meiv3kfjpfn0vues5c0.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/organizacion-de-eventos-en-cancun-mexico-hollywood-cancun-6-r8lzpt4k2wlyq9hw467o98wxdg7xmx2d4aab8sl6gw.jpg",
+      "archivo": "organizacion-de-eventos-en-cancun-mexico-hollywood-cancun-6-r8lzpt4k2wlyq9hw467o98wxdg7xmx2d4aab8sl6gw.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/organizacion-de-eventos-en-cancun-mexico-hollywood-cancun-4-r8lzpr8vp8je31kmf5ef49e06oh77iuwg0zca8nytc.jpg",
+      "archivo": "organizacion-de-eventos-en-cancun-mexico-hollywood-cancun-4-r8lzpr8vp8je31kmf5ef49e06oh77iuwg0zca8nytc.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/fiesta-tema-ticket.webp",
+      "archivo": "fiesta-tema-ticket.webp",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/boda.webp",
+      "archivo": "boda.webp",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/grupales.webp",
+      "archivo": "grupales.webp",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/animador_2.webp",
+      "archivo": "animador_2.webp",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/otros_servicios.webp",
+      "archivo": "otros_servicios.webp",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/arreglos.webp",
+      "archivo": "arreglos.webp",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-6-ra3zihbsp3c7jnk7xxqi63d3rj8kjvd96h22elezk8.jpeg",
+      "archivo": "fiestas-tema-cancun-6-ra3zihbsp3c7jnk7xxqi63d3rj8kjvd96h22elezk8.jpeg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/meeting-planners-cancun-HOLLYWOOD-CANCUN-11-ra3z7wn5t6v2xkx6ov6lm9ff6hcwygdyq4uf1j3fk8.webp",
+      "archivo": "meeting-planners-cancun-HOLLYWOOD-CANCUN-11-ra3z7wn5t6v2xkx6ov6lm9ff6hcwygdyq4uf1j3fk8.webp",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/meeting-planners-cancun-HOLLYWOOD-CANCUN-9-ra3z7r04o6nczx5dlsqu7aunm64po9rkpcxi5vbslk.webp",
+      "archivo": "meeting-planners-cancun-HOLLYWOOD-CANCUN-9-ra3z7r04o6nczx5dlsqu7aunm64po9rkpcxi5vbslk.webp",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/meeting-planners-cancun-HOLLYWOOD-CANCUN-10-ra3z7urhfisiaczwzudch9whzpm6j26i1vjg2z67wo.webp",
+      "archivo": "meeting-planners-cancun-HOLLYWOOD-CANCUN-10-ra3z7urhfisiaczwzudch9whzpm6j26i1vjg2z67wo.webp",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-11-ra3zitjp5xsxql2gyl0nkia3hjkcbxprk5jdn6wvbc.jpeg",
+      "archivo": "fiestas-tema-cancun-11-ra3zitjp5xsxql2gyl0nkia3hjkcbxprk5jdn6wvbc.jpeg",
+      "alt": "Image 23"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/foto-de-mostrativa-rnzg94kk4pc63ejjrsnjwikwkz69d9vqwwjpqtef0o.webp",
+      "archivo": "foto-de-mostrativa-rnzg94kk4pc63ejjrsnjwikwkz69d9vqwwjpqtef0o.webp",
+      "alt": "Image 24: foto-de-mostrativa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/5-r8m1mvbuaz38ce9mahjyjja4rqydk7zxfxa9m84m14.png",
+      "archivo": "5-r8m1mvbuaz38ce9mahjyjja4rqydk7zxfxa9m84m14.png",
+      "alt": "Image 25: 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-3-ra3zibork34hlzseuvaqr4sc780d9oqv5p55ixnclk.jpeg",
+      "archivo": "fiestas-tema-cancun-3-ra3zibork34hlzseuvaqr4sc780d9oqv5p55ixnclk.jpeg",
+      "alt": "Image 26"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-10-ra3zinwo0xl7sxanvikw5jpbx8c51r3djdmgrj58co.jpeg",
+      "archivo": "fiestas-tema-cancun-10-ra3zinwo0xl7sxanvikw5jpbx8c51r3djdmgrj58co.jpeg",
+      "alt": "Image 27"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/ESPECTACULOS-CORPORATIVOS-r8mfrt1ypnsajn0agh7yl3uvqagx8gfwqxenzpit1k.png",
+      "archivo": "ESPECTACULOS-CORPORATIVOS-r8mfrt1ypnsajn0agh7yl3uvqagx8gfwqxenzpit1k.png",
+      "alt": "Image 28: ESPECTACULOS CORPORATIVOS"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-2-ra3zi9t36f1wyrv55uhhm59f0g9muajehfu6kdq4y0.jpeg",
+      "archivo": "fiestas-tema-cancun-2-ra3zi9t36f1wyrv55uhhm59f0g9muajehfu6kdq4y0.jpeg",
+      "alt": "Image 29"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-13-ra3zj04khs1xzusww5v1jymbn8nwttfvx23s04n43s.jpeg",
+      "archivo": "fiestas-tema-cancun-13-ra3zj04khs1xzusww5v1jymbn8nwttfvx23s04n43s.jpeg",
+      "alt": "Image 30"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-8-ra3zik5b9lg2ihg4hgydvknhjouo6yog6v0iufat1k.jpeg",
+      "archivo": "fiestas-tema-cancun-8-ra3zik5b9lg2ihg4hgydvknhjouo6yog6v0iufat1k.jpeg",
+      "alt": "Image 31"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/meeting-planners-cancun-HOLLYWOOD-CANCUN-1-ra3z7ld3j6fn29dkiqb2sc9w1uwie356ol0la7k5mw.webp",
+      "archivo": "meeting-planners-cancun-HOLLYWOOD-CANCUN-1-ra3z7ld3j6fn29dkiqb2sc9w1uwie356ol0la7k5mw.webp",
+      "alt": "Image 32"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-14-ra3zj208vg4in2q6l6oaoy58u0en97nclbeqyokbrc.jpeg",
+      "archivo": "fiestas-tema-cancun-14-ra3zj208vg4in2q6l6oaoy58u0en97nclbeqyokbrc.jpeg",
+      "alt": "Image 33"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-7-ra3zij7h2res6vhhmyjrb2w0yazaz9kpuqd1d5c77s.jpeg",
+      "archivo": "fiestas-tema-cancun-7-ra3zij7h2res6vhhmyjrb2w0yazaz9kpuqd1d5c77s.jpeg",
+      "alt": "Image 34"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-16-ra3zj5rlms9nxikpz8asyx737jw44029xu0ovser2g.jpeg",
+      "archivo": "fiestas-tema-cancun-16-ra3zj5rlms9nxikpz8asyx737jw44029xu0ovser2g.jpeg",
+      "alt": "Image 35"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-5-ra3zifg4bf9mwfmy8wx913u6krhu4h5si7r3g1hrwo.jpeg",
+      "archivo": "fiestas-tema-cancun-5-ra3zifg4bf9mwfmy8wx913u6krhu4h5si7r3g1hrwo.jpeg",
+      "alt": "Image 36"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-9-ra3zim0zn9in5pde6hrn0k6eqglemcvwv4bhsz80p4.jpeg",
+      "archivo": "fiestas-tema-cancun-9-ra3zim0zn9in5pde6hrn0k6eqglemcvwv4bhsz80p4.jpeg",
+      "alt": "Image 37"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-15-ra3zj3vx9473aanga7hjtxo60s5dolut9kppx8hjew.jpeg",
+      "archivo": "fiestas-tema-cancun-15-ra3zj3vx9473aanga7hjtxo60s5dolut9kppx8hjew.jpeg",
+      "alt": "Image 38"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-1-ra3zi8v8zl0mn5wibc2v1nhyf2e9mlfo5b6p33rj48.jpeg",
+      "archivo": "fiestas-tema-cancun-1-ra3zi8v8zl0mn5wibc2v1nhyf2e9mlfo5b6p33rj48.jpeg",
+      "alt": "Image 39"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-12-ra3ziwd7qfwspeydi48j9zkh9p6fz10ykjhu30soso.jpeg",
+      "archivo": "fiestas-tema-cancun-12-ra3ziwd7qfwspeydi48j9zkh9p6fz10ykjhu30soso.jpeg",
+      "alt": "Image 40"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/elementor/thumbs/fiestas-tema-cancun-4-ra3zidkfxr7297pojw3zw4b9dzr3p2ybtyg4hhkk94.jpeg",
+      "archivo": "fiestas-tema-cancun-4-ra3zidkfxr7297pojw3zw4b9dzr3p2ybtyg4hhkk94.jpeg",
+      "alt": "Image 41"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/Hollywood_Cancun_Organizador-de-Eventos-9.webp",
+      "archivo": "Hollywood_Cancun_Organizador-de-Eventos-9.webp",
+      "alt": "Image 50"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/BOLETO.png",
+      "archivo": "BOLETO.png",
+      "alt": "Image 51"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/mx.png",
+      "archivo": "mx.png",
+      "alt": "Image 53"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/eu.png",
+      "archivo": "eu.png",
+      "alt": "Image 54"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/meeting-planners-cancun-mx-3.jpeg",
+      "archivo": "meeting-planners-cancun-mx-3.jpeg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/wedding-planners-en-cancun-mexico-32.jpg",
+      "archivo": "wedding-planners-en-cancun-mexico-32.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/08/actividades-de-integracion-en-canun-mx-5.jpeg",
+      "archivo": "actividades-de-integracion-en-canun-mx-5.jpeg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hollywoodencancun.com/wp-content/uploads/2025/07/meeting-planners-cancun-mx-6-1.jpeg",
+      "archivo": "meeting-planners-cancun-mx-6-1.jpeg",
+      "alt": "Image 8"
+    }
+  ]
+}

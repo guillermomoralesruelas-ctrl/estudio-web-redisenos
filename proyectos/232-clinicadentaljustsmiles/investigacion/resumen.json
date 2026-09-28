@@ -1,0 +1,141 @@
+{
+  "sitio": "https://www.justsmiles.mx/",
+  "fecha": "2026-09-26T06:26:17.211Z",
+  "motor": "jina-reader",
+  "slug": "clinicadentaljustsmiles",
+  "nombre": "Clínica Dental Justsmiles",
+  "rubro": "SALUD",
+  "ciudad": "Puerto Vallarta, Jalisco",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.justsmiles.mx/",
+      "titulo": "Dentist in Puerto Vallarta – Justsmiles Dental Clinic"
+    },
+    {
+      "url": "https://www.justsmiles.mx/who-we-are",
+      "titulo": "About Us – Dental Specialists in Puerto Vallarta"
+    },
+    {
+      "url": "https://www.justsmiles.mx/dental-services",
+      "titulo": "Dental Services in Puerto Vallarta – Justsmiles"
+    },
+    {
+      "url": "https://www.justsmiles.mx/services/dental-implants",
+      "titulo": "Dental Implants in Puerto Vallarta – Justsmiles"
+    },
+    {
+      "url": "https://www.justsmiles.mx/services/periodontia",
+      "titulo": "Periodontics in Puerto Vallarta – Gum Health for Adults"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "523221363030",
+      "+52 322 223 05 05",
+      "+52 322 223 29 90",
+      "+52 322 688 55 57",
+      "322) 223 0505"
+    ],
+    "emails": [
+      "atencionaclientes@justsmiles.com.mx"
+    ],
+    "whatsapp": [
+      "wa.me/523221363030)"
+    ],
+    "redes": [
+      "https://www.facebook.com/clinica.just.smiles",
+      "https://www.instagram.com/justsmiles_dental/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.justsmiles.mx/images/logoJM.png",
+      "alt": "Image 1: Logo Just Smiles"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/just-smiles-dentist-puerto-vallarta.webp",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/just-smiles-dental-treatment-puerto-vallarta.webp",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/icons/tooth-4.png",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/icons/tooth-1.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/icons/tooth-3.png",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/icons/tooth-5.png",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/misc/s2.webp",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/misc/s3.webp",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/misc/p3.webp",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/team/1.webp",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/team/2.webp",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/team/4.webp",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/team/8.webp",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/testimonial/female.png",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/testimonial/male.png",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/footer_logoJM.png",
+      "alt": "Image 33: Just Smiles Dental Clinic logo Footer"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/icons/tooth-2.png",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/icons/tooth-7.png",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/misc/l3.webp",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/misc/l2.webp",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.justsmiles.mx/images/misc/c1.webp",
+      "alt": "Image 6"
+    }
+  ]
+}

@@ -1,0 +1,694 @@
+.fab:before{
+	font-family:'Font Awesome 5 Brands';	
+}
+
+.admin-bar .sticky-header{
+	top:32px;	
+}
+
+.elementor-element .elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated{
+	padding:0px 0px 0px 0px;	
+}
+.pagination{
+	position:relative;
+	display:block;	
+}
+.pagination li{
+	position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.pagination li a, .pagination li span{
+	position: relative;
+    display: block;
+    line-height: 24px;
+    font-size: 20px;
+    height: 50px;
+    min-width: 50px;
+    padding: 12px 5px;
+    text-align: center;
+    color: #7b8594;
+    font-weight: 400;
+    border: 1px solid rgba(0,0,0,0.10);
+    text-transform: uppercase;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.pagination li a:focus, .pagination li a:hover, .pagination li span:focus, .pagination li span:hover, .pagination li span.current{
+	color: #ffffff;
+    background: #d5ae82;
+    border-color: #d5ae82;
+}
+.map-column .map-box{
+	height:650px;	
+}
+iframe{
+	width:100%;
+	height:100%;	
+}
+
+.map-and-form{
+	position:relative;
+	padding:0px 0px 0px;	
+}
+.sidebar .insta-widget .insta-feeds .feed-block .hover-box .count a{
+	color:#fff;
+	font-size:13px;
+	position:relative;
+	display:block;
+}
+.default-form.comment-form .group-title h4 small{
+	display:block;
+	margin-top:15px;
+	position:relative;	
+}
+.lanong-theme .default-form.comment-form{
+	margin-bottom:40px;	
+}
+.lanong-theme .lanong-theme{
+	margin-left:70px;	
+}
+/***************** Footer Widget ****************************/
+.footer-widget ul{
+	position:relative;
+}
+
+.footer-widget ul li{
+	position:relative;
+	margin-bottom:12px;
+	line-height: 24px;
+	font-size: 15px;
+	color: #868da5;
+	padding-left:20px;
+	display:block;
+}
+
+.footer-widget ul li:last-child{
+	margin-bottom:0px;
+}
+
+.footer-widget ul li ul li{
+	margin-bottom:0px;
+	margin-top:12px;
+}
+
+.footer-widget ul li a{
+	position:relative;
+	display: inline-block;
+	color:#868da5;
+	font-size:15px;
+	text-transform: capitalize;
+	transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-webkit-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+}
+
+.footer-widget ul li:before{
+	content: "\f10a";
+	font-family: 'Flaticon';
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: 22px;
+	font-size: 8px;
+	font-weight: 400;
+}
+
+.footer-widget ul li:hover,
+.footer-widget ul li:hover a{
+	color:#d5ae82;
+}
+
+/*********Error Page Setting ***************/
+
+.error-section{
+	position:relative;
+	padding:100px 0px 100px;
+}
+
+.error-section .content{
+	position:relative;
+	text-align:center;
+}
+
+.error-section h1{
+	position:relative;
+	color:#242424;
+	font-size:180px;
+	font-weight:600;
+	line-height:1em;
+	margin-bottom:10px;
+}
+
+.error-section h2{
+	position:relative;
+	color:#242424;
+	font-size:50px;
+	font-weight:300;
+	line-height:1.2em;
+	margin-bottom:10px;
+}
+
+.error-section .text{
+	position:relative;
+	color:#242424;
+	font-size:20px;
+	font-weight:300;
+	margin-top:20px;
+	line-height:1.5em;
+	margin-bottom:30px;
+}
+
+
+.widget ul{
+	position:relative;	
+}
+.widget ul li{
+	position: relative;
+    display: block;
+    margin-bottom: 10px;
+    padding: 0px 0px 8px 25px;
+    border-bottom: 1px solid #d0d0d0;
+}
+.widget ul li:last-child{
+	margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+.widget ul li ul li{
+	margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+	margin-top:10px;
+	padding-top:8px;
+	border-top:1px solid #d0d0d0;
+}
+.widget ul li:before{
+	position: absolute;
+    content: "\f10f";
+    font-family: 'Flaticon';
+    font-size: 12px;
+    left: 0px;
+    top: 0px;
+    color: #061138;
+    transition: all 500ms ease;	
+}
+.widget ul li ul li:before{
+	top:8px;
+}
+.widget ul li a{
+	position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: #061138;	
+}
+.widget ul li a:hover,
+.widget ul li:hover:before{
+	color:#d5ae82;	
+}
+.widget .tagcloud a{
+	position: relative;
+    display: inline-block;
+    margin: 0px 6px 10px 0px;
+    line-height: 24px;
+    padding: 7px 14px;
+    background: #ffffff;
+    text-align: center;
+    font-size: 15px !important;
+    font-weight: 400;
+    color: #7f8a99;
+    text-transform: capitalize;
+    border-radius: 0px;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+}
+.widget .tagcloud a:hover{
+	background-color: #d5ae82;
+    border-color: #d5ae82;
+    color: #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.10);
+}
+
+.main-footer .info ul li a {
+    display: inline-block;
+}
+.footer-style-two .info-widget.info-widget-two,
+.footer-style-two .footer-widget.widget_pages{
+	padding-top:60px;
+}
+.main-footer .social-links li{
+	width:auto;
+	padding:0px;	
+}
+.main-footer .social-links li:before{
+	display:none;	
+}
+.main-footer .social-links li a{
+	display:inline-block;	
+}
+.group-title h4 small a{
+	position:relative;
+	display:block;
+	color:inherit;
+	font-size:inherit;	
+}
+/******************************Babe Search Box*****************************/
+#search-box{
+	padding-top:90px;
+	display:block;
+	text-align:center;
+}
+#search-box h3{
+	text-transform: uppercase;
+    margin: 0px 0 30px 0;
+    font-weight: 700;
+    color: #061138;
+}
+#search-box #search_form_tabs{
+	text-align:center;
+}
+#search_form_tabs .search_form_tab{
+	background:#061138;
+	min-height:42px;
+	font-size: 13px;
+	font-weight: 600;
+	color:#ffffff;
+	padding:10px 38px;
+	border-radius:0;
+	border:none;
+	line-height: 22px;
+	transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+#search_form_tabs .search_form_tab:hover,
+#search_form_tabs .search_form_tab.is-active{
+	background:#d5ae82;
+}
+#search-box .babe-search-form {
+	margin-top:50px;
+}
+#search_form .input-group > div.search-date,
+#search_form .input-group > div{
+	width:25%;
+	background:#ffffff;
+	margin:0px;
+	border:none;
+}
+#search_form .input-group .search-date .search_date,
+#search_form .input-group .add_ids_title,
+#search_form .input-group .search_guests_field{
+	background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.10);
+    color: #7f8a99;
+    font-size: 13px;
+    text-transform: uppercase;
+    height: 62px;
+    line-height: 30px;
+    padding: 15px 25px;
+	text-align:left;
+    padding-left: 52px;
+	width:100%;
+}
+#search_form .input-group .search_guests_field{
+	width:25%;
+}
+#search_form .input-group .search_guests_field .search_guests_title{
+	padding:0px;
+	font-size:13px;
+}
+.babe-search-form .flaticon-calendar,
+.babe-search-form .flaticon-boat-2,
+.babe-search-form .fa-user,
+.babe-search-form .flaticon-user{
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    line-height: 30px;
+    color: #868da5;
+    display: block;
+    font-size: 16px;
+    z-index: 1;
+}
+.babe-search-form .fa-calendar-alt{
+	font-family: 'Flaticon' !important;
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.babe-search-form .fa-calendar-alt:before {
+    content: "\f164";
+}
+#search_form .input-group > div.submit{
+	width:100%;
+	margin:0px;
+}
+#search_form .input-group > div.submit button{
+	width: 100%;
+    font-size: 13px;
+	border-radius:0;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #061138;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 18px 20px;
+    height: 62px;
+    text-align: center;
+    display: block;
+}
+.add_input_field .add_ids_title i{
+	top:0px;
+	font-size:12px !important;
+	line-height:52px;
+}
+.add_input_field .add_ids_list{
+	width:100%;
+	height:auto;
+}
+
+/******************Sidebar Widget*************/
+.sidebar #search-box{
+	padding-top:0px;
+}
+.sidebar #search_form .input-group > div.search-date, .sidebar #search_form .input-group > div{
+	width:100%;
+	margin-bottom:15px;
+}
+.destination-block .meta-info li{
+	padding-left:12px;
+	padding-right:12px;
+}
+.booking-section .form-col .inner{
+	padding:60px 0 40px 30px;
+}
+.booking-section .default-form.booking-form #search-box .babe-search-form{
+	margin-top:20px;
+}
+.booking-section .default-form.booking-form .babe-search-box{
+	padding-top:0px !important;
+}
+.booking-section .default-form.booking-form #search_form_tabs{
+	text-align:left !important;
+}
+.booking-section #search_form_tabs .search_form_tab{
+	border:1px solid rgba(255,255,255,0.20) !important;
+	padding-top:15px !important;
+	padding-bottom:15px !important;
+}
+.booking-section #search_form .input-group{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.booking-section #search_form .input-group > div.search-date,
+.booking-section #search_form .input-group > div.search_guests_field{
+	-ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+	position: relative;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+	background:none;
+	margin-bottom:16px;
+} 
+.booking-section #search_form .input-group > div.add_input_field{
+	-ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+	position: relative;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+	background:none;
+	margin-bottom:16px;
+}
+.booking-section #search_form .input-group .search-date .search_date, 
+.booking-section #search_form .input-group .add_ids_title, 
+.booking-section #search_form .input-group .search_guests_field{
+	background:none;
+	border: 1px solid rgba(255,255,255,0.20);
+    color: #868da5;
+}
+.booking-section #search_form .input-group .search_guests_field .search_guests_title{
+	background:none;
+	padding:0px 0 0 50px;
+	width:auto;
+}
+.booking-section #search_form .input-group > div.submit{
+	text-align:right !important;
+	padding:0 8px;
+}
+.booking-section #search_form .input-group > div.submit button{
+	width:auto;
+	padding: 9px 76px;
+    height: 52px;
+	background:#d5ae82;
+	display:inline-block;
+}
+
+/*******Booking Form***************/
+.yacht-tours-container #booking_form_block{
+	position:relative;
+	background:#ffffff;
+	padding: 32px 35px 35px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.03);
+	margin-top:60px;
+}
+.yacht-tours-container #booking_form_block .input_group{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.yacht-tours-container #booking_form_block .booking-guests-block,
+.yacht-tours-container #booking_form_block .booking-date-block,
+.yacht-tours-container #booking_form_block .booking-times-block{
+	-ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.yacht-tours-container #booking_form_block .booking-form-block{
+	border-bottom:none;
+	margin-bottom:15px;
+	padding-bottom:0px;
+	display:block;
+}
+#booking_form_block .booking-form-block .booking_form_input_label{
+	display:block;
+	color: #7f8a99;
+    font-size: 13px;
+	text-transform: uppercase;
+}
+#booking_form_block .booking-form-block .booking-date{
+	position:relative;
+	display:block;
+}
+#booking_form_block .booking-form-block .booking-date i{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+}
+#booking_form_block .booking-form-block input,
+#booking_form_block .booking-form-block #booking-guests-result,
+#booking_form_block .booking-form-block #booking-times,
+#booking_form_block #total_group #booking_form_total{
+	position:relative;
+	border-bottom: 1px solid rgba(0,0,0,0.10);
+    color: #7f8a99;
+    font-size: 13px;
+    text-transform: uppercase;
+	padding: 0px 0px 10px;
+	width:100%;
+}
+#booking_form_block .submit_group{
+	display:block;
+	margin-bottom:0px;
+	margin-top:30px;
+}
+#booking_form_block .submit_group .booking_form_submit{
+	margin:0px;
+	position:relative;
+	font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #061138;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 15px 40px;
+    height: 54px;
+    text-align: center;
+    display: block;
+	border-radius:0px;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#booking_form_block .submit_group .booking_form_submit:hover{
+	background:#d5ae82;
+}
+
+/*************Account Page*************/
+.sidebar-page-container .my_account_page_content_wrapper{
+	background:none;
+	position: relative;
+    padding: 50px 50px 50px;
+    border: 1px solid rgba(0,0,0,0.10);
+	margin-top:50px;
+}
+
+.sidebar-page-container .my_account_page_content_wrapper #login_form h3{
+	position: relative;
+    display: block;
+    font-size: 36px;
+    line-height: 1.20em;
+    color: #061138;
+    font-weight: 400;
+    text-transform: uppercase;
+	text-align:left;
+	margin-bottom:30px;
+}
+.sidebar-page-container .my_account_page_content_wrapper #login_form #babe_login{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#login_form #babe_login div{
+	padding:0px;
+}
+#login_form #babe_login .login_username,
+#login_form #babe_login .login_pw{
+	-ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-bottom:30px;
+}
+#login_form #babe_login .login_submit{
+	-ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+	margin-bottom:20px;
+}
+.sidebar-page-container .my_account_page_content_wrapper #login_form label {
+    position: relative;
+    display: block;
+    color: #7f8a99;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.sidebar-page-container .my_account_page_content_wrapper #login_form input{
+	position: relative;
+    display: block;
+    height: 52px;
+    width: 100%;
+    font-size: 15px;
+    color: #25283a;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 10px 25px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0px;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.sidebar-page-container .my_account_page_content_wrapper #login_form input[type="submit"]{
+	border:none;
+	position: relative;
+    display: block;
+    font-size: 13px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 45px;
+    background: #d5ae82;
+    border-radius: 0px;
+    z-index: 1;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.sidebar-page-container .my_account_page_content_wrapper #login_form input[type="submit"]:hover{
+	background: #202020;
+    color: #ffffff;
+}
+.p-t0{
+	padding-top:0px !important;
+}
+.m-b0{
+	margin-bottom:0px !important;
+}
+.m-b50{
+	margin-bottom:50px !important;
+}
+.news-block-six .content .text p:last-child,
+.comments-area .comment-box .text p:last-child{
+	margin-bottom:0px;
+}
+.news-post-details .text blockquote p{
+	margin-bottom:0px;
+}
+.comments-area .comment-box .leave-comments{
+	margin:50px 0 60px;
+}
+.widget_rss.widget ul li{
+	padding-left:0px;
+}
+.sidebar-page-container .search-notfound .sidebar:before{
+	display:none;
+}
+.sidebar-page-container .search-notfound .blog-sidebar{
+	padding-left:0px;
+}
+.sidebar-page-container .search-notfound{
+	padding-bottom:50px;
+}

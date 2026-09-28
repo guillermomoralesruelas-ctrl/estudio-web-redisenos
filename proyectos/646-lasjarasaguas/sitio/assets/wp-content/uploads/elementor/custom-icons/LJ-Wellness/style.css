@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'LJ-Wellness';
+  src:  url('fonts/LJ-Wellness.eot?la2ujm');
+  src:  url('fonts/LJ-Wellness.eot?la2ujm#iefix') format('embedded-opentype'),
+    url('fonts/LJ-Wellness.ttf?la2ujm') format('truetype'),
+    url('fonts/LJ-Wellness.woff?la2ujm') format('woff'),
+    url('fonts/LJ-Wellness.svg?la2ujm#LJ-Wellness') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="lj-"], [class*=" lj-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'LJ-Wellness' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lj-lj_actividades-wellness:before {
+  content: "\e900";
+}
+.lj-lj_Alberca-jacuzzi:before {
+  content: "\e901";
+}
+.lj-lj_alberca-piramide-invertida .path1:before {
+  content: "\e902";
+  color: rgb(0, 0, 0);
+}
+.lj-lj_alberca-piramide-invertida .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_alberca-piramide-invertida .path3:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_alberca-piramide-invertida .path4:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_alberca-piramide-invertida .path5:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_alberca-piramide-invertida .path6:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_alberca:before {
+  content: "\e908";
+}
+.lj-lj_asador .path1:before {
+  content: "\e909";
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path4:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path5:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path6:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path7:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path8:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path9:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path10:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path11:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path12:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_asador .path13:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path14:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path15:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path16:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path17:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path18:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path19:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path20:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_asador .path21:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_atencion-personalizada:before {
+  content: "\e91e";
+}
+.lj-lj_bosque:before {
+  content: "\e91f";
+}
+.lj-lj_comida-domicilio:before {
+  content: "\e920";
+}
+.lj-lj_cuartos-de-vapor:before {
+  content: "\e921";
+}
+.lj-lj_Espacios-para-convivir:before {
+  content: "\e922";
+}
+.lj-lj_fogatero:before {
+  content: "\e923";
+}
+.lj-lj_gruta:before {
+  content: "\e924";
+}
+.lj-lj_Habitaciones:before {
+  content: "\e925";
+}
+.lj-lj_jacuzzi .path1:before {
+  content: "\e926";
+  color: rgb(0, 0, 0);
+}
+.lj-lj_jacuzzi .path2:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_jacuzzi .path3:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_jacuzzi .path4:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_jacuzzi .path5:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_jacuzzi .path6:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_Mesa-de-trabajo-22:before {
+  content: "\e92c";
+}
+.lj-lj_Mesa-de-trabajo-23:before {
+  content: "\e92d";
+}
+.lj-lj_Montana:before {
+  content: "\e92e";
+}
+.lj-lj_nombre-jaras:before {
+  content: "\e92f";
+}
+.lj-lj_pabellon-de-barro:before {
+  content: "\e930";
+}
+.lj-lj_pileta-fria:before {
+  content: "\e931";
+}
+.lj-lj_piletas-agua-termal:before {
+  content: "\e932";
+}
+.lj-lj_restaurantes:before {
+  content: "\e933";
+}
+.lj-lj_spa .path1:before {
+  content: "\e934";
+  color: rgb(0, 0, 0);
+}
+.lj-lj_spa .path2:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_spa .path3:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_temazcal-ancestral .path1:before {
+  content: "\e937";
+  color: rgb(0, 0, 0);
+}
+.lj-lj_temazcal-ancestral .path2:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_temazcal-ancestral .path3:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lj-lj_temazcal-ancestral .path4:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_temazcal-ancestral .path5:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_temazcal-ancestral .path6:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_temazcal-ancestral .path7:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_temazcal-ancestral .path8:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_temazcal-ancestral .path9:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_temazcal-ancestral .path10:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lj-lj_Termal-1:before {
+  content: "\e941";
+}
+.lj-lj_Termal-2:before {
+  content: "\e942";
+}

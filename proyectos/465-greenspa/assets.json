@@ -1,0 +1,199 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Hoja3.webp",
+      "archivo": "Hoja3.webp",
+      "alt": "Image 2: Hoja3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Hoja2.webp",
+      "archivo": "Hoja2.webp",
+      "alt": "Image 3: Hoja2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Hoja1.webp",
+      "archivo": "Hoja1.webp",
+      "alt": "Image 4: Hoja1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Garantia.png",
+      "archivo": "Garantia.png",
+      "alt": "Image 5: Garantia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2025/05/Equipo-GreenSpa.jpg",
+      "archivo": "Equipo-GreenSpa.jpg",
+      "alt": "Image 6: Equipo GreenSpa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Hoja4.webp",
+      "archivo": "Hoja4.webp",
+      "alt": "Image 7: Hoja4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Hoja7.webp",
+      "archivo": "Hoja7.webp",
+      "alt": "Image 8: Hoja7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Hoja6.webp",
+      "archivo": "Hoja6.webp",
+      "alt": "Image 9: Hoja6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/1-c-terapeutas1.webp",
+      "archivo": "1-c-terapeutas1.webp",
+      "alt": "Image 10: 1 c terapeutas1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/1-c-terapeutas-SIN-LOGO-HAY-UNO-NUEVO.webp",
+      "archivo": "1-c-terapeutas-SIN-LOGO-HAY-UNO-NUEVO.webp",
+      "alt": "Image 11: 1 c terapeutas SIN LOGO HAY UNO NUEVO"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Hoja5.webp",
+      "archivo": "Hoja5.webp",
+      "alt": "Image 12: Hoja5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/2-1-Masaje-2-Descontracturante-1-871x1024.webp",
+      "archivo": "2-1-Masaje-2-Descontracturante-1-871x1024.webp",
+      "alt": "Image 4: 2 1 Masaje 2 Descontracturante 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/RESERVA-TU-CITA-.png",
+      "archivo": "RESERVA-TU-CITA-.png",
+      "alt": "Image 5: RESERVA TU CITA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Masaje-Relajante_Presion.png",
+      "archivo": "Masaje-Relajante_Presion.png",
+      "alt": "Image 8: Masaje Relajante Presion"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Masaje-de-Descarga-Muscular_Presion.png",
+      "archivo": "Masaje-de-Descarga-Muscular_Presion.png",
+      "alt": "Image 9: Masaje de Descarga Muscular Presion"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Masaje-de-Piedras-Calientes.png",
+      "archivo": "Masaje-de-Piedras-Calientes.png",
+      "alt": "Image 11: Masaje de Piedras Calientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/09/Masaje-con-Ventosas.png",
+      "archivo": "Masaje-con-Ventosas.png",
+      "alt": "Image 12: Masaje con Ventosas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/09/Biomagnetismo_Presion.png",
+      "archivo": "Biomagnetismo_Presion.png",
+      "alt": "Image 13: Biomagnetismo Presion"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/09/DrenajeLinfatico.webp",
+      "archivo": "DrenajeLinfatico.webp",
+      "alt": "Image 15: DrenajeLinfatico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/09/GarantiaDeServicio.webp",
+      "archivo": "GarantiaDeServicio.webp",
+      "alt": "Image 16: GarantiaDeServicio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2025/07/Valoracion-corporal-l-30-min.-l-Gratuita-2-1024x171.png",
+      "archivo": "Valoracion-corporal-l-30-min.-l-Gratuita-2-1024x171.png",
+      "alt": "Image 17: Valoracion corporal l 30 min. l Gratuita 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/09/woman-receiving-beauty-treatment-skin-care.webp",
+      "archivo": "woman-receiving-beauty-treatment-skin-care.webp",
+      "alt": "Image 18: woman receiving beauty treatment skin care"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/09/HojaFAciales_01.webp",
+      "archivo": "HojaFAciales_01.webp",
+      "alt": "Image 19: HojaFAciales 01"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/09/2-4-Corporales.webp",
+      "archivo": "2-4-Corporales.webp",
+      "alt": "Image 21: 2 4 Corporales"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/09/2-6-Reductivos-3-EXTRA-OPCIONAL.webp",
+      "archivo": "2-6-Reductivos-3-EXTRA-OPCIONAL.webp",
+      "alt": "Image 27: 2 6 Reductivos 3 EXTRA OPCIONAL"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Blog_Hero-300x200.webp",
+      "archivo": "Blog_Hero-300x200.webp",
+      "alt": "Image 28: Blog Hero"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Hoja1-1.webp",
+      "archivo": "Hoja1-1.webp",
+      "alt": "Image 2: Hoja1 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Hoja2-1.webp",
+      "archivo": "Hoja2-1.webp",
+      "alt": "Image 3: Hoja2 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Hoja3-1.webp",
+      "archivo": "Hoja3-1.webp",
+      "alt": "Image 4: Hoja3 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Test_.png",
+      "archivo": "Test_.png",
+      "alt": "Image 5: Test_"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Place-Your-Image-Here-Double-Click-to-Edit.png",
+      "archivo": "Place-Your-Image-Here-Double-Click-to-Edit.png",
+      "alt": "Image 5: Place Your Image Here Double Click to Edit"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://greenspa.mx/wp-content/uploads/2024/08/Place-Your-Image-Here-Double-Click-to-Edit-copy_.png",
+      "archivo": "Place-Your-Image-Here-Double-Click-to-Edit-copy_.png",
+      "alt": "Image 6: Place Your Image Here Double Click to Edit copy"
+    }
+  ]
+}

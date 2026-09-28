@@ -1,0 +1,23 @@
+/* =====================================================
+   MAIN.CSS — Entry point. Imports all modules.
+   El orden importa: variables → reset → tipografía
+   → layout → componentes → legacy al final.
+   ===================================================== */
+
+@import url('variables.css');
+@import url('reset.css');
+@import url('typography.css');
+@import url('layout.css');
+@import url('animations.css');
+@import url('cursor.css');
+@import url('preloader.css');
+@import url('nav.css');
+@import url('hero.css');
+@import url('about.css');
+@import url('destacados.css');
+@import url('menu.css');
+@import url('reviews.css');
+@import url('reserve.css');
+@import url('contact.css');
+@import url('footer.css');
+@import url('legacy.css');

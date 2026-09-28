@@ -1,0 +1,122 @@
+{
+  "sitio": "https://floatsano.com/",
+  "fecha": "2026-09-26T07:42:26.936Z",
+  "motor": "jina-reader",
+  "slug": "floatsano",
+  "nombre": "Floatsano",
+  "rubro": "SPA",
+  "ciudad": "San Miguel de Allende, Guanajuato",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://floatsano.com/",
+      "titulo": "Spa en San Miguel de Allende - Sauna y Más | Float Sano"
+    },
+    {
+      "url": "https://floatsano.com/contacto/",
+      "titulo": "Contacto - floatsano"
+    },
+    {
+      "url": "https://floatsano.com/flotacion/",
+      "titulo": "Spa con Flotación en San Miguel de Allende"
+    },
+    {
+      "url": "https://floatsano.com/sauna-infrarrojo/",
+      "titulo": "Sauna relajante | Bienestar, desintoxicación y energía"
+    },
+    {
+      "url": "https://floatsano.com/masaje/",
+      "titulo": "Masajes Relajantes, Parejas, Tejido profundo en San Miguel de Allende"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "415-121-1314",
+      "+4151211314",
+      "415-188-8488",
+      "524151888488",
+      "+524151211314",
+      "+52-415-1211314",
+      "2084343667",
+      "06754173030447"
+    ],
+    "emails": [
+      "info@floatsano.com"
+    ],
+    "whatsapp": [
+      "wa.me/524151888488)",
+      "wa.me/524151888488?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20y%20hacer%20una%20reservaci%C3%B3n)"
+    ],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "blob:http://localhost/8db0f6ad8b29f71012ce32eb3f4b1c98",
+      "alt": "Image 1"
+    },
+    {
+      "src": "blob:http://localhost/673caa2084343667d8f22a20e3ff586b",
+      "alt": "Image 7"
+    },
+    {
+      "src": "blob:http://localhost/9ea4f39bba1b34e7f502f365ed0f1a7b",
+      "alt": "Image 13"
+    },
+    {
+      "src": "blob:http://localhost/1e663c063a2470b778acda30dc8a2102",
+      "alt": "Image 15"
+    },
+    {
+      "src": "blob:http://localhost/d5b9737e192aef8316c2dd1e018b39b1",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://floatsano.com/wp-content/uploads/2023/03/Spa_Holistico___Holistic_Health_Spa.webp",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://cdn.gtranslate.net/flags/32/en.png",
+      "alt": "Image 8: es"
+    },
+    {
+      "src": "https://floatsano.com/contacto/",
+      "alt": "Image 9: es"
+    },
+    {
+      "src": "blob:http://localhost/6f7f47e4383e2cab0d00fed7c66808b6",
+      "alt": "Image 7"
+    },
+    {
+      "src": "blob:http://localhost/fd0a2605b2df749f99d9b9b4e0e1fd23",
+      "alt": "Image 9"
+    },
+    {
+      "src": "blob:http://localhost/449e5e91537fa83644baa53ebfe12d92",
+      "alt": "Image 11"
+    },
+    {
+      "src": "blob:http://localhost/48b445ae4574de26fee77e60f7f1cb41",
+      "alt": "Image 7"
+    },
+    {
+      "src": "blob:http://localhost/5c2f84e206ae9f0f8eac2981596a0915",
+      "alt": "Image 9"
+    },
+    {
+      "src": "blob:http://localhost/5bccd140b4b487fd6eb837ff6908ad84",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://floatsano.com/sauna-infrarrojo/",
+      "alt": "Image 15: es"
+    },
+    {
+      "src": "blob:http://localhost/35055a22fa6a43fbefcf67025b4d2661",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://floatsano.com/masaje/",
+      "alt": "Image 15: es"
+    }
+  ]
+}

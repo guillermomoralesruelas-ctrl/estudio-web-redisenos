@@ -1,0 +1,103 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/logotipo-vetpets-1.png",
+      "archivo": "logotipo-vetpets-1.png",
+      "alt": "Image 1: logotipo-vetpets-1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/icono-cirugia-general.png",
+      "archivo": "icono-cirugia-general.png",
+      "alt": "Image 2: Imagen 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/icono-traumatologia.png",
+      "archivo": "icono-traumatologia.png",
+      "alt": "Image 3: Imagen 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/icono-endoscopia.png",
+      "archivo": "icono-endoscopia.png",
+      "alt": "Image 4: Imagen 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/icono-cirugia-laparoscopica.png",
+      "archivo": "icono-cirugia-laparoscopica.png",
+      "alt": "Image 5: Imagen 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/canadas-1024x990.png",
+      "archivo": "canadas-1024x990.png",
+      "alt": "Image 6: canadas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/real-center-1024x993.png",
+      "archivo": "real-center-1024x993.png",
+      "alt": "Image 7: real-center"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/naciones-unidas-1024x1000.png",
+      "archivo": "naciones-unidas-1024x1000.png",
+      "alt": "Image 8: naciones-unidas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/avila-camacho-1024x989.png",
+      "archivo": "avila-camacho-1024x989.png",
+      "alt": "Image 9: avila-camacho"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/acueducto-1024x993.png",
+      "archivo": "acueducto-1024x993.png",
+      "alt": "Image 10: acueducto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/naciones-unidas.png",
+      "archivo": "naciones-unidas.png",
+      "alt": "Image 21: Imagen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/acueducto.png",
+      "archivo": "acueducto.png",
+      "alt": "Image 22: Imagen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/real-center.png",
+      "archivo": "real-center.png",
+      "alt": "Image 23: Imagen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/avila-camacho.png",
+      "archivo": "avila-camacho.png",
+      "alt": "Image 24: Imagen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2022/03/Vetpets-logo.png",
+      "archivo": "Vetpets-logo.png",
+      "alt": "Image 25: Logo Hospital Veterinario VetPets"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/cover-sucursal-naciones-unidas-vetpets.png",
+      "archivo": "cover-sucursal-naciones-unidas-vetpets.png",
+      "alt": "Image 2: Imagen"
+    }
+  ]
+}

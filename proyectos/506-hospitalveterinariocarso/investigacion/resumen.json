@@ -1,0 +1,114 @@
+{
+  "sitio": "https://hospitalcarson.com/",
+  "fecha": "2026-09-26T08:22:10.140Z",
+  "motor": "jina-reader",
+  "slug": "hospitalveterinariocarso",
+  "nombre": "Hospital Veterinario Carson",
+  "rubro": "VETERINARIA",
+  "ciudad": "Ciudad de México, Iztapalapa",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://hospitalcarson.com/",
+      "titulo": "Hospital Veterinario Carson - Veterinaria 24 Horas"
+    },
+    {
+      "url": "https://hospitalcarson.com/servicios/consultas-generales",
+      "titulo": "Hospital Veterinario Carson - Veterinaria 24 Horas"
+    },
+    {
+      "url": "https://hospitalcarson.com/servicios/veterinario-urgencias-24hrs",
+      "titulo": "Hospital Veterinario Carson - Veterinaria 24 Horas"
+    },
+    {
+      "url": "https://hospitalcarson.com/servicios/veterinario-ortopedista",
+      "titulo": "Hospital Veterinario Carson - Veterinaria 24 Horas"
+    },
+    {
+      "url": "https://hospitalcarson.com/servicios/nefrologo-veterinario",
+      "titulo": "Hospital Veterinario Carson - Veterinaria 24 Horas"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "55-72-58-45-83",
+      "55-59-22-61-94\n\n24",
+      "+525572584583",
+      "529992740946",
+      "55-59-22-61-94",
+      "+525559226194",
+      "9992740946"
+    ],
+    "emails": [
+      "contacto@hospitalcarson.com"
+    ],
+    "whatsapp": [
+      "wa.me/529992740946)",
+      "wa.me/529992740946)[Llamar](tel:+525572584583)",
+      "wa.me/529992740946?text=Hola,%20me%20gustar%C3%ADa%20obtener%20informaci%C3%B3n%20sobre%20sus%20servicios%20veterinarios)"
+    ],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "https://hospitalcarson.com/static/images/logo.png",
+      "alt": "Image 1: Logotipo de Hospital Veterinario Carson"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/pets.png",
+      "alt": "Image 2: Planes para Perros"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/cat.png",
+      "alt": "Image 3: Planes para Gatos"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/dog.png",
+      "alt": "Image 4: Planes de Salud Perros"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/animal-shelter.png",
+      "alt": "Image 5: Planes de Salud Gatos"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/logocaras-peq.png",
+      "alt": "Image 6: Logo"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/kidney.png",
+      "alt": "Image 7: Nefrólogo Veterinario"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/galeria-1.webp",
+      "alt": "Image 10: Recepción del Hospital Veterinario Carson"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/galeria-5.webp",
+      "alt": "Image 11: Consulta veterinaria"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/galeria-4.webp",
+      "alt": "Image 12: Área de hospitalización"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/galeria-3.webp",
+      "alt": "Image 13: Equipo de diagnóstico veterinario"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/galeria-2.webp",
+      "alt": "Image 14: Quirófano veterinario"
+    },
+    {
+      "src": "https://hospitalcarson.com/",
+      "alt": "Image 15: Vista ampliada de galería"
+    },
+    {
+      "src": "https://hospitalcarson.com/static/images/logo-nuevo-final.png",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://hospitalcarson.com/servicios/static/images/logo-nuevo-final.png",
+      "alt": "Image 6"
+    }
+  ]
+}

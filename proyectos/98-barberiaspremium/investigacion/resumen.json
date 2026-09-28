@@ -1,0 +1,130 @@
+{
+  "sitio": "https://barberiaspremium.com/",
+  "fecha": "2026-09-26T05:26:57.218Z",
+  "motor": "jina-reader",
+  "slug": "barberiaspremium",
+  "nombre": "Barberías Premium",
+  "rubro": "SPA",
+  "ciudad": "Oaxaca de Juárez, Oaxaca",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://barberiaspremium.com/",
+      "titulo": "Barberías en Ciudad del Carmen | Barberías Premium"
+    },
+    {
+      "url": "https://barberiaspremium.com/franquicias",
+      "titulo": "Franquicias de barbería en México | Barberías Premium"
+    },
+    {
+      "url": "https://barberiaspremium.com/analisis-facial",
+      "titulo": "Análisis facial para cortes y lentes | Barberías Premium"
+    },
+    {
+      "url": "https://barberiaspremium.com/sucursales/plaza-real",
+      "titulo": "Barbería Plaza Real en Ciudad del Carmen | Premium"
+    },
+    {
+      "url": "https://barberiaspremium.com/sucursales/paseo-juarez",
+      "titulo": "Barbería Centro · Paseo Juárez en Ciudad del Carmen | Premium"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "1347819362",
+      "529381750049",
+      "+52 938 175 0049",
+      "+529381750049",
+      "938 175 0049"
+    ],
+    "emails": [
+      "contacto@barberiaspremium.com",
+      "corporativo@barberiaspremium.com"
+    ],
+    "whatsapp": [
+      "wa.me/529381750049?text=Hola%2C%20quiero%20consultar%20el%20acceso%20a%20la%20nueva%20app%20de%20Barber%C3%ADas%20Premium%20en%20Android.)"
+    ],
+    "redes": [
+      "https://www.facebook.com/barberiaspremium",
+      "https://www.instagram.com/barberiaspremium"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://barberiaspremium.com/assets/logo-premium.png",
+      "alt": "Image 1: Barberías Premium"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/hero-barberia.jpg",
+      "alt": "Image 2: Detalle de corte en Barberías Premium"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/app-iphone.webp",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/facial-portrait.webp",
+      "alt": "Image 4: Retrato ilustrativo del estudio de rostro y cabello"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/premium-id.png",
+      "alt": "Image 6: Tu barbero ya sabe cómo va tu corte"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/app-home.webp",
+      "alt": "Image 8: Vista de ejemplo de la app: próxima cita, monedero y avance hacia el corte gratis"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/look-classic-side.webp",
+      "alt": "Image 9: Corte clásico de lado, pose de tres cuartos que muestra el lateral a tijera"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/look-textured-crop.webp",
+      "alt": "Image 10: Corte corto con textura, visto de perfil para mostrar el desvanecido alto"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/look-volume-quiff.webp",
+      "alt": "Image 11: Corte con volumen arriba y desvanecido medio, mirando a cámara en otra pose"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/D0irAHZeORQ/hq2.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/kz-gE6GHEso/hq2.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/corte-lacio.jpg",
+      "alt": "Image 14: Corte para cabello lacio"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/corte-rebelde.jpg",
+      "alt": "Image 15: Corte recomendado con IA Style"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/corte-remolinos.jpg",
+      "alt": "Image 16: Corte que respeta los remolinos"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/calidad.png",
+      "alt": "Image 17: Seguimiento de calidad Barberías Premium"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/franchise-cinema.webp",
+      "alt": "Image 18: Cliente disfruta una función de cine durante su visita"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/franchise-plaza.webp",
+      "alt": "Image 20: Sucursal Plaza Real de Barberías Premium"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/franchise-centro.webp",
+      "alt": "Image 21: Sucursal Centro · Paseo Juárez de Barberías Premium"
+    },
+    {
+      "src": "https://barberiaspremium.com/assets/sucursal-express.jpg",
+      "alt": "Image 22: Sucursal Express HSBC de Barberías Premium"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/8db0f6ad8b29f71012ce32eb3f4b1c98",
+      "archivo": "8db0f6ad8b29f71012ce32eb3f4b1c98",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/673caa2084343667d8f22a20e3ff586b",
+      "archivo": "673caa2084343667d8f22a20e3ff586b",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/9ea4f39bba1b34e7f502f365ed0f1a7b",
+      "archivo": "9ea4f39bba1b34e7f502f365ed0f1a7b",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/1e663c063a2470b778acda30dc8a2102",
+      "archivo": "1e663c063a2470b778acda30dc8a2102",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/d5b9737e192aef8316c2dd1e018b39b1",
+      "archivo": "d5b9737e192aef8316c2dd1e018b39b1",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://floatsano.com/wp-content/uploads/2023/03/Spa_Holistico___Holistic_Health_Spa.webp",
+      "archivo": "Spa_Holistico___Holistic_Health_Spa.webp",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cdn.gtranslate.net/flags/32/en.png",
+      "archivo": "en.png",
+      "alt": "Image 8: es"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://floatsano.com/contacto/",
+      "archivo": "contacto",
+      "alt": "Image 9: es"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/6f7f47e4383e2cab0d00fed7c66808b6",
+      "archivo": "6f7f47e4383e2cab0d00fed7c66808b6",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/fd0a2605b2df749f99d9b9b4e0e1fd23",
+      "archivo": "fd0a2605b2df749f99d9b9b4e0e1fd23",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/449e5e91537fa83644baa53ebfe12d92",
+      "archivo": "449e5e91537fa83644baa53ebfe12d92",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/48b445ae4574de26fee77e60f7f1cb41",
+      "archivo": "48b445ae4574de26fee77e60f7f1cb41",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/5c2f84e206ae9f0f8eac2981596a0915",
+      "archivo": "5c2f84e206ae9f0f8eac2981596a0915",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/5bccd140b4b487fd6eb837ff6908ad84",
+      "archivo": "5bccd140b4b487fd6eb837ff6908ad84",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://floatsano.com/sauna-infrarrojo/",
+      "archivo": "sauna-infrarrojo",
+      "alt": "Image 15: es"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/35055a22fa6a43fbefcf67025b4d2661",
+      "archivo": "35055a22fa6a43fbefcf67025b4d2661",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://floatsano.com/masaje/",
+      "archivo": "masaje",
+      "alt": "Image 15: es"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/templates/rt_salient/custom/images/logo/fatima-buenfil-nutricion-clinica-logo.png",
+      "archivo": "fatima-buenfil-nutricion-clinica-logo.png",
+      "alt": "Image 1: Fátima Buenfil Nutrición Clínica en Mérida Yucatán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/thumbs/consulta-nutricional.jpg",
+      "archivo": "consulta-nutricional.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/consulta-a-domicilio.jpg",
+      "archivo": "consulta-a-domicilio.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/consulta-nutricional-a-distancia.jpg",
+      "archivo": "consulta-nutricional-a-distancia.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/nutricion-empresarial2.jpg",
+      "archivo": "nutricion-empresarial2.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/nutricion-escolar.jpg",
+      "archivo": "nutricion-escolar.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/platicas-y-talleres-nutricion.jpg",
+      "archivo": "platicas-y-talleres-nutricion.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/menus-asesoria-nutricia.jpg",
+      "archivo": "menus-asesoria-nutricia.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/nutricion-vida.jpg",
+      "archivo": "nutricion-vida.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/nutricion-deporte-fatima.jpg",
+      "archivo": "nutricion-deporte-fatima.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/dieta-vegetariana-2.jpg",
+      "archivo": "dieta-vegetariana-2.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/dieta-sonda.jpg",
+      "archivo": "dieta-sonda.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/Enfermedades-metabolicas.jpg",
+      "archivo": "Enfermedades-metabolicas.jpg",
+      "alt": "Image 24"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/nutricion-clinica.jpg",
+      "archivo": "nutricion-clinica.jpg",
+      "alt": "Image 26"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/blog/nuevo-etiquetado-alimentos-mexico.jpg",
+      "archivo": "nuevo-etiquetado-alimentos-mexico.jpg",
+      "alt": "Image 28"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/blog/masa-corporal.jpg",
+      "archivo": "masa-corporal.jpg",
+      "alt": "Image 30"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/curriculom-vitae-fatima-buenfil-rello-nutricion-clinica.jpg",
+      "archivo": "curriculom-vitae-fatima-buenfil-rello-nutricion-clinica.jpg",
+      "alt": "Image 2: curriculom vitae fatima buenfil rello nutricion clinica"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/blog/blog-fatima-buenfil.jpg",
+      "archivo": "blog-fatima-buenfil.jpg",
+      "alt": "Image 3: Recetas Saludables Fatima Buenfil"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/blog/proteina-y-masa-muscular.jpg",
+      "archivo": "proteina-y-masa-muscular.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.fatimabuenfil.com/images/blog/que-comer-con-covid.jpg",
+      "archivo": "que-comer-con-covid.jpg",
+      "alt": "Image 7"
+    }
+  ]
+}

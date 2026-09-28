@@ -1,0 +1,120 @@
+/* ============================================================
+   PRELOADER — Burbujas de izquierda a derecha
+   ============================================================ */
+
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-preloader);
+  pointer-events: all;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.preloader__backdrop {
+  position: absolute;
+  inset: 0;
+  background: var(--color-ocean-deep);
+}
+
+.preloader__bubbles {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.preloader__bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 35% 35%,
+    rgba(118, 224, 210, 0.9),
+    rgba(52, 197, 175, 0.7) 40%,
+    rgba(22, 138, 173, 0.5)
+  );
+  border: 1px solid rgba(118, 224, 210, 0.4);
+  box-shadow:
+    inset -3px -3px 8px rgba(255,255,255,0.2),
+    inset 2px 2px 6px rgba(255,255,255,0.3),
+    0 0 20px rgba(52,197,175,0.2);
+  transform: translateX(-150px);
+  animation: bubbleFloat var(--duration) var(--delay) cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: transform, opacity;
+}
+
+@keyframes bubbleFloat {
+  0% {
+    transform: translateX(-150px) translateY(0) scale(0.8);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(calc(var(--travel) * 0.1)) translateY(calc(var(--wobble) * -0.5)) scale(1);
+  }
+  50% {
+    transform: translateX(calc(var(--travel) * 0.5)) translateY(var(--wobble)) scale(1.02);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(calc(100vw + 200px)) translateY(calc(var(--wobble) * 0.3)) scale(0.9);
+    opacity: 0;
+  }
+}
+
+.preloader__logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--color-white);
+  opacity: 0;
+  animation: logoFadeIn 0.6s 0.4s ease forwards;
+}
+
+.preloader__logo-img {
+  display: block;
+  width: clamp(290px, 70vw, 440px);
+  height: auto;
+  margin: 0 auto;
+  filter: drop-shadow(0 8px 32px rgba(0, 0, 0, 0.35));
+  animation: logoFloat 3s ease-in-out 0.6s infinite;
+}
+
+@keyframes logoFloat {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+
+.preloader__logo-sub {
+  font-family: var(--font-body);
+  font-size: clamp(0.7rem, 1vw, 0.75rem);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #76E0D2;
+  margin-top: var(--space-3);
+  display: block;
+}
+
+@keyframes logoFadeIn {
+  from { opacity: 0; transform: translate(-50%, calc(-50% + 12px)); }
+  to   { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+/* Exit animation — triggered via JS class */
+#preloader.is-exiting {
+  animation: preloaderExit 0.8s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+
+@keyframes preloaderExit {
+  0%   { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-40px); pointer-events: none; }
+}
+
+#preloader.is-hidden {
+  display: none;
+  pointer-events: none;
+}

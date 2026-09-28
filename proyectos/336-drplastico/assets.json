@@ -1,0 +1,157 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/marcadeaguafinal.webp",
+      "archivo": "marcadeaguafinal.webp",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/10/10.webp",
+      "archivo": "10.webp",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/10/blog-3-2.webp",
+      "archivo": "blog-3-2.webp",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/marcadeaguafinalblack.webp",
+      "archivo": "marcadeaguafinalblack.webp",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/10/pls-04-2-768x768.webp",
+      "archivo": "pls-04-2-768x768.webp",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/10/pls-13-720x720.webp",
+      "archivo": "pls-13-720x720.webp",
+      "alt": "Image 8: pls-13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/10/photodune-5951306-body-l-scaled-e1716387813133-1764x2048-1-882x1024.webp",
+      "archivo": "photodune-5951306-body-l-scaled-e1716387813133-1764x2048-1-882x1024.webp",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/liscircle1-1.webp",
+      "archivo": "liscircle1-1.webp",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/almita.webp",
+      "archivo": "almita.webp",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/susana.webp",
+      "archivo": "susana.webp",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/10/pr-29-768x512.webp",
+      "archivo": "pr-29-768x512.webp",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/dralfarosaco.webp",
+      "archivo": "dralfarosaco.webp",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2022/09/icn-05-2.webp",
+      "archivo": "icn-05-2.webp",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2022/09/pls-26-2.webp",
+      "archivo": "pls-26-2.webp",
+      "alt": "Image 7: Reducción mamaria"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/photodune-5951306-body-l-scaled-e1716387813133.webp",
+      "archivo": "photodune-5951306-body-l-scaled-e1716387813133.webp",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/revslider/gallery-1/pls-07.webp",
+      "archivo": "pls-07.webp",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2023/06/mujer-revisando-su-mama-detectar-cancer-mama-e1716399154937.webp",
+      "archivo": "mujer-revisando-su-mama-detectar-cancer-mama-e1716399154937.webp",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/photodune-2817136-plastic-correction-m-e1716398992401.webp",
+      "archivo": "photodune-2817136-plastic-correction-m-e1716398992401.webp",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2022/09/pls-29-2.webp",
+      "archivo": "pls-29-2.webp",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2022/09/pls-27-2.webp",
+      "archivo": "pls-27-2.webp",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/depilacion-laser-ipl.jpg",
+      "archivo": "depilacion-laser-ipl.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/viora3-510x510-1.jpg.webp",
+      "archivo": "viora3-510x510-1.jpg.webp",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/vformfacial-1.jpg",
+      "archivo": "vformfacial-1.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/8_despigmentacionfacial-520x338-1.jpg",
+      "archivo": "8_despigmentacionfacial-520x338-1.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drplastico.com/wp-content/uploads/2024/05/lipomassage-by-endermologie-2.jpg",
+      "archivo": "lipomassage-by-endermologie-2.jpg",
+      "alt": "Image 10"
+    }
+  ]
+}

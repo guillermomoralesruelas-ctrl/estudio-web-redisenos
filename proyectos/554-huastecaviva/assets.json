@@ -1,0 +1,199 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/logohv2.png",
+      "archivo": "logohv2.png",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.kayak.com/news/badge/kk/tg008.png",
+      "archivo": "tg008.png",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/baner-xilitla-1-1024x493.jpg",
+      "archivo": "baner-xilitla-1-1024x493.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/gal-xilitla8-150x150.jpg",
+      "archivo": "gal-xilitla8-150x150.jpg",
+      "alt": "Image 3: gal-xilitla8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/castillo-xilitla-1-150x150.jpg",
+      "archivo": "castillo-xilitla-1-150x150.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/castillo-xilitla-2-150x150.jpg",
+      "archivo": "castillo-xilitla-2-150x150.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/castillo-xilitla-3-150x150.jpg",
+      "archivo": "castillo-xilitla-3-150x150.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/castillo-xilitla-4-150x150.jpg",
+      "archivo": "castillo-xilitla-4-150x150.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/castillo-xilitla-5-150x150.jpg",
+      "archivo": "castillo-xilitla-5-150x150.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/sotano-huahuas-1-150x150.jpg",
+      "archivo": "sotano-huahuas-1-150x150.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/sotano-huahuas-2-150x150.jpg",
+      "archivo": "sotano-huahuas-2-150x150.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/gal-xilitla1-150x150.jpg",
+      "archivo": "gal-xilitla1-150x150.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/baner-tamasopo-1024x493.jpg",
+      "archivo": "baner-tamasopo-1024x493.jpg",
+      "alt": "Image 2: baner-tamasopo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/gal-puente4-150x150.jpg",
+      "archivo": "gal-puente4-150x150.jpg",
+      "alt": "Image 3: gal-puente4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/cascadas-de-tamasopo-2-150x150.jpg",
+      "archivo": "cascadas-de-tamasopo-2-150x150.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/puente-de-dios-1-150x150.jpg",
+      "archivo": "puente-de-dios-1-150x150.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/puente-de-dios-2-150x150.jpg",
+      "archivo": "puente-de-dios-2-150x150.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/puente-de-dios-7-150x150.jpg",
+      "archivo": "puente-de-dios-7-150x150.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/puente-de-dios-5-150x150.jpg",
+      "archivo": "puente-de-dios-5-150x150.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/puente-dios-8-150x150.jpg",
+      "archivo": "puente-dios-8-150x150.jpg",
+      "alt": "Image 9: puente-dios-8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/puente-dios-9-150x150.jpg",
+      "archivo": "puente-dios-9-150x150.jpg",
+      "alt": "Image 10: puente-dios-9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/puente-dios-10-150x150.jpg",
+      "archivo": "puente-dios-10-150x150.jpg",
+      "alt": "Image 11: puente-dios-10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/banermicos-1024x493.jpg",
+      "archivo": "banermicos-1024x493.jpg",
+      "alt": "Image 2: banermicos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/gal-micos6-150x150.jpg",
+      "archivo": "gal-micos6-150x150.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/cascadas-micos-1-150x150.jpg",
+      "archivo": "cascadas-micos-1-150x150.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/minas-viejas-1-150x150.jpg",
+      "archivo": "minas-viejas-1-150x150.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/minas-viejas-2-150x150.jpg",
+      "archivo": "minas-viejas-2-150x150.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/minas-viejas-5-150x150.jpg",
+      "archivo": "minas-viejas-5-150x150.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/gal-micos-20-150x150.jpg",
+      "archivo": "gal-micos-20-150x150.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/gal-micos-21-150x150.jpg",
+      "archivo": "gal-micos-21-150x150.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/gal-micos-22-150x150.jpg",
+      "archivo": "gal-micos-22-150x150.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://huastecaviva.com/images/gal-micos-23-150x150.jpg",
+      "archivo": "gal-micos-23-150x150.jpg",
+      "alt": "Image 11"
+    }
+  ]
+}

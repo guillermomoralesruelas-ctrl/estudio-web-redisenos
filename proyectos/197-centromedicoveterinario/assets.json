@@ -1,0 +1,265 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/cmv_logo-white.png",
+      "archivo": "cmv_logo-white.png",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/home/Img.png",
+      "archivo": "Img.png",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/about/img-1-nobg.png",
+      "archivo": "img-1-nobg.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://placehold.co/100x100",
+      "archivo": "100x100",
+      "alt": "Image 4: img"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/cmv_logo.png",
+      "archivo": "cmv_logo.png",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/banner/bg-about.jpg",
+      "archivo": "bg-about.jpg",
+      "alt": "Image 2: Banner Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/about/img-1.png",
+      "archivo": "img-1.png",
+      "alt": "Image 3: Veterinary Team at Work"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/about/img-2.png",
+      "archivo": "img-2.png",
+      "alt": "Image 4: Main Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/about/bg.jpg",
+      "archivo": "bg.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/banner/bg-team.jpg",
+      "archivo": "bg-team.jpg",
+      "alt": "Image 2: Banner Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-1.png",
+      "archivo": "Specialist-1.png",
+      "alt": "Image 3: Sergio Miguel García Moreno"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-20.png",
+      "archivo": "Specialist-20.png",
+      "alt": "Image 4: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-3.png",
+      "archivo": "Specialist-3.png",
+      "alt": "Image 5: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-5.png",
+      "archivo": "Specialist-5.png",
+      "alt": "Image 6: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-6.png",
+      "archivo": "Specialist-6.png",
+      "alt": "Image 7: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-7.png",
+      "archivo": "Specialist-7.png",
+      "alt": "Image 8: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-8.png",
+      "archivo": "Specialist-8.png",
+      "alt": "Image 9: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-9.png",
+      "archivo": "Specialist-9.png",
+      "alt": "Image 10: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-10.png",
+      "archivo": "Specialist-10.png",
+      "alt": "Image 11: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-12.png",
+      "archivo": "Specialist-12.png",
+      "alt": "Image 12: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-13.png",
+      "archivo": "Specialist-13.png",
+      "alt": "Image 13: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-14.png",
+      "archivo": "Specialist-14.png",
+      "alt": "Image 14: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-15.png",
+      "archivo": "Specialist-15.png",
+      "alt": "Image 15: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-16.png",
+      "archivo": "Specialist-16.png",
+      "alt": "Image 16: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-17.png",
+      "archivo": "Specialist-17.png",
+      "alt": "Image 17: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-18.png",
+      "archivo": "Specialist-18.png",
+      "alt": "Image 18: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-19.png",
+      "archivo": "Specialist-19.png",
+      "alt": "Image 19: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/team/Specialist-21.png",
+      "archivo": "Specialist-21.png",
+      "alt": "Image 20: Team"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/banner/bg-services.jpg",
+      "archivo": "bg-services.jpg",
+      "alt": "Image 2: Banner Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/services/1.png",
+      "archivo": "1.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/services/2.png",
+      "archivo": "2.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/services/3.png",
+      "archivo": "3.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/services/4.png",
+      "archivo": "4.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/services/5.png",
+      "archivo": "5.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/services/6.png",
+      "archivo": "6.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/services/7.png",
+      "archivo": "7.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/css/img/banner/bg-shop.jpg",
+      "archivo": "bg-shop.jpg",
+      "alt": "Image 2: Banner Image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/img/inventario_productos/producto_71_914.webp",
+      "archivo": "producto_71_914.webp",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/img/inventario_productos/producto_2006_472.webp",
+      "archivo": "producto_2006_472.webp",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/img/inventario_productos/producto_2792_850.webp",
+      "archivo": "producto_2792_850.webp",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/img/inventario_productos/producto_851_739.webp",
+      "archivo": "producto_851_739.webp",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/img/inventario_productos/producto_2791_868.webp",
+      "archivo": "producto_2791_868.webp",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cmvet.mx/views/assets/img/inventario_productos/producto_2790_100.webp",
+      "archivo": "producto_2790_100.webp",
+      "alt": "Image 8"
+    }
+  ]
+}

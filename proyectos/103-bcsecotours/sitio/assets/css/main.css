@@ -1,0 +1,172 @@
+.card-img-fit {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+}
+@media (max-width: 767px) {
+  .card-img-fit { height: 150px; }
+}
+
+.hero-slider-img {
+  width: 100%;
+  height: 580px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 2px 18px rgba(30,50,80,0.10);
+}
+@media (max-width: 900px) {
+  .hero-slider-img { height: 420px; }
+}
+@media (max-width: 600px) {
+  .hero-slider-img { height: 320px; }
+}
+
+.navbar-nav .btn { margin-top: 4px; }
+.zoomable { cursor: pointer; }
+
+.faq-highlight mark {
+  background: #ffeb3b;
+  padding: 0 2px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+@media (max-width:991.98px) {
+  .submenu-paginas-movil .nav-link { padding-left: 2.5rem; }
+  .submenu-paginas-movil .nav-link:not(:last-child) { margin-bottom: 4px; }
+}
+
+.tour-img {
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  object-position:center;
+  border-radius:13px;
+}
+@media(max-width:800px){
+  .tour-img{height:140px;}
+}
+.tour-card { transition: box-shadow .16s; }
+.tour-card:hover { box-shadow:0 6px 20px rgba(30,60,120,0.13); }
+
+.video-card-iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 9px rgba(80,80,120,0.10);
+  border: 0;
+}
+.video-card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.gallery-img {
+  transition:box-shadow .12s;
+  cursor:pointer;
+}
+.gallery-img:hover {
+  box-shadow: 0 6px 18px rgba(30,60,120,0.17);
+}
+
+.blog-img {
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  object-position:center;
+  border-radius:14px;
+}
+@media(max-width:800px){
+  .blog-img{height:130px;}
+}
+.blog-card {transition:box-shadow .16s;}
+.blog-card:hover {box-shadow:0 6px 16px rgba(40,60,140,.13);}
+
+.testimonio-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+  border-radius:50%;
+  box-shadow: 0 2px 10px rgba(30,50,80,0.10);
+}
+.testimonio-card { transition: box-shadow .17s; }
+.testimonio-card:hover { box-shadow:0 6px 20px rgba(30,60,120,.17); }
+
+.card.sticky-top {
+  z-index: 100;
+}
+.list-group-item.active a {
+  color: #fff !important;
+}
+@media(max-width:768px){
+  aside.card { margin-bottom:1rem;}
+}
+
+.pagina-contenido img {
+  max-width:100%;
+  height:auto;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  transition: color 0.2s;
+  padding: 0.5em;
+}
+@media (max-width: 576px) {
+  .footer-icon {
+    font-size: 2.6rem;
+    padding: 0.7em;
+  }
+}
+
+.content-preview,
+.card-text,
+.detalle-txt {
+  max-height: none;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+/* ===== Colores dinámicos (desde settings) ===== */
+
+#mainNavbar {
+  background-color: var(--nav-bg-color) !important;
+}
+
+.cta-main {
+  background-color: var(--cta-bg-color);
+  color: #fff;
+}
+
+main {
+  background-color: var(--main-bg-color);
+}
+/* Si quisieras que main tenga fondo semitransparente sobre la imagen */
+main {
+  background-color: rgba(255,255,255,0.85);
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  z-index: 1200;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.whatsapp-float .whatsapp-icon {
+  font-size: 32px;
+  line-height: 1;
+}

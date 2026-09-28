@@ -1,0 +1,88 @@
+/* =====================================================
+   TYPOGRAPHY — Fonts & Text Utilities
+   ===================================================== */
+
+/* Fonts loaded via <link> in <head> — removed @import to avoid blocking chain */
+
+/* ── Headings ─────────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: var(--font-brand);
+  font-weight: var(--fw-light);
+  line-height: var(--lh-tight);
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: var(--fs-hero); }
+h2 { font-size: var(--fs-3xl); }
+h3 { font-size: var(--fs-xl); }
+h4 { font-size: var(--fs-lg); }
+
+/* ── Body ─────────────────────────────────────────── */
+p {
+  font-family: var(--font-body);
+  font-weight: var(--fw-light);
+  line-height: var(--lh-relaxed);
+  font-size: var(--fs-base);
+  max-width: 68ch;
+}
+
+/* ── Section Tags ─────────────────────────────────── */
+.tag {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: var(--color-cyan);
+}
+
+/* ── Section Title Block ──────────────────────────── */
+.section-header {
+  text-align: center;
+  margin-bottom: var(--space-16);
+}
+
+.section-header .tag {
+  margin-bottom: var(--space-4);
+}
+
+.section-header h2 {
+  margin-bottom: var(--space-4);
+}
+
+.section-header p {
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: var(--fs-md);
+}
+
+/* ── Highlight Spans ──────────────────────────────── */
+.text-orange { color: var(--color-orange); }
+.text-cyan   { color: var(--color-cyan); }
+
+/* ── Decorative Divider ───────────────────────────── */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin: var(--space-6) 0;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-cyan-20), transparent);
+}
+
+/* ── Responsive Typography ────────────────────────── */
+@media (max-width: 768px) {
+  h2 { font-size: var(--fs-2xl); }
+  h3 { font-size: var(--fs-lg); }
+
+  .section-header {
+    margin-bottom: var(--space-12);
+  }
+}

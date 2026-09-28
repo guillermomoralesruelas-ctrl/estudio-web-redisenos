@@ -1,0 +1,235 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgGen/logo.png",
+      "archivo": "logo.png",
+      "alt": "Image 2: Floreria Riviera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgGen/googleReviews.png",
+      "archivo": "googleReviews.png",
+      "alt": "Image 3: Google Reviews"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/img/fantasy0060.jpg",
+      "archivo": "fantasy0060.jpg",
+      "alt": "Image 4: width=\"300\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/img/lilies0001.jpg",
+      "archivo": "lilies0001.jpg",
+      "alt": "Image 5: width=\"300\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/img/fantasy0059.jpg",
+      "archivo": "fantasy0059.jpg",
+      "alt": "Image 6: width=\"300\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/img/roses0110.jpg",
+      "archivo": "roses0110.jpg",
+      "alt": "Image 7: width=\"300\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/img/roses0086.jpg",
+      "archivo": "roses0086.jpg",
+      "alt": "Image 8: width=\"300\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/img/fantasy0061.jpg",
+      "archivo": "fantasy0061.jpg",
+      "alt": "Image 9: width=\"300\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/img/roses0117.jpg",
+      "archivo": "roses0117.jpg",
+      "alt": "Image 10: width=\"300\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgGen/florTulipanes.png",
+      "archivo": "florTulipanes.png",
+      "alt": "Image 21: Envia tulipanes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgGen/florOrquidea.png",
+      "archivo": "florOrquidea.png",
+      "alt": "Image 22: Envia Orquideas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgGen/florLili.png",
+      "archivo": "florLili.png",
+      "alt": "Image 23: Envia Lilis"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgGen/florGerbera.png",
+      "archivo": "florGerbera.png",
+      "alt": "Image 24: Envia Gerberas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgGen/florRosas.png",
+      "archivo": "florRosas.png",
+      "alt": "Image 25: Envia Rosas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgGen/florGirasol.png",
+      "archivo": "florGirasol.png",
+      "alt": "Image 26: Envia Girasoles"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/orquidea7.jpg",
+      "archivo": "orquidea7.jpg",
+      "alt": "Image 35: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/fantasy0060.jpg",
+      "archivo": "fantasy0060.jpg",
+      "alt": "Image 36: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/orquidea1.jpg",
+      "archivo": "orquidea1.jpg",
+      "alt": "Image 37: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/frutti0011.jpg",
+      "archivo": "frutti0011.jpg",
+      "alt": "Image 38: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/roses0110.jpg",
+      "archivo": "roses0110.jpg",
+      "alt": "Image 39: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/lilies0001.jpg",
+      "archivo": "lilies0001.jpg",
+      "alt": "Image 40: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/roses0117.jpg",
+      "archivo": "roses0117.jpg",
+      "alt": "Image 42: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/frutti0003.jpg",
+      "archivo": "frutti0003.jpg",
+      "alt": "Image 43: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/frutti0006.jpg",
+      "archivo": "frutti0006.jpg",
+      "alt": "Image 44: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/frutti0009.jpg",
+      "archivo": "frutti0009.jpg",
+      "alt": "Image 45: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/imgScaled/frutti0002.jpg",
+      "archivo": "frutti0002.jpg",
+      "alt": "Image 46: class=\"product-thumb\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/images/ComodoSSL.png",
+      "archivo": "ComodoSSL.png",
+      "alt": "Image 47"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+      "archivo": "WATI_logo_square_2.png",
+      "alt": "Image 48: undefined"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cdn.shopify.com/s/files/1/0070/3666/5911/files/Vector.png?574",
+      "archivo": "Vector.png",
+      "alt": "Image 49"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/eng/imgGen/florTulipanes.png",
+      "archivo": "florTulipanes.png",
+      "alt": "Image 21: Envia tulipanes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/eng/imgGen/florOrquidea.png",
+      "archivo": "florOrquidea.png",
+      "alt": "Image 22: Envia Orquideas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/eng/imgGen/florLili.png",
+      "archivo": "florLili.png",
+      "alt": "Image 23: Envia Lilis"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/eng/imgGen/florGerbera.png",
+      "archivo": "florGerbera.png",
+      "alt": "Image 24: Envia Gerberas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/eng/imgGen/florRosas.png",
+      "archivo": "florRosas.png",
+      "alt": "Image 25: Envia Rosas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/eng/imgGen/florGirasol.png",
+      "archivo": "florGirasol.png",
+      "alt": "Image 26: Envia Girasoles"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/img/fantasy0062.jpg",
+      "archivo": "fantasy0062.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/img/roses0104.jpg",
+      "archivo": "roses0104.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.floreriariviera.com/img/orquidea11.jpg",
+      "archivo": "orquidea11.jpg",
+      "alt": "Image 8"
+    }
+  ]
+}

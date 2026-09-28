@@ -1,0 +1,345 @@
+{
+  "sitio": "https://loretobaytours.com/",
+  "fecha": "2026-09-26T05:28:32.578Z",
+  "motor": "jina-reader",
+  "slug": "bcsecotours",
+  "nombre": "BCS Eco Tours",
+  "rubro": "TURISMO",
+  "ciudad": "Loreto, Baja California Sur",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://loretobaytours.com/",
+      "titulo": "Inicio"
+    },
+    {
+      "url": "https://loretobaytours.com/tours.php",
+      "titulo": "Tours disponibles"
+    },
+    {
+      "url": "https://loretobaytours.com/galeria_videos.php",
+      "titulo": "Galería de Videos"
+    },
+    {
+      "url": "https://loretobaytours.com/galeria.php",
+      "titulo": "Galería de Fotos"
+    },
+    {
+      "url": "https://loretobaytours.com/blogs.php",
+      "titulo": "Blog"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "1790400478",
+      "526131009373",
+      "1790400482",
+      "2026-01-01",
+      "2027-04-30",
+      "443478374",
+      "443479158",
+      "1790400487",
+      "1790400504",
+      "1876705129242695",
+      "4505025678297605022",
+      "1790400509"
+    ],
+    "emails": [
+      "contacto@bcs.tours"
+    ],
+    "whatsapp": [
+      "wa.me/526131009373",
+      "wa.me/526131009373)"
+    ],
+    "redes": [
+      "https://www.facebook.com/ToursBCS",
+      "https://www.youtube.com/@bcstours"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://loretobaytours.com/img/logo.png?v=1790400478",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "src": "https://loretobaytours.com/img/mxn.png",
+      "alt": "Image 2: Español"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/hero_6a513e649a16a.jpg?v=1790400478",
+      "alt": "Image 3: A sea full of life!!"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/hero_6a5150cc61a76.jpg?v=1790400478",
+      "alt": "Image 4: Blue Whale"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/hero_6a951b0c4923b.png?v=1790400478",
+      "alt": "Image 5: Join Us"
+    },
+    {
+      "src": "https://loretobaytours.com/img/linea.png",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d457d230c9.png",
+      "alt": "Image 7: Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d44347803c.jpg",
+      "alt": "Image 8: Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d4146c32e6.jpg",
+      "alt": "Image 9: Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e417b877d.JPG",
+      "alt": "Image 10: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e3d92c509.png",
+      "alt": "Image 11: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e37b6a45c.JPG",
+      "alt": "Image 12: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a951bf44541b.PNG?v=1790400478",
+      "alt": "Image 13: Foto galería"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a951b7fc7ceb.JPG?v=1790400478",
+      "alt": "Image 14: Foto galería"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94db02d56a1.JPG?v=1790400478",
+      "alt": "Image 15: Foto galería"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94da5c5b6bb.jpg?v=1790400478",
+      "alt": "Image 16: Foto galería"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94d9e8a4725.jpg?v=1790400478",
+      "alt": "Image 17: Foto galería"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94d97fb4466.jpg?v=1790400478",
+      "alt": "Image 18: Foto galería"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94d911346b6.jpg?v=1790400478",
+      "alt": "Image 19: Foto galería"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94d86ad58aa.JPG?v=1790400478",
+      "alt": "Image 20: Foto galería"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94c958c37ec.png?v=1790400478",
+      "alt": "Image 21: Foto galería"
+    },
+    {
+      "src": "https://loretobaytours.com/",
+      "alt": "Image 22: Foto grande"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/testi_6a9518af700a4.png?v=1790400478",
+      "alt": "Image 23: Foto testimonio"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/testi_6a95184bd39b5.png?v=1790400478",
+      "alt": "Image 24: Foto testimonio"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/testi_6a9517e2a328e.png?v=1790400478",
+      "alt": "Image 25: Foto testimonio"
+    },
+    {
+      "src": "https://loretobaytours.com/img/logo.png?v=1790400482",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d457d230c9.png?v=1790400482",
+      "alt": "Image 3: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d457d23a9d.png?v=1790400482",
+      "alt": "Image 4: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d457d23fc9.jpg?v=1790400482",
+      "alt": "Image 5: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d457d2469f.png?v=1790400482",
+      "alt": "Image 6: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d457d24da1.jpg?v=1790400482",
+      "alt": "Image 7: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d44347803c.jpg?v=1790400482",
+      "alt": "Image 8: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d443478374.png?v=1790400482",
+      "alt": "Image 9: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d443479158.png?v=1790400482",
+      "alt": "Image 10: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d44347988e.jpg?v=1790400482",
+      "alt": "Image 11: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d44347cc23.jpg?v=1790400482",
+      "alt": "Image 12: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d4146c32e6.jpg?v=1790400482",
+      "alt": "Image 13: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d3f28ce293.jpg?v=1790400482",
+      "alt": "Image 14: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d3f28ce841.jpg?v=1790400482",
+      "alt": "Image 15: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d3f28ced39.png?v=1790400482",
+      "alt": "Image 16: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/tourimg_6a7d3f28cf52f.jpeg?v=1790400482",
+      "alt": "Image 17: Foto Tour"
+    },
+    {
+      "src": "https://loretobaytours.com/img/logo.png?v=1790400487",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "src": "https://loretobaytours.com/img/logo.png?v=1790400504",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a951bf44541b.PNG",
+      "alt": "Image 3: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a951b7fc7ceb.JPG",
+      "alt": "Image 4: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94db02d56a1.JPG",
+      "alt": "Image 5: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94da5c5b6bb.jpg",
+      "alt": "Image 6: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94d9e8a4725.jpg",
+      "alt": "Image 7: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94d97fb4466.jpg",
+      "alt": "Image 8: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94d911346b6.jpg",
+      "alt": "Image 9: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94d86ad58aa.JPG",
+      "alt": "Image 10: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94c958c37ec.png",
+      "alt": "Image 11: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a947254d1c05.png",
+      "alt": "Image 12: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a9471fea43b8.jpg",
+      "alt": "Image 13: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a9471a64c2b5.png",
+      "alt": "Image 14: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a94712e48e14.jpg",
+      "alt": "Image 15: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/galeria_6a946f26ea4b8.jpg",
+      "alt": "Image 16: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/project-gallery-photo-37.png",
+      "alt": "Image 17: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/pesca-dorado.png",
+      "alt": "Image 18: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/17212245_1876705129242695_4505025678297605022_o%20(2",
+      "alt": "Image 19: gallery photo"
+    },
+    {
+      "src": "https://loretobaytours.com/galeria.php",
+      "alt": "Image 20: Ver foto"
+    },
+    {
+      "src": "https://loretobaytours.com/img/logo.png?v=1790400509",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e346219be.jpg",
+      "alt": "Image 6: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e3199eb58.jpeg",
+      "alt": "Image 7: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e2bd60ea9.jpg",
+      "alt": "Image 8: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e2872877e.jpg",
+      "alt": "Image 9: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e24172b84.png",
+      "alt": "Image 10: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e2085d01b.png",
+      "alt": "Image 11: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e1d3f1417.jpg",
+      "alt": "Image 12: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e190aedbb.jpg",
+      "alt": "Image 13: Blog"
+    },
+    {
+      "src": "https://loretobaytours.com/uploads/blog_6a94e15ccf044.png",
+      "alt": "Image 14: Blog"
+    }
+  ]
+}

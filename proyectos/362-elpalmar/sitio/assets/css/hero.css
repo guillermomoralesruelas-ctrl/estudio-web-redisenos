@@ -1,0 +1,269 @@
+/* =====================================================
+   HERO — Parallax Ocean Section
+   ===================================================== */
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--bg-primary);
+}
+
+/* ── Parallax Layers ──────────────────────────────── */
+.hero__layer {
+  position: absolute;
+  inset: -20% 0;
+  will-change: transform;
+  pointer-events: none;
+}
+
+/* Layer 1: Deep sky gradient */
+.hero__layer--sky {
+  background:
+    radial-gradient(ellipse 90% 60% at 50% 55%, rgba(247, 148, 29, 0.12) 0%, transparent 65%),
+    radial-gradient(ellipse 60% 40% at 30% 70%, rgba(61, 200, 232, 0.08) 0%, transparent 60%),
+    linear-gradient(180deg,
+      #030f1c 0%,
+      #061828 20%,
+      #0a2540 45%,
+      #0c3050 65%,
+      #071828 100%
+    );
+  transform: translateY(calc(var(--scroll-y) * -0.15));
+}
+
+/* Stars/particles layer */
+.hero__stars {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.hero__star {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--color-white);
+  animation: starsTwinkle var(--star-duration, 3s) var(--star-delay, 0s) ease-in-out infinite;
+}
+
+/* Layer 2: Horizon / ocean surface */
+.hero__layer--ocean {
+  background:
+    linear-gradient(180deg,
+      transparent 0%,
+      transparent 55%,
+      rgba(13, 42, 66, 0.5) 65%,
+      rgba(7, 24, 40, 0.85) 100%
+    );
+  transform: translateY(calc(var(--scroll-y) * -0.08));
+}
+
+/* Palm tree silhouette (SVG in HTML, positioned via CSS) */
+.hero__palm {
+  position: absolute;
+  bottom: 25%;
+  right: 8%;
+  height: 70vh;
+  max-height: 580px;
+  opacity: 0.70;
+  transform: translateY(calc(var(--scroll-y) * -0.10));
+  pointer-events: none;
+  user-select: none;
+}
+
+.hero__palm--left {
+  right: auto;
+  left: 0;
+  height: 45vh;
+  max-height: 380px;
+  opacity: 0.45;
+  transform: translateY(calc(var(--scroll-y) * -0.06)) scaleX(-1);
+}
+
+/* ── Wave Layers ──────────────────────────────────── */
+.hero__waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.hero__wave-svg {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+/* ── Content ──────────────────────────────────────── */
+.hero__content {
+  position: relative;
+  z-index: 4;
+  text-align: center;
+  padding: calc(var(--nav-height) + var(--space-8)) var(--space-8) var(--space-32);
+  max-width: 900px;
+}
+
+.hero__eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+  color: var(--color-cyan);
+  margin-bottom: var(--space-6);
+  opacity: 0;
+  animation: fadeUp 0.6s ease-out 0.2s forwards;
+}
+
+.hero__title {
+  font-family: var(--font-brand);
+  font-weight: var(--fw-light);
+  font-size: var(--fs-hero);
+  line-height: var(--lh-tight);
+  letter-spacing: -0.03em;
+  color: var(--color-white);
+  margin-bottom: var(--space-6);
+  opacity: 0;
+  animation: fadeUp 0.7s ease-out 0.45s forwards;
+}
+
+.hero__title .accent {
+  color: var(--color-orange);
+  font-style: italic;
+}
+
+.hero__subtitle {
+  font-family: var(--font-body);
+  font-weight: var(--fw-light);
+  font-size: clamp(var(--fs-base), 1.8vw, var(--fs-lg));
+  line-height: var(--lh-relaxed);
+  color: rgba(255, 255, 255, 0.65);
+  max-width: 52ch;
+  margin: 0 auto var(--space-10);
+  opacity: 0;
+  animation: fadeUp 0.7s ease-out 0.65s forwards;
+}
+
+.hero__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: fadeUp 0.7s ease-out 0.85s forwards;
+}
+
+/* ── Delivery CTA (below hero CTAs) ──────────────── */
+.hero__delivery-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: var(--space-5);
+  opacity: 0;
+  animation: fadeUp 0.7s ease-out 1.05s forwards;
+}
+
+.hero__or {
+  font-family: var(--font-brand);
+  font-size: 10px;
+  font-weight: var(--fw-medium);
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.28);
+  user-select: none;
+}
+
+/* ── Scroll Indicator ─────────────────────────────── */
+.hero__scroll {
+  position: absolute;
+  bottom: var(--space-10);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out 1.4s forwards;
+}
+
+.hero__scroll-text {
+  font-size: var(--fs-xs);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.40);
+}
+
+.hero__scroll-line {
+  width: 1px;
+  height: 48px;
+  background: linear-gradient(180deg, rgba(61, 200, 232, 0.70) 0%, transparent 100%);
+  animation: floatY 1.8s ease-in-out infinite;
+}
+
+/* ── Floating ocean particles ─────────────────────── */
+.hero__particle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(61, 200, 232, 0.25);
+  pointer-events: none;
+  animation: floatY var(--p-dur, 4s) var(--p-delay, 0s) ease-in-out infinite;
+  z-index: 2;
+}
+
+/* ── Mobile Video ─────────────────────────────────── */
+/*
+  Default: video visible — iOS Safari no carga recursos con display:none.
+  En desktop lo ocultamos con min-width, no al revés.
+*/
+.hero__mobile-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Desktop: ocultar video, mostrar parallax (comportamiento original) */
+@media (min-width: 769px) {
+  .hero__mobile-video { display: none; }
+}
+
+/* ── Responsive ───────────────────────────────────── */
+@media (max-width: 768px) {
+  .hero__palm { display: none; }
+
+  .hero__content {
+    padding-bottom: var(--space-20);
+  }
+
+  .hero__title br { display: none; }
+
+  .hero__layer,
+  .hero__stars { display: none; }
+}
+
+/* ── Reduced Motion ───────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .hero__layer--sky,
+  .hero__layer--ocean,
+  .hero__palm {
+    transform: none !important;
+  }
+
+  .hero__scroll-line {
+    animation: none;
+  }
+}

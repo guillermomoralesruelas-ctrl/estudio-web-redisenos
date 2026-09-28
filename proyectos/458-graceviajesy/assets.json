@@ -1,0 +1,211 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/04/626469914_1329905605839016_6712584531060487015_n-114x114.jpg",
+      "archivo": "626469914_1329905605839016_6712584531060487015_n-114x114.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2022/07/Sin-t%C3%ADtulo-3.2.png",
+      "archivo": "Sin-t_tulo-3.2.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/04/D1A-QBfXgAIFgrI.jpg",
+      "archivo": "D1A-QBfXgAIFgrI.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/04/IMG-20260320-WA0053-1024x768.jpg",
+      "archivo": "IMG-20260320-WA0053-1024x768.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-05-18-at-2.14.29-PM-3-850x1024.jpeg",
+      "archivo": "WhatsApp-Image-2026-05-18-at-2.14.29-PM-3-850x1024.jpeg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-05-18-at-2.14.29-PM-2-1-819x1024.jpeg",
+      "archivo": "WhatsApp-Image-2026-05-18-at-2.14.29-PM-2-1-819x1024.jpeg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2022/08/RNT2.png",
+      "archivo": "RNT2.png",
+      "alt": "Image 27"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-05-18-at-2.14.29-PM-1-1-1024x930.jpeg",
+      "archivo": "WhatsApp-Image-2026-05-18-at-2.14.29-PM-1-1-1024x930.jpeg",
+      "alt": "Image 29"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Sin-t%C3%ADtulo-2-300x300.png.webp",
+      "archivo": "Sin-t_tulo-2-300x300.png.webp",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Sin-t%C3%ADtulo-1-300x300.png.webp",
+      "archivo": "Sin-t_tulo-1-300x300.png.webp",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Sin-t%C3%ADtulo-1-1-300x300.png.webp",
+      "archivo": "Sin-t_tulo-1-1-300x300.png.webp",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/07/LOGO-final--300x300.png.webp",
+      "archivo": "LOGO-final--300x300.png.webp",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-18-at-7.55.57-AM-1-300x300.jpeg",
+      "archivo": "WhatsApp-Image-2026-02-18-at-7.55.57-AM-1-300x300.jpeg",
+      "alt": "Image 9: Crucero Patagonia & Argentina – Celebrity Equinox"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/04/ChatGPT-Image-9-abr-2026-09_52_35-p.m-300x300.png",
+      "archivo": "ChatGPT-Image-9-abr-2026-09_52_35-p.m-300x300.png",
+      "alt": "Image 9: CHIAPAS"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/04/ChatGPT-Image-9-abr-2026-09_13_03-p.m-300x300.png",
+      "archivo": "ChatGPT-Image-9-abr-2026-09_13_03-p.m-300x300.png",
+      "alt": "Image 11: City Tour Express Villahermosa, Tabasco, México"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/04/ChatGPT-Image-9-abr-2026-09_54_29-p.m-300x300.png",
+      "archivo": "ChatGPT-Image-9-abr-2026-09_54_29-p.m-300x300.png",
+      "alt": "Image 13: CAMPECHE"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Captura-de-pantalla-2020-10-16-121713-300x300.png.webp",
+      "archivo": "Captura-de-pantalla-2020-10-16-121713-300x300.png.webp",
+      "alt": "Image 15: Alma Maya"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Captura-de-pantalla-2020-10-16-124348-300x300.png.webp",
+      "archivo": "Captura-de-pantalla-2020-10-16-124348-300x300.png.webp",
+      "alt": "Image 17: Año nuevo en Campeche"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Captura-de-pantalla-2020-10-16-121828-300x300.png.webp",
+      "archivo": "Captura-de-pantalla-2020-10-16-121828-300x300.png.webp",
+      "alt": "Image 19: Arqueología Y Naturaleza"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/03/cd65df46-a73f-4c64-8743-2763bd6f031c-300x300.png",
+      "archivo": "cd65df46-a73f-4c64-8743-2763bd6f031c-300x300.png",
+      "alt": "Image 21: Bananas Tour desde"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Captura-de-pantalla-2020-10-16-123602-300x300.png.webp",
+      "archivo": "Captura-de-pantalla-2020-10-16-123602-300x300.png.webp",
+      "alt": "Image 23: Campeche al Natural"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Captura-de-pantalla-2020-10-16-121933-300x300.png.webp",
+      "archivo": "Captura-de-pantalla-2020-10-16-121933-300x300.png.webp",
+      "alt": "Image 25: Campeche en rosa y arqueología y naturaleza"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Captura-de-pantalla-2020-10-16-123532-300x300.png.webp",
+      "archivo": "Captura-de-pantalla-2020-10-16-123532-300x300.png.webp",
+      "alt": "Image 27: Campeche Fascinante"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2021/03/75b24206-c1f6-4027-b8f6-fbb1f810ca55-300x300.png",
+      "archivo": "75b24206-c1f6-4027-b8f6-fbb1f810ca55-300x300.png",
+      "alt": "Image 31: City Tour Peatonal Zona Luz Desde"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/11/6640913a-449b-44c1-aa7a-6270ac0f004c-300x300.png",
+      "archivo": "6640913a-449b-44c1-aa7a-6270ac0f004c-300x300.png",
+      "alt": "Image 33: City Tour Villahermosa Desde"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Captura-de-pantalla-2020-10-16-121746-300x300.png.webp",
+      "archivo": "Captura-de-pantalla-2020-10-16-121746-300x300.png.webp",
+      "alt": "Image 35: Eco de los Mayas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2020/10/Captura-de-pantalla-2020-10-16-121900-300x300.png.webp",
+      "archivo": "Captura-de-pantalla-2020-10-16-121900-300x300.png.webp",
+      "alt": "Image 37: El esplendor Maya"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2021/05/Captura-de-pantalla_16-4-2026_211315_www.google.com_-300x300.jpeg",
+      "archivo": "Captura-de-pantalla_16-4-2026_211315_www.google.com_-300x300.jpeg",
+      "alt": "Image 17: Excursión al cerro de la pava"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/03/Captura-de-pantalla_16-4-2026_21169_www.threads.com_-300x300.jpeg",
+      "archivo": "Captura-de-pantalla_16-4-2026_21169_www.threads.com_-300x300.jpeg",
+      "alt": "Image 19: Excursión al Cerro Madrigal del Madrigal Desde"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/04/Captura-de-pantalla_22-4-2026_153830_drive.google.com_-242x300.jpeg",
+      "archivo": "Captura-de-pantalla_22-4-2026_153830_drive.google.com_-242x300.jpeg",
+      "alt": "Image 21: Excursión Gruta De Los Secretos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/04/IMG-20260320-WA0053-300x300.jpg",
+      "archivo": "IMG-20260320-WA0053-300x300.jpg",
+      "alt": "Image 23: Mercadeando por el Pino Suárez Tour Desde"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2021/05/contamos-con-un-mirador-300x300.jpg",
+      "archivo": "contamos-con-un-mirador-300x300.jpg",
+      "alt": "Image 25: Ruta Paraíso Encantado Desde"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/04/Con-el-proyecto-Rios-Mayas-afluentes-seran-nuevas-rutas-de-transporte-300x300.jpg",
+      "archivo": "Con-el-proyecto-Rios-Mayas-afluentes-seran-nuevas-rutas-de-transporte-300x300.jpg",
+      "alt": "Image 27: Ruta Rios Mayas Emiliano Zapata y Balancán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://graceviajesyeventos.com/wp-content/uploads/2026/04/manati_index-300x300.jpg",
+      "archivo": "manati_index-300x300.jpg",
+      "alt": "Image 29: Santuario del Manatí Desde"
+    }
+  ]
+}

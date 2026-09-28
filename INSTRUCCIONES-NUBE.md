@@ -8,46 +8,55 @@
 2. Toma como modelo los últimos rediseños terminados: `proyectos/579-integra360`, `proyectos/35-altheawellnessclinic`, `proyectos/384-escueladefotografia`, `proyectos/326-domusvallartafine` y `proyectos/557-humaredaprime` (su `entregables/plan-diseno.md`, `CAMBIOS.md`, `OPORTUNIDADES.md`, `rediseno/src/*`, `rediseno/index.html` y `rediseno/fotos-web.mjs`).
 3. Instala las herramientas una vez: `cd herramientas && npm install`. En la nube, Chromium ya está en `/opt/pw-browsers` y Playwright lo encuentra solo; no ejecutes `playwright install`.
 
-## Tu lista: lote 3 (solo estos 30)
+## Tu lista: lote 4 (solo estos 30)
 
 | # | Carpeta | Negocio | Sitio original |
 |---|---|---|---|
-| 1 | `26-alasdelhombre` | Alas del Hombre, Valle de Bravo (turismo) | https://alas.com.mx/ |
-| 2 | `486-harmonyspahuatulco` | Harmony Spa Huatulco, Huatulco | https://www.spahuatulco.com/ |
-| 3 | `539-hotelplazacolonial` | Hotel Plaza Colonial, Campeche | https://www.hotelplazacolonial.com/ |
-| 4 | `605-katarsiscdmx` | Katarsis CDMX, Ciudad de México (salud) | https://www.katarsis.mx/ |
-| 5 | `499-holboxphotos` | HolboxPhotos, Sayulita (fotografía) | https://holboxphotos.com/ |
-| 6 | `439-gabyboatpesca` | Gaby Boat, Xperience Ixtapa, Zihuatanejo (pesca y snorkel) | https://xperienceixtapa.com/ |
-| 7 | `394-estudio184piercing` | Estudio 184 Piercing & Custom Tattoo, Ciudad de México | https://estudio184.com/ |
-| 8 | `428-foriu` | Foriu, Ciudad de México (spa) | https://foriu.mx/ |
-| 9 | `456-gomexicoadventures` | Go México Adventures, Ciudad de México (turismo) | https://gomexicoadventures.com/ |
-| 10 | `574-inmobiliariatitan` | Inmobiliaria Titán, León | https://inmobiliariatitan.com/ |
-| 11 | `419-floreriaflordivan` | Florería Flordivan, Guadalajara | https://www.flordivan.com/ |
-| 12 | `383-escueladebuceo` | Escuela de Buceo Proyecto Azul, La Paz | https://www.buceoproyectoazul.com.mx/ |
-| 13 | `508-hospitalveterinariojoaqu` | Hospital Veterinario Joaquín Buxadé, Puebla | https://www.hveterinario.com/ |
-| 14 | `347-ecoturismo` | Ecoturismo, Valle de Bravo | https://ecoturismo.com.mx/ |
-| 15 | `651-letssmile` | Let's Smile Dentistry, Mexicali | https://letssmiledentistry.com/ |
-| 16 | `407-eyeklinik` | Eyeklinik, Monterrey (oftalmología) | https://eyeklinik.com/ |
-| 17 | `546-hotelsoleilcelaya` | Hotel Soleil Celaya, Celaya | https://www.soleilcelaya.com.mx/ |
-| 18 | `322-doggieshospital` | Doggie's Hospital Veterinario, Monterrey | https://doggies.mx/ |
-| 19 | `337-drtoothsaltillo` | Dr. Tooth, Saltillo (dental) | https://drtooth.com.mx/ |
-| 20 | `607-kenaxturismo` | Kenax Turismo, Querétaro | https://kenaxturismo.com/ |
-| 21 | `294-dentalevolution` | Dental Evolution, Cancún | https://www.dentalevolution.com.mx/ |
-| 22 | `580-interlingua` | Interlingua, Cancún (escuela de idiomas) | https://www.interlingua.com.mx/ |
-| 23 | `612-kiteboardmexicoikarus` | Kiteboard Mexico Ikarus, Cancún (escuela y hotel boutique) | https://kiteboardmexico.com/ |
-| 24 | `396-estudiolotus` | Estudio Lotus, Guadalajara | https://estudiolotus.com/ |
-| 25 | `503-hommebarbers` | Homme Barbers, Cancún | https://barberiaencancun.com/ |
-| 26 | `492-hermesspa` | Hermes Spa, Guadalajara | https://www.hermesspa.com.mx/ |
-| 27 | `346-dulcevegamake` | Dulce Vega Make up Artist Studio, Guadalajara | https://dulcevega.mx/ |
-| 28 | `398-eveliosportfishing` | Evelio Sport Fishing, Puerto Escondido | https://www.eveliosfishing.com/ |
-| 29 | `72-aventurasmayas` | Aventuras Mayas, Cancún | https://www.aventurasmayas.com.mx/ |
-| 30 | `555-huatulcotoursand` | Huatulco Tours and Travel, Huatulco | https://www.huatulcotoursandtravel.com/ |
+| 1 | `362-elpalmar` | El Palmar, Mazatlán, Sinaloa (gastronomia) | https://elpalmarmzt.com/ |
+| 2 | `276-cuadroxcuadro` | CuadroxCuadro, Ciudad de México, CDMX (servicios) | http://videofilmaciones.mx/ |
+| 3 | `577-institutoargentinode` | Instituto Argentino de Artes Culinarias, Ciudad de México, Polanco/Condesa (educacion) | https://iaacmexico.com/ |
+| 4 | `54-aria` | ARIA, Ciudad de México, CDMX (educacion) | https://somosaria.com/ |
+| 5 | `502-hollywoodmeetingplanners` | Hollywood Meeting Planners & Event Management, Cancún, Yucatán (eventos) | https://hollywoodencancun.com/ |
+| 6 | `103-bcsecotours` | BCS Eco Tours, Loreto, Baja California Sur (turismo) | https://loretobaytours.com/ |
+| 7 | `378-erickoseguerafotografia` | Erick Oseguera Fotografía, Guadalajara, Jalisco (eventos) | https://erickoseguera.com/ |
+| 8 | `481-haciendalamagdalena` | Hacienda La Magdalena, Zapopan, Jalisco (eventos) | https://www.haciendalamagdalena.com/ |
+| 9 | `591-josecortesinstitute` | José Cortés Institute, Ciudad de México (salud) | https://josecortes.com/ |
+| 10 | `197-centromedicoveterinario` | Centro Médico Veterinario, San Luis Potosí, San Luis Potosí (salud) | https://cmvet.mx/ |
+| 11 | `332-dreluani` | Dr. Eluani, Hermosillo, Sonora (salud) | https://dreluani.com/ |
+| 12 | `458-graceviajesy` | Grace Viajes y Eventos, Villahermosa, Tabasco (turismo) | https://graceviajesyeventos.com/ |
+| 13 | `465-greenspa` | GreenSpa, Guadalajara, Jalisco (spa) | https://greenspa.mx/ |
+| 14 | `554-huastecaviva` | Huasteca Viva, Ciudad Valles, San Luis Potosí (turismo) | http://huastecaviva.com/ |
+| 15 | `434-fuentedepiedra` | Fuente de Piedra, Guadalajara, Jalisco (eventos) | https://fuentedepiedra.mx/ |
+| 16 | `592-joyadentcenter` | JoyaDent Center, Nuevo Vallarta, Nayarit (salud) | https://joyadent.com/ |
+| 17 | `500-holboxtours` | Holbox Tours, Holbox, Quintana Roo (turismo) | https://holboxtours.com/ |
+| 18 | `349-egdental` | EG Dental, Tijuana, Baja California (salud) | https://www.egdentalmex.com/ |
+| 19 | `336-drplastico` | Dr. Plastico, Playa del Carmen, Quintana Roo (salud) | https://drplastico.com/ |
+| 20 | `602-kajeos` | KAJEOS, Boca del Río, Veracruz (inmuebles) | https://kajeos.com/ |
+| 21 | `199-centroodontologicoespeci` | Centro Odontológico Especializado de la Costa, Puerto Escondido, Oaxaca (salud) | https://coec.com.mx/ |
+| 22 | `438-fatimabuenfilnutricion` | Fátima Buenfil Nutrición Clínica, Mérida, Yucatán (salud) | https://www.fatimabuenfil.com/ |
+| 23 | `98-barberiaspremium` | Barberías Premium, Oaxaca de Juárez, Oaxaca (spa) | https://barberiaspremium.com/ |
+| 24 | `232-clinicadentaljustsmiles` | Clínica Dental Justsmiles, Puerto Vallarta, Jalisco (salud) | https://www.justsmiles.mx/ |
+| 25 | `646-lasjarasaguas` | Las Jaras Aguas Termales - Spa El Sendero & Jardín, Ciudad de México, CDMX (spa) | https://lasjaras.mx/ |
+| 26 | `404-exploravallarta` | Explora Vallarta, Nuevo Vallarta, Nayarit (turismo) | https://www.exploravallarta.com/ |
+| 27 | `423-floreriarivieracancun` | Florería Riviera - Cancun, Cancún, Quintana Roo (retail) | https://www.floreriariviera.com/ |
+| 28 | `509-hospitalveterinariovetpe` | Hospital Veterinario VetPets, Zapopan, Jalisco (salud) | https://hospitalesvetpets.com.mx/ |
+| 29 | `506-hospitalveterinariocarso` | Hospital Veterinario Carson, Ciudad de México, Iztapalapa (veterinaria) | https://hospitalcarson.com/ |
+| 30 | `417-floatsano` | Floatsano, San Miguel de Allende, Guanajuato (spa) | https://floatsano.com/ |
 
-Del 21 al 30 son de reserva: se agregaron porque algunos de los primeros 20 se van a descartar. Hazlos todos, en orden.
+Hazlos en orden. Sus clones (`sitio/`) y textos (`investigacion/`) ya vienen en el repositorio. **No trabajes en ningún otro proyecto.**
 
-Sus clones (`sitio/`) y textos (`investigacion/`) ya vienen en el repositorio. **No trabajes en ningún otro proyecto**: la PC de Guillermo está haciendo otros sitios en paralelo (Explora Valle, Dolcebella Spa, Hollywood Meeting Planners, CuadroxCuadro, El Palmar, IAAC, ARIA y los que siga eligiendo).
+### Esta lista se reparte entre varias sesiones
 
-Nota: en `499-holboxphotos` hay nombres de archivo muy largos. Si git se queja, usa `git -c core.longpaths=true`.
+Una sola sesión en la nube no alcanza para los 30: cada una avanza lo que pueda y después Guillermo abre otra. Por eso:
+
+- **Al empezar**, revisa `METODOS.md` y `git log origin/main`: salta los sitios de esta lista que ya tengan fila "Terminado" o "Descartado" y empieza por el primero que no la tenga.
+- **Un sitio a la vez, completo:** commit y push al terminar o descartar cada uno (pasos 11 y 12), nunca al final de varios.
+- **Si la sesión se va a cortar** con un sitio a medias, sube su avance a una rama `nube4-<carpeta>` con "EN PROGRESO" en el mensaje y anótalo en `entregables-nube-4.md`. La siguiente sesión lo retoma desde esa rama.
+- Actualiza `entregables-nube-4.md` después de cada sitio (no al final), para que el resumen no se pierda si la sesión termina.
+
+### No toques el panel
+
+El panel (`panel/`, http://localhost:4000) ya tiene la configuración correcta: pestañas Proyectos, Fabricador y Galería (commit `cfdfbb2`, "versión buena"), y la Galería con su lista de verificaciones (`datos/verificaciones.json`). **No modifiques nada dentro de `panel/` ni `datos/verificaciones.json`.**
 
 ## Elementos memorables ya usados (no repetir)
 
@@ -71,7 +80,7 @@ La lista completa y al día está en `METODOS.md` (el título entre comillas de 
     git commit -m "<carpeta>: rediseño método 1.1 (<Negocio>, <Ciudad>) [nube]"
     ```
 12. Después de cada sitio: `git pull --rebase origin main` y `git push origin main`. Si hay conflicto en `METODOS.md`, `OPORTUNIDADES.md` o `DESCARTADOS.md`, conserva las líneas de los dos lados.
-13. Si trabajas con varios agentes en paralelo y alguno se detiene a medias, sube su avance a una rama `nube3-<carpeta>` con "EN PROGRESO" en el mensaje, para que la PC lo pueda terminar.
+13. Si trabajas con varios agentes en paralelo y alguno se detiene a medias, sube su avance a una rama `nube4-<carpeta>` con "EN PROGRESO" en el mensaje, para que la PC lo pueda terminar.
 
 ## Reglas que no se rompen
 
@@ -81,8 +90,11 @@ La lista completa y al día está en `METODOS.md` (el título entre comillas de 
 - Sin afirmaciones de salud ni de seguridad que el negocio no haga. En clínicas, dentistas y veterinarias: nada de "garantizado", "sin dolor", "sin riesgo" ni antes/después inventados.
 - No copiar claves, tokens ni API keys a ningún archivo.
 - No modificar `sitio/` ni `investigacion/`, y no escribir en `datos/fabricador.db`.
-- Obligatorio en cada sitio: un solo H1, WhatsApp con mensaje prellenado (con el número real), barra fija en el celular, enlace a Google Maps, `prefers-reduced-motion`, contraste AA, JSON-LD del tipo correcto, title y description reales, y ningún script ni mapa de terceros.
+- Obligatorio en cada sitio: un solo H1, WhatsApp con mensaje prellenado (con el número real), barra fija en el celular, enlace a Google Maps, `prefers-reduced-motion`, contraste AA, JSON-LD del tipo correcto, title y description reales, y ningún script de terceros.
+- **Mapa real:** si el sitio original tiene un mapa de Google (un `<iframe>` en `investigacion/original.html` o en el clon), el rediseño lleva ese mismo mapa como `<iframe>` embebido (su URL va en `content.ts` como `mapaEmbed`), no solo un enlace ni un mapa simulado. Es la única excepción a "ningún script de terceros". Modelo: `proyectos/624-lacanteraeventos/rediseno/src/App.tsx`.
+- **Fotos:** revisa en las capturas del QA que todas las fotos carguen (0 rotas) y que no haya huecos grises donde debía ir una imagen.
+- Si git se queja de nombres de archivo largos, usa `git -c core.longpaths=true`.
 
-## Al terminar los 30
+## Resumen del lote
 
-Escribe un resumen corto en `entregables-nube-3.md` en la raíz: por cada sitio, el commit, el resultado del QA (o el motivo del descarte), el elemento memorable, la prioridad y el hallazgo principal de oportunidades, y lo que hay que confirmar con el cliente. Haz commit y push.
+Lleva un resumen corto en `entregables-nube-4.md` en la raíz: por cada sitio, el commit, el resultado del QA (o el motivo del descarte), el elemento memorable, la prioridad y el hallazgo principal de oportunidades, y lo que hay que confirmar con el cliente. Actualízalo y súbelo con cada sitio.

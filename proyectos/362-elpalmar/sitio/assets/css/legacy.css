@@ -1,0 +1,106 @@
+/* =====================================================
+   LEGACY — @supports fallbacks & Progressive Enhancement
+   ===================================================== */
+
+/* ── CSS Custom Properties Fallback ──────────────── */
+/* For browsers without CSS custom property support,
+   provide direct fallback values.                    */
+
+@supports not (--foo: bar) {
+  body {
+    background-color: #071828;
+    color: #ffffff;
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+
+  .nav {
+    background-color: #071828;
+  }
+
+  .btn--primary {
+    background-color: #F7941D;
+    color: #ffffff;
+    border-radius: 9999px;
+    padding: 1rem 2rem;
+  }
+}
+
+/* ── CSS Grid Fallback ────────────────────────────── */
+@supports not (display: grid) {
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .grid-2 > *,
+  .grid-3 > *,
+  .grid-4 > * {
+    flex: 0 0 auto;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+  }
+
+  .grid-2 > * { width: calc(50% - 2rem); }
+  .grid-3 > * { width: calc(33.333% - 2rem); }
+  .grid-4 > * { width: calc(25% - 2rem); }
+}
+
+/* ── CSS clip-path Fallback ───────────────────────── */
+@supports not (clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)) {
+  .hero {
+    padding-bottom: 5rem;
+  }
+}
+
+/* ── Scroll Behavior Fallback ─────────────────────── */
+@supports not (scroll-behavior: smooth) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ── Backdrop Filter Fallback ─────────────────────── */
+@supports not (backdrop-filter: blur(12px)) {
+  .nav--scrolled {
+    background-color: rgba(7, 24, 40, 0.97) !important;
+  }
+
+  .card-glass {
+    background-color: rgba(7, 24, 40, 0.90) !important;
+  }
+}
+
+/* ── CSS Transforms Fallback ──────────────────────── */
+@supports not (transform: translateY(-2px)) {
+  .btn:hover {
+    opacity: 0.85;
+  }
+}
+
+/* ── Object-fit Fallback ──────────────────────────── */
+@supports not (object-fit: cover) {
+  .hero__bg-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* ── Animation Fallback ───────────────────────────── */
+@supports not (animation: fadeIn 0.5s) {
+  .preloader {
+    display: none !important;
+  }
+
+  .animate-fade-up {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── CSS Variables (deep fallback for IE11) ───────── */
+.nav__logo { color: #F7941D; }
+.hero__wave path { fill: #071828; }
+.tag { color: #3DC8E8; }

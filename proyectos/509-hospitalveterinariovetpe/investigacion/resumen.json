@@ -1,0 +1,122 @@
+{
+  "sitio": "https://hospitalesvetpets.com.mx/",
+  "fecha": "2026-09-26T08:23:28.419Z",
+  "motor": "jina-reader",
+  "slug": "hospitalveterinariovetpe",
+  "nombre": "Hospital Veterinario VetPets",
+  "rubro": "SALUD",
+  "ciudad": "Zapopan, Jalisco",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://hospitalesvetpets.com.mx/",
+      "titulo": "Inicio | Hospital Veterinario VetPets"
+    },
+    {
+      "url": "https://hospitalesvetpets.com.mx/servicios/",
+      "titulo": "Servicios | Hospital Veterinario VetPets"
+    },
+    {
+      "url": "https://hospitalesvetpets.com.mx/sucursales/",
+      "titulo": "Sucursales | Hospital Veterinario VetPets"
+    },
+    {
+      "url": "https://hospitalesvetpets.com.mx/contacto/",
+      "titulo": "Contacto | Hospital Veterinario VetPets"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "33 36 82 28 17",
+      "33 3110 6394",
+      "33 36 11 25 96",
+      "33 15 78 69 09",
+      "33 36 58 73 07",
+      "33) 3682 2817",
+      "33) 3110 6394",
+      "3318635121",
+      "33) 3611 2596",
+      "33) 3658 7307",
+      "33) 1578 6909",
+      "33 3682 2817",
+      "33 3611 2596",
+      "33 1578 6909",
+      "33 3658 7307",
+      "5213318635121"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/5213318635121)"
+    ],
+    "redes": [
+      "https://www.facebook.com/hospitalvetpets",
+      "https://www.instagram.com/vetpetsgdl/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/logotipo-vetpets-1.png",
+      "alt": "Image 1: logotipo-vetpets-1"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/icono-cirugia-general.png",
+      "alt": "Image 2: Imagen 1"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/icono-traumatologia.png",
+      "alt": "Image 3: Imagen 2"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/icono-endoscopia.png",
+      "alt": "Image 4: Imagen 3"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/icono-cirugia-laparoscopica.png",
+      "alt": "Image 5: Imagen 4"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/canadas-1024x990.png",
+      "alt": "Image 6: canadas"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/real-center-1024x993.png",
+      "alt": "Image 7: real-center"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/naciones-unidas-1024x1000.png",
+      "alt": "Image 8: naciones-unidas"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/avila-camacho-1024x989.png",
+      "alt": "Image 9: avila-camacho"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/acueducto-1024x993.png",
+      "alt": "Image 10: acueducto"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/naciones-unidas.png",
+      "alt": "Image 21: Imagen"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/acueducto.png",
+      "alt": "Image 22: Imagen"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/real-center.png",
+      "alt": "Image 23: Imagen"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/avila-camacho.png",
+      "alt": "Image 24: Imagen"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2022/03/Vetpets-logo.png",
+      "alt": "Image 25: Logo Hospital Veterinario VetPets"
+    },
+    {
+      "src": "https://hospitalesvetpets.com.mx/wp-content/uploads/2024/04/cover-sucursal-naciones-unidas-vetpets.png",
+      "alt": "Image 2: Imagen"
+    }
+  ]
+}

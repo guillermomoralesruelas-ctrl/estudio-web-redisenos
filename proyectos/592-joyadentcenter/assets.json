@@ -1,0 +1,175 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/10/Logo-Joyadent-Center_A-PNG-1-1.png",
+      "archivo": "Logo-Joyadent-Center_A-PNG-1-1.png",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/d883beb4362fe84660fab16ca0c3a516",
+      "archivo": "d883beb4362fe84660fab16ca0c3a516",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/df4aeccfd632b0cd9176a7c8dc6ca277",
+      "archivo": "df4aeccfd632b0cd9176a7c8dc6ca277",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/12/ofi2.png",
+      "archivo": "ofi2.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/11/page-1-300x120.png",
+      "archivo": "page-1-300x120.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/11/page-2.png",
+      "archivo": "page-2.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/10/Group-567.png",
+      "archivo": "Group-567.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/10/ico06.png",
+      "archivo": "ico06.png",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/10/ico01.png",
+      "archivo": "ico01.png",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/10/ico04.png",
+      "archivo": "ico04.png",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/10/ico05.png",
+      "archivo": "ico05.png",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/10/ico07.png",
+      "archivo": "ico07.png",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjVlZ-IOYSC-grjMmVpDho_cUXR5iERfWjvRF3sQUsA20ezwO0x0=w40-h40-c-rp-mo-br100",
+      "archivo": "ALV-UjVlZ-IOYSC-grjMmVpDho_cUXR5iERfWjvRF3sQUsA20ezwO0x0_w40-h40-c-rp-mo-br100",
+      "alt": "Image 28: Mazen Bahu"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a/ACg8ocKrnBlMXdoeByM3Oa8cHGOT4ERqCeV005UvW0MCMgzh3UEICA=w40-h40-c-rp-mo-br100",
+      "archivo": "ACg8ocKrnBlMXdoeByM3Oa8cHGOT4ERqCeV005UvW0MCMgzh3UEICA_w40-h40-c-rp-mo-br100",
+      "alt": "Image 35: Ana Posada"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a/ACg8ocKtpyJx0un0epgZtYDhsb7VKfc-PXz27CeHmxiUqNrlI3GNyBj4=w40-h40-c-rp-mo-br100",
+      "archivo": "ACg8ocKtpyJx0un0epgZtYDhsb7VKfc-PXz27CeHmxiUqNrlI3GNyBj4_w40-h40-c-rp-mo-br100",
+      "alt": "Image 42: Alberto Caballero"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjWFA2iSwMn1x0RK2Wg1X8NJ_gzm0VxWJ2tCNDlvGVknwrsyD57l=w40-h40-c-rp-mo-br100",
+      "archivo": "ALV-UjWFA2iSwMn1x0RK2Wg1X8NJ_gzm0VxWJ2tCNDlvGVknwrsyD57l_w40-h40-c-rp-mo-br100",
+      "alt": "Image 49: TDT DIA8LO GAMER"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a/ACg8ocInIQ9bMHF5NmqXiH5dZHUkzK4dcyhHEI09TF5pb2W1eCG_NQ=w40-h40-c-rp-mo-ba4-br100",
+      "archivo": "ACg8ocInIQ9bMHF5NmqXiH5dZHUkzK4dcyhHEI09TF5pb2W1eCG_NQ_w40-h40-c-rp-mo-ba4-br100",
+      "alt": "Image 56: ttggqq1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a/ACg8ocK83JYsEBUaMx3kNBMb4T4bbi5kc0VTsWMyJjlsgET26Ypynw=w40-h40-c-rp-mo-br100",
+      "archivo": "ACg8ocK83JYsEBUaMx3kNBMb4T4bbi5kc0VTsWMyJjlsgET26Ypynw_w40-h40-c-rp-mo-br100",
+      "alt": "Image 63: Edgar Cuevas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjUBi1uQj1qgf7fTHHUd3hIJfny7Qs6rcsKg0Qrv0kxjSFOp_glH=w40-h40-c-rp-mo-br100",
+      "archivo": "ALV-UjUBi1uQj1qgf7fTHHUd3hIJfny7Qs6rcsKg0Qrv0kxjSFOp_glH_w40-h40-c-rp-mo-br100",
+      "alt": "Image 70: Donna Vickers"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjXCpQ4yf4uV2Tmq7bfR7uwkK_uSVW-QavfaPRaEc1Zh9xR9dXc=w40-h40-c-rp-mo-br100",
+      "archivo": "ALV-UjXCpQ4yf4uV2Tmq7bfR7uwkK_uSVW-QavfaPRaEc1Zh9xR9dXc_w40-h40-c-rp-mo-br100",
+      "alt": "Image 77: Dulce Reyes Marmaceda"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjV_Wov6xtH4mj2iT5qHZZiGPi_5aH4MiIYW0_3LKym6I7elJ8bZ=w40-h40-c-rp-mo-br100",
+      "archivo": "ALV-UjV_Wov6xtH4mj2iT5qHZZiGPi_5aH4MiIYW0_3LKym6I7elJ8bZ_w40-h40-c-rp-mo-br100",
+      "alt": "Image 84: Maria Santa Lucia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjVWiZFpNoqGVZMUNhhMTOoP1KNbswSTmOIV1vxJtQayUBjVBTpK=w40-h40-c-rp-mo-br100",
+      "archivo": "ALV-UjVWiZFpNoqGVZMUNhhMTOoP1KNbswSTmOIV1vxJtQayUBjVBTpK_w40-h40-c-rp-mo-br100",
+      "alt": "Image 91: Infinity Sistem"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/10/Logo-Joyadent-Center_B-PNG-1.png",
+      "archivo": "Logo-Joyadent-Center_B-PNG-1.png",
+      "alt": "Image 97"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/12/oficina.png",
+      "archivo": "oficina.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/10/Ornament-83.png",
+      "archivo": "Ornament-83.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2024/10/JOYA-821x1024.jpg",
+      "archivo": "JOYA-821x1024.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/11/page-1.png",
+      "archivo": "page-1.png",
+      "alt": "Image 9: page-1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joyadent.com/wp-content/uploads/2022/11/neodent.jpg",
+      "archivo": "neodent.jpg",
+      "alt": "Image 11: neodent"
+    }
+  ]
+}

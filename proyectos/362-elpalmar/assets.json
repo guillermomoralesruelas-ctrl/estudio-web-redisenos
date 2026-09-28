@@ -1,0 +1,337 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/logo.png",
+      "archivo": "logo.png",
+      "alt": "Image 1: El Palmar Mariscos + Sushi"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/vamos%20empezando/torre-palmar.jpg",
+      "archivo": "torre-palmar.jpg",
+      "alt": "Image 4: Torre Palmar"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/vamos%20empezando/molca-palmar.JPG",
+      "archivo": "molca-palmar.JPG",
+      "alt": "Image 5: Molcajete Palmar"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/vamos%20empezando/campechana.jpg",
+      "archivo": "campechana.jpg",
+      "alt": "Image 6: Campechana"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/vamos%20empezando/campechano-para-picar.jpg",
+      "archivo": "campechano-para-picar.jpg",
+      "alt": "Image 7: Campechano para Picar"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/vamos%20empezando/coctel-cam.jpg",
+      "archivo": "coctel-cam.jpg",
+      "alt": "Image 8: Cóctel de Camarón"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/vamos%20empezando/pate-cam.JPG",
+      "archivo": "pate-cam.JPG",
+      "alt": "Image 9: Paté de Camarón"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/vamos%20empezando/cam-picar.jpg",
+      "archivo": "cam-picar.jpg",
+      "alt": "Image 10: Camarón para Picar"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/aguachile.jpg",
+      "archivo": "aguachile.jpg",
+      "alt": "Image 18: Aguachile"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/ceviche-tres-puertos.png",
+      "archivo": "ceviche-tres-puertos.png",
+      "alt": "Image 19: Ceviche Tres Puertos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/ceviche-loreto.jpg",
+      "archivo": "ceviche-loreto.jpg",
+      "alt": "Image 20: Ceviche Loreto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/ceviche-san-carlos.JPG",
+      "archivo": "ceviche-san-carlos.JPG",
+      "alt": "Image 21: Ceviche San Carlos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/ceviche-sierra.jpg",
+      "archivo": "ceviche-sierra.jpg",
+      "alt": "Image 22: Ceviche Sierra"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/ceviche-vale.JPG",
+      "archivo": "ceviche-vale.JPG",
+      "alt": "Image 23: Ceviche Vale"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/tostada-ceviche-cam.jpg",
+      "archivo": "tostada-ceviche-cam.jpg",
+      "alt": "Image 24: Tostada de Ceviche"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/tostada-jaiba.jpg",
+      "archivo": "tostada-jaiba.jpg",
+      "alt": "Image 25: Tostada de Jaiba"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/tostada-mzt.JPG",
+      "archivo": "tostada-mzt.JPG",
+      "alt": "Image 26: Tostada Mazatlán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/won-ton.JPG",
+      "archivo": "won-ton.JPG",
+      "alt": "Image 27: Won Ton"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/taquiza/tacos-gobernador.jpg",
+      "archivo": "tacos-gobernador.jpg",
+      "alt": "Image 38: Tacos Gobernador"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/taquiza/chorreada-palmar.jpg",
+      "archivo": "chorreada-palmar.jpg",
+      "alt": "Image 39: Chorreada Palmar"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/taquiza/taco-zaran-cam.JPG",
+      "archivo": "taco-zaran-cam.JPG",
+      "alt": "Image 40: Taco Zarán de Camarón"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/taquiza/taco-zaran-pulpo.JPG",
+      "archivo": "taco-zaran-pulpo.JPG",
+      "alt": "Image 41: Taco Zarán de Pulpo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/caliente/pulpo-zaran.jpg",
+      "archivo": "pulpo-zaran.jpg",
+      "alt": "Image 42: Pulpo Zarán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/caliente/filete-zaran.jpg",
+      "archivo": "filete-zaran.jpg",
+      "alt": "Image 43: Filete Zarán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/caliente/cam-coco.JPG",
+      "archivo": "cam-coco.JPG",
+      "alt": "Image 44: Camarón al Coco"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/caliente/chicharron-atun.jpg",
+      "archivo": "chicharron-atun.jpg",
+      "alt": "Image 45: Chicharrón de Atún"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/caliente/hamburguesa.jpg",
+      "archivo": "hamburguesa.jpg",
+      "alt": "Image 46: Hamburguesa Palmar"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/sushi%20entradas/camarones-yu.jpg",
+      "archivo": "camarones-yu.jpg",
+      "alt": "Image 56: Camarones Yu Yu"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/sushi%20entradas/kushiages.JPG",
+      "archivo": "kushiages.JPG",
+      "alt": "Image 57: Kushiage"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/sushi%20entradas/nigiris.png",
+      "archivo": "nigiris.png",
+      "alt": "Image 58: Nigiris"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/arroz/tuna-tower.jpg",
+      "archivo": "tuna-tower.jpg",
+      "alt": "Image 59: Tuna Tower"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/arroz/yakimeshi-esp.JPG",
+      "archivo": "yakimeshi-esp.JPG",
+      "alt": "Image 60: Yakimeshi Especial"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/arroz/yakimeshi-sup.JPG",
+      "archivo": "yakimeshi-sup.JPG",
+      "alt": "Image 61: Yakimeshi Superior"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/arroz/yakimeshi.jpg",
+      "archivo": "yakimeshi.jpg",
+      "alt": "Image 62: Yakimeshi"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/rainbow-roll.jpg",
+      "archivo": "rainbow-roll.jpg",
+      "alt": "Image 70: Rainbow Roll"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/favorito-especial.jpg",
+      "archivo": "favorito-especial.jpg",
+      "alt": "Image 71: Favorito Especial"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/mango-roll.JPG",
+      "archivo": "mango-roll.JPG",
+      "alt": "Image 72: Mango Roll"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/guamuchilito-roll.jpg",
+      "archivo": "guamuchilito-roll.jpg",
+      "alt": "Image 73: Guamuchilito Roll"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/kento-rol.JPG",
+      "archivo": "kento-rol.JPG",
+      "alt": "Image 74: Kento Roll"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/power-rol.JPG",
+      "archivo": "power-rol.JPG",
+      "alt": "Image 75: Power Roll"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/ryo-roll.jpg",
+      "archivo": "ryo-roll.jpg",
+      "alt": "Image 76: Ryo Roll"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/avocado-esp.jpg",
+      "archivo": "avocado-esp.jpg",
+      "alt": "Image 77: Avocado Roll Especial"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/salmoncito-hot.jpg",
+      "archivo": "salmoncito-hot.jpg",
+      "alt": "Image 78: Salmoncito Hot"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/shake-roll.jpg",
+      "archivo": "shake-roll.jpg",
+      "alt": "Image 79: Shake Roll"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/roll/no-name-rol.JPG",
+      "archivo": "no-name-rol.JPG",
+      "alt": "Image 80: No Name Roll"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/cocteles/margarita-mango.JPG",
+      "archivo": "margarita-mango.JPG",
+      "alt": "Image 92: Margarita de Mango"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/cocteles/mezcalina.png",
+      "archivo": "mezcalina.png",
+      "alt": "Image 93: Mezcalina"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/cocteles/gin-tonic.png",
+      "archivo": "gin-tonic.png",
+      "alt": "Image 94: Gin Tonic"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/cocteles/paloma-tonic.png",
+      "archivo": "paloma-tonic.png",
+      "alt": "Image 95: Paloma Tonic"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/cocteles/old-sapphire.png",
+      "archivo": "old-sapphire.png",
+      "alt": "Image 96: Old Sapphire"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/cocteles/pi%C3%B1ada.JPG",
+      "archivo": "pi_ada.JPG",
+      "alt": "Image 97: Piñada"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/cocteles/sangria.JPG",
+      "archivo": "sangria.JPG",
+      "alt": "Image 98: Sangría"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/Charola-peque%C3%B1a.png",
+      "archivo": "Charola-peque_a.png",
+      "alt": "Image 106: Charola Chica — sushi tray small"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/assets/Charola-grande.png",
+      "archivo": "Charola-grande.png",
+      "alt": "Image 107: Charola Grande — sushi tray large"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://elpalmarmzt.com/",
+      "archivo": "imagen",
+      "alt": "Image 109"
+    }
+  ]
+}

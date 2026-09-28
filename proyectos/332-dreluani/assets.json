@@ -1,0 +1,217 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2023/12/cropped-logo-rodrigo-eluani-1.png",
+      "archivo": "cropped-logo-rodrigo-eluani-1.png",
+      "alt": "Image 1: Dr. Eluani"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/06/ICONOS-Dr.-Eluani-0-16.png",
+      "archivo": "ICONOS-Dr.-Eluani-0-16.png",
+      "alt": "Image 46"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/06/ICONOS-Dr.-Eluani-0-27-1.png",
+      "archivo": "ICONOS-Dr.-Eluani-0-27-1.png",
+      "alt": "Image 47"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/06/ICONOS-Dr.-Eluani-0-08.png",
+      "archivo": "ICONOS-Dr.-Eluani-0-08.png",
+      "alt": "Image 48"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/06/ICONOS-Dr.-Eluani-0-17-1.png",
+      "archivo": "ICONOS-Dr.-Eluani-0-17-1.png",
+      "alt": "Image 49"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/06/ICONOS-Dr.-Eluani-0-07-1.png",
+      "archivo": "ICONOS-Dr.-Eluani-0-07-1.png",
+      "alt": "Image 50"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/06/ICONOS-Dr.-Eluani-0-12-1.png",
+      "archivo": "ICONOS-Dr.-Eluani-0-12-1.png",
+      "alt": "Image 51"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/06/ICONOS-Dr.-Eluani-0-13.png",
+      "archivo": "ICONOS-Dr.-Eluani-0-13.png",
+      "alt": "Image 52"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/06/ICONOS-Dr.-Eluani-0-20.png",
+      "archivo": "ICONOS-Dr.-Eluani-0-20.png",
+      "alt": "Image 53"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/03/Clinica-Dental-Dr-Eluani-Nosotros.jpg",
+      "archivo": "Clinica-Dental-Dr-Eluani-Nosotros.jpg",
+      "alt": "Image 54"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://dreluani.com/wp-content/uploads/2026/06/ChIJEduqas-FzoYRskTKYm3w4rk.jpg",
+      "archivo": "ChIJEduqas-FzoYRskTKYm3w4rk.jpg",
+      "alt": "Image 55: Dentista en Hermosillo - Dr Eluani Clinica Dental Sucursal Norte place picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://dreluani.com/wp-content/uploads/2026/06/ChIJEduqas-FzoYRskTKYm3w4rk_9dd73a517faa3848d18b4108bfcfe933.jpg",
+      "archivo": "ChIJEduqas-FzoYRskTKYm3w4rk_9dd73a517faa3848d18b4108bfcfe933.jpg",
+      "alt": "Image 56: Claudia Santa Cruz profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://dreluani.com/wp-content/uploads/2026/06/ChIJEduqas-FzoYRskTKYm3w4rk_1f7fdb0de103eaee07ca6c5f82c91f6a.jpg",
+      "archivo": "ChIJEduqas-FzoYRskTKYm3w4rk_1f7fdb0de103eaee07ca6c5f82c91f6a.jpg",
+      "alt": "Image 57: Ross Torres profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://dreluani.com/wp-content/uploads/2026/06/ChIJEduqas-FzoYRskTKYm3w4rk_f44e50b89e72d2583bcf020e71ae8688.jpg",
+      "archivo": "ChIJEduqas-FzoYRskTKYm3w4rk_f44e50b89e72d2583bcf020e71ae8688.jpg",
+      "alt": "Image 58: Hannia Dávila profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://dreluani.com/wp-content/uploads/2026/06/ChIJEduqas-FzoYRskTKYm3w4rk_93a2889d9940f77adcb410f1fc771882.jpg",
+      "archivo": "ChIJEduqas-FzoYRskTKYm3w4rk_93a2889d9940f77adcb410f1fc771882.jpg",
+      "alt": "Image 59: Erika Miranda profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://dreluani.com/wp-content/uploads/2026/06/ChIJEduqas-FzoYRskTKYm3w4rk_3b50be4b0427875fd1b67625f0e2d04b.jpg",
+      "archivo": "ChIJEduqas-FzoYRskTKYm3w4rk_3b50be4b0427875fd1b67625f0e2d04b.jpg",
+      "alt": "Image 60: Nydhia Nydhia profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://dreluani.com/wp-content/uploads/2026/06/ChIJEduqas-FzoYRskTKYm3w4rk_879f9981b8039388598e9a0c4ef1826c.jpg",
+      "archivo": "ChIJEduqas-FzoYRskTKYm3w4rk_879f9981b8039388598e9a0c4ef1826c.jpg",
+      "alt": "Image 61: Jorge Chavez profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://dreluani.com/wp-content/uploads/2026/06/ChIJEduqas-FzoYRskTKYm3w4rk_e0c1e1484c7265c40fe91e4750db57c7.jpg",
+      "archivo": "ChIJEduqas-FzoYRskTKYm3w4rk_e0c1e1484c7265c40fe91e4750db57c7.jpg",
+      "alt": "Image 62: Mariana Portillo Teran profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://dreluani.com/wp-content/uploads/2026/06/ChIJEduqas-FzoYRskTKYm3w4rk_ed12ee2dd97e688f64db5dd1ccd3d91a.jpg",
+      "archivo": "ChIJEduqas-FzoYRskTKYm3w4rk_ed12ee2dd97e688f64db5dd1ccd3d91a.jpg",
+      "alt": "Image 63: EA CS profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://dreluani.com/wp-content/uploads/2026/06/ChIJEduqas-FzoYRskTKYm3w4rk_26456f168c5b1ad86da45dad7ef1933b.jpg",
+      "archivo": "ChIJEduqas-FzoYRskTKYm3w4rk_26456f168c5b1ad86da45dad7ef1933b.jpg",
+      "alt": "Image 64: Ana Espinoza profile picture"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2023/12/Web-Home-06.png",
+      "archivo": "Web-Home-06.png",
+      "alt": "Image 43"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2024/01/Diseno-Web-Dr.E-Peridoncia-06.png",
+      "archivo": "Diseno-Web-Dr.E-Peridoncia-06.png",
+      "alt": "Image 46"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2024/01/spark-clinica-dr-eluani-1.jpg",
+      "archivo": "spark-clinica-dr-eluani-1.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2024/01/estetica-dental-1.jpg",
+      "archivo": "estetica-dental-1.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2023/12/1-1.jpg",
+      "archivo": "1-1.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2024/01/IMG_1225-768x764.jpg",
+      "archivo": "IMG_1225-768x764.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2024/01/36D94663-4108-4CC8-ABCC-F91A5DB778D8-768x768.jpg",
+      "archivo": "36D94663-4108-4CC8-ABCC-F91A5DB778D8-768x768.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/07/Imagen-de-WhatsApp-2025-08-21-a-las-17.21.55_844302ad-768x755-1.jpg",
+      "archivo": "Imagen-de-WhatsApp-2025-08-21-a-las-17.21.55_844302ad-768x755-1.jpg",
+      "alt": "Image 48"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/07/Imagen-de-WhatsApp-2025-08-21-a-las-17.21.55_844302ad-768x755-2.jpg",
+      "archivo": "Imagen-de-WhatsApp-2025-08-21-a-las-17.21.55_844302ad-768x755-2.jpg",
+      "alt": "Image 49"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/07/Imagen-de-WhatsApp-2025-08-21-a-las-17.21.55_45821500-768x760-1.jpg",
+      "archivo": "Imagen-de-WhatsApp-2025-08-21-a-las-17.21.55_45821500-768x760-1.jpg",
+      "alt": "Image 50"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/07/Imagen-de-WhatsApp-2025-08-21-a-las-17.21.54_1d8a34c6-768x760-1.jpg",
+      "archivo": "Imagen-de-WhatsApp-2025-08-21-a-las-17.21.54_1d8a34c6-768x760-1.jpg",
+      "alt": "Image 51"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-19-at-14.07.13-1-768x768-1.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-19-at-14.07.13-1-768x768-1.jpeg",
+      "alt": "Image 52"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-19-at-14.00.32-768x511-1.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-19-at-14.00.32-768x511-1.jpeg",
+      "alt": "Image 53"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-19-at-14.07.14-3-768x511-1.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-19-at-14.07.14-3-768x511-1.jpeg",
+      "alt": "Image 54"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://dreluani.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-19-at-14.07.02-1-1024x1024-1.jpeg",
+      "archivo": "WhatsApp-Image-2026-06-19-at-14.07.02-1-1024x1024-1.jpeg",
+      "alt": "Image 60"
+    }
+  ]
+}

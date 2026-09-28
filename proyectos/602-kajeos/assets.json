@@ -1,0 +1,121 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/04/kajeos-favicon.png",
+      "archivo": "kajeos-favicon.png",
+      "alt": "Image 1: logotipo de la empresa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/04/logo-kajeos-imobiliaria-puebla.png",
+      "archivo": "logo-kajeos-imobiliaria-puebla.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/05/Terrenos-Lic-Mariano-1-1-525x328.jpg",
+      "archivo": "Terrenos-Lic-Mariano-1-1-525x328.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/05/Terrenos-Lic-Mariano-4-1-525x328.jpg",
+      "archivo": "Terrenos-Lic-Mariano-4-1-525x328.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/10/1522093003-525x328.webp",
+      "archivo": "1522093003-525x328.webp",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/09/1515772251-525x328.webp",
+      "archivo": "1515772251-525x328.webp",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-27-at-10.43.44-AM-4-525x328.jpeg",
+      "archivo": "WhatsApp-Image-2025-08-27-at-10.43.44-AM-4-525x328.jpeg",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/08/341042870-525x328.webp",
+      "archivo": "341042870-525x328.webp",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-12-at-11.22.11-AM-525x328.jpeg",
+      "archivo": "WhatsApp-Image-2025-08-12-at-11.22.11-AM-525x328.jpeg",
+      "alt": "Image 25"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-11-at-3.17.09-PM-3-525x328.jpeg",
+      "archivo": "WhatsApp-Image-2025-08-11-at-3.17.09-PM-3-525x328.jpeg",
+      "alt": "Image 29"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/04/logo-kajeos-imobiliaria-puebla-300x67.png",
+      "archivo": "logo-kajeos-imobiliaria-puebla-300x67.png",
+      "alt": "Image 33: logo-kajeos-imobiliaria-puebla"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/05/Casa-la-Vista-2-40-525x328.jpg",
+      "archivo": "Casa-la-Vista-2-40-525x328.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/05/Casa-en-La-Vista-1-525x328.jpg",
+      "archivo": "Casa-en-La-Vista-1-525x328.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-2.19.05-PM-1-525x328.jpeg",
+      "archivo": "WhatsApp-Image-2025-08-14-at-2.19.05-PM-1-525x328.jpeg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/08/1552126672-2-525x328.jpg",
+      "archivo": "1552126672-2-525x328.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/05/Casa-Doble-525x328.jpg",
+      "archivo": "Casa-Doble-525x328.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/05/HDR_1-1-1-525x328.jpg",
+      "archivo": "HDR_1-1-1-525x328.jpg",
+      "alt": "Image 31"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/08/Casa-Perritos-525x328.jpg",
+      "archivo": "Casa-Perritos-525x328.jpg",
+      "alt": "Image 35"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kajeos.com/wp-content/uploads/2025/08/HDR_1-525x328.jpg",
+      "archivo": "HDR_1-525x328.jpg",
+      "alt": "Image 39"
+    }
+  ]
+}

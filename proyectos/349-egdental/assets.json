@@ -1,0 +1,169 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2022/02/Affordable-Dentist-in-Tijuana-Mexico-e1703601012912.png",
+      "archivo": "Affordable-Dentist-in-Tijuana-Mexico-e1703601012912.png",
+      "alt": "Image 3: Affordable Dentist in Tijuana Mexico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/plugins/gtranslate/flags/24/en.png",
+      "archivo": "en.png",
+      "alt": "Image 4: en"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/plugins/gtranslate/flags/24/es-mx.png",
+      "archivo": "es-mx.png",
+      "alt": "Image 5: es"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/10/Dentistry-in-Tijuana-1-768x512.jpg",
+      "archivo": "Dentistry-in-Tijuana-1-768x512.jpg",
+      "alt": "Image 6: Dentistry in Tijuana 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2024/02/Visit-Us.jpg",
+      "archivo": "Visit-Us.jpg",
+      "alt": "Image 7: Visit Us"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/12/Affordable-Dental-and-Tours-in-Tijuana-9-768x432.jpg",
+      "archivo": "Affordable-Dental-and-Tours-in-Tijuana-9-768x432.jpg",
+      "alt": "Image 8: Affordable Dental and Tours in Tijuana 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/06/Dentist-Tijuana-1-768x512.jpg",
+      "archivo": "Dentist-Tijuana-1-768x512.jpg",
+      "alt": "Image 9: Dentist Tijuana 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2024/02/Affordable-Dentist-in-Tijuana-Mexico-2-768x433.jpg",
+      "archivo": "Affordable-Dentist-in-Tijuana-Mexico-2-768x433.jpg",
+      "alt": "Image 10: Affordable Dentist in Tijuana Mexico 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2024/02/Affordable-Dentist-in-Tijuana-Mexico-1-768x433.jpg",
+      "archivo": "Affordable-Dentist-in-Tijuana-Mexico-1-768x433.jpg",
+      "alt": "Image 11: Affordable Dentist in Tijuana Mexico 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/06/Tijuana-Mexico-Dentists-Reviews-768x512.jpg",
+      "archivo": "Tijuana-Mexico-Dentists-Reviews-768x512.jpg",
+      "alt": "Image 12: Before and After Dental services In Tijuana"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/05/Tijuana-Dental-Tourism-1-1-768x512.jpg",
+      "archivo": "Tijuana-Dental-Tourism-1-1-768x512.jpg",
+      "alt": "Image 13: EG Dental | Affordable Dentist in Tijuana Mexico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/10/About-Us.jpg",
+      "archivo": "About-Us.jpg",
+      "alt": "Image 6: About Us"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/10/About-Us-6-768x594.jpg",
+      "archivo": "About-Us-6-768x594.jpg",
+      "alt": "Image 7: About Us 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/10/About-Us-5.jpg",
+      "archivo": "About-Us-5.jpg",
+      "alt": "Image 8: About Us 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/10/About-Us-3.jpg",
+      "archivo": "About-Us-3.jpg",
+      "alt": "Image 9: About Us 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/10/About-Us-4.jpg",
+      "archivo": "About-Us-4.jpg",
+      "alt": "Image 10: About Us 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/06/IMG-20230607-WA0015-2-768x594.jpg",
+      "archivo": "IMG-20230607-WA0015-2-768x594.jpg",
+      "alt": "Image 11: IMG 20230607 WA0015 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/06/IMG-20230607-WA0014-2.jpg",
+      "archivo": "IMG-20230607-WA0014-2.jpg",
+      "alt": "Image 12: IMG 20230607 WA0014 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/06/IMG-20230607-WA0000-2-768x682.jpg",
+      "archivo": "IMG-20230607-WA0000-2-768x682.jpg",
+      "alt": "Image 13: IMG 20230607 WA0000 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2024/04/Mouth-Tumors-300x200.jpg",
+      "archivo": "Mouth-Tumors-300x200.jpg",
+      "alt": "Image 6: mouth tumors"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://secure.gravatar.com/avatar/f92ece06760432393c8fab1e4b60fb2b88368c6bbdff690d123f964ea7c0b63d?s=128&d=mm&r=g",
+      "archivo": "f92ece06760432393c8fab1e4b60fb2b88368c6bbdff690d123f964ea7c0b63d",
+      "alt": "Image 7: admin"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2024/04/safe-dental-treatments-during-pregnancy-300x197.jpg",
+      "archivo": "safe-dental-treatments-during-pregnancy-300x197.jpg",
+      "alt": "Image 8: Importance of Dental Care During Pregnancy"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2024/04/herbal-mouthwash-300x197.jpg",
+      "archivo": "herbal-mouthwash-300x197.jpg",
+      "alt": "Image 10: herbal mouthwash"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2024/04/child-friendly-mouthwash-300x200.jpg",
+      "archivo": "child-friendly-mouthwash-300x200.jpg",
+      "alt": "Image 12: child-friendly mouthwash"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2024/04/Brushing-for-Sensitive-Teeth-300x162.jpg",
+      "archivo": "Brushing-for-Sensitive-Teeth-300x162.jpg",
+      "alt": "Image 14: Brushing for Sensitive Teeth"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2024/03/Pediatric-Dental-Check-ups-300x200.jpg",
+      "archivo": "Pediatric-Dental-Check-ups-300x200.jpg",
+      "alt": "Image 16: Pediatric Dental Check-ups"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.egdentalmex.com/wp-content/uploads/2023/10/EG-Dental-Blog.jpg",
+      "archivo": "EG-Dental-Blog.jpg",
+      "alt": "Image 18: Blog"
+    }
+  ]
+}

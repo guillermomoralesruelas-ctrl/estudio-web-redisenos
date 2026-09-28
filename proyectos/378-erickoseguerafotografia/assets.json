@@ -1,0 +1,385 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/LOGO2_V1_C2.png",
+      "archivo": "LOGO2_V1_C2.png",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/SIMBOLO_3_C2.png",
+      "archivo": "SIMBOLO_3_C2.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/DSC00042-1.jpg",
+      "archivo": "DSC00042-1.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/Lovesession-352-1.jpg",
+      "archivo": "Lovesession-352-1.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/01/SIMBOLO_1_BN-e1673052912139.png",
+      "archivo": "SIMBOLO_1_BN-e1673052912139.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/B38A8067-2.jpg",
+      "archivo": "B38A8067-2.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/cover-scaled-1.jpg",
+      "archivo": "cover-scaled-1.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/fotografo-de-bodas-1-37-1.jpg",
+      "archivo": "fotografo-de-bodas-1-37-1.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/Wedding-175.jpg",
+      "archivo": "Wedding-175.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2022/12/Wedding-191.jpg",
+      "archivo": "Wedding-191.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/WED0447-1.jpg",
+      "archivo": "WED0447-1.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/Wedding-429.jpg",
+      "archivo": "Wedding-429.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/Wedding-442.jpg",
+      "archivo": "Wedding-442.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2024/10/Wedding-561-1.jpg",
+      "archivo": "Wedding-561-1.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2024/10/Wedding-476.jpg",
+      "archivo": "Wedding-476.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2024/10/Wedding-629.jpg",
+      "archivo": "Wedding-629.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2024/05/Lovesession-148_websize.jpg",
+      "archivo": "Lovesession-148_websize.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2024/07/Wedding-196.jpg",
+      "archivo": "Wedding-196.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/03/Wedding-531-1-scaled.jpg",
+      "archivo": "Wedding-531-1-scaled.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/03/DT-2.jpg",
+      "archivo": "DT-2.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/01/Wedding-191.jpg",
+      "archivo": "Wedding-191.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/Wedding-414.jpg",
+      "archivo": "Wedding-414.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://s3-us-west-2.amazonaws.com/flothemes-dashboard-images/flo-flex-builder/flo-flex-builder-block-image-default.preview.jpg",
+      "archivo": "flo-flex-builder-block-image-default.preview.jpg",
+      "alt": "Image 26"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2022/12/LOGO_V1_NB-e1673053737482.png",
+      "archivo": "LOGO_V1_NB-e1673053737482.png",
+      "alt": "Image 27"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2022/12/junebug-weddings-member-badge-2024-transparent.png",
+      "archivo": "junebug-weddings-member-badge-2024-transparent.png",
+      "alt": "Image 28"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/06/CD-2.jpg",
+      "archivo": "CD-2.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/09/Wedding-13.jpg",
+      "archivo": "Wedding-13.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/12/Wedding-44_websize.jpg",
+      "archivo": "Wedding-44_websize.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/06/CD-111.jpg",
+      "archivo": "CD-111.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/LOGO2_V1_C2-1.png",
+      "archivo": "LOGO2_V1_C2-1.png",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2024/02/Wedding-476_websize.jpg",
+      "archivo": "Wedding-476_websize.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2024/01/Wedding-622_websize.jpg",
+      "archivo": "Wedding-622_websize.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/02/Wedding-7.jpg",
+      "archivo": "Wedding-7.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/01/Wedding-109-1.jpg",
+      "archivo": "Wedding-109-1.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/12/Session-22_websize.jpg",
+      "archivo": "Session-22_websize.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/04/Wedding-78-scaled.jpg",
+      "archivo": "Wedding-78-scaled.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/09/Wedding-596-scaled.jpg",
+      "archivo": "Wedding-596-scaled.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/11/cover-scaled-1.jpg",
+      "archivo": "cover-scaled-1.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2024/05/Lovesession-148_websize.jpg",
+      "archivo": "Lovesession-148_websize.jpg",
+      "alt": "Image 25"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2024/05/Wedding-680_websize.jpg",
+      "archivo": "Wedding-680_websize.jpg",
+      "alt": "Image 26"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2024/05/Wedding-171_websize.jpg",
+      "archivo": "Wedding-171_websize.jpg",
+      "alt": "Image 27"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2024/02/Wedding-476_websize.jpg",
+      "archivo": "Wedding-476_websize.jpg",
+      "alt": "Image 28"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2024/01/Wedding-622_websize.jpg",
+      "archivo": "Wedding-622_websize.jpg",
+      "alt": "Image 29"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2023/12/Wedding-365_websize.jpg",
+      "archivo": "Wedding-365_websize.jpg",
+      "alt": "Image 30"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2023/12/Wedding-179_websize.jpg",
+      "archivo": "Wedding-179_websize.jpg",
+      "alt": "Image 31"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2023/12/CD-210_websize.jpg",
+      "archivo": "CD-210_websize.jpg",
+      "alt": "Image 32"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2023/12/Session-22_websize.jpg",
+      "archivo": "Session-22_websize.jpg",
+      "alt": "Image 33"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2023/09/Wedding-13.jpg",
+      "archivo": "Wedding-13.jpg",
+      "alt": "Image 34"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2023/12/Wedding-718_websize.jpg",
+      "archivo": "Wedding-718_websize.jpg",
+      "alt": "Image 35"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2023/11/Wedding-172_websize.jpg",
+      "archivo": "Wedding-172_websize.jpg",
+      "alt": "Image 36"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2023/11/cover-scaled-1.jpg",
+      "archivo": "cover-scaled-1.jpg",
+      "alt": "Image 37"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2023/10/Wedding-12_websize.jpg",
+      "archivo": "Wedding-12_websize.jpg",
+      "alt": "Image 38"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://erickoseguera.com/wp-content/uploads/2023/10/BDay-425_websize.jpg",
+      "archivo": "BDay-425_websize.jpg",
+      "alt": "Image 39"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/04/1-scaled.jpg",
+      "archivo": "1-scaled.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/12/Black-White-Simple-Minimalist-Custom-Polaroid-Couple-T-Shirt.png",
+      "archivo": "Black-White-Simple-Minimalist-Custom-Polaroid-Couple-T-Shirt.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/06/8.png",
+      "archivo": "8.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/06/1657985286700.png",
+      "archivo": "1657985286700.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/06/6.png",
+      "archivo": "6.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/06/3.png",
+      "archivo": "3.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/06/7.png",
+      "archivo": "7.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/06/5.png",
+      "archivo": "5.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/06/13.png",
+      "archivo": "13.png",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://erickoseguera.com/wp-content/uploads/2023/06/12.png",
+      "archivo": "12.png",
+      "alt": "Image 11"
+    }
+  ]
+}

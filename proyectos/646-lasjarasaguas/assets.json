@@ -1,0 +1,73 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2026/01/LOGOTIPO-blanco-2048x333.png",
+      "archivo": "LOGOTIPO-blanco-2048x333.png",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2026/09/logos-web-01.png",
+      "archivo": "logos-web-01.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2026/09/logos-web-02.png",
+      "archivo": "logos-web-02.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2026/08/metodos-de-pago-01-1024x433.png",
+      "archivo": "metodos-de-pago-01-1024x433.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2026/08/metodos-de-pago-03-1024x433.png",
+      "archivo": "metodos-de-pago-03-1024x433.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2026/08/metodos-de-pago-02-1024x433.png",
+      "archivo": "metodos-de-pago-02-1024x433.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2026/03/Historias-Nov24-2-1-819x1024.jpg",
+      "archivo": "Historias-Nov24-2-1-819x1024.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2025/05/Masajes-Terapeuticos.webp",
+      "archivo": "Masajes-Terapeuticos.webp",
+      "alt": "Image 3: Masajes Terapéuticos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2025/05/Tratamientos-Faciales-jardin-2.webp",
+      "archivo": "Tratamientos-Faciales-jardin-2.webp",
+      "alt": "Image 4: Tratamientos Faciales jardín 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2025/05/Rituales-de-Bienestar.webp",
+      "archivo": "Rituales-de-Bienestar.webp",
+      "alt": "Image 5: Rituales de Bienestar"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lasjaras.mx/wp-content/uploads/2026/08/Las_Jaras_Experiencias_Verano_2026_Editable-2048x1114.png",
+      "archivo": "Las_Jaras_Experiencias_Verano_2026_Editable-2048x1114.png",
+      "alt": "Image 3"
+    }
+  ]
+}

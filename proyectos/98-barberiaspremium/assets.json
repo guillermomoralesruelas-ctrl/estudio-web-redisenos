@@ -1,0 +1,121 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/logo-premium.png",
+      "archivo": "logo-premium.png",
+      "alt": "Image 1: Barberías Premium"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/hero-barberia.jpg",
+      "archivo": "hero-barberia.jpg",
+      "alt": "Image 2: Detalle de corte en Barberías Premium"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/app-iphone.webp",
+      "archivo": "app-iphone.webp",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/facial-portrait.webp",
+      "archivo": "facial-portrait.webp",
+      "alt": "Image 4: Retrato ilustrativo del estudio de rostro y cabello"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/premium-id.png",
+      "archivo": "premium-id.png",
+      "alt": "Image 6: Tu barbero ya sabe cómo va tu corte"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/app-home.webp",
+      "archivo": "app-home.webp",
+      "alt": "Image 8: Vista de ejemplo de la app: próxima cita, monedero y avance hacia el corte gratis"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/look-classic-side.webp",
+      "archivo": "look-classic-side.webp",
+      "alt": "Image 9: Corte clásico de lado, pose de tres cuartos que muestra el lateral a tijera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/look-textured-crop.webp",
+      "archivo": "look-textured-crop.webp",
+      "alt": "Image 10: Corte corto con textura, visto de perfil para mostrar el desvanecido alto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/look-volume-quiff.webp",
+      "archivo": "look-volume-quiff.webp",
+      "alt": "Image 11: Corte con volumen arriba y desvanecido medio, mirando a cámara en otra pose"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://i.ytimg.com/vi/D0irAHZeORQ/hq2.jpg",
+      "archivo": "hq2.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://i.ytimg.com/vi/kz-gE6GHEso/hq2.jpg",
+      "archivo": "hq2.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/corte-lacio.jpg",
+      "archivo": "corte-lacio.jpg",
+      "alt": "Image 14: Corte para cabello lacio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/corte-rebelde.jpg",
+      "archivo": "corte-rebelde.jpg",
+      "alt": "Image 15: Corte recomendado con IA Style"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/corte-remolinos.jpg",
+      "archivo": "corte-remolinos.jpg",
+      "alt": "Image 16: Corte que respeta los remolinos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/calidad.png",
+      "archivo": "calidad.png",
+      "alt": "Image 17: Seguimiento de calidad Barberías Premium"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/franchise-cinema.webp",
+      "archivo": "franchise-cinema.webp",
+      "alt": "Image 18: Cliente disfruta una función de cine durante su visita"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/franchise-plaza.webp",
+      "archivo": "franchise-plaza.webp",
+      "alt": "Image 20: Sucursal Plaza Real de Barberías Premium"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/franchise-centro.webp",
+      "archivo": "franchise-centro.webp",
+      "alt": "Image 21: Sucursal Centro · Paseo Juárez de Barberías Premium"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://barberiaspremium.com/assets/sucursal-express.jpg",
+      "archivo": "sucursal-express.jpg",
+      "alt": "Image 22: Sucursal Express HSBC de Barberías Premium"
+    }
+  ]
+}

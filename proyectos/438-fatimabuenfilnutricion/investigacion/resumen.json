@@ -1,0 +1,135 @@
+{
+  "sitio": "https://www.fatimabuenfil.com/",
+  "fecha": "2026-09-26T07:52:50.344Z",
+  "motor": "jina-reader",
+  "slug": "fatimabuenfilnutricion",
+  "nombre": "Fátima Buenfil Nutrición Clínica",
+  "rubro": "SALUD",
+  "ciudad": "Mérida, Yucatán",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.fatimabuenfil.com/",
+      "titulo": "Fatima Buenfil Nutrición Clínica en Mérida Yucatán"
+    },
+    {
+      "url": "https://www.fatimabuenfil.com/servicios",
+      "titulo": "Servicios"
+    },
+    {
+      "url": "https://www.fatimabuenfil.com/nuestras-especialidades",
+      "titulo": "Especialidades"
+    },
+    {
+      "url": "https://www.fatimabuenfil.com/curriculum",
+      "titulo": "MNC. ED. Fátima Buenfil Rello"
+    },
+    {
+      "url": "https://www.fatimabuenfil.com/blog",
+      "titulo": "Blog"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "999 260 2804",
+      "529992602804",
+      "2019-2018",
+      "2011-2013",
+      "2013-2014",
+      "2006-2011",
+      "2010-2011",
+      "21623945.2020.1743116",
+      "2015.09.001"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/529992602804"
+    ],
+    "redes": [
+      "https://www.facebook.com/FatimaNutricion",
+      "https://www.instagram.com/fatimanutricion/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.fatimabuenfil.com/templates/rt_salient/custom/images/logo/fatima-buenfil-nutricion-clinica-logo.png",
+      "alt": "Image 1: Fátima Buenfil Nutrición Clínica en Mérida Yucatán"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/thumbs/consulta-nutricional.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/consulta-a-domicilio.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/consulta-nutricional-a-distancia.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/nutricion-empresarial2.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/nutricion-escolar.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/platicas-y-talleres-nutricion.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/menus-asesoria-nutricia.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/nutricion-vida.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/nutricion-deporte-fatima.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/dieta-vegetariana-2.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/dieta-sonda.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/Enfermedades-metabolicas.jpg",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/nutricion-clinica.jpg",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/blog/nuevo-etiquetado-alimentos-mexico.jpg",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/blog/masa-corporal.jpg",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/curriculom-vitae-fatima-buenfil-rello-nutricion-clinica.jpg",
+      "alt": "Image 2: curriculom vitae fatima buenfil rello nutricion clinica"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/blog/blog-fatima-buenfil.jpg",
+      "alt": "Image 3: Recetas Saludables Fatima Buenfil"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/blog/proteina-y-masa-muscular.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.fatimabuenfil.com/images/blog/que-comer-con-covid.jpg",
+      "alt": "Image 7"
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+/* =====================================================
+   RESERVE — WhatsApp Reservation Form
+   ===================================================== */
+
+.reserve {
+  background: var(--bg-section-alt);
+  position: relative;
+  overflow: hidden;
+}
+
+.reserve::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  left: -8%;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(61, 200, 232, 0.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.reserve::after {
+  content: '';
+  position: absolute;
+  bottom: -15%;
+  right: -8%;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(247, 148, 29, 0.04) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ── Wave top divider ─────────────────────────────── */
+.reserve__wave-top {
+  position: relative;
+  overflow: hidden;
+  line-height: 0;
+  margin-bottom: -1px;
+  background: var(--bg-primary);
+}
+
+.reserve__wave-top svg {
+  display: block;
+  width: 100%;
+}
+
+/* ── Glassmorphism card ───────────────────────────── */
+.reserve__card {
+  max-width: 780px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(61, 200, 232, 0.14);
+  border-radius: var(--radius-xl);
+  padding: var(--space-12) var(--space-10);
+  position: relative;
+  box-shadow:
+    0 8px 48px rgba(0, 0, 0, 0.30),
+    0 0 40px rgba(61, 200, 232, 0.06);
+}
+
+/* ── Section header ───────────────────────────────── */
+.reserve__header {
+  text-align: center;
+  margin-bottom: var(--space-10);
+}
+
+.reserve__header .tag {
+  margin-bottom: var(--space-4);
+}
+
+.reserve__header h2 {
+  margin-bottom: var(--space-4);
+}
+
+.reserve__header p {
+  color: rgba(255, 255, 255, 0.55);
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* ── Form grid ────────────────────────────────────── */
+.reserve__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+}
+
+.reserve__field--full {
+  grid-column: 1 / -1;
+}
+
+/* ── Field ────────────────────────────────────────── */
+.reserve__field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.reserve__label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-family: var(--font-body);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.reserve__label .required {
+  color: var(--color-orange);
+}
+
+.reserve__label .optional {
+  font-size: 10px;
+  opacity: 0.55;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+/* ── Inputs ───────────────────────────────────────── */
+.reserve__input,
+.reserve__select,
+.reserve__textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(61, 200, 232, 0.15);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-5);
+  color: var(--color-white);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-light);
+  transition:
+    border-color var(--transition-base),
+    box-shadow var(--transition-base),
+    background var(--transition-base);
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.reserve__input::placeholder,
+.reserve__textarea::placeholder {
+  color: rgba(255, 255, 255, 0.22);
+}
+
+.reserve__input:focus,
+.reserve__select:focus,
+.reserve__textarea:focus {
+  border-color: var(--color-cyan);
+  box-shadow: 0 0 0 3px rgba(61, 200, 232, 0.12);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* date native color scheme */
+.reserve__input[type="date"] {
+  color-scheme: dark;
+}
+
+/* ── Custom time picker ───────────────────────────── */
+.reserve__time-picker {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(61, 200, 232, 0.15);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-5);
+  transition:
+    border-color var(--transition-base),
+    box-shadow var(--transition-base),
+    background var(--transition-base);
+}
+
+.reserve__time-picker:focus-within {
+  border-color: var(--color-cyan);
+  box-shadow: 0 0 0 3px rgba(61, 200, 232, 0.12);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.reserve__time-col {
+  background: transparent;
+  border: none;
+  color: var(--color-white);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-light);
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  width: auto;
+  padding: 0;
+  text-align: center;
+}
+
+.reserve__time-col option {
+  background: var(--bg-section-alt);
+  color: var(--color-white);
+}
+
+.reserve__time-sep {
+  color: rgba(255, 255, 255, 0.40);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-light);
+  user-select: none;
+}
+
+.reserve__time-pm {
+  margin-left: var(--space-2);
+  color: var(--color-cyan-light);
+  font-family: var(--font-brand);
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.10em;
+  user-select: none;
+}
+
+.reserve__field.is-error .reserve__time-picker {
+  border-color: rgba(239, 68, 68, 0.65);
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.10);
+}
+
+/* ── Select custom arrow ──────────────────────────── */
+.reserve__select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba(61,200,232,0.55)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--space-4) center;
+  background-size: 16px;
+  padding-right: var(--space-10);
+  cursor: pointer;
+}
+
+.reserve__select option {
+  background: var(--bg-section-alt);
+  color: var(--color-white);
+}
+
+
+/* ── Phone prefix wrapper ─────────────────────────── */
+.reserve__phone-wrap {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Country code selector — connects to the input on the right */
+.reserve__phone-code {
+  flex-shrink: 0;
+  padding: 0 var(--space-3) 0 var(--space-4);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(61, 200, 232, 0.15);
+  border-right: none;
+  border-radius: var(--radius-md) 0 0 var(--radius-md);
+  color: rgba(255, 255, 255, 0.80);
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-light);
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  /* Custom chevron */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba(61,200,232,0.55)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--space-2) center;
+  background-size: 14px;
+  padding-right: var(--space-8);
+  transition: border-color var(--transition-base), background-color var(--transition-base);
+  min-width: 90px;
+}
+
+.reserve__phone-code option,
+.reserve__phone-code optgroup {
+  background: var(--bg-section-alt);
+  color: var(--color-white);
+}
+
+.reserve__phone-code:focus {
+  border-color: var(--color-cyan);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Input sits flush to the right of the code selector */
+.reserve__phone-wrap .reserve__input {
+  padding-left: var(--space-4);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  flex: 1;
+}
+
+/* Highlight both when either is focused */
+.reserve__phone-wrap:focus-within .reserve__phone-code,
+.reserve__phone-wrap:focus-within .reserve__input {
+  border-color: var(--color-cyan);
+}
+
+.reserve__phone-wrap:focus-within {
+  border-radius: var(--radius-md);
+  box-shadow: 0 0 0 3px rgba(61, 200, 232, 0.12);
+}
+
+/* ── Textarea ─────────────────────────────────────── */
+.reserve__textarea {
+  resize: vertical;
+  min-height: 96px;
+  max-height: 200px;
+  line-height: var(--lh-relaxed);
+}
+
+/* ── Inline error ─────────────────────────────────── */
+.reserve__error {
+  font-family: var(--font-body);
+  font-size: var(--fs-xs);
+  color: #F87171;
+  display: none;
+}
+
+.reserve__field.is-error .reserve__input,
+.reserve__field.is-error .reserve__select,
+.reserve__field.is-error .reserve__textarea {
+  border-color: rgba(239, 68, 68, 0.65);
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.10);
+}
+
+.reserve__field.is-error .reserve__error {
+  display: block;
+}
+
+/* ── Actions row ──────────────────────────────────── */
+.reserve__actions {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.reserve__actions .btn {
+  flex: 1 1 200px;
+  min-width: 0;
+  justify-content: center;
+  white-space: normal;
+  word-break: break-word;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.reserve__btn-wa {
+  background: #25D366;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.35);
+}
+
+.reserve__btn-wa:hover {
+  background: #1DAA56;
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.50);
+}
+
+/* ── Delivery divider + CTA ───────────────────────── */
+.reserve__delivery-wrap {
+  margin-top: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--space-5);
+}
+
+.reserve__or-divider {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.reserve__or-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(61, 200, 232, 0.18), transparent);
+}
+
+.reserve__or-text {
+  font-family: var(--font-brand);
+  font-size: 10px;
+  font-weight: var(--fw-medium);
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.30);
+  user-select: none;
+}
+
+.reserve__btn-delivery {
+  width: 100%;
+  justify-content: center;
+}
+
+/* ── Responsive ───────────────────────────────────── */
+@media (max-width: 768px) {
+  .reserve__card {
+    padding: var(--space-8) var(--space-6);
+    overflow: hidden;
+  }
+
+  .reserve__form {
+    grid-template-columns: 1fr;
+  }
+
+  .reserve__field,
+  .reserve__field--full {
+    grid-column: 1;
+    min-width: 0;
+  }
+
+  .reserve__phone-wrap {
+    min-width: 0;
+  }
+
+  .reserve__textarea {
+    resize: none;
+  }
+
+  .reserve__phone-code {
+    min-width: 0;
+    flex-shrink: 0;
+    max-width: 110px;
+  }
+
+  .reserve__phone-wrap .reserve__input {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .reserve__actions {
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .reserve__actions .btn {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    flex: none;
+    white-space: normal;
+    word-break: break-word;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .reserve__card {
+    padding: var(--space-6) var(--space-4);
+    overflow: hidden;
+  }
+}

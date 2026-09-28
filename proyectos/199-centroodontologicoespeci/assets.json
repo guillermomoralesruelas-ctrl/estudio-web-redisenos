@@ -1,0 +1,121 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "http://societymonkey.com.mx/logos/btn_whatsapp.png",
+      "archivo": "btn_whatsapp.png",
+      "alt": "Image 1: Dentista"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/logo.png",
+      "archivo": "logo.png",
+      "alt": "Image 2: COEC"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/logo1.png",
+      "archivo": "logo1.png",
+      "alt": "Image 4: COEC"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/services/services-1.jpg",
+      "archivo": "services-1.jpg",
+      "alt": "Image 6: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/services/services-2.jpg",
+      "archivo": "services-2.jpg",
+      "alt": "Image 7: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/services/services-3.jpg",
+      "archivo": "services-3.jpg",
+      "alt": "Image 8: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/services/services-4.jpg",
+      "archivo": "services-4.jpg",
+      "alt": "Image 9: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/services/services-5.jpg",
+      "archivo": "services-5.jpg",
+      "alt": "Image 10: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/services/services-6.jpg",
+      "archivo": "services-6.jpg",
+      "alt": "Image 11: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/services/services-7.jpg",
+      "archivo": "services-7.jpg",
+      "alt": "Image 12: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/services/services-8.jpg",
+      "archivo": "services-8.jpg",
+      "alt": "Image 13: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/services/services-9.jpg",
+      "archivo": "services-9.jpg",
+      "alt": "Image 14: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/overview.png",
+      "archivo": "overview.png",
+      "alt": "Image 15: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/appointment/appointment-1.jpg",
+      "archivo": "appointment-1.jpg",
+      "alt": "Image 16: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/appointment/appointment-2.jpg",
+      "archivo": "appointment-2.jpg",
+      "alt": "Image 17: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/about/about-1.png",
+      "archivo": "about-1.png",
+      "alt": "Image 18: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/review/review-2.jpg",
+      "archivo": "review-2.jpg",
+      "alt": "Image 19: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/review/review-3.jpg",
+      "archivo": "review-3.jpg",
+      "alt": "Image 20: image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://coec.com.mx/assets/images/review/review-1.jpg",
+      "archivo": "review-1.jpg",
+      "alt": "Image 22: image"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/review-4@2x.BrNVf9Pt_nH1dN.webp",
+      "archivo": "review-4_2x.BrNVf9Pt_nH1dN.webp",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/review-1@2x.wiMquVuR_ZbkmWq.webp",
+      "archivo": "review-1_2x.wiMquVuR_ZbkmWq.webp",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/review-2@2x.BQ73Vx7X_2wzgxQ.webp",
+      "archivo": "review-2_2x.BQ73Vx7X_2wzgxQ.webp",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/review-3@2x.BSRRLyas_Z28r6EI.webp",
+      "archivo": "review-3_2x.BSRRLyas_Z28r6EI.webp",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/alumnos_en_clase_de_baile_344722e1ef_2wVCAN.webp",
+      "archivo": "alumnos_en_clase_de_baile_344722e1ef_2wVCAN.webp",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/promo_septiembre_desktop.DD64Mf9r_1MvGlV.webp",
+      "archivo": "promo_septiembre_desktop.DD64Mf9r_1MvGlV.webp",
+      "alt": "Image 7: Promoción de Mayo 2026"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/promo_septiembre_mobile.DWY8yKZx_Z2bCQl0.webp",
+      "archivo": "promo_septiembre_mobile.DWY8yKZx_Z2bCQl0.webp",
+      "alt": "Image 8: Promoción de Mayo 2026"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/cumbia_53055c7808_Z2gj4in.webp",
+      "archivo": "cumbia_53055c7808_Z2gj4in.webp",
+      "alt": "Image 9: Aprende a bailar cumbia para las fiestas en Academia de baile ARIA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/estudiantes_practicando_con_instructores_0585ee2cd5_Z1OC9JJ.webp",
+      "archivo": "estudiantes_practicando_con_instructores_0585ee2cd5_Z1OC9JJ.webp",
+      "alt": "Image 10: Alumnos bailando con sus instructores y practicando en Academia de baile ARIA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/instructora_bailando_alumno_e7ac8c8d2d_2cmUCI.webp",
+      "archivo": "instructora_bailando_alumno_e7ac8c8d2d_2cmUCI.webp",
+      "alt": "Image 11: Aprende a bailar salsa en línea en Academia de baile ARIA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/bachata_image_a69ab59cf0_cR8at.webp",
+      "archivo": "bachata_image_a69ab59cf0_cR8at.webp",
+      "alt": "Image 12: Aprende bachata, shines y técnica en Academia de baile ARIA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/salsa_cubana_3x_fc34727c67_Z21ajYC.webp",
+      "archivo": "salsa_cubana_3x_fc34727c67_Z21ajYC.webp",
+      "alt": "Image 13: Aprende salsa cubana en Academia de baile ARIA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/su_primer_baile_como_pareja_de_novios_31d88f1bd0_mhWh5.webp",
+      "archivo": "su_primer_baile_como_pareja_de_novios_31d88f1bd0_mhWh5.webp",
+      "alt": "Image 14: Pareja de baile haciendo vals para su boda"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/estudiantes_bailando_academia_aria_a4778aab9b_Z2uYr1y.webp",
+      "archivo": "estudiantes_bailando_academia_aria_a4778aab9b_Z2uYr1y.webp",
+      "alt": "Image 15: Horarios flexibles que se adaptan a tu estilo de vida"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/instructores_y_personas_aprendiendo_a_bailar_cdb0ab4770_2v3Ex.webp",
+      "archivo": "instructores_y_personas_aprendiendo_a_bailar_cdb0ab4770_2v3Ex.webp",
+      "alt": "Image 16: Alumnos aprendiendo a bailar a su propio ritmo con sus instructores"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/kyle_2x_ea3430bdf9_Z1UGeGf.webp",
+      "archivo": "kyle_2x_ea3430bdf9_Z1UGeGf.webp",
+      "alt": "Image 17: Avatar de Kyle Pangan"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/paula_valenti_2x_c1ababafba_1NCbqY.webp",
+      "archivo": "paula_valenti_2x_c1ababafba_1NCbqY.webp",
+      "alt": "Image 18: Avatar de Paula Valenti"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/loyd_capistrano_2x_adae516b4a_Z2XOck.webp",
+      "archivo": "loyd_capistrano_2x_adae516b4a_Z2XOck.webp",
+      "alt": "Image 19: Avatar de Loyd Capistrano"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/jose_gonzales_2x_8d63b512ea_Z2crQyD.webp",
+      "archivo": "jose_gonzales_2x_8d63b512ea_Z2crQyD.webp",
+      "alt": "Image 20: Avatar de Jose Gonzales Gonzales"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/ryder_bergerud_2x_38b0f646b5_Zciez0.webp",
+      "archivo": "ryder_bergerud_2x_38b0f646b5_Zciez0.webp",
+      "alt": "Image 21: Avatar de Ryder Bergerud"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/aubrey_ledonne_2x_5258165107_asMn5.webp",
+      "archivo": "aubrey_ledonne_2x_5258165107_asMn5.webp",
+      "alt": "Image 22: Avatar de Aubrey LeDonne"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/nat_2x_ebfb112b00_Z1r1wIJ.webp",
+      "archivo": "nat_2x_ebfb112b00_Z1r1wIJ.webp",
+      "alt": "Image 23: Avatar de Nat"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/ixchel_saavedra_2x_2d6a97484a_28L7Qx.webp",
+      "archivo": "ixchel_saavedra_2x_2d6a97484a_28L7Qx.webp",
+      "alt": "Image 24: Avatar de Ixchel Saavedra Picazo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/luz_patricia_2x_ee36c76a49_Z2kz6dW.webp",
+      "archivo": "luz_patricia_2x_ee36c76a49_Z2kz6dW.webp",
+      "alt": "Image 25: Avatar de Luz Patricia Orendain"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/natividad_patricia_2x_b81ab9d37d_Z1v4qOH.webp",
+      "archivo": "natividad_patricia_2x_b81ab9d37d_Z1v4qOH.webp",
+      "alt": "Image 26: Avatar de Natividad Perez Hernandez"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/rajeev_2x_ec2980f636_mJk4g.webp",
+      "archivo": "rajeev_2x_ec2980f636_mJk4g.webp",
+      "alt": "Image 37: Avatar de Rajeev Botejue"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/janila_lynn_2x_9a51c7eca5_1qxYDc.webp",
+      "archivo": "janila_lynn_2x_9a51c7eca5_1qxYDc.webp",
+      "alt": "Image 38: Avatar de Janila Lynn"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/robson_viana_2x_9e016aa4fe_Z2n2tO9.webp",
+      "archivo": "robson_viana_2x_9e016aa4fe_Z2n2tO9.webp",
+      "alt": "Image 39: Avatar de Robson Viana"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/olia_o_2x_1354a639a2_Z2dJ7W1.webp",
+      "archivo": "olia_o_2x_1354a639a2_Z2dJ7W1.webp",
+      "alt": "Image 40: Avatar de Olia O"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/samuel_weldon_2x_15a0105fcb_Z3tioF.webp",
+      "archivo": "samuel_weldon_2x_15a0105fcb_Z3tioF.webp",
+      "alt": "Image 41: Avatar de Samuel Weldon"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/armando_aln_2x_13f6fba168_2q29ox.webp",
+      "archivo": "armando_aln_2x_13f6fba168_2q29ox.webp",
+      "alt": "Image 42: Avatar de Armando \"ALN\""
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/gustavo_cruz_2x_e774373e5a_2fChbK.webp",
+      "archivo": "gustavo_cruz_2x_e774373e5a_2fChbK.webp",
+      "alt": "Image 43: Avatar de Gustavo Cruz"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/xavi_gomez_2x_7c4f051e89_2fbckj.webp",
+      "archivo": "xavi_gomez_2x_7c4f051e89_2fbckj.webp",
+      "alt": "Image 44: Avatar de Xavi Gomez"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/montse_sanchez_2x_eb1de98a00_4VUyP.webp",
+      "archivo": "montse_sanchez_2x_eb1de98a00_4VUyP.webp",
+      "alt": "Image 45: Avatar de Montse Sanchez"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/laura_rodriguez_2x_d802676014_27ihD6.webp",
+      "archivo": "laura_rodriguez_2x_d802676014_27ihD6.webp",
+      "alt": "Image 46: Avatar de Laura Rodriguez"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/claudia_caballero_2x_fb4deb483f_16XNVJ.webp",
+      "archivo": "claudia_caballero_2x_fb4deb483f_16XNVJ.webp",
+      "alt": "Image 57: Avatar de Claudia Caballero"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/abdiel_ruiz_2x_a75a88ba3d_2l5prw.webp",
+      "archivo": "abdiel_ruiz_2x_a75a88ba3d_2l5prw.webp",
+      "alt": "Image 58: Avatar de Abdiel Ruiz"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/ara_eg_2x_b75a69c8ce_1rD6dC.webp",
+      "archivo": "ara_eg_2x_b75a69c8ce_1rD6dC.webp",
+      "alt": "Image 59: Avatar de Ara E.G."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/adriana_reyes_2x_4ff0b49589_2huzBd.webp",
+      "archivo": "adriana_reyes_2x_4ff0b49589_2huzBd.webp",
+      "alt": "Image 60: Avatar de Adriana Reyes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/yolanda_molina_2x_a80a03af83_UDu0n.webp",
+      "archivo": "yolanda_molina_2x_a80a03af83_UDu0n.webp",
+      "alt": "Image 61: Avatar de Yolanda Molina"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/mary_gonzales_2x_e2fa445310_2vXIrr.webp",
+      "archivo": "mary_gonzales_2x_e2fa445310_2vXIrr.webp",
+      "alt": "Image 62: Avatar de Mary Gonzales"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/paula_monsegur_2x_01be833b91_Z1mQR2I.webp",
+      "archivo": "paula_monsegur_2x_01be833b91_Z1mQR2I.webp",
+      "alt": "Image 63: Avatar de Paula Monsegur"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/sebastian_rosa_2x_95d21fee00_2w5HEH.webp",
+      "archivo": "sebastian_rosa_2x_95d21fee00_2w5HEH.webp",
+      "alt": "Image 64: Avatar de Sebastian de la Rosa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/jorge_palma_2x_3473c85a85_ZgHPa6.webp",
+      "archivo": "jorge_palma_2x_3473c85a85_ZgHPa6.webp",
+      "alt": "Image 65: Avatar de Jorge Palma"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/angel_h_2x_569daeb75a_17VEMO.webp",
+      "archivo": "angel_h_2x_569daeb75a_17VEMO.webp",
+      "alt": "Image 66: Avatar de Angel H"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/instructores_de_baile_con_alumnos_4b7aff9366_1w69oC.webp",
+      "archivo": "instructores_de_baile_con_alumnos_4b7aff9366_1w69oC.webp",
+      "alt": "Image 77: Grupo de personas en sus clases de baile"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/alumnos_en_clase_de_baile_344722e1ef_YV1OH.webp",
+      "archivo": "alumnos_en_clase_de_baile_344722e1ef_YV1OH.webp",
+      "alt": "Image 4: Descubre nuestras clases semi-personalizadas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/people_8c5e80f018_Z2jcjPi.webp",
+      "archivo": "people_8c5e80f018_Z2jcjPi.webp",
+      "alt": "Image 5: Contrata clases para tu equipo de trabajo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/estudiantes_practicando_con_instructores_0585ee2cd5_ZzzYv8.webp",
+      "archivo": "estudiantes_practicando_con_instructores_0585ee2cd5_ZzzYv8.webp",
+      "alt": "Image 2: Alumnos bailando y practicando con sus instructores en Academia de baile ARIA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://somosaria.com/_astro/background_a2a54dda88_Z25vYNj.webp",
+      "archivo": "background_a2a54dda88_Z25vYNj.webp",
+      "alt": "Image 2: Personas bailando en la escuela de baile ARIA"
+    }
+  ]
+}

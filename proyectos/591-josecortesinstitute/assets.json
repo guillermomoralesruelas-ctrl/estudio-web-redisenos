@@ -1,0 +1,313 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/02/insitute-white.png",
+      "archivo": "insitute-white.png",
+      "alt": "Image 1: insitute white"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2026/07/us.png",
+      "archivo": "us.png",
+      "alt": "Image 3: en_US"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/logo-jose-cortes.png",
+      "archivo": "logo-jose-cortes.png",
+      "alt": "Image 5: logo jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/grupal-jose-cortes-institute-768x458.png",
+      "archivo": "grupal-jose-cortes-institute-768x458.png",
+      "alt": "Image 7: grupal jose cortes institute"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/icono-cara.png",
+      "archivo": "icono-cara.png",
+      "alt": "Image 9: icono cara"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/cuerpo.png",
+      "archivo": "cuerpo.png",
+      "alt": "Image 11: cuerpo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjXs-AsV6AAEr22D73xb_Kr0ayoS61upSKdm5SScZw_5THoFXFSvhA=s120-c-rp-mo-br100",
+      "archivo": "ALV-UjXs-AsV6AAEr22D73xb_Kr0ayoS61upSKdm5SScZw_5THoFXFSvhA_s120-c-rp-mo-br100",
+      "alt": "Image 25"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a/ACg8ocIvf6LlodwK6Hm6FmAH0y36iivElqWtbvD4BVZQ7JE-pi0CQA=s120-c-rp-mo-br100",
+      "archivo": "ACg8ocIvf6LlodwK6Hm6FmAH0y36iivElqWtbvD4BVZQ7JE-pi0CQA_s120-c-rp-mo-br100",
+      "alt": "Image 39"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjWUElEG7BT4ckBLUZDPmMv40z7FETMymmyMXSIrSgu3T5ydX3tO=s120-c-rp-mo-br100",
+      "archivo": "ALV-UjWUElEG7BT4ckBLUZDPmMv40z7FETMymmyMXSIrSgu3T5ydX3tO_s120-c-rp-mo-br100",
+      "alt": "Image 45"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjV_ksWBcXy7Eot2CrF87meTxQ-7Kv285qCIWQsAwLwiMSLrYHTi=s120-c-rp-mo-br100",
+      "archivo": "ALV-UjV_ksWBcXy7Eot2CrF87meTxQ-7Kv285qCIWQsAwLwiMSLrYHTi_s120-c-rp-mo-br100",
+      "alt": "Image 59"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a/ACg8ocK9atdsVJ8bBfC6zFDP59KlMT9Zuw7JzNwr7fjnBYIjodx61g=s120-c-rp-mo-br100",
+      "archivo": "ACg8ocK9atdsVJ8bBfC6zFDP59KlMT9Zuw7JzNwr7fjnBYIjodx61g_s120-c-rp-mo-br100",
+      "alt": "Image 73"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/a-/ALV-UjVXlI3SC7ktRVNwWI7uEvB2k90T24fUfr1Eeoq2r-zhGwE99oqH=s120-c-rp-mo-br100",
+      "archivo": "ALV-UjVXlI3SC7ktRVNwWI7uEvB2k90T24fUfr1Eeoq2r-zhGwE99oqH_s120-c-rp-mo-br100",
+      "alt": "Image 87"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/doctoralia.png",
+      "archivo": "doctoralia.png",
+      "alt": "Image 103: doctoralia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/10/Doctor-Jose-cortes-A.png",
+      "archivo": "Doctor-Jose-cortes-A.png",
+      "alt": "Image 5: doctor josé cortés a"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2018/11/logo_footer.png",
+      "archivo": "logo_footer.png",
+      "alt": "Image 7: José Cortés logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/dermatologa-melda-equihua-.png",
+      "archivo": "dermatologa-melda-equihua-.png",
+      "alt": "Image 17: dermatologa melda equihua"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/04/fisioterapeuta-salma.png",
+      "archivo": "fisioterapeuta-salma.png",
+      "alt": "Image 19: fisioterapeuta salma"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/feranda-zarate-psicologa-y-sexologa.png",
+      "archivo": "feranda-zarate-psicologa-y-sexologa.png",
+      "alt": "Image 21: feranda zarate psicologa y sexologa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/medica-estetica-maria-lozada.png",
+      "archivo": "medica-estetica-maria-lozada.png",
+      "alt": "Image 23: medica estetica maria lozada"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/cirujano-plastico-jose-cortes.png",
+      "archivo": "cirujano-plastico-jose-cortes.png",
+      "alt": "Image 25: cirujano plastico jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/elementor/thumbs/AMCPER-jose-cortes-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cx3w.png",
+      "archivo": "AMCPER-jose-cortes-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cx3w.png",
+      "alt": "Image 45: Amcper Jose Cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/elementor/thumbs/american-cleft-palate-craniofacial-association-jose-cortes-cirujano-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cx3m.png",
+      "archivo": "american-cleft-palate-craniofacial-association-jose-cortes-cirujano-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cx3m.png",
+      "alt": "Image 47: American Cleft Palate Craniofacial Association Jose Cortes Cirujano"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/elementor/thumbs/asociacion-de-medicos-residentes-jose-cortes-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cww4.jpg",
+      "archivo": "asociacion-de-medicos-residentes-jose-cortes-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cww4.jpg",
+      "alt": "Image 49: Asociacion De Medicos Residentes Jose Cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/elementor/thumbs/federacion-ibero-latinoamericana-de-cirugia-plastica-jose-cortes-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cxfk.png",
+      "archivo": "federacion-ibero-latinoamericana-de-cirugia-plastica-jose-cortes-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cxfk.png",
+      "alt": "Image 51: Federacion Ibero Latinoamericana De Cirugia Plastica Jose Cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/elementor/thumbs/IFATS-EndorsedProgram-jose-cortes-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cx8w.jpg",
+      "archivo": "IFATS-EndorsedProgram-jose-cortes-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cx8w.jpg",
+      "alt": "Image 53: Ifats Endorsedprogram Jose Cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/elementor/thumbs/unnamed-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cxfk.png",
+      "archivo": "unnamed-pzlxtwv27h3cldnp9oyd246oi303esbs96xg56cxfk.png",
+      "alt": "Image 55: Unnamed"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/belleza-con-jose-cortes.png",
+      "archivo": "belleza-con-jose-cortes.png",
+      "alt": "Image 57: belleza con jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/icono-tratamiento-cejas.png",
+      "archivo": "icono-tratamiento-cejas.png",
+      "alt": "Image 5: icono tratamiento cejas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/icono-nariz.png",
+      "archivo": "icono-nariz.png",
+      "alt": "Image 7: icono nariz"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/icono-labios.png",
+      "archivo": "icono-labios.png",
+      "alt": "Image 9: icono labios"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/icono-oreja.png",
+      "archivo": "icono-oreja.png",
+      "alt": "Image 11: icono oreja"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/icono-mandibula.png",
+      "archivo": "icono-mandibula.png",
+      "alt": "Image 13: icono mandibula"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/icono-parpados.png",
+      "archivo": "icono-parpados.png",
+      "alt": "Image 15: icono parpados"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/icono-mejillas.png",
+      "archivo": "icono-mejillas.png",
+      "alt": "Image 17: icono mejillas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/icono-menton.png",
+      "archivo": "icono-menton.png",
+      "alt": "Image 19: icono menton"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/bichectomia-con-jose-cortes.png",
+      "archivo": "bichectomia-con-jose-cortes.png",
+      "alt": "Image 21: bichectomia con jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/pexia-de-jose-cortes.png",
+      "archivo": "pexia-de-jose-cortes.png",
+      "alt": "Image 23: pexia de jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/lifting-facial-con-jose-cortes.png",
+      "archivo": "lifting-facial-con-jose-cortes.png",
+      "alt": "Image 25: lifting facial con jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/flacidez-facial-con-jose-cortes.png",
+      "archivo": "flacidez-facial-con-jose-cortes.png",
+      "alt": "Image 27: flacidez facial con jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/blefaroplastia-con-jose-cortes.png",
+      "archivo": "blefaroplastia-con-jose-cortes.png",
+      "alt": "Image 29: blefaroplastia con jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/perfilamiento-y-armonizacion-con-jose-cortes.png",
+      "archivo": "perfilamiento-y-armonizacion-con-jose-cortes.png",
+      "alt": "Image 31: perfilamiento y armonizacion con jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/bioestimuladores-con-jose-cortes.png",
+      "archivo": "bioestimuladores-con-jose-cortes.png",
+      "alt": "Image 33: bioestimuladores con jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/05/rinoplastia-con-jose-cortes.png",
+      "archivo": "rinoplastia-con-jose-cortes.png",
+      "alt": "Image 35: rinoplastia con jose cortes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/cuello-icono.png",
+      "archivo": "cuello-icono.png",
+      "alt": "Image 5: cuello icono"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/icono-piel-.png",
+      "archivo": "icono-piel-.png",
+      "alt": "Image 7: icono piel"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/Gluteos.png",
+      "archivo": "Gluteos.png",
+      "alt": "Image 9: gluteos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/Mamas.png",
+      "archivo": "Mamas.png",
+      "alt": "Image 11: mamas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/Piernas.png",
+      "archivo": "Piernas.png",
+      "alt": "Image 13: piernas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/addomen.png",
+      "archivo": "addomen.png",
+      "alt": "Image 15: abdomen"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/Brazos.png",
+      "archivo": "Brazos.png",
+      "alt": "Image 17: brazos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://josecortes.com/wp-content/uploads/2025/03/tratamientos-para-cuerpo.png",
+      "archivo": "tratamientos-para-cuerpo.png",
+      "alt": "Image 43: tratamientos para cuerpo"
+    }
+  ]
+}

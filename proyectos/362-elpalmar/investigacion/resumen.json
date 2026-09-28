@@ -1,0 +1,261 @@
+{
+  "sitio": "https://elpalmarmzt.com/",
+  "fecha": "2026-09-26T07:18:50.599Z",
+  "motor": "jina-reader",
+  "slug": "elpalmar",
+  "nombre": "El Palmar",
+  "rubro": "GASTRONOMIA",
+  "ciudad": "Mazatlán, Sinaloa",
+  "plantilla": "restaurante-bar",
+  "paginasRevisadas": [
+    {
+      "url": "https://elpalmarmzt.com/",
+      "titulo": "El Palmar · Mariscos y Sushi · Mazatlán"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "526691005111",
+      "669 546 6940",
+      "669 100 5111",
+      "+526691005111",
+      "+52 669 100 5111",
+      "+52 669 546 6940",
+      "+526695466940",
+      "1923749420",
+      "5764607690672965485"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/526691005111?text=Hello%20El%20Palmar%2C%20I%20would%20like%20to%20place%20a%20delivery%20order.%20Can%20you%20help%20me%3F)",
+      "wa.me/526691005111)[Facebook](https://www.facebook.com/ElPalmarMzt/)[Instagram](https://www.instagram.com/elpalmarmzt/)",
+      "wa.me/526691005111)"
+    ],
+    "redes": [
+      "https://www.facebook.com/ElPalmarMzt/",
+      "https://www.instagram.com/elpalmarmzt/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://elpalmarmzt.com/assets/logo.png",
+      "alt": "Image 1: El Palmar Mariscos + Sushi"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/vamos%20empezando/torre-palmar.jpg",
+      "alt": "Image 4: Torre Palmar"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/vamos%20empezando/molca-palmar.JPG",
+      "alt": "Image 5: Molcajete Palmar"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/vamos%20empezando/campechana.jpg",
+      "alt": "Image 6: Campechana"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/vamos%20empezando/campechano-para-picar.jpg",
+      "alt": "Image 7: Campechano para Picar"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/vamos%20empezando/coctel-cam.jpg",
+      "alt": "Image 8: Cóctel de Camarón"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/vamos%20empezando/pate-cam.JPG",
+      "alt": "Image 9: Paté de Camarón"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/vamos%20empezando/cam-picar.jpg",
+      "alt": "Image 10: Camarón para Picar"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/aguachile.jpg",
+      "alt": "Image 18: Aguachile"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/ceviche-tres-puertos.png",
+      "alt": "Image 19: Ceviche Tres Puertos"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/ceviche-loreto.jpg",
+      "alt": "Image 20: Ceviche Loreto"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/ceviche-san-carlos.JPG",
+      "alt": "Image 21: Ceviche San Carlos"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/ceviche-sierra.jpg",
+      "alt": "Image 22: Ceviche Sierra"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/ceviche-vale.JPG",
+      "alt": "Image 23: Ceviche Vale"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/tostada-ceviche-cam.jpg",
+      "alt": "Image 24: Tostada de Ceviche"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/tostada-jaiba.jpg",
+      "alt": "Image 25: Tostada de Jaiba"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/tostada-mzt.JPG",
+      "alt": "Image 26: Tostada Mazatlán"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/ceviches%20aguachiles%20y%20tostadas/won-ton.JPG",
+      "alt": "Image 27: Won Ton"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/taquiza/tacos-gobernador.jpg",
+      "alt": "Image 38: Tacos Gobernador"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/taquiza/chorreada-palmar.jpg",
+      "alt": "Image 39: Chorreada Palmar"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/taquiza/taco-zaran-cam.JPG",
+      "alt": "Image 40: Taco Zarán de Camarón"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/taquiza/taco-zaran-pulpo.JPG",
+      "alt": "Image 41: Taco Zarán de Pulpo"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/caliente/pulpo-zaran.jpg",
+      "alt": "Image 42: Pulpo Zarán"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/caliente/filete-zaran.jpg",
+      "alt": "Image 43: Filete Zarán"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/caliente/cam-coco.JPG",
+      "alt": "Image 44: Camarón al Coco"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/caliente/chicharron-atun.jpg",
+      "alt": "Image 45: Chicharrón de Atún"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/caliente/hamburguesa.jpg",
+      "alt": "Image 46: Hamburguesa Palmar"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/sushi%20entradas/camarones-yu.jpg",
+      "alt": "Image 56: Camarones Yu Yu"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/sushi%20entradas/kushiages.JPG",
+      "alt": "Image 57: Kushiage"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/sushi%20entradas/nigiris.png",
+      "alt": "Image 58: Nigiris"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/arroz/tuna-tower.jpg",
+      "alt": "Image 59: Tuna Tower"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/arroz/yakimeshi-esp.JPG",
+      "alt": "Image 60: Yakimeshi Especial"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/arroz/yakimeshi-sup.JPG",
+      "alt": "Image 61: Yakimeshi Superior"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/arroz/yakimeshi.jpg",
+      "alt": "Image 62: Yakimeshi"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/rainbow-roll.jpg",
+      "alt": "Image 70: Rainbow Roll"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/favorito-especial.jpg",
+      "alt": "Image 71: Favorito Especial"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/mango-roll.JPG",
+      "alt": "Image 72: Mango Roll"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/guamuchilito-roll.jpg",
+      "alt": "Image 73: Guamuchilito Roll"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/kento-rol.JPG",
+      "alt": "Image 74: Kento Roll"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/power-rol.JPG",
+      "alt": "Image 75: Power Roll"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/ryo-roll.jpg",
+      "alt": "Image 76: Ryo Roll"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/avocado-esp.jpg",
+      "alt": "Image 77: Avocado Roll Especial"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/salmoncito-hot.jpg",
+      "alt": "Image 78: Salmoncito Hot"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/shake-roll.jpg",
+      "alt": "Image 79: Shake Roll"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/roll/no-name-rol.JPG",
+      "alt": "Image 80: No Name Roll"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/cocteles/margarita-mango.JPG",
+      "alt": "Image 92: Margarita de Mango"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/cocteles/mezcalina.png",
+      "alt": "Image 93: Mezcalina"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/cocteles/gin-tonic.png",
+      "alt": "Image 94: Gin Tonic"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/cocteles/paloma-tonic.png",
+      "alt": "Image 95: Paloma Tonic"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/cocteles/old-sapphire.png",
+      "alt": "Image 96: Old Sapphire"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/cocteles/pi%C3%B1ada.JPG",
+      "alt": "Image 97: Piñada"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/cocteles/sangria.JPG",
+      "alt": "Image 98: Sangría"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/Charola-peque%C3%B1a.png",
+      "alt": "Image 106: Charola Chica — sushi tray small"
+    },
+    {
+      "src": "https://elpalmarmzt.com/assets/Charola-grande.png",
+      "alt": "Image 107: Charola Grande — sushi tray large"
+    },
+    {
+      "src": "https://elpalmarmzt.com/",
+      "alt": "Image 109"
+    }
+  ]
+}

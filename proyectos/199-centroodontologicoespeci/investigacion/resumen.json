@@ -1,0 +1,111 @@
+{
+  "sitio": "https://coec.com.mx/",
+  "fecha": "2026-09-26T06:10:51.543Z",
+  "motor": "jina-reader",
+  "slug": "centroodontologicoespeci",
+  "nombre": "Centro Odontológico Especializado de la Costa",
+  "rubro": "SALUD",
+  "ciudad": "Puerto Escondido, Oaxaca",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://coec.com.mx/",
+      "titulo": "Centro Odontológico Especializado de la Costa | Puerto Escondido, Oaxaca | Dentista en Puerto Escondido | Dentista en Huatulco | Odontologo en Puerto Escondido | Odontologo en Huatulco | Los 20 Dentistas - Odontólogos más recomendados en Puerto Escondido | Dental Emergencies"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "529541270671",
+      "+52 954 104 2659",
+      "9541042659",
+      "954 104 2659"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "whatsapp.com/send?phone=529541270671)"
+    ],
+    "redes": [
+      "https://www.youtube.com/embed/DtX80eKeXlg",
+      "https://www.youtube.com/watch?v=n2M2O-xWIv8",
+      "https://www.facebook.com/coeccentroodontologico/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "http://societymonkey.com.mx/logos/btn_whatsapp.png",
+      "alt": "Image 1: Dentista"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/logo.png",
+      "alt": "Image 2: COEC"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/logo1.png",
+      "alt": "Image 4: COEC"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/services/services-1.jpg",
+      "alt": "Image 6: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/services/services-2.jpg",
+      "alt": "Image 7: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/services/services-3.jpg",
+      "alt": "Image 8: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/services/services-4.jpg",
+      "alt": "Image 9: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/services/services-5.jpg",
+      "alt": "Image 10: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/services/services-6.jpg",
+      "alt": "Image 11: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/services/services-7.jpg",
+      "alt": "Image 12: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/services/services-8.jpg",
+      "alt": "Image 13: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/services/services-9.jpg",
+      "alt": "Image 14: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/overview.png",
+      "alt": "Image 15: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/appointment/appointment-1.jpg",
+      "alt": "Image 16: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/appointment/appointment-2.jpg",
+      "alt": "Image 17: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/about/about-1.png",
+      "alt": "Image 18: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/review/review-2.jpg",
+      "alt": "Image 19: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/review/review-3.jpg",
+      "alt": "Image 20: image"
+    },
+    {
+      "src": "https://coec.com.mx/assets/images/review/review-1.jpg",
+      "alt": "Image 22: image"
+    }
+  ]
+}

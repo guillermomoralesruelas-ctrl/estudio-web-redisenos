@@ -1,0 +1,337 @@
+/* =====================================================
+   ANIMATIONS — Keyframes & Reusable Motion Classes
+   ===================================================== */
+
+/* ── Keyframes ────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-12px); }
+}
+
+@keyframes wavePulse {
+  0%, 100% { transform: scaleX(1) translateX(0); }
+  50%       { transform: scaleX(1.05) translateX(-2%); }
+}
+
+@keyframes waveFlow {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes bubbleFloat {
+  0%   { transform: translateX(-120px) translateY(0) scale(1); opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { transform: translateX(calc(100vw + 120px)) translateY(var(--bubble-y, -20px)) scale(var(--bubble-scale, 1.1)); opacity: 0; }
+}
+
+@keyframes bubblePop {
+  0%   { transform: translate(-50%, -50%) scale(1); opacity: 0.9; }
+  50%  { transform: translate(-50%, -50%) scale(1.4); opacity: 0.6; }
+  100% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+}
+
+@keyframes foamScatter {
+  0%   { transform: translate(-50%, -50%) scale(1); opacity: 0.8; }
+  100% { transform: translate(calc(-50% + var(--foam-x)), calc(-50% + var(--foam-y))) scale(0); opacity: 0; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 20px rgba(61, 200, 232, 0.30); }
+  50%       { box-shadow: 0 0 40px rgba(61, 200, 232, 0.60); }
+}
+
+@keyframes slideRight {
+  from { transform: translateX(-100%); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+
+@keyframes starsTwinkle {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50%       { opacity: 1;   transform: scale(1.3); }
+}
+
+/* ── Utility Animation Classes ────────────────────── */
+.animate-fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.animate-fade-up.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-fade-in {
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+}
+
+.animate-fade-in.is-visible {
+  opacity: 1;
+}
+
+/* Stagger delays */
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+.delay-5 { transition-delay: 0.5s; }
+.delay-6 { transition-delay: 0.6s; }
+
+/* ── CTA Button ───────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-8);
+  border-radius: var(--radius-full);
+  font-family: var(--font-body);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-sm);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: transform var(--transition-base), box-shadow var(--transition-base), background var(--transition-base);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn--primary {
+  background: var(--color-orange);
+  color: var(--color-white);
+  box-shadow: 0 4px 20px rgba(247, 148, 29, 0.35);
+}
+
+.btn--primary:hover {
+  background: var(--color-orange-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(247, 148, 29, 0.50);
+}
+
+.btn--primary:active {
+  transform: translateY(0);
+}
+
+.btn--outline {
+  border: 1px solid var(--color-cyan);
+  color: var(--color-cyan);
+  background: transparent;
+}
+
+.btn--outline:hover {
+  background: var(--color-cyan-20);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-cyan);
+}
+
+.btn--ghost {
+  color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn--ghost:hover {
+  color: var(--color-white);
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.07);
+  transform: translateY(-2px);
+}
+
+.btn--delivery {
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  border: 1px solid rgba(61, 200, 232, 0.28);
+  color: rgba(255, 255, 255, 0.65);
+  transition:
+    border-color 220ms ease,
+    color 220ms ease,
+    transform 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.btn--delivery::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(61, 200, 232, 0.08) 0%, transparent 65%);
+  opacity: 0;
+  transition: opacity 220ms ease;
+  pointer-events: none;
+}
+
+.btn--delivery::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -65%;
+  width: 38%;
+  height: 200%;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.07), transparent);
+  transform: skewX(-15deg);
+  transition: left 550ms ease;
+  pointer-events: none;
+}
+
+.btn--delivery:hover,
+.btn--delivery:focus-visible {
+  border-color: rgba(61, 200, 232, 0.55);
+  color: var(--color-white);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(61, 200, 232, 0.14), 0 0 0 1px rgba(61, 200, 232, 0.08);
+}
+
+.btn--delivery:hover::before,
+.btn--delivery:focus-visible::before {
+  opacity: 1;
+}
+
+.btn--delivery:hover::after,
+.btn--delivery:focus-visible::after {
+  left: 125%;
+}
+
+.btn--delivery:active {
+  transform: translateY(0);
+  transition-duration: 100ms;
+}
+
+/* ── Respect reduced motion ───────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-fade-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ══════════════════════════════════════════════════
+   LIGHTBOX
+   ══════════════════════════════════════════════════ */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-modal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-8);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms ease-out;
+}
+
+.lightbox.is-open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.lightbox__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(7, 24, 40, 0.94);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.lightbox__close {
+  position: absolute;
+  top: var(--space-6);
+  right: var(--space-6);
+  z-index: 2;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.lightbox__close:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.50);
+  transform: rotate(90deg);
+}
+
+.lightbox__close svg {
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+
+.lightbox__figure {
+  position: relative;
+  z-index: 2;
+  max-width: min(900px, 92vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  transform: scale(0.90);
+  transition: transform 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  margin: 0;
+}
+
+.lightbox.is-open .lightbox__figure {
+  transform: scale(1);
+}
+
+.lightbox__img {
+  display: block;
+  max-width: 100%;
+  max-height: 82vh;
+  object-fit: contain;
+  border-radius: var(--radius-lg);
+  box-shadow:
+    0 32px 80px rgba(0, 0, 0, 0.65),
+    0 0 0 1px rgba(61, 200, 232, 0.12);
+}
+
+.lightbox__caption {
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.50);
+  text-align: center;
+  margin: 0;
+  max-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lightbox,
+  .lightbox__figure {
+    transition: none;
+    transform: none;
+  }
+}

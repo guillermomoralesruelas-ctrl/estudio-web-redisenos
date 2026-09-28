@@ -1,0 +1,343 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/slider/01.jpg",
+      "archivo": "01.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/slider/02.jpg",
+      "archivo": "02.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/slider/03.jpg",
+      "archivo": "03.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/slider/04.jpg",
+      "archivo": "04.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/slider/05.jpg",
+      "archivo": "05.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/logo.png",
+      "archivo": "logo.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/home.jpg",
+      "archivo": "home.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-03.jpg",
+      "archivo": "thumb-03.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-10.jpg",
+      "archivo": "thumb-10.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-09.jpg",
+      "archivo": "thumb-09.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-14.jpg",
+      "archivo": "thumb-14.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-20.jpg",
+      "archivo": "thumb-20.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-07.jpg",
+      "archivo": "thumb-07.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-19.jpg",
+      "archivo": "thumb-19.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-18.jpg",
+      "archivo": "thumb-18.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/featured-01.jpg",
+      "archivo": "featured-01.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/featured-02.jpg",
+      "archivo": "featured-02.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/tesoros.png",
+      "archivo": "tesoros.png",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/haciendas.jpg",
+      "archivo": "haciendas.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/lgbt.png",
+      "archivo": "lgbt.png",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/cosy.png",
+      "archivo": "cosy.png",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-05.jpg",
+      "archivo": "thumb-05.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-16.jpg",
+      "archivo": "thumb-16.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-21.jpg",
+      "archivo": "thumb-21.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-06.jpg",
+      "archivo": "thumb-06.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-08.jpg",
+      "archivo": "thumb-08.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-01.jpg",
+      "archivo": "thumb-01.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/historia/01.jpg",
+      "archivo": "01.jpg",
+      "alt": "Image 7: Bodas en hacienda de Jalisco"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/historia/02.jpg",
+      "archivo": "02.jpg",
+      "alt": "Image 8: Salón para eventos en Zapopan "
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/historia/03.jpg",
+      "archivo": "03.jpg",
+      "alt": "Image 9: Hacienda en Guadalajara "
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/historia/04.jpg",
+      "archivo": "04.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-02.jpg",
+      "archivo": "thumb-02.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-17.jpg",
+      "archivo": "thumb-17.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-12.jpg",
+      "archivo": "thumb-12.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/alcoba-01.jpg",
+      "archivo": "alcoba-01.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/alcoba-02.jpg",
+      "archivo": "alcoba-02.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/alcoba-03.jpg",
+      "archivo": "alcoba-03.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/alcoba-04.jpg",
+      "archivo": "alcoba-04.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/alcoba-05.jpg",
+      "archivo": "alcoba-05.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/alcoba-06.jpg",
+      "archivo": "alcoba-06.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/suite-01.jpg",
+      "archivo": "suite-01.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/suite-02.jpg",
+      "archivo": "suite-02.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/suite-03.jpg",
+      "archivo": "suite-03.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/master-01.jpg",
+      "archivo": "master-01.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/master-02.jpg",
+      "archivo": "master-02.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/master-03.jpg",
+      "archivo": "master-03.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/master-04.jpg",
+      "archivo": "master-04.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/master-05.jpg",
+      "archivo": "master-05.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/presidencial-01.jpg",
+      "archivo": "presidencial-01.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/presidencial-02.jpg",
+      "archivo": "presidencial-02.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/rooms/presidencial-03.jpg",
+      "archivo": "presidencial-03.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-04.jpg",
+      "archivo": "thumb-04.jpg",
+      "alt": "Image 27"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-11.jpg",
+      "archivo": "thumb-11.jpg",
+      "alt": "Image 29"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-13.jpg",
+      "archivo": "thumb-13.jpg",
+      "alt": "Image 30"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-15.jpg",
+      "archivo": "thumb-15.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.haciendalamagdalena.com/img/gallery/thumb-22.jpg",
+      "archivo": "thumb-22.jpg",
+      "alt": "Image 9"
+    }
+  ]
+}

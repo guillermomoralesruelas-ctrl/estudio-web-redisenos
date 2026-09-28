@@ -1,0 +1,97 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/logo.png",
+      "archivo": "logo.png",
+      "alt": "Image 1: Logotipo de Hospital Veterinario Carson"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/pets.png",
+      "archivo": "pets.png",
+      "alt": "Image 2: Planes para Perros"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/cat.png",
+      "archivo": "cat.png",
+      "alt": "Image 3: Planes para Gatos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/dog.png",
+      "archivo": "dog.png",
+      "alt": "Image 4: Planes de Salud Perros"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/animal-shelter.png",
+      "archivo": "animal-shelter.png",
+      "alt": "Image 5: Planes de Salud Gatos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/logocaras-peq.png",
+      "archivo": "logocaras-peq.png",
+      "alt": "Image 6: Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/kidney.png",
+      "archivo": "kidney.png",
+      "alt": "Image 7: Nefrólogo Veterinario"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/galeria-1.webp",
+      "archivo": "galeria-1.webp",
+      "alt": "Image 10: Recepción del Hospital Veterinario Carson"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/galeria-5.webp",
+      "archivo": "galeria-5.webp",
+      "alt": "Image 11: Consulta veterinaria"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/galeria-4.webp",
+      "archivo": "galeria-4.webp",
+      "alt": "Image 12: Área de hospitalización"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/galeria-3.webp",
+      "archivo": "galeria-3.webp",
+      "alt": "Image 13: Equipo de diagnóstico veterinario"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/galeria-2.webp",
+      "archivo": "galeria-2.webp",
+      "alt": "Image 14: Quirófano veterinario"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/",
+      "archivo": "imagen",
+      "alt": "Image 15: Vista ampliada de galería"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/static/images/logo-nuevo-final.png",
+      "archivo": "logo-nuevo-final.png",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://hospitalcarson.com/servicios/static/images/logo-nuevo-final.png",
+      "archivo": "logo-nuevo-final.png",
+      "alt": "Image 6"
+    }
+  ]
+}

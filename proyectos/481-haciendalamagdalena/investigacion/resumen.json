@@ -1,0 +1,268 @@
+{
+  "sitio": "https://www.haciendalamagdalena.com/",
+  "fecha": "2026-09-26T08:12:47.859Z",
+  "motor": "jina-reader",
+  "slug": "haciendalamagdalena",
+  "nombre": "Hacienda La Magdalena",
+  "rubro": "EVENTOS",
+  "ciudad": "Zapopan, Jalisco",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.haciendalamagdalena.com/",
+      "titulo": "Hacienda La Magdalena"
+    },
+    {
+      "url": "https://www.haciendalamagdalena.com/index.html",
+      "titulo": "Hacienda La Magdalena"
+    },
+    {
+      "url": "https://www.haciendalamagdalena.com/historia.html",
+      "titulo": "Hacienda La Magdalena"
+    },
+    {
+      "url": "https://www.haciendalamagdalena.com/habitaciones.html",
+      "titulo": "Hacienda La Magdalena"
+    },
+    {
+      "url": "https://www.haciendalamagdalena.com/servicios.html",
+      "titulo": "Hacienda La Magdalena"
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": [],
+    "whatsapp": [],
+    "redes": [
+      "https://www.facebook.com/HaciendaLaMagdalenaHotel/",
+      "https://www.instagram.com/haciendalamagdalena/",
+      "https://www.youtube.com/watch?v=R4TRuw0DACo](https://www.youtube.com/watch?v=R4TRuw0DACo"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.haciendalamagdalena.com/img/slider/01.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/slider/02.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/slider/03.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/slider/04.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/slider/05.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/logo.png",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/home.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-03.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-10.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-09.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-14.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-20.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-07.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-19.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-18.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/featured-01.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/featured-02.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/tesoros.png",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/haciendas.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/lgbt.png",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/cosy.png",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-05.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-16.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-21.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-06.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-08.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-01.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/historia/01.jpg",
+      "alt": "Image 7: Bodas en hacienda de Jalisco"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/historia/02.jpg",
+      "alt": "Image 8: Salón para eventos en Zapopan "
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/historia/03.jpg",
+      "alt": "Image 9: Hacienda en Guadalajara "
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/historia/04.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-02.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-17.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-12.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/alcoba-01.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/alcoba-02.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/alcoba-03.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/alcoba-04.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/alcoba-05.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/alcoba-06.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/suite-01.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/suite-02.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/suite-03.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/master-01.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/master-02.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/master-03.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/master-04.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/master-05.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/presidencial-01.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/presidencial-02.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/rooms/presidencial-03.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-04.jpg",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-11.jpg",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-13.jpg",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-15.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.haciendalamagdalena.com/img/gallery/thumb-22.jpg",
+      "alt": "Image 9"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/logo.png",
+      "archivo": "logo.png",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762908288_LDFDP-74.jpg",
+      "archivo": "1762908288_LDFDP-74.jpg",
+      "alt": "Image 7: Distribuidor de Baños de Invitados"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762908374_FdP-46.jpg",
+      "archivo": "1762908374_FdP-46.jpg",
+      "alt": "Image 8: Fuente Pandurata Distribuidor de Baños Invitados"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762908507_FdP-60.jpg",
+      "archivo": "1762908507_FdP-60.jpg",
+      "alt": "Image 9: Suite de Preparacion"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762909888_FDP-35.jpg",
+      "archivo": "1762909888_FDP-35.jpg",
+      "alt": "Image 10: Fogata de Dia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762909866_FdP-59.jpg",
+      "archivo": "1762909866_FdP-59.jpg",
+      "alt": "Image 11: Ingreso de Noche"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762908099_FdP-94.jpg",
+      "archivo": "1762908099_FdP-94.jpg",
+      "alt": "Image 12: Baños Invitados Damas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762908150_FdP-91.jpg",
+      "archivo": "1762908150_FdP-91.jpg",
+      "alt": "Image 13: Baños Invitados Caballeros"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762908409_FdP-61.jpg",
+      "archivo": "1762908409_FdP-61.jpg",
+      "alt": "Image 14: Suite de Preparacion"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762908459_FdP-65.jpg",
+      "archivo": "1762908459_FdP-65.jpg",
+      "alt": "Image 15: Tocador Doble en Suite de Preparación"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762908436_FdP-62.jpg",
+      "archivo": "1762908436_FdP-62.jpg",
+      "alt": "Image 16: Baño Completo en Suite de Preparacion"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762732368_8%20(1",
+      "archivo": "1762732368_8__1",
+      "alt": "Image 17: Boda Madelin y Carlos Agosto 2025"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762912260_WhatsApp%20Image%202025-04-30%20at%2010.54.06%20AM%20(4",
+      "archivo": "1762912260_WhatsApp_Image_2025-04-30_at_10.54.06_AM__4",
+      "alt": "Image 18: Aniversario de Bodas Abril 2025"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762912294_WhatsApp%20Image%202025-04-30%20at%2010.54.05%20AM%20(5",
+      "archivo": "1762912294_WhatsApp_Image_2025-04-30_at_10.54.05_AM__5",
+      "alt": "Image 19: Abril 2025 - Aniversario de Bodas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762912474_WhatsApp%20Image%202025-04-30%20at%2010.54.06%20AM%20(3",
+      "archivo": "1762912474_WhatsApp_Image_2025-04-30_at_10.54.06_AM__3",
+      "alt": "Image 20: Aniversario de Boda Abril 2025"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/1762912326_WhatsApp%20Image%202025-04-30%20at%2010.54.04%20AM%20(8",
+      "archivo": "1762912326_WhatsApp_Image_2025-04-30_at_10.54.04_AM__8",
+      "alt": "Image 21: Ceremonia Civil Abril 2025"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/espacio_comodidades.png",
+      "archivo": "espacio_comodidades.png",
+      "alt": "Image 22: Espacios y Comodidades"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/galeria/gran_recepcion.jpg",
+      "archivo": "gran_recepcion.jpg",
+      "alt": "Image 23: Gran Recepción"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/colaboradores/1762731867_Copia%20de%20Monento%20Logotipo%2006.png",
+      "archivo": "1762731867_Copia_de_Monento_Logotipo_06.png",
+      "alt": "Image 24: Monento"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/colaboradores/1762909162_WhatsApp%20Image%202025-11-11%20at%201.17.27%20PM.jpeg",
+      "archivo": "1762909162_WhatsApp_Image_2025-11-11_at_1.17.27_PM.jpeg",
+      "alt": "Image 25: MAKERS By Grace Curiel"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/colaboradores/1762909767_log%20merak.JPG",
+      "archivo": "1762909767_log_merak.JPG",
+      "alt": "Image 26: Merak Eventos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/colaboradores/1762909344_WhatsApp%20Image%202025-10-28%20at%203.08.50%20PM.jpeg",
+      "archivo": "1762909344_WhatsApp_Image_2025-10-28_at_3.08.50_PM.jpeg",
+      "alt": "Image 27: BOGA EVENTOS"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/img/colaboradores/1762909551_Captura%20de%20pantalla%20(11",
+      "archivo": "1762909551_Captura_de_pantalla__11",
+      "alt": "Image 28: FUZIONES Banquetes Gourmet"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/",
+      "archivo": "imagen",
+      "alt": "Image 35"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/lang/img/colaboradores/1762731867_Copia%20de%20Monento%20Logotipo%2006.png",
+      "archivo": "1762731867_Copia_de_Monento_Logotipo_06.png",
+      "alt": "Image 24: Monento"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/lang/img/colaboradores/1762909162_WhatsApp%20Image%202025-11-11%20at%201.17.27%20PM.jpeg",
+      "archivo": "1762909162_WhatsApp_Image_2025-11-11_at_1.17.27_PM.jpeg",
+      "alt": "Image 25: MAKERS By Grace Curiel"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/lang/img/colaboradores/1762909767_log%20merak.JPG",
+      "archivo": "1762909767_log_merak.JPG",
+      "alt": "Image 26: Merak Eventos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/lang/img/colaboradores/1762909344_WhatsApp%20Image%202025-10-28%20at%203.08.50%20PM.jpeg",
+      "archivo": "1762909344_WhatsApp_Image_2025-10-28_at_3.08.50_PM.jpeg",
+      "alt": "Image 27: BOGA EVENTOS"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/lang/img/colaboradores/1762909551_Captura%20de%20pantalla%20(11",
+      "archivo": "1762909551_Captura_de_pantalla__11",
+      "alt": "Image 28: FUZIONES Banquetes Gourmet"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/lang/es",
+      "archivo": "es",
+      "alt": "Image 35"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://fuentedepiedra.mx/lang/en",
+      "archivo": "en",
+      "alt": "Image 35"
+    }
+  ]
+}

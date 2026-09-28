@@ -1,0 +1,331 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_0VyesKhF.png",
+      "archivo": "full_0VyesKhF.png",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/autocrop/d9e280c102aec4740c5dacead27bbbcb.png",
+      "archivo": "d9e280c102aec4740c5dacead27bbbcb.png",
+      "alt": "Image 2: Image description"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_e8nA4VWo.jpg",
+      "archivo": "full_e8nA4VWo.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_eJydaYB9.jpg",
+      "archivo": "full_eJydaYB9.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_hJaMAbSJ.jpg",
+      "archivo": "full_hJaMAbSJ.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/UOtnQSM7.jpg",
+      "archivo": "UOtnQSM7.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_iOCKQUyP.jpg",
+      "archivo": "full_iOCKQUyP.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_9gPuzT9F.jpg",
+      "archivo": "full_9gPuzT9F.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_CFdAlPrB.jpg",
+      "archivo": "full_CFdAlPrB.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_rXXdouH5.jpg",
+      "archivo": "full_rXXdouH5.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_5CHhrSXg.jpg",
+      "archivo": "full_5CHhrSXg.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_Vg905mS7.jpg",
+      "archivo": "full_Vg905mS7.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_6JPTNpcV.jpg",
+      "archivo": "full_6JPTNpcV.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_HYQm8IQV.jpg",
+      "archivo": "full_HYQm8IQV.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/fuoMNrXV.jpg",
+      "archivo": "fuoMNrXV.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_jwFY2Or5.jpg",
+      "archivo": "full_jwFY2Or5.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_cpHkaG2A.jpg",
+      "archivo": "full_cpHkaG2A.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_rmqissSy.jpg",
+      "archivo": "full_rmqissSy.jpg",
+      "alt": "Image 18: Queremos pastel!"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_PhfjoTDB.jpg",
+      "archivo": "full_PhfjoTDB.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_NbR0yUwQ.jpg",
+      "archivo": "full_NbR0yUwQ.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/kXqrjijU.jpg",
+      "archivo": "kXqrjijU.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_lJiTeInM.jpg",
+      "archivo": "full_lJiTeInM.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_ct5cD0Ob.jpg",
+      "archivo": "full_ct5cD0Ob.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_eUl1Zzwx.jpg",
+      "archivo": "full_eUl1Zzwx.jpg",
+      "alt": "Image 24"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_GMRFLJIO.jpg",
+      "archivo": "full_GMRFLJIO.jpg",
+      "alt": "Image 25"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_dBY5473c.jpg",
+      "archivo": "full_dBY5473c.jpg",
+      "alt": "Image 26"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_nHi3Ksn2.jpg",
+      "archivo": "full_nHi3Ksn2.jpg",
+      "alt": "Image 27"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_TFEjuiGa.jpg",
+      "archivo": "full_TFEjuiGa.jpg",
+      "alt": "Image 28"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_DJUbEDCR.jpg",
+      "archivo": "full_DJUbEDCR.jpg",
+      "alt": "Image 29"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_2SqyHQTC.jpg",
+      "archivo": "full_2SqyHQTC.jpg",
+      "alt": "Image 30"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_s24ZnK5c.jpg",
+      "archivo": "full_s24ZnK5c.jpg",
+      "alt": "Image 31"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/PMlT1pV7.jpg",
+      "archivo": "PMlT1pV7.jpg",
+      "alt": "Image 32"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_JNvsV6sY.jpg",
+      "archivo": "full_JNvsV6sY.jpg",
+      "alt": "Image 33"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_c86G0K46.jpg",
+      "archivo": "full_c86G0K46.jpg",
+      "alt": "Image 34"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_25Nlhjvp.jpg",
+      "archivo": "full_25Nlhjvp.jpg",
+      "alt": "Image 35"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_IfHN9pKk.jpg",
+      "archivo": "full_IfHN9pKk.jpg",
+      "alt": "Image 36"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/xklMv0ok.jpg",
+      "archivo": "xklMv0ok.jpg",
+      "alt": "Image 37"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_n2oagnkJ.jpg",
+      "archivo": "full_n2oagnkJ.jpg",
+      "alt": "Image 38"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/autocrop/6d171863a518b626c673e9421c120143.png",
+      "archivo": "6d171863a518b626c673e9421c120143.png",
+      "alt": "Image 39: Image description"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cdn0.bodas.com.mx/usr/7/0/8/2/utpp_4397082.jpg?r=45659",
+      "archivo": "utpp_4397082.jpg",
+      "alt": "Image 40: Giovanna"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/autocrop/ca7a51049f592fc0d4757aa0cf2627b6.png",
+      "archivo": "ca7a51049f592fc0d4757aa0cf2627b6.png",
+      "alt": "Image 41: Image description"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/autocrop/69ba24f7809b205c01f2d05d3b31c3dc.png",
+      "archivo": "69ba24f7809b205c01f2d05d3b31c3dc.png",
+      "alt": "Image 2: Image description"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_eeSx3Eld.jpg",
+      "archivo": "full_eeSx3Eld.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_99O7Kwpy.jpg",
+      "archivo": "full_99O7Kwpy.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/autocrop/9696d5dbad052bdeff98f176f078f7d5.jpg",
+      "archivo": "9696d5dbad052bdeff98f176f078f7d5.jpg",
+      "alt": "Image 6: Image description"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_0gT377cv.jpg",
+      "archivo": "full_0gT377cv.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/autocrop/c04d0e57254a422f38c6d9f6286b6813.png",
+      "archivo": "c04d0e57254a422f38c6d9f6286b6813.png",
+      "alt": "Image 8: Image description"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/autocrop/91d33be325baa16a0db4852b16a41eb7.png",
+      "archivo": "91d33be325baa16a0db4852b16a41eb7.png",
+      "alt": "Image 2: Image description"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_w05zg9Gn.jpg",
+      "archivo": "full_w05zg9Gn.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_P5tUYzsK.jpg",
+      "archivo": "full_P5tUYzsK.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/full_hc3YTa9e.jpg",
+      "archivo": "full_hc3YTa9e.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/uploads/s/7/z/a/7zakljd088o1/img/autocrop/df8d97958a06eea6267d8519772748d6.png",
+      "archivo": "df8d97958a06eea6267d8519772748d6.png",
+      "alt": "Image 6: Image description"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/paquetesdefotografiayvideoxvanos",
+      "archivo": "paquetesdefotografiayvideoxvanos",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "http://videofilmaciones.mx/widgets/instagram/img/data.png",
+      "archivo": "data.png",
+      "alt": "Image 39"
+    }
+  ]
+}

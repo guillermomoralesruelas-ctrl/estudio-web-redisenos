@@ -1,0 +1,139 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/logoJM.png",
+      "archivo": "logoJM.png",
+      "alt": "Image 1: Logo Just Smiles"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/just-smiles-dentist-puerto-vallarta.webp",
+      "archivo": "just-smiles-dentist-puerto-vallarta.webp",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/just-smiles-dental-treatment-puerto-vallarta.webp",
+      "archivo": "just-smiles-dental-treatment-puerto-vallarta.webp",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/icons/tooth-4.png",
+      "archivo": "tooth-4.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/icons/tooth-1.png",
+      "archivo": "tooth-1.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/icons/tooth-3.png",
+      "archivo": "tooth-3.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/icons/tooth-5.png",
+      "archivo": "tooth-5.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/misc/s2.webp",
+      "archivo": "s2.webp",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/misc/s3.webp",
+      "archivo": "s3.webp",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/misc/p3.webp",
+      "archivo": "p3.webp",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/team/1.webp",
+      "archivo": "1.webp",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/team/2.webp",
+      "archivo": "2.webp",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/team/4.webp",
+      "archivo": "4.webp",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/team/8.webp",
+      "archivo": "8.webp",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/testimonial/female.png",
+      "archivo": "female.png",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/testimonial/male.png",
+      "archivo": "male.png",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/footer_logoJM.png",
+      "archivo": "footer_logoJM.png",
+      "alt": "Image 33: Just Smiles Dental Clinic logo Footer"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/icons/tooth-2.png",
+      "archivo": "tooth-2.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/icons/tooth-7.png",
+      "archivo": "tooth-7.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/misc/l3.webp",
+      "archivo": "l3.webp",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/misc/l2.webp",
+      "archivo": "l2.webp",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.justsmiles.mx/images/misc/c1.webp",
+      "archivo": "c1.webp",
+      "alt": "Image 6"
+    }
+  ]
+}

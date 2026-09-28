@@ -1,0 +1,159 @@
+{
+  "sitio": "https://holboxtours.com/",
+  "fecha": "2026-09-26T08:18:32.740Z",
+  "motor": "jina-reader",
+  "slug": "holboxtours",
+  "nombre": "Holbox Tours",
+  "rubro": "TURISMO",
+  "ciudad": "Holbox, Quintana Roo",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://holboxtours.com/",
+      "titulo": "2026 Holbox Whale Shark Tours Cancun - Riviera Maya"
+    },
+    {
+      "url": "https://holboxtours.com/index.html",
+      "titulo": "2026 Holbox Whale Shark Tours Cancun - Riviera Maya"
+    },
+    {
+      "url": "https://holboxtours.com/holboxwhalesharktours.html",
+      "titulo": "Holbox Tours en Isla Holbox México"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 984 108 7514",
+      "01 984 108 7514"
+    ],
+    "emails": [
+      "info@holboxtours.com",
+      "info@holboxguide.com"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.youtube.com/watch?v=MFh44GXypco",
+      "https://www.facebook.com/HolboxGuide/?fref=ts",
+      "https://www.instagram.com/holboxguide/",
+      "https://twitter.com/holboxguide",
+      "https://www.youtube.com/c/HolboxGuide",
+      "https://twitter.com/holboxadventure",
+      "https://www.facebook.com/HolboxAdventure/?fref=ts",
+      "https://www.youtube.com/channel/UCoFrxFPVR44UNnNl46UFIOA"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://holboxtours.com/img/logo-nav.png",
+      "alt": "Image 1: logo"
+    },
+    {
+      "src": "https://holboxtours.com/img/logo-head.png",
+      "alt": "Image 2: logo"
+    },
+    {
+      "src": "https://holboxtours.com/img/play-btn.png",
+      "alt": "Image 3: play"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-tiburonballena01.jpg",
+      "alt": "Image 4: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-tiburonballena03.jpg",
+      "alt": "Image 5: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-bio.jpg",
+      "alt": "Image 6: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-snorkel-en-cabo-catoche.jpg",
+      "alt": "Image 7: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-descubreholbox.jpg",
+      "alt": "Image 8: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-clasico.jpg",
+      "alt": "Image 9: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-chichen-itza.jpg",
+      "alt": "Image 10: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-ekbalam.jpg",
+      "alt": "Image 11: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-tulum.jpg",
+      "alt": "Image 12: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/isla-holbox.png",
+      "alt": "Image 13: feature"
+    },
+    {
+      "src": "https://holboxtours.com/img/tiburonballenaholbox.jpg",
+      "alt": "Image 14: feature"
+    },
+    {
+      "src": "https://holboxtours.com/img/9h.png",
+      "alt": "Image 15: 9h"
+    },
+    {
+      "src": "https://holboxtours.com/img/HolboxAdventure.png",
+      "alt": "Image 16: HolboxAdventure"
+    },
+    {
+      "src": "https://holboxtours.com/img/iholbox.png",
+      "alt": "Image 17: holboxguide-magazine"
+    },
+    {
+      "src": "https://holboxtours.com/img/whalesharkholbox.png",
+      "alt": "Image 18: Whale Shark Holbox"
+    },
+    {
+      "src": "https://holboxtours.com/img/HolboxGuide.png",
+      "alt": "Image 19: HolboxGuide"
+    },
+    {
+      "src": "https://holboxtours.com/img/holbox-tv.png",
+      "alt": "Image 20: Holbox TV"
+    },
+    {
+      "src": "https://holboxtours.com/img/cachorro.png",
+      "alt": "Image 21: Rentadora el cachorro"
+    },
+    {
+      "src": "https://holboxtours.com/img/play-btn-vs.png",
+      "alt": "Image 5: play"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-tiburonballena02.jpg",
+      "alt": "Image 8: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/tour-pesca.jpg",
+      "alt": "Image 10: Team Member"
+    },
+    {
+      "src": "https://holboxtours.com/img/TripAdvisor.png",
+      "alt": "Image 15: TripAdvisor"
+    },
+    {
+      "src": "https://holboxtours.com/img/Whalesark-holbox.png",
+      "alt": "Image 17: Whalesark-holbox"
+    },
+    {
+      "src": "https://holboxtours.com/img/holboxguide-magazine.png",
+      "alt": "Image 18: holboxguide-magazine"
+    },
+    {
+      "src": "https://holboxtours.com/img/isla-holbox-transfers.png",
+      "alt": "Image 19: isla-holbox-transfers"
+    }
+  ]
+}

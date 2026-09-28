@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?5dfy1m');
+  src:  url('fonts/icomoon.eot?5dfy1m#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5dfy1m') format('truetype'),
+    url('fonts/icomoon.woff?5dfy1m') format('woff'),
+    url('fonts/icomoon.svg?5dfy1m#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-aguas:before {
+  content: "\e900";
+}
+.icon-Hotel:before {
+  content: "\e901";
+}
+.icon-icono-las-jaras:before {
+  content: "\e902";
+}
+.icon-restaurante:before {
+  content: "\e903";
+}
+.icon-spa:before {
+  content: "\e904";
+}
+.icon-Termas:before {
+  content: "\e905";
+}
+.icon-iconos-website-02:before {
+  content: "\e907";
+}
+.icon-iconos-website-01:before {
+  content: "\e906";
+}
+.icon-iconos-website-03:before {
+  content: "\e908";
+}
+.icon-iconos-website-04:before {
+  content: "\e909";
+}
+.icon-iconos-website-05:before {
+  content: "\e90a";
+}
+.icon-iconos-website-06:before {
+  content: "\e90b";
+}
+.icon-iconos-website-08:before {
+  content: "\e90d";
+}
+.icon-iconos-website-09:before {
+  content: "\e90e";
+}
+.icon-iconos-website-10:before {
+  content: "\e90f";
+}
+.icon-iconos-website-11:before {
+  content: "\e910";
+}
+.icon-iconos-website-12:before {
+  content: "\e911";
+}
+.icon-iconos-website-13:before {
+  content: "\e912";
+}
+.icon-iconos-website-14:before {
+  content: "\e913";
+}
+.icon-iconos-website-07:before {
+  content: "\e90c";
+}
+.icon-iconos-website-15:before {
+  content: "\e914";
+}

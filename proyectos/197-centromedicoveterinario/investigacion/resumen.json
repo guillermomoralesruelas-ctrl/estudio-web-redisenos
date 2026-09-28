@@ -1,0 +1,232 @@
+{
+  "sitio": "https://cmvet.mx/",
+  "fecha": "2026-09-26T06:10:10.127Z",
+  "motor": "jina-reader",
+  "slug": "centromedicoveterinario",
+  "nombre": "Centro Médico Veterinario",
+  "rubro": "SALUD",
+  "ciudad": "San Luis Potosí, San Luis Potosí",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://cmvet.mx/",
+      "titulo": "Centro Médico Veterinario"
+    },
+    {
+      "url": "https://cmvet.mx/es/nosotros",
+      "titulo": "Centro Médico Veterinario"
+    },
+    {
+      "url": "https://cmvet.mx/es/equipo",
+      "titulo": "Centro Médico Veterinario"
+    },
+    {
+      "url": "https://cmvet.mx/es/servicios",
+      "titulo": "Centro Médico Veterinario"
+    },
+    {
+      "url": "https://cmvet.mx/es/tienda",
+      "titulo": "Centro Médico Veterinario"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "928) 482-7103",
+      "+9284827103",
+      "011-52 (653) 534-2731",
+      "011-521 (928) 482-7103  \n011-521 (653) 538-3527",
+      "653) 538 4113",
+      "+52 653 538 3527",
+      "+526535383527",
+      "+5216535384113",
+      "653) 534 27 31   \n(928) 482 71 03"
+    ],
+    "emails": [
+      "Recepcion@cmvet.com.mx",
+      "sergio.garcia@cmvet.com.mx"
+    ],
+    "whatsapp": [
+      "wa.me/+5216535384113)",
+      "whatsapp.com/)"
+    ],
+    "redes": [
+      "https://www.facebook.com/centromedicoveterinarioslrc",
+      "https://www.instagram.com/centromedicoveterinarioslrc/",
+      "https://www.youtube.com/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/cmv_logo-white.png",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/home/Img.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/about/img-1-nobg.png",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://placehold.co/100x100",
+      "alt": "Image 4: img"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/cmv_logo.png",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/banner/bg-about.jpg",
+      "alt": "Image 2: Banner Image"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/about/img-1.png",
+      "alt": "Image 3: Veterinary Team at Work"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/about/img-2.png",
+      "alt": "Image 4: Main Image"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/about/bg.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/banner/bg-team.jpg",
+      "alt": "Image 2: Banner Image"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-1.png",
+      "alt": "Image 3: Sergio Miguel García Moreno"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-20.png",
+      "alt": "Image 4: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-3.png",
+      "alt": "Image 5: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-5.png",
+      "alt": "Image 6: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-6.png",
+      "alt": "Image 7: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-7.png",
+      "alt": "Image 8: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-8.png",
+      "alt": "Image 9: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-9.png",
+      "alt": "Image 10: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-10.png",
+      "alt": "Image 11: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-12.png",
+      "alt": "Image 12: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-13.png",
+      "alt": "Image 13: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-14.png",
+      "alt": "Image 14: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-15.png",
+      "alt": "Image 15: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-16.png",
+      "alt": "Image 16: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-17.png",
+      "alt": "Image 17: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-18.png",
+      "alt": "Image 18: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-19.png",
+      "alt": "Image 19: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/team/Specialist-21.png",
+      "alt": "Image 20: Team"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/banner/bg-services.jpg",
+      "alt": "Image 2: Banner Image"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/services/1.png",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/services/2.png",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/services/3.png",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/services/4.png",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/services/5.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/services/6.png",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/services/7.png",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/css/img/banner/bg-shop.jpg",
+      "alt": "Image 2: Banner Image"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/img/inventario_productos/producto_71_914.webp",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/img/inventario_productos/producto_2006_472.webp",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/img/inventario_productos/producto_2792_850.webp",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/img/inventario_productos/producto_851_739.webp",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/img/inventario_productos/producto_2791_868.webp",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://cmvet.mx/views/assets/img/inventario_productos/producto_2790_100.webp",
+      "alt": "Image 8"
+    }
+  ]
+}

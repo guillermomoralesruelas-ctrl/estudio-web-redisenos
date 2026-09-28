@@ -1,0 +1,175 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/logo-nav.png",
+      "archivo": "logo-nav.png",
+      "alt": "Image 1: logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/logo-head.png",
+      "archivo": "logo-head.png",
+      "alt": "Image 2: logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/play-btn.png",
+      "archivo": "play-btn.png",
+      "alt": "Image 3: play"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-tiburonballena01.jpg",
+      "archivo": "tour-tiburonballena01.jpg",
+      "alt": "Image 4: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-tiburonballena03.jpg",
+      "archivo": "tour-tiburonballena03.jpg",
+      "alt": "Image 5: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-bio.jpg",
+      "archivo": "tour-bio.jpg",
+      "alt": "Image 6: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-snorkel-en-cabo-catoche.jpg",
+      "archivo": "tour-snorkel-en-cabo-catoche.jpg",
+      "alt": "Image 7: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-descubreholbox.jpg",
+      "archivo": "tour-descubreholbox.jpg",
+      "alt": "Image 8: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-clasico.jpg",
+      "archivo": "tour-clasico.jpg",
+      "alt": "Image 9: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-chichen-itza.jpg",
+      "archivo": "tour-chichen-itza.jpg",
+      "alt": "Image 10: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-ekbalam.jpg",
+      "archivo": "tour-ekbalam.jpg",
+      "alt": "Image 11: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-tulum.jpg",
+      "archivo": "tour-tulum.jpg",
+      "alt": "Image 12: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/isla-holbox.png",
+      "archivo": "isla-holbox.png",
+      "alt": "Image 13: feature"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tiburonballenaholbox.jpg",
+      "archivo": "tiburonballenaholbox.jpg",
+      "alt": "Image 14: feature"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/9h.png",
+      "archivo": "9h.png",
+      "alt": "Image 15: 9h"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/HolboxAdventure.png",
+      "archivo": "HolboxAdventure.png",
+      "alt": "Image 16: HolboxAdventure"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/iholbox.png",
+      "archivo": "iholbox.png",
+      "alt": "Image 17: holboxguide-magazine"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/whalesharkholbox.png",
+      "archivo": "whalesharkholbox.png",
+      "alt": "Image 18: Whale Shark Holbox"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/HolboxGuide.png",
+      "archivo": "HolboxGuide.png",
+      "alt": "Image 19: HolboxGuide"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/holbox-tv.png",
+      "archivo": "holbox-tv.png",
+      "alt": "Image 20: Holbox TV"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/cachorro.png",
+      "archivo": "cachorro.png",
+      "alt": "Image 21: Rentadora el cachorro"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/play-btn-vs.png",
+      "archivo": "play-btn-vs.png",
+      "alt": "Image 5: play"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-tiburonballena02.jpg",
+      "archivo": "tour-tiburonballena02.jpg",
+      "alt": "Image 8: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/tour-pesca.jpg",
+      "archivo": "tour-pesca.jpg",
+      "alt": "Image 10: Team Member"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/TripAdvisor.png",
+      "archivo": "TripAdvisor.png",
+      "alt": "Image 15: TripAdvisor"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/Whalesark-holbox.png",
+      "archivo": "Whalesark-holbox.png",
+      "alt": "Image 17: Whalesark-holbox"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/holboxguide-magazine.png",
+      "archivo": "holboxguide-magazine.png",
+      "alt": "Image 18: holboxguide-magazine"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://holboxtours.com/img/isla-holbox-transfers.png",
+      "archivo": "isla-holbox-transfers.png",
+      "alt": "Image 19: isla-holbox-transfers"
+    }
+  ]
+}

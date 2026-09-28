@@ -1,0 +1,426 @@
+/* =====================================================
+   ABOUT — Story & Features Section
+   ===================================================== */
+
+.about {
+  background: var(--bg-primary);
+  padding: var(--space-32) 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle background accent */
+.about::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  right: -15%;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(61, 200, 232, 0.04) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ── Two-column layout ────────────────────────────── */
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-16);
+  align-items: center;
+  margin-bottom: var(--space-24);
+}
+
+/* ── Text side ────────────────────────────────────── */
+.about__text .tag {
+  margin-bottom: var(--space-5);
+}
+
+.about__text h2 {
+  margin-bottom: var(--space-6);
+}
+
+.about__text p {
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: var(--space-5);
+}
+
+.about__text p:last-of-type {
+  margin-bottom: var(--space-8);
+}
+
+/* ── Visual side — Stats ring ─────────────────────── */
+.about__visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 420px;
+}
+
+/* Large decorative circle */
+.about__ring {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  border: 1px solid rgba(61, 200, 232, 0.12);
+  box-shadow:
+    0 0 60px rgba(61, 200, 232, 0.06),
+    inset 0 0 60px rgba(61, 200, 232, 0.03);
+}
+
+.about__ring--outer {
+  width: 420px;
+  height: 420px;
+  border-color: rgba(61, 200, 232, 0.06);
+  animation: spin 40s linear infinite;
+}
+
+/* Logo center */
+.about__logo-center {
+  position: relative;
+  z-index: 2;
+}
+
+.about__logo-center img,
+.about__logo-center svg {
+  width: 180px;
+  height: auto;
+  filter: drop-shadow(0 0 24px rgba(61, 200, 232, 0.25));
+}
+
+/* Floating stat pills around the circle */
+.about__stat {
+  position: absolute;
+  z-index: 3;
+  background: var(--bg-glass);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(61, 200, 232, 0.18);
+  border-radius: var(--radius-xl);
+  padding: var(--space-4) var(--space-6);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.about__stat--1 { top: 5%;  left: -5%; }
+.about__stat--2 { top: 5%;  right: -5%; }
+.about__stat--3 { bottom: 5%; left: 50%; transform: translateX(-50%); }
+
+.about__stat strong {
+  display: block;
+  font-family: var(--font-brand);
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-light);
+  color: var(--color-orange);
+  line-height: 1;
+  margin-bottom: var(--space-1);
+}
+
+.about__stat span {
+  font-size: var(--fs-xs);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* ── Mission & Vision ─────────────────────────────── */
+.about__mv {
+  padding: var(--space-16) 0 var(--space-10);
+}
+
+.about__mv-header {
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.about__mv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+}
+
+.mv-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: var(--radius-xl);
+  padding: var(--space-10);
+  position: relative;
+  overflow: hidden;
+  transition: background var(--transition-base), border-color var(--transition-base), transform var(--transition-base);
+}
+
+.mv-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+}
+
+.mv-card--mission::before {
+  background: linear-gradient(90deg, var(--color-orange-dark), var(--color-orange-light));
+}
+
+.mv-card--vision::before {
+  background: linear-gradient(90deg, var(--color-cyan-dark), var(--color-cyan-light));
+}
+
+.mv-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.12);
+  transform: translateY(-4px);
+}
+
+.mv-card__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-6);
+}
+
+.mv-card__icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.mv-card--mission .mv-card__icon {
+  background: var(--color-orange-15);
+  border: 1px solid rgba(247, 148, 29, 0.20);
+  color: var(--color-orange);
+}
+
+.mv-card--vision .mv-card__icon {
+  background: var(--color-cyan-10);
+  border: 1px solid rgba(61, 200, 232, 0.20);
+  color: var(--color-cyan);
+}
+
+.mv-card h3 {
+  font-size: var(--fs-xl);
+  margin-bottom: var(--space-4);
+}
+
+.mv-card p {
+  font-size: var(--fs-base);
+  color: rgba(255, 255, 255, 0.65);
+  line-height: var(--lh-relaxed);
+  max-width: none;
+}
+
+/* ── Values ───────────────────────────────────────── */
+.about__values {
+  padding: var(--space-4) 0 var(--space-20);
+}
+
+.about__values-header {
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.about__values-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--space-5);
+}
+
+.value-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background var(--transition-base), border-color var(--transition-base), transform var(--transition-base);
+}
+
+.value-card:hover {
+  background: rgba(61, 200, 232, 0.04);
+  border-color: rgba(61, 200, 232, 0.18);
+  transform: translateY(-4px);
+}
+
+.value-card__icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: var(--radius-lg);
+  background: var(--color-orange-15);
+  border: 1px solid rgba(247, 148, 29, 0.20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-4);
+  color: var(--color-orange);
+}
+
+.value-card__icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.value-card h4 {
+  font-family: var(--font-brand);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-semibold);
+  color: var(--color-white);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-2);
+}
+
+.value-card em {
+  display: block;
+  font-style: italic;
+  font-size: var(--fs-xs);
+  color: var(--color-cyan);
+  margin-bottom: var(--space-3);
+  line-height: var(--lh-snug);
+}
+
+.value-card p {
+  font-size: var(--fs-xs);
+  color: rgba(255, 255, 255, 0.5);
+  line-height: var(--lh-normal);
+  max-width: none;
+}
+
+/* ── Wave separator at bottom ─────────────────────── */
+.about__wave {
+  position: relative;
+  margin-top: auto;
+  line-height: 0;
+}
+
+/* ── Responsive ───────────────────────────────────── */
+@media (max-width: 1024px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-12);
+  }
+
+  .about__visual {
+    min-height: 320px;
+  }
+
+  .about__ring { width: 280px; height: 280px; }
+  .about__ring--outer { width: 340px; height: 340px; }
+
+  /* Values: 3 cols on tablet */
+  .about__values-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  /* Shrink rings so they fit a tablet/phablet container */
+  .about__ring         { width: 220px; height: 220px; }
+  .about__ring--outer  { width: 280px; height: 280px; }
+  .about__visual       { min-height: 280px; }
+
+  .about__stat--1 { top: 4%;  left: 0; }
+  .about__stat--2 { top: 4%;  right: 0; }
+  .about__stat--3 { bottom: 0; left: 50%; transform: translateX(-50%); }
+
+  /* Mission & Vision */
+  .about__mv-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Values: 2 cols on tablet/mobile */
+  .about__values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Last value card alone → center it */
+  .value-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: calc(50% - var(--space-5) / 2);
+    margin: 0 auto;
+  }
+}
+
+/* ── Mobile visual (≤ 580px): mismo diseño circular, reescalado ── */
+@media (max-width: 580px) {
+
+  /* Restaurar comportamiento flex original, reducir altura mínima */
+  .about__visual {
+    min-height: 320px;
+    flex-direction: unset;
+    flex-wrap: unset;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+  }
+
+  /* Rings más pequeños para caber en ~335px de ancho */
+  .about__ring         { width: 190px; height: 190px; }
+  .about__ring--outer  { width: 250px; height: 250px; }
+
+  /* Logo más pequeño, centrado dentro del ring */
+  .about__logo-center {
+    flex: none;
+    position: relative;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+
+  .about__logo-center img {
+    width: 96px;
+    height: auto;
+    filter: drop-shadow(0 0 16px rgba(61, 200, 232, 0.30));
+  }
+
+  /* Stats: mantener absolute, posicionar para no salirse del contenedor */
+  .about__stat {
+    position: absolute;
+    max-width: 100px;
+    padding: var(--space-2) var(--space-3);
+    white-space: normal;  /* permite wrap en pantallas estrechas */
+  }
+
+  .about__stat--1 { top: 26%; left: 0;    transform: none; }
+  .about__stat--2 { top: 26%; right: 0;   transform: none; }
+  .about__stat--3 { bottom: 3%; left: 50%; transform: translateX(-50%); }
+
+  .about__stat strong { font-size: var(--fs-lg); }
+
+  .about__stat span {
+    font-size: 9px;
+    letter-spacing: 0.05em;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .value-card:last-child:nth-child(odd) {
+    grid-column: auto;
+    max-width: none;
+    margin: 0;
+  }
+
+  .mv-card {
+    padding: var(--space-8);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about__ring--outer {
+    animation: none;
+  }
+}

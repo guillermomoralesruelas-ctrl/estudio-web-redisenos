@@ -1,0 +1,325 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/06/LOGO-16-ANOS-01-scaled.png",
+      "archivo": "LOGO-16-ANOS-01-scaled.png",
+      "alt": "Image 1: logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/slide5.jpg",
+      "archivo": "slide5.jpg",
+      "alt": "Image 4: slide5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/slide3.jpg",
+      "archivo": "slide3.jpg",
+      "alt": "Image 5: slide3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/plugins/ultimate-responsive-image-slider/assets/css/images/blank.gif",
+      "archivo": "blank.gif",
+      "alt": "Image 6: slide4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2026/07/BANNER-3.png",
+      "archivo": "BANNER-3.png",
+      "alt": "Image 8: BANNER-3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/COCINA-1-GDL-370x370.jpg",
+      "archivo": "COCINA-1-GDL-370x370.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/COCINA-1-LEON-370x370.jpeg",
+      "archivo": "COCINA-1-LEON-370x370.jpeg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/COCINA-1-QRO-370x370.jpg",
+      "archivo": "COCINA-1-QRO-370x370.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2026/03/cocina-toluca-370x370.png",
+      "archivo": "cocina-toluca-370x370.png",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-04-at-16.01.22_25e62132-370x370.jpg",
+      "archivo": "WhatsApp-Image-2025-08-04-at-16.01.22_25e62132-370x370.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-28-at-10.21.26_13918651-370x370.jpg",
+      "archivo": "WhatsApp-Image-2025-05-28-at-10.21.26_13918651-370x370.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/iconosnuevos-01.jpg",
+      "archivo": "iconosnuevos-01.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/iconosnuevos-04.jpg",
+      "archivo": "iconosnuevos-04.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/iconosnuevos-05.jpg",
+      "archivo": "iconosnuevos-05.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/iconosnuevos-07.jpg",
+      "archivo": "iconosnuevos-07.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/iconosnuevos-06.jpg",
+      "archivo": "iconosnuevos-06.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/iconosnuevos-13.jpg",
+      "archivo": "iconosnuevos-13.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/iconosnuevos-09.jpg",
+      "archivo": "iconosnuevos-09.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/iconosnuevos-12.jpg",
+      "archivo": "iconosnuevos-12.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/03/iconosnuevos-10.jpg",
+      "archivo": "iconosnuevos-10.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2025/10/INSUMOS-I-02.jpg",
+      "archivo": "INSUMOS-I-02.jpg",
+      "alt": "Image 24"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2023/02/Untitled-1.png",
+      "archivo": "Untitled-1.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2023/02/Repostero-1.png",
+      "archivo": "Repostero-1.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2023/02/RP.png",
+      "archivo": "RP.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2023/02/PM.png",
+      "archivo": "PM.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2023/02/sommelier-300x300.png",
+      "archivo": "sommelier-300x300.png",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/MASTER-CLASS-300x300.png",
+      "archivo": "MASTER-CLASS-300x300.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/COCINA-MERIDA-370x370.jpg",
+      "archivo": "COCINA-MERIDA-370x370.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/10/PORTADA.png",
+      "archivo": "PORTADA.png",
+      "alt": "Image 14: PORTADA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/10/Mesa-de-trabajo-1-1-4.jpg",
+      "archivo": "Mesa-de-trabajo-1-1-4.jpg",
+      "alt": "Image 15: Mesa de trabajo 1-1 (4)"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Gdl2.jpg",
+      "archivo": "Gdl2.jpg",
+      "alt": "Image 10: Gdl2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Gdl3.jpg",
+      "archivo": "Gdl3.jpg",
+      "alt": "Image 11: Gdl3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Gdl5.jpg",
+      "archivo": "Gdl5.jpg",
+      "alt": "Image 12: Gdl5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Gdl4.jpg",
+      "archivo": "Gdl4.jpg",
+      "alt": "Image 13: Gdl4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Gdl1.jpg",
+      "archivo": "Gdl1.jpg",
+      "alt": "Image 14: Gdl1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Gdl7.jpg",
+      "archivo": "Gdl7.jpg",
+      "alt": "Image 15: Gdl7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Gdl8.jpg",
+      "archivo": "Gdl8.jpg",
+      "alt": "Image 16: Gdl8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Gdl.jpg",
+      "archivo": "Gdl.jpg",
+      "alt": "Image 17: Gdl"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Gdl6.jpg",
+      "archivo": "Gdl6.jpg",
+      "alt": "Image 18: Gdl6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/6336D488-4285-47FF-9554-28CB59998996-scaled.jpeg",
+      "archivo": "6336D488-4285-47FF-9554-28CB59998996-scaled.jpeg",
+      "alt": "Image 10: 6336D488-4285-47FF-9554-28CB59998996"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/IMG-20230620-WA0014.jpg",
+      "archivo": "IMG-20230620-WA0014.jpg",
+      "alt": "Image 11: IMG-20230620-WA0014"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/0D081333-0EFA-4806-BE37-64AAE0734F09-scaled.jpeg",
+      "archivo": "0D081333-0EFA-4806-BE37-64AAE0734F09-scaled.jpeg",
+      "alt": "Image 12: 0D081333-0EFA-4806-BE37-64AAE0734F09"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/WhatsApp-Image-2023-03-11-at-11.23.01-AM.jpeg",
+      "archivo": "WhatsApp-Image-2023-03-11-at-11.23.01-AM.jpeg",
+      "alt": "Image 13: WhatsApp Image 2023-03-11 at 11.23.01 AM"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/IMG_5842-scaled.jpg",
+      "archivo": "IMG_5842-scaled.jpg",
+      "alt": "Image 14: {\"cameraPreset\":7,\"cameraType\":\"Triple\",\"macroEnabled\":false,\"qualityMode\":2,\"deviceTilt\":0.041058595637559758,\"customExposureMode\":0,\"extendedExposure\":false,\"whiteBalanceProgram\":0,\"cameraPosition\":1,\"shootingMode\":0,\"focusMode\":0}"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/IMG_5833-scaled.jpg",
+      "archivo": "IMG_5833-scaled.jpg",
+      "alt": "Image 15: {\"cameraPreset\":7,\"cameraType\":\"Triple\",\"macroEnabled\":false,\"qualityMode\":2,\"deviceTilt\":0.024753592279332715,\"customExposureMode\":0,\"extendedExposure\":false,\"whiteBalanceProgram\":0,\"cameraPosition\":1,\"shootingMode\":0,\"focusMode\":0}"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/IMG-20230620-WA0021.jpg",
+      "archivo": "IMG-20230620-WA0021.jpg",
+      "alt": "Image 16: IMG-20230620-WA0021"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/WhatsApp-Image-2023-03-11-at-11.23.01-AM-3.jpeg",
+      "archivo": "WhatsApp-Image-2023-03-11-at-11.23.01-AM-3.jpeg",
+      "alt": "Image 17: WhatsApp Image 2023-03-11 at 11.23.01 AM (3)"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Queretaro3.jpg",
+      "archivo": "Queretaro3.jpg",
+      "alt": "Image 10: Queretaro3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Queretaro2.jpg",
+      "archivo": "Queretaro2.jpg",
+      "alt": "Image 11: Queretaro2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Queretaro4.jpg",
+      "archivo": "Queretaro4.jpg",
+      "alt": "Image 12: Queretaro4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Queretaro5.jpg",
+      "archivo": "Queretaro5.jpg",
+      "alt": "Image 13: Queretaro5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Queretaro1.jpg",
+      "archivo": "Queretaro1.jpg",
+      "alt": "Image 14: Queretaro1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://iaacmexico.com/wp-content/uploads/2024/06/Queretaro.jpg",
+      "archivo": "Queretaro.jpg",
+      "alt": "Image 15: Queretaro"
+    }
+  ]
+}

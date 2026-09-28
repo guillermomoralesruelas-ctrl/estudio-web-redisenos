@@ -1,0 +1,271 @@
+{
+  "sitio": "https://somosaria.com/",
+  "fecha": "2026-09-26T05:00:05.411Z",
+  "motor": "jina-reader",
+  "slug": "aria",
+  "nombre": "ARIA",
+  "rubro": "EDUCACION",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "educacion",
+  "paginasRevisadas": [
+    {
+      "url": "https://somosaria.com/",
+      "titulo": "Clases de baile en CDMX | Salsa, Bachata, Cumbia | ARIA"
+    },
+    {
+      "url": "https://somosaria.com/precios/",
+      "titulo": "Precios y paquetes de clases de baile en CDMX | Somos ARIA"
+    },
+    {
+      "url": "https://somosaria.com/horarios-ubicacion/",
+      "titulo": "Ubicación y horarios | Academia de baile ARIA"
+    },
+    {
+      "url": "https://somosaria.com/preguntas-frecuentes/",
+      "titulo": "Preguntas frecuentes sobre clases de baile | Somos ARIA"
+    },
+    {
+      "url": "https://somosaria.com/precios",
+      "titulo": "Precios y paquetes de clases de baile en CDMX | Somos ARIA"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 (56) 3468 4421",
+      "525634684421",
+      "+525634684421",
+      "19.4060462",
+      "99.1710824",
+      "5258165107",
+      "802676014",
+      "+52 56 3468 4421"
+    ],
+    "emails": [
+      "review-4@2x.BrNVf",
+      "review-1@2x.wiMquVuR",
+      "review-2@2x.BQ",
+      "review-3@2x.BSRRLyas"
+    ],
+    "whatsapp": [
+      "wa.me/525634684421?text=Quiero%20informes%20sobre%20sus%20clases%20de%20baile)",
+      "wa.me/525634684421)",
+      "wa.me/525634684421?text=Quiero%20tomar%20mi%20primera%20clase%20gratis)[Ver",
+      "wa.me/525634684421?text=Quiero%20saber%m%C3%A1s%20sobre%20...)",
+      "wa.me/525634684421?text=Quiero%20tomar%20mi%20primera%20clase%20gratis%20)",
+      "wa.me/525634684421?text=Quiero%20tomar%20mi%20primera%20clase%20gratis)",
+      "wa.me/525634684421?text=Quiero%20informes%20sobre%20las%20clases%20de%20baile)[Prueba",
+      "wa.me/525634684421?text=Quiero%20agendar%20mi%20primera%20clase%20gratis)",
+      "whatsapp.com/send?phone=525634684421)",
+      "wa.me/525634684421?text=Quiero%20informes%20sobre%20las%20clases%20de%20baile)"
+    ],
+    "redes": [
+      "https://youtube.com/watch?v=cf6DF2ySBHU",
+      "https://www.facebook.com/somosaria/",
+      "https://www.tiktok.com/@somosaria/",
+      "https://www.instagram.com/somosaria_/",
+      "https://www.youtube.com/@somosaria"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://somosaria.com/_astro/review-4@2x.BrNVf9Pt_nH1dN.webp",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://somosaria.com/_astro/review-1@2x.wiMquVuR_ZbkmWq.webp",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://somosaria.com/_astro/review-2@2x.BQ73Vx7X_2wzgxQ.webp",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://somosaria.com/_astro/review-3@2x.BSRRLyas_Z28r6EI.webp",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://somosaria.com/_astro/alumnos_en_clase_de_baile_344722e1ef_2wVCAN.webp",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://somosaria.com/_astro/promo_septiembre_desktop.DD64Mf9r_1MvGlV.webp",
+      "alt": "Image 7: Promoción de Mayo 2026"
+    },
+    {
+      "src": "https://somosaria.com/_astro/promo_septiembre_mobile.DWY8yKZx_Z2bCQl0.webp",
+      "alt": "Image 8: Promoción de Mayo 2026"
+    },
+    {
+      "src": "https://somosaria.com/_astro/cumbia_53055c7808_Z2gj4in.webp",
+      "alt": "Image 9: Aprende a bailar cumbia para las fiestas en Academia de baile ARIA"
+    },
+    {
+      "src": "https://somosaria.com/_astro/estudiantes_practicando_con_instructores_0585ee2cd5_Z1OC9JJ.webp",
+      "alt": "Image 10: Alumnos bailando con sus instructores y practicando en Academia de baile ARIA"
+    },
+    {
+      "src": "https://somosaria.com/_astro/instructora_bailando_alumno_e7ac8c8d2d_2cmUCI.webp",
+      "alt": "Image 11: Aprende a bailar salsa en línea en Academia de baile ARIA"
+    },
+    {
+      "src": "https://somosaria.com/_astro/bachata_image_a69ab59cf0_cR8at.webp",
+      "alt": "Image 12: Aprende bachata, shines y técnica en Academia de baile ARIA"
+    },
+    {
+      "src": "https://somosaria.com/_astro/salsa_cubana_3x_fc34727c67_Z21ajYC.webp",
+      "alt": "Image 13: Aprende salsa cubana en Academia de baile ARIA"
+    },
+    {
+      "src": "https://somosaria.com/_astro/su_primer_baile_como_pareja_de_novios_31d88f1bd0_mhWh5.webp",
+      "alt": "Image 14: Pareja de baile haciendo vals para su boda"
+    },
+    {
+      "src": "https://somosaria.com/_astro/estudiantes_bailando_academia_aria_a4778aab9b_Z2uYr1y.webp",
+      "alt": "Image 15: Horarios flexibles que se adaptan a tu estilo de vida"
+    },
+    {
+      "src": "https://somosaria.com/_astro/instructores_y_personas_aprendiendo_a_bailar_cdb0ab4770_2v3Ex.webp",
+      "alt": "Image 16: Alumnos aprendiendo a bailar a su propio ritmo con sus instructores"
+    },
+    {
+      "src": "https://somosaria.com/_astro/kyle_2x_ea3430bdf9_Z1UGeGf.webp",
+      "alt": "Image 17: Avatar de Kyle Pangan"
+    },
+    {
+      "src": "https://somosaria.com/_astro/paula_valenti_2x_c1ababafba_1NCbqY.webp",
+      "alt": "Image 18: Avatar de Paula Valenti"
+    },
+    {
+      "src": "https://somosaria.com/_astro/loyd_capistrano_2x_adae516b4a_Z2XOck.webp",
+      "alt": "Image 19: Avatar de Loyd Capistrano"
+    },
+    {
+      "src": "https://somosaria.com/_astro/jose_gonzales_2x_8d63b512ea_Z2crQyD.webp",
+      "alt": "Image 20: Avatar de Jose Gonzales Gonzales"
+    },
+    {
+      "src": "https://somosaria.com/_astro/ryder_bergerud_2x_38b0f646b5_Zciez0.webp",
+      "alt": "Image 21: Avatar de Ryder Bergerud"
+    },
+    {
+      "src": "https://somosaria.com/_astro/aubrey_ledonne_2x_5258165107_asMn5.webp",
+      "alt": "Image 22: Avatar de Aubrey LeDonne"
+    },
+    {
+      "src": "https://somosaria.com/_astro/nat_2x_ebfb112b00_Z1r1wIJ.webp",
+      "alt": "Image 23: Avatar de Nat"
+    },
+    {
+      "src": "https://somosaria.com/_astro/ixchel_saavedra_2x_2d6a97484a_28L7Qx.webp",
+      "alt": "Image 24: Avatar de Ixchel Saavedra Picazo"
+    },
+    {
+      "src": "https://somosaria.com/_astro/luz_patricia_2x_ee36c76a49_Z2kz6dW.webp",
+      "alt": "Image 25: Avatar de Luz Patricia Orendain"
+    },
+    {
+      "src": "https://somosaria.com/_astro/natividad_patricia_2x_b81ab9d37d_Z1v4qOH.webp",
+      "alt": "Image 26: Avatar de Natividad Perez Hernandez"
+    },
+    {
+      "src": "https://somosaria.com/_astro/rajeev_2x_ec2980f636_mJk4g.webp",
+      "alt": "Image 37: Avatar de Rajeev Botejue"
+    },
+    {
+      "src": "https://somosaria.com/_astro/janila_lynn_2x_9a51c7eca5_1qxYDc.webp",
+      "alt": "Image 38: Avatar de Janila Lynn"
+    },
+    {
+      "src": "https://somosaria.com/_astro/robson_viana_2x_9e016aa4fe_Z2n2tO9.webp",
+      "alt": "Image 39: Avatar de Robson Viana"
+    },
+    {
+      "src": "https://somosaria.com/_astro/olia_o_2x_1354a639a2_Z2dJ7W1.webp",
+      "alt": "Image 40: Avatar de Olia O"
+    },
+    {
+      "src": "https://somosaria.com/_astro/samuel_weldon_2x_15a0105fcb_Z3tioF.webp",
+      "alt": "Image 41: Avatar de Samuel Weldon"
+    },
+    {
+      "src": "https://somosaria.com/_astro/armando_aln_2x_13f6fba168_2q29ox.webp",
+      "alt": "Image 42: Avatar de Armando \"ALN\""
+    },
+    {
+      "src": "https://somosaria.com/_astro/gustavo_cruz_2x_e774373e5a_2fChbK.webp",
+      "alt": "Image 43: Avatar de Gustavo Cruz"
+    },
+    {
+      "src": "https://somosaria.com/_astro/xavi_gomez_2x_7c4f051e89_2fbckj.webp",
+      "alt": "Image 44: Avatar de Xavi Gomez"
+    },
+    {
+      "src": "https://somosaria.com/_astro/montse_sanchez_2x_eb1de98a00_4VUyP.webp",
+      "alt": "Image 45: Avatar de Montse Sanchez"
+    },
+    {
+      "src": "https://somosaria.com/_astro/laura_rodriguez_2x_d802676014_27ihD6.webp",
+      "alt": "Image 46: Avatar de Laura Rodriguez"
+    },
+    {
+      "src": "https://somosaria.com/_astro/claudia_caballero_2x_fb4deb483f_16XNVJ.webp",
+      "alt": "Image 57: Avatar de Claudia Caballero"
+    },
+    {
+      "src": "https://somosaria.com/_astro/abdiel_ruiz_2x_a75a88ba3d_2l5prw.webp",
+      "alt": "Image 58: Avatar de Abdiel Ruiz"
+    },
+    {
+      "src": "https://somosaria.com/_astro/ara_eg_2x_b75a69c8ce_1rD6dC.webp",
+      "alt": "Image 59: Avatar de Ara E.G."
+    },
+    {
+      "src": "https://somosaria.com/_astro/adriana_reyes_2x_4ff0b49589_2huzBd.webp",
+      "alt": "Image 60: Avatar de Adriana Reyes"
+    },
+    {
+      "src": "https://somosaria.com/_astro/yolanda_molina_2x_a80a03af83_UDu0n.webp",
+      "alt": "Image 61: Avatar de Yolanda Molina"
+    },
+    {
+      "src": "https://somosaria.com/_astro/mary_gonzales_2x_e2fa445310_2vXIrr.webp",
+      "alt": "Image 62: Avatar de Mary Gonzales"
+    },
+    {
+      "src": "https://somosaria.com/_astro/paula_monsegur_2x_01be833b91_Z1mQR2I.webp",
+      "alt": "Image 63: Avatar de Paula Monsegur"
+    },
+    {
+      "src": "https://somosaria.com/_astro/sebastian_rosa_2x_95d21fee00_2w5HEH.webp",
+      "alt": "Image 64: Avatar de Sebastian de la Rosa"
+    },
+    {
+      "src": "https://somosaria.com/_astro/jorge_palma_2x_3473c85a85_ZgHPa6.webp",
+      "alt": "Image 65: Avatar de Jorge Palma"
+    },
+    {
+      "src": "https://somosaria.com/_astro/angel_h_2x_569daeb75a_17VEMO.webp",
+      "alt": "Image 66: Avatar de Angel H"
+    },
+    {
+      "src": "https://somosaria.com/_astro/instructores_de_baile_con_alumnos_4b7aff9366_1w69oC.webp",
+      "alt": "Image 77: Grupo de personas en sus clases de baile"
+    },
+    {
+      "src": "https://somosaria.com/_astro/alumnos_en_clase_de_baile_344722e1ef_YV1OH.webp",
+      "alt": "Image 4: Descubre nuestras clases semi-personalizadas"
+    },
+    {
+      "src": "https://somosaria.com/_astro/people_8c5e80f018_Z2jcjPi.webp",
+      "alt": "Image 5: Contrata clases para tu equipo de trabajo"
+    },
+    {
+      "src": "https://somosaria.com/_astro/estudiantes_practicando_con_instructores_0585ee2cd5_ZzzYv8.webp",
+      "alt": "Image 2: Alumnos bailando y practicando con sus instructores en Academia de baile ARIA"
+    },
+    {
+      "src": "https://somosaria.com/_astro/background_a2a54dda88_Z25vYNj.webp",
+      "alt": "Image 2: Personas bailando en la escuela de baile ARIA"
+    }
+  ]
+}

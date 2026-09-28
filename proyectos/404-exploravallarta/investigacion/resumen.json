@@ -1,0 +1,214 @@
+{
+  "sitio": "https://www.exploravallarta.com/",
+  "fecha": "2026-09-26T07:36:19.035Z",
+  "motor": "jina-reader",
+  "slug": "exploravallarta",
+  "nombre": "Explora Vallarta",
+  "rubro": "TURISMO",
+  "ciudad": "Nuevo Vallarta, Nayarit",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.exploravallarta.com/",
+      "titulo": "Explora Vallarta | Tours con Biólogos Marinos 🏝️"
+    },
+    {
+      "url": "https://www.exploravallarta.com/nosotros",
+      "titulo": "Nosotros: Ciencia y Conservación | Explora Vallarta 🌿"
+    },
+    {
+      "url": "https://www.exploravallarta.com/avistamiento-de-ballenas",
+      "titulo": "Tour de Ballenas con Biólogos Marinos | Explora Vallarta 🐋"
+    },
+    {
+      "url": "https://www.exploravallarta.com/tours-islas-marietas",
+      "titulo": "Tour Islas Marietas y Playa del Amor | Explora Vallarta 🏝️"
+    },
+    {
+      "url": "https://www.exploravallarta.com/delfines-en-libertad",
+      "titulo": "Observación de Delfines en Libertad | Explora Vallarta 🐬"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "322) 132 27 53",
+      "+523221322753",
+      "523221322753"
+    ],
+    "emails": [
+      "tours@exploravallarta.com"
+    ],
+    "whatsapp": [
+      "wa.me/523221322753?text=Hola,%20vengo%20de%20la%20web%20Explora%20Vallarta%20y%20deseo%20informaci%C3%B3n.)",
+      "wa.me/523221322753?text=Hola%20Explora%20Vallarta!%20%F0%9F%8C%BF%20Quisiera%20saber%20m%C3%A1s%20sobre%20sus%20tours.)",
+      "wa.me/523221322753?text=Hola%20Explora%20Vallarta!%20%F0%9F%90%8B%20Estoy%20viendo%20la%20p%C3%A1gina%20de%20*Avistamiento%20de%20Ballenas*.%20Quisiera%20m%C3%A1s%20informaci%C3%B3n.)",
+      "wa.me/523221322753?text=Hola%20Explora%20Vallarta!%20%F0%9F%8F%9D%EF%B8%8F%20Estoy%20viendo%20el%20tour%20de%20*Islas%20Marietas*.%20Quisiera%20m%C3%A1s%20informaci%C3%B3n.)",
+      "wa.me/523221322753?text=Hola%20Explora%20Vallarta!%20%F0%9F%90%AC%20Estoy%20viendo%20el%20tour%20de%20*Delfines%20en%20Libertad*.%20Quisiera%20m%C3%A1s%20informaci%C3%B3n.)"
+    ],
+    "redes": [
+      "https://facebook.com/ExploraVallarta",
+      "https://www.instagram.com/exploravallarta/",
+      "https://tiktok.com/@exploravallarta",
+      "https://www.youtube.com/user/ExploraVallarta",
+      "https://www.youtube.com/watch?v=TNjTDTkLiAI&t=5s"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.exploravallarta.com/img/Logo%20Explora%20Vallarta.webp",
+      "alt": "Image 1: Explora Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/tour-islas-marietas-vallarta.webp",
+      "alt": "Image 2: Tour de Snorkel en Islas Marietas y Playa del Amor con Biólogos Marinos"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/avistamiento-ballenas-vallarta.webp",
+      "alt": "Image 3: Avistamiento responsable de Ballenas Jorobadas en Puerto Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/liberacion-tortugas-vallarta.webp",
+      "alt": "Image 4: Liberación de Tortugas Marinas y conservación en Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/delfines-libertad-vallarta.webp",
+      "alt": "Image 5: Observación de Delfines en libertad en Bahía de Banderas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/buceo-puerto-vallarta.webp",
+      "alt": "Image 6: Buceo profesional en los mejores arrecifes de Puerto Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/snorkel-los-arcos-vallarta.webp",
+      "alt": "Image 7: Tour de Snorkel en el Parque Marino Los Arcos de Mismaloya"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/hiking-rio-nogalito.webp",
+      "alt": "Image 8: Hiking y caminata guiada por el Río Nogalito en la selva de Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/canopy-tirolesas-vallarta.webp",
+      "alt": "Image 9: Tour de Tirolesas y Canopy en la selva de Puerto Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/kayak-vallarta-ocean.webp",
+      "alt": "Image 10: Aventura en Kayak por la costa y cuevas marinas de Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/san-sebastian-pueblo-magico.webp",
+      "alt": "Image 11: Tour cultural al Pueblo Mágico de San Sebastián del Oeste"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/raben-logo-ballenas.webp",
+      "alt": "Image 12: Logo RABEN Rescate de Ballenas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/logo-nado-por-las-ballenas.webp",
+      "alt": "Image 13: Logo Nado por las Ballenas A.C."
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/logo-red-varamientos-bahia-de-banderas.webp",
+      "alt": "Image 14: Logo Red de Varamientos Bahía de Banderas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/logo-biologos-marinos-org.webp",
+      "alt": "Image 15: Logo BiologosMarinos.org Educación Ambiental"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/Logo%20Explora%20Vallarta%20Blanco.webp",
+      "alt": "Image 16: Explora Vallarta Blanco"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/biologos-ballenas.webp",
+      "alt": "Image 2: Staff Explora Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/biologo-marino-jorge-morales-puerto-vallarta.webp",
+      "alt": "Image 3: Jorge Morales"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/capitan-observacion-ballenas-jose-angel.webp",
+      "alt": "Image 4: Jose Angel"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/guia-naturalista-fabiola-flores-vallarta.webp",
+      "alt": "Image 5: Fabiola Flores"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/comportamiento-salto.webp",
+      "alt": "Image 2: Salto de ballena jorobada conocido como breaching en Puerto Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/comportamiento-coletazo.webp",
+      "alt": "Image 3: Aleta caudal de ballena jorobada realizando un fluking en la Bahía de Banderas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/comportamiento-espionaje.webp",
+      "alt": "Image 4: Comportamiento de espionaje o spyhop de ballena en su hábitat natural"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/ballena-salto.webp",
+      "alt": "Image 8: Salto de Ballena Jorobada"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/ballena-cola.webp",
+      "alt": "Image 9: Cola de ballena en Puerto Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/hidrofono-ballenas.webp",
+      "alt": "Image 11: Escuchando cantos de ballenas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/islas-marietas-tour.webp",
+      "alt": "Image 12: Islas Marietas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/tortugas-marinas-vallarta.webp",
+      "alt": "Image 13: Tortugas Marinas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/delfines-en-libertad-vallarta.webp",
+      "alt": "Image 14: Delfines en Libertad"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/pajaro-bobo-patas-azules.webp",
+      "alt": "Image 5: Pájaro Bobo de Patas Azules"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/islas-marietas-snorkel.webp",
+      "alt": "Image 6: Snorkel en Islas Marietas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/playa-del-amor-marietas.webp",
+      "alt": "Image 7: Playa del Amor Puerto Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/arco-de-piedra-marietas.webp",
+      "alt": "Image 8: Paisajes de Islas Marietas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/avistamiento-ballenas-puerto-vallarta.webp",
+      "alt": "Image 9: Ballenas Jorobadas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/masajes-puerto-vallarta.webp",
+      "alt": "Image 11: Masajes a domicilio Puerto Vallarta"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/salto-delfin-nariz-de-botella-vallarta.webp",
+      "alt": "Image 5: Delfín Tursiops truncatus realizando un salto acrobático en Bahía de Banderas"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/manada-delfines-tursion-libertad.webp",
+      "alt": "Image 6: Grupo de delfines moteados Stenella attenuata nadando libremente en el océano"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/observacion-delfines-nayarit.webp",
+      "alt": "Image 7: Turistas en ecotour observando una manada de delfines desde una distancia segura"
+    },
+    {
+      "src": "https://www.exploravallarta.com/img/nado-con-delfines-snorkel-cientifico.webp",
+      "alt": "Image 8: Actividad de snorkel y nado respetuoso con delfines bajo supervisión de biólogos"
+    }
+  ]
+}

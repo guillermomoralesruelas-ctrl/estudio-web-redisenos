@@ -1,0 +1,262 @@
+/* =====================================================
+   NAV — Floating Navigation Bar
+   ===================================================== */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-sticky);
+  padding: var(--space-4) var(--space-8);
+  transition: padding var(--transition-base), background var(--transition-slow);
+}
+
+/* Scrolled state */
+.header--scrolled {
+  padding: var(--space-3) var(--space-8);
+  background: var(--bg-glass);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(61, 200, 232, 0.10);
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.25);
+}
+
+/* ── Nav Inner ────────────────────────────────────── */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--container-wide);
+  margin: 0 auto;
+  gap: var(--space-8);
+}
+
+/* ── Logo ─────────────────────────────────────────── */
+.nav__logo {
+  flex-shrink: 0;
+  transition: opacity var(--transition-base), transform var(--transition-base);
+}
+
+.nav__logo:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.nav__logo img,
+.nav__logo svg {
+  height: 52px;
+  width: auto;
+  transition: height var(--transition-base);
+}
+
+/* Logo más grande mientras se está sobre el hero (solo desktop);
+   vuelve a tamaño normal al hacer scroll. */
+@media (min-width: 769px) {
+  .header:not(.header--scrolled) .nav__logo img,
+  .header:not(.header--scrolled) .nav__logo svg {
+    height: 88px;
+  }
+}
+
+/* ── Links ────────────────────────────────────────── */
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-10);
+}
+
+.nav__links a {
+  font-family: var(--font-body);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-sm);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.80);
+  transition: color var(--transition-fast);
+  position: relative;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.nav__links a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-cyan);
+  transition: width var(--transition-base);
+}
+
+.nav__links a:hover {
+  color: var(--color-white);
+}
+
+.nav__links a:hover::after,
+.nav__links a.is-active::after {
+  width: 100%;
+}
+
+/* ── Right Controls ───────────────────────────────── */
+.nav__controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  flex-shrink: 0;
+}
+
+/* ── Language Toggle ──────────────────────────────── */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  border-radius: var(--radius-full);
+  background: transparent;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+  cursor: pointer;
+}
+
+.lang-toggle:hover {
+  border-color: var(--color-cyan);
+  background: var(--color-cyan-10);
+}
+
+.lang-toggle__item {
+  font-family: var(--font-body);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full);
+  transition: color var(--transition-fast), background var(--transition-fast);
+}
+
+.lang-toggle__item.is-active {
+  color: var(--color-dark);
+  background: var(--color-cyan);
+}
+
+/* ── Mobile Hamburger ─────────────────────────────── */
+.nav__hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  border-radius: var(--radius-md);
+  background: transparent;
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+}
+
+.nav__hamburger:hover {
+  border-color: var(--color-cyan);
+}
+
+.nav__hamburger span {
+  display: block;
+  height: 1.5px;
+  background: var(--color-white);
+  border-radius: 2px;
+  transition: transform var(--transition-base), opacity var(--transition-base), width var(--transition-base);
+}
+
+.nav__hamburger span:nth-child(3) {
+  width: 70%;
+}
+
+/* Open state */
+.nav__hamburger.is-open span:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+.nav__hamburger.is-open span:nth-child(2) {
+  opacity: 0;
+}
+.nav__hamburger.is-open span:nth-child(3) {
+  width: 100%;
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+/* ── Mobile Drawer ────────────────────────────────── */
+.nav__drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(320px, 85vw);
+  background: var(--bg-section-alt);
+  border-left: 1px solid rgba(61, 200, 232, 0.15);
+  padding: calc(var(--nav-height) + var(--space-8)) var(--space-8) var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: calc(var(--z-sticky) - 1);
+}
+
+.nav__drawer.is-open {
+  transform: translateX(0);
+}
+
+.nav__drawer a {
+  font-family: var(--font-body);
+  font-size: var(--fs-md);
+  font-weight: var(--fw-light);
+  color: rgba(255, 255, 255, 0.80);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: color var(--transition-fast), padding-left var(--transition-fast);
+  cursor: pointer;
+}
+
+.nav__drawer a:hover {
+  color: var(--color-cyan);
+  padding-left: var(--space-3);
+}
+
+/* Overlay backdrop */
+.nav__overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 24, 40, 0.75);
+  z-index: calc(var(--z-sticky) - 2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-slow);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
+.nav__overlay.is-visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* ── Responsive ───────────────────────────────────── */
+@media (max-width: 768px) {
+  .header {
+    padding: var(--space-4) var(--space-5);
+  }
+
+  .header--scrolled {
+    padding: var(--space-3) var(--space-5);
+  }
+
+  .nav__links {
+    display: none;
+  }
+
+  .nav__hamburger {
+    display: flex;
+  }
+}
