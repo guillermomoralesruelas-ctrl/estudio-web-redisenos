@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "@fontsource/playfair-display/latin-400.css";
+@import "@fontsource/playfair-display/latin-700.css";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-600.css";
+
+@theme {
+  --color-fondo:  #fdf8f4;
+  --color-tinta:  #1c1410;
+  --color-acento: #c0392b;
+  --color-suave:  #f9ebe4;
+  --color-verde:  #2d5a27;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans:  "Inter Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3 { font-family: var(--font-serif); text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-acento); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-5xl px-5 sm:px-8; }
+  .btn-wa {
+    @apply inline-flex items-center gap-2 rounded-full bg-acento px-5 py-2.5 text-sm font-semibold text-white shadow-md;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  .btn-wa:hover { background-color: #a93226; transform: translateY(-1px); }
+  .btn-wa:active { transform: translateY(0); }
+}
