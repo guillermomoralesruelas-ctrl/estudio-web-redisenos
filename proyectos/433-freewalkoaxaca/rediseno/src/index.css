@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@import "@fontsource/dm-sans/latin-400.css";
+@import "@fontsource/dm-sans/latin-700.css";
+@import "@fontsource/inter/latin-400.css";
+
+@theme {
+  /* Paleta Free Walk Oaxaca */
+  --color-carbon:  #16161A;  /* fondo general */
+  --color-noche:   #1A1A4D;  /* secciones alternas */
+  --color-blanco:  #FFFFFF;
+  --color-humo:    #B8BCC4;  /* texto secundario sobre oscuro */
+  --color-amarillo:#F5B705;  /* la sombrilla — acento y CTAs */
+  --color-ambar:   #CC8800;  /* hover / borde sobre amarillo */
+  --color-crema:   #F6F3EA;  /* punto de encuentro */
+  --color-tinta:   #2A2118;  /* texto sobre crema */
+
+  --font-sans: "DM Sans", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body {
+    @apply bg-carbon text-blanco antialiased;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-sans);
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-amarillo); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+
+  .btn-amarillo {
+    @apply inline-flex items-center gap-2 rounded-full bg-amarillo px-6 py-3 text-carbon font-bold text-sm leading-none transition-colors hover:bg-ambar focus-visible:bg-ambar;
+    font-family: var(--font-sans);
+  }
+  .btn-borde {
+    @apply inline-flex items-center gap-2 rounded-full border-2 border-blanco/60 px-6 py-3 text-blanco font-bold text-sm leading-none transition-colors hover:border-amarillo hover:text-amarillo;
+    font-family: var(--font-sans);
+  }
+  .btn-noche {
+    @apply inline-flex items-center gap-2 rounded-full bg-noche border border-amarillo/40 px-5 py-2.5 text-blanco text-sm font-semibold transition-colors hover:bg-amarillo hover:text-carbon;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Sombrilla animada (elemento memorable) */
+@keyframes balanceo {
+  0%, 100% { transform: rotate(-4deg); }
+  50%       { transform: rotate(4deg); }
+}
+.sombrilla-viva {
+  display: inline-block;
+  animation: balanceo 2s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .sombrilla-viva { animation: none; }
+}
