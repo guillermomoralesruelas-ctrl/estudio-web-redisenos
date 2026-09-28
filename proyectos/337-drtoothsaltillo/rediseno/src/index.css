@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Tokens de Dr. Tooth: el negro de su logo y del fondo de sus fotos de pacientes, y el dorado de su logo en versión
+   blanca (muestreado #d8a80c a #fccc00). */
+@theme {
+  --color-tinta: #111111;
+  --color-oro: #e0b421;
+  --color-bronce: #7a5c00;
+  --color-marfil: #f7f4ee;
+  --color-gris: #555555;
+  --color-plata: #b8b2a7;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Outfit Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { @apply font-titulo font-semibold leading-[1.04] tracking-[-0.02em]; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+}
