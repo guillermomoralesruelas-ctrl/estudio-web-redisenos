@@ -74,7 +74,9 @@ async function medir(url, prefijo) {
       titulo: document.title,
     }));
     const archivo = path.join(dirQa, `${prefijo}-${vista}.png`);
-    await page.screenshot({ path: archivo, fullPage: true });
+    // Chromium no captura de una vez páginas de más de ~16,000 px: en ese caso se guarda solo el principio.
+    const clip = datos.alto > 16000 ? { x: 0, y: 0, width: w, height: 16000 } : undefined;
+    await page.screenshot({ path: archivo, fullPage: true, clip });
     out.push({ vista, ancho: w, ...datos, errores, fallidos, captura: path.relative(dirP, archivo) });
     await ctx.close();
   }
