@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-09-28T01:21:39.131Z",
+  "carpeta": "55-armoniaspa",
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5805,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 19,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Armonía Spa Chihuahua | Tratamientos faciales, masajes y depilación láser",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 11110,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 19,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Armonía Spa Chihuahua | Tratamientos faciales, masajes y depilación láser",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

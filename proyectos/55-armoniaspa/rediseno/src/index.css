@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import "@fontsource/playfair-display/latin-400-italic.css";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+@import "@fontsource/inter/latin-600.css";
+
+/* ── Tokens del proyecto ─────────────────────────────────────────────────── */
+@theme {
+  --color-fondo:  #ffffff;
+  --color-tinta:  #2a2a2a;
+  --color-acento: #d4538a;   /* Rosa intenso del logo de Armonía Spa */
+  --color-blush:  #fdf0f4;   /* Rosa muy claro para secciones alternas */
+
+  --font-sans:   "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-titulo: "Playfair Display", Georgia, serif;
+}
+
+/* ── Base ───────────────────────────────────────────────────────────────── */
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3 { @apply font-sans; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-acento); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+/* ── Componentes ─────────────────────────────────────────────────────────── */
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-full bg-acento px-5 py-2.5 text-sm font-semibold text-white
+           hover:bg-acento/90 transition-colors focus-visible:outline-[3px] focus-visible:outline-offset-2
+           focus-visible:outline-acento;
+  }
+
+  .btn-linea {
+    @apply inline-flex items-center gap-2 rounded-full border border-acento/50 px-5 py-2.5 text-sm font-semibold text-acento
+           hover:bg-acento/5 transition-colors focus-visible:outline-[3px] focus-visible:outline-offset-2
+           focus-visible:outline-acento;
+  }
+
+  .btn-chico {
+    @apply inline-flex items-center gap-1.5 rounded-full bg-acento/10 px-3 py-1.5 text-xs font-semibold text-acento
+           hover:bg-acento hover:text-white transition-colors focus-visible:outline-[3px] focus-visible:outline-offset-2
+           focus-visible:outline-acento;
+  }
+
+  .font-titulo { font-family: var(--font-titulo); }
+}

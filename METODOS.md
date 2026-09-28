@@ -72,6 +72,8 @@ Los ~650 proyectos del fabricador que no aparecen aquí son solo **clones (méto
 
 URL base de XAMPP: `http://localhost/project-1-25092026`
 
+| 55-armoniaspa | Armonía Spa (Chihuahua, Chihuahua) | 1.1 | Terminado | `/proyectos/55-armoniaspa/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Primer spa de la tanda (SPA). Fotos del clon a .webp en `assets/web/` (`rediseno/fotos-web.mjs`); 8 fotos de Freepik descartadas, 2 de Google Maps descartadas. "¿Cuánto cuesta tu plan de depilación?": elige zona (piernas, axilas, bikini, cuerpo) y tecnología (IPL o tridiodo), muestra precio real publicado de cada zona, total y WhatsApp prellenado con el desglose. Sus páginas "Servicios" y "Citas" muestran "PRÓXIMAMENTE..": avisar al cliente. Capturas en `referencias/capturas-2026-09-27/` |
+
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 
 - Sin fotos en el clon (1.2, descargar en la PC primero): 532-hotelklimt (solo 2 fotos), 534-hotelmaela (0).
