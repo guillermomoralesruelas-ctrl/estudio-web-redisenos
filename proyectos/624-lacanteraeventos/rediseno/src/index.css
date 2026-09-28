@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Tokens de La Cantera Eventos.
+   Marca: negro #121212 y blanco (logo y CSS global de Elementor), Libre Baskerville + Quattrocento Sans.
+   Cantera: tono hueso/piedra que da nombre al salón. Vino: el de su cartel del Wedding Event. */
+@theme {
+  --color-fondo: #f5f1ea;
+  --color-piedra: #e6ddd0;
+  --color-arena: #b9a88f;
+  --color-tinta: #121212;
+  --color-gris: #55504a;
+  --color-vino: #6b1d2a;
+  --color-vino-claro: #f0d9dc;
+  --font-serif: "Libre Baskerville", Georgia, serif;
+  --font-sans: "Quattrocento Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; font-size: 1.0625rem; }
+  h1, h2, h3 { text-wrap: balance; font-family: var(--font-serif); }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-vino); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-vino { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-bold transition-colors bg-vino text-white hover:bg-tinta; }
+  .btn-claro { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-bold transition-colors bg-white text-tinta hover:bg-piedra; }
+  .btn-borde { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-bold transition-colors border border-current; }
+  /* Papel de la invitación: grano de cantera con un degradado muy suave */
+  .papel {
+    background-color: #fbf8f3;
+    background-image:
+      radial-gradient(circle at 20% 15%, rgba(185,168,143,.18) 0 1px, transparent 1.5px),
+      radial-gradient(circle at 70% 60%, rgba(185,168,143,.14) 0 1px, transparent 1.5px);
+    background-size: 7px 7px, 11px 11px;
+  }
+}
+
+@keyframes aparece { from { opacity: 0; transform: translateY(6px) rotate(-.4deg); } to { opacity: 1; transform: none; } }
+.aparece { animation: aparece .45s ease-out both; }

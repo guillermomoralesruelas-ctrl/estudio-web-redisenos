@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-09-28T03:13:48.259Z",
+  "carpeta": "624-lacanteraeventos",
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6340,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 24,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Cantera Eventos | Salón de eventos en Monterrey",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9927,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 24,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Cantera Eventos | Salón de eventos en Monterrey",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
