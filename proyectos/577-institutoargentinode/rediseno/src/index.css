@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* Su sitio usa Poppins (Elementor + Google Fonts). Aquí: Archivo (títulos y texto, de rótulo de cocina industrial) e
+   IBM Plex Mono (las comandas, como las de una impresora de cocina), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Archivo"; src: url("../node_modules/@fontsource/archivo/files/archivo-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Archivo"; src: url("../node_modules/@fontsource/archivo/files/archivo-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Archivo"; src: url("../node_modules/@fontsource/archivo/files/archivo-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "IBM Plex Mono"; src: url("../node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "IBM Plex Mono"; src: url("../node_modules/@fontsource/ibm-plex-mono/files/ibm-plex-mono-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: el gris carbón de su marca y de sus cocinas, el acero inoxidable de las mesas, el papel de comanda y un rojo
+   chile para la acción. Contrastes: blanco sobre chile 5.98, chile sobre acero-claro 5.24, chile sobre papel 5.64,
+   brasa sobre carbón 7.24, brasa sobre carbón-medio 5.96, humo sobre carbón 9.50, tinta sobre acero-claro 13.83,
+   gris sobre acero-claro 5.33, gris sobre papel 5.75, carbón sobre brasa 7.24. */
+@theme {
+  --color-carbon: #22272d;
+  --color-carbon-medio: #2f353c;
+  --color-acero-claro: #eef0f2;
+  --color-papel: #fbf8f1;
+  --color-chile: #b8321a;
+  --color-brasa: #ff9a70;
+  --color-humo: #c9ced4;
+  --color-tinta: #1f2328;
+  --color-gris: #5b636c;
+  --font-sans: "Archivo", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-acero-claro text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply text-tinta; font-weight: 800; line-height: 1.02; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-carbon text-humo; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-chile); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-brasa); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-[0.98rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-chile text-white hover:bg-[#9a2912]; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta hover:bg-white; }
+  .btn-claro { @apply border-2 border-white/40 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-semibold text-chile underline decoration-2 underline-offset-4 hover:text-tinta; }
+  .oscuro .enlace { @apply text-brasa hover:text-white; }
+
+  /* Riel de comandas: una barra de acero y tickets colgados con borde de corte en zigzag */
+  .riel { background: linear-gradient(#f4f6f8, #aeb5bd 45%, #7d858e 55%, #cfd4d9); }
+  .comanda {
+    @apply relative bg-papel font-mono text-[0.86rem] text-tinta shadow-[0_10px_24px_-12px_rgba(0,0,0,0.55)];
+    --diente: 9px;
+    mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 50% / calc(2 * var(--diente)) 100%;
+    padding-bottom: calc(var(--diente) + 1rem);
+  }
+}
