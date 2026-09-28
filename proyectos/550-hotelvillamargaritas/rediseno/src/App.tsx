@@ -132,6 +132,11 @@ function Cerca() {
 function FilaHabitacion({ h }: { h: Habitacion }) {
   return (
     <article className="grid gap-6 border-t border-tinta/15 py-9 md:grid-cols-12 md:gap-8">
+      <div className="grid min-w-0 grid-cols-[2fr_1fr] gap-2 md:col-span-12">
+        <div className="row-span-2 aspect-[3/2] overflow-hidden rounded-2xl"><Img foto={h.fotos[0]} /></div>
+        <div className="aspect-[3/2] overflow-hidden rounded-2xl"><Img foto={h.fotos[1]} /></div>
+        <div className="aspect-[3/2] overflow-hidden rounded-2xl"><Img foto={h.fotos[2]} /></div>
+      </div>
       <div className="min-w-0 md:col-span-8">
         <h3 className="text-[2.1rem]">{h.nombre}</h3>
         <p className="mt-1 font-medium text-oro-texto">Hasta {h.personas} personas por habitación, {h.cuantas} habitaciones de este tipo</p>

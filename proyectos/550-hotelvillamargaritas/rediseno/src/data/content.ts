@@ -67,6 +67,7 @@ export type Habitacion = {
   texto: string;
   extra?: string[];
   href: string;
+  fotos: Foto[]; // de su página de habitación (bajadas del sitio real, ver fotos-web.mjs)
 };
 
 export const serviciosHabitacion = ['Internet Wi-Fi de alta velocidad', 'Aire acondicionado', 'TV por cable', 'Agua caliente y fría', 'Secadora de cabello', 'Teléfono', 'Servicio a cuarto'];
@@ -76,17 +77,20 @@ export const habitaciones: Habitacion[] = [
     id: 'doble', nombre: 'Doble Matrimonial', lista: 800, oferta: 700, personas: 4, cuantas: 32,
     texto: 'Habitación con 2 camas matrimoniales, perfecta para máximo 4 personas. Cuenta con todos los servicios básicos del hotel para una estancia placentera y tranquila.',
     href: `${SITIO}/habitaciones/doble-matrimonial`,
+    fotos: [f('doble-1', 768, 512, 'Habitación Doble Matrimonial con dos camas de edredón blanco y cenefa café'), f('doble-2', 768, 512, 'Doble Matrimonial vista desde la entrada, con escritorio, espejo y televisión en la pared'), f('doble-3', 768, 512, 'Las dos camas matrimoniales de la Doble Matrimonial, con cabeceras de madera oscura')],
   },
   {
     id: 'king', nombre: 'King Size', lista: 800, oferta: 700, personas: 2, cuantas: 28,
     texto: 'Habitación con una cama King Size, ideal para descanso individual o en pareja. Ambiente tranquilo con todos los servicios para una estancia cómoda.',
     href: `${SITIO}/habitaciones/king-size`,
+    fotos: [f('king-1', 768, 512, 'Habitación King Size con cama grande, lámpara de buró y mesa con sillas'), f('king-2', 768, 512, 'King Size con mesa de madera y dos sillas frente a la cama'), f('king-3', 768, 512, 'Cama King Size con cabecera oscura, escritorio y espejo al fondo')],
   },
   {
     id: 'suite', nombre: 'Suite Familiar', lista: 1000, oferta: 900, personas: 4, cuantas: 9,
     texto: 'La opción perfecta para hospedarte con tu familia. Suite espaciosa con mini-refrigerador, microondas y cafetera. Sin cargo adicional por huéspedes extra.',
     extra: ['Caja de seguridad'],
     href: `${SITIO}/habitaciones/suite-familiar`,
+    fotos: [f('suite-1', 768, 512, 'Suite Familiar con dos camas, sillón de piel y cortinas color miel'), f('suite-2', 768, 512, 'Suite Familiar con sillón, mesa, clóset y televisión'), f('suite-3', 768, 512, 'Cafetera, horno de microondas, dos botellas de agua y el menú del restaurante en la Suite Familiar')],
   },
 ];
 
