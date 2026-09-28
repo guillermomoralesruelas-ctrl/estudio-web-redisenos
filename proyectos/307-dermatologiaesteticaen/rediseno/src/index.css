@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Tokens de la marca: favicon (#7A1E28, #FAF7F3) y CSS del clon (#882220, #C9A876, #2a2224) */
+@theme {
+  --color-vino: #7A1E28;
+  --color-vino-oscuro: #4E1219;
+  --color-crema: #FAF7F3;
+  --color-arena: #EFE7DC;
+  --color-oro: #C9A876;
+  --color-tinta: #2A2224;
+  --font-sans: "Montserrat", "Segoe UI", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .mapa-t { font-family: var(--font-sans); }
+  .mapa-linea { animation: trazo 0.9s ease-out both; }
+  .mapa-halo { animation: halo 0.6s ease-out both; transform-box: fill-box; transform-origin: center; }
+}
+
+@keyframes trazo { from { stroke-dashoffset: 60; opacity: 0; } to { stroke-dashoffset: 0; opacity: 1; } }
+@keyframes halo { from { transform: scale(0.3); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
