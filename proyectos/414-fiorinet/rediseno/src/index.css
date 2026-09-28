@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Tokens de FioriNET: rosa y morado de las flores del logo, olivo y salvia del CSS de su tienda
+   (#55624C, #C9D3BC, #F5F7F1). El rosa del logo (#D4537E) se oscurece a #B23A63 para texto y botones (AA). */
+@theme {
+  --color-crema: #f6f4ee;
+  --color-papel: #ffffff;
+  --color-tinta: #2c3127;
+  --color-gris: #5a6152;
+  --color-olivo: #55624c;
+  --color-olivo-oscuro: #3e4a36;
+  --color-salvia: #c9d3bc;
+  --color-salvia-claro: #e8ede0;
+  --color-rosa: #b23a63;
+  --color-rosa-logo: #d4537e;
+  --color-rosa-claro: #f7e1e9;
+  --color-morado: #74478a;
+  --font-sans: "Nunito Sans", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; font-family: var(--font-display); }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-morado); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+}
+
+/* Mosaico de alcaldías: celdas cuadradas */
+.mosaico { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); grid-template-rows: repeat(6, minmax(0, 1fr)); gap: 6px; aspect-ratio: 5 / 6; }
+.nota { background-image: repeating-linear-gradient(to bottom, transparent 0 31px, #e8ede0 31px 32px); }
+
+@utility btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; border-radius: 9999px; padding: 0.75rem 1.25rem; font-weight: 700; transition: background-color .2s, color .2s; }
+@utility btn-rosa { @apply btn bg-rosa text-white hover:bg-[#962f53]; }
+@utility btn-linea { @apply btn border-2 border-olivo text-olivo-oscuro hover:bg-salvia-claro; }
