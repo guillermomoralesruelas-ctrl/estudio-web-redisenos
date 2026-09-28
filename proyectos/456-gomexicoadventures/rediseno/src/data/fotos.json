@@ -1,0 +1,46 @@
+{
+ "trajinera-grupo": [
+  900,
+  1200
+ ],
+ "trajinera-canal": [
+  1280,
+  960
+ ],
+ "kayaks-atardecer": [
+  1280,
+  960
+ ],
+ "laguna-kayaks": [
+  1280,
+  960
+ ],
+ "chinampa-carpa": [
+  900,
+  1200
+ ],
+ "chinampa-jardin": [
+  1280,
+  960
+ ],
+ "cliente-1": [
+  272,
+  316
+ ],
+ "cliente-2": [
+  272,
+  316
+ ],
+ "cliente-3": [
+  272,
+  316
+ ],
+ "cliente-4": [
+  272,
+  316
+ ],
+ "logo": [
+  347,
+  96
+ ]
+}
