@@ -1,0 +1,27 @@
+# Imágenes disponibles en publicDir (../sitio/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+imagenesClases/45ab8f9f-d099-4235-803a-bcbf8493079f.jpg	3712x5568	5586 KB
+imagenesClases/6edf32c2-eda2-4645-9322-6248a2d1291f.jpg	3712x5568	3485 KB
+imagenesClases/1ea2f5ec-5d72-4d01-a982-5ee40e2c8cbf.JPG	3945x4860	2991 KB
+Imagenes/Inicio/Slider1.jpg	5568x3712	2479 KB
+imagenesClases/e5745cc8-4669-4815-93af-e064c493a37f.JPG	3963x4042	2343 KB
+Imagenes/Inicio/abajoInicio.jpg	5568x3712	2109 KB
+imagenesClases/da565a52-f2dd-43e2-9e43-3331c28f926a.jpg	3712x5568	1646 KB
+Imagenes/Inicio/fondoInfoEnInicio.jpg	3712x5568	1643 KB
+imagenesClases/7d18c6e5-c67b-47d9-be22-69989fb1d79f.jpg	3712x5568	1643 KB
+imagenesClases/d2ba5ca3-1664-4386-8759-b44c6bb09143.jpg	3890x5347	1639 KB
+Imagenes/Inicio/Slider3.jpg	3712x5568	1520 KB
+imagenesClases/e15f1279-ea68-4e44-96e6-110934e210c5.JPG	2500x3203	935 KB
+Imagenes/Inicio/Slider2.JPG	1638x2048	255 KB
+Logos/Logo-01.png	1215x311	37 KB
+Logos/Logo-02.png	1215x310	34 KB
+favicon.png	500x500	8 KB
+Iconos/IconosB-07.png	199x200	7 KB
+Iconos/IconosB-06.png	196x196	7 KB
+Iconos/tiktok.png	313x313	5 KB
+Iconos/IconosB-05.png	196x196	5 KB
+Iconos/brahma-test-03.png	205x133	4 KB
+Iconos/brahma-test-02.png	175x167	3 KB
+Iconos/IconosB-09.png	86x103	3 KB
+Iconos/IconosB-11.png	72x95	3 KB
+Iconos/IconosB-10.png	104x74	2 KB

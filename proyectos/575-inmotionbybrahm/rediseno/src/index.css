@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Inter: solo el subconjunto latino */
+@font-face {
+  font-family: "Inter Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2") format("woff2-variations");
+}
+
+/* Tokens: verde salvia de su logotipo (#7E8D80, CSS del clon), blanco y negro de su sesión de fotos. */
+@theme {
+  --color-fondo: #faf8f7;
+  --color-papel: #ffffff;
+  --color-tinta: #1f2420;
+  --color-salvia: #7e8d80;
+  --color-salvia-osc: #4e5b51;
+  --color-bruma: #e5ebe6;
+  --color-tapete: #26302a;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Cardo", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; font-weight: 400; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-salvia-osc); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .boton-principal { @apply inline-flex items-center gap-2 rounded-full bg-salvia-osc px-6 py-3 font-medium text-white transition-colors hover:bg-tinta; }
+  .boton-secundario { @apply inline-flex items-center gap-2 rounded-full border border-salvia-osc px-6 py-3 font-medium text-salvia-osc transition-colors hover:bg-bruma; }
+  .aparece { animation: aparece 0.4s ease-out; }
+}
+
+@keyframes aparece { from { opacity: 0; } to { opacity: 1; } }
+
+/* El control deslizante es invisible sobre el tapete; con teclado se ve un contorno. */
+.relative:has(> .rango:focus-visible) { outline: 3px solid var(--color-salvia-osc); outline-offset: 4px; border-radius: 16px; }

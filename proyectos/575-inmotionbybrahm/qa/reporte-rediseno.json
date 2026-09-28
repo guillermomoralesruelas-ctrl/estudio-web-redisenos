@@ -1,0 +1,96 @@
+{
+  "fecha": "2026-09-28T03:08:59.022Z",
+  "carpeta": "575-inmotionbybrahm",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5980,
+      "desbordeX": 0,
+      "h1": 3,
+      "imagenes": 42,
+      "rotas": [
+        "http://127.0.0.1:58155/575-inmotionbybrahm/sitio/Imagenes/Inicio/abajoInicio.jpg"
+      ],
+      "sinAlt": 1,
+      "titulo": "Inicio - InMotion by Brahmā",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:58155/575-inmotionbybrahm/sitio/Imagenes/Inicio/abajoInicio.jpg",
+        "404 http://127.0.0.1:58155/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "404 http://127.0.0.1:58155/575-inmotionbybrahm/sitio/assets/externo/cdn.jsdelivr.net/npm/bootstrap-icons/font/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a",
+        "404 http://127.0.0.1:58155/575-inmotionbybrahm/sitio/Imagenes/Inicio/abajoInicio.jpg",
+        "404 http://127.0.0.1:58155/575-inmotionbybrahm/sitio/Imagenes/Inicio/fondoInfoEnInicio.jpg",
+        "404 http://127.0.0.1:58155/575-inmotionbybrahm/sitio/assets/externo/cdn.jsdelivr.net/npm/bootstrap-icons/font/fonts/bootstrap-icons.woff?e34853135f9e39acf64315236852cd5a"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7768,
+      "desbordeX": 0,
+      "h1": 3,
+      "imagenes": 42,
+      "rotas": [
+        "http://127.0.0.1:58155/575-inmotionbybrahm/sitio/Imagenes/Inicio/abajoInicio.jpg"
+      ],
+      "sinAlt": 1,
+      "titulo": "Inicio - InMotion by Brahmā",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:58155/575-inmotionbybrahm/sitio/Imagenes/Inicio/abajoInicio.jpg",
+        "404 http://127.0.0.1:58155/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "404 http://127.0.0.1:58155/575-inmotionbybrahm/sitio/assets/externo/cdn.jsdelivr.net/npm/bootstrap-icons/font/fonts/bootstrap-icons.woff2?e34853135f9e39acf64315236852cd5a",
+        "404 http://127.0.0.1:58155/575-inmotionbybrahm/sitio/Imagenes/Inicio/fondoInfoEnInicio.jpg",
+        "404 http://127.0.0.1:58155/575-inmotionbybrahm/sitio/assets/externo/cdn.jsdelivr.net/npm/bootstrap-icons/font/fonts/bootstrap-icons.woff?e34853135f9e39acf64315236852cd5a"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6688,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Yoga y pilates en San Luis Potosí | InMotion by Brahmā",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 11710,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Yoga y pilates en San Luis Potosí | InMotion by Brahmā",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
