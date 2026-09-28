@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "@fontsource/playfair-display/latin.css";
+@import "@fontsource/source-sans-3/latin.css";
+
+@theme {
+  --color-fondo: #fdf8f3;
+  --color-tinta: #1c1410;
+  --color-rosa: #c0355a;
+  --color-rosa-claro: #fde8ef;
+  --color-crema: #fdf8f3;
+  --color-verde: #4a5544;
+  --color-gris: #6b7280;
+  --color-funebre: #2d3748;
+  --color-funebre-suave: #f0f0f0;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Source Sans 3", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
+  }
+  body {
+    @apply bg-crema text-tinta font-sans antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-rosa);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    * {
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .contenedor {
+    @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8;
+  }
+  .btn-rosa {
+    @apply inline-flex items-center gap-2 rounded-full bg-rosa px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#a82e4f] focus-visible:outline-2;
+  }
+  .btn-contorno {
+    @apply inline-flex items-center gap-2 rounded-full border-2 border-rosa px-6 py-3 text-sm font-semibold text-rosa transition-colors hover:bg-rosa hover:text-white focus-visible:outline-2;
+  }
+  .btn-gris {
+    @apply inline-flex items-center gap-2 rounded-full bg-funebre px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#1a2535] focus-visible:outline-2;
+  }
+}
