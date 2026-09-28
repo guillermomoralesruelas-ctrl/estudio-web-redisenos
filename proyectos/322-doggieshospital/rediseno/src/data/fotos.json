@@ -1,0 +1,62 @@
+{
+ "f-fachada": [
+  1000,
+  679
+ ],
+ "f-quirofano": [
+  1000,
+  668
+ ],
+ "f-cirugia": [
+  800,
+  726
+ ],
+ "f-laparoscopia": [
+  800,
+  767
+ ],
+ "f-cardiologia": [
+  800,
+  800
+ ],
+ "f-dermatologia": [
+  800,
+  801
+ ],
+ "f-hospital": [
+  800,
+  800
+ ],
+ "f-laboratorio": [
+  800,
+  637
+ ],
+ "f-felina": [
+  800,
+  582
+ ],
+ "f-estetica": [
+  800,
+  601
+ ],
+ "f-radiologia": [
+  800,
+  800
+ ],
+ "f-ultrasonido": [
+  800,
+  648
+ ],
+ "f-golden": [
+  800,
+  711
+ ],
+ "f-vendaje": [
+  800,
+  668
+ ],
+ "logo": [
+  278,
+  120
+ ]
+}
