@@ -1,0 +1,19 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content/uploads/sites/7856), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+2025/05/3b3c9dac494291f460ac2ebbf1b65569c7b7a8bc1.jpg	3199x1461	561 KB
+2021/03/san-miguel-logo.png	300x274	50 KB
+2019/04/holbox_logo-footer-e1555958377997.png	718x413	37 KB
+2020/10/Parquebarrancas-Logo.png	300x300	31 KB
+2019/06/VIP-LOGO.png	300x299	14 KB
+2022/04/mm-tg002.png	300x300	14 KB
+2021/03/vft-logo.png	140x140	10 KB
+2025/05/b466e14bee0d01a4024ff212e986e4af9d9a0154.png	341x239	9 KB
+2023/01/Jooble-logo2.png	263x263	9 KB
+2020/01/Mexico-Whale-Shark-Logo.png	164x120	7 KB
+2020/01/Wild-Cabo-Tours-Logo.png	120x120	7 KB
+2020/01/wild-loreto-logo.png	106x120	7 KB
+2020/01/Whale-Shark-Tour-Cancun-Logo.png	260x80	6 KB
+2020/01/Juan-More-Taco-Logo.png	144x120	6 KB
+2020/01/Cooking-Vallarta-Logo.png	163x120	6 KB
+2020/01/Buccaneer-los-Cabos-logo.png	70x70	5 KB
+2019/04/holbox_logo-021-e1555617307980.png	31x22	1 KB

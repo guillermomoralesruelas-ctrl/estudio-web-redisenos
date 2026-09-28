@@ -542,5 +542,13 @@
   "fallos": [],
   "ok": true,
   "fecha": "2026-09-28T18:11:27.990Z"
+ },
+ "501-holboxtravel": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 6,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-28T20:11:23.934Z"
  }
 }

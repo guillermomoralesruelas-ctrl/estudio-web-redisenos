@@ -1,0 +1,74 @@
+{
+  "fecha": "2026-09-28T20:10:25.255Z",
+  "carpeta": "501-holboxtravel",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 13359,
+      "desbordeX": 8856,
+      "h1": 2,
+      "imagenes": 52,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Holbox Travel | Tour Bioluminescence in Holbox & 3 Island Tours",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:50065/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9651,
+      "desbordeX": 8594,
+      "h1": 2,
+      "imagenes": 44,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Holbox Travel | Tour Bioluminescence in Holbox & 3 Island Tours",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:50065/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3006,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Holbox Travel | Whale Shark Tours & Island Adventures in Holbox",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5044,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Holbox Travel | Whale Shark Tours & Island Adventures in Holbox",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
