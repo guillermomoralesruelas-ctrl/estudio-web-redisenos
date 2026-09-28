@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-09-28T02:23:56.996Z",
+  "carpeta": "214-christianmacias",
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8698,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 24,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Christian Macías | Fotógrafo de Bodas Documental — Guadalajara",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 12907,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 24,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Christian Macías | Fotógrafo de Bodas Documental — Guadalajara",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

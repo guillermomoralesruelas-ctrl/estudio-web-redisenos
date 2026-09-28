@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/latin-400.css";
+@import "@fontsource/cormorant-garamond/latin-400-italic.css";
+@import "@fontsource/cormorant-garamond/latin-500.css";
+@import "@fontsource/cormorant-garamond/latin-500-italic.css";
+@import "@fontsource-variable/inter";
+
+@theme {
+  --color-bg:     #0c0c0c;
+  --color-paper:  #f5f2ec;
+  --color-ink:    #1a1a1a;
+  --color-cream:  #e8e2d8;
+  --color-gold:   #c4a96e;
+  --color-white:  #ffffff;
+  --font-serif:   "Cormorant Garamond", Georgia, serif;
+  --font-sans:    "Inter Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4rem; }
+  body { @apply bg-bg text-white font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-gold); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-wa {
+    @apply inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white
+           hover:bg-[#1fb956] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366];
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/30 px-6 py-3 text-sm
+           text-white hover:bg-white/10 transition-colors;
+  }
+  .btn-dark {
+    @apply inline-flex items-center gap-2 rounded-full bg-bg px-6 py-3 text-sm font-semibold text-white
+           border border-bg hover:bg-ink transition-colors;
+  }
+}
