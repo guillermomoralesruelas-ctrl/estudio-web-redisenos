@@ -1,41 +1,6 @@
 {
-  "fecha": "2026-09-27T15:27:52.504Z",
+  "fecha": "2026-09-28T16:33:54.351Z",
   "carpeta": "431-fotoproducto",
-  "antes": [
-    {
-      "vista": "escritorio",
-      "ancho": 1280,
-      "alto": 0,
-      "desbordeX": 0,
-      "h1": 0,
-      "imagenes": 0,
-      "rotas": [],
-      "sinAlt": 0,
-      "titulo": "",
-      "errores": [
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
-      ],
-      "fallidos": [],
-      "captura": "qa/antes-escritorio.png"
-    },
-    {
-      "vista": "movil",
-      "ancho": 390,
-      "alto": 0,
-      "desbordeX": 0,
-      "h1": 0,
-      "imagenes": 0,
-      "rotas": [],
-      "sinAlt": 0,
-      "titulo": "",
-      "errores": [
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
-      ],
-      "fallidos": [],
-      "captura": "qa/antes-movil.png"
-    }
-  ],
   "despues": [
     {
       "vista": "escritorio",
@@ -49,7 +14,7 @@
       "titulo": "Fotoproducto | Fotografía de producto y renta de estudio en Zapopan",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-escritorio.png"
+      "captura": "qa\\despues-escritorio.png"
     },
     {
       "vista": "movil",
@@ -63,7 +28,7 @@
       "titulo": "Fotoproducto | Fotografía de producto y renta de estudio en Zapopan",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-movil.png"
+      "captura": "qa\\despues-movil.png"
     }
   ],
   "problemasRediseno": [],

@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-28T18:02:31.756Z",
+  "fecha": "2026-09-28T18:09:41.612Z",
   "carpeta": "540-hotelpomelo",
   "despues": [
     {
@@ -26,15 +26,11 @@
       "rotas": [],
       "sinAlt": 0,
       "titulo": "Hotel Pomelo | Hotel boutique frente al mar en Troncones",
-      "errores": [
-        "ReferenceError: google is not defined\n    at b (https://maps.gstatic.com/maps-api-v3/embed/js/66/6c/intl/es_419/init_embed.js:499:584)\n    at nn (https://maps.gstatic.com/maps-api-v3/embed/js/66/6c/intl/es_419/init_embed.js:225:406)\n    at a (https://maps.gstatic.com/maps-api-v3/embed/js/66/6c/intl/es_419/init_embed.js:224:38)"
-      ],
+      "errores": [],
       "fallidos": [],
       "captura": "qa\\despues-movil.png"
     }
   ],
-  "problemasRediseno": [
-    "movil: 1 errores de consola"
-  ],
-  "aprobado": false
+  "problemasRediseno": [],
+  "aprobado": true
 }
