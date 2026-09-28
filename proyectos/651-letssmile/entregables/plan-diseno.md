@@ -3,7 +3,7 @@
 **Sitio original:** https://letssmiledentistry.com/ (WordPress con Elementor; versión en español en /mx/)
 **Materia prima:** clon en `../sitio/`, `investigacion/original.html` y `crudo.json` (inicio, About us, Clinic facilities, Dr. Tomás García y Dental services). Con `curl`, el 2026-09-28, Dental services y Dental tourism (tabla de precios, pasos, seguro dental).
 **Rubro:** clínica dental para turismo dental (pacientes de EE. UU. y Canadá). **Ciudad:** Mexicali, B. C., a 3 minutos de la garita Este.
-**Idioma:** el sitio está en inglés para su público, así que el rediseño va en inglés (como 499, 486 y otros de `METODOS.md`); conserva el enlace a su versión en español.
+**Idioma:** el sitio está en inglés para su público, así que el rediseño va en inglés (como los otros sitios en inglés de `METODOS.md`); conserva el enlace a su versión en español.
 
 ## Qué le falta al clon (los "detallitos")
 - qa-rediseno.mjs, parte "antes" (2026-09-28): 7,464 px en escritorio y 10,378 px en el celular, 0 desborde, 38 y 39 errores de consola y 5 imágenes rotas en el celular.
