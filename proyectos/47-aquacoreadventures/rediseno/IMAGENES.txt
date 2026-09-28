@@ -1,0 +1,22 @@
+# Imágenes disponibles en publicDir (../sitio/assets/assets/img), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+locations/progreso/progreso-chicxulub-puerto-yucat-n.jpg	1400x1050	332 KB
+hero/destination-cancun.jpg	1600x1100	314 KB
+locations/los-cabos/los-cabos-los-cabos-san-lucas.jpg	1400x1050	307 KB
+locations/riviera-maya/riviera-maya-sunrise-at-riviera-maya-resort-mexico.jpg	1400x1050	195 KB
+logo.png	624x599	85 KB
+premios/tripadvisor-2024.webp	1000x999	60 KB
+premios/tripadvisor-2025.webp	1000x999	58 KB
+premios/tripadvisor-2023.webp	1000x999	55 KB
+favicon/apple-touch-icon.png	180x180	16 KB
+premios/google-reviews.webp	1300x717	15 KB
+services/waverunner.webp	600x600	14 KB
+services/windsurf.webp	600x600	14 KB
+services/paddleboard.webp	600x600	13 KB
+services/kitesurf.webp	600x600	13 KB
+services/surf.webp	600x600	13 KB
+services/yachts.webp	600x600	11 KB
+services/diving.webp	600x600	11 KB
+services/snorkeling.webp	600x600	10 KB
+favicon/favicon-32x32.png	32x32	2 KB
+favicon/favicon-16x16.png	16x16	1 KB

@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Tokens de AquaCore: azules y arena de su CSS (#0a2540, #0a3553, #b8e2f2, #f7f4ef) y el azul del logo. */
+@theme {
+  --color-marino: #0a2540;
+  --color-profundo: #0a3553;
+  --color-laguna: #1273b0;
+  --color-bruma: #b8e2f2;
+  --color-arena: #f7f4ef;
+  --color-linea: #dcd6cb;
+  --color-gris: #4b5563;
+  --color-sol: #f2b233;
+  --color-wa: #25d366;
+  --font-sans: "Outfit", "Segoe UI", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-marino font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-sol); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { @apply font-serif text-[2.1rem] leading-[1.1] sm:text-5xl; }
+
+  .btn-wa { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 font-medium transition-colors bg-wa text-marino hover:bg-[#1fbd5a]; }
+  .btn-claro { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 font-medium transition-colors border border-current; }
+}
+
+/* Dibujo de Progreso: el viento y las olas se mueven solo si el usuario no pidió menos movimiento. */
+@keyframes racha { from { transform: translateX(-60px); } to { transform: translateX(60px); } }
+@keyframes vaiven { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(3px); } }
+@keyframes cometa { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(5deg); } }
+.racha { animation: racha 2.6s linear infinite alternate; }
+.vaiven { animation: vaiven 3.4s ease-in-out infinite; }
+.cometa { transform-box: fill-box; transform-origin: 50% 100%; animation: cometa 2.2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .racha, .vaiven, .cometa { animation: none; }
+}
