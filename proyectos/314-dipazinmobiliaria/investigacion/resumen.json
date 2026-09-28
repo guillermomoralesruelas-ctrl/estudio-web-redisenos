@@ -1,0 +1,128 @@
+{
+  "sitio": "https://www.dipaz.com.mx/",
+  "fecha": "2026-09-26T07:01:20.279Z",
+  "motor": "jina-reader",
+  "slug": "dipazinmobiliaria",
+  "nombre": "DIPAZ Inmobiliaria",
+  "rubro": "INMUEBLES",
+  "ciudad": "La Paz, Baja California Sur",
+  "plantilla": "inmobiliaria",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.dipaz.com.mx/",
+      "titulo": "Inicio - DIPAZ - Dipaz Inmobiliaria | Casas en venta en La Paz, Baja California Sur, México"
+    },
+    {
+      "url": "https://www.dipaz.com.mx/desarrollos-disponibles/",
+      "titulo": "Proyectos Residenciales - Dipaz Inmobiliaria | Casas en venta en La Paz, Baja California Sur, México"
+    },
+    {
+      "url": "https://www.dipaz.com.mx/nosotros/",
+      "titulo": "Nosotros - Dipaz Inmobiliaria | Casas en venta en La Paz, Baja California Sur, México"
+    },
+    {
+      "url": "https://www.dipaz.com.mx/creditos/",
+      "titulo": "Créditos - Dipaz Inmobiliaria | Casas en venta en La Paz, Baja California Sur, México"
+    },
+    {
+      "url": "https://www.dipaz.com.mx/contacto/",
+      "titulo": "Contacto - Dipaz Inmobiliaria | Casas en venta en La Paz, Baja California Sur, México"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52) 612 130 0103",
+      "52)6121300103",
+      "16121300103",
+      "612)130 0103",
+      "612) 13 00 103",
+      "612) 16 63 750",
+      "61569969742634",
+      "612) 130 0103",
+      "6121300103",
+      "612 1300 103"
+    ],
+    "emails": [
+      "recepcionlapaz@dipaz.com.mx",
+      "contacto@dipaz.com.mx"
+    ],
+    "whatsapp": [
+      "wa.me/16121300103)"
+    ],
+    "redes": [
+      "https://www.facebook.com/profile.php?id=61569969742634",
+      "https://www.facebook.com/AltavistaResidencialOficial",
+      "https://www.youtube.com/@dipazconstructora741"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/03/dipazlogo-300x153.png",
+      "alt": "Image 1: dipazlogo"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/04/h4-vector.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/07/IMG_8812-scaled.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/08/D75-03-SALA-COMEDOR-scaled.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/03/h4-vector.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/08/DSC04980-scaled.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/03/avatar-3.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/08/MODELO_FRAGATA_FACHADA-removebg-preview.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://demo2wpopal.b-cdn.net/spaciaz/wp-content/uploads/2025/03/h1_shape.png",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/08/Logo_INFONAVIT.svg.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/08/HSBC_Logo_2018.png",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/08/fovissste-logo-png_seeklogo-338219.png",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/08/cabezal-adaptado-scotiabank.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/08/BBVA_2019.svg-1024x306.png",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/08/Banco_Santander_Logotipo.svg-1024x179.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/03/h3_img-3.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.dipaz.com.mx/wp-content/uploads/2025/03/h3_img-4.jpg",
+      "alt": "Image 3"
+    }
+  ]
+}

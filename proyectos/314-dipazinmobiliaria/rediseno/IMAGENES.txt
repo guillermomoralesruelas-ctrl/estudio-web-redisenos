@@ -1,0 +1,18 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg	?	897 KB
+plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg	?	732 KB
+uploads/2025/07/IMG_8967-scaled.jpg	2560x1707	667 KB
+themes/spaciaz/assets/fonts/icons/spaciaz-icon-1.0.0.svg	?	528 KB
+uploads/2025/08/D75-03-SALA-COMEDOR-scaled.jpg	2560x1707	508 KB
+uploads/2025/08/DSC04980-scaled.jpg	2560x1707	488 KB
+uploads/2025/07/IMG_8812-scaled.jpg	2560x1707	471 KB
+uploads/2025/04/01-CASA-CLUB-scaled.jpg	2560x1440	432 KB
+plugins/elementor/assets/lib/eicons/fonts/eicons.svg	?	364 KB
+uploads/2025/04/h4-vector.png	1213x1470	201 KB
+uploads/2025/09/Captura-de-pantalla-2025-09-01-a-las-4.57.56-a.m.png	542x716	143 KB
+uploads/2025/03/h4-vector.png	690x383	23 KB
+uploads/2026/08/cropped-DIPAZ-FAV-ICON-192x192.png	192x192	6 KB
+uploads/2026/08/cropped-DIPAZ-FAV-ICON-180x180.png	180x180	5 KB
+uploads/2025/03/dipazlogo-300x153.png	300x153	3 KB
+uploads/2026/08/cropped-DIPAZ-FAV-ICON-32x32.png	32x32	1 KB

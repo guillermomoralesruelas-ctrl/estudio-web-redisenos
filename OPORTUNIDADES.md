@@ -103,4 +103,6 @@
 | BAJA | 362-elpalmar | El Palmar Mariscos + Sushi (Mazatlán, Sin.) | Sitio reciente y bien hecho, pero con 29 MB de imágenes (la mezcalina pesa 2.4 MB), las dos charolas son imágenes generadas con IA y hay nombres en inglés en el menú en español | WhatsApp 669 100 5111, tel. 669 546 6940, IG @elpalmarmzt | 2026-09-28 | Propuesta lista, sin contactar |
 | BAJA | 54-aria | Academia de baile ARIA (Hipódromo Condesa, CDMX) | Sitio moderno y bien hecho, pero con dos horarios distintos para el sábado, "piso 4" en la página de boda y "piso 5" en el resto, y promociones vencidas (julio, Hot Sale, mayo) todavía publicadas | WhatsApp y tel. +52 56 3468 4421, IG @somosaria_ | 2026-09-28 | Propuesta lista, sin contactar |
 
+| **ALTA** | 314-dipazinmobiliaria | DIPAZ Inmobiliaria (La Paz, BCS) | WhatsApp con prefijo `1` (EE.UU.) en lugar de `52` (México) — los mensajes no llegan; horarios contradictorios footer vs. Contacto; WordPress Login visible; sin JSON-LD | Tel. (612) 130 0103 · (612) 166 3750 · recepcionlapaz@dipaz.com.mx | 2026-09-28 | Propuesta lista, sin contactar |
+
 Cuando Guillermo contacte a alguien, cambia el **Estado** (por ejemplo: "Contactado 2026-10-01 por IG", "Interesado", "No interesado") para no escribirle dos veces.

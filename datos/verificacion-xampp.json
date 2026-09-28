@@ -590,5 +590,13 @@
   "fallos": [],
   "ok": true,
   "fecha": "2026-09-28T23:34:04.847Z"
+ },
+ "314-dipazinmobiliaria": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 6,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-28T23:46:29.993Z"
  }
 }
