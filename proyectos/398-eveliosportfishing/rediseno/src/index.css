@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Tokens de Evelio Sport Fishing: el azul verdoso de su logo (muestreado #308090), el azul del Pacífico profundo y
+   el amarillo del dorado, su pez del torneo. */
+@theme {
+  --color-oceano: #0b2a3a;
+  --color-marea: #1f6f86;
+  --color-espuma: #eef6f8;
+  --color-dorado: #f2c230;
+  --color-gris: #4f6470;
+  --color-bruma: #a9c3cd;
+  --color-palma: #1d6b43;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Anybody Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-oceano font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-dorado); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { @apply font-titulo font-extrabold leading-[1.02] tracking-[-0.01em]; font-stretch: 115%; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+}
