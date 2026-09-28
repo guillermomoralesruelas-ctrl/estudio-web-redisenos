@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Tokens: ver "Dirección visual" en entregables/plan-diseno.md. azul y rojo son los de su logo (Mesa-de-trabajo-14-8.png). */
+@theme {
+  --color-azul: #145082;
+  --color-azulhondo: #0d3a61;
+  --color-rojo: #d2141e;
+  --color-rojohondo: #b0111a;
+  --color-niebla: #f3f5f8;
+  --color-tinta: #16202b;
+  --color-gris: #56606b;
+  --font-titulo: "Manrope Variable", "Arial", sans-serif;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-white text-tinta font-sans antialiased; }
+  h1, h2, h3 { @apply font-titulo font-extrabold tracking-tight text-balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rojo); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-lg bg-azul px-5 py-3 text-[0.95rem] font-semibold text-white transition-colors hover:bg-azulhondo; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-lg border-2 border-azul px-5 py-3 text-[0.95rem] font-semibold text-azul transition-colors hover:bg-azul hover:text-white; }
+}
