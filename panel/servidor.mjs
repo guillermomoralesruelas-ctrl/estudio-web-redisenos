@@ -13,6 +13,8 @@ import path from 'node:path';
 import { spawn, spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { DatabaseSync } from 'node:sqlite';
+import { createRequire } from 'node:module';
+import os from 'node:os';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PUERTO = Number(process.env.PANEL_PUERTO || 4000);
@@ -20,6 +22,13 @@ const ES_WIN = process.platform === 'win32';
 
 // ---------- Base de datos ----------
 const db = new DatabaseSync(path.join(RAIZ, 'datos', 'estudio.db'));
+
+// fabricador.db (solo lectura)
+let dbFab = null;
+try {
+  const fabPath = path.join(RAIZ, 'datos', 'fabricador.db');
+  if (fs.existsSync(fabPath)) { dbFab = new DatabaseSync(fabPath); dbFab.exec('PRAGMA journal_mode=WAL'); }
+} catch { }
 db.exec('PRAGMA foreign_keys = ON;');
 db.exec(fs.readFileSync(path.join(RAIZ, 'datos', 'esquema.sql'), 'utf8'));
 {
@@ -337,6 +346,155 @@ function estadoCompleto(p) {
   return { ...p, fases, archivos: archivosDe(p), vista: vistas.get(p.id)?.url || null, ejecutando: ejecucion?.proyectoId === p.id ? ejecucion.fase : null };
 }
 
+// ---------- Galería (rediseños y clones) ----------
+// Junta cada carpeta de proyectos/ que tenga rediseno/ o un clon en sitio/, con su estado de METODOS.md
+// y sus datos de fabricador.db. Las miniaturas se hacen con sharp (de herramientas/) y se guardan en el temporal.
+const XAMPP = (() => { const m = RAIZ.replace(/\\/g, '/').match(/\/htdocs\/(.+)$/i); return m ? `http://localhost/${m[1]}` : null; })();
+const DIR_MINI = path.join(os.tmpdir(), 'estudio-miniaturas');
+let sharpMod;
+function cargarSharp() {
+  if (sharpMod === undefined) { try { sharpMod = createRequire(path.join(RAIZ, 'herramientas', 'package.json'))('sharp'); } catch { sharpMod = null; } }
+  return sharpMod;
+}
+
+function leerMetodos() {
+  const m = new Map();
+  const f = path.join(RAIZ, 'METODOS.md');
+  if (!fs.existsSync(f)) return m;
+  for (const l of fs.readFileSync(f, 'utf8').split(/\r?\n/)) {
+    if (!l.startsWith('| ')) continue;
+    const c = l.split('|').map((s) => s.trim().replace(/^`|`$/g, ''));
+    if (!/^\d+-/.test(c[1] || '')) continue;
+    m.set(c[1], { negocio: c[2] || '', metodo: c[3] || '', estado: c[4] || '', notas: c[6] || '' });
+  }
+  return m;
+}
+
+// Primera captura que exista, en orden de preferencia.
+function capturaDe(carpeta, nombres) {
+  const base = path.join(RAIZ, 'proyectos', carpeta);
+  const ref = path.join(base, 'referencias');
+  const subs = fs.existsSync(ref) ? fs.readdirSync(ref).filter((d) => d.startsWith('capturas-')).sort().reverse() : [];
+  for (const n of nombres) {
+    for (const s of subs) for (const ext of ['jpg', 'png', 'webp']) { const f = path.join(ref, s, `${n}.${ext}`); if (fs.existsSync(f)) return f; }
+    const q = path.join(base, 'qa', `${n}.png`); if (fs.existsSync(q)) return q;
+  }
+  return null;
+}
+
+// Para un clon sin captura: la foto más pesada de sitio/ (suele ser la portada).
+function fotoDelClon(carpeta) {
+  const raiz = path.join(RAIZ, 'proyectos', carpeta, 'sitio');
+  let mejor = null, peso = 40 * 1024, vistos = 0;
+  const pila = [raiz];
+  while (pila.length && vistos < 1500) {
+    const d = pila.pop();
+    let ents = []; try { ents = fs.readdirSync(d, { withFileTypes: true }); } catch { continue; }
+    for (const e of ents) {
+      const f = path.join(d, e.name);
+      if (e.isDirectory()) { pila.push(f); continue; }
+      vistos++;
+      if (!/\.(jpe?g|webp|png)$/i.test(e.name) || /logo|icon|favicon|sprite/i.test(e.name)) continue;
+      const t = fs.statSync(f).size; if (t > peso) { peso = t; mejor = f; }
+    }
+  }
+  return mejor;
+}
+
+// Carpetas cuyo commit de rediseño se hizo en la nube (mensaje con [nube]).
+function carpetasDeLaNube() {
+  const r = spawnSync('git', ['log', '--format=%s', '-n', '3000'], { cwd: RAIZ, encoding: 'utf8' });
+  const set = new Set();
+  for (const l of (r.stdout || '').split('\n')) { const m = l.match(/^(\d+-[\w-]+):.*\[nube\]/); if (m) set.add(m[1]); }
+  return set;
+}
+
+let cacheGaleria = null;
+function galeria() {
+  if (cacheGaleria && Date.now() - cacheGaleria.t < 20000) return cacheGaleria.datos;
+  const metodos = leerMetodos();
+  const enNube = carpetasDeLaNube();
+  // Resultado de herramientas/verificar-xampp.mjs: cada rediseño abierto por XAMPP como lo ve el usuario.
+  let verif = {};
+  try { verif = JSON.parse(fs.readFileSync(path.join(RAIZ, 'datos', 'verificacion-xampp.json'), 'utf8')); } catch { }
+  const fab = new Map();
+  if (dbFab) { try { for (const r of dbFab.prepare('SELECT carpeta, nombre, ciudad, rubro, plantilla, calidad, web, web_home FROM sitios WHERE carpeta IS NOT NULL').all()) fab.set(r.carpeta, r); } catch { } }
+  const dir = path.join(RAIZ, 'proyectos');
+  const sitios = [];
+  for (const c of fs.readdirSync(dir)) {
+    const base = path.join(dir, c);
+    try { if (!fs.statSync(base).isDirectory()) continue; } catch { continue; }
+    const tieneRed = fs.existsSync(path.join(base, 'rediseno', 'package.json'));
+    const tieneDist = fs.existsSync(path.join(base, 'rediseno', 'dist', 'index.html'));
+    const tieneClon = fs.existsSync(path.join(base, 'sitio', 'index.html'));
+    const m = metodos.get(c);
+    if (!tieneRed && !tieneClon && !m) continue;
+    const f = fab.get(c) || {};
+    let categoria;
+    if (m && /descartad/i.test(m.estado)) categoria = 'descartado';
+    else if (tieneRed && m && /terminad/i.test(m.estado)) categoria = 'rediseno';
+    else if (tieneRed) categoria = 'proceso';
+    else if (tieneClon) categoria = 'clon';
+    else continue;
+    const notas = m?.notas || '';
+    const negocio = m?.negocio || '';
+    const lugar = negocio.match(/\(([^)]+)\)/)?.[1]?.split(';')[0]?.trim();
+    let qaOk = false;
+    try { qaOk = JSON.parse(fs.readFileSync(path.join(base, 'qa', 'reporte-rediseno.json'), 'utf8')).aprobado === true; } catch { }
+    const v = verif[c];
+    const aprobado = categoria === 'rediseno' && tieneDist && qaOk && v?.ok === true;
+    const memo = (categoria === 'rediseno' || categoria === 'proceso') ? notas.match(/["“]([^"”]{4,90})["”]:\s*([^.]{0,220})/) : null;
+    sitios.push({
+      carpeta: c,
+      numero: parseInt(c, 10) || 0,
+      nombre: (negocio.split(/ \(| — /)[0] || f.nombre || c).trim(),
+      ciudad: lugar || f.ciudad || '',
+      rubro: f.rubro || '',
+      plantilla: f.plantilla || '',
+      calidad: f.calidad || '',
+      categoria,
+      origen: categoria === 'clon' ? null : /empezado en la nube/i.test(notas) ? 'Nube + PC' : (/hecho en la nube/i.test(notas) || enNube.has(c)) ? 'Nube' : 'PC',
+      memorable: memo ? { titulo: memo[1], texto: memo[2].trim() } : null,
+      motivo: categoria === 'descartado' ? notas.replace(/^Hecho en la nube\.\s*/i, '').slice(0, 240) : '',
+      web: f.web_home || f.web || '',
+      verRediseno: tieneDist && XAMPP ? `${XAMPP}/proyectos/${c}/rediseno/dist/index.html` : null,
+      verClon: tieneClon && XAMPP ? `${XAMPP}/proyectos/${c}/sitio/index.html` : null,
+      sinCompilar: tieneRed && !tieneDist,
+      aprobado,
+      verificado: aprobado ? v.fecha : null,
+      qaOk,
+    });
+  }
+  sitios.sort((a, b) => a.numero - b.numero);
+  cacheGaleria = { t: Date.now(), datos: sitios };
+  return sitios;
+}
+
+// tipo: esc | mov (capturas del rediseño) | clon (captura del original o foto del clon)
+async function miniatura(carpeta, tipo) {
+  const origen = tipo === 'esc' ? capturaDe(carpeta, ['despues-escritorio'])
+    : tipo === 'mov' ? capturaDe(carpeta, ['despues-movil'])
+    : (capturaDe(carpeta, ['antes-escritorio']) || fotoDelClon(carpeta));
+  if (!origen) return null;
+  const sharp = cargarSharp();
+  if (!sharp) return { archivo: origen };
+  const mt = Math.round(fs.statSync(origen).mtimeMs);
+  const destino = path.join(DIR_MINI, `${carpeta}-${tipo}-${mt}.webp`);
+  if (!fs.existsSync(destino)) {
+    fs.mkdirSync(DIR_MINI, { recursive: true });
+    const img = sharp(origen, { limitInputPixels: false });
+    const meta = await img.metadata();
+    const esCaptura = !/[\\/]sitio[\\/]/.test(origen);
+    let p = sharp(origen, { limitInputPixels: false });
+    if (esCaptura) {
+      const alto = Math.min(meta.height, Math.round(meta.width * (tipo === 'mov' ? 2 : 0.62)));
+      p = p.extract({ left: 0, top: 0, width: meta.width, height: alto });
+    }
+    await p.resize({ width: tipo === 'mov' ? 180 : 640, withoutEnlargement: true }).webp({ quality: 64 }).toFile(destino);
+  }
+  return { archivo: destino };
+}
+
 const servidor = http.createServer(async (req, res) => {
   const u = new URL(req.url, `http://${req.headers.host}`);
   const partes = u.pathname.split('/').filter(Boolean);
@@ -398,6 +556,52 @@ const servidor = http.createServer(async (req, res) => {
       res.writeHead(200, { 'Content-Type': TIPOS[path.extname(ruta).toLowerCase()] || 'application/octet-stream', 'Cache-Control': 'no-cache' });
       return fs.createReadStream(ruta).pipe(res);
     }
+    // ── Fabricador ────────────────────────────────────────────────────────────
+    if (u.pathname === '/api/fabricador/resumen') {
+      if (!dbFab) return json(res, 200, { disponible: false });
+      try {
+        const estados    = dbFab.prepare(`SELECT estado, COUNT(*) n FROM sitios GROUP BY estado ORDER BY n DESC`).all();
+        const plataformas= dbFab.prepare(`SELECT COALESCE(plataforma,'sin-clasificar') p, COUNT(*) n FROM sitios WHERE estado NOT IN ('pendiente','omitido') GROUP BY p ORDER BY n DESC`).all();
+        const plantillas = dbFab.prepare(`SELECT plantilla, COUNT(*) total, SUM(CASE WHEN estado IN ('scrapeado','construido','aprobado') THEN 1 ELSE 0 END) proc FROM sitios GROUP BY plantilla ORDER BY total DESC`).all();
+        const calidad    = dbFab.prepare(`SELECT calidad, COUNT(*) n FROM sitios WHERE calidad IS NOT NULL GROUP BY calidad ORDER BY n DESC`).all();
+        const total      = dbFab.prepare(`SELECT COUNT(*) n FROM sitios`).get().n;
+        return json(res, 200, { disponible: true, total, estados, plataformas, plantillas, calidad });
+      } catch (e) { return json(res, 500, { error: e.message }); }
+    }
+    if (u.pathname === '/api/fabricador/sitios') {
+      if (!dbFab) return json(res, 200, { total: 0, sitios: [] });
+      try {
+        const estado     = u.searchParams.get('estado') || '';
+        const plataforma = u.searchParams.get('plataforma') || '';
+        const calidad    = u.searchParams.get('calidad') || '';
+        const q          = u.searchParams.get('q') || '';
+        const pagina     = Math.max(1, Number(u.searchParams.get('p') || 1));
+        const POR        = 60;
+        const cond = [], p = [];
+        if (estado)     { cond.push('estado=?');    p.push(estado); }
+        if (plataforma) { cond.push('plataforma=?'); p.push(plataforma); }
+        if (calidad)    { cond.push('calidad=?');   p.push(calidad); }
+        if (q)          { cond.push('(slug LIKE ? OR nombre LIKE ? OR ciudad LIKE ?)'); p.push(`%${q}%`, `%${q}%`, `%${q}%`); }
+        const w     = cond.length ? 'WHERE ' + cond.join(' AND ') : '';
+        const total = dbFab.prepare(`SELECT COUNT(*) n FROM sitios ${w}`).get(...p).n;
+        const sitios= dbFab.prepare(`SELECT numero,slug,nombre,ciudad,rubro,plantilla,plataforma,estado,calidad,web_home FROM sitios ${w} ORDER BY numero LIMIT ? OFFSET ?`).all(...p, POR, (pagina-1)*POR);
+        return json(res, 200, { total, pagina, por_pagina: POR, sitios });
+      } catch (e) { return json(res, 500, { error: e.message }); }
+    }
+    // ── Galería ───────────────────────────────────────────────────────────────
+    if (u.pathname === '/api/galeria') {
+      return json(res, 200, { xampp: XAMPP, sitios: galeria() });
+    }
+    if (partes[0] === 'api' && partes[1] === 'galeria' && partes[2] === 'mini' && partes[3] && ['esc', 'mov', 'clon'].includes(partes[4])) {
+      const carpeta = decodeURIComponent(partes[3]);
+      if (!/^[\w.-]+$/.test(carpeta) || !fs.existsSync(path.join(RAIZ, 'proyectos', carpeta))) { res.writeHead(404); return res.end(); }
+      const m = await miniatura(carpeta, partes[4]).catch(() => null);
+      if (!m) { res.writeHead(404); return res.end(); }
+      res.writeHead(200, { 'Content-Type': TIPOS[path.extname(m.archivo).toLowerCase()] || 'image/webp', 'Cache-Control': 'max-age=600' });
+      return fs.createReadStream(m.archivo).pipe(res);
+    }
+    // ─────────────────────────────────────────────────────────────────────────
+
     res.writeHead(404); res.end('No encontrado');
   } catch (e) {
     console.error(e);

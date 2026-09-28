@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Estudio Web · Panel</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400&display=swap" />
 <style>
   :root {
     --fondo: #f4f3f0; --panel: #ffffff; --borde: #e3e0da; --texto: #1d1c1a; --suave: #6b6760; --tenue: #9a958c;
@@ -119,12 +120,146 @@
   dialog.visor { border: none; padding: 0; background: transparent; max-width: 95vw; max-height: 95vh; }
   dialog.visor::backdrop { background: rgba(0,0,0,.85); }
   dialog.visor img { max-width: 95vw; max-height: 92vh; display: block; }
+
+  /* ── Fabricador ─────────────────────────────────────────────────────────── */
+  .nav-modo { display: flex; gap: 4px; margin-bottom: 4px; }
+  .nav-modo button { flex: 1; padding: 7px 0; border: 1px solid var(--borde); background: var(--fondo); border-radius: var(--radio); cursor: pointer; font-size: 13px; font-weight: 600; color: var(--suave); }
+  .nav-modo button.activo { background: var(--acento); border-color: var(--acento); color: var(--acento-texto); }
+  .fab { padding: 24px 28px; min-width: 0; overflow: auto; }
+  .fab-titulo { display: flex; align-items: baseline; gap: 12px; margin-bottom: 20px; }
+  .fab-titulo h1 { margin: 0; font-size: 22px; }
+  .fab-ts { font-size: 12px; color: var(--tenue); }
+  .fab-cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 20px; }
+  @media (max-width: 900px) { .fab-cards { grid-template-columns: repeat(3, 1fr); } }
+  .fab-card { background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio); padding: 14px 16px; }
+  .fab-card .num { font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1; }
+  .fab-card .lab { font-size: 12px; color: var(--suave); margin-top: 4px; }
+  .fab-card.ok  .num { color: var(--ok); }
+  .fab-card.cur .num { color: var(--curso); }
+  .fab-card.err .num { color: var(--error); }
+  .fab-barra-wrap { margin-bottom: 22px; }
+  .fab-barra-wrap .meta { font-size: 12.5px; color: var(--suave); margin-bottom: 6px; display: flex; justify-content: space-between; }
+  .fab-barra { height: 10px; background: var(--borde); border-radius: 5px; overflow: hidden; }
+  .fab-barra i { display: block; height: 100%; background: var(--acento); border-radius: 5px; transition: width .4s; }
+  .fab-dos { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 22px; }
+  @media (max-width: 800px) { .fab-dos { grid-template-columns: 1fr; } }
+  .fab-bloque { background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio); padding: 14px 16px; }
+  .fab-bloque h3 { margin: 0 0 12px; font-size: 13px; color: var(--suave); text-transform: uppercase; letter-spacing: .04em; }
+  .fab-fila-bar { display: grid; grid-template-columns: 130px 1fr 36px; gap: 8px; align-items: center; margin-bottom: 8px; font-size: 13px; }
+  .fab-fila-bar .mini-bar { height: 6px; background: var(--borde); border-radius: 3px; overflow: hidden; }
+  .fab-fila-bar .mini-bar i { display: block; height: 100%; background: var(--acento); border-radius: 3px; }
+  .fab-fila-bar .n { text-align: right; font-variant-numeric: tabular-nums; color: var(--tenue); font-size: 12px; }
+  .fab-filtros { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  .fab-filtros input, .fab-filtros select { padding: 7px 10px; border: 1px solid var(--borde); border-radius: var(--radio); background: var(--fondo); font-size: 13px; color: var(--texto); }
+  .fab-filtros input { flex: 1; min-width: 160px; }
+  .fab-tabla { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .fab-tabla th { text-align: left; padding: 8px 10px; border-bottom: 2px solid var(--borde); color: var(--suave); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
+  .fab-tabla td { padding: 7px 10px; border-bottom: 1px solid var(--borde); vertical-align: middle; }
+  .fab-tabla tr:hover td { background: color-mix(in srgb, var(--acento) 5%, transparent); }
+  .fab-tabla .num-col { color: var(--tenue); font-variant-numeric: tabular-nums; width: 44px; }
+  .fab-tabla .slug { font-weight: 600; }
+  .fab-tabla .ciudad { color: var(--suave); font-size: 12px; }
+  .fab-tabla .plat { font-size: 11px; padding: 2px 7px; border-radius: 10px; border: 1px solid var(--borde); white-space: nowrap; }
+  .fab-tabla .plat.wordpress  { border-color: #4a90d9; color: #4a90d9; }
+  .fab-tabla .plat.wix        { border-color: #e67e22; color: #e67e22; }
+  .fab-tabla .plat.shopify    { border-color: #5a9e6f; color: #5a9e6f; }
+  .fab-tabla .plat.squarespace{ border-color: #9b59b6; color: #9b59b6; }
+  .fab-tabla .plat.webflow    { border-color: #4bc7cf; color: #4bc7cf; }
+  .fab-tabla .estado-badge { font-size: 11px; padding: 2px 7px; border-radius: 10px; white-space: nowrap; }
+  .fab-tabla .estado-badge.construido { background: color-mix(in srgb, var(--ok) 15%, transparent); color: var(--ok); }
+  .fab-tabla .estado-badge.scrapeado  { background: color-mix(in srgb, var(--espera) 15%, transparent); color: var(--espera); }
+  .fab-tabla .estado-badge.pendiente  { background: var(--fondo); color: var(--tenue); }
+  .fab-tabla .estado-badge.error      { background: color-mix(in srgb, var(--error) 15%, transparent); color: var(--error); }
+  .fab-tabla .estado-badge.omitido    { background: var(--fondo); color: var(--tenue); }
+  .fab-tabla a.ver { font-size: 11px; color: var(--acento); text-decoration: none; white-space: nowrap; }
+  .fab-tabla a.ver:hover { text-decoration: underline; }
+  .fab-paginacion { display: flex; gap: 8px; align-items: center; margin-top: 14px; font-size: 13px; }
+  .fab-paginacion button { padding: 5px 12px; border: 1px solid var(--borde); background: var(--panel); border-radius: var(--radio); cursor: pointer; }
+  .fab-paginacion button:disabled { opacity: .4; cursor: default; }
+  .fab-paginacion .info { color: var(--suave); flex: 1; text-align: center; }
+  .calidad-badge { font-size: 12px; white-space: nowrap; }
+  .calidad-badge.funcional { color: var(--ok); }
+  .calidad-badge.reparable { color: var(--espera); }
+  .calidad-badge.complejo  { color: var(--tenue); }
+  .calidad-badge.omitir    { color: var(--tenue); opacity:.6; }
+
+  /* ── Galería ────────────────────────────────────────────────────────────── */
+  .nav-modo { flex-wrap: wrap; }
+  .gal {
+    --g-suelo:#F3F4F1; --g-panel:#FFFFFF; --g-tinta:#1C211F; --g-suave:#5C6661; --g-linea:#D9DDD8; --g-acento:#1F5E7A;
+    --g-pc:#7A4E0E; --g-pc-f:#F4E7CF; --g-nube:#1F5E7A; --g-nube-f:#DCEAF1; --g-mix:#4D3D86; --g-mix-f:#E6E1F5;
+    --g-marco:#E6E9E4; --g-ok:#2F7D4F; --g-esp:#9A6412; --g-mal:#A8412E;
+    grid-column: 2 / -1; min-width: 0; background: var(--g-suelo); color: var(--g-tinta);
+    font: 16px/1.5 "Source Sans 3", system-ui, sans-serif; padding-inline: 28px; padding-block: 28px 64px;
+    display: grid; gap: 22px; align-content: start;
+  }
+  @media (prefers-color-scheme: dark) {
+    .gal { --g-suelo:#121614; --g-panel:#1B201E; --g-tinta:#E8ECE9; --g-suave:#9AA59F; --g-linea:#2C3330; --g-acento:#7FB8D4;
+      --g-pc:#E9C27E; --g-pc-f:#3A2E17; --g-nube:#9CCBE2; --g-nube-f:#1E3440; --g-mix:#C7B8F2; --g-mix-f:#2D2645;
+      --g-marco:#252B28; --g-ok:#7BC99A; --g-esp:#E3B566; --g-mal:#E8907E; }
+  }
+  @media (max-width: 1100px) { .gal { grid-column: 1; padding-inline: 16px; } }
+  .gal h1, .gal h2, .gal h3 { font-family: "Bricolage Grotesque", system-ui, sans-serif; margin: 0; text-wrap: balance; }
+  .gal h1 { font-size: clamp(28px, 4vw, 40px); font-weight: 700; letter-spacing: -.01em; line-height: 1.05; }
+  .gal h3 { font-size: 18px; font-weight: 600; line-height: 1.2; }
+  .gal-cab { display: grid; gap: 10px; }
+  .gal-cab p { margin: 0; color: var(--g-suave); max-width: 70ch; }
+  .gal-cats { display: flex; flex-wrap: wrap; gap: 8px; }
+  .gal-cats button { display: grid; text-align: left; gap: 0; padding: 10px 16px; min-width: 130px; border: 1px solid var(--g-linea); border-radius: 10px; background: var(--g-panel); color: var(--g-tinta); cursor: pointer; }
+  .gal-cats button b { font-family: "Bricolage Grotesque", sans-serif; font-size: 24px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .gal-cats button span { font-size: 13px; color: var(--g-suave); }
+  .gal-cats button[aria-pressed="true"] { background: var(--g-tinta); border-color: var(--g-tinta); color: var(--g-suelo); }
+  .gal-cats button[aria-pressed="true"] span { color: var(--g-suelo); opacity: .8; }
+  .gal-filtros { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .gal-filtros input, .gal-filtros select { font: inherit; font-size: 14px; padding: 7px 12px; border-radius: 8px; border: 1px solid var(--g-linea); background: var(--g-panel); color: var(--g-tinta); }
+  .gal-filtros input { flex: 1 1 220px; max-width: 340px; }
+  .gal-chip-f { font-size: 14px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--g-linea); background: var(--g-panel); color: var(--g-tinta); cursor: pointer; }
+  .gal-chip-f[aria-pressed="true"] { background: var(--g-tinta); color: var(--g-suelo); border-color: var(--g-tinta); }
+  .gal button:focus-visible, .gal a:focus-visible, .gal input:focus-visible, .gal select:focus-visible { outline: 2px solid var(--g-acento); outline-offset: 2px; }
+  .gal-cuenta { color: var(--g-suave); font-size: 14px; margin: 0; }
+  .gal-rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+  .gal-sitio { background: var(--g-panel); border: 1px solid var(--g-linea); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; }
+  .gal-vista { margin: 0; position: relative; background: var(--g-marco); aspect-ratio: 16 / 10.5; overflow: hidden; border-bottom: 1px solid var(--g-linea); display: grid; place-items: center; }
+  .gal-vista img.esc { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+  .gal-vista img.mov { position: absolute; right: 12px; bottom: -40px; width: 26%; border-radius: 8px; border: 3px solid var(--g-tinta); box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+  .gal-vista .sin { font-family: "Bricolage Grotesque", sans-serif; font-size: 42px; font-weight: 700; color: var(--g-suave); opacity: .5; }
+  .gal-vista .marca-foto { position: absolute; left: 8px; top: 8px; font-size: 11px; padding: 2px 8px; border-radius: 999px; background: rgba(0,0,0,.55); color: #fff; }
+  .gal-info { padding: 14px 16px 16px; display: grid; gap: 7px; flex: 1; align-content: start; }
+  .gal-fila { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .gal-num { font: 12px "JetBrains Mono", ui-monospace, monospace; color: var(--g-suave); }
+  .gal-chip { font-size: 11px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
+  .gal-chip.PC { color: var(--g-pc); background: var(--g-pc-f); }
+  .gal-chip.Nube { color: var(--g-nube); background: var(--g-nube-f); }
+  .gal-chip.mix { color: var(--g-mix); background: var(--g-mix-f); }
+  .gal-chip.funcional { color: var(--g-ok); background: color-mix(in srgb, var(--g-ok) 14%, transparent); }
+  .gal-chip.reparable { color: var(--g-esp); background: color-mix(in srgb, var(--g-esp) 14%, transparent); }
+  .gal-chip.complejo, .gal-chip.omitir, .gal-chip.nd { color: var(--g-suave); background: var(--g-marco); }
+  .gal-lugar { margin: 0; color: var(--g-suave); font-size: 14px; }
+  .gal-memo { margin: 0; font-size: 14px; }
+  .gal-memo span { display: block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--g-suave); margin-bottom: 1px; }
+  .gal-memo b { font-weight: 600; }
+  .gal-acciones { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+  .gal-acciones a { font-size: 13px; padding: 5px 11px; border-radius: 6px; border: 1px solid var(--g-linea); color: var(--g-acento); text-decoration: none; }
+  .gal-acciones a.prim { background: var(--g-tinta); border-color: var(--g-tinta); color: var(--g-suelo); }
+  .gal-acciones a.tenue { color: var(--g-suave); border-style: dashed; }
+  .gal-sello { margin: 0; font-size: 13px; font-weight: 600; color: var(--g-ok); }
+  .gal-sello.pend { color: var(--g-esp); font-weight: 400; }
+  .gal-cab code { font: 13px "JetBrains Mono", ui-monospace, monospace; }
+  .gal-acciones .nota { font-size: 13px; color: var(--g-esp); }
+  .gal-mas { justify-self: center; font: inherit; padding: 9px 20px; border-radius: 8px; border: 1px solid var(--g-linea); background: var(--g-panel); color: var(--g-tinta); cursor: pointer; }
+  .gal-vacio { color: var(--g-suave); padding: 30px 0; }
+  @media (prefers-reduced-motion: no-preference) { .gal-sitio { transition: transform .15s; } .gal-sitio:hover { transform: translateY(-2px); } }
 </style>
 </head>
 <body>
 <div class="app">
   <aside class="lateral">
     <div class="marca">Estudio Web<small>Panel de rediseño de sitios</small></div>
+    <div class="nav-modo">
+      <button id="modo-proyectos" class="activo" onclick="setModo('proyectos')">Proyectos</button>
+      <button id="modo-fabricador" onclick="setModo('fabricador')">Fabricador</button>
+      <button id="modo-galeria" onclick="setModo('galeria')">Galería</button>
+    </div>
     <form class="nuevo" id="form-nuevo">
       <label for="url">URL del sitio a rediseñar</label>
       <input id="url" type="url" required placeholder="https://www.ejemplo.com" autocomplete="off" />
@@ -142,6 +277,10 @@
   <main id="centro">
     <div class="vacio"><h1>Pega una URL para empezar</h1><p>El panel crea la carpeta numerada, investiga el sitio, descarga las imágenes, propone un concepto, construye el sitio nuevo y lo revisa. Te pide aprobación en el concepto y en la versión final.</p></div>
   </main>
+
+  <div class="fab" id="fab" style="display:none"></div>
+
+  <div class="gal" id="gal" style="display:none"></div>
 
   <aside class="checklist" id="derecha"><h2>Progreso</h2><p class="f-desc">Elige o crea un proyecto.</p></aside>
 </div>
@@ -344,6 +483,259 @@ $('#form-nuevo').onsubmit = async (ev) => {
 };
 
 estadoClaude(); cargarLista().then(async () => { const l = await api('/api/proyectos'); if (l.length) seleccionar(l[l.length - 1].id); });
+
+// ── Fabricador dashboard ──────────────────────────────────────────────────
+let fabModo = 'proyectos';
+let fabFiltros = { q: '', estado: '', plataforma: '', calidad: '', p: 1 };
+let fabTimer = null;
+
+function setModo(m) {
+  fabModo = m;
+  $('#modo-proyectos').classList.toggle('activo', m === 'proyectos');
+  $('#modo-fabricador').classList.toggle('activo', m === 'fabricador');
+  $('#modo-galeria').classList.toggle('activo', m === 'galeria');
+  $('#centro').style.display   = m === 'proyectos' ? '' : 'none';
+  $('#derecha').style.display  = m === 'proyectos' ? '' : 'none';
+  $('#fab').style.display      = m === 'fabricador' ? '' : 'none';
+  $('#gal').style.display      = m === 'galeria' ? '' : 'none';
+  if (m === 'galeria') cargarGaleria();
+  if (m === 'fabricador') {
+    fabFiltros = { q: '', estado: '', plataforma: '', calidad: '', p: 1 };
+    renderFab();
+    clearInterval(fabTimer);
+    fabTimer = setInterval(renderFab, 12000);
+  } else {
+    clearInterval(fabTimer);
+  }
+}
+
+const COLORES_PLAT = { wordpress: '#4a90d9', wix: '#e67e22', shopify: '#5a9e6f', squarespace: '#9b59b6', webflow: '#4bc7cf' };
+const ESTADO_ES = { pendiente: 'Pendiente', scrapeado: 'Scrapeado', construido: 'Construido', aprobado: 'Aprobado', omitido: 'Omitido', error: 'Error', scrapeando: 'Scrapeando' };
+
+async function renderFab() {
+  const [res, sitRes] = await Promise.all([
+    api('/api/fabricador/resumen'),
+    api(`/api/fabricador/sitios?q=${encodeURIComponent(fabFiltros.q)}&estado=${fabFiltros.estado}&plataforma=${fabFiltros.plataforma}&calidad=${fabFiltros.calidad}&p=${fabFiltros.p}`)
+  ]);
+  if (!res.disponible) { $('#fab').innerHTML = '<div class="vacio"><h1>Fabricador no disponible</h1><p>No se encontró fabricador.db</p></div>'; return; }
+
+  const est = Object.fromEntries(res.estados.map(e => [e.estado, e.n]));
+  const construidos = est.construido || 0;
+  const scrapeados  = est.scrapeado  || 0;
+  const pendientes  = est.pendiente  || 0;
+  const errores     = est.error      || 0;
+  const omitidos    = est.omitido    || 0;
+  const pct = Math.round((construidos / res.total) * 100);
+  const cal = Object.fromEntries((res.calidad||[]).map(c => [c.calidad, c.n]));
+  const calFuncional = cal.funcional || 0;
+  const calReparable = cal.reparable || 0;
+  const calComplejo  = cal.complejo  || 0;
+  const calOmitir    = cal.omitir    || 0;
+  const ahora = new Date().toLocaleTimeString('es-MX', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+
+  const maxPlat = Math.max(...res.plataformas.map(p => p.n), 1);
+  const maxPlant = Math.max(...res.plantillas.map(p => p.total), 1);
+
+  const paginas = Math.ceil(sitRes.total / sitRes.por_pagina);
+
+  $('#fab').innerHTML = `
+    <div class="fab-titulo">
+      <h1>Fabricador</h1>
+      <span class="fab-ts">Actualizado ${ahora} · ${res.total} sitios totales</span>
+    </div>
+
+    <div class="fab-cards">
+      <div class="fab-card ok"><div class="num">${construidos}</div><div class="lab">Construidos</div></div>
+      <div class="fab-card cur"><div class="num">${scrapeados}</div><div class="lab">Scrapeados</div></div>
+      <div class="fab-card"><div class="num">${pendientes}</div><div class="lab">Pendientes</div></div>
+      <div class="fab-card err"><div class="num">${errores}</div><div class="lab">Errores</div></div>
+      <div class="fab-card"><div class="num">${omitidos}</div><div class="lab">Omitidos</div></div>
+    </div>
+    ${calFuncional + calReparable + calComplejo + calOmitir > 0 ? `
+    <div class="fab-cards" style="margin-top:-8px">
+      <div class="fab-card ok"><div class="num">${calFuncional}</div><div class="lab">✅ Funcional</div></div>
+      <div class="fab-card" style="border-color:var(--espera)"><div class="num" style="color:var(--espera)">${calReparable}</div><div class="lab">🔧 Reparable</div></div>
+      <div class="fab-card"><div class="num" style="color:var(--tenue)">${calComplejo}</div><div class="lab">⚙️ Complejo</div></div>
+      <div class="fab-card"><div class="num" style="color:var(--tenue)">${calOmitir}</div><div class="lab">⏭️ Omitir</div></div>
+      <div class="fab-card"><div class="num">${calFuncional + calReparable}</div><div class="lab">Recuperables</div></div>
+    </div>` : ''}
+
+    <div class="fab-barra-wrap">
+      <div class="meta"><span>${pct}% construido</span><span>${construidos} de ${res.total}</span></div>
+      <div class="fab-barra"><i style="width:${pct}%"></i></div>
+    </div>
+
+    <div class="fab-dos">
+      <div class="fab-bloque">
+        <h3>Plataformas detectadas</h3>
+        ${res.plataformas.map(p => `
+          <div class="fab-fila-bar">
+            <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(p.p)}</span>
+            <div class="mini-bar"><i style="width:${Math.round(p.n/maxPlat*100)}%;background:${COLORES_PLAT[p.p]||'var(--acento)'}"></i></div>
+            <span class="n">${p.n}</span>
+          </div>`).join('')}
+      </div>
+      <div class="fab-bloque">
+        <h3>Por plantilla</h3>
+        ${res.plantillas.map(p => `
+          <div class="fab-fila-bar">
+            <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px">${esc(p.plantilla||'—')}</span>
+            <div class="mini-bar"><i style="width:${Math.round(p.proc/p.total*100)}%"></i></div>
+            <span class="n">${p.proc}/${p.total}</span>
+          </div>`).join('')}
+      </div>
+    </div>
+
+    <div class="fab-filtros">
+      <input id="fab-q" type="search" placeholder="Buscar slug, nombre, ciudad…" value="${esc(fabFiltros.q)}" />
+      <select id="fab-estado">
+        <option value="">Todos los estados</option>
+        ${['construido','scrapeado','pendiente','error','omitido'].map(e => `<option value="${e}" ${fabFiltros.estado===e?'selected':''}>${ESTADO_ES[e]}</option>`).join('')}
+      </select>
+      <select id="fab-plat">
+        <option value="">Todas las plataformas</option>
+        ${res.plataformas.map(p => `<option value="${p.p}" ${fabFiltros.plataforma===p.p?'selected':''}>${esc(p.p)} (${p.n})</option>`).join('')}
+      </select>
+      <select id="fab-calidad">
+        <option value="">Toda calidad</option>
+        <option value="funcional" ${fabFiltros.calidad==='funcional'?'selected':''}>✅ Funcional</option>
+        <option value="reparable" ${fabFiltros.calidad==='reparable'?'selected':''}>🔧 Reparable</option>
+        <option value="complejo"  ${fabFiltros.calidad==='complejo' ?'selected':''}>⚙️ Complejo</option>
+        <option value="omitir"    ${fabFiltros.calidad==='omitir'   ?'selected':''}>⏭️ Omitir</option>
+      </select>
+    </div>
+
+    <table class="fab-tabla">
+      <thead><tr>
+        <th>#</th><th>Slug / Nombre</th><th>Rubro</th><th>Plataforma</th><th>Estado</th><th>Calidad</th><th>Ver</th>
+      </tr></thead>
+      <tbody>
+        ${sitRes.sitios.map(s => {
+          const platClass = s.plataforma || '';
+          const estClass  = s.estado || '';
+          const num = String(s.numero || '').padStart(2,'0');
+          const verUrl = s.estado === 'construido' ? `http://localhost/project-1-25092026/proyectos/${num}-${s.slug}/sitio/` : '';
+          return `<tr>
+            <td class="num-col">${num}</td>
+            <td><div class="slug">${esc(s.slug)}</div><div class="ciudad">${esc(s.nombre||'')}${s.ciudad?' · '+esc(s.ciudad):''}</div></td>
+            <td>${esc(s.rubro||'')}</td>
+            <td><span class="plat ${platClass}">${esc(s.plataforma||'—')}</span></td>
+            <td><span class="estado-badge ${estClass}">${ESTADO_ES[s.estado]||esc(s.estado)}</span></td>
+            <td><span class="calidad-badge ${s.calidad||''}">${{funcional:'✅',reparable:'🔧',complejo:'⚙️',omitir:'⏭️'}[s.calidad]||'—'}</span></td>
+            <td>${verUrl ? `<a class="ver" href="${verUrl}" target="_blank">Ver sitio →</a>` : ''}</td>
+          </tr>`;
+        }).join('')}
+      </tbody>
+    </table>
+
+    <div class="fab-paginacion">
+      <button id="fab-prev" ${fabFiltros.p <= 1 ? 'disabled' : ''}>← Anterior</button>
+      <span class="info">Pág ${fabFiltros.p} de ${paginas || 1} · ${sitRes.total} sitios</span>
+      <button id="fab-next" ${fabFiltros.p >= paginas ? 'disabled' : ''}>Siguiente →</button>
+    </div>`;
+
+  $('#fab-q').oninput  = (e) => { fabFiltros.q = e.target.value; fabFiltros.p = 1; renderFab(); };
+  $('#fab-estado').onchange  = (e) => { fabFiltros.estado = e.target.value; fabFiltros.p = 1; renderFab(); };
+  $('#fab-plat').onchange    = (e) => { fabFiltros.plataforma = e.target.value; fabFiltros.p = 1; renderFab(); };
+  $('#fab-calidad').onchange = (e) => { fabFiltros.calidad = e.target.value; fabFiltros.p = 1; renderFab(); };
+  $('#fab-prev').onclick = () => { fabFiltros.p--; renderFab(); };
+  $('#fab-next').onclick = () => { fabFiltros.p++; renderFab(); };
+}
+
+// ── Galería ───────────────────────────────────────────────────────────────
+const GAL_CATS = [
+  ['aprobado', 'Aprobados por Claude', 'QA en 0 y abren bien en XAMPP'],
+  ['rediseno', 'Rediseñados', 'todos los terminados'],
+  ['proceso', 'En proceso', 'rediseño empezado'],
+  ['clon', 'Clonados', 'copia local del original'],
+  ['descartado', 'Descartados', 'no aptos para 1.1'],
+];
+let galDatos = null;
+let galF = { cat: 'aprobado', q: '', origen: 'todos', plantilla: '', calidad: '', ver: 48 };
+
+async function cargarGaleria() {
+  if (!galDatos) $('#gal').innerHTML = '<p class="gal-vacio">Cargando la galería…</p>';
+  try { galDatos = (await api('/api/galeria')).sitios; } catch (e) { $('#gal').innerHTML = `<p class="gal-vacio">No se pudo cargar la galería: ${esc(e.message)}</p>`; return; }
+  pintarGaleria();
+}
+
+const galEnCat = (s, cat) => cat === 'aprobado' ? s.aprobado : s.categoria === cat;
+
+function galFiltrados() {
+  const q = galF.q.trim().toLowerCase();
+  return galDatos.filter((s) => galEnCat(s, galF.cat)
+    && (!q || `${s.carpeta} ${s.nombre} ${s.ciudad} ${s.rubro}`.toLowerCase().includes(q))
+    && (galF.origen === 'todos' || s.origen === galF.origen)
+    && (!galF.plantilla || s.plantilla === galF.plantilla)
+    && (!galF.calidad || s.calidad === galF.calidad));
+}
+
+function galTarjeta(s) {
+  const mini = (t) => `/api/galeria/mini/${encodeURIComponent(s.carpeta)}/${t}`;
+  const conCaptura = s.categoria === 'rediseno' || s.categoria === 'proceso';
+  const esClon = s.categoria === 'clon' || s.categoria === 'descartado';
+  const iniciales = esc(s.nombre.replace(/[^\p{L}\p{N} ]/gu, '').split(' ').filter(Boolean).slice(0, 2).map((p) => p[0]).join('').toUpperCase() || '?');
+  const quitar = "this.remove()";
+  const vista = conCaptura
+    ? `<img class="esc" loading="lazy" src="${mini('esc')}" alt="Rediseño de ${esc(s.nombre)} en escritorio" onerror="this.parentElement.innerHTML='<span class=&quot;sin&quot;>${iniciales}</span>'">
+       <img class="mov" loading="lazy" src="${mini('mov')}" alt="Rediseño de ${esc(s.nombre)} en celular" onerror="${quitar}">`
+    : `<img class="esc" loading="lazy" src="${mini('clon')}" alt="Sitio original de ${esc(s.nombre)}" onerror="this.parentElement.innerHTML='<span class=&quot;sin&quot;>${iniciales}</span>'">`;
+  const sello = s.aprobado ? `<p class="gal-sello">✓ Aprobado: QA en 0 y revisado en XAMPP el ${new Date(s.verificado).toLocaleDateString('es-MX', { day: 'numeric', month: 'short' })}</p>` : (s.categoria === 'rediseno' ? '<p class="gal-sello pend">Falta verificar en XAMPP</p>' : '');
+  const chip = s.origen ? `<span class="gal-chip ${s.origen === 'Nube + PC' ? 'mix' : s.origen}">${esc(s.origen)}</span>`
+    : `<span class="gal-chip ${esc(s.calidad || 'nd')}">${esc(s.calidad || 'sin revisar')}</span>`;
+  const acciones = [];
+  if (s.verRediseno) acciones.push(`<a class="prim" href="${esc(s.verRediseno)}" target="_blank" rel="noopener">Abrir rediseño</a>`);
+  else if (s.sinCompilar && s.categoria !== 'descartado') acciones.push('<span class="nota">Falta compilar (npm run build)</span>');
+  if (s.verClon) acciones.push(`<a class="${esClon ? 'prim' : 'tenue'}" href="${esc(s.verClon)}" target="_blank" rel="noopener" title="Copia del sitio viejo tal como se descargó: puede verse incompleta o con enlaces rotos">${esClon ? 'Abrir copia del original' : 'Original (copia)'}</a>`);
+  if (s.web) acciones.push(`<a href="${esc(s.web)}" target="_blank" rel="noopener">Sitio en línea</a>`);
+  const memo = s.memorable ? `<p class="gal-memo"><span>Elemento memorable</span><b>${esc(s.memorable.titulo)}</b> ${esc(s.memorable.texto)}</p>` : '';
+  const motivo = s.motivo ? `<p class="gal-memo"><span>Por qué se descartó</span>${esc(s.motivo)}${s.motivo.length >= 240 ? '…' : ''}</p>` : '';
+  return `<article class="gal-sitio">
+    <figure class="gal-vista">${vista}</figure>
+    <div class="gal-info">
+      <div class="gal-fila"><h3>${esc(s.nombre)}</h3>${chip}</div>
+      <p class="gal-lugar">${[s.rubro && esc(s.rubro.toLowerCase()), esc(s.ciudad)].filter(Boolean).join(', ')} <span class="gal-num">${esc(s.carpeta)}</span></p>
+      ${sello}${memo}${motivo}
+      <div class="gal-acciones">${acciones.join('')}</div>
+    </div>
+  </article>`;
+}
+
+function pintarGaleria() {
+  const cuenta = (c) => galDatos.filter((s) => galEnCat(s, c)).length;
+  const deCat = galDatos.filter((s) => galEnCat(s, galF.cat));
+  const plantillas = [...new Set(deCat.map((s) => s.plantilla).filter(Boolean))].sort();
+  const calidades = [...new Set(deCat.map((s) => s.calidad).filter(Boolean))].sort();
+  const origenes = ['todos', ...new Set(deCat.map((s) => s.origen).filter(Boolean))];
+  const lista = galFiltrados();
+  const red = galDatos.filter((s) => s.categoria === 'rediseno');
+  const enPC = red.filter((s) => s.origen === 'PC').length;
+  $('#gal').innerHTML = `
+    <header class="gal-cab">
+      <h1>Galería</h1>
+      <p>Todas las páginas del estudio: ${red.length} rediseñadas (${enPC} en la PC y ${red.length - enPC} en la nube o entre las dos), las que van a medias, los clones listos para rediseñar y los descartados. <b>Aprobados por Claude</b> son los rediseños con QA en 0 que además se abrieron completos por XAMPP (<code>node herramientas/verificar-xampp.mjs</code>). Los botones de «copia del original» abren el sitio viejo tal como se descargó, y ese sí puede verse roto.</p>
+    </header>
+    <div class="gal-cats" role="group" aria-label="Categoría">
+      ${GAL_CATS.map(([k, t, d]) => `<button type="button" id="gal-cat-${k}" data-cat="${k}" aria-pressed="${galF.cat === k}"><b>${cuenta(k)}</b>${t}<span>${d}</span></button>`).join('')}
+    </div>
+    <div class="gal-filtros">
+      <input id="gal-q" type="search" placeholder="Buscar por nombre, ciudad o carpeta" value="${esc(galF.q)}" aria-label="Buscar" />
+      ${origenes.length > 2 ? origenes.map((o) => `<button type="button" class="gal-chip-f" data-origen="${esc(o)}" aria-pressed="${galF.origen === o}">${o === 'todos' ? 'Todos' : esc(o)}</button>`).join('') : ''}
+      ${plantillas.length > 1 ? `<select id="gal-plantilla" aria-label="Plantilla"><option value="">Todas las plantillas</option>${plantillas.map((p) => `<option ${galF.plantilla === p ? 'selected' : ''}>${esc(p)}</option>`).join('')}</select>` : ''}
+      ${galF.cat === 'clon' && calidades.length > 1 ? `<select id="gal-calidad" aria-label="Calidad del clon"><option value="">Toda calidad</option>${calidades.map((c) => `<option ${galF.calidad === c ? 'selected' : ''}>${esc(c)}</option>`).join('')}</select>` : ''}
+    </div>
+    <p class="gal-cuenta">${lista.length === deCat.length ? `${lista.length} sitios` : `${lista.length} de ${deCat.length} sitios`}</p>
+    ${lista.length ? `<div class="gal-rejilla">${lista.slice(0, galF.ver).map(galTarjeta).join('')}</div>` : '<p class="gal-vacio">No hay sitios con esos filtros.</p>'}
+    ${lista.length > galF.ver ? `<button type="button" class="gal-mas" id="gal-mas">Mostrar ${Math.min(48, lista.length - galF.ver)} más</button>` : ''}`;
+
+  $('#gal').querySelectorAll('[data-cat]').forEach((b) => b.onclick = () => { galF = { ...galF, cat: b.dataset.cat, origen: 'todos', plantilla: '', calidad: '', ver: 48 }; pintarGaleria(); });
+  $('#gal').querySelectorAll('[data-origen]').forEach((b) => b.onclick = () => { galF.origen = b.dataset.origen; galF.ver = 48; pintarGaleria(); });
+  const q = $('#gal-q');
+  q.oninput = () => { galF.q = q.value; galF.ver = 48; clearTimeout(q._t); q._t = setTimeout(() => { pintarGaleria(); const n = $('#gal-q'); n.focus(); n.setSelectionRange(n.value.length, n.value.length); }, 180); };
+  if ($('#gal-plantilla')) $('#gal-plantilla').onchange = (e) => { galF.plantilla = e.target.value; galF.ver = 48; pintarGaleria(); };
+  if ($('#gal-calidad')) $('#gal-calidad').onchange = (e) => { galF.calidad = e.target.value; galF.ver = 48; pintarGaleria(); };
+  if ($('#gal-mas')) $('#gal-mas').onclick = () => { galF.ver += 48; pintarGaleria(); };
+}
 </script>
 </body>
 </html>
