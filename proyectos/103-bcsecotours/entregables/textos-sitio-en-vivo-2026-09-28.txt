@@ -1,0 +1,730 @@
+##### _.html
+Inicio | BCS Eco Tours 
+ ¡Un Mar Lleno de Vida!
+ Bahía Loreto Baja California Sur
+ Reserva tu experiencia 
+ Ballena Azul
+ Ver una ballena azul tan cerca fue uno de esos momentos que sabes que recordarás toda la vida. La experiencia fue espectacular de principio a fin.
+ Reserva tu experiencia 
+ Acompáñenos 
+ Las islas, el agua, los animales y la tranquilidad del lugar hacen que esta experiencia sea incomparable. Loreto tiene algo verdaderamente especial.
+ Reserva tu experiencia 
+ Nuestros Tours
+ Safari Privado 
+ Tu aventura. Tu ritmo. Tu océano. Vive una expedición exclusiva dentro del Parque Nacional Bahía de Loreto, diseñada completamente a tu medida. Disfruta un día privado junto a tu familia o amigos, eligiendo las actividades que harán de esta experiencia un recuerdo inolvidable. 
+ privado 
+ Desde $1,800.00 pesos p/p
+ Ver tour 
+ Safari Compartido 
+ Comparte la aventura. Vive recuerdos para siempre. Únete a una expedición inolvidable dentro del Parque Nacional Bahía de Loreto, explorando el Mar de Cortés junto a otros viajeros amantes de la naturaleza. Descubre la magia de Loreto durante una aventura de 5 a 6 horas en busca de ballenas, delfines, lobos marinos y la increíble vida marina que hace único este paraíso natural. 
+ compartido 
+ Desde $1,350.00 pesos p/p
+ Ver tour 
+ Safari Especial 
+ Tu océano. Tu aventura. Tu día perfecto. Disfruta una expedición exclusiva dentro del Parque Nacional Bahía de Loreto, diseñada a tu medida. Elige tus actividades, explora sin prisas y vive una experiencia privada de naturaleza, aventura y gastronomía junto a quienes más quieres. 
+ especial 
+ Desde $2,500.00 pesos p/p
+ Ver tour 
+ Blog y Novedades
+ 31/08/2026 
+ DEL MAR A LA MESA
+ La gastronomía que convierte una expedición en una experienciaPrimero lo...
+ Leer más 
+ 31/08/2026 
+ PESCA DEPORTIVA EN LORETO
+ Donde el Mar de Cortés recompensa al aventureroEl amanecer llega antes q...
+ Leer más 
+ 31/08/2026 
+ SNORKELING Y BUCEO EN LORETO
+ Descubre el mundo que existe debajo de las olasDesde arriba, el Mar de C...
+ Leer más 
+ Galería Destacada
+ Lo que opinan nuestros clientes
+ "Desde que llegamos nos sentimos en buenas manos. El capitán y los guías fueron profesionales, amables y siempre atentos. Se nota la experiencia que tienen en Loreto."
+ "Después de pasar la mañana explorando el mar, disfrutar pescado y mariscos preparados ahí mismo fue el final perfecto. ¡Una experiencia deliciosa y auténtica!"
+ "Loreto nos sorprendió completamente. La cantidad de vida marina que encontramos fue impresionante. Se nota que el equipo realmente ama y conoce este lugar."
+ ¡Observación Ballenas Azules 2027!
+ Considerado lo más nuevo, un Verdadero Safary Marino. Grandes oportunidades de ver ballenas de aleta, ballenas jorobadas, ballenas piloto, Mantas, Lobos Marinos, Delfines y mucho más.
+ Acompáñanos 
+ Preguntas Frecuentes
+ No hay resultados. 
+ ¿Necesito experiencia previa para bucear o hacer snorkeling? 
+ No necesariamente. Ofrecemos inmersiones guiadas para principiantes y salidas especiales para buzos certificados. Nuestros instructores te explicarán el uso del equipo, las señales bajo el agua y las medidas de seguridad antes de cada inmersión. Para snorkeling, solo necesitas saber nadar y tener ganas de explorar. 
+ ¿Que hace diferente a BCS Tours de otras empresas? 
+ Somos operadores locales con más de 28 años de experiencia y raíces en Loreto. Diseñamos nuestras propias embarcaciones Keiko, pensadas para comodidad, seguridad y sostenibilidad. Cada tour está guiado por personal certificado y apasionado por la naturaleza, comprometido con el servicio, la educación ambiental y la conservación del Parque Nacional Bahía de Loreto. Aquí no solo llevamos turistas: inspiramos viajeros conscientes. 
+ Empacan el pescado? 
+ Si, claro lo hacemos bien 
+ ¿Cómo puedo reservar un tour? 
+ Puedes reservar directamente a través de nuestra página web, por WhatsApp, correo electrónico o en nuestras oficinas en la Marina de Loreto. Ofrecemos opciones de pago seguro, tours privados o grupales, y atención personalizada para ayudarte a elegir la experiencia ideal. “Tu aventura comienza desde el momento en que decides descubrir Loreto con nosotros.” 
+ ¿Qué tipo de pesca deportiva realizan? 
+ Realizamos pesca deportiva recreativa, enfocada en especies como marlín, dorado, jurel y atún, dependiendo de la temporada. Proveemos todo el equipo necesario, desde cañas y curricanes hasta vivero para carnada viva y espacio 360° para pelear tu captura. Además, fomentamos la pesca responsable y la práctica “catch & release” (captura y liberación) para conservar las poblaciones marinas. 
+ Ver todas las preguntas frecuentes
+##### _tours.php.html
+Tours disponibles | BCS Eco Tours 
+ Nuestros Tours 
+ Safari Privado
+ Tu aventura. Tu ritmo. Tu océano. Vive una expedición exclusiva dentro del Parque Nacional Bahía de Loreto, diseñada completamente a tu medida. Disfruta un día privado junto a tu familia o amigos, eligiendo las actividades que harán de esta experiencia un recuerdo inolvidable.
+ Ciudad de salida: Loreto (Marina - Dársena)
+ Estado de salida: Baja California Sur
+ País de salida: México
+ Temporada: 
+ 2026-01-01 a 2027-04-30 
+ Duración: 
+ 1 horas 
+ Transporte: Embarcación Keiko
+ Tipo de tour: privado
+ Precio: 
+ Desde $1,800.00 pesos p/p
+ Más Información 
+ Safari Compartido
+ Comparte la aventura. Vive recuerdos para siempre. Únete a una expedición inolvidable dentro del Parque Nacional Bahía de Loreto, explorando el Mar de Cortés junto a otros viajeros amantes de la naturaleza. Descubre la magia de Loreto durante una aventura de 5 a 6 horas en busca de ballenas, delfines, lobos marinos y la increíble vida marina que hace único este paraíso natural.
+ Ciudad de salida: Loreto (Marina - Dársena)
+ Estado de salida: Baja California Sur
+ País de salida: México
+ Temporada: 
+ 2026-01-01 a 2027-04-30 
+ Duración: 
+ 1 horas 
+ Transporte: Embarcación Keiko
+ Tipo de tour: compartido
+ Precio: 
+ Desde $1,350.00 pesos p/p
+ Más Información 
+ Safari Especial
+ Tu océano. Tu aventura. Tu día perfecto. Disfruta una expedición exclusiva dentro del Parque Nacional Bahía de Loreto, diseñada a tu medida. Elige tus actividades, explora sin prisas y vive una experiencia privada de naturaleza, aventura y gastronomía junto a quienes más quieres.
+ Ciudad de salida: Loreto (Marina - Dársena)
+ Estado de salida: Baja California Sur
+ País de salida: México
+ Temporada: 
+ 2026-01-01 a 2027-04-30 
+ Duración: 
+ 1 horas 
+ Transporte: Embarcación Keiko
+ Tipo de tour: especial
+ Precio: 
+ Desde $2,500.00 pesos p/p
+ Más Información
+##### _tour.php_id_26.html
+Safari Privado | BCS Eco Tours 
+ Safari Privado
+ Fechas Disponibles
+ Reservar 
+ Tu aventura. Tu ritmo. Tu océano. Vive una expedición exclusiva dentro del Parque Nacional Bahía de Loreto, diseñada completamente a tu medida. Disfruta un día privado junto a tu familia o amigos, eligiendo las actividades que harán de esta experiencia un recuerdo inolvidable. 
+ Ciudad de salida: Loreto (Marina - Dársena)
+ Estado de salida: Baja California Sur
+ País de salida: México
+ Temporada: 
+ 2026-01-01 a 2027-04-30 
+ Duración: 
+ 1 horas 
+ Transporte: Embarcación Keiko
+ Tipo de tour: privado
+ Precio: $1,800.00 pesos p/p
+ Detalle del tour
+ SAFARI MARINO PRIVADO LORETO
+Una expedición exclusiva de naturaleza, aventura y gastronomía para grupos privados de 10 a 16 pasajeros “El lujo de Loreto es su Naturaleza”
+Safari Marino Privado Loreto es una experiencia exclusiva de exploración oceánica diseñada para grupos que buscan vivir una aventura personalizada dentro de uno de los ecosistemas marinos más extraordinarios del Golfo de California.
+Más que un recorrido turístico tradicional, esta experiencia privada es una expedición creada para compartir momentos únicos con familiares, amigos, grupos especiales o viajeros que desean disfrutar el mar de Loreto con mayor privacidad, comodidad y atención personalizada.
+Cada salida es diferente. La naturaleza marca el rumbo y el océano decide qué encuentros regalar ese día.
+Acompañados por capitanes y guías locales expertos, los pasajeros parten temprano por la mañana para navegar las aguas cristalinas de la Bahía de Loreto, un santuario natural rodeado por las majestuosas islas:
+✅ Isla Coronados
+✅ Isla Carmen
+✅ Isla Danzante
+✅ Isla Monserrat
+Durante una expedición privada de aproximadamente 5 a 6 horas, el grupo tendrá la oportunidad de explorar paisajes marinos únicos y vivir posibles encuentros con la extraordinaria vida del Golfo de California, incluyendo:
+🐋 Ballena azul, el animal más grande del planeta.
+🐋 Ballenas jorobadas durante sus recorridos migratorios.
+🐋 Cachalotes y otros grandes habitantes del océano.
+🐋 Orcas, uno de los encuentros más sorprendentes de la naturaleza.
+🐬 Delfines nariz de botella acompañando la navegación.
+🦭 Lobos marinos en su hábitat natural.
+🐢 Tortugas marinas y especies protegidas.
+🪽 Mantas mobulas realizando sus impresionantes movimientos en el agua.
+🦅 Aves marinas y una gran diversidad de peces tropicales y especies endémicas.
+UNA EXPERIENCIA DISEÑADA PARA COMPARTIR
+El Safari Marino Privado permite disfrutar el océano a un ritmo diferente, adaptando la aventura a los intereses del grupo.
+La expedición puede combinar:
+✅ Observación de fauna marina en su ambiente natural
+✅ Snorkeling en aguas cristalinas alrededor de las islas
+✅ Pesca deportiva personalizada
+✅ Buceo recreativo (bajo solicitud)
+✅ Exploración de playas vírgenes y paisajes naturales
+✅ Kayak de mar
+✅ Paddle board
+✅ Momentos de relajación y convivencia a bordo
+✅ Experiencia gastronómica “Del Mar a la Mesa”
+GASTRONOMÍA DEL MAR A LA MESA
+Como parte de la experiencia, los pasajeros pueden disfrutar sabores tradicionales de Loreto preparados con productos frescos del mar:
+🐟 Pescado zarandeado
+🦪 Almejas empapeladas o gratinadas
+🦐 Mariscos frescos al vapor
+🐚 Especialidades locales preparadas por expertos
+Una combinación perfecta entre aventura, naturaleza y la gastronomía que nace del Golfo de California.
+SAFARI MARINO PRIVADO LORETO
+👉 Capacidad:
+Mínimo: 10 pasajeros
+Máximo: 16 pasajeros
+👉 Ideal para:
+✅ Familias grandes
+✅ Grupos de amigos
+✅ Celebraciones especiales
+✅ Viajes corporativos
+✅ Fotógrafos de naturaleza
+✅ Grupos de buceo
+✅ Viajeros que buscan una experiencia exclusiva
+✅ Porque algunos viajes no se reservan...
+✅ Se recuerdan para toda la vida.
+SAFARI MARINO PRIVADO LORETO
+Donde el océano escribe la aventura.
+ Reservar este tour 
+ Ver todos los tours
+##### _tour.php_id_25.html
+Safari Compartido | BCS Eco Tours 
+ Safari Compartido
+ Fechas Disponibles
+ Reservar 
+ Comparte la aventura. Vive recuerdos para siempre. Únete a una expedición inolvidable dentro del Parque Nacional Bahía de Loreto, explorando el Mar de Cortés junto a otros viajeros amantes de la naturaleza. Descubre la magia de Loreto durante una aventura de 5 a 6 horas en busca de ballenas, delfines, lobos marinos y la increíble vida marina que hace único este paraíso natural. 
+ Ciudad de salida: Loreto (Marina - Dársena)
+ Estado de salida: Baja California Sur
+ País de salida: México
+ Temporada: 
+ 2026-01-01 a 2027-04-30 
+ Duración: 
+ 1 horas 
+ Transporte: Embarcación Keiko
+ Tipo de tour: compartido
+ Precio: $1,350.00 pesos p/p
+ Detalle del tour
+ SAFARI MARINO COMPARTIDO LORETO
+Una expedición de naturaleza, aventura y gastronomía para viajeros que desean descubrir el océano junto a otros exploradores “El lujo de Loreto es su Naturaleza”
+Safari Marino Compartido Loreto es una experiencia de exploración oceánica diseñada para quienes desean vivir una aventura auténtica dentro de uno de los ecosistemas marinos más extraordinarios del Golfo de California, compartiendo la experiencia con otros viajeros que tienen la misma pasión por la naturaleza, el mar y la aventura.
+Más que un recorrido turístico convencional, Safari Marino es una expedición diaria de descubrimiento, donde cada salida es única y el protagonista principal es el océano. No seguimos una ruta completamente predeterminada; navegamos en búsqueda de las señales que la naturaleza nos regala cada día.
+Cada encuentro, cada paisaje y cada momento son diferentes, haciendo que cada expedición sea una historia irrepetible.
+UNA AVENTURA COMPARTIDA EN EL CORAZÓN DE LORETO
+Acompañados por capitanes y guías locales con amplio conocimiento de la Bahía de Loreto, los pasajeros parten temprano por la mañana para explorar las aguas protegidas del Parque Nacional Bahía de Loreto, navegando entre las impresionantes islas:
+👉 Isla Coronados
+👉 Isla Carmen
+👉 Isla Danzante
+👉 Isla Monserrat
+Durante una experiencia de aproximadamente 5 a 6 horas, los viajeros tendrán la oportunidad de descubrir la extraordinaria biodiversidad marina del Golfo de California y vivir posibles encuentros con:
+🐋 Ballena azul, el gigante del océano.
+🐋 Ballenas jorobadas en sus rutas migratorias.
+🐋 Cachalotes y otros grandes mamíferos marinos.
+🐋 Orcas, uno de los encuentros más sorprendentes de la naturaleza.
+🐬 Delfines nariz de botella acompañando la navegación.
+🦭 Lobos marinos descansando en las islas.
+🐢 Tortugas marinas y especies protegidas.
+🪽 Mantas mobulas realizando sus impresionantes movimientos.
+🦅 Aves marinas, peces tropicales y especies endémicas del Golfo de California.
+UNA EXPERIENCIA COMPLETA DE AVENTURA
+Safari Marino Compartido combina diferentes actividades para que cada pasajero pueda disfrutar el océano a su manera.
+La experiencia incluye:
+✅ Observación de fauna marina en su hábitat natural
+✅ Snorkeling en aguas cristalinas alrededor de las islas
+✅ Pesca deportiva recreativa
+✅ Buceo recreativo (bajo solicitud y disponibilidad)
+✅ Exploración de playas vírgenes
+✅ Kayak de mar
+✅ Paddle board
+✅ Tiempo para relajarse y disfrutar los paisajes únicos de Loreto
+✅ Experiencia gastronómica “Del Mar a la Mesa”
+EQUIPO INCLUIDO
+Para que solamente tengas que preocuparte por disfrutar, Safari Marino proporciona el equipo necesario para las actividades seleccionadas:
+👉 Equipo completo de snorkeling
+👉 Aletas, máscaras y tubos
+👉 Botas de neopreno
+👉 Trajes de neopreno para temporada fría
+👉 Gorros térmicos (diciembre a mayo)
+👉 Equipo para pesca deportiva
+👉 Kayaks de mar
+👉 Paddle boards
+👉 Equipo básico para actividades acuáticas
+(El equipo de buceo recreativo se proporciona de acuerdo con la actividad solicitada y disponibilidad.)
+EXPERIENCIA GASTRONÓMICA
+DEL MAR A LA MESA
+Como parte del viaje, los pasajeros pueden disfrutar una experiencia gastronómica inspirada en las tradiciones de Loreto y los sabores del Golfo de California.
+Entre las opciones pueden encontrarse:
+🐟 Pescado zarandeado
+🦪 Almejas empapeladas o gratinadas
+🦐 Mariscos frescos al vapor
+🐚 Preparaciones locales elaboradas con productos del mar
+Una experiencia donde la aventura termina disfrutando los sabores del mismo océano que acabas de explorar.
+SAFARI MARINO COMPARTIDO LORETO
+👉 Modalidad:
+Tour compartido por persona
+👉 Capacidad:
+Mínimo: 10 pasajeros
+Máximo: 16 pasajeros
+👉 Ideal para:
+✅ Viajeros individuales
+✅ Parejas
+✅ Familias pequeñas
+✅ Amigos aventureros
+✅ Amantes de la naturaleza
+✅ Fotógrafos
+✅ Personas que desean conocer Loreto de una forma auténtica
+¿POR QUÉ ELEGIR SAFARI MARINO COMPARTIDO?
+Porque es la oportunidad de vivir una experiencia premium de exploración marina con un formato accesible, compartiendo la aventura con otros viajeros que buscan algo más que un simple paseo.
+Aquí no vienes solamente a observar el mar.
+Vienes a sentirlo.
+Algunos viajes se cuentan con fotografías...
+Otros se cuentan con historias.
+SAFARI MARINO COMPARTIDO LORETO
+Donde el océano escribe la aventura.
+ Reservar este tour 
+ Ver todos los tours
+##### _tour.php_id_24.html
+Safari Especial | BCS Eco Tours 
+ Safari Especial
+ Fechas Disponibles
+ Reservar 
+ Tu océano. Tu aventura. Tu día perfecto. Disfruta una expedición exclusiva dentro del Parque Nacional Bahía de Loreto, diseñada a tu medida. Elige tus actividades, explora sin prisas y vive una experiencia privada de naturaleza, aventura y gastronomía junto a quienes más quieres. 
+ Ciudad de salida: Loreto (Marina - Dársena)
+ Estado de salida: Baja California Sur
+ País de salida: México
+ Temporada: 
+ 2026-01-01 a 2027-04-30 
+ Duración: 
+ 1 horas 
+ Transporte: Embarcación Keiko
+ Tipo de tour: especial
+ Precio: $2,500.00 pesos p/p
+ Detalle del tour
+ SAFARI MARINO EXCLUSIVO LORETO
+Una expedición privada donde tú decides la aventura, el ritmo y la experiencia “El lujo de Loreto es su Naturaleza”
+Safari Marino Exclusivo Loreto es la experiencia premium diseñada para quienes desean tener el control total de su aventura en el mar, disfrutando de una expedición privada y personalizada dentro de uno de los ecosistemas marinos más extraordinarios del Golfo de California.
+A diferencia de un tour tradicional con horarios establecidos y actividades predeterminadas, este Safari Privado se adapta completamente a los intereses del grupo. Aquí no compartes la embarcación con personas desconocidas; tú, tu familia o tus invitados disfrutan de un espacio exclusivo donde cada decisión está enfocada en crear una experiencia inolvidable.
+Porque el verdadero lujo no es solamente llegar a un lugar especial…
+Es vivirlo a tu manera.
+👉 TU EXPEDICIÓN, TU RITMO, TU HISTORIA
+Desde el momento de la salida, nuestros capitanes y guías locales expertos trabajan contigo para diseñar la aventura ideal según:
+👉 La temporada del año
+👉 Las condiciones del mar
+👉 Tus intereses personales
+👉 Las actividades que deseas realizar
+👉 El tiempo que quieres dedicar a cada experiencia
+Cada salida es diferente porque la naturaleza nunca repite el mismo espectáculo.
+El océano es el protagonista y tú decides cómo vivirlo.
+EXPLORA EL CORAZÓN DEL PARQUE NACIONAL BAHÍA DE LORETO
+Navega por las aguas cristalinas de la Bahía de Loreto, rodeada por las majestuosas islas:
+👉 Isla Coronados
+👉 Isla Carmen
+👉 Isla Danzante
+👉 Isla Monserrat
+Un escenario natural donde montañas, desierto y océano se unen para crear uno de los paisajes más impresionantes del Golfo de California.
+ENCUENTROS ÚNICOS CON LA VIDA MARINA
+Durante tu expedición privada podrás vivir posibles encuentros con:
+🐋 Ballena azul
+El gigante del planeta y uno de los encuentros más impresionantes del océano.
+🐋 Ballenas jorobadas
+Visitantes estacionales que llenan el mar de energía y movimiento.
+🐋 Cachalotes y grandes mamíferos marinos
+Habitantes extraordinarios de las profundidades.
+🖤 Orcas
+El encuentro inesperado que puede transformar un día común en una historia inolvidable.
+🐬 Delfines nariz de botella
+Compañeros de navegación llenos de energía.
+🦭 Lobos marinos
+Una experiencia cercana con la vida salvaje.
+🐢 Tortugas marinas
+Símbolos de conservación y longevidad.
+🪽 Mantas mobulas
+Una danza natural bajo la superficie.
+🦅 Aves marinas, peces tropicales y especies endémicas del Golfo de California.
+UNA EXPERIENCIA COMPLETAMENTE PERSONALIZADA
+En el Safari Marino Exclusivo tú puedes elegir cómo disfrutar tu día:
+👉 Observación de fauna marina
+Dedica más tiempo a buscar, observar y fotografiar especies únicas.
+👉 Snorkeling privado
+Explora aguas cristalinas, arrecifes naturales y la increíble biodiversidad marina.
+👉 Pesca deportiva
+Vive una jornada personalizada con equipo preparado para la aventura.
+👉 Buceo recreativo
+Explora el mundo submarino con mayor tranquilidad y atención especializada.
+(Disponible bajo solicitud y dependiendo de certificación, temporada y condiciones del mar.)
+👉 Kayak de mar
+Acércate silenciosamente a playas, bahías y rincones escondidos.
+👉 Paddle board
+Disfruta el equilibrio perfecto entre aventura y relajación.
+👉 Exploración de playas vírgenes
+Descubre lugares donde la naturaleza permanece intacta.
+👉 Gastronomía del mar a la mesa
+Convierte el océano en una experiencia culinaria.
+Disfruta sabores tradicionales de Loreto como:
+🐟 Pescado zarandeado
+🦪 Almejas empapeladas o gratinadas
+🦐 Mariscos frescos
+🐚 Especialidades locales preparadas con productos del mar
+EL PRIVILEGIO DE TENER EL MAR PARA TI
+El Safari Marino Exclusivo es ideal para:
+✅ Familias que desean compartir momentos privados
+✅ Parejas buscando una experiencia especial
+✅ Grupos de amigos
+✅ Celebraciones importantes
+✅ Fotógrafos profesionales
+✅ Viajeros premium
+✅ Amantes del océano que desean una atención personalizada
+¿POR QUÉ ELEGIR UN SAFARI PRIVADO?
+Porque algunas experiencias no deben compartirse con desconocidos.
+Un Safari Privado significa:
+✔ Mayor privacidad
+✔ Mayor flexibilidad
+✔ Más tiempo en las actividades favoritas
+✔ Atención personalizada
+✔ Ritmo adaptado al grupo
+✔ Una experiencia diseñada alrededor de ustedes
+SAFARI MARINO EXCLUSIVO LORETO
+No es solamente un paseo en barco.
+Es un día donde:
+✅ La naturaleza decide qué mostrarte.
+✅ El océano marca el camino.
+✅ Y tú eliges cómo vivir la aventura.
+👉 Algunos viajes terminan cuando regresas a tierra...
+👉 Otros continúan en tus recuerdos para siempre.
+SAFARI MARINO EXCLUSIVO LORETO
+Donde el océano escribe una historia creada para ti.
+ Reservar este tour 
+ Ver todos los tours
+##### _pagina.php_slug_ballenas-azules-pnbl.html
+Ballenas azules | BCS Eco Tours 
+ Ballenas azules
+ 🐋 Tour de Observación de la Ballena Azul en Loreto 
+ Una experiencia que te conecta con el corazón del Mar de Cortés 
+ Cada invierno, las aguas del Parque Nacional Bahía de Loreto se transforman en el escenario de uno de los espectáculos naturales más majestuosos del planeta: el encuentro con la Ballena Azul , el ser vivo más grande que ha habitado la Tierra. A bordo de nuestras embarcaciones Keiko y Keiko I , diseñadas especialmente para el ecoturismo responsable, vivirás una travesía que va más allá de la observación… es un viaje hacia la emoción pura.
+ 🌊 La experiencia 
+ El recorrido comienza al amanecer, cuando el Mar de Cortés refleja los primeros tonos dorados del día. La calma del mar y el canto lejano de las aves anuncian la presencia de gigantes. De pronto, el agua se eleva, la superficie vibra y una columna de vapor rompe el silencio: la Ballena Azul respira.
+ Desde la comodidad y seguridad de las Keiko , te acercarás lo suficiente para admirar su inmensidad sin perturbar su entorno. Cada respiro, cada movimiento de su aleta, cada destello bajo el sol se queda grabado en la memoria.
+Es una conexión directa con la naturaleza, una experiencia que redefine la palabra asombro .
+ ⚓ A bordo de las Keiko: confort, seguridad y propósito 
+ Diseñadas por expertos con más de 28 años de experiencia en turismo marítimo , nuestras embarcaciones Keiko están equipadas para ofrecer una navegación estable, segura y silenciosa, ideal para la observación responsable de fauna marina. Con su barandal panorámico en proa , sombra amplia , espacio 360° alrededor de la cubierta , y motores Yamaha 250 HP de bajo ruido y sin emisiones , podrás disfrutar el espectáculo natural con total comodidad.
+ Además, a bordo encontrarás:
+ Láminas de identificación de especies marinas y aves
+ Binoculares y guías naturalistas bilingües 
+ WiFi Starlink para compartir el momento (si lo deseas)
+ Agua, snacks y hielera siempre fresca
+ Baño a bordo y equipo de seguridad completo
+ Cada detalle está pensado para que tú solo te enfoques en sentir.
+ 🐬 Más que ballenas, un ecosistema vivo 
+ Durante el recorrido, no solo tendrás la posibilidad de admirar la Ballena Azul ; también es común observar delfines juguetones , mantas móbulas , e incluso otras especies de ballenas que visitan el parque en temporada.
+Sobre las rocas y el cielo, pelícanos, fragatas y pájaros bobos acompañan el viaje, recordándote que este es un lugar donde la vida fluye en perfecta armonía.
+ 🌿 Turismo responsable 
+ En BCS Eco Tours creemos que el verdadero lujo está en la conexión respetuosa con la naturaleza . Por eso, seguimos las regulaciones oficiales del Parque Nacional Bahía de Loreto , garantizando una observación ética que protege a las ballenas y su entorno marino. Cada salida contribuye directamente a la conservación y educación ambiental de la región.
+ ✨ Una experiencia que no se cuenta… se siente 
+ “Hay momentos que no necesitan palabras: solo el sonido del mar, el aire salado y el suspiro de una ballena azul.” Déjate guiar por la experiencia, la pasión y la seguridad de BCS Eco Tours . Ven a vivir un encuentro que te recordará lo pequeño que somos ante la grandeza de la naturaleza, y lo afortunados que somos de poder presenciarla.
+ Reservar Ahora
+ Reservar Ahora 
+ --->
+##### _ballenaazul_.html
+Ballena Azul - BCS Eco Tours 
+ ADVERTENCIA: Solo en Temporada diciembre-abril (10 personas máximo)
+ ¿Estas buscando la Mejor Experiencia de tu vida?
+ BALLENAS AZULES
+ Considerado lo más nuevo, un Verdadero Safary Marino. Grandes oportunidades de ver ballenas de aleta, ballenas jorobadas, ballenas piloto, Mantas, Lobos Marinos, Delfines y mucho más.
+ ¡Sí! ESTOY INTERESADO 
+ Su información personal estará segura 
+ No pierda la Oportunidad de vivir esta experiencia única. La temporada es corta y solo pocos están autorizados y certificados, Reserve Ahora. 
+ “Estos mamíferos gigantes pueden alcanzar hasta 30 metros de longitud y pesar casi 150 toneladas, y muchas veces podemos verlos a una distancia casi al alcance de la mano. Debido a que la ballena azul y el rorcual común salen a la superficie del mar entre 2 y 6 minutos después de su larga inmersión y viajan a una velocidad de 15 kilómetros por hora, es importante comprender muchas variables que ayudarán a determinar el tiempo de inmersión que puede ser de 10 hasta 25 minutos, y el lugar donde saldrá a la superficie la ballena." ¡Pocos han vivido esto!
+ Victor Vargas - 2026 
+ NO PIERDA ESTA OPORTUNIDAD...
+ NOSOTROS TE LLEVAMOS
+ Somos profesionales y tenemos la experiencia. Será un placer poder guiarte y llevarte a vivir esta experiencia única, ¡no te arrepentirás!
+ ¿Cómo Reservar Un Tour Con Nosotros?
+ Siga estos pasos, durante éste proceso el sistema te irá guiando hasta que termines y quede reservado el Tour:
+ #1 Regístrese 
+ Al registrarte, te enviaremos a la página donde estarán los formatos del Servicio del Tour, así como las instrucciones para llegar a nosotros.
+ #2 Envíenos Mensaje 
+ En la página después del registro también le mostrara los botones para llamar vía celular y/o enviar mensaje via whatsApp.
+ #3 ¡Listo! 
+ Al recibir la confirmación de la reservación, nosotros les esperaremos con todo lo necesario para llevarlos a vivir esta Experiencia.
+ Somos Profesionales
+ Tenemos años de realizar esta actividad, sabemos lo importante que es este Tour para usted, será un gusto guiarlo.
+ Equipo Ideal
+ Contamos con el equipo para realizar la actividad, tanto material como personal, sabemos lo que necesita.
+ Conocemos El Área
+ Somos locales, pescadores de profesión y nos hemos capacitado para realizar Actividades Turísticas.
+ UNA DE NUESTRAS AVENTURAS
+ OBSERVACIÓN DE BALLENAS AZULES EN BAHÍA DE LORETO
+ Una oportunidad de vivir y sentirse cercano a lo más puro de la naturaleza. 
+ Las condiciones del clima a nivel mundial están cambiando muy rápido, tal vez esta actividad OBSERVACIÓN DE BALLENAS AZULES en un futuro no se pueda realizar, pues su avistamiento depende del alimento y temperatura del agua.
+ Este es el momento, no se arrepentira, nosotros lo llevamos. 
+ Nos especializamos en grupos pequeños, solo una salida por día. 
+ ¡Sí! Quiero Reservar Ahora 
+ Su información personal no se compartira 
+ A CONTINUACIÓN MAS DETALLES DE SU
+ PRÓXIMA EXPERIENCIA CON LA BALLENA AZUL
+ Estamos ubicados en Loreto, comunidad de Baja California Sur en el Golfo de California / Mar de Cortez el Acuario del Mundo, Bienvenidos.
+ Loreto esta rodeada de montañas de la Sierra de La Giganta, es un lugar con una abundante riqueza de flora y fauna terrestre y maritima; durante la temporada de invierno, la Ballena Azul viene ésta Bahía para dar a luz, alimentar crías y reproducirse.
+ Tiene una diversidad de medios ambientes como El Sistema de Manglar, las dunas, montañas y desierto que colindan con su costa.
+ Su gente es amable y muy servicial, todos se conocen pues es una comunidad pequeña. 
+ Hace años la actividad turística a venido incrementando, pues la belleza de su entorno atrae a los amantes de la Naturaleza. ¡Que esperas acompañanos! 
+ ¡Sí! Quiero Reservar Ahora 
+ Su información personal no se compartira 
+ Vea lo que otros han dicho sobre su experiencia 
+ Nuestra misión es guiarlo.
+ Siempre será un placer poder llevarlo al lugar donde la acción esta presente, su memoria se llenará de excelentes recuerdos.
+ "ESPECTACULAR"
+ "La naturaleza y el aire libre es lo que más amo. Animales, plantas, mar y tierra. Siempre buscando aventuras, exploración y aprendiendo algo nuevo. Me encanta ser guía de expedición y mostrar a la gente las bellezas del mundo" 
+ "Desde aquí, nuestro misión estuvo clara." 
+ Israel Montaño
+ Amante de la Naturaleza
+ "INCREÍBLE"
+ "Desde el momento del registro, estuvieron al tanto de nosotros, cuando los conocimos en ese pequeño puerto, inmediatamente nos sentimos acogidos, durante la expedición pudimos comprobar que conocían mucho sobre la actividad y dieron casi inmediatamente con las ballenas, la experiencia fue increíble." 
+ Marisol Cortes
+ Bióloga Marina
+ ¿Necesita ayuda?
+ Estamos aquí para ayudarlo
+ A continuación, las Preguntas y Respuestas más frecuentes:
+ ¿Cual es el Costo del Tour Observación de Ballenas Azules y que incluye?
+ Durante la temporada, la ubicación de las [Ballenas Azules] depende de la ubicación del Krill, pues determinan la distancia que debemos recorrer desde el Puerto de Loreto hasta el área de acción, normalmente entre 5 a 30 millas nauticas desde la Dársena al área conocida como Triangulo Azul (1 hora aproximadamente) , nuestro tour esta diseñado para un grupo máximo de 10 personas.
+ DETALLES DEL TOUR 
+ Incluye: Brazaletes de SEMARNAT, agua purificada, fruta, cafe, refrescos y lonche.
+ Costo [Compartido] : $2,300 pesos por persona [basado en 5 personas mínimo por embarcación] .
+ Costo [Privado] : $21,000 pesos [10 personas máximo por embarcación], con su código de descuento obtenga precio aún menor .
+ ¿Cual es su itinerario para este Tour?
+ Una vez en Loreto Baja California Sur, usted deberá enviarnos un WhatsApp (El número estará disponible una vez que se registre) para confirmar su llegada y activar su viaje el cual estara sujeto al siguiente itinerario:
+ 6:45 am - El Punto de Reunión será en estatua de La Ballena Azul (En La Marina Dársena de Loreto) y/o el lugar que sea acordado previo a su legada . Ahí estará su guía para conducirlo hasta el lugar donde tomará la embarcación.
+ 7:00 am - Una vez en la Dársena y en el lugar donde esta la embarcación, el vehículo quedara ahí en el estacionamiento (¡es gratuito y es seguro!), entonces pondrán todas las cosas que llevaran al viaje en la embarcación (se entregaran y firmaran las formas de liberación que usted previamente descargó desde la web, la liga estará visible una vez que se registre (sino la trae nosotros la llevaremos). ¡Hora de tomar café! También el capitán/guía les dará el reporte del viaje del día anterior. 
+ 7:10 am - Ya en la embarcación iniciaremos la Expedición/Aventura con una breve explicación de la ruta y se les actualizara sobre el pronóstico del tiempo, así como acordar Plan A, B o C de la ruta según sea el caso.
+ 8:00 am - 1:00 pm - Una vez localizada el área donde las Ballenas Azules andan, el Capitán/Guía dará las instrucciones de las técnicas adecuadas para la actividad, así como el procedimiento de seguridad. La distancia segura para la observación y usando el Método Pasivo.
+ Durante el regreso a Puerto existe la posibilidad de realizar algunas otras actividades alternativas, según las condiciones los permitan.
+ 2:00 - 2:30 pm - Llegada a Puerto de Loreto. 
+ .
+ ¿Sobre la seguridad del Tour Observación de Ballenas Azules, que me pueden decir?.
+ Nuestra embarcación cuenta con todo lo que requiere Seguridad Marítima (radio VHF, chalecos salvavidas [uso obligatorio], kit de primeros auxilios, ancla, cabo, caja de herramientas, equipo de oxígeno, pistola de señales, etc.) , aunque también agregamos GPS Navegador y radio satelital, entre otras cosas más. También nuestra Empresa tiene un Plan de Emergencias que una vez activado tiene disponible ambulancia y servicio médico al arribo a puerto. 
+ Nuestro personal está Capacitado y Actualizado en Primeros Auxilios Básicos aplicados a la actividad turística y en sitios aislados WFR (Wilderness First Response) .
+ Aunque en El Mar todo los Prestadores de Servicios Turísticos, somos HERMANOS, por lo tanto nos mantenemos en constante comunicación y en caso de emergencia, mal tiempo u otro imprevisto somos un equipo.
+ ¿Pueden ir Niños a la Expedición?
+ Por seguridad y el tipo de Actividad, SI se permite llevar niños menores de 12 años, pero deberán llenar la Forma de Liberación Especial (estará disponible para descarga una vez registrado) firmada por los padres del menor antes de abordar el Tour.
+ Aunque esta es una Aventura de Intensa Actividad, ES apta para todo tipo de personas.
+ ¡Sí! Quiero Reservar Ahora 
+ Su información personal no se compartira
+##### _pagina.php_slug_buceo-recreativo-pnbl.html
+Buceo Recreativo | BCS Eco Tours 
+ Buceo Recreativo
+ 🤿 Buceo Recreativo en el Parque Nacional Bahía de Loreto 
+ Sumérgete en un mundo donde la vida brilla bajo cada ola 
+ Hay lugares donde el silencio se vuelve arte. Donde el tiempo se suspende y solo se escucha el sonido de tu respiración entre burbujas. Así es el buceo en el Parque Nacional Bahía de Loreto , uno de los tesoros submarinos más impresionantes del Mar de Cortés . Con más de 850 especies de peces y una extraordinaria variedad de corales blandos , formaciones rocosas, paredes y cuevas , Loreto ofrece un universo de color y movimiento que deslumbra a buzos de todo el mundo.
+ 🌊 La experiencia 
+ Tu día comienza navegando a bordo de nuestras embarcaciones Keiko y Keiko I , diseñadas especialmente para el buceo y el ecoturismo marino. Mientras avanzamos sobre aguas turquesa, el sol revela la silueta de las islas, preludio de la aventura que te espera bajo la superficie. Al descender, un nuevo mundo se abre ante ti: bancos de peces coloridos , mantas que se deslizan con elegancia , anémonas , corales blandos que se mecen con la corriente y, a veces, tiburones gato o morenas escondidas entre las grietas.
+ Cada sitio de buceo es una sorpresa: desde paredes verticales hasta cuevas y túneles naturales formados por siglos de historia geológica. Aquí, la inmersión no es solo exploración… es contemplación viva .
+ ⚓ A bordo de las Keiko: buceo con propósito 
+ Nuestras Keiko , de 30 pies (9.5 m), fueron diseñadas por expertos con más de 28 años de experiencia en turismo náutico y buceo recreativo . Pensadas para comodidad, seguridad y funcionalidad, cuentan con todo lo necesario para una jornada perfecta:
+ Escalera reforzada para subir con el equipo scuba
+ Compartimentos para tanques y equipo de buceo 
+ Bodega seca para artículos personales
+ Luces de cubierta para buceos nocturnos
+ Agua dulce a bordo para enjuagar el equipo
+ Baño a bordo , sombra en 60% de cubierta y espacio 360° para maniobrar con seguridad 
+ Guías certificados y naturalistas marinos bilingües 
+ WiFi Starlink , radio VHF y equipo de emergencia completo 
+ Cada detalle fue diseñado para que disfrutes el buceo con total confianza.
+ 🐠 Un paraíso submarino protegido 
+ El Parque Nacional Bahía de Loreto forma parte del Patrimonio Natural de la Humanidad de la UNESCO , y su conservación es prioridad. Por eso, en BCS Eco Tours realizamos buceo responsable, con grupos pequeños y prácticas sustentables, para garantizar que este paraíso siga vibrando con vida.
+ Aquí podrás explorar sitios emblemáticos como:
+ Isla Coronado – arrecifes coloridos y vida abundante
+ Isla Carmen – cuevas y formaciones rocosas impresionantes
+ Isla Danzante – paredes verticales con jardines de coral blando
+ El Bajo y Las Galeras – hábitat de especies pelágicas y bancos de peces
+ Cada inmersión es una historia que el mar te susurra al oído.
+ ✨ Una experiencia que no se olvida 
+ “Bajo el mar no existen palabras, solo colores, formas y silencios que hablan al alma.” Vive el buceo recreativo en Loreto con la seguridad, pasión y conocimiento de BCS Eco Tours . Sumérgete en uno de los ecosistemas más ricos y bellos del planeta, y deja que el Mar de Cortés te muestre su verdadera grandeza.
+ Reservar Ahora 
+ --->
+##### _pagina.php_slug_snorkeling-tours-pnbl.html
+Snorkeling Tours | BCS Eco Tours 
+ Snorkeling Tours
+ 🏝️ Tour a las Islas, Loreto B.C.S. 
+ Descubre el paraíso donde el mar respira vida 
+Navega hacia Isla Coronado , una joya del Parque Nacional Bahía de Loreto , y déjate envolver por la serenidad del Mar de Cortés , reconocido por Jacques Cousteau como “el acuario del mundo”.
+Durante este tour vivirás una experiencia sensorial completa: el sonido de los delfines al jugar junto a la embarcación, el brillo del agua turquesa bajo el sol y la paz de una playa de arena blanca que parece salida de un sueño.
+ Explora su arrecife lleno de vida haciendo snorkel , nada junto a lobos marinos juguetones , y maravíllate con la posibilidad de avistar mantas móbulas , ballenas , aves marinas como pájaros bobos, pelícanos, gaviotas y gallitos de mar.
+Finalmente, disfruta de un momento de descanso en la playa, donde podrás saborear mariscos frescos, del mar a la mesa , y contemplar la vista majestuosa del volcán inactivo que forma la isla.
+ Más que un paseo… es un viaje que despierta los sentidos y deja huella en el alma. 
+ 🌊 Incluye 
+ Paseo en lancha o panga equipada con capitán certificado
+ Snorkel y equipo básico (visor, tubo y chaleco)
+ Visita a la colonia de lobos marinos
+ Tiempo libre en playa de arena blanca
+ Avistamiento de fauna marina (delfines, aves, mantas, posible ballena según temporada)
+ Agua, refrescos y picnic o box lunch (opcional mariscos frescos)
+ Guía bilingüe (español/inglés)
+ Permiso de acceso al Parque Nacional
+ 🐠 Actividades 
+ Snorkeling en arrecifes
+ Observación de fauna marina y aves
+ Caminata ligera por la playa
+ Relajación y descanso bajo el sol
+ Picnic frente al mar
+ 🧢 Qué llevar 
+ Traje de baño y toalla
+ Protector solar biodegradable
+ Gorro o sombrero
+ Cámara fotográfica o GoPro
+ Sandalias cómodas o acuáticas
+ Buena actitud y deseo de conectar con la naturaleza 🌞
+ 💡 Recomendado para 
+ Amantes del mar y la naturaleza
+ Familias y parejas que buscan una experiencia tranquila y auténtica
+ Fotógrafos, observadores de aves y aventureros
+ Quienes desean desconectarse y disfrutar la esencia del Mar de Cortés
+ 📍 Ubicación 
+ Isla Coronado , dentro del Parque Nacional Bahía de Loreto , Baja California Sur, México. A solo unos minutos en lancha desde la marina de Loreto.
+ Reservar Ahora 
+ --->
+##### _pagina.php_slug_pesca-deportiva-pnbl.html
+Pesca Deportiva | BCS Eco Tours 
+ Pesca Deportiva
+ 🎣 Pesca Deportiva en Loreto, Baja California Sur 
+ Donde el mar recompensa el espíritu aventurero 
+ Hay días que quedan grabados para siempre en la memoria… El primer destello del amanecer sobre el Mar de Cortés. El sonido de la línea de pesca tensándose. El salto brillante de un dorado bajo los rayos del sol. Así se vive la verdadera experiencia de la pesca deportiva en el Parque Nacional Bahía de Loreto , a bordo de nuestras embarcaciones Keiko y Keiko I , diseñadas por pescadores con más de 28 años de experiencia en el mar .
+ Aquí, la pesca no se trata únicamente de capturar un pez — se trata de sentir la emoción de cada captura como una conexión profunda con la naturaleza. 
+ ⚓ La Experiencia 
+ Salimos temprano desde la marina, cuando el océano aún conserva su calma y tranquilidad. Navegamos hacia las zonas más productivas del Parque Nacional, donde las corrientes y la temperatura del agua crean el escenario perfecto para algunas de las especies más emblemáticas del Mar de Cortés:
+ Marlín rayado y azul , símbolos de fuerza y precisión
+ Dorado (Mahi-Mahi) , brillante como los rayos del sol que reflejan sus escamas
+ Jurel , incansable durante la pelea
+ Atún , rápido, poderoso y desafiante
+ Cada jornada de pesca es diferente, pero todas comparten la misma esencia:
+ Adrenalina, naturaleza y respeto por el mar. 
+ 🚤 A bordo de la Keiko: Diseñada para la Experiencia de Pesca Definitiva 
+ Nuestras embarcaciones Keiko , con una longitud de 30 pies (9.5 m) , fueron diseñadas por pescadores para pescadores.
+ Su cubierta abierta con espacio 360° , barandal seguro en proa y motor Yamaha de 250 HP de cuatro tiempos (operación silenciosa y sin emisiones de humo) ofrecen la combinación perfecta de estabilidad, potencia, comodidad y rendimiento.
+ Cada detalle técnico ha sido cuidadosamente diseñado para mejorar tu experiencia de pesca:
+🎯 Fish Finder de última generación 
+🧰 Portacañas estratégicamente distribuidos 
+🐟 Vivero para carnada viva 
+🎒 Equipo completo de pesca: anzuelos, plomos, líneas, señuelos, líderes y más
+🧊 Hielera con hielo para mantener tu captura fresca
+💺 Amplia área de sombra (60%) , baño a bordo , radio VHF , WiFi Starlink y equipo completo de seguridad 
+ Nada está improvisado.
+ Todo está exactamente donde debe estar.
+ 🌊 Pesca en Loreto: El Mar de Cortés en su Máxima Expresión 
+ Reconocido por Jacques Cousteau como “el acuario del mundo” , el Mar de Cortés ofrece aguas llenas de vida, cristalinas y abundantes.
+ La pesca deportiva aquí no es solamente una actividad — es una tradición local , una pasión compartida y una forma de vida .
+ Mientras esperas el próximo pique, podrás admirar los impresionantes paisajes de las islas del Parque Nacional , observar pelícanos volando sobre el agua o disfrutar del inolvidable momento cuando delfines acompañan la embarcación durante la navegación.
+ 🐠 Turismo Responsable y Sostenible 
+ En BCS Eco Tours , creemos que la verdadera grandeza de la pesca nace del respeto por el océano.
+ Por eso practicamos una pesca deportiva ambientalmente responsable , promoviendo la captura responsable y liberación de especies clave, cumpliendo siempre con las regulaciones del Parque Nacional Bahía de Loreto .
+ Cada aventura de pesca busca encontrar el equilibrio perfecto:
+ Diversión, desafío y conservación. 
+ ✨ Una Experiencia Que Se Siente Con el Alma 
+ “No se trata solamente de lo que tomas del mar, sino de lo que el mar deja dentro de ti.”
+ Vive la pesca deportiva como nunca antes, guiado por la pasión, conocimiento y experiencia de quienes han hecho del Mar de Cortés su hogar.
+ BCS Eco Tours te invita a descubrir la emoción auténtica de la pesca deportiva…
+ En un lugar donde la naturaleza sigue siendo la verdadera protagonista. 
+ Reservar Ahora 
+ --->
+##### _pagina.php_slug_nuestras-embarcaciones.html
+Las Embarcaciones | BCS Eco Tours 
+ Las Embarcaciones
+ 🚤 Nuestras Embarcaciones: Keiko & Keiko I 
+ Diseñadas por la experiencia. Inspiradas por el mar. 
+ En BCS Eco Tours sabemos que cada aventura comienza mucho antes de zarpar. Por eso nuestras embarcaciones Keiko y Keiko I , de 30 pies (9.5 metros) , fueron diseñadas por nosotros mismos , con la experiencia de más de 28 años como operadores de turismo en el Mar de Cortés . Cada detalle refleja lo que realmente importa: seguridad, confort, versatilidad y respeto por el entorno. 
+ ⚓ Diseñadas para vivir el mar desde todos los ángulos 
+ La proa con barandal ofrece estabilidad y comodidad en cualquier actividad, mientras que su espacio 360° alrededor de la embarcación permite moverse libremente —ya sea para lanzar una línea de pesca o sumergirse en una experiencia submarina. El diseño ergonómico y multifuncional convierte cada recorrido en una experiencia fluida y natural.
+ 🎣 Pesca deportiva: precisión y adrenalina 
+ Preparadas para los apasionados de la pesca, nuestras Keiko cuentan con:
+ Fish Finder de última generación
+ Porta cañas estratégicamente distribuidos
+ Vivero para carnada viva 
+ Equipo completo : anzuelos, plomos, líneas de repuesto, curricanes y más
+ Espacio libre 360° para la pelea con grandes especies 
+ Aquí no solo se pesca: se siente la emoción del mar en cada tirón del hilo.
+ 🤿 Buceo recreativo: comodidad bajo y sobre el agua 
+ Las Keiko están listas para tus inmersiones con:
+ Escalera reforzada para subir con todo el equipo scuba
+ Compartimentos para tanques de buceo 
+ Luces de cubierta para buceos nocturnos
+ Bodega especial para equipo y artículos personales secos
+ Agua fresca a bordo para enjuagar tu equipo antes de empacar
+ Área amplia y segura para entrar y salir del agua
+ Diseñadas para que el buceo no sea solo una actividad, sino una experiencia fluida desde la superficie hasta el fondo del mar.
+ 🐠 Snorkeling y Eco Tours: conexión natural 
+ Pensadas también para quienes buscan aventuras suaves y contacto con la naturaleza , nuestras embarcaciones ofrecen:
+ Espacio para cambiarte y colocarte el equipo de snorkeling
+ Compartimentos de almacenamiento seguros
+ Hielera con hielo siempre lista para mantener tus bebidas y alimentos frescos
+ Láminas informativas sobre la fauna marina del Parque Nacional Bahía de Loreto: ballenas, delfines, aves, peces, anémonas y más
+ Equipo de cocina , mesas, sillas y sombra amplia (60%) para disfrutar del almuerzo frente al mar
+ Todo está pensado para que solo te ocupes de disfrutar la belleza del Mar de Cortés.
+ 🛟 Seguridad, tecnología y confort 
+ Porque la confianza es la base de toda experiencia en el mar, nuestras Keiko incluyen:
+ Motor Yamaha 250 HP de 4 tiempos (sin emisiones de humo)
+ Tanques de gasolina ocultos con capacidad de 300 L
+ Baño a bordo 
+ Chalecos salvavidas con luz de emergencia 
+ Luces de bengala y señalización electrónica 
+ Radio VHF, celular y conexión WiFi Starlink 
+ Anclas de proa y popa, cabos para aguas profundas 
+ Botiquín de primeros auxilios y extintor 
+ Cada detalle está ahí por una razón: tu seguridad y tranquilidad. 
+ 🌊 Más que embarcaciones… experiencias diseñadas 
+ Cada una de nuestras Keiko no solo es una lancha; es el resultado de años de escuchar a los viajeros, entender al mar y perfeccionar el arte de crear aventuras seguras, cómodas y memorables. “Porque quien diseña con pasión no construye embarcaciones… crea experiencias que navegan en la memoria.”
+ Reservar Ahora 
+ --->
+##### _pagina.php_slug_sobre-nosotros.html
+Nosotros | BCS Eco Tours 
+ Nosotros
+ 🌎 Nosotros 
+ Más que un equipo… una familia del mar 
+ En BCS Eco Tours , no solo navegamos las aguas del Mar de Cortés… las vivimos, las respetamos y las compartimos con orgullo. Somos un grupo de instructores certificados, guías eco turísticos, capitanes y personal administrativo , todos residentes de Loreto, Baja California Sur , unidos por una misma pasión: mostrar la grandeza natural de nuestra tierra con respeto y calidad humana. 
+ 🌿 Pasión local, experiencia global 
+ Con más de 28 años de experiencia en turismo marítimo , conocemos cada rincón del Parque Nacional Bahía de Loreto : sus islas, sus vientos, sus mareas y su vida marina. Esa experiencia no viene solo de la práctica, sino del amor por el lugar que llamamos hogar. Cada salida al mar es una oportunidad de enseñar, cuidar y compartir la magia de Loreto con visitantes de todo el mundo.
+ 🤝 Comprometidos con la calidad y el medio ambiente 
+ Todo nuestro equipo está capacitado en servicio al cliente, seguridad y conservación ambiental , porque creemos que la verdadera hospitalidad se demuestra en los detalles: una sonrisa genuina, una explicación paciente, una acción responsable. Cumplimos con las normas oficiales del Parque Nacional Bahía de Loreto , promoviendo un ecoturismo responsable que protege la vida marina y contribuye al desarrollo sustentable de nuestra comunidad.
+ 🧭 Guiados por propósito 
+ En cada recorrido, llevamos más que turistas: llevamos amigos del mar . Queremos que cada visitante sienta la conexión profunda que nosotros sentimos con estas aguas, y que al volver a casa, se lleve más que fotos… una historia que contar y un compromiso que recordar. 
+ “Somos locales que aman su hogar,
+marinos que entienden la vida,
+y guías que comparten con el corazón.”
+ 💙 BCS Eco Tours — Naturaleza, experiencia y alma loretana 
+ Reservar Ahora 
+ --->
+##### _faq.php.html
+Preguntas Frecuentes | BCS Eco Tours 
+ Preguntas Frecuentes 
+ No hay resultados. 
+ ¿Necesito experiencia previa para bucear o hacer snorkeling? 
+ No necesariamente. Ofrecemos inmersiones guiadas para principiantes y salidas especiales para buzos certificados. Nuestros instructores te explicarán el uso del equipo, las señales bajo el agua y las medidas de seguridad antes de cada inmersión. Para snorkeling, solo necesitas saber nadar y tener ganas de explorar. 
+ ¿Que hace diferente a BCS Tours de otras empresas? 
+ Somos operadores locales con más de 28 años de experiencia y raíces en Loreto. Diseñamos nuestras propias embarcaciones Keiko, pensadas para comodidad, seguridad y sostenibilidad. Cada tour está guiado por personal certificado y apasionado por la naturaleza, comprometido con el servicio, la educación ambiental y la conservación del Parque Nacional Bahía de Loreto. Aquí no solo llevamos turistas: inspiramos viajeros conscientes. 
+ Empacan el pescado? 
+ Si, claro lo hacemos bien 
+ ¿Cómo puedo reservar un tour? 
+ Puedes reservar directamente a través de nuestra página web, por WhatsApp, correo electrónico o en nuestras oficinas en la Marina de Loreto. Ofrecemos opciones de pago seguro, tours privados o grupales, y atención personalizada para ayudarte a elegir la experiencia ideal. “Tu aventura comienza desde el momento en que decides descubrir Loreto con nosotros.” 
+ ¿Qué tipo de pesca deportiva realizan? 
+ Realizamos pesca deportiva recreativa, enfocada en especies como marlín, dorado, jurel y atún, dependiendo de la temporada. Proveemos todo el equipo necesario, desde cañas y curricanes hasta vivero para carnada viva y espacio 360° para pelear tu captura. Además, fomentamos la pesca responsable y la práctica “catch & release” (captura y liberación) para conservar las poblaciones marinas. 
+ ¿Las actividades son seguras para toda la familia? 
+ Sí. Todos nuestros recorridos están diseñados para ser seguros, cómodos y familiares. Contamos con chalecos salvavidas para todas las edades, capitanes experimentados y protocolos de seguridad certificados. También ofrecemos tours privados y personalizados, ideales para niños o personas mayores. 
+ ¿Cuáles son los métodos de pago? 
+ Aceptamos pagos con tarjeta de crédito, débito, transferencias y efectivo en nuestras oficinas.
+##### _testimonios.php.html
+Testimonios de Clientes | BCS Eco Tours 
+ Lo que opinan nuestros clientes 
+ Desde que llegamos nos sentimos en buenas manos. El capitán y los guías fueron profesionales, amables y siempre atentos. Se nota la experiencia que tienen en Loreto.
+ Después de pasar la mañana explorando el mar, disfrutar pescado y mariscos preparados ahí mismo fue el final perfecto. ¡Una experiencia deliciosa y auténtica!
+ Loreto nos sorprendió completamente. La cantidad de vida marina que encontramos fue impresionante. Se nota que el equipo realmente ama y conoce este lugar.
+ Tener la embarcación exclusivamente para nuestra familia hizo toda la diferencia. Pudimos elegir qué actividades hacer y pasar más tiempo disfrutando cada lugar.
+ Lo que más nos gustó fue que no se sintió como un tour tradicional. Salimos sin saber exactamente qué encontraríamos y dejamos que el océano decidiera nuestra aventura.
+ Nuestros hijos estuvieron fascinados todo el día. Pudimos combinar playa, snorkeling, kayak y observar vida marina. Fue mucho más que un paseo en lancha.
+ Ver una ballena azul tan cerca fue uno de esos momentos que sabes que recordarás toda la vida. La experiencia fue espectacular de principio a fin.
+ No sabíamos qué íbamos a encontrar y justamente eso hizo que el día fuera increíble. Vimos delfines, lobos marinos y terminamos haciendo snorkeling. ¡Una verdadera aventura!
+ Reservar mi viaje a través de BCS Eco Tours fue la mejor decisión. Todo transcurrió sin problemas, desde los tours y vuelos hasta las reservas de hotel. Sin duda, volveré a contratarlos en mis próximas vacaciones.
+ Una de las mejores experiencias de mi vida, todo fue muy fácil desde el inicio de nuestro Tour, mucha información, aprendí mucho, me sentí atendido y satisfecho con todo lo que ofrecieron.
+##### _reserva.php.html
+Reserva tu Tour - BCS Eco Tours 
+ Reserva tu Tour
+ Nombre completo 
+ Teléfono 
+ Email 
+ Tour 
+ Selecciona un tour 
+ Safari Compartido 
+ Safari Especial 
+ Safari Privado 
+ Embarcación 
+ Número de pasajeros 
+ Capacidad máxima: 16 pasajeros
+ Fecha del tour 
+ Detalle o petición especial 
+ Solicitar reservación

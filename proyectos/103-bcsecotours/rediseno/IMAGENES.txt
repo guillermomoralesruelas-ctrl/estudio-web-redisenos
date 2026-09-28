@@ -1,0 +1,27 @@
+# Imágenes disponibles en publicDir (../sitio/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+uploads/blog_6a94e3d92c509.png	1776x1296	4148 KB
+uploads/galeria_6a951bf44541b.PNG	1016x714	1858 KB
+img/tourimg_6a7d457d230c9.png	945x566	1028 KB
+uploads/galeria_6a94d97fb4466.jpg	1802x1157	896 KB
+uploads/hero_6a951b0c4923b.png	1010x674	864 KB
+img/linea.png	2522x149	808 KB
+uploads/galeria_6a94c958c37ec.png	1280x714	789 KB
+uploads/galeria_6a94d911346b6.jpg	2288x1536	768 KB
+uploads/blog_6a94e417b877d.JPG	1307x775	594 KB
+uploads/galeria_6a94db02d56a1.JPG	1307x775	594 KB
+uploads/blog_6a94e37b6a45c.JPG	1875x1250	523 KB
+uploads/hero_6a513e649a16a.jpg	1875x1250	523 KB
+img/tourimg_6a7d4146c32e6.jpg	1200x675	455 KB
+uploads/galeria_6a94d86ad58aa.JPG	1664x926	261 KB
+uploads/galeria_6a951b7fc7ceb.JPG	1200x726	158 KB
+img/tourimg_6a7d44347803c.jpg	720x479	103 KB
+img/usa.png	300x299	95 KB
+uploads/galeria_6a94d9e8a4725.jpg	1000x563	91 KB
+uploads/hero_6a5150cc61a76.jpg	1000x563	91 KB
+uploads/galeria_6a94da5c5b6bb.jpg	520x350	38 KB
+img/logo.png	599x187	37 KB
+img/favicon.png	205x187	13 KB
+uploads/testi_6a9517e2a328e.png	205x187	13 KB
+uploads/testi_6a95184bd39b5.png	205x187	13 KB
+uploads/testi_6a9518af700a4.png	205x187	13 KB
