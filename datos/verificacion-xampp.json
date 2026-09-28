@@ -573,7 +573,7 @@
   "imagenes": 15,
   "fallos": [],
   "ok": true,
-  "fecha": "2026-09-28T23:05:42.791Z"
+  "fecha": "2026-09-28T23:54:55.722Z"
  },
  "179-casatunkul": {
   "rotas": 0,
@@ -581,7 +581,7 @@
   "imagenes": 8,
   "fallos": [],
   "ok": true,
-  "fecha": "2026-09-28T23:18:17.789Z"
+  "fecha": "2026-09-28T23:54:50.175Z"
  },
  "604-kasumiflowersatelier": {
   "rotas": 0,
@@ -589,7 +589,7 @@
   "imagenes": 8,
   "fallos": [],
   "ok": true,
-  "fecha": "2026-09-28T23:34:04.847Z"
+  "fecha": "2026-09-28T23:54:53.837Z"
  },
  "314-dipazinmobiliaria": {
   "rotas": 0,
@@ -597,6 +597,14 @@
   "imagenes": 6,
   "fallos": [],
   "ok": true,
-  "fecha": "2026-09-28T23:46:29.993Z"
+  "fecha": "2026-09-28T23:54:52.014Z"
+ },
+ "443-galospilates": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 5,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-28T23:55:19.258Z"
  }
 }

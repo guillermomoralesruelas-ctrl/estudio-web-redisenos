@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "@fontsource/raleway/400.css";
+@import "@fontsource/raleway/600.css";
+@import "@fontsource/raleway/700.css";
+@import "@fontsource/source-sans-3/400.css";
+@import "@fontsource/source-sans-3/600.css";
+
+@theme {
+  --color-fondo: #f6f5f0;
+  --color-panel: #ffffff;
+  --color-oscuro: #1a1a2e;
+  --color-tinta: #2c2c3e;
+  --color-suave: #6b6b7f;
+  --color-acento: #4a8b7a;
+  --color-acento-claro: #5aa896;
+  --color-calido: #e4dfd5;
+  --font-sans: "Source Sans 3", system-ui, sans-serif;
+  --font-head: "Raleway", system-ui, sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 700; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-acento); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn-acento { @apply bg-acento text-white px-6 py-3 text-sm font-semibold tracking-wide uppercase hover:bg-acento-claro transition-colors; }
+  .btn-contorno { @apply border-2 border-oscuro text-oscuro px-6 py-3 text-sm font-semibold tracking-wide uppercase hover:bg-oscuro hover:text-white transition-colors; }
+  .btn-contorno-blanco { @apply border-2 border-white text-white px-6 py-3 text-sm font-semibold tracking-wide uppercase hover:bg-white hover:text-oscuro transition-colors; }
+  .etiqueta { @apply text-xs font-semibold tracking-[0.18em] uppercase text-acento; }
+}

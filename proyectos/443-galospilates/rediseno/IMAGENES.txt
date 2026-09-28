@@ -1,0 +1,15 @@
+# Imágenes disponibles en publicDir (../sitio/assets/build/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+coach-joselline-lopez-D9--gA93.jpg	1200x1600	156 KB
+Informacion%20coach%20Joselline%20Lopez-BIfmyb5g.jpg	1080x1350	137 KB
+coach-gabriel-villegas-7j1ceYH1.jpg	1200x1600	128 KB
+Informacion%20coach%20Gabriel%20Villegas-DJI0YTIB.jpg	1080x1350	121 KB
+Informacion%20coach%20Monica%20Crespo-ByxaV_V4.jpg	1080x1350	118 KB
+coach-karla-santiago-D8uUeuqi.jpg	864x1080	104 KB
+Informacion%20coach%20Karla%20Santiago-BgJphnQC.jpg	1080x1350	91 KB
+coachs-hero-BZ7kW-nK.jpg	768x960	70 KB
+coach-monica-crespo-QHmHVKMN.jpg	720x1080	69 KB
+coach-karla-santiago-avatar-CXnb4Pgq.jpg	176x176	6 KB
+coach-joselline-lopez-avatar-DvV8GQlq.jpg	176x176	5 KB
+coach-monica-crespo-avatar-CR8gIqxP.jpg	176x176	5 KB
+coach-gabriel-villegas-avatar-DWV43SHp.jpg	176x176	4 KB
