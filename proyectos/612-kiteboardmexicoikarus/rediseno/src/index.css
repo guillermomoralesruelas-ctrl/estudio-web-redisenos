@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Ikarus tokens: the lagoon turquoise of their photos, the deep water at dusk, the sand of Isla Blanca and the orange
+   of their kites. */
+@theme {
+  --color-noche: #12303a;
+  --color-laguna: #0b6b74;
+  --color-agua: #8fd3d6;
+  --color-arena: #f6efe2;
+  --color-kite: #c44a18;
+  --color-durazno: #f3a37e;
+  --color-gris: #5a6468;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Sora Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-noche font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-kite); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { @apply font-titulo font-bold leading-[1.05] tracking-[-0.02em]; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+}
