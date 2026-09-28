@@ -135,7 +135,7 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 | 315-discovervallarta | Discover Vallarta (Discover PVR), Puerto Vallarta, Jalisco (turismo) | 1.2 | Terminado (PC, 2026-09-28) | `/proyectos/315-discovervallarta/rediseno/dist/index.html` | Ver `CAMBIOS.md`. IONOS builder → landing con 6 tours expandibles + sección de traslados con precios reales ($39-$60 USD add-ons). Login/Edit de IONOS visible en el footer del original: avisar al cliente. |
 | 435-fultonhotel | Fulton Hotel, Guadalajara, Jalisco (hospedaje) | 1.2 | Terminado (PC, 2026-09-28) | `/proyectos/435-fultonhotel/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Hotel de negocios en la Zona Financiera Sao Paulo. Multipágina PHP → landing: 4 habitaciones en grid, Sala de Juntas + Starbucks + Rooftop en acordeones, ubicación con 4 puntos + fotos, CTA Cloudbeds + WhatsApp. Sin precios publicados en el original: solo botón de reserva. |
 
-| 643-lapurificadora | La Purificadora, Puebla, Puebla (gastronomia) | 1.2 | En curso (PC, 2026-09-28) | — | — |
+| 643-lapurificadora | La Purificadora, Puebla, Puebla (hospedaje/gastronomía) | 1.2 | Terminado (PC, 2026-09-28) | `/proyectos/643-lapurificadora/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Hotel boutique diseñado por Ricardo Legorreta en fábrica purificadora s. XIX. "Elige tu habitación": 7 cards expandibles con características reales y CTA al motor Synxis. Sin precios (no publicados en el original). Sin mapa embed (el original tiene iframe vacío). Arquitectura, restaurante y terraza destacados. |
 
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 

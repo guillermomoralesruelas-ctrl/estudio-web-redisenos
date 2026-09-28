@@ -566,5 +566,13 @@
   "fallos": [],
   "ok": true,
   "fecha": "2026-09-28T23:01:17.676Z"
+ },
+ "643-lapurificadora": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 15,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-28T23:05:42.791Z"
  }
 }

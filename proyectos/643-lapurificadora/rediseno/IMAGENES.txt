@@ -1,0 +1,14 @@
+# Imágenes disponibles en publicDir (../sitio/assets/dist/img), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+la-purificadora/neighborhood/neighborhood-1.jpg	1275x1920	302 KB
+la-purificadora/neighborhood/neighborhood-2.jpg	1920x1280	237 KB
+la-purificadora/bg/banner.jpg	1920x1948	232 KB
+la-purificadora/misc/logo-black.png	1920x622	66 KB
+la-purificadora/misc/logo-white.png	1920x622	66 KB
+misc/grupohabita_logo.png	817x71	9 KB
+misc/designhotels_logo.svg	244x81	7 KB
+misc/instagram.png	32x32	1 KB
+misc/x.png	32x32	1 KB
+misc/facebook.png	32x32	1 KB
+misc/arrow-right.png	50x50	0 KB
+misc/arrow-left.png	50x50	0 KB

@@ -1,0 +1,82 @@
+{
+  "fecha": "2026-09-28T23:04:57.081Z",
+  "carpeta": "643-lapurificadora",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 15224,
+      "desbordeX": 722,
+      "h1": 0,
+      "imagenes": 23,
+      "rotas": [
+        "http://127.0.0.1:62862/643-lapurificadora/sitio/"
+      ],
+      "sinAlt": 0,
+      "titulo": "La Purificadora | Grupo Habita",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:62862/dist/css/main.css?v3",
+        "404 http://127.0.0.1:62862/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 17020,
+      "desbordeX": 1562,
+      "h1": 0,
+      "imagenes": 23,
+      "rotas": [
+        "http://127.0.0.1:62862/643-lapurificadora/sitio/"
+      ],
+      "sinAlt": 0,
+      "titulo": "La Purificadora | Grupo Habita",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:62862/dist/css/main.css?v3",
+        "404 http://127.0.0.1:62862/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4926,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Purificadora | Hotel Boutique en Puebla, Patrimonio UNESCO",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 8431,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Purificadora | Hotel Boutique en Puebla, Patrimonio UNESCO",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
