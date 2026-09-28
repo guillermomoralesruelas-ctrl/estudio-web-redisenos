@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Tokens de Dulce Vega: un vino profundo de labial, rosa empolvado y un fondo de polvo compacto; dorado de sus
+   envases para detalles sobre oscuro. */
+@theme {
+  --color-vino: #2b1a22;
+  --color-labial: #9c2f55;
+  --color-rubor: #f2c6cf;
+  --color-polvo: #fbf3f1;
+  --color-oro: #c8a15a;
+  --color-gris: #6b5a60;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Bodoni Moda Variable", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-vino font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-labial); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { @apply font-titulo font-medium leading-[1.05]; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+}
