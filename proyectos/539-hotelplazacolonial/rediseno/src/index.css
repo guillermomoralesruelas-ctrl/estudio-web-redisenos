@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Tokens: ver "Dirección visual" en entregables/plan-diseno.md.
+   amarillo y azul se muestrearon de la fachada real (HotelPlazaColonial206.jpg). */
+@theme {
+  --color-amarillo: #e0a851;
+  --color-azul: #1587a8;
+  --color-azulhondo: #0e6480;
+  --color-cal: #fbf6ec;
+  --color-noche: #1c2830;
+  --color-tinta: #24272c;
+  --color-gris: #5c626a;
+  --font-titulo: "Cormorant Garamond", "Georgia", serif;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-cal text-tinta font-sans antialiased; }
+  h1, h2, h3 { @apply font-titulo font-semibold text-balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-azulhondo); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full bg-azulhondo px-6 py-3 text-[0.95rem] font-semibold text-white transition-colors hover:bg-noche; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-azulhondo px-6 py-3 text-[0.95rem] font-semibold text-azulhondo transition-colors hover:bg-azulhondo hover:text-white; }
+  /* Postigos del elemento "Abre una ventana": giran sobre su bisagra. */
+  .postigo { transition: transform 0.45s ease; transform-box: fill-box; }
+  .postigo-izq { transform-origin: left center; }
+  .postigo-der { transform-origin: right center; }
+  .abierta .postigo-izq { transform: scaleX(0.18); }
+  .abierta .postigo-der { transform: scaleX(0.18); }
+}

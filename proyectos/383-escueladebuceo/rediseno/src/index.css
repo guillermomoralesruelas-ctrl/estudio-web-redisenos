@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Tokens de Proyecto Azul: el rojo y el azul de su óvalo (muestreados del logo) y el azul profundo del mar de sus fotos. */
+@theme {
+  --color-abismo: #0a1f3d;
+  --color-azul: #0b4f9c;
+  --color-rojo: #c0181c;
+  --color-turquesa: #0b7575;
+  --color-ambar: #8a5a00;
+  --color-morado: #5b2d8c;
+  --color-celeste: #7fc4f0;
+  --color-espuma: #eef5fa;
+  --color-tinta: #10223a;
+  --color-gris: #4a5a6e;
+  --color-bruma: #a8b8cc;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Barlow Condensed", "Arial Narrow", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rojo); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { @apply font-titulo font-bold leading-[0.98]; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+}

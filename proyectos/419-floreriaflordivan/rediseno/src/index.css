@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Tokens: ver "Dirección visual" en entregables/plan-diseno.md. malva es el color de su logo. */
+@theme {
+  --color-malva: #847878;
+  --color-ciruela: #5c4a4d;
+  --color-frambuesa: #8d3a55;
+  --color-palo: #f7ecea;
+  --color-tinta: #2b2224;
+  --color-gris: #6a5f60;
+  --font-titulo: "Playfair Display Variable", "Georgia", serif;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-tinta font-sans antialiased; }
+  h1, h2, h3 { @apply font-titulo font-medium text-balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-frambuesa); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full bg-ciruela px-6 py-3 text-[0.95rem] font-semibold text-white transition-colors hover:bg-frambuesa; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-ciruela px-6 py-3 text-[0.95rem] font-semibold text-ciruela transition-colors hover:bg-ciruela hover:text-white; }
+}

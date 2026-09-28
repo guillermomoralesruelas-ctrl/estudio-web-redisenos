@@ -22,3 +22,6 @@ proyectos/*/.panel/fase-*.jsonl
 
 # Capturas de QA de los rediseños (se regeneran con herramientas/qa-rediseno.mjs)
 proyectos/*/qa/*.png
+
+# Copias web de las fotos (las genera rediseno/fotos-web.mjs desde el clon)
+proyectos/*/assets/web/

@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Tokens de Doggie's: el rojo y el azul de su logo y de su sitio (--red #d72d37, --blue #004887), el amarillo de su
+   paleta para la noche y un azul noche para el reloj. */
+@theme {
+  --color-rojo: #c41f2a;
+  --color-azul: #004887;
+  --color-noche: #0f1b33;
+  --color-amarillo: #fcef02;
+  --color-nube: #f7fafe;
+  --color-hielo: #ebf1f6;
+  --color-gris: #4a5260;
+  --color-lluvia: #9fb1cc;
+  --color-verde: #1f7a4a;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Nunito Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-noche font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rojo); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { @apply font-titulo font-black leading-[1.04] tracking-[-0.01em]; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-bold transition-colors; }
+}

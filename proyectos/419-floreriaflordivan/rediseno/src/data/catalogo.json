@@ -1,0 +1,407 @@
+[
+ {
+  "sku": "CAJRROS",
+  "nombre": "Caja Redonda de Rosas",
+  "categoria": "Cajas",
+  "precio": 850.0,
+  "url": "https://www.flordivan.com/boutique/caja-redonda-de-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJ24ROS",
+  "nombre": "Caja Redonda con 24 Rosas",
+  "categoria": "Cajas",
+  "precio": 850.0,
+  "url": "https://www.flordivan.com/boutique/caja-redonda-con-24-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJ50ROS",
+  "nombre": "Caja Redonda con 50 Rosas",
+  "categoria": "Cajas",
+  "precio": 1350.0,
+  "url": "https://www.flordivan.com/boutique/caja-redonda-con-50-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJ75ROS",
+  "nombre": "Caja Redonda con 75 Rosas",
+  "categoria": "Cajas",
+  "precio": 2100.0,
+  "url": "https://www.flordivan.com/boutique/caja-redonda-con-75-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJ100ROS",
+  "nombre": "Caja Redonda con 100 Rosas",
+  "categoria": "Cajas",
+  "precio": 2700.0,
+  "url": "https://www.flordivan.com/boutique/caja-redonda-con-100-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJ150ROS",
+  "nombre": "Caja Redonda con 150 Rosas",
+  "categoria": "Cajas",
+  "precio": 4050.0,
+  "url": "https://www.flordivan.com/boutique/caja-redonda-con-150-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJ200ROS",
+  "nombre": "Caja Redonda con 200 Rosas",
+  "categoria": "Cajas",
+  "precio": 5400.0,
+  "url": "https://www.flordivan.com/boutique/caja-redonda-con-200-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "RAMNOVIA",
+  "nombre": "Ramos de novia",
+  "categoria": "Arreglos",
+  "precio": 0.0,
+  "url": "https://www.flordivan.com/boutique/ramos-de-novia/",
+  "disponible": false,
+  "foto": null
+ },
+ {
+  "sku": "ARRPERS",
+  "nombre": "Arreglos Personalizados",
+  "categoria": "Arreglos",
+  "precio": 0.0,
+  "url": "https://www.flordivan.com/boutique/arreglos-personalizados/",
+  "disponible": false,
+  "foto": null
+ },
+ {
+  "sku": "RAMTULP",
+  "nombre": "Ramo de tulipanes",
+  "categoria": "Ramos",
+  "precio": 0.0,
+  "url": "https://www.flordivan.com/boutique/ramo-de-tulipanes/",
+  "disponible": false,
+  "foto": null
+ },
+ {
+  "sku": "CAJROSBCO-1",
+  "nombre": "Caja de Rosas Fucsia",
+  "categoria": "Cajas",
+  "precio": 850.0,
+  "url": "https://www.flordivan.com/boutique/caja-de-rosas-fucsia/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJROSBCO",
+  "nombre": "Caja de Rosas Blancas",
+  "categoria": "Cajas",
+  "precio": 850.0,
+  "url": "https://www.flordivan.com/boutique/caja-de-rosas-blancas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJROSLIL",
+  "nombre": "Caja de Rosas Lilas",
+  "categoria": "Cajas",
+  "precio": 850.0,
+  "url": "https://www.flordivan.com/boutique/caja-de-rosas-lila/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJROSROS",
+  "nombre": "Caja de Rosas Rosas",
+  "categoria": "Cajas",
+  "precio": 850.0,
+  "url": "https://www.flordivan.com/boutique/caja-de-rosas-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJROSAMA",
+  "nombre": "Caja de Rosas Amarillas",
+  "categoria": "Cajas",
+  "precio": 850.0,
+  "url": "https://www.flordivan.com/boutique/caja-de-rosas-amarillas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "CAJROSROJ",
+  "nombre": "Caja de Rosas Rojas",
+  "categoria": "Cajas",
+  "precio": 850.0,
+  "url": "https://www.flordivan.com/boutique/caja-de-rosas-rojas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "RAMROSFUC",
+  "nombre": "Ramo de Rosas Fucsia",
+  "categoria": "Ramos",
+  "precio": 0.0,
+  "url": "https://www.flordivan.com/boutique/ramo-de-rosas-fucsia/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "RAMROSBCO",
+  "nombre": "Ramo de Rosas Blancas",
+  "categoria": "Ramos",
+  "precio": 0.0,
+  "url": "https://www.flordivan.com/boutique/ramo-de-rosas-blancas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "RAMROSLIL",
+  "nombre": "Ramo de Rosas Lilas",
+  "categoria": "Ramos",
+  "precio": 0.0,
+  "url": "https://www.flordivan.com/boutique/ramo-de-rosas-color-lila/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "RAMROSROS",
+  "nombre": "Ramo de Rosas Rosas",
+  "categoria": "Ramos",
+  "precio": 0.0,
+  "url": "https://www.flordivan.com/boutique/ramo-de-rosas-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "RAMROSAMA",
+  "nombre": "Ramo de Rosas Amarillas",
+  "categoria": "Ramos",
+  "precio": 0.0,
+  "url": "https://www.flordivan.com/boutique/ramo-de-rosas-amarillas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "RAMROSROJ",
+  "nombre": "Ramo de Rosas Rojas",
+  "categoria": "Ramos",
+  "precio": 0.0,
+  "url": "https://www.flordivan.com/boutique/ramo-de-rosas-rojas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "RAMROS",
+  "nombre": "Ramo de Rosas",
+  "categoria": "Ramos",
+  "precio": 0.0,
+  "url": "https://www.flordivan.com/boutique/ramo-de-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "FDCPOP02",
+  "nombre": "Color pop",
+  "categoria": "Arreglos",
+  "precio": 2300.0,
+  "url": "https://www.flordivan.com/boutique/color-pop/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "FDCPOP01",
+  "nombre": "Rosas combinadas",
+  "categoria": "Ramos",
+  "precio": 3800.0,
+  "url": "https://www.flordivan.com/boutique/rosas-combinadas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "FDGRS01",
+  "nombre": "Girasoles y rosas",
+  "categoria": "Arreglos",
+  "precio": 2300.0,
+  "url": "https://www.flordivan.com/boutique/girasoles-y-rosas/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "FDPUR04",
+  "nombre": "Rosas y romance",
+  "categoria": "Arreglos",
+  "precio": 2800.0,
+  "url": "https://www.flordivan.com/boutique/rosas-y-romance/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "FDPUR03",
+  "nombre": "Esfera romántica",
+  "categoria": "Arreglos",
+  "precio": 2100.0,
+  "url": "https://www.flordivan.com/boutique/esfera-romantica/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "FDPUR02",
+  "nombre": "Romance en púrpura",
+  "categoria": "Arreglos",
+  "precio": 2300.0,
+  "url": "https://www.flordivan.com/boutique/romance-en-purpura/",
+  "disponible": true,
+  "foto": null
+ },
+ {
+  "sku": "FDPUR01",
+  "nombre": "Sueño púrpura",
+  "categoria": "Arreglos",
+  "precio": 2300.0,
+  "url": "https://www.flordivan.com/boutique/sueno-purpura/",
+  "disponible": true,
+  "foto": "a-fdpur01"
+ },
+ {
+  "sku": "FDVR03",
+  "nombre": "Rosas intensas",
+  "categoria": "Arreglos",
+  "precio": 2000.0,
+  "url": "https://www.flordivan.com/boutique/rosas-intensas/",
+  "disponible": true,
+  "foto": "a-fdvr03"
+ },
+ {
+  "sku": "FDVR02",
+  "nombre": "Romance intenso",
+  "categoria": "Arreglos",
+  "precio": 1600.0,
+  "url": "https://www.flordivan.com/boutique/romance-intenso/",
+  "disponible": true,
+  "foto": "a-fdvr02"
+ },
+ {
+  "sku": "FDVR01",
+  "nombre": "Violeta y rojo",
+  "categoria": "Arreglos",
+  "precio": 2500.0,
+  "url": "https://www.flordivan.com/boutique/violeta-y-rojo/",
+  "disponible": true,
+  "foto": "a-fdvr01"
+ },
+ {
+  "sku": "FDPK11",
+  "nombre": "Esfera de rosas románticas",
+  "categoria": "Arreglos",
+  "precio": 2800.0,
+  "url": "https://www.flordivan.com/boutique/esfera-de-rosas-romanticas/",
+  "disponible": true,
+  "foto": "a-fdpk11"
+ },
+ {
+  "sku": "FDPK10",
+  "nombre": "Sorpesa rosa",
+  "categoria": "Arreglos",
+  "precio": 1900.0,
+  "url": "https://www.flordivan.com/boutique/sorpesa-rosa/",
+  "disponible": true,
+  "foto": "a-fdpk10"
+ },
+ {
+  "sku": "FDPK09",
+  "nombre": "Esfera rosa",
+  "categoria": "Arreglos",
+  "precio": 1900.0,
+  "url": "https://www.flordivan.com/boutique/esfera-rosa/",
+  "disponible": true,
+  "foto": "a-fdpk09"
+ },
+ {
+  "sku": "FDPK08",
+  "nombre": "Caja colorida",
+  "categoria": "Arreglos",
+  "precio": 2700.0,
+  "url": "https://www.flordivan.com/boutique/caja-colorida/",
+  "disponible": true,
+  "foto": "a-fdpk08"
+ },
+ {
+  "sku": "FDPK07",
+  "nombre": "Rosas románticas",
+  "categoria": "Arreglos",
+  "precio": 2600.0,
+  "url": "https://www.flordivan.com/boutique/rosas-romanticas/",
+  "disponible": true,
+  "foto": "a-fdpk07"
+ },
+ {
+  "sku": "FDPK06",
+  "nombre": "Romance en violeta",
+  "categoria": "Arreglos",
+  "precio": 2400.0,
+  "url": "https://www.flordivan.com/boutique/romance-en-violeta/",
+  "disponible": true,
+  "foto": "a-fdpk06"
+ },
+ {
+  "sku": "FDPK05",
+  "nombre": "Follaje romántico",
+  "categoria": "Arreglos",
+  "precio": 2500.0,
+  "url": "https://www.flordivan.com/boutique/follaje-romantico/",
+  "disponible": true,
+  "foto": "a-fdpk05"
+ },
+ {
+  "sku": "FDPK04",
+  "nombre": "Caja romántica",
+  "categoria": "Arreglos",
+  "precio": 2400.0,
+  "url": "https://www.flordivan.com/boutique/caja-romantica/",
+  "disponible": true,
+  "foto": "a-fdpk04"
+ },
+ {
+  "sku": "FDPK02",
+  "nombre": "Caja de rosas colorida",
+  "categoria": "Arreglos",
+  "precio": 3200.0,
+  "url": "https://www.flordivan.com/boutique/caja-de-rosas-colorida/",
+  "disponible": true,
+  "foto": "a-fdpk02"
+ },
+ {
+  "sku": "FDPK01",
+  "nombre": "Romántico en tonos rosa",
+  "categoria": "Arreglos",
+  "precio": 3400.0,
+  "url": "https://www.flordivan.com/boutique/romantico-en-tonos-rosa/",
+  "disponible": true,
+  "foto": "a-fdpk01"
+ },
+ {
+  "sku": "FDBCO02",
+  "nombre": "Blanco puro",
+  "categoria": "Arreglos",
+  "precio": 2800.0,
+  "url": "https://www.flordivan.com/boutique/blanco-puro/",
+  "disponible": true,
+  "foto": "a-fdbco02"
+ },
+ {
+  "sku": "FDBCO01",
+  "nombre": "Amanecer",
+  "categoria": "Arreglos",
+  "precio": 2600.0,
+  "url": "https://www.flordivan.com/boutique/amanecer/",
+  "disponible": true,
+  "foto": "a-fdbco01"
+ }
+]

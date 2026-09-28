@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Tokens del Hospital Veterinario: el azul marino y el verde agua de su logo (muestreados: #283c5a y #aadcdc) y el
+   verde azulado de los uniformes de su equipo. */
+@theme {
+  --color-marino: #283c5a;
+  --color-noche: #1c2a40;
+  --color-agua: #aadcdc;
+  --color-uniforme: #1d6a70;
+  --color-bruma: #eef7f7;
+  --color-gris: #4d5b70;
+  --color-alerta: #b3400b;
+  --color-miel: #ffd9a0;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Figtree Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-noche font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-alerta); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { @apply font-titulo font-extrabold leading-[1.05] tracking-[-0.01em]; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+  /* Muros del plano: línea doble como en un plano arquitectónico. */
+  .muro { box-shadow: inset 0 0 0 3px var(--color-marino), inset 0 0 0 6px #fff, inset 0 0 0 7px var(--color-marino); }
+}
+
+/* El plano: 2 columnas en el celular y 12 en escritorio (las letras son las salas). */
+.plano {
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-areas: "h h" "q d" "p p" "r e" "c t";
+}
+@media (min-width: 640px) {
+  .plano {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-areas: "q q q q h h h h h h h h" "d d d d p p p p p p p p" "r r r e e e c c c t t t";
+  }
+}

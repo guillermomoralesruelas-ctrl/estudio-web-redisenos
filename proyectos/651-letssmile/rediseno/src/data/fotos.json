@@ -1,0 +1,58 @@
+{
+ "f-fachada": [
+  1600,
+  1068
+ ],
+ "f-recepcion": [
+  1400,
+  933
+ ],
+ "f-tomografia": [
+  1000,
+  667
+ ],
+ "f-consultorio": [
+  1000,
+  667
+ ],
+ "f-infantil": [
+  1000,
+  750
+ ],
+ "f-traslado": [
+  644,
+  800
+ ],
+ "f-doctores": [
+  1200,
+  714
+ ],
+ "d-garcia": [
+  480,
+  600
+ ],
+ "d-alvarado": [
+  480,
+  600
+ ],
+ "d-aguilar": [
+  480,
+  600
+ ],
+ "d-salinas": [
+  480,
+  600
+ ],
+ "d-gonzalez": [
+  480,
+  600
+ ],
+ "d-ochoa": [
+  480,
+  601
+ ],
+ "logo": [
+  311,
+  110
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "f-unidad": [
+  1600,
+  733
+ ],
+ "f-recepcion": [
+  1200,
+  550
+ ],
+ "f-hospitalizacion": [
+  1200,
+  550
+ ],
+ "f-quirofano": [
+  1200,
+  550
+ ],
+ "f-laboratorio": [
+  1200,
+  550
+ ],
+ "f-rehabilitacion": [
+  1200,
+  550
+ ],
+ "f-consulta": [
+  370,
+  300
+ ],
+ "f-estetica": [
+  370,
+  300
+ ],
+ "f-tienda": [
+  370,
+  300
+ ],
+ "e-buxade": [
+  270,
+  405
+ ],
+ "e-alan": [
+  270,
+  405
+ ],
+ "e-claudia": [
+  270,
+  405
+ ],
+ "e-daniela": [
+  270,
+  405
+ ],
+ "e-erik": [
+  270,
+  405
+ ],
+ "e-natziely": [
+  270,
+  405
+ ],
+ "e-ellian": [
+  270,
+  405
+ ],
+ "e-montserrat": [
+  270,
+  405
+ ],
+ "e-marco": [
+  270,
+  405
+ ],
+ "e-miriam": [
+  270,
+  405
+ ],
+ "e-olivia": [
+  270,
+  405
+ ],
+ "e-mayra": [
+  270,
+  405
+ ],
+ "e-cristina": [
+  270,
+  405
+ ],
+ "logo": [
+  244,
+  120
+ ]
+}
