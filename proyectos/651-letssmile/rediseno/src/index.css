@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Tokens de Let's Smile: el verde de su logo (muestreado #50b078), el negro de los uniformes de su equipo y la madera
+   clara de su recepción. */
+@theme {
+  --color-carbon: #1b1d1c;
+  --color-sonrisa: #50b078;
+  --color-pino: #256b46;
+  --color-arena: #f6f3ee;
+  --color-madera: #e9c79a;
+  --color-gris: #555a58;
+  --color-niebla: #b9bdbb;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Plus Jakarta Sans Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-carbon font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-sonrisa); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { @apply font-titulo font-extrabold leading-[1.05] tracking-[-0.02em]; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+}
