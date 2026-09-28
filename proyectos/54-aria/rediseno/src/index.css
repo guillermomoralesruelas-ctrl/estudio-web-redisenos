@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Su sitio usa una fuente de títulos redondeada y el morado de su ícono. Aquí: Bricolage Grotesque (títulos, con
+   carácter de cartel de baile) y Figtree (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Bricolage Grotesque"; src: url("../node_modules/@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Bricolage Grotesque"; src: url("../node_modules/@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: el morado de su ícono, la noche de una pista de baile, lila claro y un amarillo de luz de pista.
+   Contrastes: blanco sobre morado 10.02, morado sobre fondo 9.39, amarillo sobre noche 12.73, noche sobre amarillo 12.73,
+   lila sobre noche 11.67, tinta sobre fondo 14.89, gris sobre fondo 5.79, morado sobre lila-claro 8.26, gris sobre lila-claro 5.10. */
+@theme {
+  --color-noche: #1d0838;
+  --color-morado: #5b12a8;
+  --color-lila: #d9c6f5;
+  --color-lila-claro: #efe5ff;
+  --color-fondo: #faf6ff;
+  --color-amarillo: #ffd166;
+  --color-tinta: #2a1b3d;
+  --color-gris: #6b5a80;
+  --font-display: "Bricolage Grotesque", "Segoe UI", sans-serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply text-tinta font-display; font-weight: 800; line-height: 1.02; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-noche text-lila; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-morado); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-amarillo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro, .btn-morado {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-amarillo text-noche hover:bg-[#ffdf8f]; }
+  .btn-morado { @apply bg-morado text-white hover:bg-[#4a0d8a]; }
+  .btn-linea { @apply border-2 border-morado/40 text-morado hover:border-morado hover:bg-white; }
+  .btn-claro { @apply border-2 border-white/40 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-bold text-morado underline decoration-2 underline-offset-4 hover:text-tinta; }
+  .oscuro .enlace { @apply text-amarillo hover:text-white; }
+}
