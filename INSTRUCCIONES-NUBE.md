@@ -43,7 +43,7 @@
 | 29 | `506-hospitalveterinariocarso` | Hospital Veterinario Carson, Ciudad de México, Iztapalapa (veterinaria) | https://hospitalcarson.com/ |
 | 30 | `417-floatsano` | Floatsano, San Miguel de Allende, Guanajuato (spa) | https://floatsano.com/ |
 
-Hazlos en orden. Sus clones (`sitio/`) y textos (`investigacion/`) ya vienen en el repositorio. **No trabajes en ningún otro proyecto.**
+Hazlos en orden. La PC trabaja al mismo tiempo en la lista de `INSTRUCCIONES-PC.md`; no toques esos sitios. Sus clones (`sitio/`) y textos (`investigacion/`) ya vienen en el repositorio. **No trabajes en ningún otro proyecto.**
 
 ### Esta lista se reparte entre varias sesiones
 
