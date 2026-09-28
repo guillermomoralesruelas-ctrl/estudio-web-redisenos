@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "@fontsource/montserrat/latin-400.css";
+@import "@fontsource/montserrat/latin-500.css";
+@import "@fontsource/montserrat/latin-600.css";
+@import "@fontsource/montserrat/latin-700.css";
+
+/* Tokens del proyecto — tomados del CSS original del sitio */
+@theme {
+  --color-azul:         #0277BD;
+  --color-azul-oscuro:  #01578b;
+  --color-cielo:        #E8F4FB;
+  --color-fondo:        #FCFCFC;
+  --color-tinta:        #202124;
+  --color-tinta-suave:  #5F6368;
+  --color-borde:        #E0E0E0;
+  --font-sans: "Montserrat", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-azul); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-azul {
+    @apply inline-flex items-center gap-2 rounded-full bg-azul px-6 py-3 text-sm font-semibold text-white transition-colors;
+  }
+  .btn-azul:hover { @apply bg-azul-oscuro; }
+  .btn-contorno {
+    @apply inline-flex items-center gap-2 rounded-full border-2 border-azul px-6 py-3 text-sm font-semibold text-azul transition-colors;
+  }
+  .btn-contorno:hover { @apply bg-cielo; }
+}

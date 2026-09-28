@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-09-28T02:04:44.326Z",
+  "carpeta": "330-drdanielrobles",
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5097,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 21,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Dr. Daniel Robles Pereyra — Cirugía Plástica en Guadalajara, Jalisco",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7844,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 21,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Dr. Daniel Robles Pereyra — Cirugía Plástica en Guadalajara, Jalisco",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
