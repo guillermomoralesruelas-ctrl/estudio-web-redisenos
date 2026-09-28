@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "texto": "Verificar fotos en todos los rediseños (imágenes que cargan, alts, sin broken)",
+    "hecho": false,
+    "fecha": null
+  },
+  {
+    "id": 2,
+    "texto": "Verificar Google Maps en todos los rediseños (iframe embed, no solo enlace)",
+    "hecho": false,
+    "fecha": null
+  }
+]

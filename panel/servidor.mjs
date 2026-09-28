@@ -592,6 +592,45 @@ const servidor = http.createServer(async (req, res) => {
     if (u.pathname === '/api/galeria') {
       return json(res, 200, { xampp: XAMPP, sitios: galeria() });
     }
+
+    // ── Verificaciones recurrentes ────────────────────────────────────────────
+    const VERIF_PATH = path.join(RAIZ, 'datos', 'verificaciones.json');
+    const leerVerif = () => { try { return JSON.parse(fs.readFileSync(VERIF_PATH, 'utf8')); } catch { return []; } };
+    const VERIF_SEED = [
+      { id: 1, texto: 'Verificar fotos en todos los rediseños (imágenes que cargan, alts, sin broken)', hecho: false, fecha: null },
+      { id: 2, texto: 'Verificar Google Maps en todos los rediseños (iframe embed, no solo enlace)', hecho: true, fecha: '2026-09-28' },
+    ];
+    const guardarVerif = (items) => fs.writeFileSync(VERIF_PATH, JSON.stringify(items, null, 2));
+    if (!fs.existsSync(VERIF_PATH)) guardarVerif(VERIF_SEED);
+
+    if (u.pathname === '/api/verificaciones' && req.method === 'GET') {
+      return json(res, 200, leerVerif());
+    }
+    if (u.pathname === '/api/verificaciones' && req.method === 'POST') {
+      const body = await cuerpo(req);
+      const items = leerVerif();
+      const id = items.length ? Math.max(...items.map((x) => x.id)) + 1 : 1;
+      items.push({ id, texto: String(body.texto || '').slice(0, 200), hecho: false, fecha: null });
+      guardarVerif(items);
+      return json(res, 200, items);
+    }
+    const mVerif = u.pathname.match(/^\/api\/verificaciones\/(\d+)$/);
+    if (mVerif) {
+      const id = Number(mVerif[1]);
+      const items = leerVerif();
+      if (req.method === 'PATCH') {
+        const body = await cuerpo(req);
+        const item = items.find((x) => x.id === id);
+        if (item) { item.hecho = Boolean(body.hecho); item.fecha = item.hecho ? new Date().toISOString().slice(0, 10) : null; }
+        guardarVerif(items);
+        return json(res, 200, items);
+      }
+      if (req.method === 'DELETE') {
+        guardarVerif(items.filter((x) => x.id !== id));
+        return json(res, 200, items.filter((x) => x.id !== id));
+      }
+    }
+    // ─────────────────────────────────────────────────────────────────────────
     if (partes[0] === 'api' && partes[1] === 'galeria' && partes[2] === 'mini' && partes[3] && ['esc', 'mov', 'clon'].includes(partes[4])) {
       const carpeta = decodeURIComponent(partes[3]);
       if (!/^[\w.-]+$/.test(carpeta) || !fs.existsSync(path.join(RAIZ, 'proyectos', carpeta))) { res.writeHead(404); return res.end(); }

@@ -90,6 +90,23 @@
   .galeria img { width: 100%; height: 180px; object-fit: cover; object-position: top; display: block; cursor: zoom-in; }
   .galeria figcaption { font-size: 12px; color: var(--suave); padding: 6px 10px; }
 
+  /* Verificaciones recurrentes (sidebar galería) */
+  #div-verif { display: flex; flex-direction: column; gap: 10px; }
+  #div-verif h3 { font-size: 13px; font-weight: 600; margin: 0; color: var(--suave); text-transform: uppercase; letter-spacing: .04em; }
+  .vf-lista { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .vf-item { display: grid; grid-template-columns: 1fr auto; align-items: start; gap: 6px; background: var(--fondo); border: 1px solid var(--borde); border-radius: var(--radio); padding: 8px 10px; }
+  .vf-item.hecho { opacity: .6; }
+  .vf-item label { display: flex; gap: 8px; align-items: start; cursor: pointer; font-size: 13px; line-height: 1.4; }
+  .vf-item input[type=checkbox] { margin-top: 2px; flex-shrink: 0; accent-color: var(--acento); width: 15px; height: 15px; }
+  .vf-texto { display: flex; flex-direction: column; gap: 2px; }
+  .vf-fecha { font-size: 11px; color: var(--tenue); }
+  .vf-del { border: none; background: none; cursor: pointer; color: var(--tenue); font-size: 15px; line-height: 1; padding: 0 2px; }
+  .vf-del:hover { color: var(--error); }
+  .vf-agregar { display: flex; gap: 6px; }
+  .vf-agregar input { flex: 1; font-size: 13px; padding: 7px 10px; border: 1px solid var(--borde); border-radius: var(--radio); background: var(--fondo); }
+  .vf-agregar button { padding: 7px 10px; border: 1px solid var(--borde); border-radius: var(--radio); background: var(--panel); cursor: pointer; font-size: 13px; white-space: nowrap; }
+  .vf-agregar button:hover { border-color: var(--acento); color: var(--acento); }
+
   /* Derecha: checklist */
   aside.checklist { background: var(--panel); border-left: 1px solid var(--borde); padding: 20px; }
   aside.checklist h2 { font-size: 15px; margin: 0 0 12px; }
@@ -267,9 +284,17 @@
       <label class="check"><input type="checkbox" id="iniciar" checked /> Empezar la investigación al crear</label>
       <button class="btn primario" type="submit">Crear proyecto</button>
     </form>
-    <div>
+    <div id="div-proyectos">
       <div class="p-sub" style="margin-bottom:6px">Proyectos</div>
       <ul class="proyectos" id="lista"></ul>
+    </div>
+    <div id="div-verif" style="display:none">
+      <h3>Verificaciones pendientes</h3>
+      <ul class="vf-lista" id="vf-lista"></ul>
+      <div class="vf-agregar">
+        <input type="text" id="vf-input" placeholder="Nueva verificación…" maxlength="120" />
+        <button type="button" id="vf-add">+ Agregar</button>
+      </div>
     </div>
     <div class="estado-claude" id="estado-claude">Comprobando Claude Code…</div>
   </aside>
@@ -494,10 +519,14 @@ function setModo(m) {
   $('#modo-proyectos').classList.toggle('activo', m === 'proyectos');
   $('#modo-fabricador').classList.toggle('activo', m === 'fabricador');
   $('#modo-galeria').classList.toggle('activo', m === 'galeria');
-  $('#centro').style.display   = m === 'proyectos' ? '' : 'none';
-  $('#derecha').style.display  = m === 'proyectos' ? '' : 'none';
-  $('#fab').style.display      = m === 'fabricador' ? '' : 'none';
-  $('#gal').style.display      = m === 'galeria' ? '' : 'none';
+  $('#centro').style.display        = m === 'proyectos' ? '' : 'none';
+  $('#derecha').style.display       = m === 'proyectos' ? '' : 'none';
+  $('#fab').style.display           = m === 'fabricador' ? '' : 'none';
+  $('#gal').style.display           = m === 'galeria' ? '' : 'none';
+  $('#form-nuevo').style.display    = m === 'proyectos' ? '' : 'none';
+  $('#div-proyectos').style.display = m === 'proyectos' ? '' : 'none';
+  $('#div-verif').style.display     = m === 'galeria' ? '' : 'none';
+  if (m === 'galeria') cargarVerif();
   if (m === 'galeria') cargarGaleria();
   if (m === 'fabricador') {
     fabFiltros = { q: '', estado: '', plataforma: '', calidad: '', p: 1 };
@@ -652,6 +681,52 @@ const GAL_CATS = [
 ];
 let galDatos = null;
 let galF = { cat: 'aprobado', q: '', origen: 'todos', plantilla: '', calidad: '', ver: 48 };
+
+// ---------- Verificaciones recurrentes ----------
+async function cargarVerif() {
+  try {
+    const items = await api('/api/verificaciones');
+    renderVerif(items);
+  } catch { }
+}
+function renderVerif(items) {
+  const lista = $('#vf-lista');
+  if (!items.length) { lista.innerHTML = '<li class="p-sub" style="font-size:12px;padding:4px 2px">Sin verificaciones registradas.</li>'; return; }
+  lista.innerHTML = items.map((v) => `
+    <li class="vf-item${v.hecho ? ' hecho' : ''}" data-id="${v.id}">
+      <label>
+        <input type="checkbox" ${v.hecho ? 'checked' : ''} onchange="toggleVerif(${v.id},this.checked)" />
+        <span class="vf-texto">
+          <span>${esc(v.texto)}</span>
+          ${v.fecha ? `<span class="vf-fecha">Hecho: ${v.fecha}</span>` : '<span class="vf-fecha">Pendiente</span>'}
+        </span>
+      </label>
+      <button class="vf-del" title="Eliminar" onclick="eliminarVerif(${v.id})">×</button>
+    </li>`).join('');
+}
+async function toggleVerif(id, hecho) {
+  try {
+    const items = await api(`/api/verificaciones/${id}`, { method: 'PATCH', body: { hecho } });
+    renderVerif(items);
+  } catch { }
+}
+async function eliminarVerif(id) {
+  try {
+    const items = await api(`/api/verificaciones/${id}`, { method: 'DELETE' });
+    renderVerif(items);
+  } catch { }
+}
+$('#vf-add').onclick = async () => {
+  const inp = $('#vf-input');
+  const texto = inp.value.trim();
+  if (!texto) return;
+  try {
+    const items = await api('/api/verificaciones', { method: 'POST', body: { texto } });
+    renderVerif(items);
+    inp.value = '';
+  } catch { }
+};
+$('#vf-input').onkeydown = (e) => { if (e.key === 'Enter') $('#vf-add').click(); };
 
 async function cargarGaleria() {
   if (!galDatos) $('#gal').innerHTML = '<p class="gal-vacio">Cargando la galería…</p>';
