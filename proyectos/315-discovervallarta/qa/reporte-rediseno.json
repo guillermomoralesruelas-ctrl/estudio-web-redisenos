@@ -1,0 +1,70 @@
+{
+  "fecha": "2026-09-28T20:20:45.611Z",
+  "carpeta": "315-discovervallarta",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6189,
+      "desbordeX": 0,
+      "h1": 3,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Discover Vallarta - Transportation and Tours in Puerto Vallarta",
+      "errores": [
+        "Cannot read properties of null (reading 'length')"
+      ],
+      "fallidos": [],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 11110,
+      "desbordeX": 0,
+      "h1": 3,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Discover Vallarta - Transportation and Tours in Puerto Vallarta",
+      "errores": [
+        "Cannot read properties of null (reading 'length')"
+      ],
+      "fallidos": [],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3440,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Discover Vallarta | Private Tours & Airport Transfers in Puerto Vallarta",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5612,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Discover Vallarta | Private Tours & Airport Transfers in Puerto Vallarta",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

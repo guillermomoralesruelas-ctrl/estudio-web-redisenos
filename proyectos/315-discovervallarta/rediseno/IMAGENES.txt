@@ -1,0 +1,17 @@
+# Imágenes disponibles en publicDir (../sitio/assets/s/cc_images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+cache_956852385.gif	920x517	13948 KB
+teaserbox_956852385.gif	900x506	13403 KB
+cache_956851269.gif	920x517	12119 KB
+cache_956851237.jpg	1280x850	440 KB
+cache_956842360.jpg	800x546	436 KB
+cache_957080661.png	287x717	424 KB
+cache_956914626.png	287x715	355 KB
+cache_956914635.png	287x717	327 KB
+cache_956914634.png	287x714	312 KB
+cache_956914625.png	287x715	260 KB
+cache_956914627.png	287x715	259 KB
+teaserbox_956842443.png	480x376	159 KB
+cache_956842359.jpg	800x549	100 KB
+cache_956842358.jpg	800x548	82 KB
+cache_956842443.png	316x247	71 KB
