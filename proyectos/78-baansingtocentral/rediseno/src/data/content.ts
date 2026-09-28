@@ -13,6 +13,7 @@ export const negocio = {
   direccion: 'Plaza La Perla, Av. Mariano Otero #3000, local E117B (segundo piso), La Perla, Zapopan, Jalisco',
   // Su propio enlace "Ver en Google Maps".
   mapa: 'https://maps.app.goo.gl/2piWtyPbsvTHKP8g8',
+  mapaEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.64298903347!2d-103.41276529999999!3d20.6434039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ad61b5e5c22d%3A0x4c2415fea7c24edd!2sBaan%20Singto%20Central!5e0!3m2!1ses-419!2smx!4v1764807261314!5m2!1ses-419!2smx',
   instagram: 'https://www.instagram.com/baansingto_central/',
   facebook: 'https://www.facebook.com/baansingtogdl',
   tiktok: 'https://www.tiktok.com/@baansingtoacademia',

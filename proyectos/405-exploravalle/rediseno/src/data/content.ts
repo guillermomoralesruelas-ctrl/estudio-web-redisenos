@@ -24,6 +24,7 @@ export const negocio = {
   // Coordenadas del mapa incrustado en su portada ("Explora Valle Mx").
   geo: { lat: 19.1915129, lng: -100.1328398 },
   mapa: 'https://www.google.com/maps/search/?api=1&query=Explora%20Valle%20Mx%2C%20Rinc%C3%B3n%20San%20Vicente%2013%2C%20Centro%2C%20Valle%20de%20Bravo',
+  mapaEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.084463461065!2d-100.13283978509703!3d19.191512887021737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd6596fefd7caf%3A0xdc71abd6db578234!2sExplora%20Valle%20Mx!5e0!3m2!1ses-419!2smx!4v1619751421107!5m2!1ses-419!2smx',
   logo: foto('logo-blanco', 'Explora Valle'),
   sitio: 'https://exploravalle.com/',
   redes: [

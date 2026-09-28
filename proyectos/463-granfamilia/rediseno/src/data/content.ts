@@ -22,6 +22,7 @@ export const negocio = {
   abre: 8,
   cierra: 18,
   mapa: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Gran Familia, Av. Vasco de Quiroga 209, Industrial Aviación 1ra Secc, 78140 San Luis Potosí, S.L.P.'),
+  mapaEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2008.3!2d-101.0!3d22.15!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842a98b2c212265b%3A0x8e4266f81a705193!2sAv.%20Vasco%20de%20Quiroga%20209%2C%20Industrial%20Aviaci%C3%B3n%201ra%20Secc%2C%2078140%20San%20Luis%20Potos%C3%AD%2C%20S.L.P.!5e0!3m2!1ses-419!2smx!4v1700000000000!5m2!1ses-419!2smx',
   logo: { src: img('logo.webp'), alt: 'Gran Familia, Cocina Rancho', w: 520, h: 404 } as Foto,
   logoBlanco: { src: img('logo-blanco.webp'), alt: 'Gran Familia, Cocina Rancho', w: 520, h: 404 } as Foto,
 };

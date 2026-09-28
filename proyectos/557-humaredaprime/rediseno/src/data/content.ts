@@ -13,6 +13,7 @@ export const negocio = {
   whatsapp: '522295507070',
   direccion: 'Blvd. Vicente Fox Quesada 106, Costa Sol, 94290 Boca del Río, Ver.',
   mapa: 'https://maps.app.goo.gl/Mg2mpV4ciJ19QY2JA',
+  mapaEmbed: 'https://maps.google.com/maps?q=Humareda%20Prime%20&t=m&z=15&output=embed&iwloc=near',
   lat: 19.1078126,
   lon: -96.101324,
 };

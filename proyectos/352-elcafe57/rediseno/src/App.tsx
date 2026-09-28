@@ -473,10 +473,18 @@ function Visitanos() {
           Síguenos en <a href={negocio.instagram} {...externo} className="font-bold text-oro-oscuro underline underline-offset-4">Instagram</a> y <a href={negocio.facebook} {...externo} className="font-bold text-oro-oscuro underline underline-offset-4">Facebook</a>.
         </p>
       </div>
-      <a href={negocio.mapa} {...externo} className="group relative block min-w-0 overflow-hidden rounded-[2rem] md:col-span-7" aria-label="Abrir El Café 57 en Google Maps">
-        <div className="aspect-[4/3] md:aspect-auto md:h-full"><Img foto={lugar} className="transition-transform duration-500 group-hover:scale-[1.03]" /></div>
-        <span className="absolute bottom-4 left-4 rounded-full bg-cafe px-4 py-2 text-sm font-bold text-crema">Ver en Google Maps</span>
-      </a>
+      <div className="min-w-0 overflow-hidden rounded-[2rem] md:col-span-7">
+        <iframe
+          src={negocio.mapaEmbed}
+          width="100%"
+          height="400"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          title={`Ubicación de ${negocio.nombre}`}
+          className="w-full"
+        />
+      </div>
     </section>
   );
 }

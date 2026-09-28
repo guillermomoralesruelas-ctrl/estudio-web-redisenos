@@ -1,54 +1,6 @@
 {
-  "fecha": "2026-09-28T13:20:58.546Z",
+  "fecha": "2026-09-28T18:05:26.868Z",
   "carpeta": "433-freewalkoaxaca",
-  "antes": [
-    {
-      "vista": "escritorio",
-      "ancho": 1280,
-      "alto": 4733,
-      "desbordeX": 0,
-      "h1": 1,
-      "imagenes": 108,
-      "rotas": [],
-      "sinAlt": 0,
-      "titulo": "Free Walking Tour Oaxaca | Authentic Oaxaca experiences with local guides - Free walking tours, food tours & cultural experiences since 2014",
-      "errores": [
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Function rdt not implemented."
-      ],
-      "fallidos": [
-        "404 http://127.0.0.1:61905/433-freewalkoaxaca/sitio/assets/wp-content/plugins/elementor-pro/assets/css/widget-blockquote.min.css",
-        "404 http://127.0.0.1:61905/433-freewalkoaxaca/sitio/assets/wp-content/plugins/elementor-pro/assets/css/widget-mega-menu.min.css",
-        "404 http://127.0.0.1:61905/433-freewalkoaxaca/sitio/assets/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css"
-      ],
-      "captura": "qa\\antes-escritorio.png"
-    },
-    {
-      "vista": "movil",
-      "ancho": 390,
-      "alto": 7386,
-      "desbordeX": 0,
-      "h1": 1,
-      "imagenes": 108,
-      "rotas": [],
-      "sinAlt": 0,
-      "titulo": "Free Walking Tour Oaxaca | Authentic Oaxaca experiences with local guides - Free walking tours, food tours & cultural experiences since 2014",
-      "errores": [
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Function rdt not implemented."
-      ],
-      "fallidos": [
-        "404 http://127.0.0.1:61905/433-freewalkoaxaca/sitio/assets/wp-content/plugins/elementor-pro/assets/css/widget-blockquote.min.css",
-        "404 http://127.0.0.1:61905/433-freewalkoaxaca/sitio/assets/wp-content/plugins/elementor-pro/assets/css/widget-mega-menu.min.css",
-        "404 http://127.0.0.1:61905/433-freewalkoaxaca/sitio/assets/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css"
-      ],
-      "captura": "qa\\antes-movil.png"
-    }
-  ],
   "despues": [
     {
       "vista": "escritorio",
@@ -56,7 +8,7 @@
       "alto": 6070,
       "desbordeX": 0,
       "h1": 1,
-      "imagenes": 9,
+      "imagenes": 8,
       "rotas": [],
       "sinAlt": 0,
       "titulo": "Free Walk Oaxaca | Free Walking Tours with Local Guides Since 2014",
@@ -67,10 +19,10 @@
     {
       "vista": "movil",
       "ancho": 390,
-      "alto": 10431,
+      "alto": 10662,
       "desbordeX": 0,
       "h1": 1,
-      "imagenes": 9,
+      "imagenes": 8,
       "rotas": [],
       "sinAlt": 0,
       "titulo": "Free Walk Oaxaca | Free Walking Tours with Local Guides Since 2014",

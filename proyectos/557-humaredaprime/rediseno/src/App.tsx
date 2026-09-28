@@ -443,10 +443,18 @@ function Visitanos() {
             </a>
           </div>
         </div>
-        <a href={negocio.mapa} className="group block min-w-0" aria-label="Abrir Humareda Prime en Google Maps">
-          <Img f={fotos.fachada} className="aspect-[16/10] w-full rounded-sm object-cover transition-opacity group-hover:opacity-90" sizes="(min-width: 768px) 45vw, 100vw" />
-          <span className="mt-3 block text-[0.9rem]">Nuestra fachada sobre el Blvd. Vicente Fox. Toca la foto para ver cómo llegar.</span>
-        </a>
+        <div className="min-w-0 overflow-hidden rounded-sm">
+          <iframe
+            src={negocio.mapaEmbed}
+            width="100%"
+            height="320"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            title={`Ubicación de ${negocio.nombre}`}
+            className="w-full"
+          />
+        </div>
       </div>
     </section>
   );

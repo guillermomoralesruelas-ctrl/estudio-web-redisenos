@@ -39,6 +39,7 @@ export const negocio = {
   correo: 'c57pitic@icr.mx',
   // Búsqueda por nombre y dirección (el sitio no enlaza Google Maps; su mapa incrustado apunta a "El Café 57" en estas coordenadas).
   mapa: 'https://www.google.com/maps/search/?api=1&query=El+Caf%C3%A9+57%2C+Blvd.+Valent%C3%ADn+G%C3%B3mez+Far%C3%ADas%2C+Pitic%2C+Hermosillo',
+  mapaEmbed: 'https://maps.google.com/maps?q=El+Caf%C3%A9+57,29.1022291,-110.9494894&t=m&z=17&output=embed&iwloc=near',
   facebook: 'https://www.facebook.com/elcafe57',
   instagram: 'https://www.instagram.com/elcafe57',
   logo: f('logo-blanco', 185, 223, 'El Café 57, Cocina Contempo'),

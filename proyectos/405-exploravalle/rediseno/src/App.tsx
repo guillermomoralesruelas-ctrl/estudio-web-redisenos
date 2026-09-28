@@ -522,6 +522,18 @@ function Contacto() {
           <div className="min-w-0"><dt className="font-titulo text-xl text-naranja-claro">Correo</dt><dd className="mt-1 break-words"><a href={`mailto:${negocio.correo}`} className="font-bold text-white underline underline-offset-4">{negocio.correo}</a></dd><dd className="break-words text-sm text-white/80">Atención a clientes: <a href={`mailto:${negocio.correoClientes}`} className="underline underline-offset-4">{negocio.correoClientes}</a></dd></div>
           <div className="min-w-0 sm:col-span-2"><dt className="font-titulo text-xl text-naranja-claro">Redes</dt><dd className="mt-1 flex flex-wrap gap-x-5 gap-y-1">{negocio.redes.map((r) => <a key={r.nombre} href={r.href} {...externo} className="font-bold text-white underline underline-offset-4">{r.nombre}</a>)}</dd></div>
         </dl>
+        <div className="md:col-span-12 min-w-0 overflow-hidden rounded-xl">
+          <iframe
+            src={negocio.mapaEmbed}
+            width="100%"
+            height="320"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            title={`Ubicación de ${negocio.nombre}`}
+            className="w-full"
+          />
+        </div>
       </div>
     </section>
   );

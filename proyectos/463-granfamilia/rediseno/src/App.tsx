@@ -430,6 +430,18 @@ function Visitanos() {
             <dd className="mt-1"><a href={`tel:${negocio.tel}`} className="precio font-bold text-white underline decoration-white/50 underline-offset-4">{negocio.telefono}</a></dd>
           </div>
         </dl>
+        <div className="mt-8 min-w-0 overflow-hidden rounded-xl">
+          <iframe
+            src={negocio.mapaEmbed}
+            width="100%"
+            height="320"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            title={`Ubicación de ${negocio.nombre}`}
+            className="w-full"
+          />
+        </div>
       </div>
     </section>
   );

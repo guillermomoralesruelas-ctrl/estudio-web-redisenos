@@ -608,6 +608,18 @@ export default function App() {
               </div>
             </div>
           </div>
+          <div className="mt-10 max-w-4xl mx-auto overflow-hidden rounded-2xl">
+            <iframe
+              src={negocio.mapaEmbed}
+              width="100%"
+              height="320"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              title={`Ubicación de ${negocio.nombre}`}
+              className="w-full"
+            />
+          </div>
         </section>
       </main>
 

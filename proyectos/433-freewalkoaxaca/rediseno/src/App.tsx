@@ -597,17 +597,19 @@ function MeetingPoint() {
             </div>
           </div>
 
-          {/* Imagen → Maps */}
-          <a href={negocio.maps} target="_blank" rel="noopener noreferrer"
-            className="block rounded-2xl overflow-hidden group" aria-label="Open meeting point on Google Maps">
-            <img
-              src={web('banner.webp')}
-              alt="Free Walk Oaxaca group at the Teatro Macedonio Alcalá meeting point"
-              width={1440} height={367}
-              className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+          {/* Mapa de Google Maps */}
+          <div className="overflow-hidden rounded-2xl">
+            <iframe
+              src={negocio.mapaEmbed}
+              width="100%"
+              height="320"
+              style={{ border: 0 }}
+              allowFullScreen
               loading="lazy"
+              title={`Ubicación de ${negocio.nombre}`}
+              className="w-full"
             />
-          </a>
+          </div>
         </div>
       </div>
     </section>

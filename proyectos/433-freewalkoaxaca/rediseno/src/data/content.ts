@@ -14,6 +14,7 @@ export const negocio = {
   whatsapp:  '529515257240',
   email:     'info@freewalkoaxaca.com',
   maps:      'https://www.google.com/maps/dir//Av.+de+la+Independencia+900+Centro+68000+Oaxaca+de+Ju%C3%A1rez,+Oax./@17.0615736,-96.7235381,18z',
+  mapaEmbed: 'https://maps.google.com/maps?q=Av.%20de%20la%20Independencia%20900%2C%20Centro%2C%2068000%20Oaxaca%20de%20Ju%C3%A1rez%2C%20Oax.&t=m&z=16&output=embed&iwloc=near',
   facebook:  'https://www.facebook.com/WalkingTourOaxaca',
   instagram: 'https://www.instagram.com/oaxacafreewalkingtour/',
   tripadvisor:'https://www.tripadvisor.com.mx/Attraction_Review-g150801-d15309335-Reviews-Oaxaca_Free_Walking_Tour-Oaxaca_Southern_Mexico.html',

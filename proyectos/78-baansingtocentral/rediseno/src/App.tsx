@@ -281,7 +281,18 @@ function Ubicacion() {
   return (
     <section id="ubicacion" className="py-20 sm:py-24">
       <div className="contenedor grid items-center gap-10 lg:grid-cols-[1.1fr_1fr]">
-        <Img f={fotos.local} className="aspect-[14/9] w-full min-w-0 object-cover" />
+        <div className="min-w-0 overflow-hidden">
+          <iframe
+            src={negocio.mapaEmbed}
+            width="100%"
+            height="400"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            title={`Ubicación de ${negocio.nombre}`}
+            className="aspect-[14/9] w-full"
+          />
+        </div>
         <div className="min-w-0">
           <h2 className="text-4xl sm:text-6xl">Plaza La Perla</h2>
           <p className="mt-4 text-lg">{negocio.direccion}.</p>

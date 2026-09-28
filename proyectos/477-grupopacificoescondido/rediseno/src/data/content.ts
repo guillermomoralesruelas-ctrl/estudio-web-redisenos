@@ -11,6 +11,7 @@ export const negocio = {
   email: 'contacto@grupopacificoescondido.com',
   direccion: 'Segunda Norte S/N (Planta alta) Casi esquina con Av. Oaxaca, Centro, Puerto Escondido',
   mapa: 'https://www.google.com/maps/search/Grupo+Pacifico+Escondido+Puerto+Escondido+Oaxaca',
+  mapaEmbed: 'https://www.google.com/maps/d/u/0/embed?mid=1esKTcHQ4iXst_r7DQJSP4qVq3L3tzxg&ehbc=2E312F&noprof=1&zoom=5',
   horario: 'Lunes a Viernes 09:00–14:00 / 16:00–19:00',
   facebook: 'https://www.facebook.com/gpacificoescondido',
   instagram: 'https://www.instagram.com/grupopacificoescondido/',
