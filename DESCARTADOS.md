@@ -35,6 +35,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `580-interlingua` | Interlingua (escuela de inglés) | Nacional, en línea (la base dice Cancún) | `cadena` | Más de 56 años, más de 1 millón de alumnos y más de 200 maestros; hoy 100% en línea (planes de $1,999 y $2,499 al mes) y sin plantel en Cancún. Las imágenes del clon son avatares y banners. Retomar solo si Guillermo decide trabajar con cadenas | Nube |
 | `396-estudiolotus` | Estudio Lotus (diseño web, video y fotografía) | Guadalajara, Jal. | `sin-contacto` | Solo tiene formulario: ni teléfono, ni WhatsApp, ni correo, ni dirección. Es una agencia de páginas web, del mismo giro que el estudio; imágenes de banco e íconos, y shortcodes "[tx_row]" a la vista en su página de fotografía | Nube |
 | `492-hermesspa` | Hermes Spa (spa para mujeres) | Guadalajara, Jal. | `sin-fotos` | Fotos de masajes de banco o con aspecto de IA y testimonios en capturas de WhatsApp; ninguna del local. Tiene teléfonos y horario, pero la dirección cambia entre páginas (Lope de Vega 982 y 782). Menú con masajes "Tántrico" y "Seduction": revisar el giro antes de retomar. Retomar con método 1.2 si da fotos propias | Nube |
+| `72-aventurasmayas` | Aventuras Mayas (tours de aventura) | Riviera Maya, Q. Roo | `sin-fotos` | Banners con texto encima y collages de 250 × 400 px; solo una o dos fotos limpias. Operador grande (17 tours, Hacienda Chukum, lada gratuita a EE. UU. y Canadá). Retomar con método 1.2 si dan sus fotos sin texto | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
