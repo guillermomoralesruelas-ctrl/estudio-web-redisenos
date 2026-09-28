@@ -1,4 +1,6 @@
-// El clon guarda las fotos en sitio/assets/public/img/ (galería de 9 fotos y el logotipo). No trae fotos de habitaciones.
+// El clon guarda las fotos en sitio/assets/public/img/ (galería de 9 fotos y el logotipo). No trae fotos de habitaciones:
+// las 15 de las habitaciones (5 por tipo, 768 x 512) se bajaron del sitio real el 2026-09-28, con permiso del estudio, a
+// ../assets/habitaciones/ (método 1.2). La quinta de la Suite Familiar es la misma que la segunda y no se usa.
 // Este script crea copias .webp ligeras SOLO de las fotos que usa el rediseño en assets/web/
 // (no toca el clon). Vite usa esa carpeta como publicDir.
 // Uso: node fotos-web.mjs   (desde proyectos/550-hotelvillamargaritas/rediseno)
@@ -30,6 +32,13 @@ const lista = [
   ['galeria/VILLA-MARGARITA-2.jpg', 'salon-reuniones', 1600],
 ];
 
+// Fotos de habitaciones: [archivo en ../assets/habitaciones, nombre de salida]
+const cuartos = [
+  ['DOBLE-MATRIMONIAL-1.jpg', 'doble-1'], ['DOBLE-MATRIMONIAL-2.jpg', 'doble-2'], ['DOBLE-MATRIMONIAL-3.jpg', 'doble-3'],
+  ['KING-SIZE-1.jpg', 'king-1'], ['KING-SIZE-3.jpg', 'king-2'], ['KING-SIZE-5.jpg', 'king-3'],
+  ['SUITE-FAMILIAR-1.jpg', 'suite-1'], ['SUITE-FAMILIAR-4.jpg', 'suite-2'], ['SUITE-FAMILIAR-3.jpg', 'suite-3'],
+];
+
 let antes = 0, despues = 0;
 const medidas = {};
 for (const [archivo, nombre, lado] of lista) {
@@ -43,5 +52,12 @@ for (const [archivo, nombre, lado] of lista) {
   despues += info.size;
   medidas[nombre] = [info.width, info.height];
 }
-console.log(`${lista.length} fotos: ${(antes / 1048576).toFixed(2)} MB -> ${(despues / 1048576).toFixed(2)} MB`);
+for (const [archivo, nombre] of cuartos) {
+  const entrada = path.join(aqui, '../assets/habitaciones', archivo);
+  antes += fs.statSync(entrada).size;
+  const info = await sharp(entrada).webp({ quality: 78, effort: 5 }).toFile(path.join(destino, `${nombre}.webp`));
+  despues += info.size;
+  medidas[nombre] = [info.width, info.height];
+}
+console.log(`${lista.length + cuartos.length} fotos: ${(antes / 1048576).toFixed(2)} MB -> ${(despues / 1048576).toFixed(2)} MB`);
 console.log(JSON.stringify(medidas));

@@ -122,6 +122,6 @@ El detalle de cada descarte y de los saltados está en `DESCARTADOS.md`.
 
 ## Pendiente
 
-- **550 Hotel Villa Margaritas**: el rediseño está terminado con las fotos del clon; faltan las fotos de las habitaciones de su sitio real (se hace en la nube).
+- Nada a medias. **550 Hotel Villa Margaritas** ya tiene las fotos de sus habitaciones (se bajaron del sitio real en la nube el 2026-09-28).
 - Publicar: ningún sitio tiene todavía una URL pública.
 - Los ~650 proyectos del fabricador sin fila en `METODOS.md` son solo clones (método 3).

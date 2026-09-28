@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-26T19:08:57.662Z",
+  "fecha": "2026-09-28T18:36:24.874Z",
   "carpeta": "550-hotelvillamargaritas",
   "antes": [
     {
@@ -56,30 +56,30 @@
     {
       "vista": "escritorio",
       "ancho": 1280,
-      "alto": 7079,
+      "alto": 8725,
       "desbordeX": 0,
       "h1": 1,
-      "imagenes": 11,
+      "imagenes": 20,
       "rotas": [],
       "sinAlt": 0,
       "titulo": "Hotel Villa Margaritas | Hotel en el centro de Villahermosa, Tabasco",
       "errores": [],
       "fallidos": [],
-      "captura": "qa\\despues-escritorio.png"
+      "captura": "qa/despues-escritorio.png"
     },
     {
       "vista": "movil",
       "ancho": 390,
-      "alto": 11525,
+      "alto": 12052,
       "desbordeX": 0,
       "h1": 1,
-      "imagenes": 11,
+      "imagenes": 20,
       "rotas": [],
       "sinAlt": 0,
       "titulo": "Hotel Villa Margaritas | Hotel en el centro de Villahermosa, Tabasco",
       "errores": [],
       "fallidos": [],
-      "captura": "qa\\despues-movil.png"
+      "captura": "qa/despues-movil.png"
     }
   ],
   "problemasRediseno": [],

@@ -40,6 +40,7 @@ Mismo hotel, mismos textos, fotos, precios, teléfono, WhatsApp, correo y motor 
 - "Estacionamiento: Área segura y vigilada" se juntó con "Dos estacionamientos" (de "Servicios del hotel" en las páginas de habitación): "Dos estacionamientos, en área segura y vigilada".
 - "Reservar" abre el motor del hotel en otra pestaña (`/reservar`), y "Reservar" de cada habitación abre su página (`/habitaciones/<tipo>`), donde el sitio ya tiene "Reservar esta habitación". Su motor no acepta fechas desde fuera (las pasa por sessionStorage), así que las fechas se eligen allí.
 - Fotos: 11 copias `.webp` de las del clon (de 4.12 MB a 0.81 MB) con `rediseno/fotos-web.mjs`; el clon no se tocó.
+- Fotos de las habitaciones (2026-09-28, con permiso del estudio): el clon no las traía. Se bajaron del sitio real las 15 de sus páginas de habitación (5 por tipo, 768 × 512) a `assets/habitaciones/`; cada fila del tarifario muestra tres (una grande y dos chicas). La quinta de la Suite Familiar es la misma foto que la segunda y no se usa. En la Suite Familiar se ve su cafetera y su microondas, que su texto ya menciona.
 
 ## Qué se agregó (no existía en el original)
 
@@ -71,7 +72,6 @@ Mismo hotel, mismos textos, fotos, precios, teléfono, WhatsApp, correo y motor 
 
 ## Pendiente de confirmar con el cliente
 
-- **Fotos de las habitaciones.** El clon no las trae (solo la galería de 9 fotos); en el sitio real hay cinco de cada tipo en `/public/img/doble-matrimonial/`, `king-size/` y `suite-familiar/`. Con permiso, se pueden descargar (método 1.2) o pedirlas en buena resolución. Mientras tanto, el rediseño muestra las habitaciones sin foto.
 - **Capacidad real de cada habitación.** El listado del sitio dice "2 personas" (y "2 huéspedes" en el inicio) en las tres; su texto y su página dicen máximo 4 en la Doble Matrimonial y la Suite Familiar y 2 en la King Size. El rediseño usa 4, 2 y 4. Confirmar también si los menores cuentan dentro de ese máximo y qué significa "Sin cargo adicional por huéspedes extra" en la Suite Familiar.
 - Que los precios de oferta ($700, $700 y $900) apliquen todo el año y para cualquier número de personas; el cálculo multiplica esos precios.
 - Si el motor de reservas puede aceptar fechas y personas en la dirección (por ejemplo `/reservar?check_in=…`) para abrirlo ya lleno desde el rediseño.
