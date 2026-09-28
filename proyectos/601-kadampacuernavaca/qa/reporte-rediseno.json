@@ -1,0 +1,142 @@
+{
+  "fecha": "2026-09-28T03:12:46.777Z",
+  "carpeta": "601-kadampacuernavaca",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5273,
+      "desbordeX": 0,
+      "h1": 7,
+      "imagenes": 10,
+      "rotas": [
+        "http://127.0.0.1:58447/web/image/website/1/logo/Kadampa%20Cuernavaca?unique=62af114",
+        "http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/399-2ac148b8/LogoKadampaCuernavaca2022_Rectangulo%20A-Trans.png",
+        "http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/402-8e5b7cfa/ddd_Mesa%20de%20trabajo%201.png",
+        "http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/400-be7f948e/2222222_Mesa%20de%20trabajo%201.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Inicio | Kadampa Cuernavaca",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:58447/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2.7.0",
+        "404 http://127.0.0.1:58447/web/assets/1/a57571a/web.assets_frontend_minimal.min.js",
+        "404 http://127.0.0.1:58447/web/image/43900-48aea9ad/487760149_28934411989540894_3370743963831351785_n.webp",
+        "404 http://127.0.0.1:58447/web_editor/shape/web_editor/Origins/06_001.svg?c3=%2373A5AD&c4=%23FFFFFF",
+        "404 http://127.0.0.1:58447/web_editor/shape/web_editor/Origins/14_001.svg?c3=%23E79C9C&c4=%23FFFFFF",
+        "404 http://127.0.0.1:58447/web_editor/shape/web_editor/Bold/02.svg?c1=%2335979c&c2=%23685563&c3=%23E79C9C",
+        "404 http://127.0.0.1:58447/web_editor/shape/web_editor/Origins/17.svg?c3=%23F7C6CE",
+        "404 http://127.0.0.1:58447/web/image/707-f92767dd/1234_Mesa%20de%20trabajo%201.jpg",
+        "404 http://127.0.0.1:58447/html_editor/shape/html_builder/Blobs/12.svg?c1=%237EB6E7",
+        "404 http://127.0.0.1:58447/web/image/website/1/logo/Kadampa%20Cuernavaca?unique=62af114",
+        "404 http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/399-2ac148b8/LogoKadampaCuernavaca2022_Rectangulo%20A-Trans.png",
+        "404 http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/402-8e5b7cfa/ddd_Mesa%20de%20trabajo%201.png",
+        "404 http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/400-be7f948e/2222222_Mesa%20de%20trabajo%201.jpg",
+        "404 http://127.0.0.1:58447/web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2",
+        "404 http://127.0.0.1:58447/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+        "404 http://127.0.0.1:58447/web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff",
+        "404 http://127.0.0.1:58447/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff?v=4.7.0",
+        "404 http://127.0.0.1:58447/web/image/website/1/favicon?unique=62af114",
+        "404 http://127.0.0.1:58447/web/image/website/1/logo/Kadampa%20Cuernavaca?unique=62af114"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 8435,
+      "desbordeX": 0,
+      "h1": 7,
+      "imagenes": 10,
+      "rotas": [
+        "http://127.0.0.1:58447/web/image/website/1/logo/Kadampa%20Cuernavaca?unique=62af114",
+        "http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/399-2ac148b8/LogoKadampaCuernavaca2022_Rectangulo%20A-Trans.png",
+        "http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/402-8e5b7cfa/ddd_Mesa%20de%20trabajo%201.png",
+        "http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/400-be7f948e/2222222_Mesa%20de%20trabajo%201.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Inicio | Kadampa Cuernavaca",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:58447/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2.7.0",
+        "404 http://127.0.0.1:58447/web/assets/1/a57571a/web.assets_frontend_minimal.min.js",
+        "404 http://127.0.0.1:58447/web/image/43900-48aea9ad/487760149_28934411989540894_3370743963831351785_n.webp",
+        "404 http://127.0.0.1:58447/web/image/707-f92767dd/1234_Mesa%20de%20trabajo%201.jpg",
+        "404 http://127.0.0.1:58447/web/image/website/1/logo/Kadampa%20Cuernavaca?unique=62af114",
+        "404 http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/399-2ac148b8/LogoKadampaCuernavaca2022_Rectangulo%20A-Trans.png",
+        "404 http://127.0.0.1:58447/web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2",
+        "404 http://127.0.0.1:58447/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+        "404 http://127.0.0.1:58447/web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff",
+        "404 http://127.0.0.1:58447/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff?v=4.7.0",
+        "404 http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/402-8e5b7cfa/ddd_Mesa%20de%20trabajo%201.png",
+        "404 http://127.0.0.1:58447/601-kadampacuernavaca/sitio/assets/web/image/400-be7f948e/2222222_Mesa%20de%20trabajo%201.jpg"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8520,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 7,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Kadampa Cuernavaca | Centro de meditación budista en Cuernavaca",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 14464,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 7,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Kadampa Cuernavaca | Centro de meditación budista en Cuernavaca",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

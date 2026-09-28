@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Tokens: azul del logotipo, oro y granate de los hábitos y de las columnas de la sala, cielo de Cuernavaca. */
+@theme {
+  --color-cielo: #eef5fa;
+  --color-tinta: #17324a;
+  --color-kadampa: #136da8;
+  --color-oro: #f4b400;
+  --color-granate: #8c1d2c;
+  --color-whats: #157a3f;
+  --font-display: "Nunito", "Segoe UI", sans-serif;
+  --font-serif: "Literata", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white font-serif text-tinta antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-kadampa); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-4 sm:px-8; }
+}
+
+/* La llama de la lámpara elegida oscila apenas; se queda quieta si el sistema pide menos movimiento. */
+@keyframes llama {
+  0%, 100% { transform: scale(1, 1) rotate(0deg); }
+  30% { transform: scale(0.97, 1.04) rotate(-1.5deg); }
+  60% { transform: scale(1.02, 0.97) rotate(1deg); }
+}
+.llama { animation: llama 2.6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .llama { animation: none; } }
