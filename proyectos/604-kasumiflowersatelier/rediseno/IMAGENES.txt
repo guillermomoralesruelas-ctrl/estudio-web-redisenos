@@ -1,0 +1,11 @@
+# Imágenes disponibles en publicDir (../sitio/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+freepik__candid-i-with-natural-textures-and-highly-realisti__7_1770752486211.png	1600x914	1623 KB
+con_logo_1771385920071.png	611x928	884 KB
+opt_hero.jpg	1920x2880	713 KB
+FONDO_OSCURO_1770752914362.jpg	600x600	689 KB
+FONDO_CLARO_1770752914362.jpg	600x600	675 KB
+creation_2364291019_1770752937587.jpg	1600x1095	242 KB
+dulce_armonia_web.jpg	800x1200	167 KB
+ISOTIPO_1770752914363.png	1600x1517	129 KB
+PLANTILLA%20KASUMI%20flor%20verde%20copia4.jpg	800x1000	112 KB
