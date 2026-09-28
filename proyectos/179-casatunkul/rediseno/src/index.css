@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/400.css";
+@import "@fontsource/cormorant-garamond/600.css";
+@import "@fontsource/source-sans-3/400.css";
+@import "@fontsource/source-sans-3/600.css";
+
+@theme {
+  --color-fondo: #faf6ef;
+  --color-panel: #ffffff;
+  --color-oscuro: #1a1408;
+  --color-tinta: #2d2416;
+  --color-suave: #8a7564;
+  --color-acento: #c07830;
+  --color-acento-2: #d99040;
+  --color-calido: #f0e8d8;
+  --font-sans: "Source Sans 3", system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3 { font-family: var(--font-serif); text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-acento); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-reservar { @apply inline-flex items-center gap-2 rounded-full bg-[--color-acento] px-5 py-3 font-semibold text-white shadow-md transition hover:bg-[--color-acento-2] active:scale-95; }
+  .btn-oscuro { @apply inline-flex items-center gap-2 rounded-full bg-[--color-oscuro] px-5 py-3 font-semibold text-white shadow-md transition hover:opacity-90 active:scale-95; }
+  .btn-ghost { @apply inline-flex items-center gap-2 rounded-full border border-[--color-acento] px-5 py-3 font-semibold text-[--color-acento] transition hover:bg-[--color-acento] hover:text-white active:scale-95; }
+}

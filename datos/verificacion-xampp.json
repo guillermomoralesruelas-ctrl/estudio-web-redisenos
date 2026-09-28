@@ -574,5 +574,13 @@
   "fallos": [],
   "ok": true,
   "fecha": "2026-09-28T23:05:42.791Z"
+ },
+ "179-casatunkul": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 8,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-28T23:18:17.789Z"
  }
 }

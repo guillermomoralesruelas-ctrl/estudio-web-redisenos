@@ -1,0 +1,10 @@
+# Imágenes disponibles en publicDir (../sitio/assets/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+hero.jpg	2200x1467	1199 KB
+room-4.jpg	1466x2200	613 KB
+patio.jpg	1466x2200	579 KB
+courtyard.jpg	1466x2200	536 KB
+room-1.jpg	1466x2200	531 KB
+lounge.jpg	2200x1466	496 KB
+room-3.jpg	2200x1466	404 KB
+room-2.jpg	1466x2200	345 KB
