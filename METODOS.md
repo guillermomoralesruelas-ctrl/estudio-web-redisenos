@@ -80,6 +80,8 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 
 | 214-christianmacias | Christian Macías, Fotógrafo de Bodas Documental (Guadalajara, Jal.) | 1.1 | Terminado | `/proyectos/214-christianmacias/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Primera fotografía profesional de bodas de la tanda (EVENTOS). Fotos del clon a .webp en `assets/web/` (`rediseno/fotos-web.mjs`). "¿A qué hora de tu boda está el fotógrafo?": cronógrafo interactivo de cuatro momentos del día (Preparativos, Ceremonia, Sesión, Fiesta) con los textos reales del fotógrafo y la foto correspondiente del portafolio. MyWed PRO #1 México y Guadalajara, 300+ bodas, 4 países. Sin JSON-LD ni Open Graph en el inicio del sitio original: avisar al cliente. Capturas en `referencias/capturas-2026-09-27/` |
 
+| 581-internationalxdental | International X Dental (Ciudad Juárez, Chih.) | 1.1 | Terminado | `/proyectos/581-internationalxdental/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Primera clínica dental del estudio (SALUD). Fotos del clon a .webp en `assets/web/` (`rediseno/fotos-web.mjs`). "¿Cuánto ahorras cruzando la frontera?": selector de 7 tratamientos (implante, corona, All-on-4, carillas, ortodoncia, blanqueamiento, limpieza) con precio promedio en EE.UU. vs. precio en Ciudad Juárez, ahorro en % y dólares, y WhatsApp prellenado con el tratamiento. Sus enlaces internos apuntan al dominio de staging (43q.23f.myftpupload.com) y hay dos ladas distintas para el número de Las Torres: avisar al cliente. Capturas en `referencias/capturas-2026-09-27/` |
+
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 
 - Sin fotos en el clon (1.2, descargar en la PC primero): 532-hotelklimt (solo 2 fotos), 534-hotelmaela (0).

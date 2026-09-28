@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-09-28T02:40:49.087Z",
+  "carpeta": "581-internationalxdental",
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4857,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 16,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "International X Dental | Clínica Dental en Ciudad Juárez, cerca de El Paso",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 8887,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 16,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "International X Dental | Clínica Dental en Ciudad Juárez, cerca de El Paso",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

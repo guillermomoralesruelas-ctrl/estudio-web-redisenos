@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/latin-600.css";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+
+@theme {
+  --color-azul:         #1B4D9B;
+  --color-azul-claro:   #2563EB;
+  --color-fondo:        #F8FBFF;
+  --color-texto:        #1A2030;
+  --color-blanco:       #FFFFFF;
+  --color-gris:         #64748B;
+  --font-serif:         "Cormorant Garamond", "Georgia", serif;
+  --font-sans:          "Inter", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4rem; }
+  body { @apply bg-fondo text-texto font-sans antialiased; }
+  h1, h2, h3 { font-family: var(--font-serif); text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-azul); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-principal {
+    @apply inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#128C7E] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#25D366];
+  }
+  .btn-azul {
+    @apply inline-flex items-center gap-2 rounded-full bg-azul px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-azul-claro focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-azul;
+  }
+}
