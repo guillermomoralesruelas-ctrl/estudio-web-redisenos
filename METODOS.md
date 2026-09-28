@@ -135,6 +135,8 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 | 315-discovervallarta | Discover Vallarta (Discover PVR), Puerto Vallarta, Jalisco (turismo) | 1.2 | Terminado (PC, 2026-09-28) | `/proyectos/315-discovervallarta/rediseno/dist/index.html` | Ver `CAMBIOS.md`. IONOS builder → landing con 6 tours expandibles + sección de traslados con precios reales ($39-$60 USD add-ons). Login/Edit de IONOS visible en el footer del original: avisar al cliente. |
 | 435-fultonhotel | Fulton Hotel, Guadalajara, Jalisco (hospedaje) | 1.2 | Terminado (PC, 2026-09-28) | `/proyectos/435-fultonhotel/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Hotel de negocios en la Zona Financiera Sao Paulo. Multipágina PHP → landing: 4 habitaciones en grid, Sala de Juntas + Starbucks + Rooftop en acordeones, ubicación con 4 puntos + fotos, CTA Cloudbeds + WhatsApp. Sin precios publicados en el original: solo botón de reserva. |
 
+| 643-lapurificadora | La Purificadora, Puebla, Puebla (gastronomia) | 1.2 | En curso (PC, 2026-09-28) | — | — |
+
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 
 - Sin fotos en el clon (1.2, descargar en la PC primero): 532-hotelklimt (solo 2 fotos), 534-hotelmaela (0).
