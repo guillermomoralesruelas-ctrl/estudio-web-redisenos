@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Su sitio usa las fuentes de la plantilla del constructor. Aquí: Cormorant Garamond (títulos, con cursiva, como un
+   título de película) y Manrope (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Manrope"; src: url("../node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Manrope"; src: url("../node_modules/@fontsource/manrope/files/manrope-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Manrope"; src: url("../node_modules/@fontsource/manrope/files/manrope-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: sala de cine (negro cálido), marfil de vestido y un dorado de luz de atardecer, tomado de sus fotos.
+   Contrastes: oro sobre sala 9.60, oro sobre sala-media 8.63, sala sobre oro 9.60, gris-claro sobre sala 9.09,
+   tinta sobre marfil 14.05, oro-hondo sobre marfil 4.89, gris sobre marfil 5.31, blanco sobre oro-hondo 5.50. */
+@theme {
+  --color-sala: #0f0e0d;
+  --color-sala-media: #1c1a18;
+  --color-marfil: #f6f1ea;
+  --color-oro: #d4b27a;
+  --color-oro-hondo: #86631f;
+  --color-tinta: #26221e;
+  --color-gris: #6b6259;
+  --color-gris-claro: #b9b1a6;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-marfil text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply text-tinta font-display; font-weight: 500; line-height: 1.02; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-sala text-gris-claro; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-marfil; }
+  :focus-visible { outline: 3px solid var(--color-oro-hondo); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-oro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm px-5 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-oro text-sala hover:bg-[#e3c796]; }
+  .btn-linea { @apply border border-oro-hondo/60 text-oro-hondo hover:border-oro-hondo hover:bg-white; }
+  .btn-claro { @apply border border-marfil/50 text-marfil hover:border-marfil hover:bg-white/10; }
+  .enlace { @apply font-bold text-oro-hondo underline decoration-1 underline-offset-4 hover:text-tinta; }
+  .oscuro .enlace { @apply text-oro hover:text-marfil; }
+  /* Cuadro de la cinta del día */
+  .cuadro { @apply relative flex h-14 items-end justify-center rounded-[3px] border text-[0.72rem] font-bold sm:h-20; }
+}
