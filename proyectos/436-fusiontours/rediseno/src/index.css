@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "@fontsource/barlow-condensed/latin.css";
+@import "@fontsource/inter/latin.css";
+
+@theme {
+  --color-fondo: #F5F0E8;
+  --color-tinta: #0F1C2A;
+  --color-acento: #0EA5C9;
+  --color-acento-oscuro: #0369A1;
+  --color-selva: #1A7C52;
+  --color-arena: #F5F0E8;
+  --color-marino: #0F1C2A;
+  --font-heading: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-sans: "Inter", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3, h4 { font-family: var(--font-heading); text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-acento); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-primario {
+    @apply inline-flex items-center gap-2 rounded-full bg-acento px-6 py-3 font-sans text-sm font-semibold text-white transition-colors hover:bg-acento-oscuro focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-acento;
+  }
+  .btn-secundario {
+    @apply inline-flex items-center gap-2 rounded-full border-2 border-white px-6 py-3 font-sans text-sm font-semibold text-white transition-colors hover:bg-white/10;
+  }
+  .btn-wa {
+    @apply inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 font-sans text-sm font-semibold text-white transition-colors hover:bg-[#128C7E];
+  }
+  .badge {
+    @apply inline-block rounded-full bg-acento/15 px-3 py-0.5 font-sans text-xs font-semibold text-acento-oscuro;
+  }
+}
