@@ -1,0 +1,118 @@
+{
+  "fecha": "2026-09-28T03:12:51.957Z",
+  "carpeta": "617-laautentica",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8499,
+      "desbordeX": 0,
+      "h1": 6,
+      "imagenes": 14,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Auténtica",
+      "errores": [
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:58643/?wc-ajax=get_refreshed_fragments"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 12707,
+      "desbordeX": 0,
+      "h1": 6,
+      "imagenes": 14,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Auténtica",
+      "errores": [
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.woff' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.ttf' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://autenticabarberia.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf' from origin 'http://127.0.0.1:58643' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:58643/?wc-ajax=get_refreshed_fragments"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6339,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Auténtica: barbería, spa y club social en Ciudad Satélite",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9597,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Auténtica: barbería, spa y club social en Ciudad Satélite",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
