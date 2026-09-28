@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Su sitio usa Poppins y Montserrat de Google Fonts. Aquí: DM Serif Display (títulos, como una carta de mariscos) y
+   Outfit (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "DM Serif Display"; src: url("../node_modules/@fontsource/dm-serif-display/files/dm-serif-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "DM Serif Display"; src: url("../node_modules/@fontsource/dm-serif-display/files/dm-serif-display-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+/* Tokens: el azul océano, el cian y el naranja de su logo y de su sitio; la arena de sus mesas de madera y petates.
+   Contrastes: océano sobre naranja 7.87, cian sobre océano 9.08, blanco sobre océano 17.94, niebla sobre océano 9.87,
+   texto sobre arena 11.65, naranja-hondo sobre arena 4.85, mar sobre arena 6.39, blanco sobre mar 7.30. */
+@theme {
+  --color-oceano: #071828;
+  --color-oceano-medio: #0d2a42;
+  --color-cian: #3dc8e8;
+  --color-naranja: #f7941d;
+  --color-naranja-hondo: #a4520a;
+  --color-mar: #0f5e75;
+  --color-niebla: #a9c4d6;
+  --color-arena: #f6efe4;
+  --color-texto: #23313d;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-sans: "Outfit", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-texto font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply text-oceano font-display; font-weight: 400; line-height: 1.05; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-mar); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-cian); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-naranja text-oceano hover:bg-[#fab55a]; }
+  .btn-linea { @apply border-2 border-mar/40 text-mar hover:border-mar hover:bg-white; }
+  .btn-claro { @apply border-2 border-white/50 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-bold text-mar underline decoration-2 underline-offset-4 hover:text-oceano; }
+  .oscuro .enlace { @apply text-cian hover:text-white; }
+}
