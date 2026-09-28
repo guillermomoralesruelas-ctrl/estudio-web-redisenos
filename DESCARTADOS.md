@@ -36,6 +36,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `396-estudiolotus` | Estudio Lotus (diseño web, video y fotografía) | Guadalajara, Jal. | `sin-contacto` | Solo tiene formulario: ni teléfono, ni WhatsApp, ni correo, ni dirección. Es una agencia de páginas web, del mismo giro que el estudio; imágenes de banco e íconos, y shortcodes "[tx_row]" a la vista en su página de fotografía | Nube |
 | `492-hermesspa` | Hermes Spa (spa para mujeres) | Guadalajara, Jal. | `sin-fotos` | Fotos de masajes de banco o con aspecto de IA y testimonios en capturas de WhatsApp; ninguna del local. Tiene teléfonos y horario, pero la dirección cambia entre páginas (Lope de Vega 982 y 782). Menú con masajes "Tántrico" y "Seduction": revisar el giro antes de retomar. Retomar con método 1.2 si da fotos propias | Nube |
 | `72-aventurasmayas` | Aventuras Mayas (tours de aventura) | Riviera Maya, Q. Roo | `sin-fotos` | Banners con texto encima y collages de 250 × 400 px; solo una o dos fotos limpias. Operador grande (17 tours, Hacienda Chukum, lada gratuita a EE. UU. y Canadá). Retomar con método 1.2 si dan sus fotos sin texto | Nube |
+| `555-huatulcotoursand` | Huatulco Tours and Travel (agencia de tours) | Huatulco, Oax. | `sin-fotos` | El clon solo trae un banner, un collage y un fondo; el sitio en vivo bloquea con un reto anti-bot. Tiene teléfono (+52 958 100 4084) y correo. Retomar con método 1.2 si da fotos de sus tours | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
