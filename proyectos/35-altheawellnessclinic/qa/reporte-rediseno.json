@@ -1,100 +1,6 @@
 {
-  "fecha": "2026-09-27T17:16:05.526Z",
+  "fecha": "2026-09-28T18:03:57.805Z",
   "carpeta": "35-altheawellnessclinic",
-  "antes": [
-    {
-      "vista": "escritorio",
-      "ancho": 1280,
-      "alto": 800,
-      "desbordeX": 0,
-      "h1": 2,
-      "imagenes": 11,
-      "rotas": [
-        "http://127.0.0.1:53695/web/image/website/1/logo/%C3%81LTHEA%20WELLNESS%20CLINIC?unique=307a386",
-        "http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267357-dd2d34c3/ALTHEA%20WELLNESS%20CLINIC%20-%20medicina%20estetica%20-%20botox.webp",
-        "http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267358-21c69a6a/ALTHEA%20WELLNESS%20CLINIC%20-%20IV%20Therapy%20Playa%20del%20Carmen%202.webp",
-        "http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/269079-0837c2b3/Sofwave%20Playa%20del%20Carmen.webp",
-        "http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267372-e04e831c/ALTHEA%20WELLNESS%20CLINIC%20-%20PLAYA%20DEL%20CARMEN%20BOTOX%20BOUTIQUE%20BAJA%20%28FEB2026%29.webp"
-      ],
-      "sinAlt": 2,
-      "titulo": "Aesthetic Medicine Clinic in Playa del Carmen | Althea",
-      "errores": [
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)"
-      ],
-      "fallidos": [
-        "404 http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2.7.0",
-        "404 http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267357-dd2d34c3/ALTHEA%20WELLNESS%20CLINIC%20-%20medicina%20estetica%20-%20botox.webp",
-        "404 http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267358-21c69a6a/ALTHEA%20WELLNESS%20CLINIC%20-%20IV%20Therapy%20Playa%20del%20Carmen%202.webp",
-        "404 http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/269079-0837c2b3/Sofwave%20Playa%20del%20Carmen.webp",
-        "404 http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267372-e04e831c/ALTHEA%20WELLNESS%20CLINIC%20-%20PLAYA%20DEL%20CARMEN%20BOTOX%20BOUTIQUE%20BAJA%20%28FEB2026%29.webp",
-        "404 http://127.0.0.1:53695/web/assets/1/294789c/web.assets_frontend_minimal.min.js",
-        "404 http://127.0.0.1:53695/web/image/266887-142c3a97/Althea%20Wellness%20Clinic%20-%20Home.webp",
-        "404 http://127.0.0.1:53695/web/image/269077-5d606585/Sofwave%20HIFU%20Lifting%20Ultrasound%20Althea%20Wellness%20Clinic.webp",
-        "404 http://127.0.0.1:53695/web/image/website/1/logo/%C3%81LTHEA%20WELLNESS%20CLINIC?unique=307a386",
-        "404 http://127.0.0.1:53695/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
-        "404 http://127.0.0.1:53695/web/static/fonts/tiktok_only.woff",
-        "404 http://127.0.0.1:53695/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff?v=4.7.0",
-        "404 http://127.0.0.1:53695/web/image/website/1/favicon?unique=307a386"
-      ],
-      "captura": "qa\\antes-escritorio.png"
-    },
-    {
-      "vista": "movil",
-      "ancho": 390,
-      "alto": 844,
-      "desbordeX": 0,
-      "h1": 2,
-      "imagenes": 11,
-      "rotas": [
-        "http://127.0.0.1:53695/web/image/website/1/logo/%C3%81LTHEA%20WELLNESS%20CLINIC?unique=307a386",
-        "http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267357-dd2d34c3/ALTHEA%20WELLNESS%20CLINIC%20-%20medicina%20estetica%20-%20botox.webp",
-        "http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267358-21c69a6a/ALTHEA%20WELLNESS%20CLINIC%20-%20IV%20Therapy%20Playa%20del%20Carmen%202.webp",
-        "http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/269079-0837c2b3/Sofwave%20Playa%20del%20Carmen.webp",
-        "http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267372-e04e831c/ALTHEA%20WELLNESS%20CLINIC%20-%20PLAYA%20DEL%20CARMEN%20BOTOX%20BOUTIQUE%20BAJA%20%28FEB2026%29.webp"
-      ],
-      "sinAlt": 2,
-      "titulo": "Aesthetic Medicine Clinic in Playa del Carmen | Althea",
-      "errores": [
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)"
-      ],
-      "fallidos": [
-        "404 http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2.7.0",
-        "404 http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267357-dd2d34c3/ALTHEA%20WELLNESS%20CLINIC%20-%20medicina%20estetica%20-%20botox.webp",
-        "404 http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267358-21c69a6a/ALTHEA%20WELLNESS%20CLINIC%20-%20IV%20Therapy%20Playa%20del%20Carmen%202.webp",
-        "404 http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/269079-0837c2b3/Sofwave%20Playa%20del%20Carmen.webp",
-        "404 http://127.0.0.1:53695/35-altheawellnessclinic/sitio/assets/web/image/267372-e04e831c/ALTHEA%20WELLNESS%20CLINIC%20-%20PLAYA%20DEL%20CARMEN%20BOTOX%20BOUTIQUE%20BAJA%20%28FEB2026%29.webp",
-        "404 http://127.0.0.1:53695/web/assets/1/294789c/web.assets_frontend_minimal.min.js",
-        "404 http://127.0.0.1:53695/web/image/266887-142c3a97/Althea%20Wellness%20Clinic%20-%20Home.webp",
-        "404 http://127.0.0.1:53695/web/image/website/1/logo/%C3%81LTHEA%20WELLNESS%20CLINIC?unique=307a386",
-        "404 http://127.0.0.1:53695/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
-        "404 http://127.0.0.1:53695/web/static/fonts/tiktok_only.woff",
-        "404 http://127.0.0.1:53695/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff?v=4.7.0"
-      ],
-      "captura": "qa\\antes-movil.png"
-    }
-  ],
   "despues": [
     {
       "vista": "escritorio",
@@ -113,7 +19,7 @@
     {
       "vista": "movil",
       "ancho": 390,
-      "alto": 13065,
+      "alto": 13097,
       "desbordeX": 0,
       "h1": 1,
       "imagenes": 5,

@@ -21,6 +21,7 @@ export const negocio = {
   ciudad: 'Playa del Carmen, 77720, Q. Roo',
   referencia: 'Ground floor of the Casa Habanero building, corner of 42nd St & 15th Ave.',
   mapa: 'https://www.google.com/maps/search/?api=1&query=Althea%20Wellness%20Clinic%2C%20Calle%2042%2C%20Zazil-Ha%2C%20Playa%20del%20Carmen',
+  mapaEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7467.551600636045!2d-87.06699739999999!3d20.6379934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e43677515a153%3A0xf715933f2a85e3f3!2sAlthea%20Wellness%20Clinic!5e0!3m2!1ses!2smx!4v1785026775962!5m2!1ses!2smx',
   horario: [
     { dias: 'Monday to Friday', horas: '9:00 to 19:00' },
     { dias: 'Saturday', horas: '9:00 to 14:00' },

@@ -33,6 +33,7 @@ export const negocio = {
   dentroDe: 'La Punta Rooms',
   dentroDeUrl: 'https://www.instagram.com/lapuntarooms.pxm/',
   mapa: 'https://maps.google.com/?q=Nayarit+Sn,+Brisas+de+Zicatela,+70934+Puerto+Escondido,+Oaxaca',
+  mapaEmbed: 'https://www.google.com/maps?q=Nayarit+Sn,+Brisas+de+Zicatela,+70934+Puerto+Escondido,+Oaxaca&output=embed',
   correo: 'lapuntacoffee@gmail.com',
   instagram: 'https://www.instagram.com/lapuntacoffee/',
   instagramVisible: '@lapuntacoffee',

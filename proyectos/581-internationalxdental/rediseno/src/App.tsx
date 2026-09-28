@@ -382,7 +382,20 @@ function ComoLlegar() {
     <section id="llegar" className="py-20 bg-white">
       <div className="contenedor">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
-          {/* Foto → Maps */}
+          {/* Mapa embebido */}
+          <div className="rounded-2xl overflow-hidden shadow-md">
+            <iframe
+              src={negocio.mapaEmbed}
+              width="100%"
+              height="320"
+              style={{ border: 0, borderRadius: '0.5rem' }}
+              allowFullScreen
+              loading="lazy"
+              title={`Ubicación de ${negocio.nombre}`}
+              className="w-full block"
+            />
+          </div>
+          {/* Foto → Maps (ahora secundario) */}
           <a
             href={negocio.maps}
             target="_blank"

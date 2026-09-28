@@ -372,22 +372,18 @@ function LaClinica() {
     <section id="contacto" className="py-20 bg-noche-2">
       <div className="contenedor">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Foto de la recepción */}
+          {/* Mapa embebido */}
           <div>
-            <a
-              href={negocio.mapa}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Ver clínica en Google Maps"
-            >
-              <img
-                src={clinica.foto}
-                alt="Recepción de la Clínica Dermatológica y Cirugía Estética de Puebla"
-                width={1200} height={800}
-                className="rounded-xl object-cover w-full max-h-[420px]"
-                loading="lazy"
-              />
-            </a>
+            <iframe
+              src={negocio.mapaEmbed}
+              width="100%"
+              height="320"
+              style={{ border: 0, borderRadius: '0.75rem' }}
+              allowFullScreen
+              loading="lazy"
+              title={`Ubicación de ${negocio.nombre}`}
+              className="w-full"
+            />
           </div>
 
           {/* Datos de contacto */}

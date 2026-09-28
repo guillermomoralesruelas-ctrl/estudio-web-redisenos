@@ -376,6 +376,7 @@ function Contacto() {
           <div className="sm:col-span-2">
             <dt className="font-semibold text-arena">Dirección</dt>
             <dd className="mt-1 text-lg">{hotel.direccion}</dd>
+            <dd className="mt-3"><iframe src={hotel.mapaEmbed} width="100%" height="300" style={{ border: 0, borderRadius: '0.5rem' }} allowFullScreen loading="lazy" title={`Ubicación de ${hotel.nombre}`} className="w-full" /></dd>
             <dd className="mt-3"><a href={hotel.mapa} {...externo} className="inline-flex items-center gap-2 font-semibold text-white underline decoration-arena decoration-2 underline-offset-4">{Icono.mapa} Cómo llegar en Google Maps</a></dd>
           </div>
           <div>

@@ -450,10 +450,16 @@ function Reservar() {
       </div>
 
       <div className="min-w-0 md:col-span-6">
-        <a href={negocio.mapa} {...externo} className="group relative block overflow-hidden rounded-[2rem]" aria-label="Abrir Che Pebeta en Google Maps">
-          <div className="aspect-[5/4]"><Img foto={lugar} className="transition-transform duration-500 group-hover:scale-[1.03]" /></div>
-          <span className="absolute bottom-4 left-4 rounded-full bg-noche px-4 py-2 text-sm font-semibold text-crema">Ver en Google Maps</span>
-        </a>
+        <iframe
+          src={negocio.mapaEmbed}
+          width="100%"
+          height="320"
+          style={{ border: 0, borderRadius: '1rem' }}
+          allowFullScreen
+          loading="lazy"
+          title={`Ubicación de ${negocio.nombre}`}
+          className="w-full"
+        />
         <dl className="mt-8 space-y-5 text-lg">
           <div><dt className="text-sm">Dónde</dt><dd className="font-semibold">{d.lugar}, {d.calle}, {d.colonia}, {d.cp} {d.ciudad}</dd></div>
           <div><dt className="text-sm">Horario</dt><dd className="mt-1"><Horario claro /></dd></div>

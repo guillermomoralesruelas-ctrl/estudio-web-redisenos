@@ -20,6 +20,7 @@ export const negocio = {
   email: 'hola@hotelpomelo.com',
   direccion: ['Av. de la Playa s/n,', 'Troncones, Guerrero,', '40807 México'],
   mapa: 'https://www.google.com/maps/search/?api=1&query=Hotel+Pomelo+Av.+de+la+Playa+Troncones+Guerrero',
+  mapaEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.313642964621!2d-101.71751890000002!3d17.776950699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8433f5e21d0bcbfd%3A0xd138c22f8c83a62d!2sHotel%20Pomelo!5e0!3m2!1ses-419!2smx!4v1745888946408!5m2!1ses-419!2smx',
   instagram: 'https://www.instagram.com/hotelpomelo/',
   facebook: 'https://www.facebook.com/people/Hotel-Pomelo/61565921543677/',
   privacidad: 'https://www.hotelpomelo.com/poltica-de-privacidad',

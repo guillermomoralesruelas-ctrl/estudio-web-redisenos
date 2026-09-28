@@ -14,6 +14,7 @@ export const negocio = {
   direccion: 'Bv. Paseo de las Quintas, entre Navarrete y Soriana Encinas, Hermosillo, Sonora',
   // Su sitio no da número ni coordenadas: se busca el estudio sobre el bulevar (pendiente de confirmar el punto).
   mapa: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('BARRE 7, Bv. Paseo de las Quintas, Hermosillo, Sonora'),
+  mapaEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3486.4968316624245!2d-110.99518298458095!3d29.091010169932225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce858bff3033b7%3A0x81017cc07e128163!2sBARRE%207!5e0!3m2!1ses-419!2smx!4v1639597736063!5m2!1ses-419!2smx',
   facebook: 'https://www.facebook.com/BARRE-7-767301326952339/',
   instagram: 'https://www.instagram.com/barre.7/',
   enLinea: 'https://barre-7.com/pages/suscripciones',

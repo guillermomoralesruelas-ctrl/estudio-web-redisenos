@@ -16,6 +16,7 @@ export const negocio = {
   direccionCancun: 'Hospital Galenia, Av. Tulum y Av. Nizuc, 3er piso, Cancún, Q.R.',
   // Google Maps del sitio (goo.gl en el footer original)
   maps: 'https://goo.gl/maps/GUELAH4Mk5mMVDC1A',
+  mapaEmbed: 'https://maps.google.com/maps?q=Avenida%20Campos%20Eliseos%20%239388%20L-6%20Fracc.%20Campos%20Eliseos%20Ciudad%20Ju%C3%A1rez%2C%20Chih.%20Mexico.&t=m&z=11&output=embed&iwloc=near',
   horarioSemana: 'Lunes a Viernes: 9:00 a.m. – 6:00 p.m.',
   horarioSabado: 'Sábados: 9:00 a.m. – 2:00 p.m.',
   horarioDomingo: 'Domingos: Cerrado',

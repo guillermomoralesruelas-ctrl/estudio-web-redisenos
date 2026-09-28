@@ -272,10 +272,19 @@ function Contacto() {
             <a href={negocio.tiktok} className="enlace" target="_blank" rel="noopener">TikTok</a>
           </p>
         </div>
-        <a href={negocio.mapa} target="_blank" rel="noopener" className="group block min-w-0">
-          <Img f={fotos.recepcion} className="aspect-[16/10] w-full rounded-2xl object-cover transition-opacity group-hover:opacity-90" />
-          <p className="mt-4 enlace inline-block">Cómo llegar en Google Maps</p>
-        </a>
+        <div className="min-w-0 flex flex-col gap-4">
+          <iframe
+            src={negocio.mapaEmbed}
+            width="100%"
+            height="320"
+            style={{ border: 0, borderRadius: '0.75rem' }}
+            allowFullScreen
+            loading="lazy"
+            title={`Ubicación de ${negocio.nombre}`}
+            className="w-full block"
+          />
+          <a href={negocio.mapa} target="_blank" rel="noopener" className="enlace inline-block">Cómo llegar en Google Maps</a>
+        </div>
       </div>
     </section>
   );

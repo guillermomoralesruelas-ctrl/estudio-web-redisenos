@@ -476,7 +476,19 @@ function Visitanos() {
             <a href={negocio.whatsapp} {...externo} className="btn-claro">{Icono.wa} WhatsApp</a>
           </div>
         </div>
-        <dl className="grid min-w-0 content-start gap-6 sm:grid-cols-2 md:col-span-6">
+        <div className="min-w-0 md:col-span-6">
+          <iframe
+            src={negocio.mapaEmbed}
+            width="100%"
+            height="320"
+            style={{ border: 0, borderRadius: '0.75rem' }}
+            allowFullScreen
+            loading="lazy"
+            title={`Location of ${negocio.nombre}`}
+            className="w-full"
+          />
+        </div>
+        <dl className="grid min-w-0 content-start gap-6 sm:grid-cols-2 md:col-span-12">
           <div className="sm:col-span-2">
             <dt className="font-semibold text-cobre-claro">Address</dt>
             <dd className="mt-1 text-lg">{d.calle}, {d.zona}, {d.cp} {d.ciudad}</dd>

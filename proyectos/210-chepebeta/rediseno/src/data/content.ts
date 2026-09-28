@@ -32,6 +32,7 @@ export const negocio = {
   tel: 'tel:+528110995176',
   // El enlace "Ver en Google Maps" de su sitio.
   mapa: 'https://www.google.com/maps/place/CHE+PEBETA/@25.5749816,-100.2489997,17z/data=!3m1!4b1!4m6!3m5!1s0x8662c7146abd28c1:0x1aa200d0b80551fc!8m2!3d25.5749816!4d-100.2489997!16s%2Fg%2F11f0088m0j?entry=ttu',
+  mapaEmbed: 'https://www.google.com/maps?q=CHE+PEBETA,+Carr+Nacional+500,+Valle+Alto,+Monterrey&hl=es&z=17&output=embed',
   instagram: 'https://instagram.com/chepebeta.oficial',
   facebook: 'https://facebook.com/chepebetarestaurante',
   logo: f('logo', 600, 299, 'Che Pebeta, con las medallas CANIRAC 2019 y 2023'),

@@ -15,6 +15,7 @@ export const negocio = {
   telefonoTel: '+522222377494',
   whatsapp: '522211552228',
   mapa: 'https://maps.google.com/?cid=9525756684129878507',
+  mapaEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4641.126263976682!2d-98.1918446!3d19.026949300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc093a84637ed%3A0x8432493c0e5d41eb!2sCl%C3%ADnica%20Dermatol%C3%B3gica%20Y%20Cirug%C3%ADa%20Est%C3%A9tica%20de%20Puebla%20S.A.%20de%20C.V.!5e1!3m2!1ses!2smx!4v1785335756669!5m2!1ses!2smx',
   comollegar: 'https://www.google.com/maps/dir/?api=1&destination=Cl%C3%ADnica%20Dermatol%C3%B3gica%20y%20Cirug%C3%ADa%20Est%C3%A9tica%20de%20Puebla%2C%20Calle%2020%20Sur%202539%2C%20Bellavista%2C%2072500%20Puebla%2C%20Pue.',
   horario: 'Lunes a viernes: 8:00 – 20:00 h · Sábado: 8:00 – 14:00 h · Domingo: cerrado',
   horarioCorto: 'L–V 8:00–20:00 · S 8:00–14:00',

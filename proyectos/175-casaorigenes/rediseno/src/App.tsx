@@ -321,10 +321,16 @@ function Visitanos() {
             <a href={negocio.mapa} target="_blank" rel="noopener" className="btn-linea">{Icono.mapa} Cómo llegar</a>
           </div>
         </div>
-        <a href={negocio.mapa} target="_blank" rel="noopener" className="group relative block min-h-72 overflow-hidden rounded-3xl" aria-label="Abrir la ubicación de Casa Orígenes en Google Maps">
-          <img src={fotos.terraza1} alt="Entrada y terraza de Casa Orígenes" width={1280} height={852} loading="lazy" className="absolute inset-0 size-full object-cover transition-transform duration-700 group-hover:scale-105" />
-          <span className="absolute bottom-4 left-4 inline-flex items-center gap-2 rounded-full bg-crema px-4 py-2 text-sm font-semibold text-tinta">{Icono.mapa} Blvd. Europa esq. Tokio</span>
-        </a>
+        <iframe
+          src={negocio.mapaEmbed}
+          width="100%"
+          height="320"
+          style={{ border: 0, borderRadius: '0.5rem' }}
+          allowFullScreen
+          loading="lazy"
+          title={`Ubicación de ${negocio.nombre}`}
+          className="w-full rounded-xl"
+        />
       </div>
     </section>
   );

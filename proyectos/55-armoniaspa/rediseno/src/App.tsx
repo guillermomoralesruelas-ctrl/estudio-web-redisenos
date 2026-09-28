@@ -544,23 +544,11 @@ function Visitanos() {
           </div>
         </div>
 
-        {/* Mapa estático → enlace a Google Maps */}
-        <a
-          href={negocio.maps}
-          target="_blank"
-          rel="noopener"
-          aria-label="Ver Armonía Spa en Google Maps"
-          className="group block overflow-hidden rounded-2xl border border-tinta/10 shadow-sm hover:shadow-md transition-shadow min-w-0"
-        >
-          <div className="flex h-full min-h-64 items-center justify-center bg-blush">
-            <div className="text-center">
-              <IcoPin className="mx-auto h-16 w-16 text-acento/40" />
-              <p className="mt-4 font-semibold text-tinta/60">Armonía Spa</p>
-              <p className="text-sm text-tinta/40">Chihuahua, Chihuahua</p>
-              <p className="mt-3 text-sm text-acento group-hover:underline">Ver en Google Maps →</p>
-            </div>
-          </div>
-        </a>
+        {/* Mapa embebido */}
+        <div className="min-w-0 flex flex-col gap-3">
+          <iframe src={negocio.mapaEmbed} width="100%" height="360" style={{ border: 0, borderRadius: '1rem' }} allowFullScreen loading="lazy" title="Ubicación de Armonía Spa" className="w-full" />
+          <a href={negocio.maps} target="_blank" rel="noopener" className="inline-flex items-center gap-1 text-sm font-semibold text-acento hover:underline"><IcoPin className="h-4 w-4" /> Ver en Google Maps</a>
+        </div>
       </div>
     </section>
   );

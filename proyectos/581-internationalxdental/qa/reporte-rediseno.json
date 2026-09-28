@@ -1,11 +1,11 @@
 {
-  "fecha": "2026-09-28T02:40:49.087Z",
+  "fecha": "2026-09-28T18:04:13.919Z",
   "carpeta": "581-internationalxdental",
   "despues": [
     {
       "vista": "escritorio",
       "ancho": 1280,
-      "alto": 4857,
+      "alto": 5237,
       "desbordeX": 0,
       "h1": 1,
       "imagenes": 16,
@@ -19,7 +19,7 @@
     {
       "vista": "movil",
       "ancho": 390,
-      "alto": 8887,
+      "alto": 9255,
       "desbordeX": 0,
       "h1": 1,
       "imagenes": 16,

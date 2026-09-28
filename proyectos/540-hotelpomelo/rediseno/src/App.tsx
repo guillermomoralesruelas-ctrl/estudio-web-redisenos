@@ -351,10 +351,10 @@ function Visitanos() {
           <a href={negocio.mapa} {...externo} className="btn-linea">{Icono.mapa} Cómo llegar</a>
         </div>
       </div>
-      <a href={negocio.mapa} {...externo} className="group relative block min-w-0 self-start overflow-hidden rounded-2xl md:col-span-7" aria-label="Abrir la ubicación de Hotel Pomelo en Google Maps">
-        <div className="aspect-[3/2]"><Img foto={fotos.fachada} className="transition-transform duration-700 group-hover:scale-[1.03] motion-reduce:transition-none" /></div>
-        <span className="absolute bottom-4 left-4 inline-flex items-center gap-2 rounded-full bg-cal px-4 py-2 font-semibold text-tinta">{Icono.mapa} Ver en Google Maps</span>
-      </a>
+      <div className="min-w-0 self-start md:col-span-7 flex flex-col gap-3">
+        <iframe src={negocio.mapaEmbed} width="100%" height="320" style={{ border: 0, borderRadius: '1rem' }} allowFullScreen loading="lazy" title={`Ubicación de ${negocio.nombre}`} className="w-full" />
+        <a href={negocio.mapa} {...externo} className="inline-flex items-center gap-2 text-sm font-semibold text-granate underline underline-offset-4">{Icono.mapa} Ver en Google Maps</a>
+      </div>
     </section>
   );
 }

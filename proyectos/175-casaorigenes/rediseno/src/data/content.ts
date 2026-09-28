@@ -46,7 +46,7 @@ export const negocio = {
   whatsapp: '5212281635761',
   direccion: 'Blvd. Europa esq. Tokio, Col. Monte Magno, C.P. 91193, Xalapa, Ver.',
   mapa: 'https://maps.app.goo.gl/owBsB5VS9MRriEpU7',
-  mapaEmbed: 'https://www.google.com/maps?q=' + encodeURIComponent('Casa Orígenes, Blvd. Europa esq. Tokio, Monte Magno, Xalapa, Veracruz') + '&output=embed',
+  mapaEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.5484261326524!2d-96.8621192!3d19.5180547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db3305e27cc9d1%3A0xdd7b0cfb6487efa5!2sOrigenes%20Xalapa%20-%20Cocina%20con%20ra%C3%ADces!5e0!3m2!1ses!2smx!4v1770345175439!5m2!1ses!2smx',
   redes: [
     { nombre: 'Instagram', url: 'https://www.instagram.com/origenes.xlp/' },
     { nombre: 'TikTok', url: 'https://www.tiktok.com/@origenes.xlp' },

@@ -560,25 +560,16 @@ function Visita() {
             ))}
           </p>
         </div>
-        <a href={negocio.mapa} target="_blank" rel="noopener" className="group relative block min-w-0 overflow-hidden rounded-[1.5rem] bg-carbon text-marfil">
-          <svg viewBox="0 0 400 300" className="h-full min-h-[18rem] w-full" role="img" aria-label="Sketch of the corner of 42nd Street and 15th Avenue in Zazil-Ha, where the clinic is">
-            <rect width="400" height="300" fill="#343a40" />
-            <g stroke="#a48d78" strokeOpacity="0.35" strokeWidth="1">
-              {[40, 100, 160, 220, 280].map((y) => <line key={y} x1="0" y1={y} x2="400" y2={y} />)}
-              {[50, 130, 210, 290, 370].map((x) => <line key={x} x1={x} y1="0" x2={x} y2="300" />)}
-            </g>
-            <line x1="0" y1="160" x2="400" y2="160" stroke="#e8c98f" strokeWidth="6" />
-            <line x1="210" y1="0" x2="210" y2="300" stroke="#e8c98f" strokeWidth="6" />
-            <text x="16" y="150" fill="#f6f1ea" fontSize="13" fontFamily="Raleway, sans-serif">Calle 42</text>
-            <text x="220" y="24" fill="#f6f1ea" fontSize="13" fontFamily="Raleway, sans-serif">15 Avenida</text>
-            <circle cx="210" cy="160" r="15" fill="#e8c98f" />
-            <circle cx="210" cy="160" r="5" fill="#343a40" />
-            <text x="232" y="190" fill="#f6f1ea" fontSize="15" fontFamily="Marcellus, serif">Althea, Casa Habanero</text>
-          </svg>
-          <span className="absolute bottom-4 left-4 inline-flex items-center gap-2 rounded-full bg-marfil px-4 py-2 text-sm font-semibold text-carbon group-hover:bg-luz">
-            <IconoPin className="h-4 w-4" /> Open in Google Maps
-          </span>
-        </a>
+        <iframe
+          src={negocio.mapaEmbed}
+          width="100%"
+          height="320"
+          style={{ border: 0, borderRadius: '0.5rem' }}
+          allowFullScreen
+          loading="lazy"
+          title={`Ubicación de ${negocio.nombre}`}
+          className="w-full min-h-[18rem]"
+        />
       </div>
     </section>
   );

@@ -1,14 +1,14 @@
 {
-  "fecha": "2026-09-27T01:16:51.679Z",
+  "fecha": "2026-09-28T18:01:03.313Z",
   "carpeta": "210-chepebeta",
   "despues": [
     {
       "vista": "escritorio",
       "ancho": 1280,
-      "alto": 7636,
+      "alto": 7514,
       "desbordeX": 0,
       "h1": 1,
-      "imagenes": 13,
+      "imagenes": 12,
       "rotas": [],
       "sinAlt": 0,
       "titulo": "Che Pebeta | Restaurante argentino en Pueblo Serena, Monterrey",
@@ -19,10 +19,10 @@
     {
       "vista": "movil",
       "ancho": 390,
-      "alto": 10674,
+      "alto": 10714,
       "desbordeX": 0,
       "h1": 1,
-      "imagenes": 13,
+      "imagenes": 12,
       "rotas": [],
       "sinAlt": 0,
       "titulo": "Che Pebeta | Restaurante argentino en Pueblo Serena, Monterrey",

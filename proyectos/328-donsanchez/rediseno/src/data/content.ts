@@ -40,6 +40,7 @@ export const negocio = {
   opentable: 'https://www.opentable.com.mx/restref/client/?rid=335539&lang=en-US',
   // Ficha de Google del restaurante (enlace "Don Sanchez Restaurant" del bloque de reseñas del sitio).
   mapa: 'https://maps.google.com/?cid=16682735836891619597',
+  mapaEmbed: 'https://maps.google.com/maps?q=Don%20Sanchez%20Restaurant%2C%20Boulevard%20Antonio%20Mijares%2C%20Centro%2C%20San%20Jos%C3%A9%20del%20Cabo%2C%20B.C.S.%2C%20M%C3%A9xico&t=m&z=10&output=embed&iwloc=near&hl=es_CO',
   resenaGoogle: { calificacion: '4.6', total: '468', url: 'https://maps.google.com/?cid=16682735836891619597' },
   facebook: 'https://www.facebook.com/donsanchez.loscabos',
   instagram: 'https://www.instagram.com/donsanchez.loscabos/',

@@ -1,11 +1,11 @@
 {
-  "fecha": "2026-09-28T03:13:48.259Z",
+  "fecha": "2026-09-28T18:05:16.966Z",
   "carpeta": "624-lacanteraeventos",
   "despues": [
     {
       "vista": "escritorio",
       "ancho": 1280,
-      "alto": 6340,
+      "alto": 6676,
       "desbordeX": 0,
       "h1": 1,
       "imagenes": 24,
@@ -19,7 +19,7 @@
     {
       "vista": "movil",
       "ancho": 390,
-      "alto": 9927,
+      "alto": 10263,
       "desbordeX": 0,
       "h1": 1,
       "imagenes": 24,

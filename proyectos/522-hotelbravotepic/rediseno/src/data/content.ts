@@ -36,6 +36,7 @@ export const hotel = {
   contactoTexto: 'Reservación de habitaciones, tarifas, salones, promociones e información en general.',
   whatsapp: wa(`${saludo} Quisiera información sobre habitaciones en el Hotel Bravo Tepic.`),
   mapa: 'https://www.google.com/maps/search/?api=1&query=Hotel+Bravo+Tepic+Bravo+186+Pte+Centro+Tepic+Nayarit',
+  mapaEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.8124622074365!2d-104.89581928541313!3d21.51506447637515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842736555a039803%3A0x218f31852c9890c!2sHotel%20Bravo%20Tepic!5e0!3m2!1ses!2smx!4v1587811479033!5m2!1ses!2smx',
   logo: f('logo-hotel-bravo', 300, 135, 'Hotel Bravo'),
   lobby: f('lobby', 1600, 1000, 'Lobby del Hotel Bravo: sillones de piel color vino, piso claro, plantas, recepción al fondo y un pasillo con barandal en el piso de arriba'),
 };

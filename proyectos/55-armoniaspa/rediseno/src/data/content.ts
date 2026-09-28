@@ -16,6 +16,7 @@ export const negocio = {
   instagram: 'https://www.instagram.com/armonia_spa30',
   facebook: 'https://www.facebook.com/share/1HsurQztsa/',
   maps: 'https://maps.google.com/?q=Armonía+Spa+Chihuahua',
+  mapaEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.217494728987!2d-98.998674!3d19.4030065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce037fdd54b3a5%3A0x836ace64ebbf312c!2sArmon%C3%ADa%20spa!5e0!3m2!1ses!2smx!4v1760670401275!5m2!1ses!2smx',
 };
 
 export const wa = (mensaje: string) =>

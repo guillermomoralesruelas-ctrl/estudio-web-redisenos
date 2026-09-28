@@ -17,6 +17,7 @@ export const negocio = {
   // Dirección del pie en Inicio, Clases y Catálogo. Gift Card y Membresía dicen Interlomas (pendiente).
   direccion: 'Calle Gral. Felipe Ángeles #22, Col. Lomas del Huizachal, Naucalpan de Juárez, Edo. Méx., C.P. 53840',
   mapa: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Calle Gral. Felipe Ángeles 22, Lomas del Huizachal, 53840 Naucalpan de Juárez, Méx.'),
+  mapaEmbed: 'https://maps.google.com/maps?q=Calle%20Gral.%20Felipe%20Angeles%2C%20Col%20Lomas%20del%20Huizachal%2C%20Naucalpan%20de%20Ju%C3%A1rez%2C%20Edo%20Mex.%20CP%3A53840&t=m&z=10&output=embed&iwloc=near',
   instagram: 'https://www.instagram.com/wellness.kenko',
   facebook: 'https://www.facebook.com/profile.php?id=61569814375033',
   tiktok: 'https://www.tiktok.com/@kenkowellnessmx',

@@ -511,10 +511,22 @@ function Visita() {
             <a href={mail} className="btn-linea">{Icono.correo} {tr(textos.escribenos)}</a>
           </div>
         </div>
-        <a href={negocio.mapa} {...externo} className="group block min-w-0 md:col-span-5" aria-label={tr(textos.mapaAria)}>
-          <div className="aspect-[4/5] overflow-hidden rounded-t-[12rem] border-[6px] border-cal"><Img foto={fotos.alberca} className="transition-transform duration-500 group-hover:scale-[1.03]" /></div>
-          <p className="mt-3 text-[0.95rem] text-tinta">{tr(textos.fotoMapa)}</p>
-        </a>
+        <div className="min-w-0 md:col-span-5 flex flex-col gap-4">
+          <iframe
+            src={negocio.mapaEmbed}
+            width="100%"
+            height="320"
+            style={{ border: 0, borderRadius: '0.75rem' }}
+            allowFullScreen
+            loading="lazy"
+            title={`Ubicación de ${negocio.nombre}`}
+            className="w-full block"
+          />
+          <a href={negocio.mapa} {...externo} className="group block min-w-0" aria-label={tr(textos.mapaAria)}>
+            <div className="aspect-[4/5] overflow-hidden rounded-t-[12rem] border-[6px] border-cal"><Img foto={fotos.alberca} className="transition-transform duration-500 group-hover:scale-[1.03]" /></div>
+            <p className="mt-3 text-[0.95rem] text-tinta">{tr(textos.fotoMapa)}</p>
+          </a>
+        </div>
       </div>
     </section>
   );
