@@ -1,0 +1,15 @@
+# Imágenes disponibles en publicDir (../sitio/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+fotos-index/negocios.jpg	839x826	1463 KB
+fotos-index/fultonhotel-lobby.jpg	900x1232	1335 KB
+terraza_001.jpg	1014x956	1059 KB
+habitacion-doble-delux/doble-delux-01.jpg	839x826	650 KB
+terraza_003.jpg	501x490	286 KB
+terraza_002.jpg	501x492	205 KB
+fotos-index/bares-restaurantes.jpg	360x542	146 KB
+fotos-index/vias-de-acceso.jpg	360x542	133 KB
+fotos-index/aeropuerto-03.jpg	360x542	101 KB
+fotos-index/zona-financiera-03.jpg	360x542	97 KB
+fotos-index/hospitales.jpg	360x542	65 KB
+fulton-logo-d.png	1309x255	14 KB
+fulton-hotel-isotipo.png	256x255	5 KB

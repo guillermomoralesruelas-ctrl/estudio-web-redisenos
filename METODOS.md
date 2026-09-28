@@ -133,6 +133,7 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 
 | 501-holboxtravel | Holbox Travel, Holbox, Quintana Roo (turismo) | 1.2 | Terminado (PC, 2026-09-28) | `/proyectos/501-holboxtravel/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Cards de tour expandibles con WhatsApp directo. Barra fija móvil. Sitio en inglés para turistas internacionales. |
 | 315-discovervallarta | Discover Vallarta (Discover PVR), Puerto Vallarta, Jalisco (turismo) | 1.2 | Terminado (PC, 2026-09-28) | `/proyectos/315-discovervallarta/rediseno/dist/index.html` | Ver `CAMBIOS.md`. IONOS builder → landing con 6 tours expandibles + sección de traslados con precios reales ($39-$60 USD add-ons). Login/Edit de IONOS visible en el footer del original: avisar al cliente. |
+| 435-fultonhotel | Fulton Hotel, Guadalajara, Jalisco (hospedaje) | 1.2 | Terminado (PC, 2026-09-28) | `/proyectos/435-fultonhotel/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Hotel de negocios en la Zona Financiera Sao Paulo. Multipágina PHP → landing: 4 habitaciones en grid, Sala de Juntas + Starbucks + Rooftop en acordeones, ubicación con 4 puntos + fotos, CTA Cloudbeds + WhatsApp. Sin precios publicados en el original: solo botón de reserva. |
 
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 

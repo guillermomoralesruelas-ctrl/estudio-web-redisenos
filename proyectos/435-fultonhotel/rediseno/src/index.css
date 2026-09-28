@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fondo: #f8f7f4;
+  --color-panel: #ffffff;
+  --color-oscuro: #1a1a2e;
+  --color-tinta: #2d2d3a;
+  --color-suave: #5a5a72;
+  --color-acento: #b8965a;
+  --color-acento-2: #d4aa70;
+  --color-arena: #f5f0e8;
+  --font-sans: "Source Sans 3", system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3 { font-family: var(--font-serif); text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-acento); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-wa { @apply inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 font-semibold text-white shadow-md transition hover:bg-[#1ebe5a] active:scale-95; }
+  .btn-acento { @apply inline-flex items-center gap-2 rounded-full bg-[--color-acento] px-5 py-3 font-semibold text-white shadow-md transition hover:bg-[--color-acento-2] active:scale-95; }
+  .btn-oscuro { @apply inline-flex items-center gap-2 rounded-full bg-[--color-oscuro] px-5 py-3 font-semibold text-white shadow-md transition hover:opacity-90 active:scale-95; }
+}
