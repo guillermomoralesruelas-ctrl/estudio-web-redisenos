@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Tokens del Hotel Soleil: el café oscuro y la madera de sus habitaciones, el gris de su logo y un naranja de sol
+   para lo que se elige. */
+@theme {
+  --color-cafe: #2b2320;
+  --color-sol: #b24d14;
+  --color-durazno: #f0b27a;
+  --color-arena: #f5efe8;
+  --color-bruma: #e4ddd6;
+  --color-gris: #5b5552;
+  --color-piedra: #c9bfb6;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+  --font-titulo: "Jost Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-cafe font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-sol); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .titulo { @apply font-titulo font-semibold leading-[1.05] tracking-[-0.01em]; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+}
