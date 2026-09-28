@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "@fontsource/playfair-display/latin-700.css";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-600.css";
+
+@theme {
+  --color-fondo:  #f0f4f3;
+  --color-tinta:  #0d1f1a;
+  --color-acento: #1a6b47;
+  --color-agua:   #0b7b8a;
+  --color-arena:  #c4935a;
+  --color-noche:  #0a1628;
+  --font-sans:    "Inter", "Segoe UI", sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; font-family: var(--font-display); }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-acento); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-acento px-6 py-3 text-sm font-semibold text-white
+           transition-colors duration-200 hover:bg-[#145938] focus-visible:ring-2 focus-visible:ring-acento;
+  }
+  .btn-wa {
+    @apply inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white
+           transition-colors duration-200 hover:bg-[#1eb359] focus-visible:ring-2 focus-visible:ring-[#25D366];
+  }
+  .tag {
+    @apply inline-block rounded-full bg-acento/10 px-3 py-1 text-xs font-semibold text-acento;
+  }
+}

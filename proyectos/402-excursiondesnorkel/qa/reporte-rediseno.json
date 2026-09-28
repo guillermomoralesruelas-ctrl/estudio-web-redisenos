@@ -1,0 +1,36 @@
+{
+  "fecha": "2026-09-28T01:46:28.933Z",
+  "carpeta": "402-excursiondesnorkel",
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5814,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 19,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Eco Adventures Puerto Escondido | Tours, Bioluminescence & Sea Turtles",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 11608,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 19,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Eco Adventures Puerto Escondido | Tours, Bioluminescence & Sea Turtles",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
