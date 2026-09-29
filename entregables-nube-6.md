@@ -24,6 +24,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-3.md`, trabajados uno por uno con el m�
 | 18 | 649-lebenarquitectos | Descartado, `sin-fotos` | d7bfa99c | — (nueve capturas de pantalla de fotos de banco; "Proyectos" vacío) | — | — | Un despacho de arquitectura sin una sola obra propia en su sitio | Fotos de sus obras, WhatsApp |
 | 19 | 143-cancuncatamaranes | Terminado (inglés) | eb209699 | 0 problemas; 6,732 / 12,684 px | "How many are coming aboard?": de 2 a 100 personas, la flota a escala con los barcos que caben, los tours y el transporte desde el hotel | MEDIA | Docking fee de $20 escondido en /deals; seis H1; tabla de transporte con precios al revés | Docking fee en todos los tours, tarifas de Puerto Aventuras y Akumal, barco de cada tour |
 | 20 | 250-colegiobanting | Terminado | e6e970e4 | 0 problemas; 5,780 / 10,072 px | "¿A qué hora pasas por él?": nivel y hora de recogida, con la jornada y el horario extendido en una franja de 6:30 a 19:00 | ALTA | Retratos de testimonios hechos con IA marcados "verified"; foto de papá como "Madre de familia" | Costos por nivel, costo del extendido, fotos reales de familias |
+| 21 | 578-institutosuperiormariano | Descartado, `cadena` | (este commit) | — (18 escuelas en seis países; fotos de banco) | — | — | Red internacional; la base apunta al subdominio `mail.` | — |
 
 ## En curso
 
