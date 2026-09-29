@@ -11,7 +11,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 5 | 107-bellezalatina | Descartado, `pocas-fotos` | 2f44004a | — (héroes hechos con IA, retratos de 256 px; 4 sucursales) | — | — | — |
 | 9 | 176-casapitic | Terminado (1.2 en la nube; antes pendiente en 13261445) | 1ee22380 | 0 problemas; 4,063 / 5,894 px | "¿Arriba o abajo?": corte de la casa con una planta por suite y precio por noches | BAJA | Cotizador sin disponibilidad; sin tarifas cortas; fotos con "Watermark Remover" |
 | 10 | 204-cervusbarberia | Terminado (1.2 en la nube; antes pendiente en 2a113ad7) | 335ed858 | 0 problemas; 4,225 / 6,686 px | "¿Cuánto tiempo tienes?": botones de minutos que activan los servicios que caben | MEDIA | Sin WhatsApp; tendencias con fotos de IA; solo tres fotos propias |
-| 11 | 217-cincodoscinco | Terminado (1.2 en la nube; antes pendiente en a793c721) | (este commit) | 0 problemas; 4,804 / 5,866 px | "¿Desde dónde empiezas?": pizarrón del WOD que dice cuánto pagas hoy | MEDIA | Correo con enlace a "youremail@email.com"; textos de plantilla en inglés |
+| 11 | 217-cincodoscinco | Terminado (1.2 en la nube; antes pendiente en a793c721) | c726b5cd | 0 problemas; 4,804 / 5,866 px | "¿Desde dónde empiezas?": pizarrón del WOD que dice cuánto pagas hoy | MEDIA | Correo con enlace a "youremail@email.com"; textos de plantilla en inglés |
 | 14 | 249-cognitiomexico | Pendiente (fotos en servidor bloqueado para la nube) | bfad0b42 | — (Zyro: fotos en assets.zyrosite.com) | — | — | — |
 | 15 | 259-corefisioterapia | Pendiente (fotos en servidor bloqueado para la nube) | 28360ec5 | — (Zyro: fotos en assets.zyrosite.com) | — | — | — |
 | 18 | 306-dermatologiamx | Descartado, `pocas-fotos` | b6c568b2 | — (2 retratos; tratamientos en /images/generated/ y de banco) | — | — | — |
@@ -28,4 +28,4 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 
 ## En curso
 
-Ninguno.
+249-cognitiomexico (método 1.2 en la nube).
