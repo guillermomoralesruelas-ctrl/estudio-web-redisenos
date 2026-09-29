@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Bitter (títulos) y Source Sans 3 (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Bitter"; src: url("../node_modules/@fontsource/bitter/files/bitter-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url("../node_modules/@fontsource/source-sans-3/files/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url("../node_modules/@fontsource/source-sans-3/files/source-sans-3-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: selva, cal, jaguar, ocre, musgo y jade (la selva de Palenque y el jaguar de su logo).
+   Contrastes: selva sobre cal 12.16, blanco sobre jaguar 7.57, ocre sobre selva 6.22, jaguar sobre cal 6.72,
+   musgo sobre cal 5.82, jade sobre cal 5.38, cal sobre selva 12.16, selva sobre ocre 6.22. */
+@theme {
+  --color-selva: #12332a;
+  --color-cal: #f6f1e6;
+  --color-jaguar: #9b2c1f;
+  --color-ocre: #e0a43a;
+  --color-musgo: #5a5f55;
+  --color-jade: #1f6f55;
+  --font-display: "Bitter", Georgia, serif;
+  --font-sans: "Source Sans 3", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-cal text-selva font-sans antialiased; font-size: 1.07rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display text-selva; font-weight: 800; line-height: 1.06; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-selva text-cal/85; }
+  .oscuro h1, .oscuro h2 { @apply text-cal; }
+  :focus-visible { outline: 3px solid var(--color-jaguar); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-ocre); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-jaguar text-white hover:bg-selva; }
+  .btn-linea { @apply border-2 border-selva/30 text-selva hover:border-selva; }
+  .btn-claro { @apply border-2 border-cal/40 text-cal hover:border-cal; }
+  .enlace { @apply font-bold text-jaguar underline decoration-1 underline-offset-4 hover:text-selva; }
+}

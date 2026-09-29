@@ -1,0 +1,90 @@
+{
+  "fecha": "2026-09-29T05:21:44.754Z",
+  "carpeta": "183-canondelsumidero",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5915,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 16,
+      "rotas": [
+        "https://www.google.com/images/branding/product/2x/maps_96in128dp.png",
+        "https://upload.wikimedia.org/wikipedia/commons/4/45/GetYourGuide_logo.png"
+      ],
+      "sinAlt": 0,
+      "titulo": "Tours en Palenque y Chiapas | Kichan Bajlum",
+      "errores": [
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 11248,
+      "desbordeX": 4,
+      "h1": 1,
+      "imagenes": 16,
+      "rotas": [
+        "https://www.google.com/images/branding/product/2x/maps_96in128dp.png",
+        "https://upload.wikimedia.org/wikipedia/commons/4/45/GetYourGuide_logo.png"
+      ],
+      "sinAlt": 0,
+      "titulo": "Tours en Palenque y Chiapas | Kichan Bajlum",
+      "errores": [
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5101,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Kichan Bajlum | Tours desde Palenque, Chiapas",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7047,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Kichan Bajlum | Tours desde Palenque, Chiapas",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

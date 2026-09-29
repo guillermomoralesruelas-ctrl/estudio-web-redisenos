@@ -26,7 +26,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-3.md`, trabajados uno por uno con el m�
 | 20 | 250-colegiobanting | Terminado | e6e970e4 | 0 problemas; 5,780 / 10,072 px | "¿A qué hora pasas por él?": nivel y hora de recogida, con la jornada y el horario extendido en una franja de 6:30 a 19:00 | ALTA | Retratos de testimonios hechos con IA marcados "verified"; foto de papá como "Madre de familia" | Costos por nivel, costo del extendido, fotos reales de familias |
 | 21 | 578-institutosuperiormariano | Descartado, `cadena` | 5e531203 | — (18 escuelas en seis países; fotos de banco) | — | — | Red internacional; la base apunta al subdominio `mail.` | — |
 | 22 | 411-ferrex | Descartado, `sin-fotos` | 478a1a5b | — (solo catálogo de materiales, ilustraciones y logos) | — | — | Ninguna foto de su patio, tienda o reparto; sin WhatsApp | Fotos propias, WhatsApp |
-| 23 | 584-ismmexicosalsa | Terminado (inglés) | (este commit) | 0 problemas; 4,656 / 7,787 px | "How long are you in Mexico City?": cuatro boletos con el plan, precio y WhatsApp de cada estancia | MEDIA | Dos direcciones y dos WhatsApp; testimonios de plantilla; fechas sin año | Dirección y WhatsApp correctos, próximo curso, nombres del equipo |
+| 23 | 584-ismmexicosalsa | Terminado (inglés) | 28d04683 | 0 problemas; 4,656 / 7,787 px | "How long are you in Mexico City?": cuatro boletos con el plan, precio y WhatsApp de cada estancia | MEDIA | Dos direcciones y dos WhatsApp; testimonios de plantilla; fechas sin año | Dirección y WhatsApp correctos, próximo curso, nombres del equipo |
+| 24 | 183-canondelsumidero | Terminado (Kichan Bajlum, Palenque) | (este commit) | 0 problemas; 5,101 / 7,047 px | "¿Qué quieres ver desde Palenque?": mapa esquemático que filtra los 23 tours y dibuja la ruta del elegido | ALTA | Los 27 WhatsApp de /tours/Palenque sin el 52 | Número de WhatsApp, tours desde San Cristóbal, dirección |
 
 ## En curso
 
