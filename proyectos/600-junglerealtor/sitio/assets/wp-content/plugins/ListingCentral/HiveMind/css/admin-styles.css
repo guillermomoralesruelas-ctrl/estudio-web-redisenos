@@ -1,0 +1,388 @@
+.toplevel_page_ll_syncs  .hivemind-page {
+
+    padding: 4rem 0;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-top: 0;
+}
+
+
+
+.hivemind-page h1 {
+
+    padding-top: 2rem;
+
+}
+
+
+
+.hivemind-form {
+
+    background-color: #f9f9f9;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    overflow: auto; /* Ensures the form wraps elements correctly */
+
+}
+#filterForm {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+
+.hivemind-form label, 
+
+.hivemind-form select, 
+
+.hivemind-form input[type="text"], 
+
+.hivemind-form input[type="submit"] {
+
+    display: inline-block; /* Makes elements line up horizontally */
+
+    margin-right: 10px; /* Adds some space between the elements */
+
+    vertical-align: middle; /* Aligns elements vertically */
+
+}
+
+
+
+.hivemind-form label {
+
+    font-weight: bold;
+
+}
+
+
+
+.hivemind-form select, 
+
+.hivemind-form input[type="text"] {
+
+    width: auto;
+    padding: 4px 25px 4px 5px;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+
+}
+
+
+
+.hivemind-form input[type="submit"], #resetButton {
+
+    background-color: #007bff;
+
+
+}
+#resetButton {
+
+    background-color: #ff2600;
+
+
+}
+
+.hivemind-form input[type="submit"], #resetButton {
+
+    color: white;
+
+    /*padding: 10px 20px;*/
+
+    border: none;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+}
+
+
+
+.hivemind-form input[type="submit"]:hover {
+
+    background-color: #0056b3;
+
+}
+
+
+
+/* Styles for .hivemind-table table */
+
+.hivemind-table table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+
+    background-color: #fff;
+
+    margin-bottom: 2rem;
+
+}
+
+
+
+.hivemind-table th, 
+
+.hivemind-table td {
+
+    text-align: left;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+}
+
+
+
+.hivemind-table th {
+
+    background-color: #007bff;
+
+    color: white;
+
+}
+
+
+
+.hivemind-table tr:nth-child(even) {
+
+    background-color: #f2f2f2;
+
+}
+
+
+
+.hivemind-table tr:hover {
+
+    background-color: #ddd;
+
+}
+
+
+
+.hivemind-table td {
+
+    font-size: 0.9rem;
+
+}
+
+
+
+/* Specific styles for .hivemind-table submit button */
+
+.hivemind-table input[type="submit"] {
+
+    background-color: #28a745; /* A green color, change as needed */
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    margin-right: 10px;
+
+}
+
+
+
+.hivemind-table input[type="submit"]:hover {
+
+    background-color: #218838; /* Darker green on hover */
+
+}
+
+
+
+
+
+
+
+
+
+/* Admin column Shareable button */
+
+
+
+.toggle-featured, .toggle-shareable  {
+
+
+
+    width: 70px;
+
+
+
+    padding: 5px;
+
+
+
+}
+
+
+
+.featured-toggle-yes, .shareable-toggle-yes {
+
+
+
+    background-color: green;
+
+
+
+    color: #fff;
+
+
+
+    border: green;
+
+
+
+    border-radius: 2px;
+
+
+
+}
+
+
+
+#view-synced {
+
+    color: #fc7b1f;
+
+    border-color: #fc7b1f;
+
+}
+
+
+
+/* General button styles for sync actions */
+
+.sync-button {
+
+    width: 120px;
+
+    height: 36px;
+
+    line-height: 36px;
+
+    display: inline-block;
+
+    border-radius: 4px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    color: white !important;
+
+    border: none;
+
+    cursor: pointer;
+
+    margin: 5px;
+
+}
+
+
+
+/* Override the default disabled styles */
+
+.sync-button:disabled,
+
+.sync-button[disabled] {
+
+    opacity: 0.6 !important;
+
+    pointer-events: none;
+
+    cursor: not-allowed !important;
+
+    color: #6c757d !important;
+
+    background-color: #e9ecef !important;
+
+    display: none;
+
+}
+
+
+
+/* Color coding for specific sync button actions */
+
+.action-sync[data-action="request-sync"] {
+
+    background-color: #007bff !important; /* Blue for Request Sync */
+
+}
+
+
+
+.action-sync[data-action="accept"] {
+
+    background-color: #28a745 !important; /* Green for Accept */
+
+}
+
+
+
+.action-sync[data-action="disabled"] {
+
+    background-color: #28a745 !important; /* Green for Synced */
+
+}
+
+
+
+.action-unsync[data-action="cancel"] {
+
+    background-color: #dc3545 !important; /* Red for Cancel */
+
+}
+
+
+
+.action-unsync[data-action="unsync"] {
+
+    background-color: #dc3545 !important; /* Red for Unsync */
+
+}
+
+
+
+.action-sync[data-action="pending"] {
+
+    background-color: #fc7b1f !important; /* Orange for Pending */
+
+}
+
+
+
+/* Hover effect to provide visual feedback */
+
+.sync-button:not(:disabled):hover {
+
+    opacity: 0.9; /* Slightly dim the button on hover */
+
+}
+
+/* Dashboard incon */
+#toplevel_page_ll_syncs div.wp-menu-image:before {
+    color: #fc7b1f;
+}

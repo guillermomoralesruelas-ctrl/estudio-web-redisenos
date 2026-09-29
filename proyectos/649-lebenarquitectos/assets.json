@@ -1,0 +1,19 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://lebenarq.com/wp-content/uploads/2020/11/logoRecurso-4.png",
+      "archivo": "logoRecurso-4.png",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lebenarq.com/wp-content/uploads/2020/11/23423Recurso-6.png",
+      "archivo": "23423Recurso-6.png",
+      "alt": "Image 3"
+    }
+  ]
+}

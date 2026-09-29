@@ -1,0 +1,23 @@
+{
+  "sitio": "https://www.kitesurfmexico.com/",
+  "fecha": "2026-09-26T09:10:41.109Z",
+  "motor": "jina-reader",
+  "slug": "kitesurfmexico",
+  "nombre": "Kitesurf México",
+  "rubro": "TURISMO",
+  "ciudad": "Cancún, Quintana Roo",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.kitesurfmexico.com/",
+      "titulo": "Robot Challenge Screen"
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": [],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": []
+}

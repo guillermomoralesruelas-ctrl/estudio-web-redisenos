@@ -1,0 +1,151 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/images/testimonials/madre-valores.jpg",
+      "archivo": "madre-valores.jpg",
+      "alt": "Image 3: Madre de familia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/images/testimonials/padre-seguridad.jpg",
+      "archivo": "padre-seguridad.jpg",
+      "alt": "Image 4: Padre de familia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/images/testimonials/padre-integral.jpg",
+      "archivo": "padre-integral.jpg",
+      "alt": "Image 5: Madre de familia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://img.youtube.com/vi/Daxp_u3Y9oc/maxresdefault.jpg",
+      "archivo": "maxresdefault.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://img.youtube.com/vi/BAvtLs_OdXA/maxresdefault.jpg",
+      "archivo": "maxresdefault.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://img.youtube.com/vi/BPsNOk47zJs/maxresdefault.jpg",
+      "archivo": "maxresdefault.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://img.youtube.com/vi/e6w3UxUxhWw/maxresdefault.jpg",
+      "archivo": "maxresdefault.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/_astro/comedor.BbF_OKlI_Z1rj9Ac.webp",
+      "archivo": "comedor.BbF_OKlI_Z1rj9Ac.webp",
+      "alt": "Image 10: Niños disfrutando un almuerzo saludable en el comedor de Colegio Banting"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/_astro/horario-extendido.Bhk-QYR0_ZrdKPl.webp",
+      "archivo": "horario-extendido.Bhk-QYR0_ZrdKPl.webp",
+      "alt": "Image 11: Alumno de Colegio Banting durante el horario extendido en Coyoacán"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/_astro/talleres-extracurriculares.J4G2kMYp_Z1uMKFs.webp",
+      "archivo": "talleres-extracurriculares.J4G2kMYp_Z1uMKFs.webp",
+      "alt": "Image 12: Alumnos de Colegio Banting en talleres extracurriculares"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://img.youtube.com/vi/2KbysYo0nko/maxresdefault.jpg",
+      "archivo": "maxresdefault.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/_astro/seguridad-acceso.Ce3SY_et_Z1W0KjF.webp",
+      "archivo": "seguridad-acceso.Ce3SY_et_Z1W0KjF.webp",
+      "alt": "Image 14: Tarjeta Kigo School Access con código QR para control de ingreso y salida de alumnos en Colegio Banting"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/_astro/seguridad-bullying.Dg57vJBV_25jKcD.webp",
+      "archivo": "seguridad-bullying.Dg57vJBV_25jKcD.webp",
+      "alt": "Image 15: Alumna de Colegio Banting con letrero Cero Tolerancia al Bullying, programa de psicopedagogía preventiva"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/_astro/seguridad-seguro.B52CCz39_11uRzW.webp",
+      "archivo": "seguridad-seguro.B52CCz39_11uRzW.webp",
+      "alt": "Image 16: Alumnas de Colegio Banting protegidas con seguro escolar integral contra accidentes y convenio con clínicas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCztBIpvQnFsziWD7ZtSbdSWYQU4KDEINWaGT8blCU3gylm3ryd5dQW-T6nQVab7gvmrcTZlpb2b4E5qC4bLQJXHzB1zcOTJoguggTrz8fAIMWKrG73FIQ5ikOXR-VHX8wZYXeiiqsnz49iNEbWUM6sHluW1kye3cZ8RmSyx7L3hXZhWReXxCZHqkCfpAd_okIacw_yn2FE_MMBtuocYZv8b0GvXY4s5jSGj8tn2AyiYrdMtJK4SGo-jqBAdZ7XypzZWkzXoQ54c-SG",
+      "archivo": "AB6AXuCztBIpvQnFsziWD7ZtSbdSWYQU4KDEINWaGT8blCU3gylm3ryd5dQW-T6nQVab7gvmrcTZlpb2b4E5qC4bLQJXHzB1zcOTJoguggTrz8fAIMWKrG73FIQ5ikOXR-VHX8wZYXeiiqsnz49iNEbWUM6sHluW1kye3cZ8RmSyx7L3hXZhWReXxCZHqkCfpAd_okIacw_yn2FE_MMBtuocYZv8b0GvXY4s5jSGj8tn2AyiYrdMtJK4SGo-jqBAdZ7XypzZWkzXoQ54c-SG",
+      "alt": "Image 17: Google Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/_astro/chromebook-program.C4xNYV6P_ZcV87X.webp",
+      "archivo": "chromebook-program.C4xNYV6P_ZcV87X.webp",
+      "alt": "Image 18: Alumno trabajando con tecnología en Colegio Banting"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://img.youtube.com/vi/9UpmwhXlCnI/maxresdefault.jpg",
+      "archivo": "maxresdefault.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/images/testimonials/madre-tecnologia.jpg",
+      "archivo": "madre-tecnologia.jpg",
+      "alt": "Image 23: Madre de familia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/images/testimonials/familia-valor.jpg",
+      "archivo": "familia-valor.jpg",
+      "alt": "Image 24: Padre de familia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/images/testimonials/madre-valores-ai.jpg",
+      "archivo": "madre-valores-ai.jpg",
+      "alt": "Image 25: Madre de familia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.colegiobanting.edu.mx/images/testimonials/padre-horarios-ai.jpg",
+      "archivo": "padre-horarios-ai.jpg",
+      "alt": "Image 26: Padre de familia"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://img.youtube.com/vi/76EkTdqpOHs/maxresdefault.jpg",
+      "archivo": "maxresdefault.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://img.youtube.com/vi/WqIJwDShaBE/maxresdefault.jpg",
+      "archivo": "maxresdefault.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://img.youtube.com/vi/rtoLFpJM5vo/maxresdefault.jpg",
+      "archivo": "maxresdefault.jpg",
+      "alt": "Image 4"
+    }
+  ]
+}

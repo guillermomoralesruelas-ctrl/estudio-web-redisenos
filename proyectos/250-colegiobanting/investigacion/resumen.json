@@ -1,0 +1,153 @@
+{
+  "sitio": "https://www.colegiobanting.edu.mx/",
+  "fecha": "2026-09-26T06:35:19.151Z",
+  "motor": "jina-reader",
+  "slug": "colegiobanting",
+  "nombre": "Colegio Banting",
+  "rubro": "EDUCACION",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "educacion",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.colegiobanting.edu.mx/",
+      "titulo": "Colegio Banting — Donde llega feliz y sale preparado | Coyoacán, CDMX"
+    },
+    {
+      "url": "https://www.colegiobanting.edu.mx/nosotros",
+      "titulo": "Nuestra Historia — Una escuela que nació para hacer bien las cosas | Colegio Banting"
+    },
+    {
+      "url": "https://www.colegiobanting.edu.mx/equipo",
+      "titulo": "Nuestro Equipo — Las personas que hacen posible Banting | Colegio Banting"
+    },
+    {
+      "url": "https://www.colegiobanting.edu.mx/comunidad",
+      "titulo": "Nuestra Comunidad | Colegio Banting"
+    },
+    {
+      "url": "https://www.colegiobanting.edu.mx/modelo-educativo",
+      "titulo": "Modelo Educativo | Colegio Banting"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "2026-2027",
+      "525575839898",
+      "+525575839898"
+    ],
+    "emails": [
+      "admisiones@colegiobanting.edu.mx",
+      "empleos@colegiobanting.edu.mx"
+    ],
+    "whatsapp": [
+      "wa.me/525575839898?text=Hola%2C%20quiero%20informes%20de%20Colegio%20Banting",
+      "wa.me/525575839898?text=Hola%2C%20quiero%20agendar%20una%20visita%20a%20Colegio%20Banting)[Llamar",
+      "wa.me/525575839898?text=Hola%2C%20quiero%20informes%20de%20Colegio%20Banting)",
+      "wa.me/525575839898?text=Hola%2C%20quiero%20informes%20de%20Colegio%20Banting)[Conocer"
+    ],
+    "redes": [
+      "https://www.facebook.com/CentrodeFormacionEscolarBanting",
+      "https://www.instagram.com/colegiobanting",
+      "https://www.linkedin.com/company/bantingschools",
+      "https://www.instagram.com/colegiobanting/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.colegiobanting.edu.mx/images/testimonials/madre-valores.jpg",
+      "alt": "Image 3: Madre de familia"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/images/testimonials/padre-seguridad.jpg",
+      "alt": "Image 4: Padre de familia"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/images/testimonials/padre-integral.jpg",
+      "alt": "Image 5: Madre de familia"
+    },
+    {
+      "src": "https://img.youtube.com/vi/Daxp_u3Y9oc/maxresdefault.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://img.youtube.com/vi/BAvtLs_OdXA/maxresdefault.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://img.youtube.com/vi/BPsNOk47zJs/maxresdefault.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://img.youtube.com/vi/e6w3UxUxhWw/maxresdefault.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/_astro/comedor.BbF_OKlI_Z1rj9Ac.webp",
+      "alt": "Image 10: Niños disfrutando un almuerzo saludable en el comedor de Colegio Banting"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/_astro/horario-extendido.Bhk-QYR0_ZrdKPl.webp",
+      "alt": "Image 11: Alumno de Colegio Banting durante el horario extendido en Coyoacán"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/_astro/talleres-extracurriculares.J4G2kMYp_Z1uMKFs.webp",
+      "alt": "Image 12: Alumnos de Colegio Banting en talleres extracurriculares"
+    },
+    {
+      "src": "https://img.youtube.com/vi/2KbysYo0nko/maxresdefault.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/_astro/seguridad-acceso.Ce3SY_et_Z1W0KjF.webp",
+      "alt": "Image 14: Tarjeta Kigo School Access con código QR para control de ingreso y salida de alumnos en Colegio Banting"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/_astro/seguridad-bullying.Dg57vJBV_25jKcD.webp",
+      "alt": "Image 15: Alumna de Colegio Banting con letrero Cero Tolerancia al Bullying, programa de psicopedagogía preventiva"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/_astro/seguridad-seguro.B52CCz39_11uRzW.webp",
+      "alt": "Image 16: Alumnas de Colegio Banting protegidas con seguro escolar integral contra accidentes y convenio con clínicas"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuCztBIpvQnFsziWD7ZtSbdSWYQU4KDEINWaGT8blCU3gylm3ryd5dQW-T6nQVab7gvmrcTZlpb2b4E5qC4bLQJXHzB1zcOTJoguggTrz8fAIMWKrG73FIQ5ikOXR-VHX8wZYXeiiqsnz49iNEbWUM6sHluW1kye3cZ8RmSyx7L3hXZhWReXxCZHqkCfpAd_okIacw_yn2FE_MMBtuocYZv8b0GvXY4s5jSGj8tn2AyiYrdMtJK4SGo-jqBAdZ7XypzZWkzXoQ54c-SG",
+      "alt": "Image 17: Google Logo"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/_astro/chromebook-program.C4xNYV6P_ZcV87X.webp",
+      "alt": "Image 18: Alumno trabajando con tecnología en Colegio Banting"
+    },
+    {
+      "src": "https://img.youtube.com/vi/9UpmwhXlCnI/maxresdefault.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/images/testimonials/madre-tecnologia.jpg",
+      "alt": "Image 23: Madre de familia"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/images/testimonials/familia-valor.jpg",
+      "alt": "Image 24: Padre de familia"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/images/testimonials/madre-valores-ai.jpg",
+      "alt": "Image 25: Madre de familia"
+    },
+    {
+      "src": "https://www.colegiobanting.edu.mx/images/testimonials/padre-horarios-ai.jpg",
+      "alt": "Image 26: Padre de familia"
+    },
+    {
+      "src": "https://img.youtube.com/vi/76EkTdqpOHs/maxresdefault.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://img.youtube.com/vi/WqIJwDShaBE/maxresdefault.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://img.youtube.com/vi/rtoLFpJM5vo/maxresdefault.jpg",
+      "alt": "Image 4"
+    }
+  ]
+}

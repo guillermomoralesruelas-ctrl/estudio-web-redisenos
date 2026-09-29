@@ -1,0 +1,181 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/hero/20260401_b921775651b5e150.jpg",
+      "archivo": "20260401_b921775651b5e150.jpg",
+      "alt": "Image 1: Fun-filled floating oasis in Isla Mujeres turquoise waters"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/hero/20260401_dff772058012595e.jpg",
+      "archivo": "20260401_dff772058012595e.jpg",
+      "alt": "Image 2: We take care of your decoration needs for special events"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/hero/20260401_5798f3d8cbc7cfd0.jpg",
+      "archivo": "20260401_5798f3d8cbc7cfd0.jpg",
+      "alt": "Image 3: Luxury Catamaran Tours in Cancun"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/tours/20260401_10139c2cde9b30af.jpg",
+      "archivo": "20260401_10139c2cde9b30af.jpg",
+      "alt": "Image 4: Catamaran tour to Isla Mujeres"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/tours/20260507_952fc06994ef35ef.jpg",
+      "archivo": "20260507_952fc06994ef35ef.jpg",
+      "alt": "Image 5: Sunset Private Experience"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/tours/20260617_ec9ab759dd823e61.jpg",
+      "archivo": "20260617_ec9ab759dd823e61.jpg",
+      "alt": "Image 6: Party Tour"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/tours/20260617_5d730b1e218d1092.jpg",
+      "archivo": "20260617_5d730b1e218d1092.jpg",
+      "alt": "Image 7: Birthday Tour"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/settings/20260617_225945_img-20260410-wa0092.jpg",
+      "archivo": "20260617_225945_img-20260410-wa0092.jpg",
+      "alt": "Image 8: Caribbean sea catamaran"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/tours/20260617_e589c90b958059c0.jpg",
+      "archivo": "20260617_e589c90b958059c0.jpg",
+      "alt": "Image 5: Isla Mujeres Private Tour"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260401_1cb29ee8d8fe2196.jpg",
+      "archivo": "20260401_1cb29ee8d8fe2196.jpg",
+      "alt": "Image 1: 36ft MAR"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260415_248ff1c84a3a6ef4.jpg",
+      "archivo": "20260415_248ff1c84a3a6ef4.jpg",
+      "alt": "Image 2: 37ft OH LALA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260401_e96eec4ca63c9cae.jpg",
+      "archivo": "20260401_e96eec4ca63c9cae.jpg",
+      "alt": "Image 3: 37ft LADY ESTHER"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260401_37bc43db858efb5a.jpg",
+      "archivo": "20260401_37bc43db858efb5a.jpg",
+      "alt": "Image 4: 37ft ALETA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260401_586d350c6654c851.jpg",
+      "archivo": "20260401_586d350c6654c851.jpg",
+      "alt": "Image 5: 40ft ATA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260414_42d1516b519d7dec.jpg",
+      "archivo": "20260414_42d1516b519d7dec.jpg",
+      "alt": "Image 6: 40ft KENDO"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260415_4334563d760b9c48.jpg",
+      "archivo": "20260415_4334563d760b9c48.jpg",
+      "alt": "Image 7: 40ft MANGO"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260415_e1e54d9f16845a11.jpg",
+      "archivo": "20260415_e1e54d9f16845a11.jpg",
+      "alt": "Image 8: 40ft MALUBE"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260415_d6703b77d90faf27.jpg",
+      "archivo": "20260415_d6703b77d90faf27.jpg",
+      "alt": "Image 9: 40ft PACHANGA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260415_3e7313efdcff4458.jpg",
+      "archivo": "20260415_3e7313efdcff4458.jpg",
+      "alt": "Image 10: 40ft KHAYA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260401_28a7569fb8867b74.jpg",
+      "archivo": "20260401_28a7569fb8867b74.jpg",
+      "alt": "Image 11: 40ft SUPERCAT"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260415_3fbcfdbc05ed8a54.jpg",
+      "archivo": "20260415_3fbcfdbc05ed8a54.jpg",
+      "alt": "Image 12: 42ft ISLA MORADA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260330_87df0e54dc39d0fb.jpg",
+      "archivo": "20260330_87df0e54dc39d0fb.jpg",
+      "alt": "Image 13: 42ft MYDAS"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260331_95295b49b791ac28.jpg",
+      "archivo": "20260331_95295b49b791ac28.jpg",
+      "alt": "Image 14: 45ft SAMBA 1 - 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260415_1147b137adf5b438.jpg",
+      "archivo": "20260415_1147b137adf5b438.jpg",
+      "alt": "Image 15: 50ft SAMBA 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260401_a2faa514e985413c.jpg",
+      "archivo": "20260401_a2faa514e985413c.jpg",
+      "alt": "Image 16: 55ft LADY LAURA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260401_8e82daf07a0bbe9b.jpg",
+      "archivo": "20260401_8e82daf07a0bbe9b.jpg",
+      "alt": "Image 17: 60ft PALOMA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260415_e7f6205764578020.jpg",
+      "archivo": "20260415_e7f6205764578020.jpg",
+      "alt": "Image 18: 82ft AMAZING"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260415_9bd7642ae537c852.jpg",
+      "archivo": "20260415_9bd7642ae537c852.jpg",
+      "alt": "Image 19: 75ft INDUNA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancuncatamarans.mx/uploads/fleet/20260401_850d2749f9eec3e2.jpg",
+      "archivo": "20260401_850d2749f9eec3e2.jpg",
+      "alt": "Image 20: 78ft SAMBA 3"
+    }
+  ]
+}

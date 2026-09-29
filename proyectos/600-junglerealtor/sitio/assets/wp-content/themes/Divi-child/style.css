@@ -1,0 +1,185 @@
+/*
+
+
+
+ Theme Name:     Above Media
+
+
+
+ Theme URI:      https://www.abovemedia.ca
+
+
+
+ Description:    Divi Child Theme
+
+
+
+ Author:         Above Media
+
+
+
+ Author URI:     https://www.abovemedia.com
+
+
+
+ Template:       Divi
+
+
+
+ Version:        1.1.2
+
+
+
+*/
+
+
+
+ 
+
+
+
+@import url("../Divi/style.css");
+
+
+
+ 
+
+
+
+/* =Theme customization starts here
+
+
+
+------------------------------------------------------- */
+
+
+
+
+
+
+
+#et-info-phone {
+
+
+
+    margin-right: 0;
+
+
+
+}
+
+
+
+.et-info-phone {
+
+
+
+    margin-right: 6px;
+
+
+
+}
+
+
+
+.et-info-phone, #et-info-email {
+
+
+
+    position: relative;
+
+
+
+}
+
+
+
+
+
+
+
+.et-social-yt a.icon:before {
+
+
+
+    content: "\E0A3"
+
+
+
+}
+
+
+
+
+
+
+
+.et-social-in a.icon:before {
+
+
+
+    content: "\E09D"
+
+
+
+}
+
+.et-social-tt a.icon:before {
+
+    content: "\e07b";
+
+    font-family: FontAwesome!important;
+
+
+
+}
+
+
+
+#et-info {
+
+
+
+    width: 100%;
+
+
+
+}
+
+
+
+#top-header .et-social-icons {
+
+
+
+    float: right;
+
+
+
+}
+
+
+
+#footer-bottom p {
+
+
+
+    text-align: center;
+
+    color:#666666;
+
+}
+
+
+
+#footer-bottom {
+
+    background-color: #1f1f1f;
+
+    /*background-color: rgba(0,0,0,0.32);*/
+
+    padding: 15px 0 5px;
+
+    color:#666666;
+
+}

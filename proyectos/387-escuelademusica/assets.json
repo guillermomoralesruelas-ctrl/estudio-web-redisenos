@@ -1,0 +1,385 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/09/LOGO-LUKIN-MUSIC-01-e1725296386808.png",
+      "archivo": "LOGO-LUKIN-MUSIC-01-e1725296386808.png",
+      "alt": "Image 1: Lukin Music"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/09/Imagen-Hero-de-inicio.png",
+      "archivo": "Imagen-Hero-de-inicio.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/09/logo-escuela-colores-01-e1726366684370.png",
+      "archivo": "logo-escuela-colores-01-e1726366684370.png",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2023/10/logo-lukin-estudio-color-y-negro-01-e1726366775354.png",
+      "archivo": "logo-lukin-estudio-color-y-negro-01-e1726366775354.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/09/FAVICON-04.png",
+      "archivo": "FAVICON-04.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/09/Beneficios-imagen.jpg",
+      "archivo": "Beneficios-imagen.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2022/03/DSC03752-scaled.jpg",
+      "archivo": "DSC03752-scaled.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/08/Portada-1-scaled.jpg",
+      "archivo": "Portada-1-scaled.jpg",
+      "alt": "Image 9: a man standing in front of a microphone"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2021/11/IMG_4382.jpg",
+      "archivo": "IMG_4382.jpg",
+      "alt": "Image 10: Diputado Paulo Politico de Aguascalientes"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/03/Portada-la-basurita-scaled.jpg",
+      "archivo": "Portada-la-basurita-scaled.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2023/03/Desde-Adentro-Editado-2.png",
+      "archivo": "Desde-Adentro-Editado-2.png",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/09/LOGO-LUKIN-MUSIC-01-e1725296386808-1024x253.png",
+      "archivo": "LOGO-LUKIN-MUSIC-01-e1725296386808-1024x253.png",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2025/10/logo-escuela-colores-01-scaled-e1759518276311.png",
+      "archivo": "logo-escuela-colores-01-scaled-e1759518276311.png",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2023/08/Plan-de-iniciacion-musical.jpg",
+      "archivo": "Plan-de-iniciacion-musical.jpg",
+      "alt": "Image 4: iniciación musical"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2023/08/Plan-de-induccion-musical-1.jpg",
+      "archivo": "Plan-de-induccion-musical-1.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2023/08/Plan-de-Instrumento.jpg",
+      "archivo": "Plan-de-Instrumento.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2026/07/Calendario-Ciclo-Julio-Diciembre-2026-scaled-e1785540839337.jpg",
+      "archivo": "Calendario-Ciclo-Julio-Diciembre-2026-scaled-e1785540839337.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2026/09/Temporada-16-scaled-e1789767800695-1024x388.jpg",
+      "archivo": "Temporada-16-scaled-e1789767800695-1024x388.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/09/Evaluaciones-finales-temporada-12-1024x375.jpg",
+      "archivo": "Evaluaciones-finales-temporada-12-1024x375.jpg",
+      "alt": "Image 9: Alumnos Lukin temporada 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2026/01/Portada-finales-temporada-14-1024x375.jpg",
+      "archivo": "Portada-finales-temporada-14-1024x375.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2023/11/Portada-temporada-11-1024x375.jpg",
+      "archivo": "Portada-temporada-11-1024x375.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2023/06/Portada-finales-temporada-10-1024x375.jpg",
+      "archivo": "Portada-finales-temporada-10-1024x375.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2022/11/Portada-temporada-9-1-1024x375.jpg",
+      "archivo": "Portada-temporada-9-1-1024x375.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2022/06/Portada-Temporada-8-1024x375.jpg",
+      "archivo": "Portada-Temporada-8-1024x375.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2021/12/Portada-Temporada-7-1024x375.jpg",
+      "archivo": "Portada-Temporada-7-1024x375.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2022/07/Mateo-scaled.jpg",
+      "archivo": "Mateo-scaled.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2025/12/DSC00990-scaled.jpg",
+      "archivo": "DSC00990-scaled.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2025/12/DSC00988-scaled.jpg",
+      "archivo": "DSC00988-scaled.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2022/07/Vladimir-scaled.jpg",
+      "archivo": "Vladimir-scaled.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2022/07/Regina-scaled.jpg",
+      "archivo": "Regina-scaled.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2021/12/premio-t4-casandra-scaled.jpeg",
+      "archivo": "premio-t4-casandra-scaled.jpeg",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2025/12/DSC00967-scaled.jpg",
+      "archivo": "DSC00967-scaled.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/09/IMG_6125-scaled.jpg",
+      "archivo": "IMG_6125-scaled.jpg",
+      "alt": "Image 24: Reconocimiento temporada 12 Manuel"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2022/03/IMG_1448-scaled.jpg",
+      "archivo": "IMG_1448-scaled.jpg",
+      "alt": "Image 25: Reconocimiento temporada 12 Manuel"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2025/12/DSC00981-scaled.jpg",
+      "archivo": "DSC00981-scaled.jpg",
+      "alt": "Image 26: Reconocimiento temporada 12 Manuel"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2023/01/img_8560-1-scaled.jpg",
+      "archivo": "img_8560-1-scaled.jpg",
+      "alt": "Image 27: Reconocimiento temporada 12 Manuel"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2023/08/fernando-rodriguez.jpg",
+      "archivo": "fernando-rodriguez.jpg",
+      "alt": "Image 28: a man standing in front of a microphone"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/07/Gustavo-Maldonado.jpg",
+      "archivo": "Gustavo-Maldonado.jpg",
+      "alt": "Image 29: Sergio_Herrera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2026/09/Saira-de-la-Torre.jpg",
+      "archivo": "Saira-de-la-Torre.jpg",
+      "alt": "Image 30"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2026/09/Rafael-Garcia.jpg",
+      "archivo": "Rafael-Garcia.jpg",
+      "alt": "Image 31: Sergio_Herrera"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/09/fachada2-scaled.jpg",
+      "archivo": "fachada2-scaled.jpg",
+      "alt": "Image 32"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/11/T2.-Casandra.webp",
+      "archivo": "T2.-Casandra.webp",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2025/02/Valeria-Ruiz-scaled.webp",
+      "archivo": "Valeria-Ruiz-scaled.webp",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/10/IMG_7210.jpg",
+      "archivo": "IMG_7210.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-07-17-at-22.51.56-1.jpeg",
+      "archivo": "WhatsApp-Image-2024-07-17-at-22.51.56-1.jpeg",
+      "alt": "Image 8: Iris puentes cantando la basurita"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/09/Iris-puentes-scaled.jpg",
+      "archivo": "Iris-puentes-scaled.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/11/T1.-Eder.webp",
+      "archivo": "T1.-Eder.webp",
+      "alt": "Image 10: Mucho que decir, La primera discografía de Mario Velasco"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-07-17-at-22.51.40.jpeg",
+      "archivo": "WhatsApp-Image-2024-07-17-at-22.51.40.jpeg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2023/08/5-scaled.jpg",
+      "archivo": "5-scaled.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/11/T2.-Armando-Munoz.webp",
+      "archivo": "T2.-Armando-Munoz.webp",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/11/T6.-Josue.webp",
+      "archivo": "T6.-Josue.webp",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-07-17-at-22.51.44.jpeg",
+      "archivo": "WhatsApp-Image-2024-07-17-at-22.51.44.jpeg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2022/05/Induccion-Musical-Web-scaled.jpg",
+      "archivo": "Induccion-Musical-Web-scaled.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2022/04/Captura-de-Pantalla-2022-04-27-a-las-19.30.01.png",
+      "archivo": "Captura-de-Pantalla-2022-04-27-a-las-19.30.01.png",
+      "alt": "Image 8: Mucho que decir, La primera discografía de Mario Velasco"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2021/11/T3.-Demian-scaled.jpg",
+      "archivo": "T3.-Demian-scaled.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/12/DSC06368-scaled-e1735336710541.jpg",
+      "archivo": "DSC06368-scaled-e1735336710541.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/12/Yara.jpg",
+      "archivo": "Yara.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/11/T2.-Maurosky.webp",
+      "archivo": "T2.-Maurosky.webp",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/12/DSC06395-scaled-e1735336541580.jpg",
+      "archivo": "DSC06395-scaled-e1735336541580.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/12/Braulio-Iniciacin-musical-scaled.webp",
+      "archivo": "Braulio-Iniciacin-musical-scaled.webp",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-07-17-at-22.51.47-1-e1735335941444.jpeg",
+      "archivo": "WhatsApp-Image-2024-07-17-at-22.51.47-1-e1735335941444.jpeg",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2021/11/T2.-Armando-Mun%CC%83oz.jpg",
+      "archivo": "T2.-Armando-Mun_oz.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.lukinmusic.com/wp-content/uploads/2022/05/alumnos4-4-scaled-e1735336192341.jpg",
+      "archivo": "alumnos4-4-scaled-e1735336192341.jpg",
+      "alt": "Image 11"
+    }
+  ]
+}

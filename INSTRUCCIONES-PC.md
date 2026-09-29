@@ -10,32 +10,22 @@
 2. Toma como modelo los últimos rediseños terminados en la PC: `proyectos/624-lacanteraeventos`, `proyectos/421-florerializette`, `proyectos/436-fusiontours` y `proyectos/540-hotelpomelo` (método 1.2).
 3. El panel (http://localhost:4000) sirve para revisar el resultado en la pestaña Galería. **No modifiques `panel/` ni `datos/verificaciones.json`.**
 
-## La lista: lote PC-1 (20 sitios)
+## La lista: lote PC-1, lo que falta (10 sitios)
+
+Los primeros 10 del lote PC-1 ya se hicieron en la PC el 2026-09-28 (ver `METODOS.md`). **Estos 10 pasaron a la nube** (`INSTRUCCIONES-NUBE-2.md`, lote 5): las sesiones de la PC no los toman, salvo los que la nube deje como "Pendiente 1.2 (PC)" en `METODOS.md` (recuperar las fotos del sitio en vivo, que solo se hace en la PC).
 
 | # | Carpeta | Negocio | Sitio original | Fotos en el clon |
 |---|---|---|---|---|
-| 1 | `501-holboxtravel` | Holbox Travel, Holbox, Quintana Roo (turismo) | https://www.holboxtravel.com.mx/ | 19 |
-| 2 | `315-discovervallarta` | Discover Vallarta, Puerto Vallarta, Jalisco (turismo) | https://www.discoverpvr.com/ | 14 |
-| 3 | `435-fultonhotel` | Fulton Hotel, Guadalajara, Jalisco (hospedaje) | https://fultonhotel.mx/ | 13 |
-| 4 | `643-lapurificadora` | La Purificadora, Puebla, Puebla (gastronomia) | https://www.lapurificadora.com/ | 11 |
-| 5 | `179-casatunkul` | Casa Tunkul, Mérida, Yucatán (hospedaje) | https://www.tunkul.mx/ | 9 |
-| 6 | `604-kasumiflowersatelier` | Kasumi Flowers Atelier, Oaxaca de Juárez, Oaxaca (retail) | https://www.kasumiflowers.com/ | 10 |
-| 7 | `314-dipazinmobiliaria` | DIPAZ Inmobiliaria, La Paz, Baja California Sur (inmuebles) | https://www.dipaz.com.mx/ | 12 |
-| 8 | `443-galospilates` | Galo's Pilates Studio, Oaxaca de Juárez, Oaxaca (fitness) | https://galostudios.com/ | 16 |
-| 9 | `410-fc4boxinggym` | FC4 Boxing Gym, Ciudad de México, CDMX (fitness) | https://fc4boxinggym.com/ | 13 |
-| 10 | `229-clinicadela` | Clínica de la CNE, Mérida, Yucatán (estetica) | https://clinicadelacne.com.mx/ | 15 |
-| 11 | `445-gcbeautybarber` | GC Beauty Barber, Cabo San Lucas, Baja California Sur (spa) | https://gcbeautybarber.com.mx/ | 16 |
-| 12 | `387-escuelademusica` | Escuela de música Lukin Aguascalientes, Aguascalientes, Aguascalientes (educacion) | https://www.lukinmusic.com/ | 14 |
-| 13 | `363-elpatronbarberia` | El Patrón Barbería, Ciudad de México, CDMX (spa) | https://www.elpatron.com.mx/ | 11 |
-| 14 | `613-kitesurfmexico` | Kitesurf México, Cancún, Quintana Roo (turismo) | https://www.kitesurfmexico.com/ | 16 |
-| 15 | `600-junglerealtor` | Jungle Realtor, Bacalar, Quintana Roo (inmuebles) | https://junglerealtor.com/ | 16 |
-| 16 | `280-cumbresdemita` | Cumbres de Mita, Sayulita, Nayarit (inmuebles) | https://www.cumbresdemita.com/ | 12 |
-| 17 | `544-hotelrecreoclandestino` | Hotel Recreo - Clandestino Hotel, San Miguel de Allende, Guanajuato (hospedaje) | https://clandestinohotel.com/ | 15 |
-| 18 | `649-lebenarquitectos` | LEBEN ARQUITECTOS, Zapopan, Jalisco (servicios) | https://lebenarq.com/ | 10 |
-| 19 | `143-cancuncatamaranes` | Cancun Catamaranes, Cancún, Quintana Roo (turismo) | https://cancuncatamarans.mx/ | 13 |
-| 20 | `250-colegiobanting` | Colegio Banting, Ciudad de México, CDMX (educacion) | https://www.colegiobanting.edu.mx/ | 14 |
-
-Hazlos en orden. Los que tienen pocas fotos en el clon pueden ir por el **método 1.2** (recuperar las fotos del sitio en vivo), que solo se hace en la PC.
+| 1 | `445-gcbeautybarber` | GC Beauty Barber, Cabo San Lucas, Baja California Sur (spa) | https://gcbeautybarber.com.mx/ | 16 |
+| 2 | `387-escuelademusica` | Escuela de música Lukin Aguascalientes, Aguascalientes, Aguascalientes (educacion) | https://www.lukinmusic.com/ | 14 |
+| 3 | `363-elpatronbarberia` | El Patrón Barbería, Ciudad de México, CDMX (spa) | https://www.elpatron.com.mx/ | 11 |
+| 4 | `613-kitesurfmexico` | Kitesurf México, Cancún, Quintana Roo (turismo) | https://www.kitesurfmexico.com/ | 16 |
+| 5 | `600-junglerealtor` | Jungle Realtor, Bacalar, Quintana Roo (inmuebles) | https://junglerealtor.com/ | 16 |
+| 6 | `280-cumbresdemita` | Cumbres de Mita, Sayulita, Nayarit (inmuebles) | https://www.cumbresdemita.com/ | 12 |
+| 7 | `544-hotelrecreoclandestino` | Hotel Recreo - Clandestino Hotel, San Miguel de Allende, Guanajuato (hospedaje) | https://clandestinohotel.com/ | 15 |
+| 8 | `649-lebenarquitectos` | LEBEN ARQUITECTOS, Zapopan, Jalisco (servicios) | https://lebenarq.com/ | 10 |
+| 9 | `143-cancuncatamaranes` | Cancun Catamaranes, Cancún, Quintana Roo (turismo) | https://cancuncatamarans.mx/ | 13 |
+| 10 | `250-colegiobanting` | Colegio Banting, Ciudad de México, CDMX (educacion) | https://www.colegiobanting.edu.mx/ | 14 |
 
 ## Cómo repartir la lista entre sesiones
 

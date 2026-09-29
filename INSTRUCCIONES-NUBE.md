@@ -32,7 +32,7 @@ Los primeros 13 del lote 4 ya se hicieron en la nube el 2026-09-28 (9 terminados
 | 16 | `506-hospitalveterinariocarso` | Hospital Veterinario Carson, Ciudad de México, Iztapalapa (veterinaria) | https://hospitalcarson.com/ |
 | 17 | `417-floatsano` | Floatsano, San Miguel de Allende, Guanajuato (spa) | https://floatsano.com/ |
 
-Hazlos en orden. La PC trabaja al mismo tiempo en la lista de `INSTRUCCIONES-PC.md`; no toques esos sitios. Sus clones (`sitio/`) y textos (`investigacion/`) ya vienen en el repositorio. **No trabajes en ningún otro proyecto.**
+Hazlos en orden. Otra sesión de la nube trabaja al mismo tiempo en `INSTRUCCIONES-NUBE-2.md` (lote 5, los 10 que la PC no alcanzó); no toques esos sitios ni los de `INSTRUCCIONES-PC.md`. Sus clones (`sitio/`) y textos (`investigacion/`) ya vienen en el repositorio. **No trabajes en ningún otro proyecto.**
 
 ### Esta lista se reparte entre varias sesiones
 

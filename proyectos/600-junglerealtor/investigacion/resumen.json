@@ -1,0 +1,23 @@
+{
+  "sitio": "https://junglerealtor.com/",
+  "fecha": "2026-09-26T09:03:07.441Z",
+  "motor": "jina-reader",
+  "slug": "junglerealtor",
+  "nombre": "Jungle Realtor",
+  "rubro": "INMUEBLES",
+  "ciudad": "Bacalar, Quintana Roo",
+  "plantilla": "inmobiliaria",
+  "paginasRevisadas": [
+    {
+      "url": "https://junglerealtor.com/",
+      "titulo": "Robot Challenge Screen"
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": [],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": []
+}

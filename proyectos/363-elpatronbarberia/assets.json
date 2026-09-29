@@ -1,0 +1,163 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/uploaded_media_2_1769678876800.png",
+      "archivo": "uploaded_media_2_1769678876800.png",
+      "alt": "Image 2: El Patrón Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FALV-UjXiG9AIwJpGlbqMOThwCo0FiHvo0OgAX8BBU1gjePiVI8Xm07cp%3Ds120-c-rp-mo-ba12-br100",
+      "archivo": "imagen",
+      "alt": "Image 3: Facundo Ubeda"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FALV-UjVFsGYtKaEadjmi2ThaJCr0wlgT74mvun4nNX21CBfTBee6PWdj%3Ds120-c-rp-mo-ba12-br100",
+      "archivo": "imagen",
+      "alt": "Image 4: brian diaz corona"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocIAeeN7UZfcd7xjdUUC-F0XJoTK257pQuyc-oBKXEU1HGFnZQ%3Ds120-c-rp-mo-br100",
+      "archivo": "imagen",
+      "alt": "Image 5: Juanpablo Trejo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FALV-UjVvpfHGxWgjzx7FTmsXIXapUq6uUEqGeDzLTFwk65JEy_KQrOM%3Ds120-c-rp-mo-br100",
+      "archivo": "imagen",
+      "alt": "Image 6: César Yahir Morales Segura"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FACg8ocJTnNYi5RHrmN3us8twZRbFYsIy-X7_HsNVz3SbmuHAKSN_yA%3Ds120-c-rp-mo-ba12-br100",
+      "archivo": "imagen",
+      "alt": "Image 7: Alan Hoill"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FALV-UjVS2_nLXmWDHUOA3fG3BPr8Cpg4sI1eTgTMXIt5jILWWiKpfxfp%3Ds120-c-rp-mo-br100",
+      "archivo": "imagen",
+      "alt": "Image 8: Joshua Bustamante Salgado"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/patron_service_cut_real.jpg",
+      "archivo": "patron_service_cut_real.jpg",
+      "alt": "Image 9: Haircut"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/patron_service_beard_real.jpg",
+      "archivo": "patron_service_beard_real.jpg",
+      "alt": "Image 10: Beard Ritual"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/patron_experience_real.jpg",
+      "archivo": "patron_experience_real.jpg",
+      "alt": "Image 11: Patrón Experience"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/facial_black_real.jpg",
+      "archivo": "facial_black_real.jpg",
+      "alt": "Image 12: URIEL"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/patroncitos_real.jpg",
+      "archivo": "patroncitos_real.jpg",
+      "alt": "Image 13: Little Patrons"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/marcelo_cool.png",
+      "archivo": "marcelo_cool.png",
+      "alt": "Image 14: MARCELO"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/yosef_cool.png",
+      "archivo": "yosef_cool.png",
+      "alt": "Image 15: YOSEF"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/melisa.png",
+      "archivo": "melisa.png",
+      "alt": "Image 16: MELISA"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://static.elfsight.com/apps/instashow/placeholder-avatar.jpg",
+      "archivo": "placeholder-avatar.jpg",
+      "alt": "Image 18: elpatronbarberiaytonicos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-arn2-1.cdninstagram.com%2Fv%2Ft51.82787-15%2F809876555_18217164595346567_5938864352173834317_n.jpg%3Fstp%3Ddst-jpg_e15_s640x640_tt6%26_nc_cat%3D109%26ig_cache_key%3DMzk5MjA5Njk0NTE3NDIyMTIyMjE4MjE3MTY0NTkyMzQ2NTY3.3-ccb7-5%26ccb%3D7-5%26_nc_sid%3D58cdad%26efg%3DeyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%253D%253D%26_nc_ohc%3DCQgs5Xb8l3EQ7kNvwGlLDwF%26_nc_oc%3DAdo2Mm1hIUgn0FWS78EWtjmF_JtuHd9-cYQXct5WnGj5uP7QcIj5gG6LNJ5e0naSW50%26_nc_ad%3Dz-m%26_nc_cid%3D0%26_nc_zt%3D23%26_nc_ht%3Dscontent-arn2-1.cdninstagram.com%26_nc_gid%3DUqW2qjOKhDQEr_T2S8Rbgg%26_nc_ss%3D7a3ba%26oh%3D00_AQIJ28wreGw1scwdoX0uLV_HW3lIzvgz4Lu5yJishLApyw%26oe%3D6ABB2F08",
+      "archivo": "imagen",
+      "alt": "Image 19: Detrás de cada estilo hay un producto de alto rendimiento 🤩💇‍♂️..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-arn2-1.cdninstagram.com%2Fv%2Ft39.30808-6%2F807284099_1087571680682269_8921600512771692236_n.jpg%3Fstp%3Ddst-jpg_e35_tt6%26_nc_cat%3D110%26ig_cache_key%3DMzk5MTQ2NDMxNTA0NzQ1ODQ3NQ%253D%253D.3-ccb7-5%26ccb%3D7-5%26_nc_sid%3D58cdad%26efg%3DeyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9%26_nc_ohc%3DUzDSnzZtCh0Q7kNvwE5ddQs%26_nc_oc%3DAdrBkhgrnvelUR6PTGj6mB7cVfp4u81NQ5ijBRAp_VOTt7xTNjCldzWjiCbTSHFAdyU%26_nc_ad%3Dz-m%26_nc_cid%3D0%26_nc_zt%3D23%26se%3D7%26_nc_ht%3Dscontent-arn2-1.cdninstagram.com%26_nc_gid%3DUqW2qjOKhDQEr_T2S8Rbgg%26_nc_ss%3D7a3ba%26oh%3D00_AQLFjUEXJpRO7yKPEhR0uWmRUcFrm24cPSyrvPD_HBPz-g%26oe%3D6ABB174D",
+      "archivo": "imagen",
+      "alt": "Image 20: Blacktop Pomade lo que necesitas para eliminar las canas 🧔‍♂️👀..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-arn2-1.cdninstagram.com%2Fv%2Ft39.30808-6%2F806001428_1087556117350492_2645594761715753626_n.jpg%3Fstp%3Ddst-jpg_e35_tt6%26_nc_cat%3D110%26ig_cache_key%3DMzk5MDcyNzk1MDQxMjQ0MTk2Mw%253D%253D.3-ccb7-5%26ccb%3D7-5%26_nc_sid%3D58cdad%26efg%3DeyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9%26_nc_ohc%3DLgpbw7d0WncQ7kNvwE3DPNm%26_nc_oc%3DAdq-3BOfIHCieycC-bhXHmCz6iJY6ZbXS2SeZsJKtjLR8wZhGASRKla0UDNTFUPlbpE%26_nc_ad%3Dz-m%26_nc_cid%3D0%26_nc_zt%3D23%26se%3D7%26_nc_ht%3Dscontent-arn2-1.cdninstagram.com%26_nc_gid%3DxyMkwHwblaUq5qN-iTTEgw%26_nc_ss%3D7a3ba%26oh%3D00_AQKyIT2gtzX8F4cTtodXtUPAQMt_Y9aKxh97P1nbQ_k6SA%26oe%3D6AB78CB2",
+      "archivo": "imagen",
+      "alt": "Image 21: La mejor atención 💯💈 solo en El Patrón 😎💇‍♂️..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-arn2-1.cdninstagram.com%2Fv%2Ft51.82787-15%2F818062712_18216855946346567_4728007975628845413_n.jpg%3Fstp%3Ddst-jpg_e15_s640x640_tt6%26_nc_cat%3D100%26ig_cache_key%3DMzk4OTk4NDAwOTQ4ODM0NTM5NDE4MjE2ODU1OTQwMzQ2NTY3.3-ccb7-5%26ccb%3D7-5%26_nc_sid%3D58cdad%26efg%3DeyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%253D%253D%26_nc_ohc%3DGIFW67eOPeIQ7kNvwEZ_5aq%26_nc_oc%3DAdpQSxtaEocbQGJAiYB9Hv1tdcphTReHToch06pHi9foEETq7zv56uQTQODMctK7Z_I%26_nc_ad%3Dz-m%26_nc_cid%3D0%26_nc_zt%3D23%26_nc_ht%3Dscontent-arn2-1.cdninstagram.com%26_nc_gid%3DxyMkwHwblaUq5qN-iTTEgw%26_nc_ss%3D7a3ba%26oh%3D00_AQLi6XaYo_i_NQ1Nm-gPkg_0OaG0bQ-LBcfCNyiP-Oq_2w%26oe%3D6AB7A161",
+      "archivo": "imagen",
+      "alt": "Image 22: Cuida tu imagen 😎🥇 y luce un corte perfecto, solo en El Patrón 💈..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-bru2-1.cdninstagram.com%2Fv%2Ft51.82787-15%2F806987419_18216742522346567_7313363490443476033_n.jpg%3Fstp%3Ddst-jpg_e15_s640x640_tt6%26_nc_cat%3D103%26ig_cache_key%3DMzk4OTI2MzkwNDgxMTU0MDM3MTE4MjE2NzQyNTE5MzQ2NTY3.3-ccb7-5%26ccb%3D7-5%26_nc_sid%3D58cdad%26efg%3DeyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%253D%253D%26_nc_ohc%3DTltzk5PNchIQ7kNvwFC6ZEB%26_nc_oc%3DAdr2tXv3TybkVjiZkIXfTtlbuYIae6hSm_vqtxQJ5j4ZQIIhRUUg6nPH87GlOTNCIiU%26_nc_ad%3Dz-m%26_nc_cid%3D0%26_nc_zt%3D23%26_nc_ht%3Dscontent-bru2-1.cdninstagram.com%26_nc_gid%3DUhJemNzSBTDUWBNZ8SwdDA%26_nc_ss%3D7a3ba%26oh%3D00_AQIBxswE1qZqOZICVgLuhjvl2QvsHEA28LrF9fVqkcBkKw%26oe%3D6AB4D18B",
+      "archivo": "imagen",
+      "alt": "Image 23: La mejor atención 💯💈 solo en El Patrón 😎💇‍♂️..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-bru2-1.cdninstagram.com%2Fv%2Ft51.82787-15%2F816737073_18216742069346567_4167667190509979933_n.jpg%3Fstp%3Ddst-jpg_e15_s640x640_tt6%26_nc_cat%3D107%26ig_cache_key%3DMzk4OTI2MTgyNTEzMjU4NDc4NTE4MjE2NzQyMDYzMzQ2NTY3.3-ccb7-5%26ccb%3D7-5%26_nc_sid%3D58cdad%26efg%3DeyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%253D%253D%26_nc_ohc%3DVKcUpswSKg0Q7kNvwHuZk9K%26_nc_oc%3DAdq0CxGz2EtUHrtsRoLewqAFgF1klP_6kBRJJrGMcLnk6Wu9n8ohAz3e5yiWZSEwTjo%26_nc_ad%3Dz-m%26_nc_cid%3D0%26_nc_zt%3D23%26_nc_ht%3Dscontent-bru2-1.cdninstagram.com%26_nc_gid%3DUhJemNzSBTDUWBNZ8SwdDA%26_nc_ss%3D7a3ba%26oh%3D00_AQJWY-mbsfxQReRveUIttAnxo6L0wOItFawUW4EoALnCQQ%26oe%3D6AB4C507",
+      "archivo": "imagen",
+      "alt": "Image 24: Haz una pausa ⏱️ para consentirte como solo un Patrón merece 😎..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-vie1-1.cdninstagram.com%2Fv%2Ft51.82787-15%2F813976235_18216616912346567_1174084687798144407_n.jpg%3Fstp%3Ddst-jpg_e15_s640x640_tt6%26_nc_cat%3D102%26ig_cache_key%3DMzk4ODM3ODIyODkxMTQ5OTM1OTE4MjE2NjE2OTA5MzQ2NTY3.3-ccb7-5%26ccb%3D7-5%26_nc_sid%3D58cdad%26efg%3DeyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%253D%26_nc_ohc%3Dd2ytijj9D9IQ7kNvwFI-yzF%26_nc_oc%3DAdrlc2pqz26KgfW3gIJI3Oj4zoFJCJVNayCqL632nrJcaoK1Olo0MvhyzwwCSkAdScE%26_nc_ad%3Dz-m%26_nc_cid%3D0%26_nc_zt%3D23%26_nc_ht%3Dscontent-vie1-1.cdninstagram.com%26_nc_gid%3D25eUmxW8HQEOCar6Q5gjuw%26_nc_ss%3D7a3ba%26oh%3D00_AQIGGacEoD4ZOz5ImuBdk70nyFVIahvxiaZY6sfa-QG72w%26oe%3D6AB2181F",
+      "archivo": "imagen",
+      "alt": "Image 25: Si buscas relejarte y tener un momento solo para ti 💁‍♂️💇‍♂️… tenemos la me..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Fscontent-cph2-1.cdninstagram.com%2Fv%2Ft51.82787-15%2F759574840_18211102447346567_1198349137299593763_n.jpg%3Fstp%3Ddst-jpg_e15_s640x640_tt6%26_nc_cat%3D105%26ig_cache_key%3DMzk1MTQzNjAxMDQyNDg0ODI5NTE4MjExMTAyNDQ0MzQ2NTY3.3-ccb7-5%26ccb%3D7-5%26_nc_sid%3D58cdad%26efg%3DeyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%253D%253D%26_nc_ohc%3DCm-TVIgPm4gQ7kNvwGkr1Tr%26_nc_oc%3DAdoTdRd4UvYzKJORvKUNb9sc8e4Rwk3TY-I0AJNBg41kthIeoHXi68cFYI_s5Fn4UeQ%26_nc_ad%3Dz-m%26_nc_cid%3D0%26_nc_zt%3D23%26_nc_ht%3Dscontent-cph2-1.cdninstagram.com%26_nc_gid%3DQgmXqMqBiIhxI2j9rFRzbg%26_nc_ss%3D7a3ba%26oh%3D00_AQFxdNvTAEawM_wTXSolM2TA8tJLQe0HKqlTjcmiZ3O8KQ%26oe%3D6A70A285",
+      "archivo": "imagen",
+      "alt": "Image 26: La diferencia está en los detalles. 💈 En El Patrón no solo hacemos cortes; ..."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/_next/image?url=%2Flocations%2Farcos-1.png&w=3840&q=75",
+      "archivo": "image",
+      "alt": "Image 27: Arcos Branch (Qro) photo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.elpatron.com.mx/_next/image?url=%2Flocations%2Fzibata-1.png&w=3840&q=75",
+      "archivo": "image",
+      "alt": "Image 28: Zibatá Branch (Qro) photo"
+    }
+  ]
+}

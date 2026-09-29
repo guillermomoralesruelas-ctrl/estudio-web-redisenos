@@ -1,0 +1,102 @@
+{
+  "sitio": "https://gcbeautybarber.com.mx/",
+  "fecha": "2026-09-26T07:55:40.992Z",
+  "motor": "jina-reader",
+  "slug": "gcbeautybarber",
+  "nombre": "GC Beauty Barber",
+  "rubro": "SPA",
+  "ciudad": "Cabo San Lucas, Baja California Sur",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://gcbeautybarber.com.mx/",
+      "titulo": "GC Beauty Barber &#8211; Exclusive high-end barber services. &#8211; Specialists in top-level barber services &#8211; Shaving, beard trimming and shaping, hair washing, skinfade, scissor cuts, beard pigmentation, hair dyeing, beard rituals, deep cleansing facials, color designs, exclusive services for ladies: Reconstructive treatments, nanoplasty, color designs, balayage, split end repair, professional makeup, bridal packages and more."
+    },
+    {
+      "url": "https://gcbeautybarber.com.mx/service/gel-remove/",
+      "titulo": "Gel Remove – GC Beauty Barber – Exclusive high-end barber services."
+    },
+    {
+      "url": "https://gcbeautybarber.com.mx/service/full-set/",
+      "titulo": "Full Set – GC Beauty Barber – Exclusive high-end barber services."
+    },
+    {
+      "url": "https://gcbeautybarber.com.mx/service/deep-cleansing-facial/",
+      "titulo": "Deep Cleansing Facial – GC Beauty Barber – Exclusive high-end barber services."
+    },
+    {
+      "url": "https://gcbeautybarber.com.mx/service/age-repair-facial/",
+      "titulo": "Age Repair Facial – GC Beauty Barber – Exclusive high-end barber services."
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "300-195151-300",
+      "530-195151-530",
+      "+52) 624 165 1259"
+    ],
+    "emails": [
+      "contact@gcbeautybarber.com.mx"
+    ],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/gc-beauty-barber-160x92-1.webp",
+      "alt": "Image 1: GC Beauty Barber – Exclusive high-end barber services."
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/gc-iso.webp",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/icon-gc-bb-3.webp",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/icon-gc-bb-4.webp",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/icon-gc-bb-2.webp",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/icon-gc-bb-barb.webp",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/icon-gc-bb-1.webp",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/gc-300-195151-300-px-1.webp",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/gc-530-195151-530-px-1.webp",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/GC-Beauty_Isotipo-RGB_Black.png",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/woocommerce-placeholder.webp",
+      "alt": "Image 12: Placeholder"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/gc-beauty-rgb-color.webp",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/woocommerce-placeholder-600x600.webp",
+      "alt": "Image 3: Awaiting product image"
+    },
+    {
+      "src": "https://gcbeautybarber.com.mx/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+      "alt": "Image 4: Placeholder"
+    }
+  ]
+}

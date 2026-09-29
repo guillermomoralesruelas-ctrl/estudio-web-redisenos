@@ -1,0 +1,91 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/gc-beauty-barber-160x92-1.webp",
+      "archivo": "gc-beauty-barber-160x92-1.webp",
+      "alt": "Image 1: GC Beauty Barber – Exclusive high-end barber services."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/gc-iso.webp",
+      "archivo": "gc-iso.webp",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/icon-gc-bb-3.webp",
+      "archivo": "icon-gc-bb-3.webp",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/icon-gc-bb-4.webp",
+      "archivo": "icon-gc-bb-4.webp",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/icon-gc-bb-2.webp",
+      "archivo": "icon-gc-bb-2.webp",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/icon-gc-bb-barb.webp",
+      "archivo": "icon-gc-bb-barb.webp",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/icon-gc-bb-1.webp",
+      "archivo": "icon-gc-bb-1.webp",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/gc-300-195151-300-px-1.webp",
+      "archivo": "gc-300-195151-300-px-1.webp",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/gc-530-195151-530-px-1.webp",
+      "archivo": "gc-530-195151-530-px-1.webp",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/GC-Beauty_Isotipo-RGB_Black.png",
+      "archivo": "GC-Beauty_Isotipo-RGB_Black.png",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/woocommerce-placeholder.webp",
+      "archivo": "woocommerce-placeholder.webp",
+      "alt": "Image 12: Placeholder"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/2025/12/gc-beauty-rgb-color.webp",
+      "archivo": "gc-beauty-rgb-color.webp",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/woocommerce-placeholder-600x600.webp",
+      "archivo": "woocommerce-placeholder-600x600.webp",
+      "alt": "Image 3: Awaiting product image"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://gcbeautybarber.com.mx/wp-content/uploads/woocommerce-placeholder-300x300.webp",
+      "archivo": "woocommerce-placeholder-300x300.webp",
+      "alt": "Image 4: Placeholder"
+    }
+  ]
+}

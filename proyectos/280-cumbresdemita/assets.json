@@ -1,0 +1,157 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/ecosistema-aerea.jpg",
+      "archivo": "ecosistema-aerea.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/desarrollo-aerea.jpg",
+      "archivo": "desarrollo-aerea.jpg",
+      "alt": "Image 3: Vista aérea de Cumbres de Mita"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/lote-vista.jpg",
+      "archivo": "lote-vista.jpg",
+      "alt": "Image 4: Vista de lotes residenciales en Cumbres de Mita"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/nahya-render.jpg",
+      "archivo": "nahya-render.jpg",
+      "alt": "Image 5: Nahya Residences — terraza"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/kumo-render.jpg",
+      "archivo": "kumo-render.jpg",
+      "alt": "Image 6: Kumo Living - Departamentos en preventa"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/amenidades-club.jpg",
+      "archivo": "amenidades-club.jpg",
+      "alt": "Image 7: Casa Club"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/amenidades-alberca.jpg",
+      "archivo": "amenidades-alberca.jpg",
+      "alt": "Image 8: Alberca Infinity"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/amenidades-gym.jpg",
+      "archivo": "amenidades-gym.jpg",
+      "alt": "Image 9: Gym + Yoga"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/nahya-edificio.jpg",
+      "archivo": "nahya-edificio.jpg",
+      "alt": "Image 2: Nahya Residences — fachada"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/nahya-vista.jpg",
+      "archivo": "nahya-vista.jpg",
+      "alt": "Image 3: Nahya Residences — vista lateral"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/nahya-habitacion.jpg",
+      "archivo": "nahya-habitacion.jpg",
+      "alt": "Image 4: Nahya Residences — dormitorio principal"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/nahya-habitacion-2.jpg",
+      "archivo": "nahya-habitacion-2.jpg",
+      "alt": "Image 5: Nahya Residences — dormitorio secundario"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/nahya-bano.jpg",
+      "archivo": "nahya-bano.jpg",
+      "alt": "Image 6: Nahya Residences — baño completo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/nahya-closet.jpg",
+      "archivo": "nahya-closet.jpg",
+      "alt": "Image 7: Nahya Residences — walk-in closet"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/nahya-cocina.jpg",
+      "archivo": "nahya-cocina.jpg",
+      "alt": "Image 8: Nahya Residences — cocina"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/nahya-obra-1.jpg",
+      "archivo": "nahya-obra-1.jpg",
+      "alt": "Image 9: Nahya Residences — avance de obra mayo 2026"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/nahya-obra-2.jpg",
+      "archivo": "nahya-obra-2.jpg",
+      "alt": "Image 10: Nahya Residences — avance lateral"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/kumo-culinaria.jpg",
+      "archivo": "kumo-culinaria.jpg",
+      "alt": "Image 2: Kumo Living — zona culinaria"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/kumo-entertainment.jpg",
+      "archivo": "kumo-entertainment.jpg",
+      "alt": "Image 3: Kumo Living — sala de entretenimiento"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/kumo-alberca.jpg",
+      "archivo": "kumo-alberca.jpg",
+      "alt": "Image 4: Alberca Infinity"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/kumo-rooftop.jpg",
+      "archivo": "kumo-rooftop.jpg",
+      "alt": "Image 5: Rooftop"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/kumo-lobby.jpg",
+      "archivo": "kumo-lobby.jpg",
+      "alt": "Image 6: Lobby"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/kumo-cowork.jpg",
+      "archivo": "kumo-cowork.jpg",
+      "alt": "Image 7: Co-working"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/kumo-cinema.jpg",
+      "archivo": "kumo-cinema.jpg",
+      "alt": "Image 8: Cinema"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.cumbresdemita.com/kumo-firepit.jpg",
+      "archivo": "kumo-firepit.jpg",
+      "alt": "Image 9: Fire Pit"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "sitio": "https://clandestinohotel.com/",
+  "fecha": "2026-09-26T08:38:11.488Z",
+  "motor": "jina-reader",
+  "slug": "hotelrecreoclandestino",
+  "nombre": "Hotel Recreo - Clandestino Hotel",
+  "rubro": "HOSPEDAJE",
+  "ciudad": "San Miguel de Allende, Guanajuato",
+  "plantilla": "hospedaje",
+  "paginasRevisadas": [
+    {
+      "url": "https://clandestinohotel.com/",
+      "titulo": "Inicio - Clandestino Hotel"
+    },
+    {
+      "url": "https://clandestinohotel.com/hoteles/",
+      "titulo": "Hoteles - Clandestino Hotel"
+    },
+    {
+      "url": "https://clandestinohotel.com/hotel-recreo/",
+      "titulo": "Hotel Recreo - Clandestino Hotel"
+    },
+    {
+      "url": "https://clandestinohotel.com/hotel-pila-seca/",
+      "titulo": "Hotel Pila Seca - Clandestino Hotel"
+    },
+    {
+      "url": "https://clandestinohotel.com/experiencias/",
+      "titulo": "Experiencias - Clandestino Hotel"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 415 688 1272",
+      "+524156881272",
+      "+52 415 688 3717",
+      "+524156883717",
+      "524151245141",
+      "05299-1024",
+      "05299-1-1024",
+      "+52 415 688 12 72",
+      "+52 415 124 5141",
+      "524151245141)\n\n1",
+      "+52 415 117 7901",
+      "524151177901"
+    ],
+    "emails": [
+      "reservaciones@clandestinohotel.com"
+    ],
+    "whatsapp": [
+      "wa.me/524151245141)",
+      "wa.me/524151177901)"
+    ],
+    "redes": [
+      "https://www.instagram.com/clandestinohotel",
+      "https://www.facebook.com/clandestinohotel"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://clandestinohotel.com/wp-content/plugins/clandestinoh-widgets-elementor/assets/img/loco-clandestino-1.png",
+      "alt": "Image 1: Clandestino Hotel"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/plugins/clandestinoh-widgets-elementor/assets/img/pila_DSC05299-1024x699.jpg",
+      "alt": "Image 3: Pieza textil enmarcada en una sala del Hotel Pila Seca"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/plugins/clandestinoh-widgets-elementor/assets/img/recreo-1024x652.jpg",
+      "alt": "Image 4: Coctel al atardecer en el rooftop de Hotel Recreo"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/plugins/clandestinoh-widgets-elementor/assets/img/clandestino-recreo2-1024x683.jpg",
+      "alt": "Image 5: Montaje de una cena privada en el patio de Hotel Recreo"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/plugins/clandestinoh-widgets-elementor/assets/img/clandestino-pila-seca-1024x701.jpg",
+      "alt": "Image 6: Obra original colgada en un muro de cantera del Hotel Pila Seca"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/plugins/clandestinoh-widgets-elementor/assets/img/DSC04902.jpg",
+      "alt": "Image 7: Fotografía de autor en una suite del Hotel Pila Seca"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/plugins/clandestinoh-widgets-elementor/assets/img/clandestino-2-1-1024x768.jpg",
+      "alt": "Image 8: Patio de una casona de Clandestino Hotel montado para un evento privado"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/plugins/clandestinoh-widgets-elementor/assets/img/DSC04043.jpg",
+      "alt": "Image 14: Detalle de una pieza de arte en un pasillo del Hotel Pila Seca"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/plugins/clandestinoh-widgets-elementor/assets/img/Img-SanMigueldeAllende-1-1024x683.webp",
+      "alt": "Image 17: Qué hacer en San Miguel de Allende"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2023/04/DSC05299-1-1024x699.jpg",
+      "alt": "Image 18: Artistas y artesanos de San Miguel de Allende que tienes que conocer"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_8662.jpg",
+      "alt": "Image 3: Hotel Recreo"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_4477.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_1981.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_1572.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/7FF2FB0D-AD48-4D3F-88E3-BB537FE2689C.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_9616.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_2508.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_2442.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/84ea56e2-5b05-410f-aa76-b3619b2635c3.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_2400.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/SUITE-GRANDE-CON-TERRAZA2.jpg",
+      "alt": "Image 13: Suite Grande con Balcón"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/SUITE-GRANDE.jpg",
+      "alt": "Image 14: Suite Grande"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/SUITE-MEDIANA.jpg",
+      "alt": "Image 15: Suite Mediana"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/SUITE-CHICA.jpg",
+      "alt": "Image 16: Suite Chica"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/DSC00405.jpg",
+      "alt": "Image 3: Hotel Pila Seca"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_8667.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_9521.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_7289.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/DSC00386.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/DSC00306-2.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/DSC00296-2.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_4049.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_3373.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_3372.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_3371.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_3370.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_3369.jpg",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_3368.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_0608.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_9995.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_9570.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_9538.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/IMG_9534.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/SUITE-CHICA1.jpg",
+      "alt": "Image 23: Suite Chica"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/SUITE-DOBLE.jpg",
+      "alt": "Image 24: Suite Doble"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/SUITE-GRANDE-CON-TERRAZA3.jpg",
+      "alt": "Image 25: Suite Grande con Terraza"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/07/SUITE-MEDIANA-1.jpg",
+      "alt": "Image 27: Suite Mediana"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/08/DSC00421.jpg",
+      "alt": "Image 31: Obra original colgada en un muro de cantera del Hotel Pila Seca"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/08/EVENTO-2.jpg",
+      "alt": "Image 33: Patio de una casona de Clandestino Hotel montado para un evento privado"
+    },
+    {
+      "src": "https://clandestinohotel.com/wp-content/uploads/2026/08/EVENTO1.jpg",
+      "alt": "Image 34: Mesa larga montada en el patio de Hotel Pila Seca"
+    }
+  ]
+}
