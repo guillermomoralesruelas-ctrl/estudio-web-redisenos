@@ -1,0 +1,22 @@
+# Imágenes disponibles en publicDir (../sitio/assets/img), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+slider/04.jpg	1920x1200	1053 KB
+slider/03.jpg	1920x1200	799 KB
+slider/02.jpg	1920x1200	680 KB
+home.jpg	1920x800	455 KB
+slider/01.jpg	1920x1200	454 KB
+slider/05.jpg	1920x1200	348 KB
+featured-01.jpg	720x480	182 KB
+featured-02.jpg	720x480	114 KB
+tesoros.png	453x200	73 KB
+cosy.png	297x200	45 KB
+haciendas.jpg	400x200	44 KB
+logo.png	390x228	24 KB
+lgbt.png	200x200	24 KB
+fancybox/fancybox_loading@2x.gif	48x48	14 KB
+fancybox/fancybox_loading.gif	24x24	6 KB
+fancybox/fancybox_sprite@2x.png	88x304	6 KB
+fancybox/fancybox_sprite.png	44x152	1 KB
+fancybox/fancybox_overlay.png	10x10	1 KB
+zoom.png	32x32	1 KB
+fancybox/blank.gif	1x1	0 KB

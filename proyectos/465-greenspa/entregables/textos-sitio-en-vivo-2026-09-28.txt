@@ -1,0 +1,358 @@
+# Textos del sitio en vivo de GreenSpa (https://greenspa.mx/), leídos el 2026-09-28. Solo texto (sin scripts ni estilos).
+# Páginas: inicio, servicios, promociones, testimonios y contacto.
+
+=== p-home.html
+Bienvenidos a Green Spa: El lugar de bienestar y belleza
+Ir al contenido
+INICIO
+SERVICIOS
+TESTIMONIOS
+PROMOCIONES
+CONTACTO
+BLOG
+INICIO
+SERVICIOS
+TESTIMONIOS
+PROMOCIONES
+CONTACTO
+BLOG
+Bienvenidos | Welcome
+Masajes y bienestar
+Massage & wellness
+Citas | Book
+• Masajes • Faciales • Días spa • Corporales • Reductivos •
+GreenSpa nació en 2012 con la intención
+de que cada persona que nos confíe su
+bienestar viva una experiencia
+profesional y de la más alta calidad.
+Amamos
+lo que
+hacemos y te lo
+demostraremos
+en cada visita
+Personal altamente
+capacitado
+Actualización y
+evaluación permanentes
+Gran variedad de
+técnicas de masajes
+Servicio personalizado
+y estandarizado
+
+=== p-servicios.html
+Servicios - GreenSpa
+Ir al contenido
+INICIO
+SERVICIOS
+TESTIMONIOS
+PROMOCIONES
+CONTACTO
+BLOG
+INICIO
+SERVICIOS
+TESTIMONIOS
+PROMOCIONES
+CONTACTO
+BLOG
+Masajes | Massages
+1 hr.
+$1,200
+1.5 hrs.
+$1,700
+2 hrs.
+$2,250
+Masaje Relajante | Relaxing Massage
+Relaja cuerpo y mente con movimientos suaves y rítmicos que ayudan a liberar tensión y estrés.
+Relax body and mind with gentle, rhythmic movements that help release tension and stress.
+Masaje Descontracturante | Deep Tissue Massage
+Masaje profundo que ayuda a aliviar contracturas, reducir tensión muscular y favorecer la recuperación física.
+Deep massage that helps relieve muscle tension, reduce stiffness, and support physical recovery.
+Masaje de Descarga Muscular
+Masaje profundo que ayuda a aliviar contracturas, reducir tensión muscular y favorecer la recuperación física.
+Deep massage that helps relieve muscle tension, reduce stiffness, and support physical recovery.
+Masaje de Piedras Calientes
+Sumérgete en una experiencia de relajación. La temperatura de las piedras alivian la tensión muscular y promueven un profundo bienestar con su calor reconfortante.
+Masaje con Ventosas
+Experimenta el masaje con ventosas, una técnica exclusiva que libera la tensión muscular, mejora la circulación y promueve la relajación profunda. Personalizado para ti, alivia dolores musculares, reduce el estrés y fomenta el equilibrio físico y emocional.
+Reflexología
+Restaura el equilibrio de tu cuerpo con imanes terapéuticos que regulan el pH, fortalecen el sistema inmune y apoyan el bienestar físico y emocional. Una terapia natural y profunda, ideal para liberar tensiones, eliminar toxinas y recuperar tu energía.
+1 hr. |
+$800
+Biomagnetismo
+Restaura el equilibrio de tu cuerpo con imanes terapéuticos que regulan el pH, fortalecen el sistema inmune y apoyan el bienestar físico y emocional. Una terapia natural y profunda, ideal para liberar tensiones, eliminar toxinas y recuperar tu energía.
+1 hr. |
+$800
+Drenaje linfático
+Técnica suave y efectiva, mejora la circulación, elimina toxinas, reduce la retención de líquidos, mejora el sistema inmunológico y alivia la sensación de piernas cansadas.
+Masaje + mascarilla hidratante
+Elige entre masaje relajante o descontracturante + una mascarilla hidratante para que logres una sensación completa de bienestar y belleza en sólo una hora. Recomendado para personas que quieren masaje + facial pero tienen poco tiempo. Amarás este servicio.
+1 hr. |
+$1,600
+1.5 hrs. |
+$2,100
+Faciales
+Limpieza profunda
+Experimenta una renovación con nuestra limpieza facial con extracción. Eliminamos impurezas y puntos negros para una piel fresca y revitalizada. Utilizamos productos de calidad para limpiar los poros y restaurar el equilibrio natural de la piel.
+1 hr. 45 min. |
+$1,050
+Microdermoabrasión
+Experimenta la renovación de tu piel. Esta técnica exfolia suavemente la piel, estimulando el colágeno para una tez más suave y juvenil. Nuestro equipo aborda tus necesidades específicas, ya sea reducir líneas finas, disminuir manchas oscuras o mejorar la textura de la piel. Reserva tu sesión hoy para una piel más luminosa y rejuvenecida.
+1 hr. 15 min. |
+$1,050
+Fotorejuvenecimiento
+Tratamiento innovador que utiliza tecnología de luz pulsada intensa IPL para mejorar la textura de la piel, reducir manchas solares y signos de envejecimiento como líneas finas y arrugas. Sin tiempo de recuperación, es una opción efectiva para revitalizar tu piel y restaurar su luminosidad natural desde la primera sesión. Resultados visibles desde la sesión uno.
+1 hr. 15 min. |
+$1,050
+HIFU Tensión total
+Efecto lifting sin cirugía. Este facial avanzado activa el colágeno en capas profundas para reafirmar, tensar y rejuvenecer tu rostro, suavizando arrugas y mejorando visiblemente la flacidez desde la primera sesión.
+1 hr. 15 min. |
+$2,250
+HIFU Reducción de Papada
+Define tu perfil sin bisturí. El HIFU trabaja en capas profundas para tensar la piel y reducir la papada, estimulando colágeno y logrando un contorno facial más firme, definido y juvenil.
+1 hr. 45 min. |
+$2,250
+Colágeno total con Dermapen
+Revitaliza tu piel desde dentro. Con microperforaciones y activos naturales, este tratamiento estimula colágeno, mejora cicatrices y manchas, y deja tu rostro visiblemente más firme, uniforme y luminoso desde las primeras sesiones.
+1 hr. 15 min. |
+$1,850
+Levantamiento facial 3D
+Reafirma, revitaliza y rejuvenece tu piel con este tratamiento que combina radiofrecuencia, dermapen y bioestimulación para lograr un efecto lifting, mejorar la textura y activar el colágeno desde dentro.
+1 hr. 15 min. |
+$1,050
+HydraFacial (Hidrodermoabrasión)
+Limpieza profunda, exfoliación suave y máxima hidratación en un solo paso. Ideal para todo tipo de piel, deja tu rostro radiante, libre de impurezas y visiblemente más fresco desde la primera sesión.
+1 hr. 15 min. |
+$1,050
+Hidratación
+Esta técnica suave y relajante revitaliza la piel con una dosis intensa de hidratación y nutrientes esenciales. Nuestros productos de alta calidad y técnicas especializadas restauran el equilibrio de humedad de la piel, dejándola suave, luminosa y radiante.
+Acompáñala de un masaje y vive medio día de spa.
+1 hr. 15 min. |
+$1,050
+Aclaramiento y manchas
+Desvanece las manchas y disfruta de una piel más uniforme. Utilizamos productos y tecnologías avanzadas para reducir la apariencia de manchas oscuras e hiperpigmentación. Nuestras expertas diseñarán un plan personalizado para ayudarte a alcanzar tus objetivos de luminosidad.
+1 hr. 15 min. |
+$1,050
+Secuela de acné
+Libérate de las secuelas del acné con nuestro tratamiento especializado. Utilizamos técnicas avanzadas y productos de alta calidad para abordar cicatrices, manchas y textura irregular. Diseñaremos un plan de tratamiento adaptado a tus necesidades, ayudándote a recuperar una piel suave, uniforme y sin imperfecciones.
+1 hr. 15 min. |
+$1,050
+Anti arrugas
+Este facial localizado está diseñado para prevenir y combatir los primeros signos de envejecimiento en labios y ojos. Con ingredientes activos como Aminoscience Cóctel, lirio blanco y vitaminas C, E y F, ofrece una acción revitalizante y reafirmante. Ayuda a mejorar la producción de colágeno y elastina, reduciendo la apariencia de líneas finas y arrugas.
+1 hr. 15 min. |
+$1,050
+Carboxiterapia
+Reducción y firmeza sin cirugía. Este tratamiento actúa en capas profundas para tonificar, definir y reafirmar zonas como abdomen, brazos o piernas, estimulando colágeno y remodelando tu figura sin dolor ni tiempo de recuperación.
+Abdomen,
+brazos o glúteos 45 min. |
+$1,150
+Piernas 1 hr. 15 min. |
+$2,250
+Timexpert radiance C+
+El mejor antioxidante con Vitamina C Pura.
+Por primera vez, un tratamiento que multiplica por 6 la eficacia de la Vitamina C Pura* gracias al nanopolímero patentado HLG, que nutre las células en profundidad y permite una liberación sostenida de los ingredientes activos.
+*Eficacia clínicamente probada.
+Timexpert lift in
+Nuevo enfoque para lograr firmeza, similar al lifting quirúrgico, para rejuvenecer tu piel. Es un programa avanzado de firmeza y densidad para rostro y cuello. La potente fórmula y la técnica de masaje proporcionan resultados visibles después de una sola sesión.
+Therapy O2
+Tratamiento facial anti-edad, oxigenante y antipolución para pieles normales a grasas
+que oxigena la piel, fortaleciendo sus defensas y reactivando su capacidad interna de auto-regeneración. Lucirás una piel envidiable.
+Antiedad global SRN
+Basado en la epigenética, que ofrece una respuesta eficaz y personalizada para pieles maduras. Disfruta de una experiencia relajante y rejuvenecedora con resultados visibles. Revierte los signos del envejecimiento.
+CORPORALES
+Experiencia Velo de novia Ritual rose + Facial Lift in + Aperitivo y vino.
+Prepárate para tu gran día con nuestra exclusiva experiencia Velo de Novia. Este tratamiento te ofrece una piel radiante y luminosa para uno de los días más especiales de tu vida. Con técnicas de cuidado facial personalizadas y productos de alta calidad, lograrás un cutis impecable y un brillo natural que te hará deslumbrar en tu boda.
+3 hrs. |
+$4,600
+Experiencia Ritual rose
+Experiencia sensorial única que combina la delicadeza y el embriagador aroma de la rosa con técnicas relajantes. Disfruta una hidratación intensa y una piel suave como el terciopelo, mientras te sumerges en un estado de serenidad y calma en un mundo de lujo.
+1.5 hrs. |
+$2,150
+Experiencia Aqua marine
+Diseñado para rejuvenecer y revitalizar tu piel. Inspirado en la frescura del mar, utiliza ingredientes marinos y técnicas avanzadas. Revela una tez luminosa y radiante al restaurar el equilibrio natural de tu piel.
+1 hr. |
+$2,150
+Aclaramiento: axilas, ingles, rodillas, codos
+Luce una piel radiante. Nuestro enfoque especializado utiliza productos y técnicas para reducir la pigmentación y mejorar la textura de la piel en esta área delicada. Obtén resultados visibles y duraderos mientras te deshaces de las manchas y logras una piel suave y luminosa.
+1 hr. |
+$800
+DÍAS DE SPA
+Sumérgete en un oasis de tranquilidad con nuestros exclusivos day spa diseñados para ofrecerte una excelente experiencia. Disfruta de una variedad de tratamientos, desde masajes hasta faciales y envolventes corporales. Nuestras terapeutas expertas te guiarán en un viaje hacia el bienestar, dejándote renovada y revitalizada en cuerpo y mente. Reserva tu día de spa hoy y regálate el lujo que mereces.
+Día de Relajación
+2.5 hrs.
+$2,250
+Masaje 1 hr. + Facial hidracure
+Día de Armonía
+3 hrs.
+$4,150
+Masaje 1.5 hrs. + Facial timexpert radiance + Aperitivo y vino.
+Día de Renovación
+4 hrs.
+$4,600
+Masaje 1 hr. + Facial hidracure + Experiencia aqua marine + Aperitivo y vino.
+Día de Bienestar total
+5 hrs.
+$6,300
+Masaje 1.5 hrs. + Facial timexpert radiance + Experiencia aqua marine + Aperitivo y vino.
+FACIALES PREMIUM
+GERMAINE DE CAPUCCINI
+*Eficacia clínicamente probada.
+1 hr. 15 min. |
+$2,250
++HIFU 1 hr. 15 min. |
+$2,850
++HIFU +Papada 1 hr. 45 min. |
+$3,450
+REDUCTIVOS
+Descubre nuestros tratamientos reductivos para lograr tus metas de pérdida de medidas de manera segura y efectiva. Usamos técnicas avanzadas como cavitación ultrasónica, radiofrecuencia y mesoterapia para reducir grasa localizada y mejorar la apariencia del cuerpo. Con la guía de nuestras expertas, alcanzarás la silueta deseada. Reserva una sesión de valoración gratuita.
+Reducción | Celulitis | Flacidez | Grasa localizada | Detox | Estrías
+Paquetes desde $6,000
+Valoración corporal
+| 30 min. | Gratuita
+HIFU Reafirmante
+Reducción y firmeza sin cirugía. Este tratamiento actúa en capas profundas para tonificar, definir y reafirmar zonas como abdomen, brazos o piernas, estimulando colágeno y remodelando tu figura sin dolor ni tiempo de recuperación.
+Abdomen,
+brazos o glúteos 45 min. |
+$1,150
+Piernas 1 hr. 15 min. |
+$2,250
+Carboxiterapia
+Reducción y firmeza sin cirugía. Este tratamiento actúa en capas profundas para tonificar, definir y reafirmar zonas como abdomen, brazos o piernas, estimulando colágeno y remodelando tu figura sin dolor ni tiempo de recuperación.
+Abdomen,
+brazos o glúteos 45 min. |
+$1,150
+Piernas 1 hr. 15 min. |
+$2,250
+Enzimas reductivas
+Efectivas para remodelar y tonificar el cuerpo. Utilizan enzimas naturales para descomponer las células grasas, promoviendo la pérdida de medidas y mejorando la piel. Con resultados visibles y duraderos, combinados con cavitación para maximizarlos.
+Cavitación
+Tratamiento avanzado para reducir grasa localizada y mejorar la apariencia del cuerpo. La cavitación utiliza ondas ultrasónicas para romper células grasas, permitiendo que el cuerpo las elimine. Con sesiones rápidas y resultados visibles, es una excelente opción sin cirugía ni tiempo de recuperación. Reserva tu cita de valoración gratuita.
+Liposucción sin cirugía
+Una alternativa no invasiva para esculpir tu figura y eliminar la grasa localizada. Utilizando tecnologías avanzadas como la cavitación y la radiofrecuencia, este tratamiento ofrece resultados visibles y sin tiempo de inactividad. Ideal para obtener una silueta definida y tonificada sin necesidad de cirugía.
+Lipoescultura con Mesoterapia
+Tratamiento reductivo y anticelulitis que moldea tu figura de forma natural. Combina microinyecciones y aparatología para eliminar grasa localizada, mejorar la piel y reducir visiblemente la celulitis sin cirugía ni dolor.
+Radiofrecuencia
+Terapia recomendada para la flacidez, calienta las capas profundas de la piel con energía de radiofrecuencia, estimulando la producción de colágeno y mejorando la circulación sanguínea. Resulta en una reducción de grasa localizada y una piel más firme y tonificada.
+Presoterapia
+Mejora la circulación, reduce la retención de líquidos y alivia la sensación de piernas cansadas. Utiliza presión controlada para masajear suavemente piernas, glúteos y cintura, estimulando el sistema linfático para favorecer la eliminación de toxinas y el drenaje linfático
+Consulta nutricional
+Recibe una consulta nutricional personalizada con nuestra nutricionista certificada para lograr tus metas de salud. Desde la pérdida de peso hasta mejorar la digestión o aumentar la energía, obtén un plan alimenticio adaptado a ti. Con herramientas y apoyo, alcanza tus objetivos de forma efectiva y sostenible.
+$650
+Escuela de masajes
+Formamos masajistas con una enseñanza clara, práctica y técnica. Nuestro Diplomado en Masaje Profesional de 6 meses integra Masaje Relajante, Descontracturante, Deportivo, Drenaje linfático, Reflexología y Holístico energético, permitiendo aprender desde la base, perfeccionar la técnica y comprender el trabajo corporal con un enfoque profesional.
+Trabajamos con grupos reducidos y atención personalizada para desarrollar habilidades reales. También ofrecemos cursos individuales de estas técnicas para quienes desean aprender o reforzar una técnica en particular.
+Diplomado de 6 meses $19,000 | Diplomado 3 meses $11,000 | Curso 1 mes $4,000
+escuelademasajesgreenspa.mx
+Haz clic aquí
+Hello world!
+agosto 20, 2024
+No hay comentarios
+Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+Leer más »
+Hello world!
+agosto 18, 2024
+No hay comentarios
+Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+Leer más »
+Haz clic aquí
+
+=== p-promociones.html
+Promociones - GreenSpa
+Ir al contenido
+INICIO
+SERVICIOS
+TESTIMONIOS
+PROMOCIONES
+CONTACTO
+BLOG
+INICIO
+SERVICIOS
+TESTIMONIOS
+PROMOCIONES
+CONTACTO
+BLOG
+PROMOCIÓN DEL MES
+Amamos consentirte y
+ayudarte a lucir mejor
+PROGRAMA
+GREEN LOYALTY | $300
+En GreenSpa nos preocupamos cada día por reconocer la lealtad de nuestros mejores clientes, por lo que hemos creado un programa de recompensas llamado GREEN LOYALTY.
+Beneficios
+• Bono de bienvenida: -20% en servicios y -10% en productos
+• Acumula 5% en todas tus compras
+• Acceso a cupón del mes -30%
+CERTIFICADOS
+DE REGALO
+Cotiza aquí
+Regalar bienestar, es uno de los detalles que más hacen feliz a los que más quieres. Obtén 3 meses de vigencia para agendar tus servicios.
+Ideal para cumpleaños, día de las madres, navidad, San Valentín o simplemente un detalle de agradecimiento.
+EVENTOS ESPECIALES
+Festeja con los que más quieres en GreenSpa. Armaremos la mejor celebración para ese día tan especial.
+Cumpleaños* | Despedidas de soltera | Posadas | Eventos para empresas | Aniversarios | Baby showers | Graduaciones | Gender Reveals | Y más
+Masaje 1 hr. + Facial hidracure +
+Aperitivo y bebidas
+5 personas | 4 hrs. | $12,250
+CUMPLEAÑOS
+*Todo tu mes de cumpleaños
+-15%
+en todos nuestros servicios.
+
+=== p-testimonios.html
+Testimonios - GreenSpa
+Ir al contenido
+INICIO
+SERVICIOS
+TESTIMONIOS
+PROMOCIONES
+CONTACTO
+BLOG
+INICIO
+SERVICIOS
+TESTIMONIOS
+PROMOCIONES
+CONTACTO
+BLOG
+TESTIMONIOS
+Son super amables y atentos, todo está muy limpio, lo que para mi es muy importante y ponen mucha atención a los detalles.
+Andrea
+El servicio es impecable. El masaje de los mejores que he probado. Muy recomendable y a precio accesible. Las chicas súper profesionales.
+Carolina
+Honestly the best massage experience I've ever had. Very professional, relaxing and I felt amazing.
+Hanna
+Más opiniones
+
+=== p-contacto.html
+Contacto - GreenSpa
+Ir al contenido
+INICIO
+SERVICIOS
+TESTIMONIOS
+PROMOCIONES
+CONTACTO
+BLOG
+INICIO
+SERVICIOS
+TESTIMONIOS
+PROMOCIONES
+CONTACTO
+BLOG
+CONTACTO | CITAS
+Horario
+Lunes de 11:00 a 19:00
+Martes a viernes de 9:00 a 21:00
+Sábado y domingo de 9:00 a 18:00
+Ubicación
+Sebastian Bach 4759,
+Col. Prados Guadalupe,
+Zapopan, Jalisco
+Whatsapp
+(33) 3404 5420
+Teléfono
+(33) 2410-2887
+Más información
+info@greenspa.com.mx
+Nombre
+Correo electrónico
+Asunto
+Mensaje
+Enviar
+FORMAS DE PAGO

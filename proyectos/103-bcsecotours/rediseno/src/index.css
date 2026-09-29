@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* Su sitio usa Poppins e Inter con el azul y rojo de su logo. Aquí: Fraunces (títulos, con carácter de bitácora de mar)
+   y Work Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Fraunces"; src: url("../node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Fraunces"; src: url("../node_modules/@fontsource/fraunces/files/fraunces-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Work Sans"; src: url("../node_modules/@fontsource/work-sans/files/work-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Work Sans"; src: url("../node_modules/@fontsource/work-sans/files/work-sans-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Work Sans"; src: url("../node_modules/@fontsource/work-sans/files/work-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: el azul profundo del Mar de Cortés, el turquesa de Coronado, la arena y el ocre de la Sierra de la Giganta.
+   Contrastes: concha sobre mar 8.07, concha sobre abismo 13.20, turquesa sobre abismo 7.62, espuma sobre abismo 10.74,
+   tinta sobre arena 13.47, gris sobre arena 5.16, ocre sobre arena 4.68, mar sobre arena 7.21, concha sobre ocre 5.23,
+   abismo sobre sol 6.42. */
+@theme {
+  --color-abismo: #06323d;
+  --color-mar: #0b5566;
+  --color-turquesa: #5fd3cc;
+  --color-espuma: #cfe9e6;
+  --color-arena: #f5ede0;
+  --color-concha: #fffaf2;
+  --color-ocre: #b4471f;
+  --color-sol: #f0a04b;
+  --color-tinta: #14262b;
+  --color-gris: #56666a;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Work Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-arena text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply text-tinta font-display; font-weight: 700; line-height: 1.05; letter-spacing: -0.015em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-abismo text-espuma; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-concha; }
+  :focus-visible { outline: 3px solid var(--color-ocre); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-sol); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro, .btn-mar {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-[0.98rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-sol text-abismo hover:bg-[#f4b36d]; }
+  .btn-mar { @apply bg-mar text-concha hover:bg-abismo; }
+  .btn-linea { @apply border-2 border-mar/40 text-mar hover:border-mar hover:bg-concha; }
+  .btn-claro { @apply border-2 border-concha/40 text-concha hover:border-concha hover:bg-concha/10; }
+  .enlace { @apply font-semibold text-mar underline decoration-2 underline-offset-4 hover:text-tinta; }
+  .oscuro .enlace { @apply text-turquesa hover:text-concha; }
+  .antetitulo { @apply text-[0.8rem] font-semibold uppercase tracking-[0.18em] text-ocre; }
+  .oscuro .antetitulo { @apply text-sol; }
+  .asiento { transition: fill 0.25s ease, stroke 0.25s ease; }
+}

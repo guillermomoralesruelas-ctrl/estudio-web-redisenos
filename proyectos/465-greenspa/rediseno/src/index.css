@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* Su sitio usa letra de palo seco sobre verde oscuro con hojas recortadas. Aquí: Gilda Display (títulos, serif fina y
+   tranquila) y Mulish (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Gilda Display"; src: url("../node_modules/@fontsource/gilda-display/files/gilda-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Mulish"; src: url("../node_modules/@fontsource/mulish/files/mulish-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Mulish"; src: url("../node_modules/@fontsource/mulish/files/mulish-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Mulish"; src: url("../node_modules/@fontsource/mulish/files/mulish-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: el verde bosque de su sitio, salvia, el verde de sus hojas, crema y el dorado de su sello.
+   Contrastes: crema sobre bosque 11.50, hoja sobre bosque 6.95, oro claro sobre bosque 6.92, bosque sobre hoja 6.95,
+   tinta sobre crema 13.85, gris sobre crema 5.73, salvia sobre crema 6.39, crema sobre salvia 6.39, oro sobre papel 5.3,
+   gris sobre papel 6.31. */
+@theme {
+  --color-bosque: #22362a;
+  --color-salvia: #3f5f45;
+  --color-hoja: #a9c97a;
+  --color-crema: #f5f2e7;
+  --color-papel: #fffdf6;
+  --color-oro: #7d5f1c;
+  --color-oroclaro: #d9bb6a;
+  --color-tinta: #1e2620;
+  --color-gris: #58615a;
+  --font-display: "Gilda Display", Georgia, serif;
+  --font-sans: "Mulish", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-crema text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply text-tinta font-display; font-weight: 400; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-bosque text-crema/90; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-crema; }
+  :focus-visible { outline: 3px solid var(--color-salvia); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-hoja); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro, .btn-salvia {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.98rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-hoja text-bosque hover:bg-[#bcd892]; }
+  .btn-salvia { @apply bg-salvia text-crema hover:bg-bosque; }
+  .btn-linea { @apply border-2 border-salvia/40 text-salvia hover:border-salvia hover:bg-papel; }
+  .btn-claro { @apply border-2 border-crema/40 text-crema hover:border-crema hover:bg-crema/10; }
+  .enlace { @apply font-bold text-salvia underline decoration-1 underline-offset-4 hover:text-tinta; }
+  .oscuro .enlace { @apply text-hoja hover:text-crema; }
+  .antetitulo { @apply text-[0.8rem] font-bold uppercase tracking-[0.22em] text-salvia; }
+  .oscuro .antetitulo { @apply text-hoja; }
+  .campo { @apply mt-1.5 w-full rounded-xl border border-crema/25 bg-salvia/40 px-4 py-3 text-crema placeholder:text-crema/60; }
+
+  /* El certificado: papel con doble filete dorado y esquinas. */
+  .certificado {
+    @apply relative overflow-hidden rounded-2xl bg-papel p-7 text-tinta sm:p-10;
+    box-shadow: 0 30px 60px -30px rgb(0 0 0 / 0.6);
+  }
+  .certificado::before {
+    content: ""; position: absolute; inset: 12px; border: 1.5px solid rgb(125 95 28 / 0.55); border-radius: 12px; pointer-events: none;
+    box-shadow: inset 0 0 0 4px var(--color-papel), inset 0 0 0 5px rgb(125 95 28 / 0.35);
+  }
+}

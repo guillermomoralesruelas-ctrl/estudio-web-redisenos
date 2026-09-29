@@ -8,51 +8,42 @@
 2. Toma como modelo los últimos rediseños terminados: `proyectos/579-integra360`, `proyectos/35-altheawellnessclinic`, `proyectos/384-escueladefotografia`, `proyectos/326-domusvallartafine` y `proyectos/557-humaredaprime` (su `entregables/plan-diseno.md`, `CAMBIOS.md`, `OPORTUNIDADES.md`, `rediseno/src/*`, `rediseno/index.html` y `rediseno/fotos-web.mjs`).
 3. Instala las herramientas una vez: `cd herramientas && npm install`. En la nube, Chromium ya está en `/opt/pw-browsers` y Playwright lo encuentra solo; no ejecutes `playwright install`.
 
-## Tu lista: lote 4 (solo estos 30)
+## Tu lista: lote 4, lo que falta (17 sitios)
+
+Los primeros 13 del lote 4 ya se hicieron en la nube el 2026-09-28 (9 terminados y 4 descartados; ver `entregables-nube-4.md`, filas 1 a 13). Esta es la lista de los que faltan:
 
 | # | Carpeta | Negocio | Sitio original |
 |---|---|---|---|
-| 1 | `362-elpalmar` | El Palmar, Mazatlán, Sinaloa (gastronomia) | https://elpalmarmzt.com/ |
-| 2 | `276-cuadroxcuadro` | CuadroxCuadro, Ciudad de México, CDMX (servicios) | http://videofilmaciones.mx/ |
-| 3 | `577-institutoargentinode` | Instituto Argentino de Artes Culinarias, Ciudad de México, Polanco/Condesa (educacion) | https://iaacmexico.com/ |
-| 4 | `54-aria` | ARIA, Ciudad de México, CDMX (educacion) | https://somosaria.com/ |
-| 5 | `502-hollywoodmeetingplanners` | Hollywood Meeting Planners & Event Management, Cancún, Yucatán (eventos) | https://hollywoodencancun.com/ |
-| 6 | `103-bcsecotours` | BCS Eco Tours, Loreto, Baja California Sur (turismo) | https://loretobaytours.com/ |
-| 7 | `378-erickoseguerafotografia` | Erick Oseguera Fotografía, Guadalajara, Jalisco (eventos) | https://erickoseguera.com/ |
-| 8 | `481-haciendalamagdalena` | Hacienda La Magdalena, Zapopan, Jalisco (eventos) | https://www.haciendalamagdalena.com/ |
-| 9 | `591-josecortesinstitute` | José Cortés Institute, Ciudad de México (salud) | https://josecortes.com/ |
-| 10 | `197-centromedicoveterinario` | Centro Médico Veterinario, San Luis Potosí, San Luis Potosí (salud) | https://cmvet.mx/ |
-| 11 | `332-dreluani` | Dr. Eluani, Hermosillo, Sonora (salud) | https://dreluani.com/ |
-| 12 | `458-graceviajesy` | Grace Viajes y Eventos, Villahermosa, Tabasco (turismo) | https://graceviajesyeventos.com/ |
-| 13 | `465-greenspa` | GreenSpa, Guadalajara, Jalisco (spa) | https://greenspa.mx/ |
-| 14 | `554-huastecaviva` | Huasteca Viva, Ciudad Valles, San Luis Potosí (turismo) | http://huastecaviva.com/ |
-| 15 | `434-fuentedepiedra` | Fuente de Piedra, Guadalajara, Jalisco (eventos) | https://fuentedepiedra.mx/ |
-| 16 | `592-joyadentcenter` | JoyaDent Center, Nuevo Vallarta, Nayarit (salud) | https://joyadent.com/ |
-| 17 | `500-holboxtours` | Holbox Tours, Holbox, Quintana Roo (turismo) | https://holboxtours.com/ |
-| 18 | `349-egdental` | EG Dental, Tijuana, Baja California (salud) | https://www.egdentalmex.com/ |
-| 19 | `336-drplastico` | Dr. Plastico, Playa del Carmen, Quintana Roo (salud) | https://drplastico.com/ |
-| 20 | `602-kajeos` | KAJEOS, Boca del Río, Veracruz (inmuebles) | https://kajeos.com/ |
-| 21 | `199-centroodontologicoespeci` | Centro Odontológico Especializado de la Costa, Puerto Escondido, Oaxaca (salud) | https://coec.com.mx/ |
-| 22 | `438-fatimabuenfilnutricion` | Fátima Buenfil Nutrición Clínica, Mérida, Yucatán (salud) | https://www.fatimabuenfil.com/ |
-| 23 | `98-barberiaspremium` | Barberías Premium, Oaxaca de Juárez, Oaxaca (spa) | https://barberiaspremium.com/ |
-| 24 | `232-clinicadentaljustsmiles` | Clínica Dental Justsmiles, Puerto Vallarta, Jalisco (salud) | https://www.justsmiles.mx/ |
-| 25 | `646-lasjarasaguas` | Las Jaras Aguas Termales - Spa El Sendero & Jardín, Ciudad de México, CDMX (spa) | https://lasjaras.mx/ |
-| 26 | `404-exploravallarta` | Explora Vallarta, Nuevo Vallarta, Nayarit (turismo) | https://www.exploravallarta.com/ |
-| 27 | `423-floreriarivieracancun` | Florería Riviera - Cancun, Cancún, Quintana Roo (retail) | https://www.floreriariviera.com/ |
-| 28 | `509-hospitalveterinariovetpe` | Hospital Veterinario VetPets, Zapopan, Jalisco (salud) | https://hospitalesvetpets.com.mx/ |
-| 29 | `506-hospitalveterinariocarso` | Hospital Veterinario Carson, Ciudad de México, Iztapalapa (veterinaria) | https://hospitalcarson.com/ |
-| 30 | `417-floatsano` | Floatsano, San Miguel de Allende, Guanajuato (spa) | https://floatsano.com/ |
+| 1 | `554-huastecaviva` | Huasteca Viva, Ciudad Valles, San Luis Potosí (turismo) | http://huastecaviva.com/ |
+| 2 | `434-fuentedepiedra` | Fuente de Piedra, Guadalajara, Jalisco (eventos) | https://fuentedepiedra.mx/ |
+| 3 | `592-joyadentcenter` | JoyaDent Center, Nuevo Vallarta, Nayarit (salud) | https://joyadent.com/ |
+| 4 | `500-holboxtours` | Holbox Tours, Holbox, Quintana Roo (turismo) | https://holboxtours.com/ |
+| 5 | `349-egdental` | EG Dental, Tijuana, Baja California (salud) | https://www.egdentalmex.com/ |
+| 6 | `336-drplastico` | Dr. Plastico, Playa del Carmen, Quintana Roo (salud) | https://drplastico.com/ |
+| 7 | `602-kajeos` | KAJEOS, Boca del Río, Veracruz (inmuebles) | https://kajeos.com/ |
+| 8 | `199-centroodontologicoespeci` | Centro Odontológico Especializado de la Costa, Puerto Escondido, Oaxaca (salud) | https://coec.com.mx/ |
+| 9 | `438-fatimabuenfilnutricion` | Fátima Buenfil Nutrición Clínica, Mérida, Yucatán (salud) | https://www.fatimabuenfil.com/ |
+| 10 | `98-barberiaspremium` | Barberías Premium, Oaxaca de Juárez, Oaxaca (spa) | https://barberiaspremium.com/ |
+| 11 | `232-clinicadentaljustsmiles` | Clínica Dental Justsmiles, Puerto Vallarta, Jalisco (salud) | https://www.justsmiles.mx/ |
+| 12 | `646-lasjarasaguas` | Las Jaras Aguas Termales - Spa El Sendero & Jardín, Ciudad de México, CDMX (spa) | https://lasjaras.mx/ |
+| 13 | `404-exploravallarta` | Explora Vallarta, Nuevo Vallarta, Nayarit (turismo) | https://www.exploravallarta.com/ |
+| 14 | `423-floreriarivieracancun` | Florería Riviera - Cancun, Cancún, Quintana Roo (retail) | https://www.floreriariviera.com/ |
+| 15 | `509-hospitalveterinariovetpe` | Hospital Veterinario VetPets, Zapopan, Jalisco (salud) | https://hospitalesvetpets.com.mx/ |
+| 16 | `506-hospitalveterinariocarso` | Hospital Veterinario Carson, Ciudad de México, Iztapalapa (veterinaria) | https://hospitalcarson.com/ |
+| 17 | `417-floatsano` | Floatsano, San Miguel de Allende, Guanajuato (spa) | https://floatsano.com/ |
 
 Hazlos en orden. La PC trabaja al mismo tiempo en la lista de `INSTRUCCIONES-PC.md`; no toques esos sitios. Sus clones (`sitio/`) y textos (`investigacion/`) ya vienen en el repositorio. **No trabajes en ningún otro proyecto.**
 
 ### Esta lista se reparte entre varias sesiones
 
-Una sola sesión en la nube no alcanza para los 30: cada una avanza lo que pueda y después Guillermo abre otra. Por eso:
+Una sola sesión en la nube quizá no alcance para los 17: cada una avanza lo que pueda y después Guillermo abre otra. Por eso:
 
 - **Al empezar**, revisa `METODOS.md` y `git log origin/main`: salta los sitios de esta lista que ya tengan fila "Terminado" o "Descartado" y empieza por el primero que no la tenga.
 - **Un sitio a la vez, completo:** commit y push al terminar o descartar cada uno (pasos 11 y 12), nunca al final de varios.
 - **Si la sesión se va a cortar** con un sitio a medias, sube su avance a una rama `nube4-<carpeta>` con "EN PROGRESO" en el mensaje y anótalo en `entregables-nube-4.md`. La siguiente sesión lo retoma desde esa rama.
-- Actualiza `entregables-nube-4.md` después de cada sitio (no al final), para que el resumen no se pierda si la sesión termina.
+- Actualiza `entregables-nube-4.md` después de cada sitio (no al final), para que el resumen no se pierda si la sesión termina. Sigue la numeración desde la fila 14 y, en el mismo commit, cambia el "(este commit)" de la fila anterior por su hash. Súbelo junto con `DESCARTADOS.md` cuando descartes.
+- Si el sitio no publica WhatsApp, usa su teléfono principal como WhatsApp y márcalo como pendiente en `CAMBIOS.md` (así se hizo en 481).
+- Si la sesión arranca un día después, guarda las capturas en la carpeta que cree `guardar-capturas.mjs` (lleva la fecha del día) y usa esa ruta en `OPORTUNIDADES.md`.
 
 ### No toques el panel
 
@@ -60,7 +51,7 @@ El panel (`panel/`, http://localhost:4000) ya tiene la configuración correcta: 
 
 ## Elementos memorables ya usados (no repetir)
 
-La lista completa y al día está en `METODOS.md` (el título entre comillas de cada fila "Terminado"); revísala antes de cada sitio. Hasta hoy, entre otros: calculadora de inversión por plan, filtro de lotes por categoría, proyección de plusvalía, "Metro a metro" por superficie, propiedades por pueblo según presupuesto, rosa de los vientos con propiedades ("Pachuca a 360°"), recorrido de vuelo, vista al despertar, plano de mesas y de jardín, hoja de contactos/negativo, "¿Qué cámara tienes?", checklist de mascota, mapa con círculos de distancia, mes en la barra, mandala 360, rockola/Spotify, armador de horario semanal, profundidad del cenote, zonas del cuerpo, pase de abordar, reloj de arena por tiempo disponible ("¿Cuánto tiempo tienes?"), set del estudio, "¿Llega hoy?", "¿Para quién es?", "¿Cuál es tu piedra?".
+La lista completa y al día está en `METODOS.md` (el título entre comillas de cada fila "Terminado"); revísala antes de cada sitio. Hasta hoy, entre otros: calculadora de inversión por plan, filtro de lotes por categoría, proyección de plusvalía, "Metro a metro" por superficie, propiedades por pueblo según presupuesto, rosa de los vientos con propiedades ("Pachuca a 360°"), recorrido de vuelo, vista al despertar, plano de mesas y de jardín, hoja de contactos/negativo, "¿Qué cámara tienes?", checklist de mascota, mapa con círculos de distancia, mes en la barra, mandala 360, rockola/Spotify, armador de horario semanal, profundidad del cenote, zonas del cuerpo, pase de abordar, reloj de arena por tiempo disponible ("¿Cuánto tiempo tienes?"), set del estudio, "¿Llega hoy?", "¿Para quién es?", "¿Cuál es tu piedra?". Del lote 4: mapa del ceviche, cinta de horas, comandas, calendario de clases, marquesina de cine, asientos de la lancha, carta con matasellos, tablero de llaves y certificado de regalo.
 
 ## Cómo hacer cada sitio (método 1.1)
 

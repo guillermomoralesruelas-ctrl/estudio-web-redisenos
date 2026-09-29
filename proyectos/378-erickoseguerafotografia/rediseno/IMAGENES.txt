@@ -1,0 +1,23 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content/uploads), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+2023/02/Wedding-175.jpg	1280x1920	636 KB
+2022/12/Wedding-191.jpg	1280x1920	635 KB
+2023/02/Lovesession-352-1.jpg	1280x1920	277 KB
+2023/02/SIMBOLO_3_C2.png	1600x1600	230 KB
+2023/02/fotografo-de-bodas-1-37-1.jpg	1500x1500	213 KB
+2023/02/B38A8067-2.jpg	867x1300	204 KB
+2023/02/WED0447-1.jpg	911x1366	197 KB
+2023/02/Wedding-442.jpg	1600x1067	193 KB
+2024/10/Wedding-629.jpg	1200x800	187 KB
+2024/07/Wedding-196.jpg	1067x1600	180 KB
+2023/02/cover-scaled-1.jpg	1600x1067	151 KB
+2024/10/Wedding-561-1.jpg	1200x800	145 KB
+2023/02/DSC00042-1.jpg	1366x911	134 KB
+2024/10/Wedding-476.jpg	800x1200	98 KB
+2024/05/Lovesession-148_websize.jpg	1600x1067	92 KB
+2023/02/LOGO2_V1_C2.png	1600x1600	62 KB
+2022/12/junebug-weddings-member-badge-2024-transparent.png	300x300	28 KB
+2022/12/LOGO_V1_NB-e1673053737482.png	870x735	25 KB
+2023/04/cropped-favicon-192x192.png	192x192	8 KB
+2023/04/cropped-favicon-180x180.png	180x180	7 KB
+2023/04/cropped-favicon-32x32.png	32x32	1 KB
