@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* Cormorant Garamond (títulos y letra de la tarjeta) y DM Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: el rosa de su marca de agua oscurecido (fucsia), rubor, papel, verde de tallo, vino y gris.
+   Contrastes: fucsia sobre papel 6.89, fucsia sobre rubor 6.13, blanco sobre fucsia 7.14, hoja sobre papel 7.37,
+   gris sobre papel 7.26, tinta sobre rubor 13.66, rubor sobre vino 13.24, rosa sobre vino 8.30. */
+@theme {
+  --color-fucsia: #a3215f;
+  --color-rubor: #fbe9f1;
+  --color-papel: #fffaf6;
+  --color-hoja: #2f5d3a;
+  --color-vino: #3a1a2a;
+  --color-rosa: #f4a8c9;
+  --color-gris: #5e5157;
+  --color-tinta: #2a1f24;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "DM Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-papel text-tinta font-sans antialiased; font-size: 1rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-tinta; font-weight: 600; line-height: 1.05; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-vino text-rubor/90; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-rubor; }
+  :focus-visible { outline: 3px solid var(--color-fucsia); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-rosa); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-fucsia text-white hover:bg-vino; }
+  .btn-linea { @apply border-2 border-fucsia/35 text-fucsia hover:border-fucsia; }
+  .btn-claro { @apply border-2 border-rubor/40 text-rubor hover:border-rubor; }
+  .enlace { @apply font-bold text-fucsia underline decoration-1 underline-offset-4 hover:text-vino; }
+  .oscuro .enlace { @apply text-rosa hover:text-white; }
+  .campo { @apply mt-1.5 w-full rounded-xl border border-fucsia/25 bg-white px-4 py-3 font-normal text-tinta; }
+
+  /* La tarjeta de dedicatoria, colgada del arreglo con un listón. */
+  .tarjeta {
+    @apply relative rounded-md bg-papel px-6 pb-6 pt-7 text-tinta;
+    box-shadow: 0 18px 40px -20px rgb(58 26 42 / 0.55);
+    transform: rotate(-2.5deg);
+  }
+  .tarjeta::before { content: ""; position: absolute; left: 50%; top: -34px; width: 2px; height: 40px; background: var(--color-fucsia); }
+  .tarjeta::after { content: ""; position: absolute; left: calc(50% - 5px); top: 8px; width: 10px; height: 10px; border-radius: 9999px; border: 2px solid var(--color-fucsia); background: var(--color-papel); }
+}
