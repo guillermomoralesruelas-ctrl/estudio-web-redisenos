@@ -1,0 +1,150 @@
+{
+  "sitio": "https://donrogeliocafe.com/",
+  "fecha": "2026-09-26T07:07:16.375Z",
+  "motor": "jina-reader",
+  "slug": "donrogeliocafe",
+  "nombre": "Don Rogelio Café",
+  "rubro": "GASTRONOMIA",
+  "ciudad": "Tlajomulco, Jalisco",
+  "plantilla": "restaurante-bar",
+  "paginasRevisadas": [
+    {
+      "url": "https://donrogeliocafe.com/",
+      "titulo": "Don Rogelio Café — Café de Especialidad Mexicano"
+    },
+    {
+      "url": "https://donrogeliocafe.com/product/cordoba-veracruz-proceso-natural",
+      "titulo": "Córdoba Veracruz Natural | Don Rogelio Café"
+    },
+    {
+      "url": "https://donrogeliocafe.com/historia",
+      "titulo": "Nuestra Historia — Don Rogelio Café desde Guadalajara"
+    },
+    {
+      "url": "https://donrogeliocafe.com/tienda",
+      "titulo": "Tienda de Café de Especialidad Mexicano — Don Rogelio Café"
+    },
+    {
+      "url": "https://donrogeliocafe.com/aprende",
+      "titulo": "Aprende Café — Recetas y Métodos — Don Rogelio Café"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "1779315067",
+      "1779316756",
+      "1779316102",
+      "1779314670",
+      "1779316793",
+      "1778686301",
+      "+52 33 2847 2377",
+      "+523328472377",
+      "523328472377",
+      "76-0815-4",
+      "1779314587",
+      "1780000350",
+      "1781627923",
+      "1785168168"
+    ],
+    "emails": [
+      "info@donrogeliocafe.com"
+    ],
+    "whatsapp": [
+      "wa.me/523328472377)"
+    ],
+    "redes": [
+      "https://www.instagram.com/donrogeliocafe/",
+      "https://www.facebook.com/DonRogelioCafe/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://donrogeliocafe.com/assets/logo-CAWHFQ4W.png",
+      "alt": "Image 1: Don Rogelio Café"
+    },
+    {
+      "src": "https://donrogeliocafe.com/assets/hero-beans-BLI3KdR-.jpg",
+      "alt": "Image 2: Granos de café tostados"
+    },
+    {
+      "src": "https://donrogeliocafe.com/assets/hero-logo-DGPqAUQJ.png",
+      "alt": "Image 3: Don Rogelio Café"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/1008/1766/6342/files/cuarente-o-nayarit.png?v=1779315067",
+      "alt": "Image 4: Cuarenteño, Nayarit — Lavado"
+    },
+    {
+      "src": "https://donrogeliocafe.com/assets/latte-art-DNcUaCUy.jpg",
+      "alt": "Image 5: Latte art"
+    },
+    {
+      "src": "https://donrogeliocafe.com/assets/gallery-cosecha-UuCn4P1n.jpg",
+      "alt": "Image 6: Cosecha de cerezas de café"
+    },
+    {
+      "src": "https://donrogeliocafe.com/assets/gallery-beneficio-C-ErSZId.jpg",
+      "alt": "Image 7: Beneficio húmedo del café"
+    },
+    {
+      "src": "https://donrogeliocafe.com/assets/gallery-tostado-Cqw-2kyc.jpg",
+      "alt": "Image 8: Tueste artesanal"
+    },
+    {
+      "src": "https://donrogeliocafe.com/assets/gallery-espresso-B-ziDd6x.jpg",
+      "alt": "Image 9: Extracción en Rancilio Invicta"
+    },
+    {
+      "src": "https://donrogeliocafe.com/assets/gallery-latteart-BPv6zxAl.jpg",
+      "alt": "Image 10: Arte latte"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/1008/1766/6342/files/huatusco-veracruz-lavado.png?v=1779316756",
+      "alt": "Image 17: Huatusco, Veracruz — Lavado"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/1008/1766/6342/files/motozintla-chiapas-lavado.png?v=1779316102",
+      "alt": "Image 18: Motozintla, Chiapas — Lavado"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/1008/1766/6342/files/pluma-hidalgo-oaxaca.png?v=1779314670",
+      "alt": "Image 19: Pluma Hidalgo, Oaxaca — Finca Las Mulas"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/1008/1766/6342/files/tenajapa-chiapas.png?v=1779316793",
+      "alt": "Image 20: Tenajapa, Chiapas — Los Altos de Chiapas"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/1008/1766/6342/files/cordoba.jpg?v=1778686301",
+      "alt": "Image 21: Paisaje cinematográfico de Córdoba, Veracruz - cafetales y volcán al amanecer"
+    },
+    {
+      "src": "https://donrogeliocafe.com/assets/coffee-origin-DihHvsC2.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://donrogeliocafe.com/assets/roaster-JgNFAq1q.jpg",
+      "alt": "Image 3: Tostador artesanal"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/1008/1766/6342/files/peaberry-de-chiapas-peque-os-productores_c6d26e76-0815-4fb9-a7a3-1da9f8f90b23.png?v=1779314587",
+      "alt": "Image 8: Peaberry de Chiapas - Pequeños Productores"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/1008/1766/6342/files/veracruz-descafeinado.png?v=1780000350",
+      "alt": "Image 9: Veracruz Descafeinado"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/1008/1766/6342/files/black-honey.png?v=1781627923",
+      "alt": "Image 10: Black Honey"
+    },
+    {
+      "src": "https://cdn.shopify.com/s/files/1/1008/1766/6342/files/veracruz-gesha-lavado.png?v=1785168168",
+      "alt": "Image 11: Veracruz Gesha Lavado"
+    },
+    {
+      "src": "https://donrogeliocafe.com/learn/chemex-hero.jpg",
+      "alt": "Image 2: Chemex clásico: la guía paso a paso"
+    }
+  ]
+}

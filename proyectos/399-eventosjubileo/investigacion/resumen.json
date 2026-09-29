@@ -1,0 +1,128 @@
+{
+  "sitio": "https://eventosjubileo.com/",
+  "fecha": "2026-09-26T07:34:09.125Z",
+  "motor": "jina-reader",
+  "slug": "eventosjubileo",
+  "nombre": "Eventos Jubileo",
+  "rubro": "EVENTOS",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://eventosjubileo.com/",
+      "titulo": "Eventos Jubileo"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "2029552113-22184474",
+      "1095684410",
+      "55 1199 5749",
+      "19.4790231",
+      "99.1868757",
+      "19.4790604",
+      "99.1870434",
+      "5511995749",
+      "825190337",
+      "525511995749",
+      "525522704428"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/525511995749)",
+      "wa.me/525522704428)"
+    ],
+    "redes": [
+      "https://www.youtube.com/watch?v=13mzDFNrK9g",
+      "https://www.youtube.com/watch?v=fJH1FMGONl4",
+      "https://www.facebook.com/grupopaparazzieventos",
+      "https://www.instagram.com/experienciapaparazzi/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://i.vimeocdn.com/video/2029552113-22184474d85fbb64735404b28f897f6af2e1fe285e18197ae561ba9f224d710c-d",
+      "alt": "Image 1: https://i.vimeocdn.com/video/2029552113-22184474d85fbb64735404b28f897f6af2e1fe285e18197ae561ba9f224d710c-d"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/jubileo_blanco_transparentecopiarecorte.png/:/rs=h:153,cg:true,m/qt=q:95",
+      "alt": "Image 2: Eventos Jubileo"
+    },
+    {
+      "src": "blob:http://localhost/48f76619a5bd00ce057f2024dcf38bc1",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4199.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4316.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4357.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4299.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4236.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4244.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4341.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4215.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4298.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4306.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4204.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4246.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4195.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4222-Pano.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:370,cg:true",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4207.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:370,cg:true",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4416.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4403.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/4f547fe5-e0a5-41e7-a25a-d966912e8d3f/IMG_4390.jpg/:/rs=w:370,cg:true,m",
+      "alt": "Image 26"
+    }
+  ]
+}

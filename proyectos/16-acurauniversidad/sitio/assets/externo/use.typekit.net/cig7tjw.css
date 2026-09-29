@@ -1,0 +1,50 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * avenir-lt-pro:
+ *   - http://typekit.com/eulas/0000000000000000775aa86e
+ *   - http://typekit.com/eulas/0000000000000000775aa86f
+ *   - http://typekit.com/eulas/0000000000000000775aa877
+ *   - http://typekit.com/eulas/0000000000000000775aa874
+ *   - http://typekit.com/eulas/0000000000000000775aa878
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2025-08-27 10:46:49 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=cig7tjw&ht=tk&f=59830.59831.59836.59838.59841&a=113724679&app=typekit&e=css");
+
+@font-face {
+font-family:"avenir-lt-pro";
+src:url("https://use.typekit.net/af/428c3e/0000000000000000775aa86e/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/428c3e/0000000000000000775aa86e/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/428c3e/0000000000000000775aa86e/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
+font-display:swap;font-style:normal;font-weight:800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"avenir-lt-pro";
+src:url("https://use.typekit.net/af/ff1958/0000000000000000775aa86f/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/ff1958/0000000000000000775aa86f/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/ff1958/0000000000000000775aa86f/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:swap;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"avenir-lt-pro";
+src:url("https://use.typekit.net/af/434a93/0000000000000000775aa877/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/434a93/0000000000000000775aa877/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/434a93/0000000000000000775aa877/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:swap;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"avenir-lt-pro";
+src:url("https://use.typekit.net/af/1770de/0000000000000000775aa874/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/1770de/0000000000000000775aa874/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/1770de/0000000000000000775aa874/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
+font-display:swap;font-style:normal;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"avenir-lt-pro";
+src:url("https://use.typekit.net/af/190637/0000000000000000775aa878/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/190637/0000000000000000775aa878/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/190637/0000000000000000775aa878/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:swap;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+.tk-avenir-lt-pro { font-family: "avenir-lt-pro",sans-serif; }

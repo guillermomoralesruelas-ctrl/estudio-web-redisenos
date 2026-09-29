@@ -1,0 +1,122 @@
+{
+  "sitio": "https://bellezalatina.life/",
+  "fecha": "2026-09-26T05:30:12.615Z",
+  "motor": "jina-reader",
+  "slug": "bellezalatina",
+  "nombre": "Belleza Latina",
+  "rubro": "ESTETICA",
+  "ciudad": "Cancún, Quintana Roo",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://bellezalatina.life/",
+      "titulo": "Medicina Estética Naturalmente Tú | Belleza Latina"
+    },
+    {
+      "url": "https://bellezalatina.life/protocolos",
+      "titulo": "Protocolos Integrales GlowUp y FaceUp | Belleza Latina"
+    },
+    {
+      "url": "https://bellezalatina.life/especiales",
+      "titulo": "Especiales de septiembre · Mes Patrio · Belleza Latina | Belleza Latina"
+    },
+    {
+      "url": "https://bellezalatina.life/valoracion",
+      "titulo": "Valoración Digital Gratuita | Belleza Latina"
+    },
+    {
+      "url": "https://bellezalatina.life/suscripcion",
+      "titulo": "GlowLover Club — Suscripción Mensual y Anual | Belleza Latina"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "800-4005556",
+      "800 400 5556",
+      "+528004005556",
+      "528004005556",
+      "8004005556",
+      "253301201"
+    ],
+    "emails": [
+      "hola@bellezalatina.life"
+    ],
+    "whatsapp": [
+      "wa.me/528004005556?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20protocolos%0AREF-DK3VG73Y)",
+      "wa.me/528004005556?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios%0AREF-DK3VG73Y)[Trabaja",
+      "wa.me/528004005556?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios%0AREF-HR4M7PLY)[Trabaja",
+      "wa.me/528004005556?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios%0AREF-H6KKWHQU)[Trabaja",
+      "wa.me/528004005556?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios%0AREF-UXKFK6UA)[Trabaja",
+      "wa.me/528004005556?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20la%20suscripci%C3%B3n%20Glow%20Lover%0AREF-3458JZM9)",
+      "wa.me/528004005556?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios%0AREF-3458JZM9)[Trabaja"
+    ],
+    "redes": [
+      "https://instagram.com/bellezalatinaclinic",
+      "https://facebook.com/bellezalatinaclinic",
+      "https://tiktok.com/@bellezalatinaclinic",
+      "https://youtube.com/@bellezalatinaclinic"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://bellezalatina.life/lovable-uploads/57ed8981-6cf7-4a9a-a71c-cbd8bd6a034d.png",
+      "alt": "Image 2: Belleza Latina"
+    },
+    {
+      "src": "https://bellezalatina.life/assets/glow-up-hero-CfU1exCp.webp",
+      "alt": "Image 3: GlowUp"
+    },
+    {
+      "src": "https://bellezalatina.life/assets/face-up-hero-D7mSFZAV.webp",
+      "alt": "Image 4: FaceUp"
+    },
+    {
+      "src": "https://bellezalatina.life/images/team/dra-claudina-vasquez.webp",
+      "alt": "Image 5: Dra. Claudina Vásquez"
+    },
+    {
+      "src": "https://bellezalatina.life/images/team/dra-renata-perez.webp",
+      "alt": "Image 6: Dra. Renata Pérez"
+    },
+    {
+      "src": "https://bellezalatina.life/images/team/dra-monica-ake.webp",
+      "alt": "Image 7: Dra. Mónica Ake"
+    },
+    {
+      "src": "https://bellezalatina.life/images/team/dra-lissette-garcia.webp",
+      "alt": "Image 8: Dra. Lissette García"
+    },
+    {
+      "src": "https://bellezalatina.life/images/team/dra-mariana-sanchez.webp",
+      "alt": "Image 9: Dra. Mariana Sánchez"
+    },
+    {
+      "src": "https://bellezalatina.life/images/team/dra-elizabeth-dominguez.webp",
+      "alt": "Image 10: Dra. Elizabeth Domínguez"
+    },
+    {
+      "src": "https://bellezalatina.life/images/team/dra-grecia-melendez.webp",
+      "alt": "Image 11: Dra. Grecia Meléndez"
+    },
+    {
+      "src": "https://bellezalatina.life/images/kit-bellezalatina.webp",
+      "alt": "Image 12: Kit Belleza Latina"
+    },
+    {
+      "src": "blob:http://localhost/26327c270a07172256b8fceb4901ede2",
+      "alt": "Image 14: Instagram"
+    },
+    {
+      "src": "blob:http://localhost/e24c4495bfe861d4c7f7eab1a51941c5",
+      "alt": "Image 15: Facebook"
+    },
+    {
+      "src": "blob:http://localhost/88506036ff39bade1188a30d3d54bb30",
+      "alt": "Image 16: TikTok"
+    },
+    {
+      "src": "blob:http://localhost/7afa542a14137e84eb6000054ce5333c",
+      "alt": "Image 17: YouTube"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+[data-flickity-params][data-element_type="column"] .flickity-enabled,
+[data-flickity-params][data-element_type="container"] .flickity-enabled {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+[data-flickity-params] .flickity-viewport {
+    transition: height .3s ease;
+}
+
+[data-flickity-params] .carousel-cell {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* PREV NEXT BUTTONS */
+
+[data-flickity-params] .flickity-prev-next-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 8px;
+    box-sizing: content-box;
+    transition: all .3s ease;
+}
+
+[data-flickity-params][flickity-buttons-grouped="true"] .flickity-prev-next-button.next {
+    transform: translate(100%, -50%);
+}
+
+[data-flickity-params] .flickity-prev-next-button>.flickity-button-icon {
+    display: none;
+}
+
+[data-flickity-params] .flickity-prev-next-button>svg {
+    transition: fill .3s ease;
+}
+
+[data-flickity-params] .flickity-prev-next-button.previous>* {
+    transform: scaleX(-100%);
+}
+
+[flickity-buttons-shape="square"] .flickity-prev-next-button {
+    border-radius: 0;
+}
+
+[flickity-buttons-shape="square"] [flickity-buttons-shape="default"] .flickity-prev-next-button {
+    border-radius: 50%;
+}
+
+
+/* PAGE DOTS */
+
+[data-flickity-params] .flickity-page-dots {
+    width: auto;
+    transform: translateX(-50%);
+}
+
+[data-flickity-params] .flickity-page-dots .dot:first-child {
+    margin-left: 0;
+}
+
+[data-flickity-params] .flickity-page-dots .dot {
+    margin-right: 0;
+    transition: background-color .3s ease-out;
+}
+
+[data-flickity-params] .flickity-page-dots .dot:only-child {
+    display: none;
+}
+
+[flickity-dots="line"] .flickity-page-dots {
+    display: flex;
+    align-items: center;
+}
+
+[flickity-dots="line"] .flickity-page-dots .dot {
+    opacity: 1;
+    max-width: 100%;
+    border-radius: 0;
+}
+
+[flickity-dots="pagination"] .flickity-page-dots {
+    counter-reset: dot_number;
+}
+
+[flickity-dots="pagination"] .flickity-page-dots .dot {
+    opacity: 1;
+    width: 0;
+    pointer-events: none;
+}
+
+[flickity-dots="pagination"] .flickity-page-dots::before {
+    content: '/';
+}
+
+[flickity-dots="pagination"] .flickity-page-dots .dot::before,
+[flickity-dots="pagination"] .flickity-page-dots .dot::after {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+[flickity-dots="pagination"] .flickity-page-dots .dot::before {
+    content: counter(dot_number);
+    counter-increment: dot_number;
+    left: -10px;
+    transform: translateX(-100%);
+    transition: .3s ease-out;
+}
+
+[flickity-dots="pagination"] .flickity-page-dots .dot:last-child::after {
+    content: counter(dot_number);
+    right: -10px;
+    transform: translateX(100%);
+}
+
+[flickity-dots="pagination"] .flickity-page-dots .dot.is-selected::before,
+[flickity-dots="pagination"] .flickity-page-dots .dot:last-child::after {
+    opacity: 1;
+}
+
+
+/* FLICKITY TRANSITIONS */
+
+[flickity-transition]:not([flickity-transition="default"]) .flickity-slider {
+    transform: none !important;
+}
+
+[flickity-transition]:not([flickity-transition="default"]) .carousel-cell {
+    left: 0 !important;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s ease-out;
+}
+
+[flickity-transition="fade"] .carousel-cell {
+    transform: none !important;
+}
+
+[flickity-transition="top"] .carousel-cell {
+    transform: translateY(-100%) !important;
+}
+
+[flickity-transition="bottom"] .carousel-cell {
+    transform: translateY(100%) !important;
+}
+
+[flickity-transition="zoom"] .carousel-cell {
+    transform: scale(0) !important;
+}
+
+[flickity-transition]:not([flickity-transition="default"]) .carousel-cell.is-selected {
+    opacity: 1;
+    pointer-events: all;
+}
+
+[flickity-transition="top"] .carousel-cell.is-selected,
+[flickity-transition="bottom"] .carousel-cell.is-selected {
+    transform: translateY(0) !important;
+}
+
+[flickity-transition="zoom"] .carousel-cell.is-selected {
+    transform: scale(1) !important;
+}

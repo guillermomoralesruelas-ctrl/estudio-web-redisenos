@@ -1,0 +1,184 @@
+{
+  "sitio": "https://www.casadongustavo.com/",
+  "fecha": "2026-09-26T05:57:33.105Z",
+  "motor": "jina-reader",
+  "slug": "casadongustavo",
+  "nombre": "Casa Don Gustavo Boutique Hotel",
+  "rubro": "HOSPEDAJE",
+  "ciudad": "Campeche, Campeche",
+  "plantilla": "hospedaje",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.casadongustavo.com/",
+      "titulo": "Home"
+    },
+    {
+      "url": "https://www.casadongustavo.com/es/index.html",
+      "titulo": "Página de inicio | Hotel Boutique Casa Don Gustavo"
+    },
+    {
+      "url": "https://www.casadongustavo.com/promotions.html",
+      "titulo": "Promotions"
+    },
+    {
+      "url": "https://www.casadongustavo.com/rooms.html",
+      "titulo": "Rooms | Casa Don Gustavo Boutique Hotel"
+    },
+    {
+      "url": "https://www.casadongustavo.com/restaurante.html",
+      "titulo": "Restaurant"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "93-717363526",
+      "+52 981 816 8090",
+      "19.84535550",
+      "90.53843030",
+      "8008390959",
+      "981 816 8090",
+      "981 818 6207",
+      "800 839 0959",
+      "981 818 6207981 816 8090",
+      "18-4998-911",
+      "4058-8577",
+      "4-2474-47"
+    ],
+    "emails": [
+      "hotel@casadongustavo.com"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://twitter.com/CasaDonGustavo",
+      "https://www.instagram.com/casadongustavohotel/",
+      "https://www.youtube.com/channel/UCODbuGxw6-QgEF62d1mukNw",
+      "https://www.facebook.com/HotelBoutiqueCasaDonGustavo"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/2aedca82-1cdc-4431-83c1-0426e2073b2d.jpg?auto=format,compress&fit=crop&crop=entropy&h=34&q=55",
+      "alt": "Image 1: Casa Don Gustavo Boutique Hotel"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/2aedca82-1cdc-4431-83c1-0426e2073b2d.jpg?auto=format,compress&fit=crop&crop=entropy&h=80&q=55",
+      "alt": "Image 2: Casa Don Gustavo Boutique Hotel"
+    },
+    {
+      "src": "blob:http://localhost/aef335eb562a1da6957ce25a574b4aa1",
+      "alt": "Image 3: Slide 7"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/d09e30f6-d4c0-421c-a8c9-1d6630d4b391.jpg?auto=format,compress&fit=crop&crop=entropy&w=375&h=280&q=55",
+      "alt": "Image 4: Slide 1"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/6b009478-5c1d-478f-970e-8dfe2df2a3db.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=190&q=55",
+      "alt": "Image 12: Master Suites"
+    },
+    {
+      "src": "blob:http://localhost/2ae2cc6f0544e8fcceb52fb6a599a7ea",
+      "alt": "Image 13: Distintivo Morado por Más Espacios Seguros"
+    },
+    {
+      "src": "https://b.tile.openstreetmap.org/15/8142/14539.png",
+      "alt": "Image 52"
+    },
+    {
+      "src": "https://c.tile.openstreetmap.org/15/8143/14539.png",
+      "alt": "Image 53"
+    },
+    {
+      "src": "https://c.tile.openstreetmap.org/15/8142/14540.png",
+      "alt": "Image 54"
+    },
+    {
+      "src": "https://a.tile.openstreetmap.org/15/8143/14540.png",
+      "alt": "Image 55"
+    },
+    {
+      "src": "https://a.tile.openstreetmap.org/15/8141/14539.png",
+      "alt": "Image 56"
+    },
+    {
+      "src": "https://a.tile.openstreetmap.org/15/8144/14539.png",
+      "alt": "Image 57"
+    },
+    {
+      "src": "https://b.tile.openstreetmap.org/15/8141/14540.png",
+      "alt": "Image 58"
+    },
+    {
+      "src": "https://b.tile.openstreetmap.org/15/8144/14540.png",
+      "alt": "Image 59"
+    },
+    {
+      "src": "https://webbox.imgix.net/assets/images/hotel_pin.png",
+      "alt": "Image 60"
+    },
+    {
+      "src": "https://images.asksuite.com/33a8024f-856a-4e47-a126-be2713c5d991.png",
+      "alt": "Image 61: Avatar"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/06d7713a-c658-48ee-a5f2-f6bf5b12f9f8.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 3: Comedor Colonial"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/00ce9af7-be18-4998-911e-d3313d7d1085.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 4: Comedor Principal"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/6bd0bcf4-4cb7-4ac4-8869-4aa950a28b2d.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 5: Jardin"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/a2e66f03-394e-4e40-b7bc-77ab0fce25df.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 6: Patio Principal"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/056a6c67-348e-4058-8577-ea2621e73c09.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 7: Comedor Colonial"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/ecdb49dc-76af-45fb-a80b-603ef6c8c962.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 8: image"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/5d0e7131-e596-48ce-b75e-4bfd8c56ed3b.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 9: image"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/21291c36-edf1-4002-b0d3-8194e1255def.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 10: image"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/cc3de273-20de-484a-978c-2722cd2fd633.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 11: image"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/4ef091b2-3dce-43c1-abb5-ea60947f921f.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 12: image"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/5db39e32-a0e9-4eb9-9ffe-fbf4900deb9b.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 13: image"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/0d113ea4-db92-464e-be95-100a4a9abd03.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 14: image"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/87c12a0b-fe6a-40af-92ee-855e9e8cc4c5.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 15: image"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/bcd93658-dd8f-47c0-8f04-d6c0c61c795d.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 16: image"
+    },
+    {
+      "src": "https://webbox.imgix.net/images/svbtjzfmtflcyasg/6cef46b4-2474-47a2-a90c-ae8a1a435ac8.jpg?auto=format,compress&fit=crop&crop=entropy&w=335&h=188.4375",
+      "alt": "Image 17: image"
+    }
+  ]
+}

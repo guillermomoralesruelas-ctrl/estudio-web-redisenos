@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+<base href="./">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/pwa-192x192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Belleza Latina" />
+    <meta name="theme-color" content="#4ABED9" />
+    <meta name="google-site-verification" content="z1EZWaT1apSA6g1_78GDpeJFP9kBDhCJuAauMEFHxbo" />
+
+    <!-- Kill stale Service Workers & caches (forces fresh viewport meta, etc.) -->
+    <script>
+      (function () {
+        try {
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function (regs) {
+              if (regs && regs.length) {
+                Promise.all(regs.map(function (r) { return r.unregister(); })).then(function () {
+                  if (window.caches && caches.keys) {
+                    caches.keys().then(function (keys) {
+                      Promise.all(keys.map(function (k) { return caches.delete(k); })).then(function () {
+                        if (!sessionStorage.getItem('__sw_purged__')) {
+                          sessionStorage.setItem('__sw_purged__', '1');
+                          location.reload();
+                        }
+                      });
+                    });
+                  }
+                });
+              } else if (window.caches && caches.keys) {
+                caches.keys().then(function (keys) {
+                  if (keys && keys.length) {
+                    Promise.all(keys.map(function (k) { return caches.delete(k); }));
+                  }
+                });
+              }
+            });
+          }
+        } catch (e) { /* no-op */ }
+      })();
+    </script>
+
+    <!-- Facebook Pixel -->
+    <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+      (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1469196893539263');
+      fbq('track', 'PageView');
+    </script>
+    
+
+    <!-- Google Analytics (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7G2K9BJNZ7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-7G2K9BJNZ7');
+    </script>
+
+    <!-- TikTok Pixel -->
+    <script>
+      !function(w,d,t){w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=
+      ["page","track","identify","instances","debug","on","off","once","ready","alias",
+      "group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],
+      ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};
+      for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
+      ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)
+      ttq.setAndDefer(e,ttq.methods[n]);return e};ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",
+      o=n&&n.partner;ttq._i=ttq._i||{};ttq._i[e]=[];ttq._i[e]._u=r;ttq._t=ttq._t||{};
+      ttq._t[e+""+(o||"")]=+new Date;ttq._o=ttq._o||{};ttq._o[e+""+(o||"")]=n||{};
+      var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=r+"?sdkid="+e+"&lib="+t;
+      var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(a,s)};
+      ttq.load('CDVRRGRC77UDDKL3I1I0');ttq.page();
+      }(window,document,'ttq');
+    </script>
+
+    <title>Medicina Estética Naturalmente Tú | Belleza Latina</title>
+    <meta name="description" content="Clínica de medicina estética en Cancún, Guadalajara, Mérida y Los Cabos. Bótox, rellenos, protocolos GlowUp y FaceUp. Resultados naturales con especialistas certificados." />
+    <meta name="keywords" content="medicina estética, Bótox, rellenos faciales, armonización facial, Cancún, Guadalajara, Mérida, Los Cabos" />
+    <link rel="canonical" href="https://bellezalatina.life/" />
+    <meta property="og:title" content="Medicina Estética Naturalmente Tú | Belleza Latina" />
+    <meta property="og:description" content="Clínica de medicina estética en Cancún, Guadalajara, Mérida y Los Cabos. Bótox, rellenos, protocolos GlowUp y FaceUp. Resultados naturales con especialistas certificados." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bellezalatina.life/" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:site_name" content="Belleza Latina" />
+    <meta property="og:image" content="https://bellezalatina.life/images/og-home.png" />
+    <meta property="og:image:secure_url" content="https://bellezalatina.life/images/og-home.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Medicina Estética Naturalmente Tú" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@soybellezalatina" />
+    <meta name="twitter:title" content="Medicina Estética Naturalmente Tú | Belleza Latina" />
+    <meta name="twitter:description" content="Clínica de medicina estética en Cancún, Guadalajara, Mérida y Los Cabos. Bótox, rellenos, protocolos GlowUp y FaceUp. Resultados naturales con especialistas certificados." />
+    <meta name="twitter:image" content="https://bellezalatina.life/images/og-home.png" />
+    <meta name="author" content="Belleza Latina" />
+
+    <!-- AI assistant discoverability: plugin manifest, OpenAPI, and llms.txt -->
+    <link rel="ai-plugin" href="/.well-known/ai-plugin.json" />
+    <link rel="openapi" type="application/json" href="/.well-known/openapi.json" />
+    <link rel="alternate" type="text/markdown" title="llms.txt for AI assistants" href="/llms.txt" />
+
+
+    <!-- JSON-LD: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "@id": "https://bellezalatina.life/#organization",
+      "name": "Belleza Latina",
+      "alternateName": "Soy Belleza Latina",
+      "url": "https://bellezalatina.life",
+      "logo": "https://bellezalatina.lifeassets/favicon.png",
+      "description": "Medicina estética cercana y profesional con resultados naturalmente tú. Protocolos integrales de armonización y rejuvenecimiento facial.",
+      "telephone": "+528004005556",
+      "areaServed": ["Cancún", "Guadalajara", "Mérida", "Los Cabos"],
+      "sameAs": [
+        "https://www.instagram.com/soybellezalatina",
+        "https://www.facebook.com/soybellezalatina",
+        "https://www.tiktok.com/@soybellezalatina",
+        "https://www.youtube.com/@soybellezalatina"
+      ]
+    }
+    </script>
+
+    <!-- JSON-LD: SiteNavigationElement (sitelinks) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "SiteNavigationElement",
+          "position": 1,
+          "name": "Protocolos",
+          "description": "Protocolos integrales de armonización y rejuvenecimiento facial",
+          "url": "https://bellezalatina.life/protocolos"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 2,
+          "name": "Tratamientos",
+          "description": "Todos los tratamientos de medicina estética disponibles",
+          "url": "https://bellezalatina.life/tratamientos"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 3,
+          "name": "Agendar Cita",
+          "description": "Agenda tu valoración gratuita o cita de tratamiento",
+          "url": "https://bellezalatina.life/agendar"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 4,
+          "name": "Especiales",
+          "description": "Combos y promociones especiales en tratamientos",
+          "url": "https://bellezalatina.life/especiales"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 5,
+          "name": "Suscripción Glow Lover",
+          "description": "Plan de mantenimiento mensual desde $1,100/mes",
+          "url": "https://bellezalatina.life/suscripcion"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 6,
+          "name": "Ubicaciones",
+          "description": "Nuestras Glow Houses en Cancún, Guadalajara, Mérida y Los Cabos",
+          "url": "https://bellezalatina.life/ubicaciones"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 7,
+          "name": "Kit Belleza Latina",
+          "description": "Kit de cuidado facial profesional para el hogar",
+          "url": "https://bellezalatina.life/kit"
+        }
+      ]
+    }
+    </script>
+
+    <!-- JSON-LD: WebSite with SearchAction -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://bellezalatina.life/#website",
+      "publisher": { "@id": "https://bellezalatina.life/#organization" },
+      "name": "Belleza Latina",
+      "url": "https://bellezalatina.life",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://bellezalatina.life/tratamientos?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <script type="module" crossorigin src="/assets/index-bcYOTQrE.js"></script>
+    <link rel="stylesheet" crossorigin href="assets/assets/index-WsCs2e8X.css">
+  <script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script></head>
+
+  <body>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1469196893539263&ev=PageView&noscript=1"/></noscript>
+<div id="root"><div aria-hidden="true" aria-label="Cargando Belleza Latina" style="position:fixed;inset:0;z-index:2147483647;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fafafa;font-family:Montserrat,system-ui,sans-serif">
+        <div style="position:relative;width:120px;height:120px;display:flex;align-items:center;justify-content:center">
+          <div style="position:absolute;inset:0;border-radius:9999px;border:2px solid rgba(74,190,217,.45);animation:bl-splash-pulse 2.2s ease-in-out infinite"></div>
+          <div style="position:absolute;inset:-14px;border-radius:9999px;background:radial-gradient(circle,rgba(74,190,217,.18) 0%,transparent 65%);animation:bl-splash-pulse 2.2s ease-in-out infinite"></div>
+          <img src="assets/isotipo-mestiza.png" alt="" style="width:72px;height:72px;object-fit:contain" />
+        </div>
+        <p style="margin-top:20px;font-size:13px;color:#757575;letter-spacing:.02em">Belleza Latina</p>
+        <style>
+          @keyframes bl-splash-pulse { 0%,100% { transform:scale(1);opacity:.7 } 50% { transform:scale(1.08);opacity:1 } }
+          @media (prefers-reduced-motion: reduce) { [style*="bl-splash-pulse"] { animation:none !important } }
+        </style>
+      </div><div data-prerender="1"><h1>Belleza Latina · Medicina estética naturalmente tú</h1>
+      <p>Clínica de medicina estética no quirúrgica con sedes en Cancún, Mérida, Guadalajara, Los Cabos. Trabajamos con protocolos médicos integrales, no con procedimientos aislados.</p>
+      <p>Cada plan parte de una valoración médica presencial con el Método REF® (Restaurar, Equilibrar y Fortalecer) para definir qué necesita tu rostro antes de proponer cualquier tratamiento.</p>
+      <ul><li>Sedes: Cancún, Mérida, Guadalajara y Los Cabos</li><li>Teléfono: 800 400 5556</li><li>Valoración médica presencial antes de cualquier procedimiento</li></ul>
+      <nav aria-label="Páginas relacionadas"><ul><li><a href="/protocolos">Protocolos integrales</a></li><li><a href="/tratamientos">Tratamientos</a></li><li><a href="/especiales">Especiales del mes</a></li><li><a href="/metodo-ref">Método REF®</a></li><li><a href="/ubicaciones">Sedes</a></li><li><a href="/suscripcion">GlowLover Club</a></li><li><a href="/blog">Blog</a></li><li><a href="/health">Programa de control de peso</a></li></ul></nav></div></div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "sitio": "https://www.cantonmexicali.com/",
+  "fecha": "2026-09-26T05:49:50.698Z",
+  "motor": "jina-reader",
+  "slug": "cantonmexicali",
+  "nombre": "Cantón Mexicali",
+  "rubro": "GASTRONOMIA",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "restaurante-bar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.cantonmexicali.com/",
+      "titulo": "CANTÓN MEXICALI 廣東墨西加利"
+    },
+    {
+      "url": "https://www.cantonmexicali.com/inicio",
+      "titulo": "CANTÓN MEXICALI 廣東墨西加利"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 55 7828 3511",
+      "+52 55 1701 1479",
+      "+52 5539383873"
+    ],
+    "emails": [],
+    "whatsapp": [],
+    "redes": [
+      "https://www.instagram.com/cantonmexicali",
+      "https://www.facebook.com/cantonmexicali",
+      "https://www.twitter.com/cantonmexicali",
+      "https://www.tiktok.com/@cantonmexicali"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://ssl.gstatic.com/atari/images/sociallinks/instagram_colored_36dp.png",
+      "alt": "Image 1: Instagram"
+    },
+    {
+      "src": "https://ssl.gstatic.com/atari/images/sociallinks/facebook_colored_36dp.png",
+      "alt": "Image 2: Facebook"
+    },
+    {
+      "src": "https://ssl.gstatic.com/atari/images/sociallinks/twitter_colored_36dp.png",
+      "alt": "Image 3: Twitter"
+    },
+    {
+      "src": "https://ssl.gstatic.com/atari/images/sociallinks/tiktok_colored_dark_36dp.png",
+      "alt": "Image 4: TikTok"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uQneCNLSh_Qj-2SpLyA65CoUFiXipojHHyyDpjdx5qoMe-nxWmzznOoqUcuycHsFiVAT8FSJvr56P9LCmoz2F49__00sGwqUtR19ZyuJ5iXPLTpmcsSAt8X5_3B8vx-LyHe--zhI26_J7EtgqimQ1KHMwo3pzOKDI2Ob-4hF1AZ84zlJQgpRU1Jo8-Ug5_bbWzjSq40ycZOyH2tpBGuYBRyQ9o6OUPRLTAq2gMVKU=w1280",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vTFBdVxRdECnnTzVOrqK69oJXL3hF3HEzrUTPhxnDqQUuQiZLL3xWKGO06Tj3cT05oocfef_J17b9yEmBLbbZN29tNM-2KZRjiEsCHbMLX4Ch87CK8vN-T4yUoXufEmZivn0Ee5vF6yqXDzqcWAsE2VWBRN2Uuh2G6qlyO9jHBMuhIJMaMR2agDq2qMIxEj02zBwa-tSKqhnuRe3WhpqCI79Wgakx2YZQMQUO1DQ8=w1280",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72smTo-GwrH0mxQ44v3X8LTet8Mbl_EFXwPwTI5gvl0bUkwjVIv1Zqjj9Fp31BDxss0u9BoxhEi7WZfO8z-qUhIn9CxMlFyoq0ndEgpcVFYdyOAlTdiMBOb2yZ3DereslId2TmM4VNKChDm3Ux9ZEciK7x494ahRoPw9NnSrGFa7Kym26GEu1dgF51fRdx-i13ZCev_6KpJs00qxhYqTNjc1eCAlLl_1rwU-ku7ZOz4=w1280",
+      "alt": "Image 11"
+    }
+  ]
+}

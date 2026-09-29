@@ -1,0 +1,213 @@
+{
+  "sitio": "https://www.acurauniversidad.mx/",
+  "fecha": "2026-09-26T03:25:09.765Z",
+  "motor": "jina-reader",
+  "slug": "acurauniversidad",
+  "nombre": "Acura Universidad",
+  "rubro": "AUTOMOTRIZ",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "negocio-local",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.acurauniversidad.mx/",
+      "titulo": "Acura Universidad | Agencia de autos Acura | Ciudad de México, CDMX"
+    },
+    {
+      "url": "https://www.acurauniversidad.mx/mysavedvehicles",
+      "titulo": "Mysavedvehicles"
+    },
+    {
+      "url": "https://www.acurauniversidad.mx/modelos.html",
+      "titulo": "Modelos Acura | Acura Universidad | Ciudad de México, CDMX"
+    },
+    {
+      "url": "https://www.acurauniversidad.mx/solicita-una-cotizacion",
+      "titulo": "Solicita una Cotización | Acura Universidad | Ciudad de México, CDMX"
+    },
+    {
+      "url": "https://www.acurauniversidad.mx/prueba-de-manejo",
+      "titulo": "Agenda tu Prueba de Manejo | Acura Universidad | Autos nuevos y seminuevos Ciudad de México, CDMX"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "554-163-1000",
+      "551-085-1019",
+      "551-087-8872",
+      "5541631000",
+      "525510851019",
+      "525541631026",
+      "31 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/525510851019?text=Estoy%20navegando%20el%20sitio%20de%20Acura%20Universidad%20y%20me%20interesa%20obtener%20una%20Cotizaci%C3%B3n%20de%20un%20Auto%20Nuevo)[Cita",
+      "wa.me/525541631026?text=Estoy%20navegando%20el%20sitio%20de%20Acura%20Universidad%20y%20me%20interesa%20obtener%20Informaci%C3%B3n%20de%20Servicio)"
+    ],
+    "redes": [
+      "https://www.facebook.com/AcuraUniMX/",
+      "https://twitter.com/SuperAutosMX",
+      "https://www.youtube.com/channel/UCAQl6yJve4JWJl8Ot31G3JQ",
+      "https://www.instagram.com/SuperAutosMX/",
+      "https://www.tiktok.com/@acura.autocom"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.acurauniversidad.mx/assets/logos/transparent/acura.png",
+      "alt": "Image 1: Acura"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/dealer-20173/logo.png",
+      "alt": "Image 2: Acura Universidad CDMX Ciudad de México"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/bam-acuramexico/Banners-2026/Septiembre/MDX.png?width=1920",
+      "alt": "Image 4: Acura"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/bam-acuramexico/Banners-2026/Septiembre/RDX.png?width=1920",
+      "alt": "Image 5: Acura"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/bam-acuramexico/Banners-2026/Septiembre/INTEGRA.png?width=1920",
+      "alt": "Image 6: Acura"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/bam-acuramexico/Banners-2026/Septiembre/ADX.png?width=1920",
+      "alt": "Image 7: Acura"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/bam-acuramexico/Banners-2026/Septiembre/TLX.png?width=1920",
+      "alt": "Image 8: TLX"
+    },
+    {
+      "src": "https://www.honda.mx/web/img/acura/models/integra/integra.png",
+      "alt": "Image 9: CR-V"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/Modelos/2025/adx.png",
+      "alt": "Image 10: TLX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/Modelos/2025/tlx.png",
+      "alt": "Image 11: TLX"
+    },
+    {
+      "src": "https://www.honda.mx/web/img/acura/models/rdx/2025/rdx.png",
+      "alt": "Image 12: RDX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/Modelos/2025/mdx.png",
+      "alt": "Image 13: MDX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/Modelos/2025/integra-type-s.png",
+      "alt": "Image 14: CR-V"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/Modelos/2025/mdx-type-s.png",
+      "alt": "Image 15: TLX"
+    },
+    {
+      "src": "https://www.honda.mx/web/img/acura/menu-logo-type-s.png",
+      "alt": "Image 16: RDX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/elementos/2022/iconos/finance-03.png",
+      "alt": "Image 17: Honda-Finance"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/elementos/2022/iconos/smart-luxury-03.png",
+      "alt": "Image 18: Promociones"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/elementos/2022/iconos/promos-03.png",
+      "alt": "Image 19: Distribuidores"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/elementos/2022/iconos/mantenimiento-03.png",
+      "alt": "Image 20: Envíanos un mensaje"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/elementos/2022/iconos/garantia-03.png",
+      "alt": "Image 21: Llámanos"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/elementos/2022/iconos/seminuevos-03.png",
+      "alt": "Image 22: Llámanos"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/elementos/2022/iconos/distribuidores-03.png",
+      "alt": "Image 23: Servicio autos"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/elementos/2022/iconos/appointment-03.png",
+      "alt": "Image 24: Servicio autos"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/elementos/2022/frase.png",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/elementos/2022/bg-types.jpg",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Honda/elementos/2022/iconos/icono-promociones.png",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Honda/elementos/2022/iconos/icono-pm.png",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Honda/elementos/2022/iconos/icono-cot.png",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Honda/elementos/2022/iconos/icono-servicio.png",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/assets/logos/GoVirtual/GoVirtual_darkgray.png",
+      "alt": "Image 31: GoVirtual Logo"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/Modelos/modelos-TLX.png",
+      "alt": "Image 4: autos TLX - Acura Universidad en Ciudad de México CDMX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/Integra/versiones/rojo.png",
+      "alt": "Image 5: autos Integra - Acura Universidad en Ciudad de México CDMX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/Modelos/MDX_2022.png",
+      "alt": "Image 6: suvs MDX - Acura Universidad en Ciudad de México CDMX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/RDX/2022/rdx.png",
+      "alt": "Image 7: suvs RDX - Acura Universidad en Ciudad de México CDMX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/ADX/2025/rojo.png",
+      "alt": "Image 8: suvs ADX - Acura Universidad en Ciudad de México CDMX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/Modelos/integra-type-s.png",
+      "alt": "Image 9: suvs RDX - Acura Universidad en Ciudad de México CDMX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/static/agency-go-virtual/Acura/MDX-TYPE-S/2022/versiones/mdx-type-s.png",
+      "alt": "Image 10: suvs MDX-TYPE-S - Acura Universidad en Ciudad de México CDMX"
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/resources/components/quote/images/quickquote.jpg",
+      "alt": "Image 4: Get a quick quote from Acura Universidad in Ciudad de México, CDMX, México."
+    },
+    {
+      "src": "https://www.acurauniversidad.mx/resources/components/testDrive/images/testdrive.jpg",
+      "alt": "Image 4: Schedule a test drive at Acura Universidad in Ciudad de México, CDMX, México."
+    }
+  ]
+}

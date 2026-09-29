@@ -1,0 +1,101 @@
+{
+  "sitio": "https://baronbarbershop.com/",
+  "fecha": "2026-09-26T05:27:56.109Z",
+  "motor": "jina-reader",
+  "slug": "baronbarbershop",
+  "nombre": "Barón Barbershop",
+  "rubro": "SPA",
+  "ciudad": "Zapopan, Jalisco",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://baronbarbershop.com/",
+      "titulo": "Barón Barbershop"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "598890515",
+      "1582483720544-4068701",
+      "13081827557",
+      "8985884276",
+      "523315348449",
+      "+52 33 1534 8449"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/523315348449)"
+    ],
+    "redes": [
+      "https://www.instagram.com/baronbarbershop.oficial?igsh=b3B2bTZjcW1iMmg5",
+      "https://www.facebook.com/baronbarbershopgdl/",
+      "https://instagram.com/baronbarbershop.oficial"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/img_1306-aQyA5.png",
+      "alt": "Image 1: Barón Barbershop Logo"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/565d2f90b66ea598890515e563039c57.png",
+      "alt": "Image 2: Barber background"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1582483720544-4068701c073d",
+      "alt": "Image 3: Interior Barón Barbershop"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/bb9e09ae1cde089abca41287245a9141.jpg",
+      "alt": "Image 4: Corte Básico"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/14bf5daf5535b94cf8f0e44c1d98c122.jpg",
+      "alt": "Image 5: Corte Premium"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/8a2d13081827557ab6defa870e976885.jpg",
+      "alt": "Image 6: Corte Barón"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/5b1a3208cd5f54299f73293dd38087f6.jpg",
+      "alt": "Image 7: Jahir"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/2a4f4dcda37165ca2c75cda3031dc3f1.png",
+      "alt": "Image 8: Arath"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/04f2dedc3e1a1d78cba7e52e50e0034d.png",
+      "alt": "Image 9: Oscar"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/64046cbc55790a2a7322e0700aa089cc.jpg",
+      "alt": "Image 11: Galería Barón Barbershop 1"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/aba008173fd1e1e819981a96d644393d.jpg",
+      "alt": "Image 12: Galería Barón Barbershop 2"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/8985884276cbece6c74b90be71875eef.jpg",
+      "alt": "Image 13: Galería Barón Barbershop 3"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/860b470a305f6cab81b7fec149b71d12.jpg",
+      "alt": "Image 14: Galería Barón Barbershop 4"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/d20ce8ef2deac3ab0f21becd5a9df0f9.jpg",
+      "alt": "Image 15: Galería Barón Barbershop 5"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/10909e1f6bcb3db091b0fbfa75ef9864.jpg",
+      "alt": "Image 16: Galería Barón Barbershop 6"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/2b060d7b-4046-45b1-8b8f-e5b2f584970d/img_1306-L8gqm.png",
+      "alt": "Image 17: Barón Barbershop Logo"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "sitio": "https://www.academiamusicalrubinstein.com/",
+  "fecha": "2026-09-26T04:40:22.485Z",
+  "motor": "jina-reader",
+  "slug": "academiamusicalrubinstei",
+  "nombre": "Academia Musical Rubinstein",
+  "rubro": "EDUCACION",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "educacion",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.academiamusicalrubinstein.com/",
+      "titulo": "Academia Musical Rubinstein • Clases de Piano, Guitarra, Batería, Canto, Solfeo y mas"
+    },
+    {
+      "url": "https://www.academiamusicalrubinstein.com/contacto.html",
+      "titulo": "Academia Musical Rubinstein • Clases de Piano, Guitarra, Batería, Canto, Solfeo y mas"
+    },
+    {
+      "url": "https://www.academiamusicalrubinstein.com/galeria.html",
+      "titulo": "Academia Musical Rubinstein • Clases de Piano, Guitarra, Batería, Canto, Solfeo y mas"
+    },
+    {
+      "url": "http://www.academiamusicalrubinstein.com/",
+      "titulo": "Academia Musical Rubinstein • Clases de Piano, Guitarra, Batería, Canto, Solfeo y mas"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 (55) 5280-0507",
+      "55 4832-4630"
+    ],
+    "emails": [
+      "info@academiamusicalrubinstein.com"
+    ],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "https://www.academiamusicalrubinstein.com/index_files/shapeimage_1.png",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/index_files/shapeimage_2.png",
+      "alt": "Image 2: Rubinstein • Clases de Piano • Guitarra • Bateria • Canto •Solfeo y mas."
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/index_files/shapeimage_3.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/index_files/shapeimage_4.png",
+      "alt": "Image 4: Academia Musical"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/index_files/shapeimage_5.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/Scripts/Widgets/HTMLRegion/HTMLRegionWorldMap.png",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/Scripts/Widgets/SharedResources/Translucent-Overlay.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/contacto_files/shapeimage_1.png",
+      "alt": "Image 1: Clases de Musica"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/contacto_files/shapeimage_2.png",
+      "alt": "Image 2: Academia Musical Rubinstein"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/contacto_files/shapeimage_3.jpg",
+      "alt": "Image 3: Clases de Bateria"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/contacto_files/shapeimage_4.png",
+      "alt": "Image 4: Academia Musical Rubinstein"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/contacto_files/shapeimage_5.jpg",
+      "alt": "Image 5: Clases de Piano"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/shapeimage_1.png",
+      "alt": "Image 1: Clases de Musica"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/shapeimage_2.png",
+      "alt": "Image 2: Rubinstein"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/shapeimage_3.jpg",
+      "alt": "Image 3: Clases de Piano"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/shapeimage_4.png",
+      "alt": "Image 4: Academia Musical"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/shapeimage_5.jpg",
+      "alt": "Image 5: Clases de Solfeo"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/clases_de_musica_8070289/thumb.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/notebook_ul.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/notebook_ll.png",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/notebook_ur.png",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/notebook_lr.png",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/notebook_left.png",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/notebook_right.png",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/notebook_top.png",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/notebook_bottom.png",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/Foto2/thumb.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/023/thumb.jpg",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/036/thumb.jpg",
+      "alt": "Image 47"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/Foto1/thumb.jpg",
+      "alt": "Image 62"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/Foto3/thumb.jpg",
+      "alt": "Image 75"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/clases_de_musica_8072530/thumb.jpg",
+      "alt": "Image 90"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/Foto4/thumb.jpg",
+      "alt": "Image 103"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/Foto5/thumb.jpg",
+      "alt": "Image 118"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/Foto6/thumb.jpg",
+      "alt": "Image 131"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/IMG_0376/thumb.jpg",
+      "alt": "Image 146"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/IMG_2913/thumb.jpg",
+      "alt": "Image 159"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/clases_de_musica_8072536/thumb.jpg",
+      "alt": "Image 172"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/IMG_2940/thumb.jpg",
+      "alt": "Image 185"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/IMG_2957/thumb.jpg",
+      "alt": "Image 198"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/IMG_2965/thumb.jpg",
+      "alt": "Image 211"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/IMG_2985/thumb.jpg",
+      "alt": "Image 224"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria_files/Media/IMG_3037/thumb.jpg",
+      "alt": "Image 237"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/Media/canvas_subscribe_03.png",
+      "alt": "Image 250: subscribe"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/Media/canvas_back_03.png",
+      "alt": "Image 251: back"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/Media/canvas_play_03.png",
+      "alt": "Image 254: play"
+    },
+    {
+      "src": "https://www.academiamusicalrubinstein.com/galeria.html",
+      "alt": "Image 255: next"
+    },
+    {
+      "src": "http://www.academiamusicalrubinstein.com/index_files/shapeimage_1.png",
+      "alt": "Image 1"
+    },
+    {
+      "src": "http://www.academiamusicalrubinstein.com/index_files/shapeimage_2.png",
+      "alt": "Image 2: Rubinstein • Clases de Piano • Guitarra • Bateria • Canto •Solfeo y mas."
+    },
+    {
+      "src": "http://www.academiamusicalrubinstein.com/index_files/shapeimage_3.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "http://www.academiamusicalrubinstein.com/index_files/shapeimage_4.png",
+      "alt": "Image 4: Academia Musical"
+    },
+    {
+      "src": "http://www.academiamusicalrubinstein.com/index_files/shapeimage_5.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "http://www.academiamusicalrubinstein.com/Scripts/Widgets/HTMLRegion/HTMLRegionWorldMap.png",
+      "alt": "Image 6"
+    },
+    {
+      "src": "http://www.academiamusicalrubinstein.com/Scripts/Widgets/SharedResources/Translucent-Overlay.png",
+      "alt": "Image 7"
+    }
+  ]
+}

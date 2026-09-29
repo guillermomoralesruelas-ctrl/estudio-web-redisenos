@@ -1,0 +1,98 @@
+{
+  "sitio": "https://www.curiosacafe.mx/",
+  "fecha": "2026-09-26T06:50:44.477Z",
+  "motor": "jina-reader",
+  "slug": "curiosacafejuice",
+  "nombre": "Curiosa Café & Juice Bar",
+  "rubro": "GASTRONOMIA",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "restaurante-bar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.curiosacafe.mx/",
+      "titulo": "Curiosa Cafe & Juice Bar | CDMX, La Condesa"
+    },
+    {
+      "url": "https://www.curiosacafe.mx/blog/menu-de-curiosa-cafe-juice-bar-en-la-condesa-precios",
+      "titulo": "Menú de Curiosa Café & Juice Bar en La Condesa: Precios 2026"
+    },
+    {
+      "url": "https://www.curiosacafe.mx/blog/dog-friendly-cafes-in-mexico-city-10-spots-to-bring-your-dog",
+      "titulo": "Dog-Friendly Cafés in Mexico City: 10 Spots to Bring Your Dog (2026)"
+    },
+    {
+      "url": "https://www.curiosacafe.mx/blog/cafeterias-pet-friendly-en-cdmx-10-lugares-para-ir-con-tu-perro",
+      "titulo": "Cafeterías Pet Friendly en CDMX: 10 Lugares para Ir con tu Perro (2026)"
+    },
+    {
+      "url": "https://www.curiosacafe.mx/blog",
+      "titulo": "Curiosa Cafe, Juice & Smoothie Bar | CDMX, La Condesa"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 56 1855 2013",
+      "61573098625185",
+      "525618552013"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/525618552013)"
+    ],
+    "redes": [
+      "https://www.tiktok.com/@curiosa.cafe",
+      "https://www.instagram.com/curiosacafe",
+      "https://www.facebook.com/p/Curiosa-Juice-Bar-Cafe-61573098625185/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://framerusercontent.com/images/yaMFsxW1uWuyTHjJ0kEjsZWzpU.jpg?width=7008&height=4672",
+      "alt": "Image 1: Example dishes"
+    },
+    {
+      "src": "https://framerusercontent.com/images/F8CqL0QpmT5UcAb64BiUfPn5XQ.jpg?width=5912&height=4144",
+      "alt": "Image 2: Roasted cauliflowe bites"
+    },
+    {
+      "src": "https://framerusercontent.com/images/0bxwwkXuXTeEDcoABv8lK8IyqE.jpg?width=5926&height=4038",
+      "alt": "Image 3: Grilled halloumi & quinoa bowl"
+    },
+    {
+      "src": "https://framerusercontent.com/images/5OHVVr9OJlJu0uxbw7kAAoLzQKQ.jpg?width=6663&height=4442",
+      "alt": "Image 4: Sweet potato wedges"
+    },
+    {
+      "src": "https://framerusercontent.com/images/dNVhFyD0tI9QytnKpgtjFfi8.jpg?width=3024&height=4032",
+      "alt": "Image 5: Lemon Olive Oil Cake"
+    },
+    {
+      "src": "https://framerusercontent.com/images/8WkdYf7uOePpyL4Dr9xMiJPMUw.jpg?width=7008&height=4672",
+      "alt": "Image 6: Berry Basil Cooler"
+    },
+    {
+      "src": "https://framerusercontent.com/images/yeRuZEG3CaU3mn9W3AyZRUMrpZY.jpg?width=4032&height=3024",
+      "alt": "Image 7: Fresh foods"
+    },
+    {
+      "src": "https://framerusercontent.com/images/JoELlx2aNsrj97dI2bp7DSTX1I.jpg?width=4672&height=5990",
+      "alt": "Image 8: Restaurant employees"
+    },
+    {
+      "src": "https://framerusercontent.com/images/vC2Tfm5B9adhumrfhk2T1dOer18.jpg?width=3024&height=4032",
+      "alt": "Image 9: Restuarant interior"
+    },
+    {
+      "src": "https://framerusercontent.com/images/Hmixtq09HTLPYPn7e4esWD4LbA.jpg?width=7008&height=4672",
+      "alt": "Image 10: Restaurant interior"
+    },
+    {
+      "src": "https://framerusercontent.com/images/5rHgXyeiwcd0Odve0yRcBTaqc7A.jpg?width=6212&height=4322",
+      "alt": "Image 25: Restaurant interior"
+    },
+    {
+      "src": "https://framerusercontent.com/images/RCeiN9S9et6kRT70JWP4nHUBo.jpg?width=6763&height=4283",
+      "alt": "Image 28: Example plate"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "sitio": "http://web.dolcebellaspa.com.mx/",
+  "fecha": "2026-09-26T07:05:24.868Z",
+  "motor": "jina-reader",
+  "slug": "dolcebellaspa",
+  "nombre": "Dolcebella Spa",
+  "rubro": "SPA",
+  "ciudad": "Tijuana, Baja California",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "http://web.dolcebellaspa.com.mx/",
+      "titulo": "Dolcebella Spa – DolceBella Spa, el mejor Centro de belleza donde encontrarás las mejores opciones para embellecer tu rostro y cuerpo, manteniéndote joven y radiante. En nuestros spas en Tijuana contamos con tecnología de punta, aparatología de vanguardia con resultados extraordinarios."
+    },
+    {
+      "url": "http://web.dolcebellaspa.com.mx/product-category/faciales/",
+      "titulo": "Faciales – Dolcebella Spa"
+    },
+    {
+      "url": "http://web.dolcebellaspa.com.mx/product/facial-limpieza-profunda-60min/",
+      "titulo": "Facial Limpieza Profunda 60min – Dolcebella Spa"
+    },
+    {
+      "url": "http://web.dolcebellaspa.com.mx/product/facial-anti-acne/",
+      "titulo": "Facial ANTI-ACNÉ 90-2 hrs &#8211; Dolcebella Spa"
+    },
+    {
+      "url": "http://web.dolcebellaspa.com.mx/product/facial-hidratante-75min/",
+      "titulo": "Facial HIDRATANTE 75 min – Dolcebella Spa"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "6646342377",
+      "2024-01-23-12-07-59-3-220",
+      "2024-01-23-12-07-55-220",
+      "2024-01-23-12-07-58-2-220",
+      "2024-01-23-12-07-58-2-480",
+      "2024-01-23-12-07-58-2",
+      "2024-01-23-12-07-55-480",
+      "2024-01-23-12-07-55",
+      "2024-01-23-12-07-59-3-480",
+      "2024-01-23-12-07-59-3",
+      "52166434610"
+    ],
+    "emails": [
+      "atencion@dolcebellaspa.com.mx",
+      "chris.gil2019@dolcebellspa.com.mx"
+    ],
+    "whatsapp": [
+      "wa.me/52166434610?text=Me%20interesa%20una%20cita%20con%20dolcebella%20Spa)"
+    ],
+    "redes": [
+      "https://www.facebook.com/DolceBellaSpa.Tj",
+      "https://www.linkedin.com/company/dolce-bella-spa",
+      "https://www.tiktok.com/@dolcebella_spa",
+      "https://www.instagram.com/dolcebellaspatj/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2023/01/logo_nuevo.png",
+      "alt": "Image 1: Logo"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2017/11/banner_header-300x194.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2017/06/Layer-1812.png",
+      "alt": "Image 4"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2017/06/icon_image.png",
+      "alt": "Image 5"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2023/01/cabina-220x220.jpeg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/01/instalaciones-dolcebella-spa-2024-01-23-12-07-59-3-220x220.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/01/instalaciones-dolcebella-spa-2024-01-23-12-07-55-220x220.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/01/instalaciones-dolcebella-spa-2024-01-23-12-07-58-2-220x220.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/02/sala-degustacion.jpeg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2017/06/picture-5299-240x240.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2017/06/Layer-1364-240x240.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2017/06/Layer-1368-240x240.jpg",
+      "alt": "Image 23"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2017/06/Layer-1363-240x240.jpg",
+      "alt": "Image 24"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/01/instalaciones-dolcebella-spa-2024-01-23-12-07-58-2-480x380.jpg",
+      "alt": "Image 26: placeholder-img"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/01/instalaciones-dolcebella-spa-2024-01-23-12-07-55-480x380.jpg",
+      "alt": "Image 27: placeholder-img"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/01/instalaciones-dolcebella-spa-2024-01-23-12-07-59-3-480x380.jpg",
+      "alt": "Image 28: placeholder-img"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2023/01/cabina-480x380.jpeg",
+      "alt": "Image 29: placeholder-img"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/02/chris-gil.jpeg",
+      "alt": "Image 30"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/08/Ivan-Cibrian-80x80.png",
+      "alt": "Image 32"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/08/stephlestrange1-80x80.png",
+      "alt": "Image 33"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/08/Natalia-Gilvaja--80x80.png",
+      "alt": "Image 34"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/08/Victor-Mendivil-80x80.png",
+      "alt": "Image 35"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/08/stephlestrange1-106x106.png",
+      "alt": "Image 38"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/08/Natalia-Gilvaja--106x106.png",
+      "alt": "Image 39"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/08/Victor-Mendivil-106x106.png",
+      "alt": "Image 40"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/08/Ivan-Cibrian-106x106.png",
+      "alt": "Image 41"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2017/06/Layer-1375-370x250.jpg",
+      "alt": "Image 51: Layer-1375"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2017/06/Layer-1376-370x250.jpg",
+      "alt": "Image 52: Layer-1376"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2017/06/Layer-1374-370x250.jpg",
+      "alt": "Image 53: Layer-1374"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2023/01/cabina-1024x681.jpeg",
+      "alt": "Image 55: Cabinas"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/01/instalaciones-dolcebella-spa-2024-01-23-12-07-59-3.jpg",
+      "alt": "Image 56: Nuestras instalaciones"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/01/instalaciones-dolcebella-spa-2024-01-23-12-07-55.jpg",
+      "alt": "Image 57: Sala de Meditación"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/01/instalaciones-dolcebella-spa-2024-01-23-12-07-58-2.jpg",
+      "alt": "Image 58: Sauna y Regadera"
+    },
+    {
+      "src": "blob:http://localhost/2ae2cc6f0544e8fcceb52fb6a599a7ea",
+      "alt": "Image 61"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/02/facial-500x500.jpeg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/02/anti-acne-500x500.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/02/rehidratante-500x500.png",
+      "alt": "Image 6"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/woocommerce-placeholder-500x500.png",
+      "alt": "Image 7: Marcador"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/02/facial.jpeg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/02/anti-acne.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "http://web.dolcebellaspa.com.mx/wp-content/uploads/2024/02/rehidratante.png",
+      "alt": "Image 4"
+    }
+  ]
+}

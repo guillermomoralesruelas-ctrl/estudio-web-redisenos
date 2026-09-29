@@ -1,0 +1,126 @@
+{
+  "sitio": "https://www.drmemoveterinario.com.mx/",
+  "fecha": "2026-09-26T06:32:09.669Z",
+  "motor": "jina-reader",
+  "slug": "clinicaveterinariadel",
+  "nombre": "Clínica Veterinaria del Dr. Memo",
+  "rubro": "SALUD",
+  "ciudad": "Querétaro, Querétaro",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.drmemoveterinario.com.mx/",
+      "titulo": "Clínica Veterinaria del Dr. Memo en Querétaro"
+    },
+    {
+      "url": "https://www.drmemoveterinario.com.mx/servicios-veterinarios",
+      "titulo": "Dermatología en caninos y felinos en Querétaro"
+    },
+    {
+      "url": "https://www.drmemoveterinario.com.mx/visitanos",
+      "titulo": "Visita la Clínica Veterinaria del Dr. Memo"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "442-224-3800",
+      "20.597410 -100.388890 10 15",
+      "442-172-1841",
+      "5214421721841"
+    ],
+    "emails": [
+      "veterinariamemo@yahoo.com.mx"
+    ],
+    "whatsapp": [
+      "wa.me/5214421721841?text=%C2%A1Hola!,me%20podr%C3%ADa%20dar%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20veterinaria%20que%20ofrecen?)",
+      "wa.me/5214421721841?text=%22Vi+su+sitio+ADN%2C+%C2%BFMe+podr%C3%ADan+brindar+m%C3%A1s+informaci%C3%B3n+sobre+sus+servicios%3F%22)"
+    ],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/LogoSitioDrMemo-213w.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/345-1920w.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/344-1920w.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/343-1920w.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/342-1920w.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/341-1920w.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/340-1920w.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/339-1920w.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://graficos.seccionamarilla.com.mx/ADN/logo-adn-BLACK1.png",
+      "alt": "Image 9: Logo ADN"
+    },
+    {
+      "src": "https://minegocio.seccionamarilla.com.mx/interacciones/forms/resourcesengage/Images/Engage/msgloading.gif",
+      "alt": "Image 11: Retorno de llamada"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/LogoSitioDrMemo-1920w.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/076-1920w.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/354-1920w.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/353-1920w.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/352-1920w.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/351-1920w.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/350-1920w.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/349-1920w.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://irp.cdn-website.com/0c631ede/dms3rep/multi/opt/348-1920w.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi3.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://maps.gstatic.com/mapfiles/transparent.png",
+      "alt": "Image 3"
+    }
+  ]
+}

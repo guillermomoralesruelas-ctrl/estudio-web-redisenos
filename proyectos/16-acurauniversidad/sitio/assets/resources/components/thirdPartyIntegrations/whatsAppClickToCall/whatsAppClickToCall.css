@@ -1,0 +1,93 @@
+.whats-app[has-pulse-animation] {
+  box-shadow: 0 0 0 0 #54c050;
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+.whats-app[has-pulse-animation]:hover {
+  animation: none;
+}
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 10px rgba(221, 0, 0, 0);
+  }
+}
+
+.whats-app-vertical {
+  font-size: 16px;
+  position: fixed;
+  top: 45%;
+  z-index: 1000;
+}
+.whats-app-vertical .whats-app-phones-dropdown {
+  float: right;
+}
+.whats-app-vertical .whats-app-nav.dropdown-closed ul li:first-child {
+  border-radius: 0 5px 0 0;
+}
+.whats-app-vertical .whats-app-nav.dropdown-closed ul li:first-child a {
+  border-radius: 0 5px 0 0;
+}
+.whats-app-vertical .whats-app-nav.dropdown-closed ul li:last-child {
+  border-radius: 0 0 5px 0;
+}
+.whats-app-vertical .whats-app-nav.dropdown-closed ul li:last-child a {
+  border-radius: 0 0 5px 0;
+}
+
+.whats-app-header ul {
+  display: flex;
+}
+.whats-app-header .whats-app-phones-dropdown {
+  position: absolute;
+}
+.whats-app-header .whats-app-nav ul li {
+  border-radius: 5px;
+}
+.whats-app-header .whats-app-nav ul li a {
+  border-radius: 5px;
+}
+
+.whats-app-nav {
+  display: inline-block;
+}
+.whats-app-nav ul li {
+  position: relative;
+  background-color: #25D366;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.whats-app-nav ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  border: 0px;
+  position: relative;
+  text-decoration: none;
+}
+.whats-app-nav ul li a:active, .whats-app-nav ul li a:focus, .whats-app-nav ul li a:focus-within, .whats-app-nav ul li a:focus-visible, .whats-app-nav ul li a:visited, .whats-app-nav ul li a:hover {
+  background-color: #128C7E;
+}
+.whats-app-nav ul li a i {
+  padding: 0.5em 0em;
+  min-width: 2em;
+  text-align: center;
+}
+
+.whats-app-phones-dropdown {
+  display: none;
+  background-color: #f1f1f1;
+  overflow: auto;
+  max-height: calc(60vh - 63px);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 10000;
+}
+.whats-app-phones-dropdown a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 12px 16px;
+}
+.whats-app-phones-dropdown .whats-app-dropdown-inner {
+  min-width: 160px;
+}
+
+/*# sourceMappingURL=whatsAppClickToCall.css.map */

@@ -1,0 +1,424 @@
+.elementor-kit-1397{--e-global-color-primary:#34793B;--e-global-color-secondary:#282828;--e-global-color-text:#3E3E3E;--e-global-color-accent:#F04E23;--e-global-color-13f4851a:#082D1C;--e-global-color-52235058:#282828;--e-global-color-21f8c9b7:#000;--e-global-color-47eea86e:#FFF;--e-global-color-6cb047a:#FFFFFF00;--e-global-color-ae8eb23:#F2EFEA;--e-global-color-18d7733:#323432;--e-global-color-5b91871:#C4380E;--e-global-color-2da225c:#DDDDDD;--e-global-color-8d48bb2:#939393;--e-global-typography-primary-font-family:"Baskervville";--e-global-typography-primary-font-size:clamp(3rem, 1.3749rem + 5.417vw, 6.25rem);--e-global-typography-primary-font-weight:400;--e-global-typography-primary-font-style:italic;--e-global-typography-primary-line-height:100px;--e-global-typography-secondary-font-family:"Baskervville";--e-global-typography-secondary-font-size:clamp(1.5rem, 0.75rem + 2.5vw, 3rem);--e-global-typography-secondary-font-weight:400;--e-global-typography-secondary-line-height:52px;--e-global-typography-text-font-family:"Montserrat";--e-global-typography-text-font-size:clamp(1rem, 0.82069rem + 0.755vw, 1.5rem);--e-global-typography-text-font-weight:400;--e-global-typography-text-line-height:36px;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;--e-global-typography-fcce242-font-family:"Baskervville";--e-global-typography-fcce242-font-size:80px;--e-global-typography-fcce242-font-weight:400;--e-global-typography-fcce242-font-style:italic;--e-global-typography-fcce242-line-height:85px;--e-global-typography-013566d-font-family:"Baskervville";--e-global-typography-013566d-font-size:clamp(1.25rem, 1.16046rem + 0.377vw, 1.5rem);--e-global-typography-013566d-font-weight:400;--e-global-typography-013566d-text-transform:uppercase;--e-global-typography-013566d-line-height:28px;--e-global-typography-013566d-letter-spacing:0.5px;--e-global-typography-962030d-font-family:"Baskervville";--e-global-typography-962030d-font-size:clamp(1.5rem, 1.125rem + 1.25vw, 2.25rem);--e-global-typography-962030d-font-weight:400;--e-global-typography-962030d-line-height:43px;--e-global-typography-4d3a7db-font-family:"Montserrat";--e-global-typography-4d3a7db-font-size:clamp(1rem, 0.9376rem + 0.208vw, 1.125rem);--e-global-typography-4d3a7db-font-weight:500;--e-global-typography-4d3a7db-line-height:23px;--e-global-typography-adfa3ce-font-family:"Montserrat";--e-global-typography-adfa3ce-font-size:1em;--e-global-typography-adfa3ce-font-weight:500;--e-global-typography-adfa3ce-line-height:20px;--e-global-typography-adfa3ce-letter-spacing:0.4px;--e-global-typography-cdb3973-font-family:"Baskervville";--e-global-typography-cdb3973-font-size:clamp(1.25rem, 0.7499rem + 1.667vw, 2.25rem);--e-global-typography-cdb3973-font-weight:400;--e-global-typography-cdb3973-line-height:43px;--e-global-typography-f2ca318-font-family:"Barlow Condensed";--e-global-typography-f2ca318-font-size:clamp(1.25rem, 1.1249rem + 0.417vw, 1.5rem);--e-global-typography-f2ca318-font-weight:600;--e-global-typography-f2ca318-text-transform:uppercase;--e-global-typography-f2ca318-line-height:29px;font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-1397 e-page-transition{background-color:#FFBC7D;}.elementor-kit-1397 h1{font-size:3.5em;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1440px;}.e-con{--container-max-width:1440px;--container-default-padding-top:0px;--container-default-padding-right:32px;--container-default-padding-bottom:0px;--container-default-padding-left:32px;}.elementor-widget:not(:last-child){margin-block-end:0px;}.elementor-element{--widgets-spacing:0px 0px;--widgets-spacing-row:0px;--widgets-spacing-column:0px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-kit-1397{--e-global-typography-primary-line-height:60px;--e-global-typography-secondary-line-height:26px;--e-global-typography-text-line-height:24px;--e-global-typography-fcce242-font-size:2.5em;--e-global-typography-fcce242-line-height:40px;--e-global-typography-013566d-line-height:24px;--e-global-typography-013566d-letter-spacing:0.5px;--e-global-typography-962030d-line-height:24px;--e-global-typography-4d3a7db-line-height:20px;--e-global-typography-adfa3ce-font-size:0.875em;--e-global-typography-adfa3ce-line-height:18px;--e-global-typography-f2ca318-line-height:20px;font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;--container-default-padding-top:0px;--container-default-padding-right:32px;--container-default-padding-bottom:0px;--container-default-padding-left:32px;}}@media(max-width:767px){.elementor-kit-1397{--e-global-typography-primary-line-height:48px;--e-global-typography-secondary-line-height:26px;--e-global-typography-text-line-height:24px;--e-global-typography-fcce242-font-size:2.5em;--e-global-typography-fcce242-line-height:40px;--e-global-typography-013566d-line-height:24px;--e-global-typography-013566d-letter-spacing:0.5px;--e-global-typography-962030d-line-height:26px;--e-global-typography-4d3a7db-line-height:20px;--e-global-typography-adfa3ce-font-size:0.875em;--e-global-typography-adfa3ce-line-height:18px;--e-global-typography-cdb3973-line-height:24px;--e-global-typography-f2ca318-line-height:24px;font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;--container-default-padding-top:0px;--container-default-padding-right:32px;--container-default-padding-bottom:0px;--container-default-padding-left:32px;}}/* Start custom CSS *//*Custom CSS Flamboyan Hotel and Residences 2024*/
+/*General Settings*/
+
+/* START STARTING STYLE */
+html { font-size: 16px; }
+
+
+/*---- GENERAL FIXES ----*/
+
+/* Make WPML Dropdown visible on Popup */
+
+
+.dialog-message.dialog-lightbox-message .wpml-ls-legacy-dropdown-click:hover .wpml-ls-sub-menu{
+    visibility: visible;
+}
+
+
+/*Prevent horizontal scroll*/
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*Ensure vertical scroll in pop up*/
+
+.pop-menu .dialog-message{
+    overflow-y: auto;
+   }
+
+/*------------------*/
+/*--------General Styles----------*/
+
+
+/* PADDING - AND - MARGINS | to sections */
+
+
+.ptxl { padding-top: clamp(3rem, -0.5001rem + 11.667vw, 10rem);} /* 160 a 48*/
+.pbxl { padding-bottom: clamp(5rem, 2.5001rem + 8.333vw, 10rem);} /* 160 a 80*/
+
+.ptl { padding-top: clamp(1.5rem, -0.75rem + 7.5vw, 6rem);} /* 96 a 24*/
+.pbl { padding-bottom: clamp(1.5rem, -0.75rem + 7.5vw, 6rem);} /* 96 a 24*/
+
+.ptm { padding-top: clamp(3rem, 2.4999rem + 1.667vw, 4rem);} /* 64 a 48*/
+.pbm { padding-bottom: clamp(3rem, 2.4999rem + 1.667vw, 4rem);} /* 64 a 48*/
+
+
+/*WPML font-styles*/
+
+
+
+.leng-wpml .wpml-ls-legacy-dropdown-click a{
+    background-color: var(--e-global-color-6cb047a);
+       font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    font-size: var(--e-global-typography-f2ca318-font-size);
+    color: var(--e-global-color-52235058);
+    border:0;
+}
+
+.leng-wpml .wpml-ls-legacy-dropdown-click a:hover{ 
+    color: var(--e-global-color-primary);
+     background-color: var(--e-global-color-6cb047a);
+    
+}
+
+.leng-wpml .wpml-ls-legacy-dropdown-click a.wpml-ls-item-toggle{
+    padding-right: calc(3px + .6em + .7em);
+}
+
+.leng-wpml .wpml-ls-legacy-dropdown-click a.wpml-ls-item-toggle:after {
+    content: url('https://static-resources-elementor.mirai.com/wp-content/uploads/sites/1212/arrow-leng.png');
+    border: 0;
+    border-top: 0;
+    right: 9px;
+    top: calc(22% - 0.175em);
+}
+
+.leng-wpml .wpml-ls-legacy-dropdown-click a.wpml-ls-item-toggle:hover:after {
+    content: url('https://static-resources-elementor.mirai.com/wp-content/uploads/sites/1212/arrow-leng-hover.png');
+    border: 0;
+    border-top: 0;
+    right: 9px;
+    top: calc(22% - 0.175em);
+}
+
+
+
+
+/*STYLES BUTTONS*/
+/*--------------*/
+
+/*-------------------*/
+
+/*Button first*/
+.elementor-button.btn-primary {
+
+    font-family: var( --e-global-typography-f2ca318-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-f2ca318-font-size );
+    font-weight: var( --e-global-typography-f2ca318-font-weight );
+    text-transform: var( --e-global-typography-f2ca318-text-transform );
+    line-height: var( --e-global-typography-f2ca318-line-height );
+    letter-spacing: var( --e-global-typography-f2ca318-letter-spacing );
+    word-spacing: var( --e-global-typography-f2ca318-word-spacing );
+    transition: all .3s ease-in-out;
+    border-radius:0;
+    fill: var( --e-global-color-primary );
+    color: var( --e-global-color-primary );
+    background-color: var( --e-global-color-6cb047a );
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var( --e-global-color-primary );
+}
+
+.elementor-button.btn-primary:hover {
+color: var(--e-global-color-13f4851a);
+border-color: var(--e-global-color-13f4851a) ;
+
+}
+
+/*Button second*/
+.elementor-button.btn-white {
+
+    font-family: var( --e-global-typography-f2ca318-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-f2ca318-font-size );
+    font-weight: var( --e-global-typography-f2ca318-font-weight );
+    text-transform: var( --e-global-typography-f2ca318-text-transform );
+    line-height: var( --e-global-typography-f2ca318-line-height );
+    letter-spacing: var( --e-global-typography-f2ca318-letter-spacing );
+    word-spacing: var( --e-global-typography-f2ca318-word-spacing );
+    transition: all .3s ease-in-out;
+    border-radius:0;
+    fill: var( --e-global-color-47eea86e);
+    color: var( --e-global-color-47eea86e );
+    background-color: var( --e-global-color-6cb047a );
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var( --e-global-color-47eea86e );
+}
+
+.elementor-button.btn-white:hover {
+color: var(--e-global-color-2da225c);
+border-color: var(--e-global-color-47eea86e) ;
+
+}
+
+/*Backgroung section*/
+
+.bg-container{
+
+    background-color:var( --e-global-color-ae8eb23);
+}
+
+.photo-hgt{
+    min-height:800px;
+ }
+
+/*Container text-photo*/
+
+@media (max-width: 768px) {
+
+    .photo-hgt{
+       min-height:613px;
+    }
+    
+    }
+
+@media (max-width: 580px) {
+
+.photo-hgt{
+   min-height:360px;
+}
+
+}
+
+
+
+/*Social icons inline*/
+
+.ico-scial .elementor-icon.elementor-social-icon {
+    display: inline-flex;
+}
+
+/*Menu Icon List*/
+.menu-list .elementor-widget .elementor-icon-list-item,.elementor-widget .elementor-icon-list-item a {
+    display: flex;
+    flex-direction: row-reverse;
+  
+}
+
+@media (max-width: 580px ) {
+.menu-list ul.elementor-icon-list-items.elementor-inline-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: flex-start;
+}
+
+
+.menu-list ul.elementor-icon-list-items.elementor-inline-items li.elementor-icon-list-item.elementor-inline-item{
+    padding-bottom:5px;
+}
+
+}
+
+/*Style PAGES*/
+
+/*Details and bkn*/
+
+.cat-offer-detail .btn-book,
+.cat-room-detail .btn-book,
+.cat-booking .btn-book{
+    display: none;
+}
+
+/*Offers*/
+
+body.cat-offers .offers-listing-wrapper.no-offers{
+    text-align: center;
+}
+body.cat-offers .offers-listing-wrapper.offers-listing-1 h2{
+    display:none;
+}
+
+/*Det Offers*/
+
+body.cat-offer-detail .back-link, body.cat-room-detail .back-link, body.cat-room-detail .go-to-services.down-link, body.cat-room-detail .go-to-offers.down-link{
+    color: var(--e-global-color-primary);
+}
+
+/*Rooms*/
+
+body.cat-rooms .last-booking{
+    display: none;
+}
+
+/*body.cat-rooms #main .elementor-container {
+    max-width: 1920px;
+    padding: 0;
+}
+
+body.cat-rooms .room-detail ul, body.cat-rooms .room-detail .price-box, body.cat-rooms .rooms-listing-wrapper.rooms-listing-2.alternate .common-services.row {
+    display:none;
+}
+
+body.cat-rooms .row h2, body.cat-rooms .row h2 ~ p {
+    display:none;
+}
+
+.rooms-listing-wrapper > .row:first-child {
+    margin: 0;
+    text-align: center;
+}
+
+
+body.cat-rooms .room-box .room-image,body.cat-rooms .room-box .room-detail {
+    width: 50%;
+}
+
+body.cat-rooms .room-box .room-image .room-image-link img {
+    height:800px;
+    
+}
+
+
+body.cat-rooms .room-item.row .room-box.room-box-2.row {
+    background-color: var(--e-global-color-ae8eb23);
+}
+
+body.cat-rooms .room-item.row.odd .room-box.room-box-2.row {
+    background-color: var(--e-global-color-47eea86e);
+}
+
+body.cat-rooms .room-box{
+    border: 0;
+}
+
+body.cat-rooms .rooms-listing-wrapper .rooms-listing .room-item {
+    margin-bottom: 0;
+}
+
+body.cat-rooms .rooms-listing-wrapper {
+    text-align: center;
+}
+
+body.cat-rooms .room-box .room-detail {
+         padding: 4% 6% 0% 6%;
+}
+
+body.cat-rooms .room-detail h3 {
+     color: var( --e-global-color-13f4851a );
+    font-family: var( --e-global-typography-fcce242-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-fcce242-font-size );
+   
+    font-style: var( --e-global-typography-fcce242-font-style );
+    line-height: var( --e-global-typography-fcce242-line-height );
+    letter-spacing: var( --e-global-typography-fcce242-letter-spacing );
+    word-spacing: var( --e-global-typography-fcce242-word-spacing );
+}
+
+body.cat-rooms .room-detail h3 a {
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}*/
+
+
+/*Position to have ::after*/
+
+
+/*.room-detail h3 a {
+    position: relative; 
+   
+}
+
+
+body.cat-rooms .room-detail h3 a:after {     
+    content: "";
+    display:block;
+    width: 70px;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: transateX(-50%);
+    margin: 0 auto;
+    background:var(    --e-global-color-accent); 
+    margin-top: 15px;
+}*/
+
+/*Button*/
+
+/*body.cat-rooms .room-description a {
+    font-family: var( --e-global-typography-f2ca318-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-f2ca318-font-size );
+    font-weight: var( --e-global-typography-f2ca318-font-weight );
+    text-transform: var( --e-global-typography-f2ca318-text-transform );
+    line-height: var( --e-global-typography-f2ca318-line-height );
+    letter-spacing: var( --e-global-typography-f2ca318-letter-spacing );
+    word-spacing: var( --e-global-typography-f2ca318-word-spacing );
+    transition: all .3s ease-in-out;
+    border-radius:0;
+    fill: var( --e-global-color-primary );
+    color: var( --e-global-color-primary );
+    background-color: var( --e-global-color-6cb047a );
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var( --e-global-color-primary );
+}
+
+body.cat-rooms .rooms-listing-wrapper .room-description .more-info {
+    text-decoration: none;
+     padding: 16px 32px;
+     margin-top: 32px;
+}
+
+body.cat-rooms .rooms-listing-wrapper > .row:first-child {
+    margin:0;
+}
+body.cat-rooms .room-box .room-detail  .more-info{
+    display: block;
+    width:30%;
+    margin:30px auto;
+}
+
+
+@media (max-width: 768px) {
+    
+body.cat-rooms .room-box .room-image,body.cat-rooms .room-box .room-detail {
+    width: auto;
+}
+
+body.cat-rooms .room-box .room-image .room-image-link img {
+    height:auto;
+    
+}
+body.cat-rooms .room-box .room-detail  .more-info {
+    display:block;
+    width:25%;
+    margin:30px auto;
+    
+}
+
+}
+
+@media (max-width: 580px) {
+    
+body.cat-rooms .room-box .room-detail  .more-info{
+      display: block;
+      margin-top: 32px;
+      width:50%;
+}
+
+body.cat-rooms .rooms-listing-wrapper .rooms-listing .room-item .room-box .room-detail,body.cat-rooms .rooms-listing-wrapper.alternate .rooms-listing .room-item.odd .room-detail {
+    padding:24px;
+}
+
+body.cat-rooms .rooms-listing-wrapper .room-box {
+        margin: -1px 0;
+    }
+
+
+}*/
+
+
+@media (min-width: 1300px) {
+body.cat-room-detail .rooms-detail-wrapper .room-box-extras div {
+width: 100%;
+}
+body.cat-room-detail .rooms-detail-wrapper .room-box-extras div ul {
+    columns: 3;
+    column-gap: 60px;
+}
+
+}
+
+/* MINIATURAS room detail */
+#main .elementor-skin-slideshow .elementor-thumbnails-swiper {
+    height: 130px;
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+	.rooms-detail-wrapper .room-box-image .room-box-description p {font-size: 0.8em;}
+}/* End custom CSS */

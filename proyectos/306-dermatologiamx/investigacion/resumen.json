@@ -1,0 +1,113 @@
+{
+  "sitio": "https://dermatologia.mx/",
+  "fecha": "2026-09-26T06:57:43.689Z",
+  "motor": "jina-reader",
+  "slug": "dermatologiamx",
+  "nombre": "Dermatología.mx",
+  "rubro": "ESTETICA",
+  "ciudad": "Monterrey, Nuevo León",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://dermatologia.mx/",
+      "titulo": "Dermatólogo en Monterrey · Dr. Jorge Garza & Dra. Minerva Gómez"
+    },
+    {
+      "url": "https://dermatologia.mx/doctor",
+      "titulo": "Dr. Jorge Garza & Dra. Minerva Gómez · Dermatólogos en Monterrey"
+    },
+    {
+      "url": "https://dermatologia.mx/servicios",
+      "titulo": "Servicios dermatológicos en Monterrey · dermatologia.mx"
+    },
+    {
+      "url": "https://dermatologia.mx/tratamientos",
+      "titulo": "Tratamientos dermatológicos y estéticos · dermatologia.mx"
+    },
+    {
+      "url": "https://dermatologia.mx/padecimientos",
+      "titulo": "Padecimientos dermatológicos · dermatologia.mx"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "528116895477",
+      "2024-2026",
+      "818-346-3307",
+      "8183463307",
+      "818-346-3293",
+      "8183463293"
+    ],
+    "emails": [
+      "hola@dermatologia.mx"
+    ],
+    "whatsapp": [
+      "wa.me/528116895477?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita)",
+      "wa.me/528116895477?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita)[Conocer",
+      "wa.me/528116895477?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita)[818-346-3307](tel:8183463307)"
+    ],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fsite%2Flogo-dmx-color.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 2: dermatologia.mx"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fdoctor%2Fabout-1.png&w=256&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 3: Dr. Jorge Garza Gómez"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fdoctor%2Fteam.jpg&w=256&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 4: Dra. Minerva Gómez Flores"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fgenerated%2Ftreatment-rf.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 5: Radiofrecuencia en dermatologia.mx Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Ftreatments%2Ffacial-4.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 6: Peeling Médico DMX en dermatologia.mx Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fgenerated%2Fcicatrices-acne-treatment.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 7: Cicatrices por Acné en dermatologia.mx Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fgenerated%2Ftreatment-laser.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 8: Láser CO2 Fraccionado en dermatologia.mx Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Ftreatments%2Fdepilacion-3.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 9: Depilación Láser en dermatologia.mx Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fgenerated%2Ftreatment-mesoterapia-capilar-card.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 10: Mesoterapia capilar con dutasteride en dermatologia.mx Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fsite%2Fconsulta-3.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 11: Dermatoscopia Digital y Revisión de Lunares en dermatologia.mx Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fsite%2Fconsulta-2.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 12: Rejuvenecimiento Facial en dermatologia.mx Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Ftreatments%2Ffacial-6.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 13: Contorno de Ojos en dermatologia.mx Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Ftreatments%2Fservice-8.png&w=3840&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 14: Remodelación Corporal en dermatologia.mx Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fdoctor%2Fabout-1.png&w=1200&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 3: Dr. Jorge Garza Gómez - Dermatólogo en Monterrey"
+    },
+    {
+      "src": "https://dermatologia.mx/_next/image?url=%2Fimages%2Fdoctor%2Fteam.jpg&w=1200&q=75&dpl=dpl_G37HZgoNm3JpdaoCMzSn8rfwDNKo",
+      "alt": "Image 4: Dra. Minerva Gómez Flores - Dermatóloga en Monterrey"
+    }
+  ]
+}

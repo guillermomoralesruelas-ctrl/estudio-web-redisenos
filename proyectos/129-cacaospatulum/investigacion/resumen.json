@@ -1,0 +1,153 @@
+{
+  "sitio": "https://www.cacaospatulum.com/",
+  "fecha": "2026-09-26T05:42:58.966Z",
+  "motor": "jina-reader",
+  "slug": "cacaospatulum",
+  "nombre": "Cacao Spa Tulum",
+  "rubro": "SPA",
+  "ciudad": "Tulum, Quintana Roo",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.cacaospatulum.com/",
+      "titulo": "Home | Cacao Spa Tulum"
+    },
+    {
+      "url": "https://www.cacaospatulum.com/our-story",
+      "titulo": "About | Cacao Spa Tulum"
+    },
+    {
+      "url": "https://www.cacaospatulum.com/our-menu",
+      "titulo": "Menu | Cacao Spa Tulum"
+    },
+    {
+      "url": "https://www.cacaospatulum.com/massages",
+      "titulo": "Massages | Cacao Spa Tulum"
+    },
+    {
+      "url": "https://www.cacaospatulum.com/organic-facials",
+      "titulo": "Organic Facials | Cacao Spa Tulum"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "9696-2304",
+      "9708-2304",
+      "6022-2304",
+      "5957-2304",
+      "1078983-2304",
+      "9982418650",
+      "1123-2304",
+      "9703-2304",
+      "+529982418650",
+      "6111-1920",
+      "6227-1920",
+      "0741-1920",
+      "112696316428993548283",
+      "100334992947006046398",
+      "+52) 998 241 86 50",
+      "0857-1920",
+      "652512-1920"
+    ],
+    "emails": [
+      "cacaospatulum@gmail.com"
+    ],
+    "whatsapp": [
+      "wa.me/+52%20998%20241%208650)[](https://www.tiktok.com/@cacaospatulum)"
+    ],
+    "redes": [
+      "https://facebook.com/cacaospatulum",
+      "https://instagram.com/cacaospatulum",
+      "https://www.instagram.com/cacaospatulum/?hl=es",
+      "https://www.facebook.com/CacaoSpaTulum/",
+      "https://www.instagram.com/cacaospatulum/",
+      "https://www.tiktok.com/@cacaospatulum"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://dd-cdn.multiscreensite.com/flags/flags_iso/32/us.png",
+      "alt": "Image 1: English"
+    },
+    {
+      "src": "https://dd-cdn.multiscreensite.com/flags/flags_iso/32/mx.png",
+      "alt": "Image 2: Español"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/14-97658d63-81d381ef-1c0fdad2-130h.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_9696-2304w.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_9708-2304w.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_6022-2304w.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_5957-2304w.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_0708-83afae8c-2304w.JPG",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://irp.cdn-website.com/md/pexels/dms3rep/multi/opt/pexels-photo-1078983-2304w.jpeg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_1123-2304w.JPG",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_9703-2304w.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/1-9ee86e4b-4e471fea-549d3885-839w.png",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_6111-1920w.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_6227-1920w.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_9707-34c0885d-1920w.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_0741-1920w.JPG",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/2-87w.png",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/1-87w.png",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/14-97658d63-81d381ef-1c0fdad2-1920w.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_0857-1920w.JPG",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://irp.cdn-website.com/b8ed8696/dms3rep/multi/opt/IMG_0899-dc652512-1920w.JPG",
+      "alt": "Image 9"
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "sitio": "https://hotelmaculis.mx/",
+  "fecha": "2026-09-26T08:33:33.136Z",
+  "motor": "jina-reader",
+  "slug": "hotelmaculis",
+  "nombre": "Hotel Maculís",
+  "rubro": "HOSPEDAJE",
+  "ciudad": "Campeche, Campeche",
+  "plantilla": "hospedaje",
+  "paginasRevisadas": [
+    {
+      "url": "https://hotelmaculis.mx/",
+      "titulo": "hotelmaculis.mx"
+    },
+    {
+      "url": "https://hotelmaculis.mx/reservaciones",
+      "titulo": "hotelmaculis.mx"
+    },
+    {
+      "url": "https://hotelmaculis.mx/propiedad-en-venta",
+      "titulo": "hotelmaculis.mx"
+    },
+    {
+      "url": "https://hotelmaculis.mx/tienda",
+      "titulo": "hotelmaculis.mx"
+    },
+    {
+      "url": "https://hotelmaculis.mx/ola/services/habitacion-doble",
+      "titulo": "hotelmaculis.mx"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "28-4586-91",
+      "6651609900",
+      "0-1648-407",
+      "45-9350-32",
+      "80-393524509113",
+      "28-9845-19",
+      "322416519",
+      "952460219059377",
+      "5063307993025818327",
+      "2186138728098263",
+      "7434651246222376960",
+      "315905109",
+      "10160473255004188",
+      "38805818354361480",
+      "203648419489655",
+      "529812066760",
+      "981.8168346",
+      "9818168346",
+      "796562629",
+      "796562052",
+      "796562520",
+      "21489737091",
+      "235133469",
+      "7905262245288",
+      "11709072776796",
+      "8512137553",
+      "19.841029",
+      "90.543965",
+      "19.8410294",
+      "90.5439651"
+    ],
+    "emails": [
+      "hotelmaculis@gmail.com"
+    ],
+    "whatsapp": [
+      "wa.me/529812066760)"
+    ],
+    "redes": [
+      "https://www.facebook.com/203648419489655"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/67AAC5A7-7023-4F99-9C73-D88471DF0C31.png/:/rs=h:181,cg:true,m/qt=q:95",
+      "alt": "Image 1: hotelmaculis.mx"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/blob-33eb8a0.png/:/cr=t:15.71%25,l:31.37%25,w:52.82%25,h:70.43%25/rs=w:365,h:365,cg:true,m",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/blob-2bf43ca.png/:/cr=t:0%25,l:12.5%25,w:75%25,h:100%25/rs=w:365,h:365,cg:true",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/blob-fc8e4be.png/:/cr=t:0%25,l:12.5%25,w:75%25,h:100%25/rs=w:365,h:365,cg:true",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/Hotel-Maculis-Campeche-Exterior.jpeg/:/cr=t:0%25,l:16.68%25,w:66.64%25,h:100%25/rs=w:365,h:365,cg:true",
+      "alt": "Image 6"
+    },
+    {
+      "src": "blob:http://localhost/48f76619a5bd00ce057f2024dcf38bc1",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/0430FF95-FD02-4C4F-9A57-8448ADE69C02.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/66EF432A-6A28-4D73-8BE6-62918D6A047B.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/5D62DDEF-1F28-4586-91DE-C8C142606B8B.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/8C9116D4-F9FC-4600-B72C-6651609900B8.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/68D6ABF0-1648-407B-98B8-AB3E74EAD664.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/F9484F1C-070D-4C86-BEEA-3EFA8984CB14.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/86DA237D-E361-4B9F-A30B-6AA4557B8525.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/B640A5AF-97B0-4E45-9350-32A333B9C021.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/ADCB5CD7-B894-4BAB-BA80-393524509113.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/6722E13D-F16A-4115-A452-70DDD732CB01.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/0D59991C-E8AC-4C28-9845-19FADE1F4D2F.png/:/rs=w:600,cg:true,m",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/322416519_952460219059377_5063307993025818327.jpeg/:/cr=t:0.1%25,l:0%25,w:100%25,h:99.79%25/rs=w:100,h:100,cg:true",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/46521274_2186138728098263_7434651246222376960.jpeg/:/cr=t:0%25,l:12.5%25,w:75%25,h:100%25/rs=w:100,h:100,cg:true",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/315905109_10160473255004188_38805818354361480.jpeg/:/cr=t:12.5%25,l:0%25,w:100%25,h:75%25/rs=w:100,h:100,cg:true",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/67AAC5A7-7023-4F99-9C73-D88471DF0C31.png/:/rs=h:105,cg:true,m/qt=q:95",
+      "alt": "Image 1: hotelmaculis.mx"
+    },
+    {
+      "src": "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi3.png",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4070!3i7269!4i256!2m3!1e0!2sm!3i796562629!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=90145",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4069!3i7269!4i256!2m3!1e0!2sm!3i796562052!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=25007",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4069!3i7270!4i256!2m3!1e0!2sm!3i796562520!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=68586",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4071!3i7269!4i256!2m3!1e0!2sm!3i796562629!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=9508",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4069!3i7271!4i256!2m3!1e0!2sm!3i796562629!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=51613",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4072!3i7270!4i256!2m3!1e0!2sm!3i796562629!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=41116",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4072!3i7269!4i256!2m3!1e0!2sm!3i796562629!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=59942",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4071!3i7270!4i256!2m3!1e0!2sm!3i796562629!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=121753",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4070!3i7271!4i256!2m3!1e0!2sm!3i796562629!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=29091",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4070!3i7270!4i256!2m3!1e0!2sm!3i796562629!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=71319",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4071!3i7271!4i256!2m3!1e0!2sm!3i796562629!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=79525",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i14!2i4072!3i7271!4i256!2m3!1e0!2sm!3i796562629!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&client=gme-godaddycom&channel=gc-widget-contact&token=129959",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://maps.gstatic.com/mapfiles/transparent.png",
+      "alt": "Image 16: Google"
+    },
+    {
+      "src": "blob:http://localhost/b93c9a2172df21489737091a8d18dcd8",
+      "alt": "Image 17"
+    },
+    {
+      "src": "blob:http://localhost/ab0056c3bec0a6eccc4868b406481b26",
+      "alt": "Image 18"
+    },
+    {
+      "src": "blob:http://localhost/428a705a770d4fd8d1a6cd1c683235bf",
+      "alt": "Image 19"
+    },
+    {
+      "src": "blob:http://localhost/9dbcb5be2e02d0a07bd1d388a86e5e7e",
+      "alt": "Image 20"
+    },
+    {
+      "src": "blob:http://localhost/4535d898a0eb06c782798d78208feaee",
+      "alt": "Image 21"
+    },
+    {
+      "src": "blob:http://localhost/320d96eb647377f4f1f474e250860d9b",
+      "alt": "Image 22"
+    },
+    {
+      "src": "blob:http://localhost/f06e4499e1fc8a618e98eeedaba5b55a",
+      "alt": "Image 23"
+    },
+    {
+      "src": "blob:http://localhost/db1a26b0a11c2125d4207e1276c1cd86",
+      "alt": "Image 24"
+    },
+    {
+      "src": "blob:http://localhost/510b8f0e7c613cc7923173ba79a5dbbb",
+      "alt": "Image 25"
+    },
+    {
+      "src": "blob:http://localhost/ece362a7fea1bb8ef3bbac06ec61025b",
+      "alt": "Image 26"
+    },
+    {
+      "src": "blob:http://localhost/838837c433d49f6fab885b9f699d0785",
+      "alt": "Image 27"
+    },
+    {
+      "src": "blob:http://localhost/5020879dbf2e9b53884a235133469f4b",
+      "alt": "Image 28"
+    },
+    {
+      "src": "blob:http://localhost/41640758ac8938cc0e5cb8a055bce3e4",
+      "alt": "Image 29"
+    },
+    {
+      "src": "blob:http://localhost/e7a314a35dbfbcda5aa011635b157546",
+      "alt": "Image 30"
+    },
+    {
+      "src": "blob:http://localhost/c96167c25594f7905262245288c02d95",
+      "alt": "Image 34"
+    },
+    {
+      "src": "blob:http://localhost/0c9d5653a27eb5cbd2e9684919edec62",
+      "alt": "Image 35"
+    },
+    {
+      "src": "blob:http://localhost/7dd94b3f205c687f75f0bc03571fcdce",
+      "alt": "Image 36"
+    },
+    {
+      "src": "blob:http://localhost/b442dd7c535689e8c0088b17ab8365e7",
+      "alt": "Image 37"
+    },
+    {
+      "src": "blob:http://localhost/65f2d9a32a5a93f4a3d4ef0037dc6fcd",
+      "alt": "Image 39"
+    },
+    {
+      "src": "blob:http://localhost/9d26877a5d6ec28211ef683857f6567a",
+      "alt": "Image 40"
+    },
+    {
+      "src": "blob:http://localhost/231cd5e86b8cb93d0e50c8d57a15a16b",
+      "alt": "Image 41"
+    },
+    {
+      "src": "blob:http://localhost/46cc6fedca4f260dcf94e98e5147130e",
+      "alt": "Image 42"
+    },
+    {
+      "src": "blob:http://localhost/ba98fc2d4349e3c4f8eab705dac9a707",
+      "alt": "Image 44"
+    },
+    {
+      "src": "blob:http://localhost/9ff247b4ad9e26ce46f2b1aac09b31f2",
+      "alt": "Image 45"
+    },
+    {
+      "src": "blob:http://localhost/16d8ccdf47ef11709072776796ac1e7f",
+      "alt": "Image 46"
+    },
+    {
+      "src": "blob:http://localhost/ee94dd3fc12185ff3ebad0dabe29f462",
+      "alt": "Image 48"
+    },
+    {
+      "src": "blob:http://localhost/ad4bc043e84f55dc8d975d4ba4c62974",
+      "alt": "Image 49"
+    },
+    {
+      "src": "blob:http://localhost/dcb0c10e8e26eefa17c96c1d4c2b7ff0",
+      "alt": "Image 50"
+    },
+    {
+      "src": "blob:http://localhost/9171d8ee29a1939b947bb34a10c77933",
+      "alt": "Image 52"
+    },
+    {
+      "src": "blob:http://localhost/324d1c66b8512137553d17fcba658d23",
+      "alt": "Image 53"
+    },
+    {
+      "src": "blob:http://localhost/60b3cb77d9c358638b6925c4a76218dc",
+      "alt": "Image 54"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/IMG_3362.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1023,cg:true",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/IMG_3328.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1023,cg:true",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/64ff5a76-b759-4767-a6f8-eedc0855efdd/IMG_3535.JPG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1023,cg:true",
+      "alt": "Image 5"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "sitio": "https://arenahybridclub.com/",
+  "fecha": "2026-09-26T04:58:28.695Z",
+  "motor": "jina-reader",
+  "slug": "arenahybridclub",
+  "nombre": "Arena Hybrid Club",
+  "rubro": "FITNESS",
+  "ciudad": "Aguascalientes, México",
+  "plantilla": "fitness-gym",
+  "paginasRevisadas": [
+    {
+      "url": "https://arenahybridclub.com/",
+      "titulo": "Arena Hybrid Club | Rendimiento Híbrido"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "4812-9256-808",
+      "449) 769 7866",
+      "524497697866"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/524497697866)"
+    ],
+    "redes": [
+      "https://www.instagram.com/arenahybridclub/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "blob:http://localhost/a58dde5a9d52bf607ff5dc78d1f2316f",
+      "alt": "Image 1: Arena Hybrid Club"
+    },
+    {
+      "src": "https://arenahybridclub.com/lovable-uploads/5934099f-0a58-47f2-a9fc-97b63e828fc9.png",
+      "alt": "Image 3: Arena Hybrid Club"
+    },
+    {
+      "src": "https://arenahybridclub.com/__l5e/assets-v1/a90caaad-5fd3-410e-a891-929c0adec2ed/rayo-cream-front.jpg",
+      "alt": "Image 4: Playera crema Rayo Collection — detalle frontal con logo"
+    },
+    {
+      "src": "https://arenahybridclub.com/__l5e/assets-v1/28651e96-dbad-4d5e-ae31-f67511de3f3f/rayo-cream-back.jpg",
+      "alt": "Image 5: Playera crema Rayo Collection — espalda Athlete Series #001"
+    },
+    {
+      "src": "https://arenahybridclub.com/__l5e/assets-v1/fd1ffa73-3cd7-447a-ae13-e2e9e355805a/rayo-cream-pair.jpg",
+      "alt": "Image 6: Playera crema Rayo Collection — frente y espalda"
+    },
+    {
+      "src": "https://arenahybridclub.com/__l5e/assets-v1/07637794-b6e5-40af-b841-3ca6e03df251/rayo-black-front.jpg",
+      "alt": "Image 7: Playera negra Rayo Collection — detalle frontal con logo"
+    },
+    {
+      "src": "https://arenahybridclub.com/__l5e/assets-v1/b279a870-a3c5-4f1b-bc90-72d942c93e6f/rayo-black-pair.jpg",
+      "alt": "Image 8: Playera negra Rayo Collection — frente y espalda"
+    },
+    {
+      "src": "https://arenahybridclub.com/__l5e/assets-v1/ce67c9cc-7ed1-469e-a52c-8068cf4a9a14/rayo-black-flat.jpg",
+      "alt": "Image 9: Playera negra Rayo Collection — vista técnica de diseño"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/hero-gym-CDn-Y-dD.jpg",
+      "alt": "Image 10: HYBRID TRAINING"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/strength-detail-BuxSvl24.jpg",
+      "alt": "Image 11: STRENGTH"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/recovery-CLe7UWWd.jpg",
+      "alt": "Image 12: RECOVERY"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/space-render-C3sIpE_3.jpg",
+      "alt": "Image 13: Render arquitectónico del gimnasio Arena Hybrid Club"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/space-gym-Ku2HB-ug.jpg",
+      "alt": "Image 14: Interior de Arena Hybrid Club"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/exterior-1-pdG7O_7H.jpg",
+      "alt": "Image 15: Fachada exterior de Arena Hybrid Club"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/hero-poster-D1ItfoZw.jpg",
+      "alt": "Image 16: Zona de entrenamiento HYROX"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/gym-equipment-DTbzOHqq.jpg",
+      "alt": "Image 17: Equipamiento de gimnasio premium"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/open-box-CbDt0BLh.jpg",
+      "alt": "Image 18: Zona Open Box con equipo funcional"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/hyrox-track-BWCp8IXX.png",
+      "alt": "Image 19: Pista HYROX y zona de máquinas"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/barbell-floor-DC5tolz7.jpg",
+      "alt": "Image 20: Zona de peso libre con barra olímpica"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/machines-windows-BHitJR3Z.jpg",
+      "alt": "Image 21: Máquinas con ventanales"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/open-box-2--6Xr20e_.jpg",
+      "alt": "Image 22: Vista del Open Box con dumbbells"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/exterior-2-CAswWSNv.jpeg",
+      "alt": "Image 23: Vista exterior con jardín"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/lockers-vanity-Dd5Qa1nP.jpg",
+      "alt": "Image 24: Vestidores premium con lavabos de mármol"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/sauna-coldplunge-szrgLDGc.jpg",
+      "alt": "Image 25: Sauna y cold plunge"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/sauna-detail-C7NQT2FW.png",
+      "alt": "Image 26: Detalle del sauna de madera"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/lockers-Cf0HHNU-.png",
+      "alt": "Image 27: Lockers premium"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/mirrors-CDqkctwU.jpg",
+      "alt": "Image 28: Área de espejos y plantas"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/coldplunge-detail-6XyzFKh7.jpg",
+      "alt": "Image 29: Tinas de cold plunge"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/lockers-towels-qA2dqzOl.png",
+      "alt": "Image 30: Lockers con toallas"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/group-photo-Ctz6s4wd.jpg",
+      "alt": "Image 31: Grupo Arena Hybrid Club"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/runners-back-BS-POHEr.jpg",
+      "alt": "Image 32: Corredores Arena desde atrás"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/better-yesterday-DUyXBXlG.jpg",
+      "alt": "Image 33: Better than yesterday"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/night-run-Ct8sKVlU.jpg",
+      "alt": "Image 34: Corrida nocturna"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/mural-group-BK0U6-M2.jpg",
+      "alt": "Image 35: Grupo frente al mural Arena"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/blur-runners-BcPSM4fz.jpg",
+      "alt": "Image 36: Corredores en movimiento"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/street-runners-BA-NbqWO.jpg",
+      "alt": "Image 37: Corredores en la calle"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/huddle-BqAEuZ4u.jpg",
+      "alt": "Image 38: Equipo reunido"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/embrace-CSBUw0iC.jpg",
+      "alt": "Image 39: Comunidad Arena abrazándose"
+    },
+    {
+      "src": "https://arenahybridclub.com/assets/tshirt-D0CUJ_nZ.jpg",
+      "alt": "Image 40: Playera Running Club Arena Athlete"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "sitio": "http://escondidooaxaca.com/",
+  "fecha": "2026-09-26T07:25:09.332Z",
+  "motor": "jina-reader",
+  "slug": "escondidooaxacagrupo",
+  "nombre": "Escondido Oaxaca | Grupo Habita",
+  "rubro": "HOSPEDAJE",
+  "ciudad": "Oaxaca de Juárez, Oaxaca",
+  "plantilla": "hospedaje",
+  "paginasRevisadas": [
+    {
+      "url": "http://escondidooaxaca.com/",
+      "titulo": "Escondido Oaxaca | Grupo Habita"
+    },
+    {
+      "url": "http://escondidooaxaca.com/en",
+      "titulo": "Escondido Oaxaca | Grupo Habita"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "2023-07-18",
+      "2023-07-19",
+      "+52 951 689 0315",
+      "+529516890315",
+      "951 165 0140",
+      "5219516533879"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/5219516533879)"
+    ],
+    "redes": [
+      "https://www.instagram.com/escondidooaxaca/",
+      "https://twitter.com/grupohabita",
+      "https://www.facebook.com/GrupoHabita"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/misc/logo-red.png",
+      "alt": "Image 1"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/misc/logo-white.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/bg/banner.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/about/about-9.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/about/about-1.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/about/about-2.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/about/about-3.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/about/about-4.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/about/about-5.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/about/about-6.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/about/about-7.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/about/about-8.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/misc/arrow-left.png",
+      "alt": "Image 17"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/misc/arrow-right.png",
+      "alt": "Image 18"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/rooms/patio-room/patio-room-1.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/rooms/deluxe-room/deluxe-room-1.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/rooms/top-suite/top-suite-1.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/rooms/balcony-room/balcony-room-1.jpg",
+      "alt": "Image 22"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/restaurants/restaurants-8.jpg",
+      "alt": "Image 29"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/restaurants/restaurants-1.jpg",
+      "alt": "Image 30"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/restaurants/restaurants-2.jpg",
+      "alt": "Image 31"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/restaurants/restaurants-3.jpg",
+      "alt": "Image 32"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/restaurants/restaurants-4.jpg",
+      "alt": "Image 33"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/restaurants/restaurants-5.jpg",
+      "alt": "Image 34"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/restaurants/restaurants-6.jpg",
+      "alt": "Image 35"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/restaurants/restaurants-7.jpg",
+      "alt": "Image 36"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/events/events-2.jpg",
+      "alt": "Image 41"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/events/events-1.jpg",
+      "alt": "Image 42"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/neighborhood/neighborhood-1.jpg",
+      "alt": "Image 47"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/escondido-oaxaca/neighborhood/neighborhood-2.jpg",
+      "alt": "Image 48"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/misc/grupohabita_logo.png",
+      "alt": "Image 50"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/misc/instagram.png",
+      "alt": "Image 52"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/misc/x.png",
+      "alt": "Image 53"
+    },
+    {
+      "src": "http://escondidooaxaca.com/dist/img/misc/facebook.png",
+      "alt": "Image 54"
+    },
+    {
+      "src": "http://escondidooaxaca.com/en",
+      "alt": "Image 14"
+    }
+  ]
+}

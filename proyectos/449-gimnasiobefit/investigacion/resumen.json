@@ -1,0 +1,76 @@
+{
+  "sitio": "https://befit.mx/",
+  "fecha": "2026-09-26T07:58:23.112Z",
+  "motor": "jina-reader",
+  "slug": "gimnasiobefit",
+  "nombre": "Gimnasio Befit",
+  "rubro": "FITNESS",
+  "ciudad": "Mazatlán, Sinaloa",
+  "plantilla": "fitness-gym",
+  "paginasRevisadas": [
+    {
+      "url": "https://befit.mx/",
+      "titulo": "Gimnasio Befit - Mejor gimnasio de Mazatlán"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "23.2760263",
+      "106.4301543",
+      "106.4279656",
+      "669-52-10-10",
+      "+52669521010",
+      "23.2353019",
+      "106.4236364",
+      "23.2353924",
+      "106.4214519",
+      "669-83-28-35",
+      "+52669832835"
+    ],
+    "emails": [],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "https://befit.mx/_next/image?url=%2Flogo-be-fit.png&w=3840&q=75",
+      "alt": "Image 1: BeFit Mazatlan Fondo"
+    },
+    {
+      "src": "https://befit.mx/_next/image?url=%2Fhero-image.png&w=3840&q=75",
+      "alt": "Image 2: BeFit Mazatlan Fondo"
+    },
+    {
+      "src": "https://befit.mx/_next/image?url=%2Fcrosfit-befit-mazatlan.png&w=828&q=75",
+      "alt": "Image 3: BeFit Mazatlan CrossFit"
+    },
+    {
+      "src": "https://befit.mx/_next/image?url=%2Fbox-mazatlan.png&w=828&q=75",
+      "alt": "Image 4: BeFit Mazatlan CrossFit"
+    },
+    {
+      "src": "https://befit.mx/_next/image?url=%2Fentrenamiento-funcional-mazatlan.png&w=828&q=75",
+      "alt": "Image 5: BeFit Mazatlan Entrenamiento Funcional"
+    },
+    {
+      "src": "https://befit.mx/_next/image?url=%2Fzumba-mazatlan.png&w=828&q=75",
+      "alt": "Image 6: BeFit Mazatlan Zumba"
+    },
+    {
+      "src": "https://befit.mx/_next/image?url=%2Fspinning-mazatlan.png&w=828&q=75",
+      "alt": "Image 7: BeFit Mazatlan CrossFit"
+    },
+    {
+      "src": "https://befit.mx/_next/image?url=%2Fzumba-step-mazatlan.png&w=828&q=75",
+      "alt": "Image 8: BeFit Mazatlan Zumba Step"
+    },
+    {
+      "src": "https://befit.mx/_next/image?url=%2Fsucursal2.png&w=3840&q=75",
+      "alt": "Image 9: Sucursal BeFit Real del Valle"
+    },
+    {
+      "src": "https://befit.mx/_next/image?url=%2Fsucursal3.png&w=3840&q=75",
+      "alt": "Image 11: Sucursal BeFit Insurgentes"
+    }
+  ]
+}

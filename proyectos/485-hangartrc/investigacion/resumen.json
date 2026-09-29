@@ -1,0 +1,147 @@
+{
+  "sitio": "https://www.hangartrc.com/",
+  "fecha": "2026-09-26T08:14:05.751Z",
+  "motor": "jina-reader",
+  "slug": "hangartrc",
+  "nombre": "Hangar TRC",
+  "rubro": "FITNESS",
+  "ciudad": "Torreón, Coahuila",
+  "plantilla": "fitness-gym",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.hangartrc.com/",
+      "titulo": "Hangar TRC | Gimnasio en Torreón"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "8719423133",
+      "871 942 3133",
+      "8711234567"
+    ],
+    "emails": [
+      "info@hangartrc.com",
+      "nombre@correo.com"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.youtube.com/watch?v=JPIraRkQsT8",
+      "https://www.instagram.com/hangar.trc/",
+      "https://www.facebook.com/hangar.trc/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.hangartrc.com/assets/logo_hangar-DRA5bd2H.png",
+      "alt": "Image 1: Hangar TRC"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/sky-limit-DyXRBnSJ.webp",
+      "alt": "Image 2: Área de peso libre - Sky is the Limit"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/entrada-B0q-G8Gl.webp",
+      "alt": "Image 4: Entrada y área de máquinas"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/weights-BVkRZ0_F.webp",
+      "alt": "Image 6: Área de pesas y máquinas"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/cardio-6BagnbBF.webp",
+      "alt": "Image 7: Zona de cardio"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/logo-wall-BUh0VyHV.webp",
+      "alt": "Image 8: Mural Hangar y mancuernas"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/bancas-CJlcLwyU.webp",
+      "alt": "Image 9: Bancas y peso libre"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/peso-libre2-BsqeMPLO.webp",
+      "alt": "Image 10: Zona de peso libre y logo Hangar"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/maquinas-poleas-U9CXZ70B.webp",
+      "alt": "Image 11: Máquinas y poleas"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/maquinas-area-B1LHFpzj.webp",
+      "alt": "Image 12: Área de máquinas y mural"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/gym-panoramica-DJDleTmv.webp",
+      "alt": "Image 13: Vista panorámica del gimnasio"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/barras-poleas-DQbcbNyJ.webp",
+      "alt": "Image 14: Barras y poleas"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/racks-C1GA5u2G.webp",
+      "alt": "Image 15: Racks de sentadilla"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/racks2-DVunCTcy.webp",
+      "alt": "Image 16: Zona de racks y peso libre"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/mancuernas-pasto-BO3siyiO.webp",
+      "alt": "Image 17: Mancuernas y área funcional"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/area-funcional-BAYErs0T.webp",
+      "alt": "Image 18: Área funcional"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/maquinas-pierna-BtagXyZv.webp",
+      "alt": "Image 19: Máquinas de pierna"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/crossfit-BlxiYbdJ.webp",
+      "alt": "Image 20: Área de CrossFit"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/crossfit2-B9wqKTXa.webp",
+      "alt": "Image 21: CrossFit y kettlebells"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/crossfit3-Bh6HOrN7.webp",
+      "alt": "Image 22: Zona de trineos y CrossFit"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/area-hiit-bjMNzFJ4.webp",
+      "alt": "Image 23: Área HIIT y assault bikes"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/entrada-exterior-DdgBYi43.webp",
+      "alt": "Image 24: Vista exterior del gym"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/ring-q8i4qRLj.webp",
+      "alt": "Image 25: Ring de boxeo"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/ring2-UPpSTM4S.webp",
+      "alt": "Image 26: Área de boxeo y costales"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/costal-ZqXSuUAY.webp",
+      "alt": "Image 27: Costales de boxeo"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/speed-bags-7yzAYPd8.webp",
+      "alt": "Image 28: Peras de velocidad"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/treadmills-Dav_ccwH.webp",
+      "alt": "Image 29: Caminadoras"
+    },
+    {
+      "src": "https://www.hangartrc.com/assets/bikes-BBqJNl2L.webp",
+      "alt": "Image 30: Bicicletas estacionarias"
+    }
+  ]
+}

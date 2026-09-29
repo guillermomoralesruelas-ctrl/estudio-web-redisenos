@@ -1,0 +1,75 @@
+{
+  "sitio": "http://www.hotelmontealban.com/",
+  "fecha": "2026-09-26T08:34:01.876Z",
+  "motor": "jina-reader",
+  "slug": "hotelmontealban",
+  "nombre": "Hotel Monte Albán",
+  "rubro": "HOSPEDAJE",
+  "ciudad": "Oaxaca de Juárez, Oaxaca",
+  "plantilla": "hospedaje",
+  "paginasRevisadas": [
+    {
+      "url": "http://www.hotelmontealban.com/",
+      "titulo": "Hotel Monte Albán | Casona Colonial del Siglo XVIII en Oaxaca"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "951 311 6838",
+      "529513116838",
+      "951 516 2330",
+      "+529515162330",
+      "1786394267038",
+      "1786394374487",
+      "1786048547215",
+      "1786222561749",
+      "1786219907946",
+      "1786219919937",
+      "1786039817473",
+      "1786392958176"
+    ],
+    "emails": [
+      "reservashotelmontealban@hotmail.com"
+    ],
+    "whatsapp": [
+      "wa.me/529513116838)|[Tel.",
+      "wa.me/529513116838?text=Hola%2C%20deseo%20reservar%20boletos%20para%20el%20Espect%C3%A1culo%20de%20La%20Guelaguetza)",
+      "wa.me/529513116838)"
+    ],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "http://www.hotelmontealban.com/src/assets/images/hotel_logo_icon_1786394267038.jpg",
+      "alt": "Image 1: Hotel Monte Albán Logo"
+    },
+    {
+      "src": "http://www.hotelmontealban.com/src/assets/images/hotel_hero_facade_1786394374487.jpg",
+      "alt": "Image 2: Hotel Monte Albán Fachada"
+    },
+    {
+      "src": "http://www.hotelmontealban.com/src/assets/images/regenerated_image_1786048547215.jpg",
+      "alt": "Image 3: Pisos de Mosaico del Siglo XVIII"
+    },
+    {
+      "src": "http://www.hotelmontealban.com/src/assets/images/sencilla_photo_1_1786222561749.jpg",
+      "alt": "Image 4: HABITACIÓN SENCILLA (1-2 PERSONAS)"
+    },
+    {
+      "src": "http://www.hotelmontealban.com/src/assets/images/room_triple_1786219907946.jpg",
+      "alt": "Image 5: HABITACIÓN TRIPLE (3 PERSONAS)"
+    },
+    {
+      "src": "http://www.hotelmontealban.com/src/assets/images/room_cuadruple_1786219919937.jpg",
+      "alt": "Image 6: HABITACIÓN CUÁDRUPLE (4 PERSONAS)"
+    },
+    {
+      "src": "http://www.hotelmontealban.com/src/assets/images/guelaguetza_show_1786039817473.jpg",
+      "alt": "Image 7: Presentación de La Guelaguetza en Hotel Monte Albán"
+    },
+    {
+      "src": "http://www.hotelmontealban.com/src/assets/images/regenerated_image_1786392958176.png",
+      "alt": "Image 8: Restaurante Hotel Monte Albán en la Planta Baja"
+    }
+  ]
+}

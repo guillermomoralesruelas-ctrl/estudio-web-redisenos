@@ -1,0 +1,732 @@
+/*
+    Theme Name: Flamboyan2024-2024
+    Theme URI: flamboyan2024-2024
+    Description: Flamboyan2024-2024
+    Author:       Mirai Dev Team
+    Author URI:   http://mirai.com
+    Template:     mirai-ma
+    Version:      1.0.0
+    License:      GNU General Public License v2 or later
+    License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+    Text Domain:  mirai-maai
+*/
+
+
+/* ELEMENTOR FIXES */
+
+i.eci {
+    speak: none;
+    font-variant: normal;
+    font-size: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: block; /* same width than height icons */
+}
+
+i.eci:before {
+    display: block;
+}
+
+
+
+
+/* GENERAL SETTINGS (not in Elementor) */
+
+body, a, a:hover {
+    font-size: inherit;
+	font-family: inherit;
+    /*color: var(--e-global-color-primary);*/
+    font-family: 'Lato',sans-serif;*/
+	text-transform: inherit;
+}
+a, a::hover, a::hover, p, h1, h2, h3, h4, h5 {
+	text-transform: inherit!important;
+}
+
+/*a {color: #3a145b;}
+a:hover {color: #683594}*/
+p {
+	line-height: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+}
+
+/* ICONS */
+
+a.back-link:before, a.fwd-link:after,
+a.down-link:after {
+    content: '\e966';
+    font-family: 'mirai-icofonts';
+    font-size: .85em;
+    line-height: .85em;
+    font-weight: normal;
+    margin: 0 .5em;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+a.fwd-link:after {content: '\e967';}
+a.down-link:after {content: '\e965';}
+
+a.fwd-link:hover, .back a:hover,
+a.down-link:hover {
+    text-decoration: none;
+}
+
+a.fwd-link:hover:after {
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+.back a:hover:before {
+    margin-right: 1em;
+    margin-left: 0;
+}
+
+a.down-link:hover:after {
+    -webkit-transform: translateY(0.3em);
+    transform: translateY(0.3em);
+}
+
+
+
+
+/* REVIEWS MASHUP */
+
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating #scoreTop {
+    height:auto;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating #scoreTop #score {
+    line-height: normal;
+    float:none;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 0;
+    font-size: 3.4em;
+    vertical-align: middle;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating #scoreTop #ratingBar {
+    float: none;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating #mirai_recommend {
+    border: 0px;
+    background: transparent;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating #mirai_recommend h3 {
+    font-size:inherit;
+    color:inherit;
+    border: 0;
+    line-height: normal;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating #mirai_recommend .jqplot-series-canvas {
+    background: transparent;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating #mirai_reviewSouce {
+    padding: 15px 0;
+    line-height:normal;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating .mirai_btReview {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    text-decoration: none;
+    line-height: normal;
+    background-color: #666;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: inherit;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating #writeReviews {display:none;}
+.elementor-widget-wp-widget-mirai_opiniones > div > p {display: none;} /* link hotelsearch.com */
+#xdhsReviewsDialogContainer-dialogContainer .hssurveys {height: 100% !important;}
+
+/* REVIEWS PAGE HOTELSEARCH */
+
+.elementor-widget-wp-widget-mirai_opiniones {
+}
+
+.elementor-widget-wp-widget-mirai_opiniones p {
+}
+
+.elementor-widget-wp-widget-mirai_opiniones .paging {
+    padding: 20px 0;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones .paging span a {
+    border: none;
+    background: none;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones .paging span.current a,
+.elementor-widget-wp-widget-mirai_opiniones .paging span.current a:hover,
+.elementor-widget-wp-widget-mirai_opiniones .paging span.current a,
+.elementor-widget-wp-widget-mirai_opiniones .paging span.current a:hover {
+    font-size: inherit;
+    cursor: default;
+    border: none;
+    background: none;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones  div.hssurveys_full > div.hssurveys_full {
+    padding: 0;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones  div.hssurveys_full > div.hssurveys_full > div {
+    margin-bottom: 50px;
+    background: #f3f3f3;
+    padding: 30px;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full div.note,
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full .comments {
+    float: none;
+    width: 100%;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full .comments {
+    margin: 10px 0 0;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full div.note {
+    background-image: none;
+    font-size: 1.7em;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    text-align: left;
+    padding: 0 0 0 45px;
+    position: relative;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full div.note:before {
+    content: '\ea44';
+    font-size: 38px;
+    font-weight: normal;
+    display: inline-block;
+    position: absolute;
+    line-height: 1;
+    left: 0;
+    bottom: 0;
+    font-family: 'mirai-icofonts';
+    color: #888;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full .ratingBarUser {
+    margin-top: 5px;
+    margin-left: 0;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full .comments p.commentsPerson {
+    font-size: 1.3em!important;
+    font-weight: normal;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full .comments p.commentsPerson span.date {
+    font-size: .8em;
+    color: #8e8e8e;
+}
+
+div.hssurveys_full ul.questions li {
+    padding: 0 0 10px;
+}
+
+div.hssurveys_full ul.questions li:last-child {
+    padding: 0;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.questions.like li p.question {
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.questions.like li .answer {
+    width: auto;
+    overflow: hidden;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full p.more {
+    padding: 10px 0;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full p.more a {
+    background: none;
+    padding-right: 0;
+    white-space: nowrap;
+}
+
+div.hssurveys_full p.more a:after {
+    font-family: 'mirai-icofonts';
+    content: '\e961';
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+div.hssurveys_full p.more a.opened:after {
+    content: '\e964';
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.listSubject {
+    float: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.listSubject li span.subject,
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.questions li p.question {
+    display: block;
+    float: none;
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    padding: 0;
+    line-height: normal;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.listSubject li span.note {
+    float: none;
+    display: inline-block;
+    background: none;
+    font-size: 1em;
+    margin-right: 0;
+    color: #76a71d;
+    width: auto;
+    text-align: left;
+    border-radius: 2px;
+    height: auto;
+    line-height: normal;
+    padding: 2px 0;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones .ratingBarSubject {
+    float: none;
+    /*display: inline-block;*/
+    margin-left: 5px;
+    display: none;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.listSubject li .reviewcomment {
+    width: auto;
+    margin-left: 0;
+    float: none;
+    display: block;
+    clear: both;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.listSubject.long li {
+    padding: 0 0 30px;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.questions {
+    padding: 30px 0 0;
+    margin: 00;
+    border-top: 1px solid #ccc;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.questions.like {
+    padding: 0;
+    margin: 10px 0 0;
+    border-top: none;
+}
+
+.reviewsOn .questions li .yesText, .reviewsOn .questions li .noText {
+    background: none;
+    text-align: left;
+    padding-left: 0!important;
+    margin-left: 0!important;
+    color: inherit!important;
+    font-weight: normal!important;
+    padding: 0!important;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full ul.questions li .answer {
+    float: none;
+    line-height: normal;
+    margin-right: 0;
+    width: auto;
+}
+
+.elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full .ratingBarStar, .elementor-widget-wp-widget-mirai_opiniones div.hssurveys_full div.answer p {
+    float: none;
+    display: inline-block;
+}
+
+
+
+
+
+
+/* SITE SETTINGS (standar) */
+
+
+
+/* BUTTONS */
+/* utiliza la clase .primary-btn para aquellos botones que quieras que se comporten como el de reservar, y .secondary-btn para los de tipo ofertas */
+
+/* primary */
+
+.elementor-button.primary-btn {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: var(--e-global-color-accent);
+    color: #fff;
+    padding: 12px 25px;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    border-radius: 0px; /* fixing elementor */
+}
+
+.elementor-button.primary-btn:hover {
+    text-decoration: none;
+    background: var(--e-global-color-5b91871);
+    color: #fff;
+}
+
+/* secondary */
+
+#respond .form-submit #submit,
+.offers-mashup .more-info-link,
+.widget_search form input[type="submit"],
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating .mirai_btReview,
+.elementor-button.secondary-btn {
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    color: #252525;
+    border: 1px solid;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    background: transparent;
+    -webkit-border-radius: 0px; /* fixing elementor */
+    border-radius: 0px; /* fixing elementor */
+}
+
+#respond .form-submit #submit:hover,
+.offers-mashup .more-info-link:hover,
+.widget_search form input[type="submit"]:hover,
+.elementor-widget-wp-widget-mirai_opiniones > div #xdhsReviewSummaryContent-XdHs #hsRating .mirai_btReview:hover,
+.elementor-button.secondary-btn:hover {
+    text-decoration: none;
+    background: rgba(178, 178, 178, 0.1);
+    color: #575757;
+}
+
+/* disabled buttons */
+.elementor-button.primary-btn:disabled,
+.elementor-button.primary-btn:disabled:hover,
+.elementor-button.secondary-btn:disabled,
+.elementor-button.secondary-btn:disabled:hover {
+    background-color: #b9b9b9;
+    background-image: none;
+    color: #ddd;
+    border-color: #b9b9b9;
+    cursor: default;
+    filter: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+/* TITLES */
+
+.mi-title2, #cookies-wrapper-content h1, #cookies-wrapper-content h2, .rooms-listing-wrapper h2, .rooms-detail-wrapper h2, .offers-listing-wrapper h2, .offers-detail-wrapper h2, .blog-wrapper h2, .blog-wrapper h1, .blog-wrapper #posts_con_categoria, .mi-iata-content h2, .starter-offers .offers-mashup dl dt {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--e-global-color-13f4851a);
+}
+.mi-title3, .rooms-listing-wrapper h3, .rooms-detail-wrapper h3, .offers-listing-wrapper h3, .offers-detail-wrapper h3, .blog-wrapper h3, .mi-iata-content h3 {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.mi-title4, .rooms-detail-wrapper h4, .offers-detail-wrapper h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+/* margin p */
+.p-text p {
+    margin-bottom: 10px;
+	word-break: break-word;
+}
+
+.p-text li {
+	word-break: break-word;
+}
+
+
+/* DYNAMIC PAGES (OFFER & ROOMS) */
+
+/* ROOMS 1 - occupation box & box price */
+.rooms-listing-1 .room-box .room-detail ul,
+.rooms-detail-1.rooms-detail-wrapper .room-box-detail,
+.rooms-detail-1.rooms-detail-wrapper .room-box-price {
+    background: #e9e8e6; /* light color */
+}
+
+/* ROOMS 2 (and room detail 2-3-4) - box price */
+.rooms-listing-2 .room-box .room-detail .price-box .min-price,
+.rooms-detail-2.rooms-detail-wrapper .room-box-image .room-box-detail .box-price {
+    background: #444; /* dark color */
+}
+
+/* ROOMS 3 - box price */
+.rooms-listing-4 .room-item .min-price {
+    background: #f9c400; /* light color */
+}
+
+/* ROOMS 5 - room box && offers in room */
+.rooms-listing-5 .room-box,
+.rooms-detail-5 .room-box-offers {
+    background: #ebebeb;  /* light color */
+}
+
+/* OFFERS 1 - offer box && offer description */
+.offers-listing-1 .offer-link,
+.offer-detail-1.offers-detail-wrapper .offer-wrapper {
+    background-color: #F1F1F1; /* light color */
+}
+
+/* OFFERS 2 - title, date range & info box */
+.offers-listing-2 .offer .offer-intro,
+.offers-listing-2 .offer .offer-date-range,
+.offer-detail-2.offers-detail-wrapper .offer-info-wrapper {
+    background: #444; /* dark color */
+}
+
+/* OFFERS 2 - offer icon && social icons */
+.offers-listing-2 .offer .offer-deco,
+.offer-detail-2.offers-detail-wrapper .socialmedia-share ul li a {
+    background-color: #777; /* dark color */
+}
+
+
+
+.rooms-listing-2 .room-box .room-detail {
+	padding: 0px 2%;
+}
+
+@media (min-width:979px) {
+	.rooms-listing-2 .room-box .room-image,
+	.rooms-listing-2 .room-box .room-detail {
+		width: 50%;
+	}
+
+	.rooms-listing-2 .room-box .room-detail ul {
+		width: 50%;
+		left: auto;
+	}
+}
+
+@media (max-width:979px) {
+	.rooms-listing-2 .room-detail h3 {
+		padding-top: var(--mft-space-m);
+	}
+}
+
+/* OFFERS 3 - button and link */
+.offers-listing-3 .offers-listing .offer-special:hover .offer-title,
+.offers-listing-3 .offers-listing .offer-standard:hover .offer-title,
+.offers-listing-3 .offers-listing .offer-link:hover .offer-btn {
+    color: #B09555; /* light color */
+}
+
+/* OFFERS 4 - room in offer */
+.offers-listing-4 .offers-room-detail {
+    background: #ebebeb;  /* light color */
+}
+
+/* OFFERS 5 - offer box & offer description */
+.offers-listing-5 .offers-listing .offer .offer-link,
+.offer-detail-5.offers-detail-wrapper .offer-wrapper {
+    background: #868686; /* dark color */
+}
+
+/* OFFER DETAIL 5 - room in offer */
+.offer-detail-5.offers-detail-wrapper .offer-room-wrapper {
+    background: #F1F1F1;  /* light color */
+}
+
+
+/* Room detail & Offer detail modal-engine-btn*/
+.cat-room-detail a.modal-engine-btn,
+.cat-offer-detail a.modal-engine-btn{display: none!important;}
+
+
+/* CALENDAR COLORS (dynamic pages) */
+
+/* selected and hover dates */
+.dynamic-calendar .ui-datepicker-calendar ._selected-date a,
+.dynamic-calendar .ui-datepicker-calendar ._checkin-date a,
+.dynamic-calendar .ui-datepicker-calendar ._checkout-date._checkin-date a,
+.dynamic-calendar .ui-datepicker-calendar a:hover {
+    background: #f04e237a;
+    color: #56595b;
+}
+
+.dynamic-calendar .ui-datepicker-calendar ._checkout-date a {
+    background: var(--e-global-color-accent);
+    color: #FFF;
+}
+
+
+/* selected and hover dates with offer */
+/*
+.dynamic-calendar .ui-datepicker-calendar ._selected-date.calendar-legend-offer-day a,
+.dynamic-calendar .ui-datepicker-calendar ._checkin-date.calendar-legend-offer-day a,
+.dynamic-calendar .ui-datepicker-calendar ._checkin-date._checkout-date.calendar-legend-offer-day a,
+.dynamic-calendar .ui-datepicker-calendar .calendar-legend-offer-day a:hover {
+    color: #90c137;
+}
+
+.dynamic-calendar .ui-datepicker-calendar ._checkout-date.calendar-legend-offer-day a {
+    color: #cdf08c;
+}
+*/
+
+/* 404 page */
+
+.not-found-page{
+    display: table;
+    background: url(https://static-resources-elementor.mirai.com/common/bg-404.png) no-repeat center center transparent;
+    margin-bottom: 0;
+    width: 100%;
+    min-height: 570px;
+    text-align: center;
+}
+
+.not-found-page span {
+    font-size: 18px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* COOKIES POLICY */
+
+.page-template-tpl-cookies-policy .cookies-section {
+    padding: 60px 0;
+}
+
+/* BOOKINGSTEP */
+
+.page-template-bookingstep1 .elementor-sticky:not(.elementor-sticky__spacer) {
+    position: relative!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.page-template-bookingstep1 .elementor-sticky__spacer,
+.page-template-bookingstep1 a.modal-engine-btn {
+    display: none!important;
+}
+
+
+/* COMMON FORM */
+
+.mi-common-form {
+    text-align: center;
+}
+
+.mi-common-form br {
+    display:  none;
+}
+
+.mi-common-form .wpcf7-form-control-wrap:not([class*=" acceptance"]) {
+    margin-bottom: 1.3em;
+    display: block;
+}
+
+.mi-common-form .wpcf7-submit {
+    margin-top: 2em;
+}
+
+.mi-common-form input[type="text"],
+.mi-common-form input[type="email"],
+.mi-common-form textarea,
+.mi-common-form select {
+    width: 100%;
+    max-width: 100%;
+    padding: 6px;
+    display: block;
+    text-align: left;
+}
+
+.mi-common-form .wpcf7-form-control-wrap .wpcf7-acceptance .wpcf7-list-item {
+    margin: 0;
+}
+
+.mi-common-form div.wpcf7 .ajax-loader {
+    display: none !important;
+}
+
+.mi-common-form div.wpcf7-validation-errors {
+    font-size: .8em;
+}
+
+.mi-common-form span.wpcf7-not-valid-tip {
+    font-size: .8em;
+    margin-top: .5em;
+    text-align: left;
+}
+
+.mi-common-form div.wpcf7-response-output {
+    margin: 2em .5em 1em;
+    padding: 1em 1em;
+}
+
+.room-box-common-services h3 {
+    margin-bottom: 15px;
+}
+
+.form-send-button {
+    display: block;
+    margin: auto;
+}
+
+span.wpcf7-spinner {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/*Hiding recaptcha badge*/
+.grecaptcha-badge { visibility: hidden; }
+
+
+

@@ -1,0 +1,92 @@
+{
+  "sitio": "https://corefisioterapia.com/",
+  "fecha": "2026-09-26T06:39:53.069Z",
+  "motor": "jina-reader",
+  "slug": "corefisioterapia",
+  "nombre": "Core Fisioterapia",
+  "rubro": "SALUD",
+  "ciudad": "Guadalajara, Jalisco",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://corefisioterapia.com/",
+      "titulo": "Corefisioterpia - Centro de fisioterapia y salud en Guadalajara | corefisioterpia"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "1611073615452-4889",
+      "656 46 85 61\n\n94 921 41 11",
+      "1519823551278-64",
+      "1668422550554-7",
+      "2023-08-15",
+      "2022-10-06-02-02-28",
+      "9.00 - 22.00",
+      "10.00 - 14.00",
+      "94 921 41 11\n\n656 46 85 61"
+    ],
+    "emails": [
+      "corefisioterapiagu@gmail.com",
+      "info@corefisioterapia.com"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.facebook.com/CoreFisioterapia/",
+      "https://www.instagram.com/corefisioterapiagu/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=178,h=72,fit=crop/A1a1LxabGwUENnDA/corefisioterapialogo-mnlnyGnyxGcxja7J.JPG",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=143,fit=crop/A1a1LxabGwUENnDA/corefisioterapialogo-mnlnyGnyxGcxja7J.JPG",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1611073615452-4889cb93422e?auto=format&fit=crop&w=1920",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=541,h=552,fit=crop/A1a1LxabGwUENnDA/p1150157-YNqOB3gXqLIJW8By.JPG",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=452,fit=crop/A1a1LxabGwUENnDA/p1150157-YNqOB3gXqLIJW8By.JPG",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1920",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1668422550554-7ae966c6e9c6?auto=format&fit=crop&w=493&h=426",
+      "alt": "Image 7: a close-up of a person's hands"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1668422550554-7ae966c6e9c6?auto=format&fit=crop&w=328&h=278",
+      "alt": "Image 8: a close-up of a person's hands"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=312,fit=crop/A1a1LxabGwUENnDA/whatsapp-image-2023-08-15-at-11.12.31-pm-Awvj1W0yRqU2QOQl.jpeg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=312,fit=crop/A1a1LxabGwUENnDA/whatsapp-image-2023-08-15-at-11.12.31-pm-2-A852jK73lPh1DgP1.jpeg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=312,fit=crop/A1a1LxabGwUENnDA/whatsapp-image-2023-08-15-at-11.12.31-pm-1-m2WB5wOkVkT1JoL6.jpeg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=312,fit=crop/A1a1LxabGwUENnDA/whatsapp-image-2023-08-15-at-11.12.31-pm-3-dJoerkx0GOh95QEw.jpeg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/A1a1LxabGwUENnDA/pilates-can-be-challenging-shot-of-a-young-woman-2022-10-06-02-02-28-utc-scaled-Aq2eyE8Xa5f3y4jr.jpeg",
+      "alt": "Image 17"
+    }
+  ]
+}

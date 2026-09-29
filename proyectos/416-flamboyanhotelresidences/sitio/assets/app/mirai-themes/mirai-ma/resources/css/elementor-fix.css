@@ -1,0 +1,104 @@
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated>.elementor-widget-wrap{
+    padding: 0;
+}
+
+.dialog-message {
+    font-size: inherit;
+    line-height: normal;
+}
+
+.elementor-popup-modal .dialog-message {
+    overflow: visible;
+}
+
+.elementor-button {
+    line-height: normal;
+}
+
+.elementor-icon,
+.elementor-icon:hover {
+    color: inherit;
+}
+
+.elementor-icon:not(.elementor-animation-) {
+    /* display: block; */
+}
+
+.elementor-icon.elementor-social-icon {
+    display: inline-block;
+}
+
+.elementor-nav-menu a {
+    color: inherit;
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    line-height: normal;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.elementor-slick-slider .slick-next,
+.elementor-slick-slider .slick-prev {
+    width: auto;
+}
+
+table .td-content {
+    word-break: break-word;
+}
+
+.elementor-nav-menu a,
+.elementor-nav-menu a:focus,
+.elementor-nav-menu a:hover {
+    line-height: normal;
+}
+
+/* WPML Language selector */
+.wpml-ls-legacy-dropdown-click {
+    width: auto;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.wpml-ls-legacy-dropdown {
+    width: auto;
+}
+
+.wpml-ls-legacy-dropdown a {
+    background: transparent;
+    border: 0 none;
+}
+
+/* showing action chooser in editor */
+body #elementor-add-new-section {
+    margin-top: 240px;
+}
+
+/* reset swiper z-index */
+.swiper-wrapper,
+.swiper-pagination,
+.elementor-swiper-button {
+    z-index: auto
+}
+
+.elementor-element.elementor-absolute {
+    z-index: auto;
+    position: absolute;
+}
+
+/* deleting underline in popup close button */
+div.elementor-popup-modal  a.dialog-close-button {
+    text-decoration: none;
+}
+
+/* fixing fontawesome twitter icon */
+i.fab.fa-twitter {font-family: 'mirai-icofonts' !important;}
+i.fa-twitter:before {content: '\eb5e' !important;}
+
+.elementor-panel-footer-sub-menu #elementor-panel-footer-sub-menu-item-save-template{
+    display: none !important;
+    opacity: 0 !important;
+}
