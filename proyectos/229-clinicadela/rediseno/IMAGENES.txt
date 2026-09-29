@@ -1,0 +1,17 @@
+# Imágenes disponibles en publicDir (../sitio/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+bg-full.jpg	1600x1055	118 KB
+bg-full2.jpg	1200x872	111 KB
+network.jpg	1500x844	96 KB
+dermatologa-reyna.jpg	1200x671	65 KB
+clinica-del-acne.jpg	1200x489	51 KB
+dra-small.jpg	400x449	32 KB
+contact.jpg	1920x1280	31 KB
+dermatologia-cosmetica.jpg	1400x401	24 KB
+network2.jpg	1200x616	22 KB
+mesoterapia-facial.jpg	320x320	16 KB
+microdermoabrasion.jpg	320x320	16 KB
+anti-arrugas.jpg	320x320	15 KB
+logo3.png	265x48	13 KB
+peeling.jpg	100x100	3 KB
+g-pic.png	40x40	2 KB

@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Tokens del proyecto: sácalos de la marca (logo, CSS del clon) y de las fotos. */
+@theme {
+  --color-fondo: #ffffff;
+  --color-tinta: #1a1a1a;
+  --color-acento: #cc7323;
+  --font-sans: "Inter Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-acento); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+}

@@ -142,6 +142,7 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 | 643-lapurificadora | La Purificadora, Puebla, Puebla (hospedaje/gastronomía) | 1.2 | Terminado (PC, 2026-09-28) | `/proyectos/643-lapurificadora/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Hotel boutique diseñado por Ricardo Legorreta en fábrica purificadora s. XIX. "Elige tu habitación": 7 cards expandibles con características reales y CTA al motor Synxis. Sin precios (no publicados en el original). Sin mapa embed (el original tiene iframe vacío). Arquitectura, restaurante y terraza destacados. |
 
 | 410-fc4boxinggym | FC4 Boxing Gym, Ciudad de México, CDMX (fitness) | 1.1 | Terminado (PC, 2026-09-28) | `/proyectos/410-fc4boxinggym/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Gym boutique CDMX con dos sedes (Pánuco y Anzures). Coaches expandibles con credenciales reales. Selector de sedes con Maps reales. Barra móvil con WA por sede. Precios reales: $1,200/$1,400/$1,600 MXN. QA 0. Prioridad ALTA. |
+| 229-clinicadela | Clínica del Acné — Dra. Reyna Beatriz Aguirre, Mérida, Yucatán (salud/dermatología) | 1.1 | Terminado (PC, 2026-09-28) | `/proyectos/229-clinicadela/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Dermatóloga con 30+ años, ced. 4111225. Condiciones expandibles (6 padecimientos). Carrusel de 6 reseñas reales. Sección consulta en línea en 3 pasos. QA 0. Prioridad MEDIA. |
 
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 
