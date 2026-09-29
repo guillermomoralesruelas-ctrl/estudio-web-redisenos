@@ -20,7 +20,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 21 | 333-drhugosanchez | Terminado (1.2 en la nube; antes pendiente en 1cfdfc50) | 827fb5de | 0 problemas; 3,967 / 5,696 px | "¿Qué te trae a consulta?": motivos que muestran los servicios relacionados | MEDIA | Tratamientos ilustrados con IA; sin WhatsApp |
 | 22 | 365-elreybar | Pendiente (sin teléfono ni WhatsApp publicados; antes pendiente en d64ab7d9) | 9eeb6748 | — (fotos ya accesibles; falta un número real para el WhatsApp) | — | — | — |
 | 23 | 379-escondidooaxacagrupo | Descartado, `cadena` | a160ab90 | — (hotel de Grupo Habita, Design Hotels) | — | — | — |
-| 24 | 399-eventosjubileo | Pendiente (fotos en servidor bloqueado para la nube) | ecda51fd | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
+| 24 | 399-eventosjubileo | Terminado (1.2 en la nube; antes pendiente en ecda51fd) | (este commit) | 0 problemas; 3,983 / 5,479 px | "Arma tu evento": tipo e invitados dicen qué salón te toca | MEDIA | Salones repetidos y confusos; sin horario ni precios |
 | 26 | 449-gimnasiobefit | Terminado (1.2 en la nube) | 50d3a2e6 | 0 problemas; 3,652 / 5,743 px | "¿Qué quieres entrenar?": fichas de servicios que dicen qué sucursal conviene y cuánto se ahorra | ALTA | Teléfonos de 9 dígitos; sin WhatsApp; fotos de banco |
 | 27 | 483-hafersonsinnhotel | Pendiente (fotos en servidor bloqueado para la nube) | fbce092f | — (Rotamundos: fotos en rotamundos-assets.b-cdn.net) | — | — | — |
 | 29 | 533-hotelmaculis | Pendiente (fotos en servidor bloqueado para la nube) | 53391097 | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
@@ -28,4 +28,4 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 
 ## En curso
 
-399-eventosjubileo (método 1.2 en la nube).
+Ninguno.

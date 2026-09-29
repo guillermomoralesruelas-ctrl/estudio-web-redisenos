@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Bodoni Moda (títulos, de invitación de gala) y Mulish (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Bodoni Moda"; src: url("../node_modules/@fontsource/bodoni-moda/files/bodoni-moda-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Bodoni Moda"; src: url("../node_modules/@fontsource/bodoni-moda/files/bodoni-moda-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Mulish"; src: url("../node_modules/@fontsource/mulish/files/mulish-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Mulish"; src: url("../node_modules/@fontsource/mulish/files/mulish-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: noche, marfil, ciruela (las luces moradas de su pista), gris, rubor (fondo alterno) y dorado (los globos del 15).
+   Contrastes: noche/marfil 16.69, blanco/ciruela 8.85, ciruela/marfil 8.28, gris/marfil 6.39, dorado/noche 10.67,
+   ciruela/rubor 7.29. */
+@theme {
+  --color-noche: #1c1426;
+  --color-marfil: #faf7f2;
+  --color-ciruela: #7a2e5c;
+  --color-gris: #5f5866;
+  --color-rubor: #f1e6ee;
+  --color-dorado: #e9c46a;
+  --font-display: "Bodoni Moda", Georgia, serif;
+  --font-sans: "Mulish", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-marfil text-noche font-sans antialiased; font-size: 1.05rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-noche; font-weight: 500; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-noche text-marfil/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-marfil; }
+  :focus-visible { outline: 3px solid var(--color-ciruela); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-dorado); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-ciruela text-white hover:bg-noche; }
+  .oscuro .btn { @apply hover:bg-marfil hover:text-noche; }
+  .btn-linea { @apply border-2 border-noche/25 text-noche hover:border-noche; }
+  .oscuro .btn-linea { @apply border-marfil/40 text-marfil hover:border-marfil; }
+  input[type="range"] { accent-color: var(--color-ciruela); }
+}
