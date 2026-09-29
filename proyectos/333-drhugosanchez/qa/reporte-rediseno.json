@@ -1,0 +1,122 @@
+{
+  "fecha": "2026-09-29T16:27:48.392Z",
+  "carpeta": "333-drhugosanchez",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4331,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 13,
+      "rotas": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/dWxOlvZLVNSxQLMW/naranja-negocios-servicios-sitio-web-A1a50VnXJ1szPggX.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=508,fit=crop/dWxOlvZLVNSxQLMW/clinica-dental-8-A85V07W28RsaKL5b.jpg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=247,fit=crop/dWxOlvZLVNSxQLMW/salud-A85V0gXoKef4G8a1.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=247,fit=crop/dWxOlvZLVNSxQLMW/sonrisa-YrDJVkGxOqhZw8wo.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=247,fit=crop/dWxOlvZLVNSxQLMW/seguridad-Y4Lv0bXG7lhovEOk.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=514,fit=crop/dWxOlvZLVNSxQLMW/clinica-dental-6-AE0rK3l2MJFlRJKO.jpg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=512,fit=crop/dWxOlvZLVNSxQLMW/cliinica-dental-11-YrDJV2g3lQuV1RQz.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Odontología de excelencia en Oaxaca - Dr. Hugo Sánchez | Hugo Sanchéz",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "[astro-island] Error hydrating /_astro-1754072311193/ClientHead.CJ39Wf-E.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:33297/_astro-1754072311193/ClientHead.CJ39Wf-E.js",
+        "[astro-island] Error hydrating /_astro-1754072311193/Page.B3XVTZ7U.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:33297/_astro-1754072311193/client.Dx9cM9g2.js",
+        "[astro-island] Error hydrating /_astro-1754072311193/Integrations.CVK9c0W7.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:33297/_astro-1754072311193/client.Dx9cM9g2.js",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:33297/_astro-1754072311193/ClientHead.CJ39Wf-E.js",
+        "404 http://127.0.0.1:33297/_astro-1754072311193/client.Dx9cM9g2.js",
+        "404 http://127.0.0.1:33297/_astro-1754072311193/Page.B3XVTZ7U.js",
+        "404 http://127.0.0.1:33297/_astro-1754072311193/Integrations.CVK9c0W7.js"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6713,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 13,
+      "rotas": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,fit=crop/dWxOlvZLVNSxQLMW/naranja-negocios-servicios-sitio-web-A1a50VnXJ1szPggX.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=749,fit=crop/dWxOlvZLVNSxQLMW/clinica-dental-8-A85V07W28RsaKL5b.jpg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=750,fit=crop/dWxOlvZLVNSxQLMW/salud-A85V0gXoKef4G8a1.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=753,fit=crop/dWxOlvZLVNSxQLMW/sonrisa-YrDJVkGxOqhZw8wo.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=748,fit=crop/dWxOlvZLVNSxQLMW/seguridad-Y4Lv0bXG7lhovEOk.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=750,fit=crop/dWxOlvZLVNSxQLMW/clinica-dental-6-AE0rK3l2MJFlRJKO.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Odontología de excelencia en Oaxaca - Dr. Hugo Sánchez | Hugo Sanchéz",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "[astro-island] Error hydrating /_astro-1754072311193/ClientHead.CJ39Wf-E.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:33297/_astro-1754072311193/ClientHead.CJ39Wf-E.js",
+        "[astro-island] Error hydrating /_astro-1754072311193/Page.B3XVTZ7U.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:33297/_astro-1754072311193/client.Dx9cM9g2.js",
+        "[astro-island] Error hydrating /_astro-1754072311193/Integrations.CVK9c0W7.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:33297/_astro-1754072311193/client.Dx9cM9g2.js",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:33297/_astro-1754072311193/ClientHead.CJ39Wf-E.js",
+        "404 http://127.0.0.1:33297/_astro-1754072311193/client.Dx9cM9g2.js",
+        "404 http://127.0.0.1:33297/_astro-1754072311193/Page.B3XVTZ7U.js",
+        "404 http://127.0.0.1:33297/_astro-1754072311193/Integrations.CVK9c0W7.js"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3967,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 4,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Dr. Hugo Sánchez | Dentista en Oaxaca",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5696,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 4,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Dr. Hugo Sánchez | Dentista en Oaxaca",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

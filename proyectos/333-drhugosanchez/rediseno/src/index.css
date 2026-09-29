@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Literata (títulos, serif de lectura) y Nunito Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Literata"; src: url("../node_modules/@fontsource/literata/files/literata-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Literata"; src: url("../node_modules/@fontsource/literata/files/literata-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: tinta, crema, jade (verde oaxaqueño, en lugar del azul dental de siempre), gris, menta (fondo alterno)
+   y durazno (acento sobre oscuro). Contrastes: tinta/crema 15.29, blanco/jade 7.58, jade/crema 6.96, gris/crema 5.89,
+   durazno/tinta 10.28, jade/menta 6.17, gris/menta 5.22. */
+@theme {
+  --color-tinta: #16201f;
+  --color-crema: #f7f5f0;
+  --color-jade: #0f5e5a;
+  --color-gris: #56615f;
+  --color-menta: #dcebe7;
+  --color-durazno: #f2c38b;
+  --font-display: "Literata", Georgia, serif;
+  --font-sans: "Nunito Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-crema text-tinta font-sans antialiased; font-size: 1.05rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-tinta; font-weight: 500; line-height: 1.12; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-tinta text-crema/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-crema; }
+  :focus-visible { outline: 3px solid var(--color-jade); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-durazno); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-jade text-white hover:bg-tinta; }
+  .oscuro .btn { @apply hover:bg-crema hover:text-tinta; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta; }
+  .oscuro .btn-linea { @apply border-crema/40 text-crema hover:border-crema; }
+}
