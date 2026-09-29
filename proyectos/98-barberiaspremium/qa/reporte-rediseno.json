@@ -1,0 +1,118 @@
+{
+  "fecha": "2026-09-29T03:48:12.745Z",
+  "carpeta": "98-barberiaspremium",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 16965,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 23,
+      "rotas": [
+        "https://i.ytimg.com/vi/D0irAHZeORQ/hq2.jpg",
+        "https://i.ytimg.com/vi/kz-gE6GHEso/hq2.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Barberías en Ciudad del Carmen | Barberías Premium",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to fetch dynamically imported module: http://127.0.0.1:39245/assets/index-zef-Bd9V.js",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:39245/assets/layout-segment-context-BWlOhDZy.js",
+        "404 http://127.0.0.1:39245/assets/rolldown-runtime-S-ySWqyJ.js",
+        "404 http://127.0.0.1:39245/assets/index-zef-Bd9V.js",
+        "404 http://127.0.0.1:39245/assets/framework-CXnKph_e.js",
+        "404 http://127.0.0.1:39245/assets/MetaMeasurement-CtHe1PGi.js",
+        "404 http://127.0.0.1:39245/assets/marketing-behavior-client-BYcmgoOm.js",
+        "404 http://127.0.0.1:39245/assets/PremiumExperience-CtCRCwMA.js",
+        "404 http://127.0.0.1:39245/assets/link-o1EyrQwU.js",
+        "404 http://127.0.0.1:39245/cdn-cgi/challenge-platform/scripts/jsd/main.js"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 25386,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 23,
+      "rotas": [
+        "https://i.ytimg.com/vi/D0irAHZeORQ/hq2.jpg",
+        "https://i.ytimg.com/vi/kz-gE6GHEso/hq2.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Barberías en Ciudad del Carmen | Barberías Premium",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to fetch dynamically imported module: http://127.0.0.1:39245/assets/index-zef-Bd9V.js",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:39245/assets/layout-segment-context-BWlOhDZy.js",
+        "404 http://127.0.0.1:39245/assets/rolldown-runtime-S-ySWqyJ.js",
+        "404 http://127.0.0.1:39245/assets/index-zef-Bd9V.js",
+        "404 http://127.0.0.1:39245/assets/framework-CXnKph_e.js",
+        "404 http://127.0.0.1:39245/assets/MetaMeasurement-CtHe1PGi.js",
+        "404 http://127.0.0.1:39245/assets/marketing-behavior-client-BYcmgoOm.js",
+        "404 http://127.0.0.1:39245/assets/PremiumExperience-CtCRCwMA.js",
+        "404 http://127.0.0.1:39245/assets/link-o1EyrQwU.js",
+        "404 http://127.0.0.1:39245/cdn-cgi/challenge-platform/scripts/jsd/main.js"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5250,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 10,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Barberías Premium | Barberías en Ciudad del Carmen, Campeche",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 8420,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 10,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Barberías Premium | Barberías en Ciudad del Carmen, Campeche",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

@@ -1,0 +1,20 @@
+# Imágenes disponibles en publicDir (../sitio/assets/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+premium-id.png	1254x1254	1462 KB
+calidad.png	1254x1254	1412 KB
+sucursal-express.jpg	1200x1600	458 KB
+franchise-centro.webp	1000x1321	154 KB
+hero-barberia.jpg	1600x1200	112 KB
+facial-portrait.webp	850x1510	72 KB
+franchise-plaza.webp	1000x731	69 KB
+logo-premium.png	768x355	57 KB
+franchise-cinema.webp	1000x1250	56 KB
+app-iphone.webp	900x1350	53 KB
+chat-avatar-premium.png	216x214	52 KB
+app-home.webp	700x1517	43 KB
+look-textured-crop.webp	900x600	31 KB
+look-classic-side.webp	900x600	27 KB
+look-volume-quiff.webp	900x600	24 KB
+corte-remolinos.jpg	375x375	19 KB
+corte-lacio.jpg	375x375	18 KB
+corte-rebelde.jpg	375x375	18 KB

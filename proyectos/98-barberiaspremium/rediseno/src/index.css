@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Oswald (títulos, condensada como el "PREMIUM" de su logo y sus carteles) y Libre Franklin (texto), de @fontsource,
+   solo latino y locales. */
+@font-face { font-family: "Oswald"; src: url("../node_modules/@fontsource/oswald/files/oswald-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Oswald"; src: url("../node_modules/@fontsource/oswald/files/oswald-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Libre Franklin"; src: url("../node_modules/@fontsource/libre-franklin/files/libre-franklin-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Libre Franklin"; src: url("../node_modules/@fontsource/libre-franklin/files/libre-franklin-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: el negro y el crema de su sitio y el dorado de su logo.
+   Contrastes: oro sobre carbón 8.54, hueso sobre carbón 15.65, gris sobre carbón 7.88, carbón sobre oro 8.54,
+   oro pálido sobre carbón 11.49, bronce sobre hueso 5.46, piedra sobre hueso 7.37, carbón sobre hueso 15.65. */
+@theme {
+  --color-carbon: #111214;
+  --color-grafito: #1d1e21;
+  --color-oro: #d4a948;
+  --color-oropalido: #dcca8c;
+  --color-hueso: #efeae2;
+  --color-bronce: #76591a;
+  --color-gris: #aaa8a1;
+  --color-piedra: #4d4a44;
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-sans: "Libre Franklin", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-carbon text-hueso/90 font-sans antialiased; font-size: 1rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-hueso; font-weight: 600; line-height: 1.05; text-transform: uppercase; letter-spacing: 0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .claro { @apply bg-hueso text-piedra; }
+  .claro h2, .claro h3 { @apply text-carbon; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; border-radius: 4px; }
+  .claro :focus-visible { outline-color: var(--color-bronce); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-negro {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 font-display text-[1.02rem] font-medium uppercase tracking-wide transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-oro text-carbon hover:bg-oropalido; }
+  .btn-linea { @apply border-2 border-oro/60 text-oropalido hover:border-oro hover:bg-oro/10; }
+  .btn-negro { @apply bg-carbon text-hueso hover:bg-grafito; }
+  .enlace { @apply font-semibold text-oropalido underline decoration-1 underline-offset-4 hover:text-hueso; }
+  .claro .enlace { @apply text-bronce hover:text-carbon; }
+
+  /* Los sellos: círculos con doble filete dorado. */
+  .sello { @apply relative grid aspect-square place-items-center rounded-full border-2 border-oro/40 text-center; }
+  .sello.lleno { @apply border-oro bg-oro text-carbon; box-shadow: inset 0 0 0 4px var(--color-oro), inset 0 0 0 5px var(--color-carbon); }
+  .sello.gratis { @apply border-dashed border-oropalido text-oropalido; }
+  .sello .marca { transition: transform 0.35s ease, opacity 0.35s ease; }
+}
