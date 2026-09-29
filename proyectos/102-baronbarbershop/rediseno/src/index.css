@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* DM Serif Display (títulos, contraste alto como su escudo) y Manrope (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "DM Serif Display"; src: url("../node_modules/@fontsource/dm-serif-display/files/dm-serif-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "DM Serif Display"; src: url("../node_modules/@fontsource/dm-serif-display/files/dm-serif-display-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Manrope"; src: url("../node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Manrope"; src: url("../node_modules/@fontsource/manrope/files/manrope-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: negro y hueso (el piso de ajedrez de su barbería), cobre (acento), gris y piedra (sus muros de concreto).
+   Contrastes: negro/hueso 16.18, blanco/cobre 6.16, cobre/hueso 5.41, gris/hueso 6.03, durazno/negro 9.94,
+   hueso/negro 16.18, piedra/negro 7.34. */
+@theme {
+  --color-negro: #141414;
+  --color-hueso: #f3f0e8;
+  --color-cobre: #9c4a1c;
+  --color-gris: #5d5a55;
+  --color-durazno: #e8b48a;
+  --color-piedra: #a8a39a;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-hueso text-negro font-sans antialiased; font-size: 1.04rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-negro; font-weight: 400; line-height: 1.05; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-negro text-hueso/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-hueso; }
+  :focus-visible { outline: 3px solid var(--color-cobre); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-durazno); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-cobre text-white hover:bg-negro; }
+  .oscuro .btn { @apply hover:bg-hueso hover:text-negro; }
+  .btn-linea { @apply border-2 border-negro/25 text-negro hover:border-negro; }
+  .oscuro .btn-linea { @apply border-hueso/40 text-hueso hover:border-hueso; }
+  /* Piso de ajedrez de la barbería, como franja decorativa. */
+  .ajedrez { background-image: repeating-conic-gradient(var(--color-negro) 0 25%, var(--color-hueso) 0 50%); background-size: 28px 28px; }
+  .paso { transition: opacity .2s, background-color .2s, color .2s; }
+}

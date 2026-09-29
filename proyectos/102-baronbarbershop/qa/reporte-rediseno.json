@@ -1,0 +1,76 @@
+{
+  "fecha": "2026-09-29T16:03:43.068Z",
+  "carpeta": "102-baronbarbershop",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 0,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 0,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:44797/assets/index-Dcfc-WFH.js"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 0,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 0,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:44797/assets/index-Dcfc-WFH.js"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4734,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 12,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Barón Barbershop | Barbería en Ventura, Zapopan",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7120,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 12,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Barón Barbershop | Barbería en Ventura, Zapopan",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
