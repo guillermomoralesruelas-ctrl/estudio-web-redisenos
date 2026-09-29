@@ -1,0 +1,17 @@
+# Entregables de la sesión en la nube, lote 8
+
+Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sitio se sube en su propio commit a `main`. Los rediseños terminados llevan su `rediseno/dist/` compilado en el repo (subido con `git add -f`), así que en la PC basta con `git pull` y abrirlos en XAMPP.
+
+**Red de la nube (2026-09-29):** esta sesión no llega a ningún dominio de los clientes del lote ni a sus CDN de fotos (el proxy responde 403 por política). Por eso los sitios cuyo clon no trae fotos quedan como "Pendiente 1.2 (PC)", con el dominio que hay que abrir anotado en su fila. La lista completa de dominios está al final.
+
+| # | Carpeta | Resultado | Commit | QA (escritorio / celular) | Elemento memorable | Prioridad | Hallazgo principal |
+|---|---|---|---|---|---|---|---|
+| 1 | 27-alcazarinmobiliaria | Pendiente 1.2 (PC) | … | — (clon sin fotos; fotos en `assets.easybroker.com`, bloqueado) | — | — | — |
+
+## Dominios bloqueados para la nube en este lote
+
+Se llenará al terminar el lote.
+
+## En curso
+
+Ninguno.
