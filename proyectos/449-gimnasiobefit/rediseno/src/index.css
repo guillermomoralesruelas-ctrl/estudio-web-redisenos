@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Barlow Condensed (títulos, como la letra ancha de su logotipo) y Barlow (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Barlow Condensed"; src: url("../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Barlow Condensed"; src: url("../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: tinta, hueso, azul (el de su logotipo), gris y amarillo (las paredes de su zona de pesas).
+   Contrastes: tinta/hueso 16.25, blanco/azul 8.86, azul/hueso 8.12, gris/hueso 5.68, tinta/amarillo 12.28, hueso/tinta 16.25. */
+@theme {
+  --color-tinta: #111827;
+  --color-hueso: #f6f5f0;
+  --color-azul: #2340a8;
+  --color-gris: #5b6170;
+  --color-amarillo: #ffd23f;
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-sans: "Barlow", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-hueso text-tinta font-sans antialiased; font-size: 1.06rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display text-tinta; font-weight: 800; line-height: 1; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-tinta text-hueso/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-hueso; }
+  :focus-visible { outline: 3px solid var(--color-azul); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-amarillo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-azul text-white hover:bg-tinta; }
+  .btn-amarillo { @apply bg-amarillo text-tinta hover:bg-white; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta; }
+  .oscuro .btn-linea { @apply border-hueso/40 text-hueso hover:border-hueso; }
+  .enlace { @apply font-semibold text-azul underline decoration-1 underline-offset-4 hover:text-tinta; }
+  .ficha { transition: background-color .15s, color .15s, border-color .15s; }
+}
