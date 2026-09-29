@@ -21,7 +21,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 22 | 365-elreybar | Pendiente (fotos en servidor bloqueado para la nube) | d64ab7d9 | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
 | 23 | 379-escondidooaxacagrupo | Descartado, `cadena` | a160ab90 | — (hotel de Grupo Habita, Design Hotels) | — | — | — |
 | 24 | 399-eventosjubileo | Pendiente (fotos en servidor bloqueado para la nube) | ecda51fd | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
-| 26 | 449-gimnasiobefit | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 3,652 / 5,743 px | "¿Qué quieres entrenar?": fichas de servicios que dicen qué sucursal conviene y cuánto se ahorra | ALTA | Teléfonos de 9 dígitos; sin WhatsApp; fotos de banco |
+| 26 | 449-gimnasiobefit | Terminado (1.2 en la nube) | 50d3a2e6 | 0 problemas; 3,652 / 5,743 px | "¿Qué quieres entrenar?": fichas de servicios que dicen qué sucursal conviene y cuánto se ahorra | ALTA | Teléfonos de 9 dígitos; sin WhatsApp; fotos de banco |
+| 27 | 483-hafersonsinnhotel | Pendiente (fotos en servidor bloqueado para la nube) | (este commit) | — (Rotamundos: fotos en rotamundos-assets.b-cdn.net) | — | — | — |
 
 ## En curso
 
