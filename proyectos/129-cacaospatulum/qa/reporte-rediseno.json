@@ -1,0 +1,90 @@
+{
+  "fecha": "2026-09-29T17:47:02.764Z",
+  "carpeta": "129-cacaospatulum",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4499,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 26,
+      "rotas": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sinAlt": 1,
+      "titulo": "Home | Cacao Spa Tulum",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "A bad HTTP response code (404) was received when fetching the script.",
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:58688/rvt89kxmgp-b8ed8696/voW1VeO-6X7WiPFNV1jRdYh569A",
+        "403 https://vid.cdn-website.com/b8ed8696/videos/sYb8BwpiStqliqIYFzLw_home+web-v.mp4"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5953,
+      "desbordeX": 378,
+      "h1": 0,
+      "imagenes": 25,
+      "rotas": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sinAlt": 1,
+      "titulo": "Home | Cacao Spa Tulum",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "A bad HTTP response code (404) was received when fetching the script.",
+        "Failed to load resource: the server responded with a status of 403 ()"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:58688/rvt89kxmgp-b8ed8696/voW1VeO-6X7WiPFNV1jRdYh569A",
+        "403 https://vid.cdn-website.com/b8ed8696/videos/sYb8BwpiStqliqIYFzLw_home+web-v.mp4"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 2353,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Cacao Spa Tulum | Masajes y faciales en el centro de Tulum",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 2728,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Cacao Spa Tulum | Masajes y faciales en el centro de Tulum",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

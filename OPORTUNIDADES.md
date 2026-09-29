@@ -6,6 +6,7 @@
 
 | Prioridad | Carpeta | Negocio | Hallazgo principal | Contacto | Captura | Estado |
 |---|---|---|---|---|---|---|
+| **MEDIA** | 129-cacaospatulum | Cacao Spa Tulum (Tulum, Q.R.) | Sitio en inglés por defecto en una plaza con mucho turismo nacional; menú de reserva pasa por el sistema de Duda en vez de ir directo al WhatsApp | WhatsApp +52 998 241 8650, cacaospatulum@gmail.com, IG/FB @cacaospatulum | 2026-09-29 | Propuesta lista, sin contactar |
 | **ALTA** | 365-elreybar | El Rey Bar & Supper Club (Puerto Vallarta, Jal.) | Sin teléfono ni WhatsApp en el sitio (solo filler@godaddy.com de plantilla); menús solo como PDF; nadie puede llamar o reservar directamente desde la web | +52 322 115 2881 (hallado en Google Maps, por confirmar) | 2026-09-29 | Propuesta lista, sin contactar |
 | **ALTA** | 641-lapuertaroja | La Puerta Roja Hotel Boutique (Álamos, Son.) | Spam de casinos en /Nosotros, botón Reservar con fechas imposibles y texto de "demo" en el inicio | Tel. (647) 428 1552, IG y FB @lapuertarojahotel | 2026-09-26 | Propuesta lista, sin contactar |
 | **ALTA** | 540-hotelpomelo | Hotel Pomelo (Troncones, Gro.) | El botón "Escríbenos" lleva a un WhatsApp con el número incompleto, el newsletter no guarda correos y Google no tiene su descripción ni dirección | WhatsApp (+52) 55 2069 4573, hola@hotelpomelo.com, IG @hotelpomelo | 2026-09-26 | Propuesta lista, sin contactar |
