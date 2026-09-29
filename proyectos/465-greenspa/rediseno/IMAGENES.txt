@@ -1,0 +1,21 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content/uploads), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+2025/05/Equipo-GreenSpa.jpg	685x824	381 KB
+2024/08/Fondos-Home_03.png	1920x726	73 KB
+2024/08/1-c-terapeutas1.webp	668x891	68 KB
+2024/08/Garantia.png	276x250	62 KB
+2024/08/Hoja3.webp	1002x600	42 KB
+2024/08/1-c-terapeutas-SIN-LOGO-HAY-UNO-NUEVO.webp	1000x1000	34 KB
+2024/08/GreenSpa_Home_01.webp	1920x803	33 KB
+2024/08/Hoja6.webp	587x488	30 KB
+2024/08/Hoja1.webp	617x642	29 KB
+2024/08/Hoja7.webp	401x429	22 KB
+2024/08/Fondos-Home_04.webp	1920x1711	21 KB
+2024/08/Fondos-Home_02.webp	1920x723	21 KB
+2024/08/Hoja4.webp	556x427	18 KB
+2024/08/Hoja5.webp	571x231	15 KB
+2024/08/Hoja2.webp	373x244	10 KB
+2024/08/GreenSpa_Bco.svg	440x87	3 KB
+2025/05/cropped-logo_greenspa_web-192x192.png	192x192	3 KB
+2025/05/cropped-logo_greenspa_web-180x180.png	180x180	2 KB
+2025/05/cropped-logo_greenspa_web-32x32.png	32x32	1 KB
