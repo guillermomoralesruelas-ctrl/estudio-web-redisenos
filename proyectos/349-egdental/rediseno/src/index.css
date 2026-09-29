@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Their site mixes Poppins and Open Sans on white with teal accents. Here: DM Serif Display (headings) and Public Sans
+   (text), from @fontsource, Latin subset only, served locally. */
+@font-face { font-family: "DM Serif Display"; src: url("../node_modules/@fontsource/dm-serif-display/files/dm-serif-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Public Sans"; src: url("../node_modules/@fontsource/public-sans/files/public-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Public Sans"; src: url("../node_modules/@fontsource/public-sans/files/public-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Public Sans"; src: url("../node_modules/@fontsource/public-sans/files/public-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens (contrast): white on noche 13.76, agua on noche 8.15, sol on noche 8.48, white on teal 5.76, teal on hueso 5.38,
+   tinta on hueso 14.77, gris on hueso 6.32, gris on cielo 5.96, teal on cielo 5.07, noche on sol 8.48. */
+@theme {
+  --color-noche: #0f2f4a;
+  --color-teal: #0a7178;
+  --color-agua: #7fd6d0;
+  --color-cielo: #e3f4f3;
+  --color-hueso: #f9f7f2;
+  --color-tinta: #132433;
+  --color-gris: #4f5d69;
+  --color-sol: #f6c453;
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "Public Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4rem; }
+  body { @apply bg-hueso text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-serif text-noche; font-weight: 400; line-height: 1.05; text-wrap: balance; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-teal); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-sol); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+  .eyebrow { @apply text-sm font-bold uppercase tracking-[0.16em] text-teal; }
+  .oscuro .eyebrow { @apply text-agua; }
+}
