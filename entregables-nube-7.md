@@ -15,7 +15,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 14 | 249-cognitiomexico | Pendiente (fotos en servidor bloqueado para la nube) | bfad0b42 | — (Zyro: fotos en assets.zyrosite.com) | — | — | — |
 | 15 | 259-corefisioterapia | Pendiente (fotos en servidor bloqueado para la nube) | 28360ec5 | — (Zyro: fotos en assets.zyrosite.com) | — | — | — |
 | 18 | 306-dermatologiamx | Descartado, `pocas-fotos` | b6c568b2 | — (2 retratos; tratamientos en /images/generated/ y de banco) | — | — | — |
+| 19 | 324-dolcebellaspa | Terminado (1.1 en la nube) | (este commit) | 0 problemas; 5,055 / 8,392 px | "¿Vienes solo o en pareja?": paquetes con barra de duración por pasos y precio para una o dos personas | ALTA | WhatsApp con número incompleto; restos de plantilla en inglés |
 
 ## En curso
 
-324-dolcebellaspa.
+Ninguno.

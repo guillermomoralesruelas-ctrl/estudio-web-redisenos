@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Cormorant Garamond (títulos, eco de la letra del logotipo) y Figtree (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: noche, crema, ciruela (la flor de loto del logotipo), agua (su letra turquesa), gris malva, rosa y luz de vela.
+   Contrastes: noche/crema 15.01, blanco/ciruela 7.66, ciruela/crema 7.13, agua/crema 5.55, malva/crema 5.92,
+   ciruela/rosa 6.31, agua/rosa 4.92, malva/rosa 5.24, vela/noche 10.49, crema/noche 15.01, blanco/agua 5.96. */
+@theme {
+  --color-noche: #2a1d27;
+  --color-crema: #fbf6f2;
+  --color-ciruela: #7a3d73;
+  --color-agua: #1f6e70;
+  --color-malva: #6b5b64;
+  --color-rosa: #f3e6ea;
+  --color-vela: #f3c9a0;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-crema text-noche font-sans antialiased; font-size: 1.05rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-noche; font-weight: 500; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-noche text-crema/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-crema; }
+  :focus-visible { outline: 3px solid var(--color-agua); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-vela); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-ciruela text-white hover:bg-noche; }
+  .btn-linea { @apply border-2 border-noche/25 text-noche hover:border-noche; }
+  .oscuro .btn-linea { @apply border-crema/40 text-crema hover:border-crema; }
+  .enlace { @apply font-semibold text-agua underline decoration-1 underline-offset-4 hover:text-noche; }
+  .tramo { transition: flex-grow .35s ease; }
+}
