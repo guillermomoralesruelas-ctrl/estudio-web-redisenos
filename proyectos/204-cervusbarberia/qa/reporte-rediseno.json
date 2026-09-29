@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T16:16:50.515Z",
+  "fecha": "2026-09-29T16:58:51.024Z",
   "carpeta": "204-cervusbarberia",
   "antes": [
     {
@@ -22,9 +22,9 @@
       "errores": [
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
@@ -40,7 +40,7 @@
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:38177/204-cervusbarberia/sitio/&"
+        "404 http://127.0.0.1:40915/204-cervusbarberia/sitio/&"
       ],
       "captura": "qa/antes-escritorio.png"
     },
@@ -63,10 +63,10 @@
       "titulo": "CERVUS BARBERÍA | Barbería y Cortes de Cabello en Zapopan",
       "errores": [
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
@@ -82,7 +82,7 @@
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:38177/204-cervusbarberia/sitio/&"
+        "404 http://127.0.0.1:40915/204-cervusbarberia/sitio/&"
       ],
       "captura": "qa/antes-movil.png"
     }

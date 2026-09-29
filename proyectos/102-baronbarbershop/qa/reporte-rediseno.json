@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T16:03:43.068Z",
+  "fecha": "2026-09-29T16:57:08.245Z",
   "carpeta": "102-baronbarbershop",
   "antes": [
     {
@@ -17,7 +17,7 @@
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:44797/assets/index-Dcfc-WFH.js"
+        "404 http://127.0.0.1:36309/assets/index-Dcfc-WFH.js"
       ],
       "captura": "qa/antes-escritorio.png"
     },
@@ -36,7 +36,7 @@
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:44797/assets/index-Dcfc-WFH.js"
+        "404 http://127.0.0.1:36309/assets/index-Dcfc-WFH.js"
       ],
       "captura": "qa/antes-movil.png"
     }

@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T16:22:19.248Z",
+  "fecha": "2026-09-29T17:00:14.791Z",
   "carpeta": "217-cincodoscinco",
   "antes": [
     {
@@ -35,20 +35,18 @@
       "errores": [
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
@@ -69,7 +67,7 @@
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:39359/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+        "404 http://127.0.0.1:34989/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
       ],
       "captura": "qa/antes-escritorio.png"
     },
@@ -105,18 +103,18 @@
       "titulo": "52 CrossFit Hermosillo | Cinco Dos - Clase de prueba gratis",
       "errores": [
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
-        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
@@ -136,7 +134,7 @@
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:39359/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+        "404 http://127.0.0.1:34989/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
       ],
       "captura": "qa/antes-movil.png"
     }

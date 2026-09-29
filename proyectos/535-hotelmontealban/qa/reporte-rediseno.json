@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T15:55:42.558Z",
+  "fecha": "2026-09-29T16:55:51.679Z",
   "carpeta": "535-hotelmontealban",
   "antes": [
     {
@@ -18,8 +18,8 @@
         "Failed to load resource: the server responded with a status of 404 (Not Found)"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:38033/535-hotelmontealban/sitio/assets/index-BSiNBb4R.css",
-        "404 http://127.0.0.1:38033/535-hotelmontealban/sitio/assets/index-MlCTL36p.js"
+        "404 http://127.0.0.1:41493/535-hotelmontealban/sitio/assets/index-BSiNBb4R.css",
+        "404 http://127.0.0.1:41493/535-hotelmontealban/sitio/assets/index-MlCTL36p.js"
       ],
       "captura": "qa/antes-escritorio.png"
     },
@@ -38,8 +38,8 @@
         "Failed to load resource: the server responded with a status of 404 (Not Found)"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:38033/535-hotelmontealban/sitio/assets/index-BSiNBb4R.css",
-        "404 http://127.0.0.1:38033/535-hotelmontealban/sitio/assets/index-MlCTL36p.js"
+        "404 http://127.0.0.1:41493/535-hotelmontealban/sitio/assets/index-BSiNBb4R.css",
+        "404 http://127.0.0.1:41493/535-hotelmontealban/sitio/assets/index-MlCTL36p.js"
       ],
       "captura": "qa/antes-movil.png"
     }

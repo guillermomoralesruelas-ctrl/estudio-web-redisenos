@@ -26,6 +26,10 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 29 | 533-hotelmaculis | Terminado (1.2 en la nube; antes pendiente en 53391097) | 63324c29 | 0 problemas; 4,145 / 6,565 px | "Arma tu escapada": ocasión, habitación y mascota escriben el WhatsApp en una burbuja | BAJA | El hotel se anuncia en venta en su propio sitio; títulos repetidos |
 | 30 | 535-hotelmontealban | Terminado (1.2 en la nube) | 03b1f2c8 | 0 problemas; 4,517 / 6,683 px | "Recorre la casona antes de llegar": plano con zonas que muestran qué hay en cada una | MEDIA | 12 imágenes que no existen; +12 contra +18; dos direcciones |
 
+## Sitios ya compilados en el repo
+
+Los 13 rediseños terminados en este lote llevan su `rediseno/dist/` subido al repositorio (con las imágenes .webp dentro). En la PC basta con `git pull` y abrirlos en XAMPP (`http://localhost/project-1-25092026/proyectos/<carpeta>/rediseno/dist/index.html`), sin `npm install` ni `npm run build`. Si se edita el código, hay que volver a compilar y subir el `dist` con `git add -f`.
+
 ## En curso
 
 Ninguno.

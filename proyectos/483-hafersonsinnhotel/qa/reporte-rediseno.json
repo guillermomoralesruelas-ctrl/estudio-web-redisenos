@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T16:37:54.345Z",
+  "fecha": "2026-09-29T17:01:16.228Z",
   "carpeta": "483-hafersonsinnhotel",
   "antes": [
     {
@@ -15,15 +15,15 @@
       "errores": [
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to fetch dynamically imported module: http://127.0.0.1:42017/assets/index-CXDxBy2t.js",
+        "Failed to fetch dynamically imported module: http://127.0.0.1:42445/assets/index-CXDxBy2t.js",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:42017/assets/index-CXDxBy2t.js",
-        "404 http://127.0.0.1:42017/assets/index-Bkdrl_tP.js",
-        "404 http://127.0.0.1:42017/assets/public-sans-latin-wght-normal-DdeTHZLK.woff2"
+        "404 http://127.0.0.1:42445/assets/index-CXDxBy2t.js",
+        "404 http://127.0.0.1:42445/assets/index-Bkdrl_tP.js",
+        "404 http://127.0.0.1:42445/assets/public-sans-latin-wght-normal-DdeTHZLK.woff2"
       ],
       "captura": "qa/antes-escritorio.png"
     },
@@ -40,15 +40,15 @@
       "errores": [
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to fetch dynamically imported module: http://127.0.0.1:42017/assets/index-CXDxBy2t.js",
+        "Failed to fetch dynamically imported module: http://127.0.0.1:42445/assets/index-CXDxBy2t.js",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:42017/assets/index-CXDxBy2t.js",
-        "404 http://127.0.0.1:42017/assets/index-Bkdrl_tP.js",
-        "404 http://127.0.0.1:42017/assets/public-sans-latin-wght-normal-DdeTHZLK.woff2"
+        "404 http://127.0.0.1:42445/assets/index-CXDxBy2t.js",
+        "404 http://127.0.0.1:42445/assets/index-Bkdrl_tP.js",
+        "404 http://127.0.0.1:42445/assets/public-sans-latin-wght-normal-DdeTHZLK.woff2"
       ],
       "captura": "qa/antes-movil.png"
     }

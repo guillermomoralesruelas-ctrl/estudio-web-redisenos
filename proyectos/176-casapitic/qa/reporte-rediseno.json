@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T16:09:32.847Z",
+  "fecha": "2026-09-29T16:57:26.076Z",
   "carpeta": "176-casapitic",
   "antes": [
     {
@@ -24,19 +24,19 @@
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to fetch dynamically imported module: http://127.0.0.1:33443/assets/main-Dx83kC4d.js",
+        "Failed to fetch dynamically imported module: http://127.0.0.1:40811/assets/main-Dx83kC4d.js",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:33443/assets/main-Dx83kC4d.js",
-        "404 http://127.0.0.1:33443/assets/index-gWIOtZdZ.js",
-        "404 http://127.0.0.1:33443/assets/EventCard-HVFQZ304.js",
-        "404 http://127.0.0.1:33443/assets/SuiteComparison-DNGZjhEm.js",
-        "404 http://127.0.0.1:33443/assets/client-QBFTBa-c.js",
-        "404 http://127.0.0.1:33443/~flock.js",
-        "404 http://127.0.0.1:33443/assets/SiteLayout-Bvbu_5B-.js"
+        "404 http://127.0.0.1:40811/assets/main-Dx83kC4d.js",
+        "404 http://127.0.0.1:40811/assets/index-gWIOtZdZ.js",
+        "404 http://127.0.0.1:40811/assets/SuiteComparison-DNGZjhEm.js",
+        "404 http://127.0.0.1:40811/assets/SiteLayout-Bvbu_5B-.js",
+        "404 http://127.0.0.1:40811/assets/EventCard-HVFQZ304.js",
+        "404 http://127.0.0.1:40811/assets/client-QBFTBa-c.js",
+        "404 http://127.0.0.1:40811/~flock.js"
       ],
       "captura": "qa/antes-escritorio.png"
     },
@@ -62,19 +62,19 @@
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to fetch dynamically imported module: http://127.0.0.1:33443/assets/main-Dx83kC4d.js",
+        "Failed to fetch dynamically imported module: http://127.0.0.1:40811/assets/main-Dx83kC4d.js",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
         "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:33443/assets/main-Dx83kC4d.js",
-        "404 http://127.0.0.1:33443/assets/index-gWIOtZdZ.js",
-        "404 http://127.0.0.1:33443/assets/SuiteComparison-DNGZjhEm.js",
-        "404 http://127.0.0.1:33443/assets/SiteLayout-Bvbu_5B-.js",
-        "404 http://127.0.0.1:33443/assets/EventCard-HVFQZ304.js",
-        "404 http://127.0.0.1:33443/assets/client-QBFTBa-c.js",
-        "404 http://127.0.0.1:33443/~flock.js"
+        "404 http://127.0.0.1:40811/assets/main-Dx83kC4d.js",
+        "404 http://127.0.0.1:40811/assets/index-gWIOtZdZ.js",
+        "404 http://127.0.0.1:40811/assets/SuiteComparison-DNGZjhEm.js",
+        "404 http://127.0.0.1:40811/assets/SiteLayout-Bvbu_5B-.js",
+        "404 http://127.0.0.1:40811/~flock.js",
+        "404 http://127.0.0.1:40811/assets/EventCard-HVFQZ304.js",
+        "404 http://127.0.0.1:40811/assets/client-QBFTBa-c.js"
       ],
       "captura": "qa/antes-movil.png"
     }

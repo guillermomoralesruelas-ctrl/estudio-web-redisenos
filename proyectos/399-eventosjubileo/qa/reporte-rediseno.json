@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T16:34:16.656Z",
+  "fecha": "2026-09-29T17:01:00.600Z",
   "carpeta": "399-eventosjubileo",
   "antes": [
     {
@@ -20,11 +20,11 @@
         "Failed to load resource: the server responded with a status of 404 (Not Found)"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:33185/399-eventosjubileo/sitio/assetsassets/assetsassets/img1.wsimg.comassetsassets/isteamassetsassets/ipassetsassets/4f547fe5-e0a5-41e7-a25a-d966912e8d3fassetsassets/faviconassetsassets/c5e0af19-41c5-4722-a3b8-e5392459fb0cassetsassets/e6a18eec-b148-4177-afc9-8890604a90c0.pngassetsassets/:assetsassets/rs=w:32,h:32,m",
-        "404 http://127.0.0.1:33185/399-eventosjubileo/sitio/assetsassets/assetsassets/img1.wsimg.comassetsassets/isteamassetsassets/ipassetsassets/4f547fe5-e0a5-41e7-a25a-d966912e8d3fassetsassets/faviconassetsassets/c5e0af19-41c5-4722-a3b8-e5392459fb0cassetsassets/e6a18eec-b148-4177-afc9-8890604a90c0.pngassetsassets/:assetsassets/rs=w:16,h:16,m",
-        "404 http://127.0.0.1:33185/399-eventosjubileo/sitio/assetsassets/assetsassets/img1.wsimg.comassetsassets/isteamassetsassets/ipassetsassets/4f547fe5-e0a5-41e7-a25a-d966912e8d3fassetsassets/faviconassetsassets/c5e0af19-41c5-4722-a3b8-e5392459fb0cassetsassets/e6a18eec-b148-4177-afc9-8890604a90c0.pngassetsassets/:assetsassets/rs=w:48,h:48,m",
-        "404 http://127.0.0.1:33185/399-eventosjubileo/sitio/assetsassets/assetsassets/img1.wsimg.comassetsassets/isteamassetsassets/ipassetsassets/4f547fe5-e0a5-41e7-a25a-d966912e8d3fassetsassets/faviconassetsassets/c5e0af19-41c5-4722-a3b8-e5392459fb0cassetsassets/e6a18eec-b148-4177-afc9-8890604a90c0.pngassetsassets/:assetsassets/rs=w:64,h:64,m",
-        "404 http://127.0.0.1:33185/399-eventosjubileo/sitio/assetsassets/assetsassets/img1.wsimg.comassetsassets/isteamassetsassets/ipassetsassets/4f547fe5-e0a5-41e7-a25a-d966912e8d3fassetsassets/faviconassetsassets/c5e0af19-41c5-4722-a3b8-e5392459fb0cassetsassets/e6a18eec-b148-4177-afc9-8890604a90c0.pngassetsassets/:assetsassets/rs=w:24,h:24,m"
+        "404 http://127.0.0.1:40935/399-eventosjubileo/sitio/assetsassets/assetsassets/img1.wsimg.comassetsassets/isteamassetsassets/ipassetsassets/4f547fe5-e0a5-41e7-a25a-d966912e8d3fassetsassets/faviconassetsassets/c5e0af19-41c5-4722-a3b8-e5392459fb0cassetsassets/e6a18eec-b148-4177-afc9-8890604a90c0.pngassetsassets/:assetsassets/rs=w:32,h:32,m",
+        "404 http://127.0.0.1:40935/399-eventosjubileo/sitio/assetsassets/assetsassets/img1.wsimg.comassetsassets/isteamassetsassets/ipassetsassets/4f547fe5-e0a5-41e7-a25a-d966912e8d3fassetsassets/faviconassetsassets/c5e0af19-41c5-4722-a3b8-e5392459fb0cassetsassets/e6a18eec-b148-4177-afc9-8890604a90c0.pngassetsassets/:assetsassets/rs=w:16,h:16,m",
+        "404 http://127.0.0.1:40935/399-eventosjubileo/sitio/assetsassets/assetsassets/img1.wsimg.comassetsassets/isteamassetsassets/ipassetsassets/4f547fe5-e0a5-41e7-a25a-d966912e8d3fassetsassets/faviconassetsassets/c5e0af19-41c5-4722-a3b8-e5392459fb0cassetsassets/e6a18eec-b148-4177-afc9-8890604a90c0.pngassetsassets/:assetsassets/rs=w:48,h:48,m",
+        "404 http://127.0.0.1:40935/399-eventosjubileo/sitio/assetsassets/assetsassets/img1.wsimg.comassetsassets/isteamassetsassets/ipassetsassets/4f547fe5-e0a5-41e7-a25a-d966912e8d3fassetsassets/faviconassetsassets/c5e0af19-41c5-4722-a3b8-e5392459fb0cassetsassets/e6a18eec-b148-4177-afc9-8890604a90c0.pngassetsassets/:assetsassets/rs=w:64,h:64,m",
+        "404 http://127.0.0.1:40935/399-eventosjubileo/sitio/assetsassets/assetsassets/img1.wsimg.comassetsassets/isteamassetsassets/ipassetsassets/4f547fe5-e0a5-41e7-a25a-d966912e8d3fassetsassets/faviconassetsassets/c5e0af19-41c5-4722-a3b8-e5392459fb0cassetsassets/e6a18eec-b148-4177-afc9-8890604a90c0.pngassetsassets/:assetsassets/rs=w:24,h:24,m"
       ],
       "captura": "qa/antes-escritorio.png"
     },

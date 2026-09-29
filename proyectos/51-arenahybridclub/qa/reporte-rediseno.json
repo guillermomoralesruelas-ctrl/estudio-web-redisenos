@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T15:26:47.274Z",
+  "fecha": "2026-09-29T16:54:56.250Z",
   "carpeta": "51-arenahybridclub",
   "antes": [
     {
@@ -18,8 +18,8 @@
         "Failed to load resource: the server responded with a status of 404 (Not Found)"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:46209/51-arenahybridclub/sitio/assetsassets/favicon-32x32.png",
-        "404 http://127.0.0.1:46209/51-arenahybridclub/sitio/assetsassets/favicon-16x16.png"
+        "404 http://127.0.0.1:35735/51-arenahybridclub/sitio/assetsassets/favicon-32x32.png",
+        "404 http://127.0.0.1:35735/51-arenahybridclub/sitio/assetsassets/favicon-16x16.png"
       ],
       "captura": "qa/antes-escritorio.png"
     },
