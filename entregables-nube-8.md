@@ -15,7 +15,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 7 | 370-encisan | Pendiente 1.2 (PC) | d046479b | — (clon sin fotos; fotos en `irp.cdn-website.com`, bloqueado; varias parecen de iStock) | — | — | — |
 | 8 | 395-estudiodearte | Descartado, `sin-fotos` | abee95fc | — (plantilla de otro negocio, Nor.skin; fotos de banco) | — | — | — |
 | 9 | 413-finoasis | Pendiente 1.2 (PC) | bf36ffa4 | — (clon sin fotos; `finoasis.mx` bloqueado; probablemente solo el retrato de Ernesto es propio) | — | — | — |
-| 10 | 426-flowbarber | Pendiente 1.2 (PC) | … | — (clon sin fotos; `flowbarberpdc.com` bloqueado; teléfono de plantilla 984 123 4567) | — | — | — |
+| 10 | 426-flowbarber | Pendiente 1.2 (PC) | 51e1f0b9 | — (clon sin fotos; `flowbarberpdc.com` bloqueado; teléfono de plantilla 984 123 4567) | — | — | — |
+| 11 | 430-forter | Pendiente 1.2 (PC) | … | — (clon con 1 foto propia; el resto en `forter.mx`, bloqueado) | — | — | — |
 
 ## Dominios bloqueados para la nube en este lote
 
