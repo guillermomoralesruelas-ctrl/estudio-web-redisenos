@@ -18,7 +18,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 19 | 324-dolcebellaspa | Terminado (1.1 en la nube) | 51ecad2f | 0 problemas; 5,055 / 8,392 px | "¿Vienes solo o en pareja?": paquetes con barra de duración por pasos y precio para una o dos personas | ALTA | WhatsApp con número incompleto; restos de plantilla en inglés |
 | 20 | 327-donrogeliocafe | Descartado, `sin-fotos` | 41b723ed | — (9 fotos con C2PA/SynthID de IA; productos en Shopify) | — | — | — |
 | 21 | 333-drhugosanchez | Terminado (1.2 en la nube; antes pendiente en 1cfdfc50) | 827fb5de | 0 problemas; 3,967 / 5,696 px | "¿Qué te trae a consulta?": motivos que muestran los servicios relacionados | MEDIA | Tratamientos ilustrados con IA; sin WhatsApp |
-| 22 | 365-elreybar | Pendiente (sin teléfono ni WhatsApp publicados; antes pendiente en d64ab7d9) | (este commit) | — (fotos ya accesibles; falta un número real para el WhatsApp) | — | — | — |
+| 22 | 365-elreybar | Pendiente (sin teléfono ni WhatsApp publicados; antes pendiente en d64ab7d9) | 9eeb6748 | — (fotos ya accesibles; falta un número real para el WhatsApp) | — | — | — |
 | 23 | 379-escondidooaxacagrupo | Descartado, `cadena` | a160ab90 | — (hotel de Grupo Habita, Design Hotels) | — | — | — |
 | 24 | 399-eventosjubileo | Pendiente (fotos en servidor bloqueado para la nube) | ecda51fd | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
 | 26 | 449-gimnasiobefit | Terminado (1.2 en la nube) | 50d3a2e6 | 0 problemas; 3,652 / 5,743 px | "¿Qué quieres entrenar?": fichas de servicios que dicen qué sucursal conviene y cuánto se ahorra | ALTA | Teléfonos de 9 dígitos; sin WhatsApp; fotos de banco |
@@ -28,4 +28,4 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 
 ## En curso
 
-Ninguno.
+399-eventosjubileo (método 1.2 en la nube).
