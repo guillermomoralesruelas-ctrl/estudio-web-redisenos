@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Su logo es un diente con manos en azul y lila, y su sitio usa degradados menta. Aquí: Fraunces (títulos, serif suave
+   y cercana) y Figtree (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Fraunces"; src: url("../node_modules/@fontsource/fraunces/files/fraunces-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Fraunces"; src: url("../node_modules/@fontsource/fraunces/files/fraunces-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Fraunces"; src: url("../node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: marino y azul de su logo, menta de su sitio, lila claro y nube.
+   Contrastes: blanco sobre marino 12.98, menta sobre marino 7.61, tinta sobre nube 15.50, gris sobre nube 6.20,
+   azul sobre nube 6.02, blanco sobre azul 6.51, menta oscura sobre nube 4.83, blanco sobre menta oscura 5.23,
+   marino sobre menta 7.61, gris sobre lila 5.41. */
+@theme {
+  --color-marino: #1c2f5e;
+  --color-azul: #3a5ba6;
+  --color-menta: #6fd8c6;
+  --color-mentaosc: #0d7a6c;
+  --color-lila: #e7e5f6;
+  --color-nube: #f4f6fb;
+  --color-tinta: #141d33;
+  --color-gris: #525c72;
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-nube text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-serif text-marino; font-weight: 600; line-height: 1.08; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-azul); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-menta); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+  .antetitulo { @apply text-sm font-bold uppercase tracking-[0.16em] text-mentaosc; }
+  .oscuro .antetitulo { @apply text-menta; }
+}
+
+/* Los dientes del dibujo cambian con transición suave. */
+.diente { transition: transform 450ms cubic-bezier(.2,.8,.2,1), fill 450ms, opacity 450ms; transform-box: fill-box; transform-origin: 50% 0%; }
+.encia { transition: fill 450ms; }
