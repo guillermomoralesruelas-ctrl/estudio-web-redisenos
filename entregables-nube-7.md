@@ -4,8 +4,9 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 
 | # | Carpeta | Resultado | Commit | QA (escritorio / celular) | Elemento memorable | Prioridad | Hallazgo principal |
 |---|---|---|---|---|---|---|---|
-| 1 | 13-academiamusicalrubinstei | Pendiente 1.2 (PC) | (este commit) | — (el clon solo trae un banner; 6 fotos de galería sin bajar) | — | — | — |
+| 1 | 13-academiamusicalrubinstei | Pendiente 1.2 (PC) | 3f3852eb | — (el clon solo trae un banner; 6 fotos de galería sin bajar) | — | — | — |
+| 2 | 16-acurauniversidad | Descartado, `cadena` | (este commit) | — (agencia de marca; solo banners y renders de Acura) | — | — | — |
 
 ## En curso
 
-16-acurauniversidad.
+Ninguno.

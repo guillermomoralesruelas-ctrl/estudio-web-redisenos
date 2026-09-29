@@ -70,3 +70,4 @@ Salieron en `candidatos-1.1.mjs` el 2026-09-27 y se saltaron solo por la URL o e
 | `452-goldsgym` | Gold's Gym Saltillo | Saltillo, Coah. | `cadena` · `pocas-fotos` | Franquicia internacional; la URL es la página de sucursales de la marca y solo hay 6 fotos locales |
 | `448-georgieurisfotografia` | Georgi Euris Fotografía | Ciudad de México | `pocas-fotos` | Sitio propio (georgieuris.com) pero solo 16 fotos locales. No está descartado: es buen candidato si las fotos sirven |
 | `372-ensalsateqdancecenter` | EnsalSateq Dance Center | Corregidora, Qro. | `url-ajena` | La URL es salsavida.com, un directorio de salsa, no el sitio de la academia |
+| `16-acurauniversidad` | Acura Universidad | Ciudad de México | `cadena` | Agencia de la marca Acura del Grupo Super Autos. Todas sus imágenes son de la marca (banners de modelos, renders); ninguna de la agencia, su piso de venta o su taller. WhatsApp de ventas 55 1085 1019 y de servicio 55 4163 1026 | Nube |
