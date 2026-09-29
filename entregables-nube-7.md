@@ -9,7 +9,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 3 | 51-arenahybridclub | Terminado (1.2 en la nube; antes pendiente en 7091ab1f) | 180da70f | 0 problemas; 5,610 / 7,288 px | "Carril por carril": pista con un carril por plan y el costo del mes según las clases | MEDIA | Contador "0 de 100 membresías"; contenido solo con JavaScript |
 | 4 | 102-baronbarbershop | Terminado (1.2 en la nube; antes pendiente en c73ef969) | a58fc6df | 0 problemas; 4,734 / 7,120 px | "¿Qué incluye tu corte?": botones que encienden lo que incluye cada corte | MEDIA | Contenido solo con JavaScript; foto de Unsplash como "Interior" |
 | 5 | 107-bellezalatina | Descartado, `pocas-fotos` | 2f44004a | — (héroes hechos con IA, retratos de 256 px; 4 sucursales) | — | — | — |
-| 9 | 176-casapitic | Terminado (1.2 en la nube; antes pendiente en 13261445) | (este commit) | 0 problemas; 4,063 / 5,894 px | "¿Arriba o abajo?": corte de la casa con una planta por suite y precio por noches | BAJA | Cotizador sin disponibilidad; sin tarifas cortas; fotos con "Watermark Remover" |
+| 9 | 176-casapitic | Terminado (1.2 en la nube; antes pendiente en 13261445) | 1ee22380 | 0 problemas; 4,063 / 5,894 px | "¿Arriba o abajo?": corte de la casa con una planta por suite y precio por noches | BAJA | Cotizador sin disponibilidad; sin tarifas cortas; fotos con "Watermark Remover" |
 | 10 | 204-cervusbarberia | Pendiente (fotos en servidor bloqueado para la nube) | 2a113ad7 | — (Framer: fotos en framerusercontent.com) | — | — | — |
 | 11 | 217-cincodoscinco | Pendiente (fotos en servidor bloqueado para la nube) | a793c721 | — (LeadConnector: fotos en images.leadconnectorhq.com) | — | — | — |
 | 14 | 249-cognitiomexico | Pendiente (fotos en servidor bloqueado para la nube) | bfad0b42 | — (Zyro: fotos en assets.zyrosite.com) | — | — | — |
@@ -28,4 +28,4 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 
 ## En curso
 
-Ninguno.
+204-cervusbarberia (método 1.2 en la nube).
