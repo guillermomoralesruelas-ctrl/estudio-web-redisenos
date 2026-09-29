@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Newsreader (títulos) y Public Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Newsreader"; src: url("../node_modules/@fontsource/newsreader/files/newsreader-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Public Sans"; src: url("../node_modules/@fontsource/public-sans/files/public-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Public Sans"; src: url("../node_modules/@fontsource/public-sans/files/public-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: tinta, niebla, azul, lavanda, pizarra y cielo (el azul de su logo sobre fondos serenos).
+   Contrastes: blanco sobre azul 7.29, tinta sobre niebla 14.54, pizarra sobre niebla 6.25, azul sobre niebla 6.76,
+   niebla sobre tinta 14.54, cielo sobre tinta 9.39, tinta sobre lavanda 13.22, azul sobre lavanda 6.15. */
+@theme {
+  --color-tinta: #16204a;
+  --color-niebla: #f6f6fa;
+  --color-azul: #2743d8;
+  --color-lavanda: #e8ebfb;
+  --color-pizarra: #555b70;
+  --color-cielo: #b9c6ff;
+  --font-display: "Newsreader", Georgia, serif;
+  --font-sans: "Public Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-niebla text-tinta font-sans antialiased; font-size: 1.05rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-tinta; font-weight: 500; line-height: 1.1; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-tinta text-niebla/85; }
+  .oscuro h1, .oscuro h2 { @apply text-niebla; }
+  :focus-visible { outline: 3px solid var(--color-azul); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-cielo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-azul text-white hover:bg-tinta; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta; }
+  .btn-claro { @apply border-2 border-niebla/40 text-niebla hover:border-niebla; }
+  .enlace { @apply font-semibold text-azul underline decoration-1 underline-offset-4 hover:text-tinta; }
+  .chip { @apply min-h-[44px] rounded-full border-2 px-4 font-semibold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-azul bg-azul text-white; }
+  .chip[aria-pressed="false"] { @apply border-tinta/15 bg-white hover:border-tinta/40; }
+}
