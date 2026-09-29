@@ -32,7 +32,14 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-3.md`, trabajados uno por uno con el m�
 | 26 | 67-automotrizmaee | Descartado, `sin-fotos` | 66a89790 | — (seis fotos de iStock y un auto de banco) | — | ALTA (cuando se haga) | Sus WhatsApp van a `wa.me/5541001580` sin el 52 | Fotos del taller |
 | 27 | 468-grimaradventures | Pendiente 1.2 (PC) | 0ae560e0 | — (el clon bajó 4 de 22 fotos de tours, de origen dudoso) | — | — | — | En la PC: bajar las fotos de /tours/filtrado y de cada tour |
 | 28 | 594-joydfadez | Terminado | f5158f05 | 0 problemas; 4,723 / 6,547 px | "Tu tiempo en la silla": reloj de 120 minutos que se llena con los servicios elegidos y suma el precio | MEDIA | Sin dirección; reservas en Square (no opera en México); tienda vacía | Dirección, moneda, sistema de reservas, fotos del estudio |
-| 29 | 334-drjulioc | Terminado | (este commit) | 0 problemas; 5,420 / 8,590 px | "El primer mensaje, sin tener que explicarlo todo": mensaje de WhatsApp discreto en ES/EN/FR | ALTA | Aviso COFEPRIS sin número; derechos ARCO al correo de la agencia | Número COFEPRIS, correo propio, horario |
+| 29 | 334-drjulioc | Terminado | 40987084 | 0 problemas; 5,420 / 8,590 px | "El primer mensaje, sin tener que explicarlo todo": mensaje de WhatsApp discreto en ES/EN/FR | ALTA | Aviso COFEPRIS sin número; derechos ARCO al correo de la agencia | Número COFEPRIS, correo propio, horario |
+| 30 | 39-amatestudio | Terminado | (este commit) | 0 problemas; 4,671 / 7,442 px | "¿Desde dónde empiezas?": cinco puntos de partida con la línea de servicios y un proyecto real | BAJA | Dominio arqacasillas.com distinto a la marca; sin dirección | WhatsApp del 322 264 2367, dirección, más proyectos |
+
+## Resumen del lote
+
+- **Terminados (19):** 199-centroodontologicoespeci, 438-fatimabuenfilnutricion, 98-barberiaspremium, 232-clinicadentaljustsmiles, 404-exploravallarta, 423-floreriarivieracancun, 509-hospitalveterinariovetpe, 506-hospitalveterinariocarso, 417-floatsano, 363-elpatronbarberia, 280-cumbresdemita, 544-hotelrecreoclandestino, 143-cancuncatamaranes, 250-colegiobanting, 584-ismmexicosalsa, 183-canondelsumidero, 594-joydfadez, 334-drjulioc, 39-amatestudio.
+- **Pendientes 1.2 en la PC (5):** 646-lasjarasaguas, 387-escuelademusica, 613-kitesurfmexico, 600-junglerealtor, 468-grimaradventures.
+- **Descartados (6):** 445-gcbeautybarber (`sin-fotos`), 649-lebenarquitectos (`sin-fotos`), 578-institutosuperiormariano (`cadena`), 411-ferrex (`sin-fotos`), 145-cancunplasticsurgery (`pocas-fotos`), 67-automotrizmaee (`sin-fotos`).
 
 ## En curso
 

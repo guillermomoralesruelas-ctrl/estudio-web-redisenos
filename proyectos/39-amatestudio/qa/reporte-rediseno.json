@@ -1,0 +1,138 @@
+{
+  "fecha": "2026-09-29T05:41:34.328Z",
+  "carpeta": "39-amatestudio",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4357,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 10,
+      "rotas": [
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/logo.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/hero.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-arquitectura.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-interiorismo.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-construccion.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/rosamorada-h5.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/harbor-401.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/harbor-107.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/zul.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/logo.webp"
+      ],
+      "sinAlt": 0,
+      "titulo": "Arquitectura e Interiorismo Puerto Vallarta | Amate Studio",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/hero.webp",
+        "404 http://127.0.0.1:36477/assets/lenis.min.js",
+        "404 http://127.0.0.1:36477/assets/premium.js",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/logo.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-arquitectura.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-interiorismo.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-construccion.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/rosamorada-h5.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/harbor-401.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/harbor-107.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/zul.webp"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 4993,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 10,
+      "rotas": [
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/logo.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/hero-960.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-arquitectura.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-interiorismo.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-construccion.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/rosamorada-h5.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/harbor-401.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/harbor-107.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/zul.webp",
+        "http://127.0.0.1:36477/39-amatestudio/sitio/images/logo.webp"
+      ],
+      "sinAlt": 0,
+      "titulo": "Arquitectura e Interiorismo Puerto Vallarta | Amate Studio",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/hero-960.webp",
+        "404 http://127.0.0.1:36477/assets/premium.js",
+        "404 http://127.0.0.1:36477/assets/lenis.min.js",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/logo.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-arquitectura.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-interiorismo.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/servicio-construccion.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/rosamorada-h5.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/harbor-401.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/harbor-107.webp",
+        "404 http://127.0.0.1:36477/39-amatestudio/sitio/images/zul.webp"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4671,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "AMATE Studio | Arquitectura e interiorismo en Puerto Vallarta",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7442,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "AMATE Studio | Arquitectura e interiorismo en Puerto Vallarta",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

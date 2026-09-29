@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Marcellus (títulos) y Jost (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Marcellus"; src: url("../node_modules/@fontsource/marcellus/files/marcellus-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Jost"; src: url("../node_modules/@fontsource/jost/files/jost-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Jost"; src: url("../node_modules/@fontsource/jost/files/jost-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+
+/* Tokens: carbón, cal, amate, arena, piedra y lino (papel amate, muros de cal y madera).
+   Contrastes: carbón sobre cal 13.88, blanco sobre amate 7.39, amate sobre cal 6.56, piedra sobre cal 5.18,
+   cal sobre carbón 13.88, lino sobre carbón 8.86, carbón sobre arena 12.05. */
+@theme {
+  --color-carbon: #262320;
+  --color-cal: #f5f1ea;
+  --color-amate: #7a4a2c;
+  --color-arena: #e9e1d4;
+  --color-piedra: #6b645b;
+  --color-lino: #d9bfa0;
+  --font-display: "Marcellus", Georgia, serif;
+  --font-sans: "Jost", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-cal text-carbon font-sans antialiased; font-size: 1.06rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-carbon; font-weight: 400; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-carbon text-cal/85; }
+  .oscuro h1, .oscuro h2 { @apply text-cal; }
+  :focus-visible { outline: 3px solid var(--color-amate); outline-offset: 3px; }
+  .oscuro :focus-visible { outline-color: var(--color-lino); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 font-medium tracking-wide transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-amate text-white hover:bg-carbon; }
+  .btn-linea { @apply border border-carbon/40 text-carbon hover:border-carbon; }
+  .btn-claro { @apply border border-cal/50 text-cal hover:border-cal; }
+  .enlace { @apply font-medium text-amate underline decoration-1 underline-offset-4 hover:text-carbon; }
+}
