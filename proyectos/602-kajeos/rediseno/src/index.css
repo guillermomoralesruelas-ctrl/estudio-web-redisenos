@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Su logo es una "K" en dos azules con letras de palo seco. Aquí: Instrument Serif (títulos y precios, elegante para
+   propiedades de lujo) y Manrope (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Instrument Serif"; src: url("../node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Manrope"; src: url("../node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Manrope"; src: url("../node_modules/@fontsource/manrope/files/manrope-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Manrope"; src: url("../node_modules/@fontsource/manrope/files/manrope-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: marino y azul de su logo, celeste, marfil y el color manila de la carpeta.
+   Contrastes: blanco sobre marino 14.64, celeste sobre marino 7.43, blanco sobre azul 6.47, azul sobre marfil 5.84,
+   tinta sobre marfil 14.85, gris sobre marfil 5.83, café sobre manila 6.81, gris sobre manila 4.76. */
+@theme {
+  --color-marino: #102a43;
+  --color-azul: #1f5fa6;
+  --color-celeste: #7cc0f0;
+  --color-marfil: #f6f3ec;
+  --color-manila: #ecdcb5;
+  --color-cafe: #5c4318;
+  --color-tinta: #14202e;
+  --color-gris: #52606d;
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4rem; }
+  body { @apply bg-marfil text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-serif text-marino; font-weight: 400; line-height: 1; letter-spacing: -0.01em; text-wrap: balance; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-azul); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-celeste); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+  .antetitulo { @apply text-sm font-bold uppercase tracking-[0.16em] text-azul; }
+  .oscuro .antetitulo { @apply text-celeste; }
+}
