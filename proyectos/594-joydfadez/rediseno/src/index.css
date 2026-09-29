@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Big Shoulders Display (títulos) e IBM Plex Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Big Shoulders Display"; src: url("../node_modules/@fontsource/big-shoulders-display/files/big-shoulders-display-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "IBM Plex Sans"; src: url("../node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "IBM Plex Sans"; src: url("../node_modules/@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: concreto, hueso, latón, grafito, humo y bronce ("Industrial Elegance").
+   Contrastes: hueso sobre concreto 15.04, latón sobre concreto 8.30, concreto sobre latón 8.30, humo sobre hueso 4.92,
+   hueso sobre grafito 12.71, bronce sobre hueso 5.12, concreto sobre hueso 15.04. */
+@theme {
+  --color-concreto: #1b1a19;
+  --color-hueso: #f2eee8;
+  --color-laton: #d4ae62;
+  --color-grafito: #2a2826;
+  --color-humo: #6b6660;
+  --color-bronce: #8a5a12;
+  --font-display: "Big Shoulders Display", "Arial Narrow", sans-serif;
+  --font-sans: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-concreto text-hueso/85 font-sans antialiased; font-size: 1.04rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display uppercase text-hueso; font-weight: 800; line-height: 0.95; letter-spacing: 0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .claro { @apply bg-hueso text-concreto; }
+  .claro h2, .claro h3 { @apply text-concreto; }
+  :focus-visible { outline: 3px solid var(--color-laton); outline-offset: 3px; border-radius: 2px; }
+  .claro :focus-visible { outline-color: var(--color-bronce); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 font-semibold uppercase tracking-wider transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-laton text-concreto hover:bg-hueso; }
+  .btn-linea { @apply border-2 border-hueso/40 text-hueso hover:border-laton hover:text-laton; }
+  .enlace { @apply font-semibold text-laton underline decoration-1 underline-offset-4 hover:text-hueso; }
+}
