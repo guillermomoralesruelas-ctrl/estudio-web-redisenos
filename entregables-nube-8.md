@@ -10,7 +10,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 2 | 28-aldocastanedabodas | Pendiente 1.2 (PC) | 468feca4 | — (clon sin fotos; portafolio en `assets.zyrosite.com`, bloqueado) | — | — | — |
 | 3 | 37-alturamaximareal | Pendiente 1.2 (PC) | 76e12fb7 | — (clon sin fotos; fotos en `assets.easybroker.com`, bloqueado) | — | — | — |
 | 4 | 75-azulbacalar | Pendiente 1.2 (PC) | 647fc31a | — (clon sin fotos; `bacalar.com.mx` sí es del negocio; revisar en la PC si hay 3 fotos propias) | — | — | — |
-| 5 | 247-codamusicinstitute | Descartado, `sin-fotos` | … | — (29 fotos de Unsplash; teléfono y dirección de plantilla) | — | — | — |
+| 5 | 247-codamusicinstitute | Descartado, `sin-fotos` | bf4d95f3 | — (29 fotos de Unsplash; teléfono y dirección de plantilla) | — | — | — |
+| 6 | 345-dremmanuelsanchez | Descartado, `sin-fotos` | … | — (imágenes "ChatGPT Image…", solo el logotipo es propio) | — | — | — |
 
 ## Dominios bloqueados para la nube en este lote
 
