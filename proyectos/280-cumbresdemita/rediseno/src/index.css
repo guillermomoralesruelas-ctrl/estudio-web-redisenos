@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* DM Serif Display (títulos) y Manrope (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "DM Serif Display"; src: url("../node_modules/@fontsource/dm-serif-display/files/dm-serif-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Manrope"; src: url("../node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Manrope"; src: url("../node_modules/@fontsource/manrope/files/manrope-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: selva, arena, trigo, teja y musgo (de la selva y la tierra de Punta de Mita en sus imágenes).
+   Contrastes: selva sobre arena 10.41, arena sobre selva 10.41, trigo sobre selva 7.29, teja sobre arena 5.00,
+   blanco sobre teja 5.73, musgo sobre arena 5.71, selva sobre trigo 7.29. */
+@theme {
+  --color-selva: #1f3d2b;
+  --color-arena: #f4efe6;
+  --color-trigo: #d9c9a3;
+  --color-teja: #a14f2a;
+  --color-musgo: #566058;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-arena text-selva font-sans antialiased; font-size: 1.04rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-selva; font-weight: 400; line-height: 1.05; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-selva text-arena/85; }
+  .oscuro h1, .oscuro h2 { @apply text-arena; }
+  :focus-visible { outline: 3px solid var(--color-teja); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-trigo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-teja text-white hover:bg-selva; }
+  .btn-linea { @apply border-2 border-selva/30 text-selva hover:border-selva; }
+  .btn-claro { @apply border-2 border-arena/40 text-arena hover:border-arena; }
+  .enlace { @apply font-bold text-teja underline decoration-1 underline-offset-4 hover:text-selva; }
+}

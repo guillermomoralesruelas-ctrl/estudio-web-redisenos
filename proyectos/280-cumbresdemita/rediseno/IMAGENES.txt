@@ -1,0 +1,15 @@
+# Imágenes disponibles en publicDir (../sitio/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+amenidades-club.jpg	1920x1280	386 KB
+hero-bg.jpg	1920x1072	361 KB
+desarrollo-aerea.jpg	1600x1067	351 KB
+kumo-render.jpg	1600x1194	329 KB
+amenidades-gym.jpg	1600x1195	329 KB
+ecosistema-aerea.jpg	1920x1280	327 KB
+lote-vista.jpg	1600x1067	307 KB
+nahya-render.jpg	1920x1065	272 KB
+amenidades-alberca.jpg	1536x1024	219 KB
+apple-touch-icon.png	?	40 KB
+favicon-16x16.png	?	40 KB
+favicon-32x32.png	?	40 KB
+favicon.svg	100x100	0 KB
