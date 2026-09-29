@@ -13,7 +13,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 10 | 204-cervusbarberia | Terminado (1.2 en la nube; antes pendiente en 2a113ad7) | 335ed858 | 0 problemas; 4,225 / 6,686 px | "¿Cuánto tiempo tienes?": botones de minutos que activan los servicios que caben | MEDIA | Sin WhatsApp; tendencias con fotos de IA; solo tres fotos propias |
 | 11 | 217-cincodoscinco | Terminado (1.2 en la nube; antes pendiente en a793c721) | c726b5cd | 0 problemas; 4,804 / 5,866 px | "¿Desde dónde empiezas?": pizarrón del WOD que dice cuánto pagas hoy | MEDIA | Correo con enlace a "youremail@email.com"; textos de plantilla en inglés |
 | 14 | 249-cognitiomexico | Descartado, `pocas-fotos` (antes pendiente en bfad0b42) | a04f0f08 | — (3 retratos de 450 px; el resto de Unsplash) | — | — | — |
-| 15 | 259-corefisioterapia | Pendiente (fotos en servidor bloqueado para la nube) | 28360ec5 | — (Zyro: fotos en assets.zyrosite.com) | — | — | — |
+| 15 | 259-corefisioterapia | Descartado, `url-ajena` (antes pendiente en 28360ec5) | (este commit) | — (la web es de una clínica de Guadalajara, España) | — | — | — |
 | 18 | 306-dermatologiamx | Descartado, `pocas-fotos` | b6c568b2 | — (2 retratos; tratamientos en /images/generated/ y de banco) | — | — | — |
 | 19 | 324-dolcebellaspa | Terminado (1.1 en la nube) | 51ecad2f | 0 problemas; 5,055 / 8,392 px | "¿Vienes solo o en pareja?": paquetes con barra de duración por pasos y precio para una o dos personas | ALTA | WhatsApp con número incompleto; restos de plantilla en inglés |
 | 20 | 327-donrogeliocafe | Descartado, `sin-fotos` | 41b723ed | — (9 fotos con C2PA/SynthID de IA; productos en Shopify) | — | — | — |
@@ -28,4 +28,4 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 
 ## En curso
 
-259-corefisioterapia (método 1.2 en la nube).
+Ninguno.

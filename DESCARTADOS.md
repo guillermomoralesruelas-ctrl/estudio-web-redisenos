@@ -55,6 +55,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `327-donrogeliocafe` | Don Rogelio Café | Tlajomulco, Jal. | `sin-fotos` | Todas las fotos de su dominio (cosecha, beneficio, tostado, espresso, latte art, portada) son generadas con IA (C2PA y SynthID); las de producto están en cdn.shopify.com. Sin fotos del local. WhatsApp 33 2847 2377, info@donrogeliocafe.com | Nube |
 | `379-escondidooaxacagrupo` | Escondido Oaxaca | Oaxaca de Juárez, Oax. | `cadena` | Hotel de Grupo Habita (título "Escondido Oaxaca \| Grupo Habita", logotipo del grupo y enlace a Design Hotels); su web es parte del portal del grupo, con hoteles en varias ciudades | Nube |
 | `249-cognitiomexico` | Cognitio México (psicología cristiana) | Ciudad de México | `pocas-fotos` | Sitio de Hostinger (Zyro): solo tres retratos de 450 px de sus terapeutas; las demás imágenes (9) son de Unsplash y no hay fotos del consultorio. WhatsApp 55 1356 9011, cognitiomexico@gmail.com. Rubro delicado (salud mental) | Nube |
+| `259-corefisioterapia` | Core Fisioterapia | Guadalajara, España (la base dice Guadalajara, Jalisco) | `url-ajena` | corefisioterapia.com es una clínica de fisioterapia en Calle San Juan de Dios 6, CP 19001, Guadalajara, España (tels. 949 21 41 11 y 656 46 85 61). Si el bot es de un Core Fisioterapia en Jalisco, falta encontrar su sitio real. Además, de sus fotos solo cuatro son propias (tomadas por WhatsApp) | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
