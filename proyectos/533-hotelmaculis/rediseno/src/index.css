@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Cinzel (títulos, de letra lapidaria como las fachadas coloniales) y Lato (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Cinzel"; src: url("../node_modules/@fontsource/cinzel/files/cinzel-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("../node_modules/@fontsource/lato/files/lato-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: noche, marfil, morado (el de su logotipo), gris, lila (fondo alterno), oro (acento sobre oscuro) y los colores
+   de la burbuja de WhatsApp. Contrastes: noche/marfil 15.88, blanco/morado 10.49, morado/marfil 9.74, gris/marfil 6.21,
+   oro/noche 10.10, morado/lila 8.68, texto/burbuja 12.98. */
+@theme {
+  --color-noche: #23172a;
+  --color-marfil: #faf6ef;
+  --color-morado: #5b2a6e;
+  --color-gris: #5f5a66;
+  --color-lila: #efe7f1;
+  --color-oro: #e7c27a;
+  --color-burbuja: #dcf8c6;
+  --color-burbuja-texto: #1f2a1f;
+  --font-display: "Cinzel", Georgia, serif;
+  --font-sans: "Lato", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-marfil text-noche font-sans antialiased; font-size: 1.06rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-noche; font-weight: 500; line-height: 1.15; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-noche text-marfil/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-marfil; }
+  :focus-visible { outline: 3px solid var(--color-morado); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-oro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-morado text-white hover:bg-noche; }
+  .oscuro .btn { @apply hover:bg-marfil hover:text-noche; }
+  .btn-linea { @apply border-2 border-noche/25 text-noche hover:border-noche; }
+  .oscuro .btn-linea { @apply border-marfil/40 text-marfil hover:border-marfil; }
+  .chip { @apply min-h-[44px] rounded-full border-2 px-4 font-bold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-morado bg-morado text-white; }
+  .chip[aria-pressed="false"] { @apply border-noche/20 bg-white hover:border-noche; }
+  .burbuja { position: relative; border-radius: 10px 10px 10px 0; }
+  .burbuja::before { content: ""; position: absolute; left: -8px; bottom: 0; border: 8px solid transparent; border-right-color: var(--color-burbuja); border-bottom-color: var(--color-burbuja); }
+}
