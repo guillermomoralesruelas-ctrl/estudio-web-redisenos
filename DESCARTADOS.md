@@ -53,6 +53,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `107-bellezalatina` | Belleza Latina | Cancún, Q. Roo (4 sucursales) | `pocas-fotos` | Las imágenes grandes son de IA (marca de Gemini en los héroes, C2PA de OpenAI en la imagen para redes) y los retratos de las doctoras miden 256 px; no hay fotos de las clínicas. Medicina estética con 4 "Glow Houses", línea 800 400 5556, hola@bellezalatina.life. Rubro delicado (salud) | Nube |
 | `306-dermatologiamx` | Dermatología.mx | Monterrey, N. L. | `pocas-fotos` | Solo los retratos de sus dos dermatólogos; las imágenes de tratamientos están en `/images/generated/` (una con C2PA) y el resto son de banco. Sin fotos del consultorio. WhatsApp 81 1689 5477, tel. 81 8346 3307, hola@dermatologia.mx. Rubro delicado (salud) | Nube |
 | `327-donrogeliocafe` | Don Rogelio Café | Tlajomulco, Jal. | `sin-fotos` | Todas las fotos de su dominio (cosecha, beneficio, tostado, espresso, latte art, portada) son generadas con IA (C2PA y SynthID); las de producto están en cdn.shopify.com. Sin fotos del local. WhatsApp 33 2847 2377, info@donrogeliocafe.com | Nube |
+| `379-escondidooaxacagrupo` | Escondido Oaxaca | Oaxaca de Juárez, Oax. | `cadena` | Hotel de Grupo Habita (título "Escondido Oaxaca \| Grupo Habita", logotipo del grupo y enlace a Design Hotels); su web es parte del portal del grupo, con hoteles en varias ciudades | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
