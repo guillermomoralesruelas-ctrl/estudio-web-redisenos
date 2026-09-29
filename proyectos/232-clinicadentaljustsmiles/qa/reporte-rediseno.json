@@ -1,0 +1,90 @@
+{
+  "fecha": "2026-09-29T03:54:22.564Z",
+  "carpeta": "232-clinicadentaljustsmiles",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6565,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 26,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Dentist in Puerto Vallarta – Justsmiles Dental Clinic",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:44773/js/plugins.js",
+        "404 http://127.0.0.1:44773/js/designesia.js",
+        "404 http://127.0.0.1:44773/js/swiper.js",
+        "404 http://127.0.0.1:44773/js/custom-swiper-1.js",
+        "404 http://127.0.0.1:44773/js/custom-marquee.js"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 11324,
+      "desbordeX": 20,
+      "h1": 1,
+      "imagenes": 26,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Dentist in Puerto Vallarta – Justsmiles Dental Clinic",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:44773/js/plugins.js",
+        "404 http://127.0.0.1:44773/js/designesia.js",
+        "404 http://127.0.0.1:44773/js/swiper.js",
+        "404 http://127.0.0.1:44773/js/custom-swiper-1.js",
+        "404 http://127.0.0.1:44773/js/custom-marquee.js"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5503,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Justsmiles | Dental specialists in Puerto Vallarta since 1987",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9398,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Justsmiles | Dental specialists in Puerto Vallarta since 1987",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

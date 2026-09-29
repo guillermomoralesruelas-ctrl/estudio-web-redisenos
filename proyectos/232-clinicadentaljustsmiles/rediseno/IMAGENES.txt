@@ -1,0 +1,26 @@
+# Imágenes disponibles en publicDir (../sitio/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+slider/l5.webp	1380x877	332 KB
+misc/p3.webp	1000x1350	202 KB
+slider/l10.webp	1380x877	199 KB
+misc/s3.webp	1000x1000	188 KB
+misc/s2.webp	1000x1000	177 KB
+just-smiles-dental-treatment-puerto-vallarta.webp	700x944	95 KB
+team/8.webp	600x810	49 KB
+team/4.webp	600x810	42 KB
+team/1.webp	600x810	38 KB
+team/2.webp	600x810	31 KB
+icons/tooth-3.png	512x512	24 KB
+icons/tooth-5.png	512x512	22 KB
+icons/tooth-1.png	512x512	20 KB
+icons/tooth-4.png	512x512	15 KB
+just-smiles-dentist-puerto-vallarta.webp	500x675	15 KB
+logoJM.png	179x36	6 KB
+footer_logoJM.png	181x40	5 KB
+ui/arrow-down.png	19x10	3 KB
+ui/arrow-up.png	19x10	3 KB
+testimonial/female.png	100x100	2 KB
+favicon.png	51x51	2 KB
+ui/arrow-down-light.png	19x10	2 KB
+ui/arrow-up-light.png	19x10	2 KB
+testimonial/male.png	100x100	1 KB
