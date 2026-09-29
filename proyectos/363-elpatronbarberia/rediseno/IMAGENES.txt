@@ -1,0 +1,14 @@
+# Imágenes disponibles en publicDir (../sitio/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+melisa.png	864x1095	1634 KB
+yosef_cool.png	1024x1024	721 KB
+patron_experience_real.jpg	1024x1024	299 KB
+patron_service_cut_real.jpg	807x807	267 KB
+patron_hero_bg_real.jpg	1024x682	246 KB
+patron_hero_bg_mobile.jpg	576x1024	206 KB
+marcelo_cool.png	576x1024	167 KB
+patroncitos_real.jpg	1024x1024	164 KB
+patron_service_beard_real.jpg	806x806	139 KB
+facial_black_real.jpg	576x1024	132 KB
+uploaded_media_2_1769678876800.png	300x89	6 KB
+icon.svg	32x32	0 KB

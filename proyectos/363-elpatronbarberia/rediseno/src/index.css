@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Bebas Neue (títulos, condensada como su letrero) y Barlow (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Bebas Neue"; src: url("../node_modules/@fontsource/bebas-neue/files/bebas-neue-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Barlow"; src: url("../node_modules/@fontsource/barlow/files/barlow-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: el negro y el amarillo de su sitio, hueso, humo y carbón.
+   Contrastes: amarillo sobre negro 13.74, negro sobre amarillo 13.74, hueso sobre negro 17.14, humo sobre negro 7.84,
+   carbón sobre hueso 15.14. */
+@theme {
+  --color-negro: #0b0b0c;
+  --color-carbon: #1a1a1c;
+  --color-amarillo: #ffd400;
+  --color-hueso: #f3efe6;
+  --color-humo: #a8a39a;
+  --font-display: "Bebas Neue", "Arial Narrow", sans-serif;
+  --font-sans: "Barlow", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-negro text-hueso font-sans antialiased; font-size: 1.06rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display text-hueso; font-weight: 400; line-height: 0.95; letter-spacing: 0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .claro { @apply bg-hueso text-carbon; }
+  .claro h2, .claro h3 { @apply text-negro; }
+  :focus-visible { outline: 3px solid var(--color-amarillo); outline-offset: 3px; border-radius: 4px; }
+  .claro :focus-visible { outline-color: var(--color-negro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-negro {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 font-display text-[1.25rem] tracking-wide transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-amarillo text-negro hover:bg-white; }
+  .btn-linea { @apply border-2 border-hueso/40 text-hueso hover:border-amarillo hover:text-amarillo; }
+  .btn-negro { @apply bg-negro text-amarillo hover:bg-carbon; }
+  .enlace { @apply font-semibold text-amarillo underline decoration-1 underline-offset-4 hover:text-white; }
+  .claro .enlace { @apply text-negro hover:text-carbon; }
+}
