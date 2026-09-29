@@ -1,0 +1,102 @@
+{
+  "fecha": "2026-09-29T04:20:08.342Z",
+  "carpeta": "506-hospitalveterinariocarso",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 14240,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 16,
+      "rotas": [
+        "http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/static/images/kidney.png",
+        "http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/",
+        "http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/static/images/logo-nuevo-final.png"
+      ],
+      "sinAlt": 1,
+      "titulo": "Hospital Veterinario Carson - Veterinario 24 Horas en Iztapalapa, CDMX | Urgencias Veterinarias",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/assets/externo/cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css",
+        "404 http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/static/images/kidney.png",
+        "404 http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/static/images/logo-nuevo-final.png",
+        "404 http://127.0.0.1:42617/static/images/portada.jpg",
+        "404 http://127.0.0.1:42617/static/js/main.js"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 16447,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 16,
+      "rotas": [
+        "http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/static/images/kidney.png",
+        "http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/",
+        "http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/static/images/logo-nuevo-final.png"
+      ],
+      "sinAlt": 1,
+      "titulo": "Hospital Veterinario Carson - Veterinario 24 Horas en Iztapalapa, CDMX | Urgencias Veterinarias",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/assets/externo/cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css",
+        "404 http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/static/images/kidney.png",
+        "404 http://127.0.0.1:42617/506-hospitalveterinariocarso/sitio/static/images/logo-nuevo-final.png",
+        "404 http://127.0.0.1:42617/static/js/main.js",
+        "404 http://127.0.0.1:42617/static/images/portada.jpg"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5060,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hospital Veterinario Carson | Veterinaria 24 horas en Iztapalapa",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 8434,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hospital Veterinario Carson | Veterinaria 24 horas en Iztapalapa",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Nunito (títulos) y Nunito Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Nunito"; src: url("../node_modules/@fontsource/nunito/files/nunito-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: el turquesa y el lima de su logo, abismo, agua, grafito y rojo de urgencias.
+   Contrastes: turquesa sobre agua 5.42, blanco sobre turquesa 5.77, abismo sobre agua 11.46, lima sobre abismo 7.50,
+   abismo sobre lima 7.50, blanco sobre abismo 12.21, alerta sobre blanco 6.47, grafito sobre agua 6.67. */
+@theme {
+  --color-turquesa: #19707a;
+  --color-lima: #c9d400;
+  --color-abismo: #0f3b40;
+  --color-agua: #effaf9;
+  --color-grafito: #4b5b5d;
+  --color-alerta: #b91c1c;
+  --font-display: "Nunito", "Segoe UI", sans-serif;
+  --font-sans: "Nunito Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-white text-abismo font-sans antialiased; font-size: 1.05rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display text-abismo; font-weight: 800; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-abismo text-white/85; }
+  .oscuro h1, .oscuro h2 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-turquesa); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-lima); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-alerta, .btn-linea, .btn-lima {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-turquesa text-white hover:bg-abismo; }
+  .btn-alerta { @apply bg-alerta text-white hover:bg-[#8f1515]; }
+  .btn-linea { @apply border-2 border-turquesa/35 text-turquesa hover:border-turquesa; }
+  .btn-lima { @apply bg-lima text-abismo hover:bg-[#dbe63a]; }
+  .enlace { @apply font-bold text-turquesa underline decoration-1 underline-offset-4 hover:text-abismo; }
+}
+
+.punto { cursor: pointer; }
+.punto .aro { transition: r 0.25s ease; }
+.punto:hover .aro, .punto.on .aro { r: 17; }
+.latido { animation: latido 1.8s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+@keyframes latido { 0%, 100% { transform: scale(1); opacity: 0.55; } 50% { transform: scale(1.6); opacity: 0; } }
