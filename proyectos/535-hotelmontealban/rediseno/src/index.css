@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Spectral (títulos, serif de libro antiguo) y Work Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Spectral"; src: url("../node_modules/@fontsource/spectral/files/spectral-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Spectral"; src: url("../node_modules/@fontsource/spectral/files/spectral-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Work Sans"; src: url("../node_modules/@fontsource/work-sans/files/work-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Work Sans"; src: url("../node_modules/@fontsource/work-sans/files/work-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: tinta, cal, terracota (el rojo de su logotipo y sus vigas), cantera (la piedra verde de Oaxaca), tierra,
+   arena y ocre (el amarillo de los muros de sus habitaciones).
+   Contrastes: tinta/cal 15.71, blanco/terracota 6.74, terracota/cal 6.20, cantera/cal 6.72, tierra/cal 5.79,
+   ocre/tinta 8.58, cal/cantera 6.72, tinta/arena 13.54, cantera/arena 5.79, terracota/arena 5.34. */
+@theme {
+  --color-tinta: #231a14;
+  --color-cal: #faf5ea;
+  --color-terracota: #9a3f28;
+  --color-cantera: #3f5e3a;
+  --color-tierra: #6a5e52;
+  --color-arena: #efe4cc;
+  --color-ocre: #e2b04a;
+  --font-display: "Spectral", Georgia, serif;
+  --font-sans: "Work Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-cal text-tinta font-sans antialiased; font-size: 1.04rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-tinta; font-weight: 500; line-height: 1.1; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-tinta text-cal/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-cal; }
+  :focus-visible { outline: 3px solid var(--color-terracota); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-ocre); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-terracota text-white hover:bg-tinta; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta; }
+  .oscuro .btn-linea { @apply border-cal/40 text-cal hover:border-cal; }
+  .enlace { @apply font-semibold text-terracota underline decoration-1 underline-offset-4 hover:text-tinta; }
+  /* Zonas del plano: arco superior como las arquerías del patio. */
+  .zona { @apply flex flex-col items-center justify-center border-2 p-2 text-center font-semibold transition-colors; border-radius: 999px 999px 6px 6px; }
+  .zona[aria-pressed="true"] { @apply border-terracota bg-terracota text-white; }
+  .zona[aria-pressed="false"] { @apply border-cantera/40 bg-cal text-cantera hover:border-cantera; }
+}

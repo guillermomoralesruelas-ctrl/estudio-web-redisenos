@@ -24,7 +24,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 26 | 449-gimnasiobefit | Terminado (1.2 en la nube) | 50d3a2e6 | 0 problemas; 3,652 / 5,743 px | "¿Qué quieres entrenar?": fichas de servicios que dicen qué sucursal conviene y cuánto se ahorra | ALTA | Teléfonos de 9 dígitos; sin WhatsApp; fotos de banco |
 | 27 | 483-hafersonsinnhotel | Pendiente (fotos en servidor bloqueado para la nube) | fbce092f | — (Rotamundos: fotos en rotamundos-assets.b-cdn.net) | — | — | — |
 | 29 | 533-hotelmaculis | Pendiente (fotos en servidor bloqueado para la nube) | 53391097 | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
+| 30 | 535-hotelmontealban | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,517 / 6,683 px | "Recorre la casona antes de llegar": plano con zonas que muestran qué hay en cada una | MEDIA | 12 imágenes que no existen; +12 contra +18; dos direcciones |
 
 ## En curso
 
-535-hotelmontealban.
+Ninguno.

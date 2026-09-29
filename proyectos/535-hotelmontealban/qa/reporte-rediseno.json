@@ -1,0 +1,79 @@
+{
+  "fecha": "2026-09-29T15:55:42.558Z",
+  "carpeta": "535-hotelmontealban",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 0,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 0,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel Monte Albán | Casona Colonial del Siglo XVIII en Oaxaca",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:38033/535-hotelmontealban/sitio/assets/index-BSiNBb4R.css",
+        "404 http://127.0.0.1:38033/535-hotelmontealban/sitio/assets/index-MlCTL36p.js"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 0,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 0,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel Monte Albán | Casona Colonial del Siglo XVIII en Oaxaca",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:38033/535-hotelmontealban/sitio/assets/index-BSiNBb4R.css",
+        "404 http://127.0.0.1:38033/535-hotelmontealban/sitio/assets/index-MlCTL36p.js"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4517,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel Monte Albán | Casona colonial frente a la Catedral de Oaxaca",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6683,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel Monte Albán | Casona colonial frente a la Catedral de Oaxaca",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
