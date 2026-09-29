@@ -54,6 +54,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `306-dermatologiamx` | Dermatología.mx | Monterrey, N. L. | `pocas-fotos` | Solo los retratos de sus dos dermatólogos; las imágenes de tratamientos están en `/images/generated/` (una con C2PA) y el resto son de banco. Sin fotos del consultorio. WhatsApp 81 1689 5477, tel. 81 8346 3307, hola@dermatologia.mx. Rubro delicado (salud) | Nube |
 | `327-donrogeliocafe` | Don Rogelio Café | Tlajomulco, Jal. | `sin-fotos` | Todas las fotos de su dominio (cosecha, beneficio, tostado, espresso, latte art, portada) son generadas con IA (C2PA y SynthID); las de producto están en cdn.shopify.com. Sin fotos del local. WhatsApp 33 2847 2377, info@donrogeliocafe.com | Nube |
 | `379-escondidooaxacagrupo` | Escondido Oaxaca | Oaxaca de Juárez, Oax. | `cadena` | Hotel de Grupo Habita (título "Escondido Oaxaca \| Grupo Habita", logotipo del grupo y enlace a Design Hotels); su web es parte del portal del grupo, con hoteles en varias ciudades | Nube |
+| `249-cognitiomexico` | Cognitio México (psicología cristiana) | Ciudad de México | `pocas-fotos` | Sitio de Hostinger (Zyro): solo tres retratos de 450 px de sus terapeutas; las demás imágenes (9) son de Unsplash y no hay fotos del consultorio. WhatsApp 55 1356 9011, cognitiomexico@gmail.com. Rubro delicado (salud mental) | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
