@@ -1,0 +1,88 @@
+{
+  "fecha": "2026-09-29T16:37:54.345Z",
+  "carpeta": "483-hafersonsinnhotel",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 800,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 0,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "HAFERSONS INN",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to fetch dynamically imported module: http://127.0.0.1:42017/assets/index-CXDxBy2t.js",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:42017/assets/index-CXDxBy2t.js",
+        "404 http://127.0.0.1:42017/assets/index-Bkdrl_tP.js",
+        "404 http://127.0.0.1:42017/assets/public-sans-latin-wght-normal-DdeTHZLK.woff2"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 844,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 0,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "HAFERSONS INN",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to fetch dynamically imported module: http://127.0.0.1:42017/assets/index-CXDxBy2t.js",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:42017/assets/index-CXDxBy2t.js",
+        "404 http://127.0.0.1:42017/assets/index-Bkdrl_tP.js",
+        "404 http://127.0.0.1:42017/assets/public-sans-latin-wght-normal-DdeTHZLK.woff2"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3687,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 10,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hafersons Inn | Hotel en Ciudad Madero, Tamaulipas",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5397,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 10,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hafersons Inn | Hotel en Ciudad Madero, Tamaulipas",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

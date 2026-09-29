@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Lora (títulos) y Source Sans 3 (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Lora"; src: url("../node_modules/@fontsource/lora/files/lora-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url("../node_modules/@fontsource/source-sans-3/files/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url("../node_modules/@fontsource/source-sans-3/files/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: tinta, hueso, oliva (el verde de su trébol), gris, salvia (fondo alterno) y girasol (el amarillo de su fachada).
+   Contrastes: tinta/hueso 14.74, blanco/oliva 6.27, oliva/hueso 5.80, gris/hueso 5.90, girasol/tinta 9.90, oliva/salvia 5.44. */
+@theme {
+  --color-tinta: #1d2418;
+  --color-hueso: #f8f6ef;
+  --color-oliva: #3f6b2a;
+  --color-gris: #5b6157;
+  --color-salvia: #eef0e2;
+  --color-girasol: #f3c73b;
+  --font-display: "Lora", Georgia, serif;
+  --font-sans: "Source Sans 3", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-hueso text-tinta font-sans antialiased; font-size: 1.08rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display text-tinta; font-weight: 600; line-height: 1.12; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-tinta text-hueso/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-hueso; }
+  :focus-visible { outline: 3px solid var(--color-oliva); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-girasol); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-oliva text-white hover:bg-tinta; }
+  .oscuro .btn { @apply hover:bg-hueso hover:text-tinta; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta; }
+  .oscuro .btn-linea { @apply border-hueso/40 text-hueso hover:border-hueso; }
+  .franja { transition: left .3s ease, width .3s ease; }
+}
