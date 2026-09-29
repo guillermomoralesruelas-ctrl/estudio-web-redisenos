@@ -1,0 +1,22 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content/uploads), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+2024/04/canadas.png	1266x1224	2388 KB
+2024/04/avila-camacho-1024x989.png	1024x989	1413 KB
+2024/04/acueducto-1024x993.png	1024x993	1384 KB
+2024/04/naciones-unidas-1024x1000.png	1024x1000	1345 KB
+2024/04/canadas-1024x990.png	1024x990	1310 KB
+2024/04/real-center-1024x993.png	1024x993	1302 KB
+2024/04/acueducto.png	1262x1224	598 KB
+2024/04/avila-camacho.png	1267x1224	589 KB
+2024/04/real-center.png	1262x1224	562 KB
+2024/04/naciones-unidas.png	1262x1233	542 KB
+2024/04/cover-contacto-vetpets2.png	1366x784	297 KB
+2024/04/cover-1-vetpets.png	1366x784	293 KB
+2024/04/cover-2-vetpets.png	1366x784	264 KB
+2024/04/bg-papel.png	1366x784	224 KB
+2024/04/logotipo-vetpets-1.png	764x283	33 KB
+2022/03/Vetpets-logo.png	1001x244	15 KB
+2024/04/icono-cirugia-laparoscopica.png	100x100	2 KB
+2024/04/icono-traumatologia.png	100x100	2 KB
+2024/04/icono-endoscopia.png	100x100	2 KB
+2024/04/icono-cirugia-general.png	100x100	1 KB

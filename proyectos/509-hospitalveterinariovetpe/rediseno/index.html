@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VetPets | Hospital veterinario con urgencias 24/7 en Zapopan</title>
+    <meta name="description" content="Urgencias 24/7 en Av. Naciones Unidas 5260 y consultorios en Acueducto, Bosque Real y Ávila Camacho. Cirugía, endoscopia, medicina interna y preventiva en Zapopan." />
+    <meta name="theme-color" content="#015fb1" />
+    <link rel="icon" type="image/svg+xml" href="./icono.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:title" content="VetPets | Urgencias veterinarias 24/7 en Zapopan" />
+    <meta property="og:description" content="Medicina veterinaria con calidad humana. Cuatro sucursales en Zapopan y hospital 24/7 en Naciones Unidas." />
+    <meta property="og:image" content="./portada-perro.webp" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "VetPets Hospitales Veterinarios",
+        "url": "https://hospitalesvetpets.com.mx/",
+        "logo": "./logo.png",
+        "sameAs": ["https://www.facebook.com/hospitalvetpets", "https://www.instagram.com/vetpetsgdl/"],
+        "subOrganization": [
+          { "@type": "VeterinaryCare", "name": "VetPets Naciones Unidas", "telephone": "+52 33 3682 2817", "image": "./naciones-unidas.webp",
+            "address": { "@type": "PostalAddress", "streetAddress": "Av. Naciones Unidas 5260-4, Jardines Universidad", "postalCode": "45110", "addressLocality": "Zapopan", "addressRegion": "Jalisco", "addressCountry": "MX" },
+            "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "00:00", "closes": "23:59" } },
+          { "@type": "VeterinaryCare", "name": "VetPets Acueducto", "telephone": "+52 33 3611 2596", "image": "./acueducto.webp",
+            "address": { "@type": "PostalAddress", "streetAddress": "Av. Acueducto 6050 (dentro de PETCO)", "postalCode": "45140", "addressLocality": "Zapopan", "addressRegion": "Jalisco", "addressCountry": "MX" },
+            "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "09:00", "closes": "21:00" } },
+          { "@type": "VeterinaryCare", "name": "VetPets Bosque Real", "telephone": "+52 33 3658 7307",
+            "address": { "@type": "PostalAddress", "streetAddress": "Av. Sta. Margarita 3600, Residencial Poniente (dentro de PETCO)", "postalCode": "45136", "addressLocality": "Zapopan", "addressRegion": "Jalisco", "addressCountry": "MX" } },
+          { "@type": "VeterinaryCare", "name": "VetPets Ávila Camacho", "telephone": "+52 33 1578 6909", "image": "./avila-camacho.webp",
+            "address": { "@type": "PostalAddress", "streetAddress": "Av. Manuel Ávila Camacho 344, Col. El Capullo (dentro de PETCO)", "addressLocality": "Zapopan", "addressRegion": "Jalisco", "addressCountry": "MX" } }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

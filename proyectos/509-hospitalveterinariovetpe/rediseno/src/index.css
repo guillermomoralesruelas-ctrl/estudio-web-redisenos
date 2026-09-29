@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Saira (títulos, la de su sitio) y Source Sans 3 (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Saira"; src: url("../node_modules/@fontsource/saira/files/saira-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Saira"; src: url("../node_modules/@fontsource/saira/files/saira-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url("../node_modules/@fontsource/source-sans-3/files/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Source Sans 3"; src: url("../node_modules/@fontsource/source-sans-3/files/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: el azul de su sitio (#015fb1), el rojo de su logo, noche, cielo y pizarra.
+   Contrastes: azul sobre blanco 6.42, azul sobre cielo 5.80, blanco sobre azul 6.42, rojo sobre blanco 5.88,
+   blanco sobre rojo 5.88, noche sobre cielo 13.90, blanco sobre noche 15.39, celeste sobre noche 8.10, pizarra sobre cielo 6.82. */
+@theme {
+  --color-azul: #015fb1;
+  --color-rojo: #c8102e;
+  --color-noche: #0b2545;
+  --color-cielo: #eef4fb;
+  --color-celeste: #8fc1f0;
+  --color-pizarra: #4a5566;
+  --font-display: "Saira", "Segoe UI", sans-serif;
+  --font-sans: "Source Sans 3", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-white text-noche font-sans antialiased; font-size: 1.06rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display text-azul; font-weight: 700; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-noche text-white/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-azul); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-celeste); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-rojo, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-azul text-white hover:bg-noche; }
+  .btn-rojo { @apply bg-rojo text-white hover:bg-[#a00d25]; }
+  .btn-linea { @apply border-2 border-azul/30 text-azul hover:border-azul; }
+  .btn-claro { @apply border-2 border-white/35 text-white hover:border-white; }
+  .enlace { @apply font-semibold text-azul underline decoration-1 underline-offset-4 hover:text-noche; }
+  .oscuro .enlace { @apply text-celeste hover:text-white; }
+  .pulso { animation: pulso 2s ease-in-out infinite; }
+  @keyframes pulso { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+}
