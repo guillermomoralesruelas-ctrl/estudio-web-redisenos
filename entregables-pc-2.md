@@ -30,8 +30,8 @@ Registro de verificación de los 19 sitios del lote 6 de la nube, más los 5 pen
 
 | Carpeta | Estado | Commit | Notas |
 |---|---|---|---|
-| 646-lasjarasaguas | Pendiente | — | 15/16 fotos con C2PA de OpenAI; solo 1 real. Revisar fotos de spa (2025/05) y Historias (2026/03) |
-| 387-escuelademusica | Pendiente | 46d942de (nube) | Fotos en /escuela/, /instrumento/, /induccion/, /iniciacion/ |
+| 646-lasjarasaguas | ✓ | 20b1b331 | 5 fotos reales (spa 2025/05 + Historias 2026/03); 0 problemas QA; método 1.2 |
+| 387-escuelademusica | ✓ | — | 13 fotos reales del sitio live; 0 problemas QA; método 1.2 |
 | 613-kitesurfmexico | Pendiente | 1ae905d7 (nube) | Anti-bot; solo fotos reales de /premium-kitesurf-lesson/ y /wing-foil-cancun/ |
 | 600-junglerealtor | Pendiente | c5b8eb57 (nube) | Anti-bot; fotos en storage.googleapis.com; sitio hackeado con spam de casinos |
 | 468-grimaradventures | Pendiente | 0ae560e0 (nube) | 4/22 fotos descargadas; bajar de /tours/ |

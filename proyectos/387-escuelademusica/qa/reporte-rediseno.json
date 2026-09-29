@@ -1,0 +1,78 @@
+{
+  "fecha": "2026-09-29T13:15:18.083Z",
+  "carpeta": "387-escuelademusica",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4143,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 13,
+      "rotas": [
+        "http://127.0.0.1:56971/387-escuelademusica/sitio/assets/wp-content/uploads/2024/03/Portada-la-basurita-scaled.jpg"
+      ],
+      "sinAlt": 8,
+      "titulo": "Lukin Music | ¡El mejor lugar para tu música!",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:56971/387-escuelademusica/sitio/assets/wp-content/uploads/2024/03/Portada-la-basurita-scaled.jpg"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 8516,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 13,
+      "rotas": [
+        "http://127.0.0.1:56971/387-escuelademusica/sitio/assets/wp-content/uploads/2024/03/Portada-la-basurita-scaled.jpg"
+      ],
+      "sinAlt": 8,
+      "titulo": "Lukin Music | ¡El mejor lugar para tu música!",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:56971/387-escuelademusica/sitio/assets/wp-content/uploads/2024/03/Portada-la-basurita-scaled.jpg"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3300,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Lukin Music | Escuela de Música en Aguascalientes",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5927,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Lukin Music | Escuela de Música en Aguascalientes",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

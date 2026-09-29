@@ -1,0 +1,16 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content/uploads), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+2023/03/Desde-Adentro-Editado-2.png	3333x3333	10339 KB
+2022/03/DSC03752-scaled.jpg	2560x1707	587 KB
+2024/09/logo-escuela-colores-01-e1726366684370.png	4000x3000	561 KB
+2024/08/Portada-1-scaled.jpg	2560x2560	538 KB
+2024/09/Imagen-Hero-de-inicio.png	900x936	231 KB
+2023/10/logo-lukin-estudio-color-y-negro-01-e1726366775354.png	4000x2746	221 KB
+2024/09/LOGO-LUKIN-MUSIC-01-e1725296386808.png	5101x1258	144 KB
+2024/09/FAVICON-04.png	2134x2134	143 KB
+2021/11/IMG_4382.jpg	658x658	94 KB
+2024/09/LOGO-LUKIN-MUSIC-01-e1725296386808-1024x253.png	1024x253	34 KB
+2024/09/Beneficios-imagen.jpg	1000x667	25 KB
+2024/09/cropped-FAVICON-04-192x192.png	192x192	13 KB
+2024/09/cropped-FAVICON-04-180x180.png	180x180	12 KB
+2024/09/cropped-FAVICON-04-32x32.png	32x32	1 KB
