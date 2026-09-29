@@ -1,0 +1,26 @@
+# Imágenes disponibles en publicDir (../sitio/assets/img), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+islas-marietas-hidden-beach.webp	1920x1080	188 KB
+raben-logo-ballenas.webp	3019x2642	162 KB
+liberacion-tortugas-marinas.webp	1920x1080	159 KB
+puerto-vallarta-tours-12.webp	1400x1050	144 KB
+snorkel-los-arcos-vallarta.webp	1920x1080	111 KB
+avistamiento-ballenas-puerto-vallarta.webp	1920x1080	90 KB
+hiking-rio-nogalito.webp	800x533	83 KB
+san-sebastian-pueblo-magico.webp	800x533	81 KB
+logo-red-varamientos-bahia-de-banderas.webp	1100x1100	75 KB
+tour-islas-marietas-vallarta.webp	800x533	74 KB
+delfines-libertad-vallarta.webp	800x533	72 KB
+buceo-islas-marietas-vallarta.webp	1920x1080	71 KB
+canopy-tirolesas-vallarta.webp	800x533	68 KB
+kayak-vallarta-ocean.webp	800x533	59 KB
+logo-biologos-marinos-org.webp	1405x1218	54 KB
+logo-nado-por-las-ballenas.webp	750x246	45 KB
+avistamiento-ballenas-vallarta.webp	800x533	41 KB
+buceo-puerto-vallarta.webp	800x533	30 KB
+liberacion-tortugas-vallarta.webp	800x533	29 KB
+favicon/apple-touch-icon.png	180x180	19 KB
+Logo%20Explora%20Vallarta%20Blanco.webp	1063x1063	11 KB
+Logo%20Explora%20Vallarta.webp	429x400	10 KB
+favicon/favicon-32x32.png	32x32	2 KB
+favicon/favicon-16x16.png	16x16	1 KB

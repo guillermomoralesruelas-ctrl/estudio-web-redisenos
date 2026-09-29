@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Fraunces (títulos) y Nunito Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Fraunces"; src: url("../node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: el azul de su logo oscurecido (bahía), un azul de mar profundo (abismo), su fondo espuma, celeste, el amarillo y
+   el verde de su sitio. Contrastes: bahía sobre blanco 7.15, bahía sobre espuma 6.57, abismo sobre espuma 13.62, blanco
+   sobre abismo 14.82, celeste sobre abismo 8.72, sol sobre abismo 9.80, abismo sobre sol 9.80, selva sobre espuma 5.98,
+   roca sobre espuma 6.63. */
+@theme {
+  --color-abismo: #082b3a;
+  --color-bahia: #0e5f7a;
+  --color-espuma: #eef7f8;
+  --color-celeste: #7fd3e6;
+  --color-sol: #ffcc00;
+  --color-selva: #006b53;
+  --color-roca: #475a63;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Nunito Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-white text-abismo font-sans antialiased; font-size: 1.03rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-abismo; font-weight: 600; line-height: 1.1; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-abismo text-white/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-bahia); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-sol); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-bahia, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-sol text-abismo hover:bg-[#ffdb4d]; }
+  .btn-bahia { @apply bg-bahia text-white hover:bg-abismo; }
+  .btn-linea { @apply border-2 border-bahia/30 text-bahia hover:border-bahia; }
+  .btn-claro { @apply border-2 border-white/35 text-white hover:border-white; }
+  .enlace { @apply font-bold text-bahia underline decoration-1 underline-offset-4 hover:text-abismo; }
+  .oscuro .enlace { @apply text-celeste hover:text-white; }
+  .campo { @apply mt-1.5 w-full rounded-xl border border-white/25 bg-white/10 px-4 py-3 font-normal text-white; }
+}
+
+.anillo { transition: stroke-opacity 0.3s ease, stroke-width 0.3s ease; }
+.lancha { transition: transform 0.3s ease; cursor: pointer; }
+.ola { animation: ola 6s ease-in-out infinite; }
+@keyframes ola { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
