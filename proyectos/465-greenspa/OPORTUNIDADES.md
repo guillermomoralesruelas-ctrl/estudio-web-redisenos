@@ -8,7 +8,7 @@
 | Sitio | https://greenspa.mx/ . Spa de masajes, faciales y reductivos en Zapopan, Jalisco, desde 2012 |
 | Prioridad | **MEDIA**: tiene WhatsApp y precios, pero su página de servicios muestra restos de plantilla (un mapa de Londres y entradas "Hello world!") y promesas de salud arriesgadas |
 | Contacto publicado | WhatsApp 33 3404 5420; tel. 33 2410 2887; info@greenspa.com.mx |
-| Propuesta para enseñar | `rediseno/dist/index.html`, `entregables/comparacion-antes-despues.jpg` y `referencias/capturas-2026-09-28/` |
+| Propuesta para enseñar | `rediseno/dist/index.html`, `entregables/comparacion-antes-despues.jpg` y `referencias/capturas-2026-09-29/` |
 
 ## Hallazgos en su sitio actual
 
