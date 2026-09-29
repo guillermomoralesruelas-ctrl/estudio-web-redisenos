@@ -1,0 +1,141 @@
+{
+  "fecha": "2026-09-29T15:21:26.875Z",
+  "carpeta": "13-academiamusicalrubinstei",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 1212,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 5,
+      "rotas": [
+        "http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_1.png",
+        "http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_2.png",
+        "http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_3.jpg",
+        "http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_4.png",
+        "http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_5.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Academia Musical Rubinstein • Clases de Piano, Guitarra, Batería, Canto, Solfeo y mas",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Paste is not defined",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "onPageLoad is not defined",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "onPageUnload is not defined"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/index.css",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/Widgets/HTMLRegion/Paste.css",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/iWebSite.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/iWebImage.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/iWebMediaGrid.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/Widgets/SharedResources/WidgetCommon.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/index.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/Widgets/HTMLRegion/Paste.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_1.png",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_2.png",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_3.jpg",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_4.png",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_5.jpg"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 1212,
+      "desbordeX": 610,
+      "h1": 0,
+      "imagenes": 5,
+      "rotas": [
+        "http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_1.png",
+        "http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_2.png",
+        "http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_3.jpg",
+        "http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_4.png",
+        "http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_5.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Academia Musical Rubinstein • Clases de Piano, Guitarra, Batería, Canto, Solfeo y mas",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Paste is not defined",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "onPageLoad is not defined",
+        "onPageUnload is not defined"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/index.css",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/Widgets/HTMLRegion/Paste.css",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/iWebSite.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/iWebImage.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/Widgets/HTMLRegion/Paste.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/iWebMediaGrid.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/Scripts/Widgets/SharedResources/WidgetCommon.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_1.png",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_2.png",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/index.js",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_3.jpg",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_4.png",
+        "404 http://127.0.0.1:43503/13-academiamusicalrubinstei/sitio/index_files/shapeimage_5.jpg"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3900,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Academia Musical Rubinstein | Clases de música en Polanco",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6414,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Academia Musical Rubinstein | Clases de música en Polanco",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

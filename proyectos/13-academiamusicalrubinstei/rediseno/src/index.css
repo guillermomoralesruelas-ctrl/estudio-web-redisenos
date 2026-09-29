@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Libre Caslon Text (títulos) e Instrument Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Libre Caslon Text"; src: url("../node_modules/@fontsource/libre-caslon-text/files/libre-caslon-text-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Libre Caslon Text"; src: url("../node_modules/@fontsource/libre-caslon-text/files/libre-caslon-text-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Instrument Sans"; src: url("../node_modules/@fontsource/instrument-sans/files/instrument-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Instrument Sans"; src: url("../node_modules/@fontsource/instrument-sans/files/instrument-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: tinta, marfil, vino, madera y latón (teclas de piano y el rojo de su logotipo).
+   Contrastes: tinta sobre marfil 16.07, blanco sobre vino 9.12, vino sobre marfil 8.47, madera sobre marfil 5.56,
+   marfil sobre tinta 16.07, latón sobre tinta 10.89. */
+@theme {
+  --color-tinta: #1d1a18;
+  --color-marfil: #faf6ef;
+  --color-vino: #8b1e1e;
+  --color-madera: #6a625a;
+  --color-laton: #e9c98f;
+  --font-display: "Libre Caslon Text", Georgia, serif;
+  --font-sans: "Instrument Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-marfil text-tinta font-sans antialiased; font-size: 1.05rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-tinta; font-weight: 400; line-height: 1.12; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-tinta text-marfil/85; }
+  .oscuro h1, .oscuro h2 { @apply text-marfil; }
+  :focus-visible { outline: 3px solid var(--color-vino); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-laton); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-vino text-white hover:bg-tinta; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta; }
+  .enlace { @apply font-semibold text-vino underline decoration-1 underline-offset-4 hover:text-tinta; }
+  .tecla { box-shadow: inset 0 -6px 0 rgb(29 26 24 / 0.08); transition: transform .12s, box-shadow .12s, background-color .12s; }
+  .tecla[aria-pressed="true"] { transform: translateY(4px); box-shadow: inset 0 -2px 0 rgb(29 26 24 / 0.2); }
+}
