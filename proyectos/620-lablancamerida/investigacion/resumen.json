@@ -1,0 +1,198 @@
+{
+  "sitio": "https://lablancamerida.com/",
+  "fecha": "2026-09-26T09:14:35.830Z",
+  "motor": "jina-reader",
+  "slug": "lablancamerida",
+  "nombre": "La Blanca Mérida",
+  "rubro": "GASTRONOMIA",
+  "ciudad": "León, Guanajuato",
+  "plantilla": "restaurante-bar",
+  "paginasRevisadas": [
+    {
+      "url": "https://lablancamerida.com/",
+      "titulo": ""
+    },
+    {
+      "url": "https://lablancamerida.com/home",
+      "titulo": ""
+    },
+    {
+      "url": "https://lablancamerida.com/contact",
+      "titulo": ""
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+4771214234",
+      "4771214234",
+      "696813197",
+      "11-4041-43"
+    ],
+    "emails": [
+      "admin@lablancamerida.com"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.facebook.com/LaBlancaMeridaLeon",
+      "https://www.instagram.com/lablancamerida"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69de56dee7237c4dd3fe8134.png",
+      "alt": "Image 1: JD Funnel"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a1f3dbb617a776b4ce8aec.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c696813197de5eaea79d4c.jpg",
+      "alt": "Image 4: Image"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c54936e870380c1a0b37df.jpeg",
+      "alt": "Image 5: Image"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c6996764a4485bf34ceb0d.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c8d3f09dbb4241c0e347b0.jpg",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c69a6d3204cc6eef31d20b.jpg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c6956d2e89d849d84d4673.jpg",
+      "alt": "Image 13: Image"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c54b061cc134214bcb25c7.jpeg",
+      "alt": "Image 14: Image"
+    },
+    {
+      "src": "https://lablancamerida.com/",
+      "alt": "Image 15: Image"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c6956d7115ea1860af860d.jpg",
+      "alt": "Image 17: Image"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c6956d7115ea1a52af8609.png",
+      "alt": "Image 18: Image"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c8d21934899f8ef41a8c47.jpg",
+      "alt": "Image 20: Image"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c8d1582e89d8d6657f21fd.jpg",
+      "alt": "Image 21: Image"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c8d10f9fc63a5cc14e8b9a.jpg",
+      "alt": "Image 23: Image"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a20962753f1563eff65e9b.webp",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a20cd8753f156c0bf76617.webp",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a20cd8753f154e7ff76616.webp",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a20cd8747b413cb6c30aca.webp",
+      "alt": "Image 31"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a20cd83177b009607b2315.png",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a20cd8524b718e4f7278b9.webp",
+      "alt": "Image 33"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a20cd86e50d600a33171e0.webp",
+      "alt": "Image 34"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a20cd88844f54a9ab78f07.webp",
+      "alt": "Image 35"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a212df917b4b559214c827.png",
+      "alt": "Image 36"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c69a6d31ffeb4da7df6437.jpg",
+      "alt": "Image 42"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a21d9f3177b0b3487efbf5.png",
+      "alt": "Image 44"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a21d9f95735c4c4bcb3e6d.png",
+      "alt": "Image 45"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a21d9f167da40d003ac539.png",
+      "alt": "Image 46"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a21d9f917b4b12fc1727e7.png",
+      "alt": "Image 47"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a21e4c747b41b2edc7148b.webp",
+      "alt": "Image 51"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a21e4c8844f50912bb949a.webp",
+      "alt": "Image 52"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69a21e4c753f150e6cfb6c2e.webp",
+      "alt": "Image 53"
+    },
+    {
+      "src": "https://lablancamerida.com/home",
+      "alt": "Image 15: Image"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_85/r_1000/u_https://storage.googleapis.com/highlevel-backend.appspot.com/location/pZUdUY3lBvYk9NS9s79m/form/h10G4X4gyCKqJLJzUl2p/686c2a11-4041-43a3-84ce-90e3be4fbd20.webp",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69d3c680b1c0b9f9040c85a1.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c8ded29dbb421ab5e3cdf3.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c8ded27bb76c28b4e78985.png",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c8ded2d707f54356e29d96.png",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/pZUdUY3lBvYk9NS9s79m/media/69c8ded22e89d873157fc91c.png",
+      "alt": "Image 10"
+    }
+  ]
+}

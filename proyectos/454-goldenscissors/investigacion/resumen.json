@@ -1,0 +1,63 @@
+{
+  "sitio": "https://goldenscissors.com.mx/",
+  "fecha": "2026-09-26T08:00:05.670Z",
+  "motor": "jina-reader",
+  "slug": "goldenscissors",
+  "nombre": "Golden Scissors",
+  "rubro": "SPA",
+  "ciudad": "Cancún, Q.R.",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://goldenscissors.com.mx/",
+      "titulo": "Barbería de Autor y Lujo en Cancún"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "5219981491632"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/5219981491632?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios.)"
+    ],
+    "redes": [
+      "https://www.instagram.com/goldenscissors.barbershop/",
+      "https://www.facebook.com/GoldenScissors.Barberia"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://goldenscissors.com.mx/assets/logo3-Dft-Wu3R.png",
+      "alt": "Image 1: Golden Scissors Barbershop"
+    },
+    {
+      "src": "https://goldenscissors.com.mx/assets/hero-bg.png",
+      "alt": "Image 3: Atmósfera de lujo absoluto en Golden Scissors Cancún, capturando el estilo de autor y la sofisticación del mobiliario premium para el Grooming Ejecutivo"
+    },
+    {
+      "src": "https://goldenscissors.com.mx/assets/service_razor_fade.png",
+      "alt": "Image 4: Ritual de afeitado tradicional con navaja artesanal y toalla caliente, una experiencia de maestría técnica en la Riviera Maya."
+    },
+    {
+      "src": "https://goldenscissors.com.mx/assets/service_black_mask.png",
+      "alt": "Image 5: Paquete Golden Integral con mascarilla negra purificante, tratamiento premium de Grooming Ejecutivo en Cancún."
+    },
+    {
+      "src": "https://goldenscissors.com.mx/assets/service_hot_towel.png",
+      "alt": "Image 6: Golden Grooming VIP: el pináculo del cuidado personal masculino de alta gama con mascarilla de colágeno y masajes."
+    },
+    {
+      "src": "https://goldenscissors.com.mx/assets/testimonial_1.png",
+      "alt": "Image 7: Jesús Cisneros"
+    },
+    {
+      "src": "https://goldenscissors.com.mx/assets/testimonial_2.png",
+      "alt": "Image 8: Mikael Busso"
+    },
+    {
+      "src": "https://goldenscissors.com.mx/assets/testimonial_3.png",
+      "alt": "Image 9: Carlos M."
+    }
+  ]
+}

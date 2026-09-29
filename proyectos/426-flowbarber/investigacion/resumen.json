@@ -1,0 +1,81 @@
+{
+  "sitio": "https://flowbarberpdc.com/",
+  "fecha": "2026-09-26T07:46:37.525Z",
+  "motor": "jina-reader",
+  "slug": "flowbarber",
+  "nombre": "Flow Barber",
+  "rubro": "SPA",
+  "ciudad": "Playa del Carmen, Quintana Roo",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://flowbarberpdc.com/",
+      "titulo": "Flow Barber | Barbershop Playa del Carmen | Men's Haircut Riviera Maya"
+    },
+    {
+      "url": "https://flowbarberpdc.com/en/services",
+      "titulo": "Barbershop Services in Playa del Carmen | Flow Barber"
+    },
+    {
+      "url": "https://flowbarberpdc.com/en/about",
+      "titulo": "About Us | Flow Barber - Barbershop Playa del Carmen"
+    },
+    {
+      "url": "https://flowbarberpdc.com/en/team",
+      "titulo": "Our Team"
+    },
+    {
+      "url": "https://flowbarberpdc.com/en/gallery",
+      "titulo": "Gallery | Flow Barber - Barbershop in Playa del Carmen"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 984 123 4567"
+    ],
+    "emails": [],
+    "whatsapp": [],
+    "redes": [
+      "https://www.instagram.com/flowbarberpdc/",
+      "https://facebook.com/flowbarber"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://flowbarberpdc.com/assets/logo-BiQ9Tm4v.png",
+      "alt": "Image 2: Flow Barber"
+    },
+    {
+      "src": "https://flowbarberpdc.com/assets/barbershop-hero-DvwjWWDF.jpg",
+      "alt": "Image 3: Flow Barber atmosphere"
+    },
+    {
+      "src": "https://flowbarberpdc.com/assets/gallery-clipper-detail-DugZB_b9.jpg",
+      "alt": "Image 4: Flow Barber clipper detail"
+    },
+    {
+      "src": "https://flowbarberpdc.com/assets/gallery-trimmer-closeup-BWzmJfC9.jpg",
+      "alt": "Image 5: Flow Barber trimmer closeup"
+    },
+    {
+      "src": "https://flowbarberpdc.com/assets/gallery-dog-dK5jadb8.jpg",
+      "alt": "Image 6: Flow Barber mascot"
+    },
+    {
+      "src": "https://flowbarberpdc.com/assets/gallery-interior-2-B45d_AnW.jpg",
+      "alt": "Image 7: Flow Barber products"
+    },
+    {
+      "src": "https://flowbarberpdc.com/assets/barbershop-1-Bc6AK7vA.jpg",
+      "alt": "Image 9: Flow Barber barbers at work"
+    },
+    {
+      "src": "https://flowbarberpdc.com/assets/gallery-storefront-DplpNEoK.jpg",
+      "alt": "Image 10: Flow Barber storefront"
+    },
+    {
+      "src": "https://flowbarberpdc.com/assets/barbershop-2-DXt3IN2V.jpg",
+      "alt": "Image 5: Flow Barber 4"
+    }
+  ]
+}

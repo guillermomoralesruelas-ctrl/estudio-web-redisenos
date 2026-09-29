@@ -1,0 +1,137 @@
+{
+  "sitio": "https://www.lafortalezaacademiadeartes.com/",
+  "fecha": "2026-09-26T09:20:41.125Z",
+  "motor": "jina-reader",
+  "slug": "lafortalezaacademia",
+  "nombre": "La Fortaleza Academia de Artes",
+  "rubro": "EDUCACION",
+  "ciudad": "Guadalajara, Jalisco",
+  "plantilla": "educacion",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.lafortalezaacademiadeartes.com/",
+      "titulo": "La Fortaleza Academia de Artes — Escuela de Teatro, Canto y Danza en Guadalajara"
+    },
+    {
+      "url": "https://www.lafortalezaacademiadeartes.com/diplomado-aei",
+      "titulo": "Diplomado Artista Escénico Integral — Formación en Teatro, Canto y Danza en Guadalajara | La Fortaleza"
+    },
+    {
+      "url": "https://www.lafortalezaacademiadeartes.com/enfoques",
+      "titulo": "Enfoques - La Fortaleza Academia de Artes"
+    },
+    {
+      "url": "https://www.lafortalezaacademiadeartes.com/taller-de-teatro-musical",
+      "titulo": "Taller de Teatro Musical — La Fortaleza Academia de Artes Guadalajara"
+    },
+    {
+      "url": "https://www.lafortalezaacademiadeartes.com/contacto",
+      "titulo": "Contacto - La Fortaleza Academia de Artes"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "528142445362",
+      "81 42 44 5",
+      "81 42 44 5 362",
+      "33 1518 6556",
+      "100069212711639",
+      "710969000050616820",
+      "+52 81 4244 5362",
+      "81 42 44 53 62"
+    ],
+    "emails": [
+      "hola@lafortalezaacademiadeartes.com"
+    ],
+    "whatsapp": [
+      "wa.me/528142445362)",
+      "wa.me/528142445362",
+      "wa.me/528142445362)[](https://www.tiktok.com/@lafortalezaacademiadeart)",
+      "wa.me/528142445362?text=Hola,%20quiero%20informes%20sobre%20el%20Diplomado%20AEI)",
+      "wa.me/528142445362?text=Hola!%20Me%20interesa%20el%20taller%20Kids%20%28Shrek%29%20para%20mi%20hijo.%20%C2%BFMe%20pueden%20dar%20m%C3%A1s%20informaci%C3%B3n%3F)",
+      "wa.me/528142445362?text=%C2%A1Hola%21%20Me%20interesa%20entrar%20al%20taller%20de%20Teatro%20Montaje%20de%20Shrek%20El%20Musical)",
+      "wa.me/528142445362?text=%C2%A1Hola%21%20Me%20interesa%20entrar%20al%20taller%20de%20montaje%20de%20Mamma%20Mia)",
+      "wa.me/528142445362?text=%C2%A1Hola%21%20Me%20interesa%20mandar%20mi%20audici%C3%B3n%20para%20el%20taller%20de%20montaje%20de%20Avenida%20Q)",
+      "wa.me/528142445362?text=Hola!%20Me%20interesa%20el%20Taller%20de%20Teatro%20Musical%20de%20La%20Fortaleza.%20%C2%BFMe%20pueden%20dar%20m%C3%A1s%20informaci%C3%B3n%3F)*",
+      "wa.me/528142445362?text=Hola!%20Me%20interesa%20el%20Taller%20de%20Teatro%20Musical%20de%20La%20Fortaleza.)"
+    ],
+    "redes": [
+      "https://www.facebook.com/profile.php?id=100069212711639",
+      "https://www.youtube.com/@LAFORTALEZAACADEMIADEARTES",
+      "http://instagram.com/lafortalezaacademiadeartes",
+      "https://www.tiktok.com/@lafortalezaacademiadeart",
+      "https://instagram.com/lafortalezaacademiadeartes",
+      "https://www.facebook.com/profile.php?id=100069212711639&locale=es_LA"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.lafortalezaacademiadeartes.com/5-1.png",
+      "alt": "Image 2: La Fortaleza Academia de Artes"
+    },
+    {
+      "src": "https://photos.smugmug.com/photos/i-Sb8654w/0/NWWbHqsPt8DMq5NSrfcBTX9d3dsGGvws9QQkJGLwK/L/i-Sb8654w-L.jpg",
+      "alt": "Image 3: Something Rotten Teatro Galerías"
+    },
+    {
+      "src": "https://photos.smugmug.com/photos/i-fRGSNg9/0/LWdsFJp8NZM9VssJ7bZ9RWqmkGLkgS6p2sHKgCPJM/L/i-fRGSNg9-L.jpg",
+      "alt": "Image 4: In The heights Teatro Galerías"
+    },
+    {
+      "src": "https://photos.smugmug.com/photos/i-4XpNMFV/0/MkBkKcrPXWVN2b4QjwZmBFbdjCRS63ScGmGxPrSm3/L/i-4XpNMFV-L.jpg",
+      "alt": "Image 5: Rent teatro Galerías"
+    },
+    {
+      "src": "https://photos.smugmug.com/photos/i-cbccvjT/0/NS3LZ6pCX33RZZDxnZhWrBV3GpNrDqfqqDm46Pd8w/L/i-cbccvjT-L.jpg",
+      "alt": "Image 6: Shrek Teatro Galerías"
+    },
+    {
+      "src": "https://www.lafortalezaacademiadeartes.com/optimized_5-1_342x144.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://photos.smugmug.com/photos/i-jhsQgsW/0/KgP5hMVStL5PsSjJQL4F22gPD26x4CfpkmkCKJ858/X3/i-jhsQgsW-X3.png",
+      "alt": "Image 3: La Fortaleza Academia de Artes"
+    },
+    {
+      "src": "https://photos.smugmug.com/photos/i-vPB88mS/0/LHczPGpLkdvkMhx2b6dPBX25nnsKkJtqR3txN3spT/L/i-vPB88mS-L.png",
+      "alt": "Image 4: Clases Diplomado AEI La Fortaleza"
+    },
+    {
+      "src": "https://photos.smugmug.com/photos/i-Md39kx5/0/K2GP6TJ7jxB2tBgDmGp3PC37WvnRFtPrwQBzJfvB8/L/i-Md39kx5-L.png",
+      "alt": "Image 5: Comunidad La Fortaleza"
+    },
+    {
+      "src": "https://www.lafortalezaacademiadeartes.com/optimized_IN%20THE%20HEIGHTS-INTER-30_510x339.jpg",
+      "alt": "Image 3: In the Heights - La Fortaleza Academia de Artes Guadalajara"
+    },
+    {
+      "src": "https://www.lafortalezaacademiadeartes.com/optimized_Shrek-Funci%C3%B3n%201-C1-119_528x207.jpg",
+      "alt": "Image 4: Shrek El Musical - La Fortaleza Academia de Artes"
+    },
+    {
+      "src": "https://www.lafortalezaacademiadeartes.com/optimized_IN%20THE%20HEIGHTS-FUNCI%C3%93N%201-156_555x433.jpg",
+      "alt": "Image 5: Teatro musical Guadalajara - La Fortaleza"
+    },
+    {
+      "src": "https://www.lafortalezaacademiadeartes.com/optimized_RENT%20Funci%C3%B3n%202-68_415x276.jpg",
+      "alt": "Image 6: RENT Musical - La Fortaleza Academia de Artes"
+    },
+    {
+      "src": "https://www.lafortalezaacademiadeartes.com/Mamma%20Mia%20F1-24.jpg",
+      "alt": "Image 7: Producción de teatro musical - La Fortaleza Academia de Artes Guadalajara"
+    },
+    {
+      "src": "https://www.lafortalezaacademiadeartes.com/Mamma%20Mia%20F1-80.jpg",
+      "alt": "Image 8: Ensayos teatro musical Guadalajara - La Fortaleza"
+    },
+    {
+      "src": "https://www.lafortalezaacademiadeartes.com/Mamma%20Mia%20F1-132.jpg",
+      "alt": "Image 9: Taller de montaje teatro musical - La Fortaleza"
+    },
+    {
+      "src": "https://www.lafortalezaacademiadeartes.com/optimized_Mamma%20Mia%20F1-21_415x276.jpg",
+      "alt": "Image 10: Mamma Mia - La Fortaleza Academia de Artes"
+    }
+  ]
+}

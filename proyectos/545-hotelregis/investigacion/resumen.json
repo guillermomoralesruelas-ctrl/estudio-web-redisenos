@@ -1,0 +1,128 @@
+{
+  "sitio": "https://hotel-regis.com/",
+  "fecha": "2026-09-26T08:38:16.405Z",
+  "motor": "jina-reader",
+  "slug": "hotelregis",
+  "nombre": "Hotel Regis",
+  "rubro": "HOSPEDAJE",
+  "ciudad": "Mexicali, Baja California",
+  "plantilla": "hospedaje",
+  "paginasRevisadas": [
+    {
+      "url": "https://hotel-regis.com/",
+      "titulo": "Hotel Regis | Mexicali"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "1 686 566-3435",
+      "6865663435",
+      "2 686 566-8802",
+      "6868018802",
+      "686 566-3435",
+      "686 566-8802"
+    ],
+    "emails": [
+      "inforegis@hotel-regis.com"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.facebook.com/villadonnacho",
+      "https://facebook.com/hotelregismexicali"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://hotel-regis.com/",
+      "alt": "Image 1: Hotel Regis"
+    },
+    {
+      "src": "https://hotel-regis.com/media/hero/entrada.jfif",
+      "alt": "Image 2: Hotel Regis"
+    },
+    {
+      "src": "https://hotel-regis.com/media/hero/entradahotel.jfif",
+      "alt": "Image 3: Hotel Regis"
+    },
+    {
+      "src": "https://hotel-regis.com/media/hero/entradaprincipal.jfif",
+      "alt": "Image 4: Hotel Regis"
+    },
+    {
+      "src": "https://hotel-regis.com/media/habitaciones/habitaciondoble.jfif",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://hotel-regis.com/media/habitaciones/habitacionsencilla.jfif",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://hotel-regis.com/media/habitaciones/habitaciontriple.jfif",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://hotel-regis.com/media/habitaciones/galeria/habitaciones.jfif",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://hotel-regis.com/media/habitaciones/galeria/ba%C3%B1o1.jfif",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://hotel-regis.com/media/habitaciones/galeria/ba%C3%B1o1.1.jfif",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://hotel-regis.com/media/restaurante/villa_don_nacho.jfif",
+      "alt": "Image 15: Restaurante Villa Don Nacho"
+    },
+    {
+      "src": "https://hotel-regis.com/media/restaurante/entradavilkla.jfif",
+      "alt": "Image 16: Restaurante Villa Don Nacho"
+    },
+    {
+      "src": "https://hotel-regis.com/media/restaurante/restuarante.jfif",
+      "alt": "Image 17: Restaurante Villa Don Nacho"
+    },
+    {
+      "src": "https://hotel-regis.com/media/galeria/escritorio.jfif",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://hotel-regis.com/media/galeria/entrada.jfif",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://hotel-regis.com/media/galeria/ba%C3%B1o1.jfif",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://hotel-regis.com/media/galeria/otraentrada.jfif",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://hotel-regis.com/media/galeria/restuarante.jfif",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://hotel-regis.com/media/galeria/entradavilkla.jfif",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://hotel-regis.com/media/galeria/habitacionsencilla.jfif",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://hotel-regis.com/media/galeria/habitaciondoble.jfif",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://hotel-regis.com/media/galeria/habitaciontriple.jfif",
+      "alt": "Image 31"
+    },
+    {
+      "src": "https://hotel-regis.com/media/galeria/villa_don_nacho.jfif",
+      "alt": "Image 32"
+    }
+  ]
+}

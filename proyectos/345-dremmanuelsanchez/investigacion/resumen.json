@@ -1,0 +1,76 @@
+{
+  "sitio": "https://saludmentalmonterrey.mx/",
+  "fecha": "2026-09-26T07:13:31.658Z",
+  "motor": "jina-reader",
+  "slug": "dremmanuelsanchez",
+  "nombre": "Dr Emmanuel Sánchez Sepúlveda",
+  "rubro": "SALUD",
+  "ciudad": "Monterrey, Nuevo León",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://saludmentalmonterrey.mx/",
+      "titulo": "saludmentalmonterrey.mx"
+    },
+    {
+      "url": "https://saludmentalmonterrey.mx/pol%C3%ADticas",
+      "titulo": "saludmentalmonterrey.mx"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "2-9629-0892",
+      "4010-9323",
+      "528135765584"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/528135765584)"
+    ],
+    "redes": [
+      "https://www.instagram.com/saludmentalmonterrey"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/6aab8280-dd87-40f2-9629-0892ec13ac3a/EMMA-02.png/:/rs=h:113,cg:true,m/qt=q:95",
+      "alt": "Image 1: saludmentalmonterrey.mx"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/6aab8280-dd87-40f2-9629-0892ec13ac3a/ChatGPT%20Image%2030%20jul%202026%2C%2007_46_12.png/:/cr=t:1.41%25,l:2.27%25,w:18.02%25,h:27.03%25/rs=w:388,h:388,cg:true,m",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/6aab8280-dd87-40f2-9629-0892ec13ac3a/ChatGPT%20Image%2030%20jul%202026%2C%2007_46_12.png/:/cr=t:0%25,l:39.28%25,w:19.96%25,h:29.94%25/rs=w:388,h:388,cg:true,m",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/6aab8280-dd87-40f2-9629-0892ec13ac3a/ChatGPT%20Image%2030%20jul%202026%2C%2007_46_12.png/:/cr=t:0%25,l:78.9%25,w:19.96%25,h:29.94%25/rs=w:388,h:388,cg:true,m",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/6aab8280-dd87-40f2-9629-0892ec13ac3a/ChatGPT%20Image%2030%20jul%202026%2C%2007_46_12.png/:/cr=t:1.28%25,l:59.97%25,w:19.61%25,h:29.41%25/rs=w:388,h:388,cg:true,m",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/6aab8280-dd87-40f2-9629-0892ec13ac3a/ChatGPT%20Image%2030%20jul%202026%2C%2007_46_12.png/:/cr=t:71.2%25,l:39.82%25,w:18.94%25,h:28.41%25/rs=w:388,h:388,cg:true,m",
+      "alt": "Image 7"
+    },
+    {
+      "src": "blob:http://localhost/48f76619a5bd00ce057f2024dcf38bc1",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/6aab8280-dd87-40f2-9629-0892ec13ac3a/ChatGPT%20Image%2030%20jul%202026%2C%2023_02_13.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:100,h:100,cg:true",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/6aab8280-dd87-40f2-9629-0892ec13ac3a/ChatGPT%20Image%2030%20jul%202026%2C%2023_02_13.png/:/rs=w:100,h:100,cg:true,m/cr=w:100,h:100",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://img1.wsimg.com/isteam/ip/6aab8280-dd87-40f2-9629-0892ec13ac3a/EMMA-02.png/:/rs=w:400,cg:true,m",
+      "alt": "Image 3: Logotipo de psicología y psicoterapia con cerebro y raíces."
+    }
+  ]
+}

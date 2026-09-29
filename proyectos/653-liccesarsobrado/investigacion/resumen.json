@@ -1,0 +1,86 @@
+{
+  "sitio": "https://www.cesarsobrado.com/",
+  "fecha": "2026-09-26T09:30:44.354Z",
+  "motor": "jina-reader",
+  "slug": "liccesarsobrado",
+  "nombre": "Lic. César Sobrado",
+  "rubro": "SALUD",
+  "ciudad": "Cancún, Quintana Roo",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.cesarsobrado.com/",
+      "titulo": "Inicio - Nutriologo en Cancún - Lic. César Sobrado"
+    },
+    {
+      "url": "https://www.cesarsobrado.com/servicios/",
+      "titulo": "Servicios - Nutriologo en Cancún - Lic. César Sobrado"
+    },
+    {
+      "url": "https://www.cesarsobrado.com/contacto/",
+      "titulo": "Contacto - Nutriologo en Cancún - Lic. César Sobrado"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "998 480 9900"
+    ],
+    "emails": [],
+    "whatsapp": [],
+    "redes": []
+  },
+  "imagenes": [
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/04/Nutriologo-en-cancun-1-1024x683.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Foto-3-1024x683.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Foto-1-2-1024x683.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Foto-2-1024x683.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Nutricionista-en-cancun-838x1024.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Nutricionistas-en-cancun-1-838x1024.jpg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Nutriologo-cancun-838x1024.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Nutriologos-en-cancun.jpg",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/cropped-Logo-1-Negativo.png",
+      "alt": "Image 26: Nutriologo en Cancún - Lic. César Sobrado"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Nutricion-1024x1024.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Composicion-corporal-1024x1024.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Coaching-nutricional-1024x1024.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://www.cesarsobrado.com/wp-content/uploads/2023/05/Antropometria-1024x1024.jpg",
+      "alt": "Image 5"
+    }
+  ]
+}

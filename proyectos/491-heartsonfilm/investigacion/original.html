@@ -1,0 +1,589 @@
+<!--
+  Sitio: https://heartsonfilm.com/
+  Descargado: sábado, 26 de septiembre de 2026, 03:33 a.m. GMT-6
+  Slug: heartsonfilm
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hearts on Film · Videografía de Bodas en Monterrey</title>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5X5MVLGP');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7H7KPJ2RDK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7H7KPJ2RDK');
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg:     #F5F2ED;
+  --white:  #FFFFFF;
+  --bg2:    #ECE7E0;
+  --paper:  #FAF8F4;
+  --ink:    #1A1714;
+  --mid:    #5A554E;
+  --muted:  #9A938A;
+  --border: #E2DCD3;
+  --silver: #B5ACA1;
+}
+html { scroll-behavior: smooth; }
+body { font-family: 'Jost', sans-serif; background: var(--bg); color: var(--ink); overflow-x: hidden; font-weight: 300; }
+
+/* NAV */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 1.4rem 4rem;
+  display: flex; justify-content: space-between; align-items: center;
+  background: rgba(245,242,237,0.92);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+.logo { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 400; letter-spacing: 0.32em; text-transform: uppercase; color: var(--ink); text-decoration: none; }
+.logo em { font-style: italic; font-weight: 300; }
+nav a.cta-nav { font-size: 0.62rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--ink); text-decoration: none; border: 1px solid var(--ink); padding: 0.7rem 1.8rem; transition: all 0.3s; font-weight: 400; }
+nav a.cta-nav:hover { background: var(--ink); color: var(--bg); }
+
+/* HERO — editorial cover */
+.hero { min-height: 100vh; display: grid; grid-template-columns: 1.05fr 1fr; padding-top: 72px; background: var(--paper); }
+.hero-left { display: flex; flex-direction: column; justify-content: center; padding: 5rem 5rem 5rem 4rem; position: relative; }
+.hero-left::before { content: 'A WEDDING FILM STUDIO'; position: absolute; top: 3.5rem; left: 4rem; font-size: 0.55rem; letter-spacing: 0.42em; color: var(--muted); }
+.hero-left::after { content: 'EST. 2018 — MONTERREY, NL'; position: absolute; bottom: 3.5rem; left: 4rem; font-size: 0.55rem; letter-spacing: 0.42em; color: var(--muted); }
+.eyebrow { font-size: 0.6rem; letter-spacing: 0.42em; text-transform: uppercase; color: var(--muted); margin-bottom: 2.4rem; opacity: 0; animation: fadeUp 0.9s 0.2s forwards; }
+.hero h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(3.2rem, 6.4vw, 6rem); font-weight: 300; line-height: 1.02; color: var(--ink); margin-bottom: 2.2rem; opacity: 0; animation: fadeUp 0.9s 0.35s forwards; letter-spacing: -0.01em; }
+.hero h1 em { font-style: italic; font-weight: 300; color: var(--mid); }
+.hero-left p.lede { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; font-weight: 300; line-height: 1.55; color: var(--mid); max-width: 460px; margin-bottom: 3rem; opacity: 0; animation: fadeUp 0.9s 0.5s forwards; font-style: italic; }
+.btn-primary { display: inline-flex; align-items: center; gap: 0.8rem; background: var(--ink); color: var(--bg); text-decoration: none; font-size: 0.66rem; font-weight: 400; letter-spacing: 0.28em; text-transform: uppercase; padding: 1.15rem 2.4rem; transition: all 0.3s; align-self: flex-start; opacity: 0; animation: fadeUp 0.9s 0.65s forwards; }
+.btn-primary:hover { background: var(--mid); }
+.btn-primary svg { width: 16px; height: 16px; fill: var(--bg); }
+.hero-right { position: relative; overflow: hidden; opacity: 0; animation: fadeIn 1.2s 0.3s forwards; background: var(--bg2); }
+.hero-right img { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(0.12) contrast(0.96); }
+.hero-credits { position: absolute; bottom: 2.5rem; right: 2.5rem; text-align: right; color: var(--white); font-size: 0.55rem; letter-spacing: 0.34em; text-transform: uppercase; line-height: 2.2; mix-blend-mode: difference; }
+.hero-credits span { display: block; opacity: 0.85; }
+.hero-credits strong { font-weight: 400; }
+
+/* TRUST LINE under hero CTA */
+.trust-line { font-size: 0.62rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-top: 1.4rem; font-weight: 400; opacity: 0; animation: fadeUp 0.9s 0.8s forwards; }
+
+/* STATS BAR */
+.stats-bar { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr; align-items: center; padding: 3.5rem 4rem; background: var(--paper); border-bottom: 1px solid var(--border); gap: 1.5rem; }
+.stat { text-align: center; display: flex; flex-direction: column; gap: 0.5rem; }
+.stat-num { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.9rem, 3vw, 2.4rem); font-weight: 400; color: var(--ink); letter-spacing: -0.01em; line-height: 1; }
+.stat-num em { font-style: italic; font-weight: 300; color: var(--mid); }
+.stat-label { font-size: 0.58rem; letter-spacing: 0.4em; text-transform: uppercase; color: var(--muted); }
+.stat-divider { width: 1px; height: 38px; background: var(--border); }
+@media (max-width: 760px) {
+  .stats-bar { grid-template-columns: 1fr 1fr; gap: 2.2rem 1rem; padding: 2.5rem 1.5rem; }
+  .stat-divider { display: none; }
+}
+
+/* FAQ */
+.faq { padding: 9rem 4rem; background: var(--bg); }
+.faq-header { text-align: center; margin-bottom: 4rem; }
+.faq-header .label { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.2rem; }
+.faq-header h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.2rem, 4.2vw, 3.4rem); font-weight: 300; line-height: 1.08; letter-spacing: -0.01em; }
+.faq-header h2 em { font-style: italic; color: var(--mid); }
+.faq-list { max-width: 820px; margin: 0 auto; border-top: 1px solid var(--border); }
+.faq-item { border-bottom: 1px solid var(--border); }
+.faq-item summary { list-style: none; cursor: pointer; padding: 1.7rem 0; display: flex; justify-content: space-between; align-items: center; gap: 2rem; font-family: 'Cormorant Garamond', serif; font-size: clamp(1.15rem, 1.7vw, 1.4rem); font-weight: 400; color: var(--ink); transition: color 0.3s; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary:hover { color: var(--mid); }
+.faq-plus { font-family: 'Jost', sans-serif; font-size: 1.4rem; font-weight: 300; color: var(--muted); transition: transform 0.4s ease, color 0.3s; flex-shrink: 0; }
+.faq-item[open] .faq-plus { transform: rotate(45deg); color: var(--ink); }
+.faq-body { padding: 0 0 1.8rem; max-width: 660px; }
+.faq-body p { font-size: 0.92rem; font-weight: 300; line-height: 1.95; color: var(--mid); }
+
+/* MARQUEE */
+.marquee-wrap { overflow: hidden; padding: 1.4rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: var(--white); }
+.marquee-track { display: flex; gap: 2.5rem; animation: marquee 32s linear infinite; white-space: nowrap; }
+.marquee-track span { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1rem; color: var(--mid); letter-spacing: 0.06em; flex-shrink: 0; }
+.marquee-track .dot { color: var(--muted); font-style: normal; font-size: 0.55rem; }
+
+/* PRESS — As featured in */
+.press { padding: 4.5rem 4rem 4rem; background: var(--paper); text-align: center; border-bottom: 1px solid var(--border); }
+.press p.label { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--muted); margin-bottom: 2.8rem; }
+.press-row { display: flex; flex-wrap: wrap; gap: 3.5rem 4.5rem; justify-content: center; align-items: center; max-width: 1100px; margin: 0 auto; }
+.press-row .press-name { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; font-weight: 400; color: var(--mid); letter-spacing: 0.05em; opacity: 0.85; transition: opacity 0.3s; }
+.press-row .press-name em { font-style: italic; }
+.press-row .press-allcaps { font-family: 'Jost', sans-serif; font-size: 0.72rem; letter-spacing: 0.4em; text-transform: uppercase; color: var(--mid); font-weight: 400; opacity: 0.8; }
+.press-row > * { transition: opacity 0.3s, color 0.3s; }
+.press-row:hover > * { opacity: 0.45; }
+.press-row > *:hover { opacity: 1; color: var(--ink); }
+
+/* PHILOSOPHY — editorial */
+.philosophy { padding: 10rem 4rem; display: grid; grid-template-columns: 1fr 1.1fr; gap: 6rem; align-items: center; background: var(--bg); }
+.philosophy-img { position: relative; }
+.philosophy-img img { width: 100%; height: 720px; object-fit: cover; display: block; filter: grayscale(0.15) contrast(0.96); }
+.philosophy-img .caption { position: absolute; bottom: -1.6rem; left: 0; font-size: 0.55rem; letter-spacing: 0.4em; text-transform: uppercase; color: var(--muted); }
+.philosophy-text .label { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--muted); margin-bottom: 2rem; }
+.philosophy-text h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.2rem, 4vw, 3.4rem); font-weight: 300; line-height: 1.12; margin-bottom: 2.4rem; letter-spacing: -0.01em; }
+.philosophy-text h2 em { font-style: italic; }
+.philosophy-text p { font-size: 0.94rem; font-weight: 300; line-height: 2; color: var(--mid); margin-bottom: 1.2rem; max-width: 520px; }
+
+/* PULL QUOTE — magazine scale */
+.pullquote { padding: 8rem 4rem; background: var(--paper); text-align: center; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.pullquote-inner { max-width: 1100px; margin: 0 auto; }
+.pullquote-mark { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 6rem; color: var(--silver); line-height: 0.4; display: block; margin-bottom: 1rem; }
+.pullquote blockquote { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 300; font-size: clamp(1.8rem, 3.8vw, 3.2rem); line-height: 1.25; color: var(--ink); margin-bottom: 3rem; letter-spacing: -0.005em; }
+.pullquote blockquote em { font-style: normal; color: var(--mid); }
+.pullquote .attrib { font-size: 0.62rem; letter-spacing: 0.4em; text-transform: uppercase; color: var(--muted); }
+.pullquote .attrib::before { content: '— '; }
+
+/* FILMS */
+.films-section { padding: 8rem 4rem; background: var(--white); }
+.section-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 3.5rem; flex-wrap: wrap; gap: 1.5rem; }
+.section-header .label { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.6rem; }
+.section-header h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 3.5vw, 2.9rem); font-weight: 300; letter-spacing: -0.005em; }
+.section-header h2 em { font-style: italic; }
+.section-header a { font-size: 0.62rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; transition: all 0.3s; }
+.section-header a:hover { color: var(--ink); border-color: var(--ink); }
+.films-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2px; background: var(--border); }
+.film-card { position: relative; overflow: hidden; background: var(--bg); cursor: pointer; }
+.film-card img { width: 100%; height: 320px; object-fit: cover; display: block; transition: transform 0.8s ease, filter 0.5s; filter: grayscale(0.2); }
+.film-card:hover img { transform: scale(1.05); filter: grayscale(0); }
+.film-card-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(17,17,17,0.78) 0%, transparent 55%); display: flex; flex-direction: column; justify-content: flex-end; padding: 1.8rem; opacity: 0; transition: opacity 0.4s; }
+.film-card:hover .film-card-overlay { opacity: 1; }
+.film-card-overlay h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 400; color: #fff; }
+.film-card-overlay h3 em { font-style: italic; font-weight: 300; }
+.film-card-overlay span { font-size: 0.58rem; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-top: 0.4rem; }
+.film-card-big { grid-column: span 2; }
+.film-card-big img { height: 440px; }
+
+/* HIGHLIGHTS — magazine vertical gallery */
+.highlights { padding: 9rem 4rem; background: var(--paper); }
+.highlights-header { text-align: center; margin-bottom: 5rem; }
+.highlights-header .label { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.2rem; }
+.highlights-header h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.4rem, 5vw, 4rem); font-weight: 300; line-height: 1.05; letter-spacing: -0.01em; }
+.highlights-header h2 em { font-style: italic; color: var(--mid); }
+.highlights-header p { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.15rem; color: var(--mid); margin-top: 1.5rem; max-width: 520px; margin-left: auto; margin-right: auto; line-height: 1.55; }
+.highlights-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; max-width: 1400px; margin: 0 auto; }
+.highlight { position: relative; overflow: hidden; }
+.highlight img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 1s ease, filter 0.6s; filter: grayscale(0.18) contrast(0.97); }
+.highlight:hover img { transform: scale(1.04); filter: grayscale(0) contrast(1); }
+.h-tall { aspect-ratio: 3/4.4; }
+.h-port { aspect-ratio: 3/4; }
+.h-sq   { aspect-ratio: 1/1.05; }
+.h-1 { grid-column: 1; grid-row: 1 / span 2; }
+.h-2 { grid-column: 2; grid-row: 1; }
+.h-3 { grid-column: 3; grid-row: 1 / span 2; }
+.h-4 { grid-column: 4; grid-row: 1; }
+.h-5 { grid-column: 2; grid-row: 2; }
+.h-6 { grid-column: 4; grid-row: 2; }
+.highlights-foot { text-align: center; margin-top: 4rem; }
+.highlights-foot a { font-size: 0.62rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--ink); padding-bottom: 0.35rem; transition: opacity 0.3s; }
+.highlights-foot a:hover { opacity: 0.55; }
+
+
+
+/* DEPARTMENT / CRÉDITOS */
+.credits { padding: 8rem 4rem; background: var(--white); }
+.credits-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 5rem; align-items: start; }
+.credits-left .label { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.2rem; }
+.credits-left h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 3.4vw, 2.8rem); font-weight: 300; line-height: 1.1; letter-spacing: -0.005em; }
+.credits-left h2 em { font-style: italic; color: var(--mid); }
+.credits-list { display: grid; grid-template-columns: 1fr; gap: 0; }
+.credits-list .row { display: grid; grid-template-columns: 0.9fr 1.1fr; padding: 1.2rem 0; border-bottom: 1px solid var(--border); align-items: baseline; }
+.credits-list .row:first-child { border-top: 1px solid var(--border); }
+.credits-list .role { font-size: 0.62rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--muted); }
+.credits-list .name { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; font-weight: 400; color: var(--ink); }
+.credits-list .name em { font-style: italic; color: var(--mid); font-weight: 300; }
+
+/* PASOS */
+.steps-section { padding: 9rem 4rem; background: var(--paper); }
+.steps-section .label { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.2rem; text-align: center; }
+.steps-section > h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.2rem, 4.2vw, 3.4rem); font-weight: 300; text-align: center; margin-bottom: 1.2rem; letter-spacing: -0.01em; }
+.steps-section > h2 em { font-style: italic; color: var(--mid); }
+.steps-intro { text-align: center; font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.1rem; font-weight: 300; color: var(--mid); line-height: 1.7; max-width: 520px; margin: 0 auto 5rem; }
+.steps-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--border); }
+.step { padding: 3rem 2.5rem 3rem 2rem; border-right: 1px solid var(--border); transition: background 0.3s; }
+.step:last-child { border-right: none; }
+.step:hover { background: var(--bg2); }
+.step-num { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 3.2rem; font-weight: 300; color: var(--silver); line-height: 1; margin-bottom: 1.8rem; display: block; transition: color 0.3s; }
+.step:hover .step-num { color: var(--ink); }
+.step h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 400; margin-bottom: 1rem; line-height: 1.3; }
+.step p { font-size: 0.85rem; font-weight: 300; line-height: 1.9; color: var(--mid); }
+.step-cta { margin-top: 4rem; text-align: center; }
+.btn-dark { display: inline-flex; align-items: center; gap: 0.8rem; background: var(--ink); color: var(--bg); text-decoration: none; font-size: 0.66rem; font-weight: 400; letter-spacing: 0.28em; text-transform: uppercase; padding: 1.15rem 2.6rem; transition: all 0.3s; }
+.btn-dark:hover { background: var(--mid); }
+.btn-dark svg { width: 16px; height: 16px; fill: var(--bg); }
+
+/* PACKAGES */
+.packages { padding: 9rem 4rem; background: var(--bg); }
+.packages .label { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.2rem; }
+.packages > h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.2rem, 4.2vw, 3.4rem); font-weight: 300; margin-bottom: 0.8rem; letter-spacing: -0.01em; }
+.packages > h2 em { font-style: italic; color: var(--mid); }
+.packages .intro { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.1rem; color: var(--mid); font-weight: 300; max-width: 440px; margin-bottom: 4rem; line-height: 1.6; }
+
+/* TESTIMONIALS */
+.testimonials { padding: 9rem 4rem; background: var(--white); }
+.testimonials .label { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.2rem; text-align: center; }
+.testimonials > h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.2rem, 4vw, 3.2rem); font-weight: 300; margin-bottom: 4rem; text-align: center; letter-spacing: -0.01em; }
+.testimonials > h2 em { font-style: italic; color: var(--mid); }
+.testimonials-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2px; background: var(--border); max-width: 1300px; margin: 0 auto; }
+.testi-card { padding: 3rem 2.4rem; background: var(--white); }
+.stars { color: var(--ink); font-size: 0.7rem; margin-bottom: 1.6rem; letter-spacing: 0.18em; }
+.testi-card p { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.15rem; line-height: 1.7; color: var(--ink); margin-bottom: 2rem; }
+.testi-author { font-size: 0.62rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+.testi-author strong { display: block; color: var(--ink); font-weight: 400; margin-bottom: 0.25rem; font-size: 0.75rem; letter-spacing: 0.14em; }
+
+/* CTA */
+.cta-section { padding: 11rem 4rem; text-align: center; background: var(--ink); position: relative; overflow: hidden; }
+.cta-section::before { content: ''; position: absolute; inset: 0; background-image: url('https://i.imgur.com/WrHJvsx.jpeg'); background-size: cover; background-position: center; opacity: 0.1; filter: grayscale(1); }
+.cta-content { position: relative; z-index: 2; max-width: 720px; margin: 0 auto; }
+.cta-content .label { font-size: 0.58rem; letter-spacing: 0.45em; text-transform: uppercase; color: var(--silver); margin-bottom: 1.8rem; }
+.cta-content h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.8rem, 6vw, 5rem); font-weight: 300; line-height: 1.05; margin-bottom: 1.8rem; color: var(--bg); letter-spacing: -0.01em; }
+.cta-content h2 em { font-style: italic; color: var(--silver); }
+.cta-content p { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.15rem; font-weight: 300; color: var(--silver); margin-bottom: 3.5rem; line-height: 1.6; }
+.cta-buttons { display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap; }
+.btn-wpp { display: inline-flex; align-items: center; gap: 0.8rem; background: #25D366; color: #062914; text-decoration: none; font-size: 0.66rem; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; padding: 1.2rem 2.6rem; transition: all 0.3s; }
+.btn-wpp:hover { background: #1fbe5b; transform: translateY(-2px); }
+.btn-wpp svg { width: 16px; height: 16px; fill: #062914; }
+.btn-outline-light { display: inline-flex; align-items: center; border: 1px solid rgba(245,242,237,0.32); color: var(--bg); text-decoration: none; font-size: 0.66rem; letter-spacing: 0.24em; text-transform: uppercase; padding: 1.2rem 2.6rem; transition: all 0.3s; }
+.btn-outline-light:hover { border-color: var(--bg); }
+
+/* FOOTER */
+footer { padding: 3rem 4rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; background: var(--paper); }
+footer .logo { font-size: 1rem; }
+footer p { font-size: 0.62rem; color: var(--muted); letter-spacing: 0.12em; }
+footer a { color: var(--muted); text-decoration: none; font-size: 0.62rem; transition: color 0.3s; letter-spacing: 0.22em; text-transform: uppercase; }
+footer a:hover { color: var(--ink); }
+.footer-links { display: flex; gap: 2rem; }
+
+/* ANIMATIONS */
+@keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* STICKY WPP */
+.sticky-wpp { position: fixed; bottom: 2rem; right: 2rem; z-index: 200; background: #25D366; width: 54px; height: 54px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s; text-decoration: none; box-shadow: 0 2px 14px rgba(37,211,102,0.3); }
+.sticky-wpp:hover { transform: scale(1.1); }
+.sticky-wpp svg { width: 24px; height: 24px; fill: #fff; }
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .highlights-grid { grid-template-columns: repeat(2, 1fr); }
+  .h-1, .h-2, .h-3, .h-4, .h-5, .h-6 { grid-column: auto; grid-row: auto; }
+}
+@media (max-width: 960px) {
+  nav { padding: 1.2rem 1.8rem; }
+  .hero { grid-template-columns: 1fr; min-height: auto; }
+  .hero-left { padding: 5rem 2rem 5rem; }
+  .hero-left::before, .hero-left::after { left: 2rem; }
+  .hero-right { height: 70vw; }
+  .philosophy { grid-template-columns: 1fr; gap: 3rem; padding: 6rem 2rem; }
+  .philosophy-img img { height: 420px; }
+  .steps-grid { grid-template-columns: 1fr 1fr; }
+  .step { border-bottom: 1px solid var(--border); }
+  .step:nth-child(2n) { border-right: none; }
+  .films-grid { grid-template-columns: 1fr 1fr; }
+  .film-card-big { grid-column: span 2; }
+  .testimonials-grid { grid-template-columns: 1fr; background: none; gap: 1px; }
+  .testi-card { border: 1px solid var(--border); }
+  .credits-inner { grid-template-columns: 1fr; gap: 3rem; }
+  .packages, .testimonials, .reel-section, .steps-section, .films-section, .cta-section, .highlights, .pullquote, .press, .credits { padding-left: 2rem; padding-right: 2rem; }
+  footer { flex-direction: column; align-items: flex-start; }
+}
+@media (max-width: 600px) {
+  .hero-left { padding: 4rem 1.5rem; }
+  .hero-left::before, .hero-left::after { left: 1.5rem; }
+  .films-grid { grid-template-columns: 1fr; background: none; gap: 1px; }
+  .film-card-big { grid-column: span 1; }
+  .film-card-big img, .film-card img { height: 260px; }
+  .steps-grid { grid-template-columns: 1fr; }
+  .step { border-right: none; border-bottom: 1px solid var(--border); }
+  .hero h1 { font-size: 2.8rem; }
+  .cta-buttons { flex-direction: column; align-items: center; }
+  nav { padding: 1rem 1.2rem; }
+  .press-row { gap: 1.8rem 2.5rem; }
+}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X5MVLGP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav>
+  <a href="#" class="logo">Hearts <em>on</em> Film</a>
+  <a href="#hablemos" class="cta-nav">Hablemos</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-left">
+    <p class="eyebrow">Videografía Cinematográfica de Bodas</p>
+    <h1>Tu historia<br>merece ser <em>eterna.</em></h1>
+    <p class="lede">Capturamos la emoción real de tu boda — no solo imágenes, sino el latido de cada momento que vivirás para siempre.</p>
+    <a href="https://wa.link/jn1uep" class="btn-primary" target="_blank">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Cuéntanos de su boda
+    </a>
+    <p class="trust-line">Te respondemos personalmente en menos de 24&nbsp;h · Sin compromiso</p>
+  </div>
+  <div class="hero-right">
+    <img src="https://i.imgur.com/P7kBb6f.jpeg" alt="Boda cinematográfica Monterrey">
+    <div class="hero-credits">
+      <span>Vol. 07 / Issue 04</span>
+      <span><strong>Valeria &amp; Pablo</strong></span>
+      <span>Cancún, MX · MMXXV</span>
+    </div>
+  </div>
+</section>
+
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>Videografía Cinematográfica</span><span class="dot">✦</span>
+    <span>Bodas en Monterrey</span><span class="dot">✦</span>
+    <span>Edición Artística</span><span class="dot">✦</span>
+    <span>Color Grading</span><span class="dot">✦</span>
+    <span>Nuevo León &amp; Destino</span><span class="dot">✦</span>
+    <span>Hearts on Film</span><span class="dot">✦</span>
+    <span>Videografía Cinematográfica</span><span class="dot">✦</span>
+    <span>Bodas en Monterrey</span><span class="dot">✦</span>
+    <span>Edición Artística</span><span class="dot">✦</span>
+    <span>Color Grading</span><span class="dot">✦</span>
+    <span>Nuevo León &amp; Destino</span><span class="dot">✦</span>
+    <span>Hearts on Film</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<section class="stats-bar">
+  <div class="stat">
+    <span class="stat-num">8<em> años</em></span>
+    <span class="stat-label">Experiencia profesional en videografía de bodas</span>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat">
+    <span class="stat-num"><em>MTY</em></span>
+    <span class="stat-label">& destino</span>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat">
+    <span class="stat-num">5.0<em> ★</em></span>
+    <span class="stat-label">Reseñas verificadas</span>
+  </div>
+</section>
+
+<section class="philosophy">
+  <div class="philosophy-img">
+    <img src="https://i.imgur.com/U69PuvL.jpeg" alt="Novia en boda cinematográfica" loading="lazy">
+    <p class="caption">Silvia &amp; Héctor · Santiago, NL</p>
+  </div>
+  <div class="philosophy-text">
+    <p class="label">Nuestra filosofía</p>
+    <h2>Contamos<br><em>historias de amor.</em></h2>
+    <p>Cada boda tiene un ritmo propio, una luz única, emociones que no se pueden planear. Mi trabajo es estar presente en cada uno de esos instantes y convertirlos en algo que te haga sentir exactamente lo mismo que sentiste ese día.</p>
+    <p>Trabajo con un estilo cinematográfico, color grading detallado, música cuidadosamente elegida y una narrativa que captura la esencia de quiénes son como pareja.</p>
+  </div>
+</section>
+
+<section class="pullquote">
+  <div class="pullquote-inner">
+    <span class="pullquote-mark">"</span>
+    <blockquote>Siente de nuevo <em>lo que sentiste ese día.</em></blockquote>
+    <p class="attrib">Hearts on Film</p>
+  </div>
+</section>
+
+<section class="films-section">
+  <div class="section-header">
+    <div>
+      <p class="label">Nuestros films</p>
+      <h2>Bodas <em>recientes</em></h2>
+    </div>
+    <a href="https://www.instagram.com/hearts.on.film/" target="_blank">Ver más en Instagram →</a>
+  </div>
+  <div class="films-grid" style="background-color: rgb(255, 255, 255)">
+    <div class="film-card film-card-big">
+      <img src="https://i.imgur.com/uFY3Cii.jpeg" alt="Boda Valeria & Pablo" loading="lazy">
+      <div class="film-card-overlay"><h3>Valeria <em>&amp;</em> Pablo</h3><span>Hotel Palladium · Cancún, MX</span></div>
+    </div>
+    <div class="film-card">
+      <img src="https://i.imgur.com/PiLTeVq.jpeg" alt="Boda Silvia & Héctor" loading="lazy">
+      <div class="film-card-overlay"><h3>Silvia <em>&amp;</em> Héctor</h3><span>Fábrica El Porvenir · Santiago, NL</span></div>
+    </div>
+    <div class="film-card">
+      <img src="https://i.imgur.com/1FwdKkc.jpeg" alt="Boda Nidia & Fili" loading="lazy">
+      <div class="film-card-overlay"><h3>Nidia <em>&amp;</em> Fili</h3><span>Stock and Woods · Santiago, NL</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="highlights">
+  <div class="highlights-header">
+    <p class="label">Highlights</p>
+    <h2>Fragmentos<br>de <em>luz y emoción</em></h2>
+    <p>Una selección de momentos que viven entre el silencio y la euforia — pequeños detalles que cuentan la historia completa.</p>
+  </div>
+  <div class="highlights-grid">
+    <div class="highlight h-1 h-tall"><img src="https://i.imgur.com/KUtporm.jpeg" alt="Highlight 1" loading="lazy"></div>
+    <div class="highlight h-2 h-port"><img src="https://i.imgur.com/12a9YgI.jpeg" alt="Highlight 2" loading="lazy"></div>
+    <div class="highlight h-3 h-tall"><img src="https://i.imgur.com/wk48jQO.jpeg" alt="Highlight 3" loading="lazy"></div>
+    <div class="highlight h-4 h-port"><img src="https://i.imgur.com/hJbwIhA.jpeg" alt="Highlight 4" loading="lazy"></div>
+    <div class="highlight h-5 h-sq"><img src="https://i.imgur.com/IKtPpEB.jpeg" alt="Highlight 5" loading="lazy"></div>
+    <div class="highlight h-6 h-sq"><img src="https://i.imgur.com/6cMZqPm.jpeg" alt="Highlight 6" loading="lazy"></div>
+  </div>
+  <div class="highlights-foot">
+    <a href="https://www.instagram.com/hearts.on.film/" target="_blank">Ver el archivo completo →</a>
+  </div>
+</section>
+
+
+
+<section class="credits">
+  <div class="credits-inner">
+    <div class="credits-left">
+      <p class="label">El equipo</p>
+      <h2>Un estudio <em>boutique,</em><br>una historia a la vez.</h2>
+    </div>
+    <div class="credits-list">
+      <div class="row"><span class="role">Director / DOP</span><span class="name">Hearts <em>on</em> Film</span></div>
+      <div class="row"><span class="role">Cinematografía</span><span class="name">Cámara <em>principal &amp; secundaria</em></span></div>
+      <div class="row"><span class="role">Sonido en directo</span><span class="name">Lavalier <em>&amp;</em> ambient</span></div>
+      <div class="row"><span class="role">Color Grading</span><span class="name">DaVinci <em>Resolve Studio</em></span></div>
+      <div class="row"><span class="role">Edición &amp; Narrativa</span><span class="name">In-house <em>post</em></span></div>
+      <div class="row"><span class="role">Cobertura</span><span class="name">Nuevo León <em>&amp; destino</em></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="steps-section">
+  <p class="label">El proceso</p>
+  <h2>Así trabajamos <em>juntos</em></h2>
+  <p class="steps-intro">Desde el primer mensaje hasta que tengas tu película en mano, te acompañamos en cada paso.</p>
+  <div class="steps-grid">
+    <div class="step">
+      <span class="step-num">01</span>
+      <h3>Nos conocemos</h3>
+      <p>Escríbenos por WhatsApp. Agendamos una llamada de 20 minutos para conocer su historia, su estilo y lo que sueñan para su boda.</p>
+    </div>
+    <div class="step">
+      <span class="step-num">02</span>
+      <h3>Reservamos tu fecha</h3>
+      <p>Una vez que decidimos trabajar juntos, separamos tu fecha con un anticipo. Trabajamos con pocas bodas al año para dar atención total a cada pareja.</p>
+    </div>
+    <div class="step">
+      <span class="step-num">03</span>
+      <h3>El día de tu boda</h3>
+      <p>Llegamos antes que nadie y nos quedamos hasta el final. Capturamos cada detalle, emoción y momento espontáneo con discreción y sensibilidad cinematográfica.</p>
+    </div>
+    <div class="step">
+      <span class="step-num">04</span>
+      <h3>Tu película llega</h3>
+      <p>En 6 a 10 semanas recibes tu film terminado: editado, con color grading, música y una narrativa que contará su historia para siempre.</p>
+    </div>
+  </div>
+  <div class="step-cta">
+    <a href="https://wa.link/jn1uep" class="btn-dark" target="_blank">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Empezar el proceso
+    </a>
+  </div>
+</section>
+
+<section class="testimonials">
+  <p class="label">Lo que dicen nuestras novias</p>
+  <h2>Palabras que nos <em>llenan el corazón</em></h2>
+  <div class="testimonials-grid">
+    <div class="testi-card">
+      <p class="stars">★★★★★</p>
+      <p>"Estoy llorando volví a revivir ese día! Muchas gracias por su trabajo!! Nos encanto todo lo que hicieron!"</p>
+      <div class="testi-author"><strong>Valeria &amp; Pablo</strong></div>
+    </div>
+    <div class="testi-card">
+      <p class="stars">★★★★★</p>
+      <p>"Gracias por capturar tanta magia"</p>
+      <div class="testi-author"><strong>Silvia &amp; Héctor</strong></div>
+    </div>
+    <div class="testi-card">
+      <p class="stars">★★★★★</p>
+      <p>"No tenía idea de que iba a quedar tan bonito. Cada vez que lo veo siento todo otra vez, es como regresar a ese día."</p>
+      <div class="testi-author"><strong>Isabella Rodríguez</strong>García, Nuevo León</div>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="faq-header">
+    <p class="label">Antes de escribirnos</p>
+    <h2>Lo que <em>se preguntan</em><br>casi todas las novias</h2>
+  </div>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary><span>¿Cuánto cuesta una boda con ustedes?</span><span class="faq-plus">+</span></summary>
+      <div class="faq-body"><p>Cada boda es distinta — duración, locaciones, número de eventos — así que armamos una propuesta personalizada después de conocer su historia. Nuestros films arrancan desde un rango medio-alto del mercado en Monterrey, pensados para parejas que valoran la calidad cinematográfica por encima del volumen. Te mandamos cifras concretas en cuanto sepamos qué imaginan.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary><span>¿Qué incluye exactamente?</span><span class="faq-plus">+</span></summary>
+      <div class="faq-body"><p>Cobertura completa del día — desde los preparativos hasta el cierre de pista — con dos cámaras, sonido en directo y micrófonos lavalier para los votos. Recibes tu película final editada con color grading profesional, música licenciada y una narrativa cuidada. Algunos paquetes incluyen también el highlight corto para redes y el trailer.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary><span>¿En cuánto tiempo nos entregan el film?</span><span class="faq-plus">+</span></summary>
+      <div class="faq-body"><p>Entre 6 y 10 semanas después de la boda. Trabajamos pocas bodas al año precisamente para poder dedicarle el tiempo que merece a cada edición — sin atajos, sin plantillas.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary><span>¿Viajan a bodas fuera de Monterrey?</span><span class="faq-plus">+</span></summary>
+      <div class="faq-body"><p>Sí. Filmamos regularmente en San Miguel de Allende, Valle de Bravo, Cancún, Tulum y CDMX. También hemos cubierto bodas internacionales. Los viáticos se cotizan transparente dentro de la propuesta.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary><span>¿Trabajan con fotógrafos?</span><span class="faq-plus">+</span></summary>
+      <div class="faq-body"><p>Con muchísimo gusto. Tenemos colegas fotógrafos con los que llevamos años colaborando y la dinámica es fluida — pero igual nos coordinamos perfecto con el equipo que ya hayan elegido. Lo importante es no estorbarnos y que ustedes vivan su boda.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary><span>¿Cómo reservamos la fecha?</span><span class="faq-plus">+</span></summary>
+      <div class="faq-body"><p>Después de la llamada, si todo hace clic, firmamos un contrato sencillo y reservan con un anticipo del 30%. Trabajamos máximo una boda por fin de semana, así que las fechas de temporada alta se cierran con varios meses de anticipación.</p></div>
+    </details>
+  </div>
+</section>
+
+<section class="packages" id="hablemos">
+  <p class="label">Hablemos sin compromiso</p>
+  <h2>Cuéntennos su <em>historia</em></h2>
+  <p class="intro">Llenen el formulario con calma — entre más nos cuenten, mejor podemos imaginar su boda. Respondemos personalmente en menos de 24&nbsp;h.</p>
+  <div style="max-width: 660px;">
+    <iframe data-tally-src="https://tally.so/embed/81pgP5?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0" title="Formulario Hearts on Film"></iframe>
+    <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-content">
+    <p class="label">¿Conversamos?</p>
+    <h2>Si llegaste hasta aquí,<br>algo <em>hizo clic.</em></h2>
+    <p>No tienes que decidir nada hoy. Escríbenos por WhatsApp, cuéntanos un poco de ustedes y vemos si somos el equipo indicado para acompañarlos. Sin cotizaciones disparadas, sin presión — solo una conversación.</p>
+    <div class="cta-buttons">
+      <a href="https://wa.link/jn1uep" class="btn-wpp" target="_blank">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Escríbeme por WhatsApp
+      </a>
+      <a href="https://www.instagram.com/hearts.on.film/" class="btn-outline-light" target="_blank">Ver trabajo en Instagram</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a href="#" class="logo">Hearts <em>on</em> Film</a>
+  <p>© 2025 · Videografía de Bodas · Monterrey, NL</p>
+  <div class="footer-links">
+    <a href="https://www.instagram.com/hearts.on.film/" target="_blank">Instagram</a>
+    <a href="https://wa.link/jn1uep" target="_blank">WhatsApp</a>
+  </div>
+</footer>
+
+<a href="https://wa.link/jn1uep" class="sticky-wpp" target="_blank">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+</body>
+</html>

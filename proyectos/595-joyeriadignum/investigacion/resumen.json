@@ -1,0 +1,91 @@
+{
+  "sitio": "https://joyeriadignum.com/",
+  "fecha": "2026-09-26T09:01:27.576Z",
+  "motor": "jina-reader",
+  "slug": "joyeriadignum",
+  "nombre": "Joyería Dignum",
+  "rubro": "RETAIL",
+  "ciudad": "Guadalajara, Jalisco",
+  "plantilla": "negocio-local",
+  "paginasRevisadas": [
+    {
+      "url": "https://joyeriadignum.com/",
+      "titulo": "Joyería fina con asesoría en Guadalajara · Magno Centro Joyero · Dignum"
+    },
+    {
+      "url": "https://joyeriadignum.com/anillos-de-compromiso",
+      "titulo": "Anillos de compromiso en Guadalajara · Diamante certificado y oro 10k · Dignum"
+    },
+    {
+      "url": "https://joyeriadignum.com/argollas-de-matrimonio",
+      "titulo": "Argollas de matrimonio en Guadalajara · Para padrinos y novios · Oro 10k · Dignum"
+    },
+    {
+      "url": "https://joyeriadignum.com/cadenas-y-collares",
+      "titulo": "Cadenas de oro en Guadalajara · 10k y 14k · Hombre y mujer · Dignum"
+    },
+    {
+      "url": "https://joyeriadignum.com/aretes-y-pulseras",
+      "titulo": "Aretes y pulseras de oro en Guadalajara · 10k con asesoría · Dignum"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "523316027259",
+      "+52 33 1466 5906"
+    ],
+    "emails": [
+      "direccion@joyeriadignum.com"
+    ],
+    "whatsapp": [
+      "wa.me/523316027259?text=Hola+Dignum%2C+me+gustar%C3%ADa+recibir+asesor%C3%ADa.)",
+      "wa.me/523316027259?text=Hola+Dignum%2C+quiero+agendar+una+cita+en+la+boutique.)",
+      "wa.me/523316027259?text=Hola+Dignum%2C+me+gustar%C3%ADa+recibir+asesor%C3%ADa+para+una+pieza.)",
+      "wa.me/523316027259?text=Hola+Dignum%2C+me+gustar%C3%ADa+recibir+asesor%C3%ADa.)[direccion@joyeriadignum.com](mailto:direccion@joyeriadignum.com)[Lun",
+      "wa.me/523316027259?text=Hola+Dignum%2C+quiero+un+anillo+de+compromiso.+Les+cuento+mi+historia%3A)",
+      "wa.me/523316027259?text=Hola+Dignum%2C+somos+pareja+y+queremos+elegir+nuestras+argollas.)",
+      "wa.me/523316027259?text=Hola+Dignum%2C+busco+argollas+de+matrimonio.+%C2%BFMe+mandan+2+opciones%3F)",
+      "wa.me/523316027259?text=Hola+Dignum%2C+busco+una+cadena+de+oro.+%C2%BFMe+proponen+2+opciones%3F)",
+      "wa.me/523316027259?text=Hola+Dignum%2C+busco+aretes+o+pulseras.+%C2%BFMe+proponen+2+opciones%3F)"
+    ],
+    "redes": [
+      "https://www.instagram.com/dignum.mx/",
+      "https://www.facebook.com/share/1EmmrkB1vx/",
+      "https://www.tiktok.com/@smartjewelry_"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://joyeriadignum.com/img/logos/wordmark-on-dark_hu_e54974427f6205a2.webp",
+      "alt": "Image 1: Dignum · Hazlo digno"
+    },
+    {
+      "src": "https://joyeriadignum.com/img/home/hero-1_hu_3c76a92f145feb63.webp",
+      "alt": "Image 2: Asesoría de joyería en la boutique Dignum, Magno Centro Joyero, Guadalajara"
+    },
+    {
+      "src": "https://joyeriadignum.com/img/arch.png",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://joyeriadignum.com/img/testimonios/elizabeth-sierra.jpg",
+      "alt": "Image 5: Elizabeth Sierra"
+    },
+    {
+      "src": "https://joyeriadignum.com/img/categorias/anillos-de-compromiso/principal_hu_bfe3658bccee1ba4.webp",
+      "alt": "Image 2: Anillos de compromiso — Dignum, joyería en Guadalajara"
+    },
+    {
+      "src": "https://joyeriadignum.com/img/categorias/argollas-de-matrimonio/principal_hu_c99e55653c6fdcbe.webp",
+      "alt": "Image 2: Argollas de matrimonio — Dignum, joyería en Guadalajara"
+    },
+    {
+      "src": "https://joyeriadignum.com/img/categorias/cadenas-y-collares/principal_hu_e173a7ca601e38fb.webp",
+      "alt": "Image 2: Cadenas y collares — Dignum, joyería en Guadalajara"
+    },
+    {
+      "src": "https://joyeriadignum.com/img/categorias/aretes-y-pulseras/principal_hu_a606bdab3509286c.webp",
+      "alt": "Image 2: Aretes y pulseras — Dignum, joyería en Guadalajara"
+    }
+  ]
+}

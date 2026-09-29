@@ -1,0 +1,135 @@
+{
+  "sitio": "https://www.bacalar.com.mx/",
+  "fecha": "2026-09-26T05:09:12.889Z",
+  "motor": "jina-reader",
+  "slug": "azulbacalar",
+  "nombre": "Azul Bacalar",
+  "rubro": "INMUEBLES",
+  "ciudad": "Bacalar, Quintana Roo",
+  "plantilla": "inmobiliaria",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.bacalar.com.mx/",
+      "titulo": "Venta de terrenos departamentos y casas en Bacalar"
+    },
+    {
+      "url": "https://www.bacalar.com.mx/servicios-inmobiliarios-en-bacalar/",
+      "titulo": "Servicios Inmobiliarios en Bacalar"
+    },
+    {
+      "url": "https://www.bacalar.com.mx/por-que-invertir-en-bacalar/",
+      "titulo": "Por qué invertir en Bacalar"
+    },
+    {
+      "url": "https://www.bacalar.com.mx/desarrollos-inmobiliarios-en-bacalar/",
+      "titulo": "Desarrollos Inmobiliarios en Bacalar"
+    },
+    {
+      "url": "https://www.bacalar.com.mx/acerca-de-azul-bacalar-venta-de-propiedades-en-bacalar/",
+      "titulo": "Acerca de Azul Bacalar Venta de propiedades en Bacalar"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 55 10 48 95 76",
+      "+525510489576",
+      "529841675437",
+      "20200831064547",
+      "301871170",
+      "205470535141192",
+      "3369260810077224566"
+    ],
+    "emails": [
+      "info@azulbacalar.com"
+    ],
+    "whatsapp": [
+      "whatsapp.com/send/?phone=529841675437&text&type=phone_number&app_absent=0)",
+      "whatsapp.com/send/?phone=529841675437&text&type=phone_number&app_absent=0"
+    ],
+    "redes": [
+      "https://www.instagram.com/azul_bacalar"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.bacalar.com.mx/wp-content/uploads/2026/08/2xb20200831064547.png",
+      "alt": "Image 1: Inmobiliaria en Bacalar : Azul Bacalar"
+    },
+    {
+      "src": "https://www.bacalar.com.mx/wp-content/uploads/2025/03/invertirenbacalar4.png",
+      "alt": "Image 3: Venta de terrenos departamentos y casas en Bacalar"
+    },
+    {
+      "src": "https://www.bacalar.com.mx/wp-content/uploads/2025/03/invertirenbacalar2.png",
+      "alt": "Image 4: Venta de terrenos departamentos y casas en Bacalar"
+    },
+    {
+      "src": "https://www.bacalar.com.mx/wp-content/uploads/2025/03/invertirenbacalar3.png",
+      "alt": "Image 5: Venta de terrenos departamentos y casas en Bacalar"
+    },
+    {
+      "src": "https://www.bacalar.com.mx/wp-content/uploads/2025/03/invertirenbacalar5.png",
+      "alt": "Image 6: Venta de terrenos departamentos y casas en Bacalar"
+    },
+    {
+      "src": "https://www.bacalar.com.mx/wp-content/uploads/2024/04/301871170_205470535141192_3369260810077224566_n.jpg",
+      "alt": "Image 7: Venta de terrenos departamentos y casas en Bacalar"
+    },
+    {
+      "src": "https://bacalar.com.mx/wp-content/uploads/2024/04/logo-horizontal-300x153.png",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://bacalar.com.mx/wp-content/uploads/2024/04/GrupoBakal_logotipo_RGB_sinfondo-300x173.webp",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://www.azulbacalar.com/wp-content/uploads/2025/03/ecoparque.png",
+      "alt": "Image 3: Por qué invertir en Bacalar"
+    },
+    {
+      "src": "https://www.azulbacalar.com/wp-content/uploads/2025/03/trenmaya.png",
+      "alt": "Image 4: Por qué invertir en Bacalar"
+    },
+    {
+      "src": "https://www.azulbacalar.com/wp-content/uploads/2025/03/balneario.png",
+      "alt": "Image 5: Por qué invertir en Bacalar"
+    },
+    {
+      "src": "https://www.azulbacalar.com/wp-content/uploads/2025/03/fuerte.png",
+      "alt": "Image 7: Por qué invertir en Bacalar"
+    },
+    {
+      "src": "https://www.azulbacalar.com/wp-content/uploads/2025/03/aeropuerto-chetumal.png",
+      "alt": "Image 9: Por qué invertir en Bacalar"
+    },
+    {
+      "src": "https://www.azulbacalar.com/wp-content/uploads/2025/03/aeropuertotulum.png",
+      "alt": "Image 11: Por qué invertir en Bacalar"
+    },
+    {
+      "src": "https://www.azulbacalar.com/wp-content/uploads/2025/03/Ichkabal.png",
+      "alt": "Image 13: Por qué invertir en Bacalar"
+    },
+    {
+      "src": "https://www.azulbacalar.com/wp-content/uploads/2025/03/royalcaribbean.png",
+      "alt": "Image 15: Por qué invertir en Bacalar"
+    },
+    {
+      "src": "https://www.bacalar.com.mx/wp-content/uploads/2024/04/casadepiedra.png",
+      "alt": "Image 3: CASA DE PIEDRA Venta de departamentos en Bacalar"
+    },
+    {
+      "src": "https://www.bacalar.com.mx/wp-content/uploads/2024/04/malena.png",
+      "alt": "Image 5: MALENA Venta de departamentos en Bacalar"
+    },
+    {
+      "src": "https://www.bacalar.com.mx/wp-content/uploads/2024/04/laguna2.jpg",
+      "alt": "Image 3: Acerca de Azul Bacalar Venta de propiedades en Bacalar"
+    },
+    {
+      "src": "https://www.bacalar.com.mx/wp-content/uploads/2024/04/laguna3.jpg",
+      "alt": "Image 4: Acerca de Azul Bacalar Venta de propiedades en Bacalar"
+    }
+  ]
+}

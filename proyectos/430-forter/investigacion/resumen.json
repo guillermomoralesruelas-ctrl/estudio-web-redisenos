@@ -1,0 +1,170 @@
+{
+  "sitio": "https://forter.mx/",
+  "fecha": "2026-09-26T07:47:34.186Z",
+  "motor": "jina-reader",
+  "slug": "forter",
+  "nombre": "Forter",
+  "rubro": "RETAIL",
+  "ciudad": "Hermosillo, Sonora",
+  "plantilla": "negocio-local",
+  "paginasRevisadas": [
+    {
+      "url": "https://forter.mx/",
+      "titulo": "FORTER · Material de Construcción y Prefabricados en Hermosillo"
+    },
+    {
+      "url": "https://forter.mx/block",
+      "titulo": "Block Gris por Tarima en Hermosillo | 12×20×40 y 15×20×40"
+    },
+    {
+      "url": "https://forter.mx/vigueta",
+      "titulo": "Vigueta y Bovedilla en Hermosillo | FORTER"
+    },
+    {
+      "url": "https://forter.mx/cemento",
+      "titulo": "Cemento Gris y Mortero en Hermosillo | FORTER"
+    },
+    {
+      "url": "https://forter.mx/acero",
+      "titulo": "Varilla, Armex y Malla en Hermosillo | Precio por Pieza | FORTER"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "662) 280 0212",
+      "662) 280 0012",
+      "662) 118 7788",
+      "+526622800212",
+      "+526622800012",
+      "+526621187788"
+    ],
+    "emails": [],
+    "whatsapp": [],
+    "redes": [
+      "https://www.facebook.com/forterhermosillo",
+      "https://www.instagram.com/fortermx"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://forter.mx/mark.png",
+      "alt": "Image 1: FORTER"
+    },
+    {
+      "src": "https://forter.mx/wordmark-red.png",
+      "alt": "Image 2: FORTER"
+    },
+    {
+      "src": "https://forter.mx/img/hero-forter.webp",
+      "alt": "Image 3: Letrero de la planta de FORTER Bloquera en Hermosillo, Sonora"
+    },
+    {
+      "src": "https://forter.mx/wordmark-white.png",
+      "alt": "Image 5: FORTER"
+    },
+    {
+      "src": "https://forter.mx/img/block.webp",
+      "alt": "Image 3: Block gris en Hermosillo — FORTER Hermosillo"
+    },
+    {
+      "src": "https://forter.mx/img/productos/block-gris-12-20-40.webp",
+      "alt": "Image 4: Block gris común de 12 × 20 × 40 cm fabricado por FORTER"
+    },
+    {
+      "src": "https://forter.mx/img/productos/block-gris-15-20-40.webp",
+      "alt": "Image 5: Block gris común de 15 × 20 × 40 cm fabricado por FORTER"
+    },
+    {
+      "src": "https://forter.mx/img/block-yard.webp",
+      "alt": "Image 6: Block FORTER en Hermosillo"
+    },
+    {
+      "src": "https://forter.mx/img/vigueta-sm.webp",
+      "alt": "Image 7: Vigueta FORTER en Hermosillo"
+    },
+    {
+      "src": "https://forter.mx/img/cemento-truck-sm.webp",
+      "alt": "Image 8: Cemento FORTER en Hermosillo"
+    },
+    {
+      "src": "https://forter.mx/images/varilla.webp",
+      "alt": "Image 9: Acero FORTER en Hermosillo"
+    },
+    {
+      "src": "https://forter.mx/img/vigueta.webp",
+      "alt": "Image 3: Vigueta y bovedilla en Hermosillo — FORTER Hermosillo"
+    },
+    {
+      "src": "https://forter.mx/img/productos/vigueta-v11.webp",
+      "alt": "Image 4: Viguetas pretensadas V11 de concreto estibadas en planta"
+    },
+    {
+      "src": "https://forter.mx/img/productos/vigueta-v16.webp",
+      "alt": "Image 5: Viguetas pretensadas V16 de concreto estibadas en planta"
+    },
+    {
+      "src": "https://forter.mx/img/productos/bovedilla-11.webp",
+      "alt": "Image 6: Bovedillas de 1.22 × 0.61 × 0.11 m apiladas"
+    },
+    {
+      "src": "https://forter.mx/img/productos/bovedilla-16.webp",
+      "alt": "Image 7: Bovedillas de 1.22 × 0.61 × 0.16 m apiladas"
+    },
+    {
+      "src": "https://forter.mx/img/vigueta-bed.webp",
+      "alt": "Image 8: Vigueta FORTER en Hermosillo"
+    },
+    {
+      "src": "https://forter.mx/img/block-sm.webp",
+      "alt": "Image 9: Block FORTER en Hermosillo"
+    },
+    {
+      "src": "https://forter.mx/img/cemento-truck.webp",
+      "alt": "Image 3: Cemento y mortero en Hermosillo — FORTER Hermosillo"
+    },
+    {
+      "src": "https://forter.mx/img/productos/cemento-gris-campana-25kg.webp",
+      "alt": "Image 4: Bulto de cemento gris Campana de 25 kg"
+    },
+    {
+      "src": "https://forter.mx/img/productos/mortero-optimo-25kg.webp",
+      "alt": "Image 5: Bulto de Mortero Óptimo Campana de 25 kg"
+    },
+    {
+      "src": "https://forter.mx/img/cemento-pour.webp",
+      "alt": "Image 6: Cemento FORTER en Hermosillo"
+    },
+    {
+      "src": "https://forter.mx/img/productos/varilla-3-8.webp",
+      "alt": "Image 4: Atado de varilla corrugada de 3/8 de pulgada"
+    },
+    {
+      "src": "https://forter.mx/img/productos/varilla-1-2.webp",
+      "alt": "Image 5: Atado de varilla corrugada de 1/2 pulgada"
+    },
+    {
+      "src": "https://forter.mx/img/productos/armex-castillo-15-15-4.webp",
+      "alt": "Image 6: Armex electrosoldado para castillos en línea de producción"
+    },
+    {
+      "src": "https://forter.mx/img/productos/armex-cadena-15-20-4.webp",
+      "alt": "Image 7: Armex Cadena 15/20/4 de sección rectangular visto de frente"
+    },
+    {
+      "src": "https://forter.mx/img/productos/malla-electrosoldada-66-10-10.webp",
+      "alt": "Image 8: Rollos de malla electrosoldada 6/6/10/10 apilados"
+    },
+    {
+      "src": "https://forter.mx/img/productos/alambre-recocido.webp",
+      "alt": "Image 9: Rollos de alambre recocido para amarres"
+    },
+    {
+      "src": "https://forter.mx/img/productos/alambron.webp",
+      "alt": "Image 10: Rollo de alambrón para habilitado de estribos"
+    },
+    {
+      "src": "https://forter.mx/images/armex.webp",
+      "alt": "Image 11: Acero FORTER en Hermosillo"
+    }
+  ]
+}

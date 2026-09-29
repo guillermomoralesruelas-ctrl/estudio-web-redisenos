@@ -1,0 +1,70 @@
+{
+  "sitio": "https://heartsonfilm.com/",
+  "fecha": "2026-09-26T08:15:34.264Z",
+  "motor": "jina-reader",
+  "slug": "heartsonfilm",
+  "nombre": "Hearts on Film",
+  "rubro": "SERVICIOS",
+  "ciudad": "Monterrey, Nuevo León",
+  "plantilla": "negocio-local",
+  "paginasRevisadas": [
+    {
+      "url": "https://heartsonfilm.com/",
+      "titulo": "Hearts on Film · Videografía de Bodas en Monterrey"
+    }
+  ],
+  "contacto": {
+    "telefonos": [],
+    "emails": [],
+    "whatsapp": [],
+    "redes": [
+      "https://www.instagram.com/hearts.on.film/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://i.imgur.com/P7kBb6f.jpeg",
+      "alt": "Image 1: Boda cinematográfica Monterrey"
+    },
+    {
+      "src": "https://i.imgur.com/U69PuvL.jpeg",
+      "alt": "Image 2: Novia en boda cinematográfica"
+    },
+    {
+      "src": "https://i.imgur.com/uFY3Cii.jpeg",
+      "alt": "Image 3: Boda Valeria & Pablo"
+    },
+    {
+      "src": "https://i.imgur.com/PiLTeVq.jpeg",
+      "alt": "Image 4: Boda Silvia & Héctor"
+    },
+    {
+      "src": "https://i.imgur.com/1FwdKkc.jpeg",
+      "alt": "Image 5: Boda Nidia & Fili"
+    },
+    {
+      "src": "https://i.imgur.com/KUtporm.jpeg",
+      "alt": "Image 6: Highlight 1"
+    },
+    {
+      "src": "https://i.imgur.com/12a9YgI.jpeg",
+      "alt": "Image 7: Highlight 2"
+    },
+    {
+      "src": "https://i.imgur.com/wk48jQO.jpeg",
+      "alt": "Image 8: Highlight 3"
+    },
+    {
+      "src": "https://i.imgur.com/hJbwIhA.jpeg",
+      "alt": "Image 9: Highlight 4"
+    },
+    {
+      "src": "https://i.imgur.com/IKtPpEB.jpeg",
+      "alt": "Image 10: Highlight 5"
+    },
+    {
+      "src": "https://i.imgur.com/6cMZqPm.jpeg",
+      "alt": "Image 11: Highlight 6"
+    }
+  ]
+}

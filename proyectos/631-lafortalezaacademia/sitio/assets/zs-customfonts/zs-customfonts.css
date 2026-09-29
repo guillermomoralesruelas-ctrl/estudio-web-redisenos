@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Jost Forta I';
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+    src: url('/zs-customfonts/Jost Forta I/1939912000000010161-500-italic.ttf');
+}
+@font-face {
+    font-family: 'Jost Forta';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('/zs-customfonts/Jost Forta/1939912000000010123-500-normal.ttf');
+}
+@font-face {
+    font-family: 'Metropolis Forta';
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+    src: url('/zs-customfonts/Metropolis Forta/1939912000000010091-800-italic.otf');
+}
+@font-face {
+    font-family: 'Metropolis Forta R';
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    src: url('/zs-customfonts/Metropolis Forta R/1939912000000008983-800-normal.otf');
+}

@@ -1,0 +1,104 @@
+{
+  "sitio": "https://hiya.mx/",
+  "fecha": "2026-09-26T08:16:57.337Z",
+  "motor": "jina-reader",
+  "slug": "hiya",
+  "nombre": "Hiya",
+  "rubro": "GASTRONOMIA",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "restaurante-bar",
+  "paginasRevisadas": [
+    {
+      "url": "https://hiya.mx/",
+      "titulo": "Hiya"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "6760426139",
+      "2024-03-14",
+      "202024-02-27",
+      "2013.39.22",
+      "2013.39.24"
+    ],
+    "emails": [],
+    "whatsapp": [],
+    "redes": [
+      "https://www.instagram.com/hiya.winebar/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65cd6f0e87afb36227dac22a_LOGOTIPO%20(malcriado",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65cd7118a87fbf277fa67a7a_1.HIYA_logo_verde.png",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65cd71b30f0cf35e992a0a63_1.HIYA_logo_washi.png",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/661d6030b9081d1cd92904b5_HIYAespacio23%20copie.jpg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65ef1d2c0f6c574ba32a1f82_Hiya-menu-titles2.png",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65ef1d2c8b61386f33a8d6c1_Hiya-menu-titles3.png",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65ef1d2b1cf6776bde78620d_Hiya-menu-titles4.png",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65ef1d2af752afaa784c7503_Hiya-menu-titles5.png",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65f382c043079a66c82d3b5c_Screenshot_2024-03-14_at_17.05.22-removebg-preview.png",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65ef1d2aa351babe1af5becd_Hiya-menu-titles6.png",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65ef1d2ae4defb9f74debe39_Hiya-menu-titles8.png",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65ef1d2af752afaa784c750f_Hiya-menu-titles9.png",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65ef1d29698b5e561b2ddd35_Hiya-menu-titles10.png",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65ef1d2aeb7cafcd27f13690_Hiya-menu-titles11.png",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65ef1d2cf74452bb3ee4fef8_Hiya-menu-titles.png",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65de7e8f94d7411f859a823f_WhatsApp%20Image%202024-02-27%20at%2013.39.22%20(6",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65de7ea3736a53263645a0bf_WhatsApp%20Image%202024-02-27%20at%2013.39.24.jpeg",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/65cd6f0e87afb36227dac220/65de7ea240c9ff82a5f5647e_WhatsApp%20Image%202024-02-27%20at%2013.39.24%20(3",
+      "alt": "Image 29"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "sitio": "https://institutokingston.com.mx/",
+  "fecha": "2026-09-26T09:09:23.940Z",
+  "motor": "jina-reader",
+  "slug": "kingstoninstitute",
+  "nombre": "Kingston Institute",
+  "rubro": "EDUCACION",
+  "ciudad": "Torreón, Coahuila",
+  "plantilla": "educacion",
+  "paginasRevisadas": [
+    {
+      "url": "https://institutokingston.com.mx/",
+      "titulo": "Clases de Inglés en Torreón y Online | Kingston Institute"
+    },
+    {
+      "url": "https://institutokingston.com.mx/index.html",
+      "titulo": "Clases de Inglés en Torreón y Online | Kingston Institute"
+    },
+    {
+      "url": "https://institutokingston.com.mx/cursos.html",
+      "titulo": "Cursos de Inglés en Torreón y Online — Kingston Institute"
+    },
+    {
+      "url": "https://institutokingston.com.mx/certificaciones.html",
+      "titulo": "Certificaciones Cambridge y TOEFL en Torreón — Kingston Institute"
+    },
+    {
+      "url": "https://institutokingston.com.mx/nosotros.html",
+      "titulo": "Nosotros — Kingston Institute, 20 años enseñando inglés en Torreón"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "528714650985",
+      "871 465 0985"
+    ],
+    "emails": [
+      "contacto@institutokingston.com.mx"
+    ],
+    "whatsapp": [
+      "wa.me/528714650985?text=Hola%2C%20quiero%20mis%203%20clases%20GRATIS%20de%20ingl%C3%A9s)[Ver",
+      "wa.me/528714650985?text=Hola%2C%20quiero%20mis%203%20clases%20GRATIS%20de%20ingl%C3%A9s)",
+      "wa.me/528714650985)",
+      "wa.me/528714650985?text=Hola%2C%20quiero%20informes%20de%20los%20cursos%20de%20Kingston%20Institute)",
+      "wa.me/528714650985?text=Hola%2C%20quiero%20informes%20sobre%20certificaciones%20en%20Kingston%20Institute)",
+      "wa.me/528714650985?text=Hola%2C%20quiero%20informes%20de%20Kingston%20Institute)"
+    ],
+    "redes": [
+      "https://www.facebook.com/institutodeingles.kingstontorreon",
+      "https://www.instagram.com/ingles_kingston_torreon/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://institutokingston.com.mx/img/clases-de-ingles-torreon-salon.jpg",
+      "alt": "Image 1: Alumnos practicando conversación en inglés en un salón de Kingston Institute Torreón"
+    },
+    {
+      "src": "https://institutokingston.com.mx/img/curso-ingles-conversacional-torreon.jpg",
+      "alt": "Image 2: Curso de inglés conversacional en Kingston Institute"
+    },
+    {
+      "src": "https://institutokingston.com.mx/img/curso-business-english-torreon.jpg",
+      "alt": "Image 3: Curso de Business English para profesionistas"
+    },
+    {
+      "src": "https://institutokingston.com.mx/img/curso-preparacion-toefl-torreon.jpg",
+      "alt": "Image 4: Curso de preparación para el examen TOEFL en Torreón"
+    },
+    {
+      "src": "https://institutokingston.com.mx/img/clases-ingles-ninos-torreon.jpg",
+      "alt": "Image 5: Clases de inglés para niños y adolescentes Kids and Teens"
+    },
+    {
+      "src": "https://institutokingston.com.mx/img/alumna-ana-garcia.jpg",
+      "alt": "Image 6: Ana García, alumna de Kingston Institute"
+    },
+    {
+      "src": "https://institutokingston.com.mx/img/alumno-carlos-mendoza.jpg",
+      "alt": "Image 7: Carlos Mendoza, alumno de Business English"
+    },
+    {
+      "src": "https://institutokingston.com.mx/img/alumna-sofia-hernandez.jpg",
+      "alt": "Image 8: Sofía Hernández, alumna de inglés conversacional"
+    }
+  ]
+}

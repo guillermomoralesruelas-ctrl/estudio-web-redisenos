@@ -1,0 +1,442 @@
+{
+  "sitio": "https://www.alcazarinmobiliaria.com/",
+  "fecha": "2026-09-26T04:45:57.237Z",
+  "motor": "jina-reader",
+  "slug": "alcazarinmobiliaria",
+  "nombre": "Alcázar Inmobiliaria",
+  "rubro": "INMUEBLES",
+  "ciudad": "Oaxaca de Juárez, Oaxaca",
+  "plantilla": "inmobiliaria",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.alcazarinmobiliaria.com/",
+      "titulo": "Bienvenido a Alcazar Inmobiliaria"
+    },
+    {
+      "url": "https://www.alcazarinmobiliaria.com/property/casa-siete-regiones",
+      "titulo": "CASA SIETE REGIONES"
+    },
+    {
+      "url": "https://www.alcazarinmobiliaria.com/properties",
+      "titulo": "Propiedades en venta"
+    },
+    {
+      "url": "https://www.alcazarinmobiliaria.com/rentals",
+      "titulo": "Propiedades en renta"
+    },
+    {
+      "url": "https://www.alcazarinmobiliaria.com/contact",
+      "titulo": "Contáctanos"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "9512368601",
+      "9513798170",
+      "5219513798170",
+      "61551608237840",
+      "1728349975",
+      "102065187",
+      "1771445183",
+      "104355136",
+      "1776048280",
+      "1716173854",
+      "1766021355",
+      "106937665",
+      "1781129496",
+      "1719631410",
+      "110642364",
+      "1788921694",
+      "106435015",
+      "1780028335",
+      "106435016",
+      "106435017",
+      "106435018",
+      "1780028336",
+      "106435019",
+      "106435020",
+      "106435022",
+      "1780028337",
+      "106435023",
+      "1780028339",
+      "106435024",
+      "106435025",
+      "1780028340",
+      "106435026",
+      "955959720",
+      "1778100166",
+      "+529513798170",
+      "000.00  \n  \n235",
+      "105900290",
+      "1779080872",
+      "106938105",
+      "1781129967",
+      "1764354095",
+      "1726960791",
+      "1755396395",
+      "102079268",
+      "1771456087",
+      "105066905",
+      "1777353715",
+      "8-3214-4776-9867-188",
+      "1724447880",
+      "110912483",
+      "1789499738",
+      "1737347752",
+      "1716173477",
+      "110729177",
+      "1789066884",
+      "110728999",
+      "1789066742",
+      "110728576",
+      "1789066529",
+      "110659116",
+      "1788974503",
+      "110290427",
+      "1788281513",
+      "102665314",
+      "1772594991",
+      "107985043",
+      "1783482278",
+      "107984568",
+      "1783481195",
+      "102551240",
+      "1772418910",
+      "106937887",
+      "1781129688",
+      "106822382",
+      "1780945336",
+      "106567839",
+      "1780380795",
+      "106567773",
+      "1780380575",
+      "106511526",
+      "1780277092",
+      "111256899",
+      "1790251859",
+      "111142778",
+      "1790038217",
+      "110157418",
+      "1787947416",
+      "111053970",
+      "1789782130",
+      "111046296",
+      "1789772463",
+      "110911944",
+      "1789499233",
+      "111139615",
+      "1790035567",
+      "106938612",
+      "1781130342",
+      "106938256",
+      "1781130118",
+      "1747030319",
+      "103898152",
+      "1774993659",
+      "110731750",
+      "1789068499",
+      "110667679",
+      "1788981244",
+      "110589338",
+      "1788873046",
+      "110383829",
+      "1788408637",
+      "1745084501"
+    ],
+    "emails": [
+      "inmueblesalcazar@gmail.com"
+    ],
+    "whatsapp": [
+      "wa.me/5219513798170)"
+    ],
+    "redes": [
+      "https://www.facebook.com/profile.php?id=61551608237840&mibextid=LQQJ4d"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://assets.easybroker.com/organization_files/113001/IMG_1375.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://assets.easybroker.com/organization_files/113001/IMG_8782.jpeg",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/4782161/80983259/EB-RJ2161.jpeg?height=300&s=2721796f40aefed0&version=1728349975&width=450",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5816976/102065187/EB-VI6976.png?height=300&s=348a5a94be56b060&version=1771445183&width=450",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5926553/104355136/EB-VT6553.jpeg?height=300&s=9d295339e25c1e94&version=1776048280&width=450",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/4491326/75221080/EB-QG1326.jpeg?height=300&s=514708c06cf96ff7&version=1716173854&width=450",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5706084/99720920/EB-UX6084.jpeg?height=300&s=2ef5ea4f85002b96&version=1766021355&width=450",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6049247/106937665/EB-WF9247.jpeg?height=300&s=8796b637520c1f41&version=1781129496&width=450",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/4578484/76884277/EB-QO8484.jpeg?height=300&s=2258ee33c33a03e3&version=1719631410&width=450",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6229325/110642364/EB-WX9325.jpeg?height=300&s=890bce7e1567d9bb&version=1788921694&width=450",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435015/EB-WD5461.jpeg?height=300&s=504073f043c64dd7&version=1780028335&width=450",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435016/EB-WD5461.jpeg?height=300&s=22151e5da0018f38&version=1780028335&width=450",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435017/EB-WD5461.jpeg?height=300&s=ca2df5dcbbbb752a&version=1780028335&width=450",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435018/EB-WD5461.jpeg?height=300&s=c0eef61dbf840cf4&version=1780028336&width=450",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435019/EB-WD5461.jpeg?height=300&s=029ed094ec4fed65&version=1780028336&width=450",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435020/EB-WD5461.jpeg?height=300&s=d374b55f5484fde3&version=1780028336&width=450",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435022/EB-WD5461.jpeg?height=300&s=79fa7e1af07baab3&version=1780028337&width=450",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435023/EB-WD5461.jpeg?height=300&s=28f28d6e70298679&version=1780028339&width=450",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435024/EB-WD5461.jpeg?height=300&s=8c875cdcafe16b09&version=1780028339&width=450",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435025/EB-WD5461.jpeg?height=300&s=00be7e5d81f12583&version=1780028340&width=450",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435026/EB-WD5461.jpeg?height=300&s=ba82ec955959720b&version=1780028340&width=450",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://www.alcazarinmobiliaria.com/themes/merida/images/btn-partner-img.png",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://assets.easybroker.com/organization_logos/113001/Saraface__scaled_.jpg?version=1778100166",
+      "alt": "Image 15: Inmobiliaria Alcazar"
+    },
+    {
+      "src": "https://www.easybroker.com/track/6025461.gif?source=www.alcazarinmobiliaria.com",
+      "alt": "Image 16: EB-WD5461"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6001708/105900290/EB-WB1708.jpeg?height=300&s=6bdcbe334005baa9&version=1779080872&width=450",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6049270/106938105/EB-WF9270.jpeg?height=300&s=bd2722271d471aa0&version=1781129967&width=450",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/4697583/79316072/EB-RA7583.jpeg?height=300&s=091497b016b945ad&version=1764354095&width=450",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/4752206/80361801/EB-RG2206.jpeg?height=300&s=c30e62e040bd3eb7&version=1726960791&width=450",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5454741/94462392/EB-TY4741.jpeg?height=300&s=618be34b5ea2b4c8&version=1755396395&width=450",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5817689/102079268/EB-VI7689.png?height=300&s=ab046ede5e0ac051&version=1771456087&width=450",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5962838/105066905/EB-VX2838.jpeg?height=300&s=0f4ef1d9d48f09c2&version=1777353715&width=450",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/4692560/79201077/EB-RA2560.jpeg?height=300&s=5cb920fcbc0ed080&version=1724447880&width=450",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6250483/110912483/EB-XA0483.jpeg?height=300&s=d9228a8efc52697f&version=1789499738&width=450",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/4972310/84891604/EB-SC2310.jpeg?height=300&s=011c481e9e85a65f&version=1737347752&width=450",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/4491321/75221023/EB-QG1321.jpeg?height=300&version=1716173477&width=450",
+      "alt": "Image 3: EB-QG1321"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6241870/110729177/EB-WZ1870.png?height=300&version=1789066884&width=450",
+      "alt": "Image 4: EB-WZ1870"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6241863/110728999/EB-WZ1863.png?height=300&version=1789066742&width=450",
+      "alt": "Image 5: EB-WZ1863"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6241847/110728576/EB-WZ1847.png?height=300&version=1789066529&width=450",
+      "alt": "Image 6: EB-WZ1847"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6230520/110659116/EB-WY0520.png?height=300&version=1788974503&width=450",
+      "alt": "Image 7: EB-WY0520"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6204597/110290427/EB-WV4597.jpeg?height=300&version=1788281513&width=450",
+      "alt": "Image 8: EB-WV4597"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5845230/102665314/EB-VL5230.jpeg?height=300&version=1772594991&width=450",
+      "alt": "Image 9: EB-VL5230"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6097441/107985043/EB-WK7441.jpeg?height=300&version=1783482278&width=450",
+      "alt": "Image 10: EB-WK7441"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6097422/107984568/EB-WK7422.png?height=300&version=1783481195&width=450",
+      "alt": "Image 11: EB-WK7422"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5839742/102551240/EB-VK9742.jpeg?height=300&version=1772418910&width=450",
+      "alt": "Image 12: EB-VK9742"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6049270/106938105/EB-WF9270.jpeg?height=300&version=1781129967&width=450",
+      "alt": "Image 13: EB-WF9270"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6049257/106937887/EB-WF9257.jpeg?height=300&version=1781129688&width=450",
+      "alt": "Image 14: EB-WF9257"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6049247/106937665/EB-WF9247.jpeg?height=300&version=1781129496&width=450",
+      "alt": "Image 15: EB-WF9247"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6043731/106822382/EB-WF3731.jpeg?height=300&version=1780945336&width=450",
+      "alt": "Image 16: EB-WF3731"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6031907/106567839/EB-WE1907.png?height=300&version=1780380795&width=450",
+      "alt": "Image 17: EB-WE1907"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6031906/106567773/EB-WE1906.png?height=300&version=1780380575&width=450",
+      "alt": "Image 18: EB-WE1906"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6029042/106511526/EB-WD9042.jpeg?height=300&version=1780277092&width=450",
+      "alt": "Image 19: EB-WD9042"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6025461/106435015/EB-WD5461.jpeg?height=300&version=1780028335&width=450",
+      "alt": "Image 20: EB-WD5461"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6266974/111256899/EB-XB6974.jpeg?height=300&s=3ae064b80cad9644&version=1790251859&width=450",
+      "alt": "Image 3: EB-XB6974"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6261425/111142778/EB-XB1425.jpeg?height=300&version=1790038217&width=450",
+      "alt": "Image 4: EB-XB1425"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6198418/110157418/EB-WU8418.jpeg?height=300&version=1787947416&width=450",
+      "alt": "Image 5: EB-WU8418"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6257348/111053970/EB-XA7348.jpeg?height=300&version=1789782130&width=450",
+      "alt": "Image 6: EB-XA7348"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6257023/111046296/EB-XA7023.jpeg?height=300&version=1789772463&width=450",
+      "alt": "Image 7: EB-XA7023"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6250483/110912483/EB-XA0483.jpeg?height=300&version=1789499738&width=450",
+      "alt": "Image 8: EB-XA0483"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6250449/110911944/EB-XA0449.jpeg?height=300&version=1789499233&width=450",
+      "alt": "Image 9: EB-XA0449"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6243084/111139615/EB-WZ3084.jpeg?height=300&version=1790035567&width=450",
+      "alt": "Image 10: EB-WZ3084"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6049293/106938612/EB-WF9293.jpeg?height=300&version=1781130342&width=450",
+      "alt": "Image 11: EB-WF9293"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6049277/106938256/EB-WF9277.jpeg?height=300&version=1781130118&width=450",
+      "alt": "Image 12: EB-WF9277"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5232246/90013541/EB-TC2246.jpeg?height=300&version=1747030319&width=450",
+      "alt": "Image 13: EB-TC2246"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5903986/103898152/EB-VR3986.jpeg?height=300&version=1774993659&width=450",
+      "alt": "Image 14: EB-VR3986"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6241996/110731750/EB-WZ1996.png?height=300&version=1789068499&width=450",
+      "alt": "Image 15: EB-WZ1996"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6230926/110667679/EB-WY0926.jpeg?height=300&version=1788981244&width=450",
+      "alt": "Image 16: EB-WY0926"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6229325/110642364/EB-WX9325.jpeg?height=300&version=1788921694&width=450",
+      "alt": "Image 17: EB-WX9325"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/6222589/110589338/EB-WX2589.jpeg?height=300&version=1788873046&width=450",
+      "alt": "Image 18: EB-WX2589"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5529030/110383829/EB-UF9030.png?height=300&version=1788408637&width=450",
+      "alt": "Image 19: EB-UF9030"
+    },
+    {
+      "src": "https://assets.easybroker.com/property_images/5184374/89090905/EB-SX4374.jpeg?height=300&version=1745084501&width=450",
+      "alt": "Image 20: EB-SX4374"
+    },
+    {
+      "src": "https://assets.easybroker.com/organization_files/113001/IMG_0016.jpeg",
+      "alt": "Image 3"
+    }
+  ]
+}

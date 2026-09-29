@@ -1,0 +1,407 @@
+{
+  "sitio": "https://labovedahotel.com/",
+  "fecha": "2026-09-26T09:15:39.066Z",
+  "motor": "jina-reader",
+  "slug": "labovedahotel",
+  "nombre": "La Bóveda Hotel",
+  "rubro": "HOSPEDAJE",
+  "ciudad": "Nochistlán, Zacatecas",
+  "plantilla": "hospedaje",
+  "paginasRevisadas": [
+    {
+      "url": "https://labovedahotel.com/",
+      "titulo": "Luxury Hotel in Historic Colonial Mansion in Nochistlán, Zacatecas | La Boveda Hotel"
+    },
+    {
+      "url": "https://labovedahotel.com/habitaciones",
+      "titulo": "Luxury Boutique Hotel in Nochistlan, Zacatecas - La Boveda Hotel | La Boveda Hotel"
+    },
+    {
+      "url": "https://labovedahotel.com/salon",
+      "titulo": "Luxury Event Space at La Boveda Hotel in Nochistlán, Zacatecas | La Boveda Hotel"
+    },
+    {
+      "url": "https://labovedahotel.com/historia",
+      "titulo": "Luxury Hotel in historic Nochistlán, Zacatecas, Pueblo Mágico. | La Boveda Hotel"
+    },
+    {
+      "url": "https://labovedahotel.com/en",
+      "titulo": "Luxury Hotel in Historic Colonial Mansion in Nochistlán, Zacatecas | La Boveda Hotel"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+523441036144",
+      "528.8536251709986",
+      "501.30916552667577",
+      "645.0572082379863",
+      "608.1967963386728",
+      "100070110456548",
+      "+52 344 103 6144",
+      "286.279012345679",
+      "156.32558139534885",
+      "8.64406779661017",
+      "4.533333333333333",
+      "313.84615384615387",
+      "198.46153846153848",
+      "748.6324237560193",
+      "404.0287769784173",
+      "256.40287769784175",
+      "682.88948787062",
+      "247.39331619537273",
+      "218.36246786632393",
+      "256.17391304347825",
+      "224.71395881006868",
+      "334.02591792656585",
+      "12.604751619870411",
+      "220.3640776699029",
+      "402.48275862068965",
+      "11.18007662835249",
+      "223.6206896551724",
+      "103.39863325740319",
+      "90.4738041002278",
+      "138.39024390243904",
+      "126.85772357723577",
+      "94.25641025641026",
+      "265.09615384615387",
+      "241.5320512820513",
+      "104.82889733840304",
+      "304.0038022813688",
+      "240.87749287749287",
+      "1891.7797246558198",
+      "109.93155258764608",
+      "1946.2505494505492",
+      "109.14662756598241",
+      "186.0923076923077",
+      "139.56923076923078",
+      "358.40000000000003",
+      "21-2687-498",
+      "641.4364640883978",
+      "438.56353591160223",
+      "289.89473684210526",
+      "193.26315789473685",
+      "482.4880733944954",
+      "451.2974828375286",
+      "529.8851963746224",
+      "1031.97281993205",
+      "301.48640483383684",
+      "1173.5266138165346",
+      "530.5263157894736",
+      "303.1578947368421",
+      "1318.7368421052631",
+      "1124.2264150943395",
+      "802.4581005586593",
+      "1279.3846153846152",
+      "801.2307692307693"
+    ],
+    "emails": [
+      "info@labovedahotel.com"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.instagram.com/",
+      "https://www.facebook.com/",
+      "https://www.tiktok.com/@labovedahotel",
+      "https://tiktok.com/@la.boveda.hotel",
+      "https://www.facebook.com/p/La-B%C3%B3veda-Hotel-Boutique-100070110456548/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=188,fit=crop,q=95/AwvkDq0MXysep2Ze/bovlogo-Aq2oqjyLPbtll1Pb.png",
+      "alt": "Image 1: La Boveda Hotel logo"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/AwvkDq0MXysep2Ze/img_1407_jpg-Yg29qZGgOEsgBLMk.jpeg",
+      "alt": "Image 9: black and white bed linen"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=548,h=544,fit=crop,trim=528.8536251709986;0;501.30916552667577;0/AwvkDq0MXysep2Ze/img_1401_jpg-m5KbL57KxOFRQZaq.jpeg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=301,fit=crop,trim=645.0572082379863;0;608.1967963386728;0/AwvkDq0MXysep2Ze/img_1401_jpg-m5KbL57KxOFRQZaq.jpeg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=612,h=440,fit=crop/AwvkDq0MXysep2Ze/img_2872_jpg-mk3zX5gKr9iL3LLm.jpeg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=264,fit=crop/AwvkDq0MXysep2Ze/img_2872_jpg-mk3zX5gKr9iL3LLm.jpeg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=161,h=109,fit=crop/AwvkDq0MXysep2Ze/bovlogo-Aq2oqjyLPbtll1Pb.png",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=146,h=103,fit=crop/AwvkDq0MXysep2Ze/bovlogo-Aq2oqjyLPbtll1Pb.png",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=540,h=360,fit=crop,trim=286.279012345679;0;286.279012345679;0/AwvkDq0MXysep2Ze/img_2933-mp8vO7gK43F0rqPM.jpeg",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=258,fit=crop,trim=0;156.32558139534885;0;156.32558139534885/AwvkDq0MXysep2Ze/img_2933-mp8vO7gK43F0rqPM.jpeg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=56,h=49,fit=crop,trim=8.64406779661017;0;8.64406779661017;0/AwvkDq0MXysep2Ze/clock-icon-AwvMeooEXktz337k.png",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=43,h=42,fit=crop,trim=4.533333333333333;0;4.533333333333333;0/AwvkDq0MXysep2Ze/clock-icon-AwvMeooEXktz337k.png",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=461,h=357,fit=crop,trim=313.84615384615387;0;198.46153846153848;748.6324237560193/AwvkDq0MXysep2Ze/img_1471_jpg-AMq4lBrKjRcE2oQ3.jpeg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=283,h=193,fit=crop,trim=404.0287769784173;0;256.40287769784175;682.88948787062/AwvkDq0MXysep2Ze/img_1471_jpg-AMq4lBrKjRcE2oQ3.jpeg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=29,h=24,fit=crop/AwvkDq0MXysep2Ze/icons8-buffet-breakfast-50-YD06z6q9QOtbMJeb.png",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=22,h=21,fit=crop/AwvkDq0MXysep2Ze/icons8-buffet-breakfast-50-YD06z6q9QOtbMJeb.png",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=32,h=21,fit=crop/AwvkDq0MXysep2Ze/linens-mP4non899Mtp9aG9.png",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=25,h=20,fit=crop/AwvkDq0MXysep2Ze/linens-mP4non899Mtp9aG9.png",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=28,h=28,fit=crop/AwvkDq0MXysep2Ze/icons8-soap-dispenser-50-A85w3w1N3WuVJ7g1.png",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=21,h=20,fit=crop/AwvkDq0MXysep2Ze/icons8-soap-dispenser-50-A85w3w1N3WuVJ7g1.png",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=24,h=22,fit=crop/AwvkDq0MXysep2Ze/icons8-television-100-mv0Do25jPbcK20xE.png",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=22,h=21,fit=crop/AwvkDq0MXysep2Ze/icons8-television-100-mv0Do25jPbcK20xE.png",
+      "alt": "Image 22"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=25,h=24,fit=crop/AwvkDq0MXysep2Ze/icons8-housekeeping-48-AzGenex9n7F0132E.png",
+      "alt": "Image 23"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=23,h=23,fit=crop/AwvkDq0MXysep2Ze/icons8-housekeeping-48-AzGenex9n7F0132E.png",
+      "alt": "Image 24"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=23,h=18,fit=crop/AwvkDq0MXysep2Ze/wifiicon-AGB6N6W9QjUZayJ8.png",
+      "alt": "Image 25"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=20,h=19,fit=crop/AwvkDq0MXysep2Ze/wifiicon-AGB6N6W9QjUZayJ8.png",
+      "alt": "Image 26"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=28,h=27,fit=crop/AwvkDq0MXysep2Ze/icons8-garage-48-A0xwQwPq44HZOwlQ.png",
+      "alt": "Image 27"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=23,h=22,fit=crop/AwvkDq0MXysep2Ze/icons8-garage-48-A0xwQwPq44HZOwlQ.png",
+      "alt": "Image 28"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=26,h=18,fit=crop/AwvkDq0MXysep2Ze/icons8-bed-100-YKb69EMBOZCVggR8.png",
+      "alt": "Image 29"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=22,h=21,fit=crop/AwvkDq0MXysep2Ze/icons8-bed-100-YKb69EMBOZCVggR8.png",
+      "alt": "Image 30"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=584,h=409,fit=crop,trim=247.39331619537273;0;218.36246786632393;0/AwvkDq0MXysep2Ze/b3c51d6a-055d-4368-b625-6fa73e66c6f7-YbN9Jkexq0hXyLOe.JPG",
+      "alt": "Image 31"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=223,fit=crop,trim=256.17391304347825;0;224.71395881006868;0/AwvkDq0MXysep2Ze/b3c51d6a-055d-4368-b625-6fa73e66c6f7-YbN9Jkexq0hXyLOe.JPG",
+      "alt": "Image 32"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=583,h=408,fit=crop,trim=334.02591792656585;0;12.604751619870411;220.3640776699029/AwvkDq0MXysep2Ze/img_2869-d95KNaalOKspJj5r.jpeg",
+      "alt": "Image 33"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=224,fit=crop,trim=402.48275862068965;0;11.18007662835249;223.6206896551724/AwvkDq0MXysep2Ze/img_2869-d95KNaalOKspJj5r.jpeg",
+      "alt": "Image 34"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=190,fit=crop/AwvkDq0MXysep2Ze/img_2933-mp8vO7gK43F0rqPM.jpeg",
+      "alt": "Image 35"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=190,fit=crop/AwvkDq0MXysep2Ze/img_2793-AR0yQV8XJKSyoOrq.jpeg",
+      "alt": "Image 36"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=190,fit=crop/AwvkDq0MXysep2Ze/img_2864-YNqynNQeRRtWKknr.jpeg",
+      "alt": "Image 37"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=585,h=409,fit=crop,trim=103.39863325740319;0;90.4738041002278;0/AwvkDq0MXysep2Ze/img_2922-mP4n600GV2FL4OWz.jpeg",
+      "alt": "Image 41"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=223,fit=crop,trim=138.39024390243904;0;126.85772357723577;0/AwvkDq0MXysep2Ze/img_2922-mP4n600GV2FL4OWz.jpeg",
+      "alt": "Image 42"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=191,fit=crop/AwvkDq0MXysep2Ze/img_2457_jpg-YbNvxRMWpGUQ71bk.jpeg",
+      "alt": "Image 43"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=191,fit=crop/AwvkDq0MXysep2Ze/img_1470-dOqy2G6QzbhglV62.jpeg",
+      "alt": "Image 44"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=191,fit=crop/AwvkDq0MXysep2Ze/img_2864-YNqynNQeRRtWKknr.jpeg",
+      "alt": "Image 45"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=141,h=141,fit=crop/AwvkDq0MXysep2Ze/img_2872_jpg-mk3zX5gKr9iL3LLm.jpeg",
+      "alt": "Image 49"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=141,h=141,fit=crop/AwvkDq0MXysep2Ze/img_2871_jpg-dOqywNnnVWFgoQoP.jpeg",
+      "alt": "Image 50"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=141,h=141,fit=crop/AwvkDq0MXysep2Ze/img_2622-m7VwNkQGRMHPxPMB.jpeg",
+      "alt": "Image 51"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=141,h=141,fit=crop/AwvkDq0MXysep2Ze/img_2623-2-YBgrV0POGZuxQkVJ.JPG",
+      "alt": "Image 52"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=583,h=407,fit=crop,trim=94.25641025641026;0;265.09615384615387;241.5320512820513/AwvkDq0MXysep2Ze/img_2820-mP4n6kvZExivQz2l.jpeg",
+      "alt": "Image 53"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=224,fit=crop,trim=104.82889733840304;0;304.0038022813688;240.87749287749287/AwvkDq0MXysep2Ze/img_2820-mP4n6kvZExivQz2l.jpeg",
+      "alt": "Image 54"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=140,h=140,fit=crop/AwvkDq0MXysep2Ze/img_2822-mP4noO8WovSGEL7G.jpeg",
+      "alt": "Image 55"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=140,h=140,fit=crop/AwvkDq0MXysep2Ze/img_2830-AMqbGeyGRvCnqvr8.JPG",
+      "alt": "Image 56"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=140,h=140,fit=crop/AwvkDq0MXysep2Ze/img_2823-AQEyMx2WW8iZRppE.jpeg",
+      "alt": "Image 57"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=140,h=140,fit=crop/AwvkDq0MXysep2Ze/img_1416-YKbrEe0559SEekMN.jpeg",
+      "alt": "Image 58"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=576,h=403,fit=crop,trim=1891.7797246558198;0;0;109.93155258764608/AwvkDq0MXysep2Ze/img_2823-dOqyjkl4rZC08v12.jpeg",
+      "alt": "Image 59"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=223,fit=crop,trim=1946.2505494505492;0;0;109.14662756598241/AwvkDq0MXysep2Ze/img_2823-dOqyjkl4rZC08v12.jpeg",
+      "alt": "Image 60"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/AwvkDq0MXysep2Ze/img_1381-YBg4eQBqpviaa19b.jpeg",
+      "alt": "Image 9: an abstract photo of a curved building with a blue sky in the background"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=406,fit=crop,trim=186.0923076923077;0;139.56923076923078;0/AwvkDq0MXysep2Ze/img_1485-YNqrPa8q4guB15Ov.jpeg",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=270,fit=crop,trim=0;0;0;358.40000000000003/AwvkDq0MXysep2Ze/img_1485-YNqrPa8q4guB15Ov.jpeg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=294,h=294,fit=crop/AwvkDq0MXysep2Ze/c9f02cdb-f1f0-4925-9e84-10256e6b2804-Awvk93XG99ToblaW.jpg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=294,h=294,fit=crop/AwvkDq0MXysep2Ze/a0d9cf21-2687-498e-a635-62e852940f89-YZ9bjorwkOF8vnJP.JPG",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=294,h=294,fit=crop/AwvkDq0MXysep2Ze/1cec4ad3-d562-4b4b-bc21-f6985ef35ef3-mePnJo0NGKcXE271.jpg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=294,h=294,fit=crop/AwvkDq0MXysep2Ze/8e6a5745-e2a9-47ba-b26a-e66cd2712375-AQEpZwGMe3Czz6GV.jpg",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=543,h=362,fit=crop,trim=641.4364640883978;0;438.56353591160223;0/AwvkDq0MXysep2Ze/img_1401_jpg-m5KbL57KxOFRQZaq.jpeg",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=285,h=295,fit=crop,trim=289.89473684210526;0;193.26315789473685;0/AwvkDq0MXysep2Ze/img_1401_jpg-m5KbL57KxOFRQZaq.jpeg",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=409,h=409,fit=crop,trim=482.4880733944954;0;482.4880733944954;0/AwvkDq0MXysep2Ze/img_1397_jpg-2-YKbrlvLwj2haXEwX.JPG",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=336,fit=crop,trim=451.2974828375286;0;451.2974828375286;0/AwvkDq0MXysep2Ze/img_1397_jpg-2-YKbrlvLwj2haXEwX.JPG",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=400,h=480,fit=crop,trim=529.8851963746224;1031.97281993205;301.48640483383684;1173.5266138165346/AwvkDq0MXysep2Ze/img_1638-YrDNWMQkGZUgGzMj.jpeg",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=206,h=289,fit=crop,trim=530.5263157894736;1152;303.1578947368421;1318.7368421052631/AwvkDq0MXysep2Ze/img_1638-YrDNWMQkGZUgGzMj.jpeg",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=263,h=344,fit=crop,trim=1124.2264150943395;802.4581005586593;0;0/AwvkDq0MXysep2Ze/img_1643-YX4blBL0VMID3BEY.jpeg",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=172,h=213,fit=crop,trim=1279.3846153846152;801.2307692307693;0;0/AwvkDq0MXysep2Ze/img_1643-YX4blBL0VMID3BEY.jpeg",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=240,h=240,fit=crop/AwvkDq0MXysep2Ze/img_1937_jpg-AGB4y7v9O9SqjzKB.JPG",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=240,h=240,fit=crop/AwvkDq0MXysep2Ze/img_4567-YBg4w583XrcvkJN6.JPG",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=240,h=240,fit=crop/AwvkDq0MXysep2Ze/img_2036-mxB7b083P1sNXWJO.JPG",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=240,h=240,fit=crop/AwvkDq0MXysep2Ze/img_5063_jpg-d95g9y3V6nf619Za.JPG",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=240,h=240,fit=crop/AwvkDq0MXysep2Ze/img_2043-mk39G0yagjuvOeKQ.JPG",
+      "alt": "Image 19"
+    }
+  ]
+}

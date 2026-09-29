@@ -1,0 +1,192 @@
+{
+  "sitio": "https://www.astridlarrondo.com/",
+  "fecha": "2026-09-26T09:28:10.877Z",
+  "motor": "jina-reader",
+  "slug": "lcpfastridlarrondo",
+  "nombre": "LCPF. ASTRID LARRONDO",
+  "rubro": "SERVICIOS",
+  "ciudad": "Tampico, Tamaulipas",
+  "plantilla": "negocio-local",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.astridlarrondo.com/",
+      "titulo": "LCPF. ASTRID LARRONDO"
+    },
+    {
+      "url": "https://www.astridlarrondo.com/qui%C3%A9nes-somos",
+      "titulo": "LCPF. ASTRID LARRONDO - Quiénes somos"
+    },
+    {
+      "url": "https://www.astridlarrondo.com/misi%C3%B3n-visi%C3%B3n-valores",
+      "titulo": "LCPF. ASTRID LARRONDO - Misión, Visión, Valores"
+    },
+    {
+      "url": "https://www.astridlarrondo.com/nuestros-servicios",
+      "titulo": "LCPF. ASTRID LARRONDO - Nuestros Servicios"
+    },
+    {
+      "url": "https://www.astridlarrondo.com/tutoriales-gratuitos",
+      "titulo": "LCPF. ASTRID LARRONDO - Tutoriales gratuitos"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "2023-2027",
+      "833 211 80 51",
+      "833 343 31 21",
+      "8333433121"
+    ],
+    "emails": [
+      "gala_despacho@hotmail.com"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.youtube.com/channel/UC_ECRLGY14I2s8pyA2CGHJg",
+      "https://www.youtube.com/watch?v=fgZYuPGkLJE",
+      "https://www.youtube.com/watch?v=G8wcNhaJkD0",
+      "https://www.youtube.com/watch?v=1TF5dsQXA-I",
+      "https://www.youtube.com/watch?v=E8p4zLmUPd4",
+      "https://www.youtube.com/watch?v=lQejfqQUiEc",
+      "https://www.youtube.com/watch?v=2qd0IVbdA_s",
+      "https://www.youtube.com/watch?v=DOvU-tUGEgw",
+      "https://www.youtube.com/watch?v=2pb1DaFmV5o",
+      "https://www.youtube.com/watch?v=DwP0LYWz7HU",
+      "https://www.youtube.com/watch?v=OeS7nwoUtQ0",
+      "https://www.youtube.com/watch?v=kRXSHtstnT8",
+      "https://www.youtube.com/watch?v=zeH5ay7wxKI",
+      "https://www.youtube.com/watch?v=JzXVbL0-Zmk",
+      "https://www.youtube.com/watch?v=F5RY-hEROwE",
+      "https://www.youtube.com/watch?v=gdykrV1xbFI",
+      "https://www.youtube.com/watch?v=o1IQ6A7qH_Y",
+      "https://www.youtube.com/watch?v=z7ldOBK_XsI",
+      "https://www.youtube.com/watch?v=ZaMCQ3dvTl0",
+      "https://www.youtube.com/channel/UC_ECRLGY14I2s8pyA2CGHJg](https://www.youtube.com/channel/UC_ECRLGY14I2s8pyA2CGHJg"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sYWcgeUIVC6Wg7Illw2VJ_BhCK7ukEJWDM8wzQe8qu4g8gPNbfDcMRkslHV2d0kjseaSqJEWXqiJr297hKU1MxBkFNcpDHNW-VaO20XmurwS5Mu9WxBfaCrFfraWQ-V6Ppb57Heb8lI_d_garDI0WLIgM9Ryn7ayae0tELX10VJTTQjP3wmXubqs7f=w16383",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ty4NKrgD7COyPFdehPnAEaojzsr8avMYaIXT4SZdLz8dV2NtcwLpapLZ0_SD4M7RNACh6C4lKiRvfThyEnKp5_HFS5kMuj43t8AhSH4ha8b-yh9Cc8Qbo2rG7Ek4IRl-MOg8ovdXn0FNuqbEZ3zIlO9Dii6afQ5DSQIIeT2s3CBTLtU5kvJGubkUU79YonGay-ygNu2SsXUqqCERLh4W5pXvfY5of_I6sLuKc6=w1280",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://ssl.gstatic.com/atari/images/sociallinks/tiktok_colored_light_44dp.png",
+      "alt": "Image 4: TikTok"
+    },
+    {
+      "src": "https://ssl.gstatic.com/atari/images/sociallinks/youtube_white_44dp.png",
+      "alt": "Image 5: YouTube"
+    },
+    {
+      "src": "https://ssl.gstatic.com/atari/images/sociallinks/facebook_white_44dp.png",
+      "alt": "Image 6: Facebook"
+    },
+    {
+      "src": "https://ssl.gstatic.com/atari/images/sociallinks/spotify_white_44dp.png",
+      "alt": "Image 7: Spotify"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tPjzFqcfaW7pFJtehdx-aVf6C-4ReopTdWWqy5854egNJ--DtwRTL9ZmZ6CD1yWEn5H-5se50B_AK8FrkXchoSZ-N9nYjniQAiG_zdl-h_J8mi926_cfTb5_B1L1idnLdjozR3UVOQg2gjYkNdJSE6WLHu2wwEJ4ewbB3DHG4lKVw9-Q-W3xlcSIZdgbMT5uT1b4FYk75bt5LZwupa5s68nnyeTy8v7vkActSEnck=w1280",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vqVD81Ebcpg0ka24nULNv-1xCyxRjv1afVbu3n1Po1ZlOAfHgMB1NQaFWM_6FTDDUeSRsC3X-ke5bBc-38SPORxVL-hz3DWISBZYZ2Wl9b5FToxjKIHRV6Y69azpmiN2e33V-qsnzQ-GZn9ToMvHU4eqdFWeSevkNn7UWWj3_e53Nr4eQiIReCoeKlGPchMbdW-7hL7abGZgzO6KK4edT-IpqnwW2T-tBanocT7Og=w1280",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vANzWjgs1p6FtOgqBnlQy5NWootfnxbnxmTga8J7jg3_EDUEYl1NHHh6uC3lbHGIySzkmPlF-hGdFvjALoGjd9eXCq99wHB-KxyL647zKAqidbmQZweD118a0rxTz9LmIfcOMRcU_ycDRI1-4vwLhWXLkRlzF9woVC3_aBAomPqsFMeQ5eNzv3C7wsfVfYiqa4vVs6L7_FhBvpq1-EfyVZ_aDqqTcVNki1icd3anQ=w1280",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vJ-BU-DHQbcbEsJR6Gd5qjTvqiJSgf9pRWg9xQTgWp7pHg-jf0Z9elOfv9oRD_yZyfe_2jaHKyZ5MLUx5_WElSwGRmCtAKLScjTEYOcluT4DW74jFqAghgAd8zjckuii9P41maQrrKmi5WS34-emjjBJWCzyjFzDG08T1vJoy3uFaHa8_E240nHpm3hHIqMfWUYevZBWVIRJReSXbbIbS0pJ1l0jFIaylDH78G=w1280",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tko47CxDCqCAGyeNd4fCjaKCwinu9VXbw1AUxy-gg7vUYMIsqCNIw_HYori_6ktiNFElayY55IptvjcKaTQJKn91wL_-DNli2CU-kKCMM3uufi6HeCHyeW3WyJTRjJvHdD8WAyg_VWGq0fhLUvXTj9RC9ucZrzMSUUiRifvOzLueZRcXsRc8glFFYxs5wBgBcDAmbOY4pJJM98rzJjK7loEBH9pmGOB5orWxfaACE=w1280",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vIVRpxTsYbPYvMzfoGDzysCoW6GUW4AlTo0omJwREPwjeENXih_Oy1JjYJNyHWShibevxoS2kYT6HLkH1IHJwL8aUXVJxOuHXQBqPjCofic3Ai3ZTeYtEH8Uluay3Gd8tXZKHtXr0mHLud_84Tc5uso28HmPK8Z4JDXTm_kaBpR8FvWtcT4xvoIttV5hMDlOFTuEjON0KmHYVgDRiXP_Gxt9N7970QQclvKpLogm4=w1280",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vLysa_3aXImerXOoBsyj28LVGP6Xjz7O8fkPK6DDC0C0dDl2SvfOYdF32Zy6ozwnrP9ZyaDkoRtFlwvquD1Z10NuHv6T1SJBCO5luwR9z_UhK2Kfp7GQFowGjCqsaft41yAxzxq5LBaaCD6jO1l1THTyJO4Jp1kjZZj8A0Ud49uUmXgNadZYHt51z65OzuYMO4Ibzkryay5AzuVyIcq6aAcqSzhNS5lJSDwjrP4SY=w1280",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sZq5BFNe9_YsX8MHlovgxcvpOzhwXlMW1zlmDW0nG8IdKFKKW5nFjL9JhtpkHGAW52ToHXK3tNPdPuxiR9wzQluh2oLL925GgK4HfGua_wqI0yyQfkCm6N4cqAZiX5zapJGLk0g-aKqKNtNzusaXLUBCftl5WrUaya89Jors5b7O2gqtD5rYqLY-rb0qVmHuMlTTEFm3l-2UANERJICPTXuRZcvnar-sm0atOlugc=w1280",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tIlLvSLmXs6OPwsxRc5d6rj-ec2H09gvUpgQOrg-bfWyYxyJuVmFV9wIWp78QrwXC-Ho6w_lhCTqxgcLIJbOcoDqbvRj3iLmv6pBLdTphZVWH1lYRlvMY18osoFM4by7kysy72PtNlKLwZ8ReEriMuqNJ12lLFuBqtc6h8CUNWIoxZN5eZbMIph6BcyR70kJ3i8SJJYnCFM-vXB14atdgpQe7ckFMWkLbmvSSGhyU=w1280",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tCnD00nPb_LoWSFYKlV6BK2L82y3u81qV7afs3a0IFyHGnpu3mosnqgOUnHgo2K-gtxz9jyLs7Sr0lj4MF1WAbs1-OyoFrV6c9ARe9P6ZQf3MBuHvELXhEnhbjo7gFEDaOPDbgx7e15VA3jTX0ttgUVXIqOgO_MogpO5cN-hg9iYYjeyJsfIdKBG6r=w16383",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tqe86KSh1b4bQZ-NOXw84FWZ7cEE-zi2c7DFJWp4Mw0sRJOndXgjtXEuzWD1b1CiIUwbLsvPXEfHVDSULKZzjQCN3BO3P7fH3ivMLDvDXJp32DF37Wk-ilIHV8Qd_d3QeglzFZjfEUatgP_JBwjtImhaUzxs2frFCzceFoUhbEgDvCOnVLqeXFQm8C0lmG8UTKPlonu__k8ffjxHMdy5DFdTDpVZbl1S7-1MdpR_s=w1280",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tCn0iK-XnDq9DotHsbr-Zmlu0iUUDc3DYssLDltxvQUO7ocyEYt-rEvsgAk6zMeQW8KyZlxQeIeg9pZA8mTpRynk6wQrkmpewy9byzWkXwZRSynOZroTSJ7iJThiJrvhU9tX-dt7nxSka2Q-Yvkv6x25XoCa3aazlHsEWliNKX78ph1HIqUU1UEPqcM_A5K3IuaJiBBwehBO5BFxWep1dn4cpfpLpuKxembR0E=w1280",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72svzqtHQWyE7N-_1aJ8-SoC2jhR1k6_YBL1aGpiXdi2xQtmBz_xmauRMjMvs8ky0C4sVmz3ewbcJxpt71yd-VEUid6yhwL5-Cju8R3os1ik_PUDPbJYw4vFdLMwJ6Nu2NoeNXdsBBPKzxHdc54-j_rt4CMEnAe6IHVXfaWFXArdLbecaIS2ArXE4iY4T43QljzKHuiGOxrZzg8GqwRaPv031dV-vWmkYtZen-0hiHM=w1280",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72solVDG7sYMcfme69rjaSwaqAEP0mN6lG5y0qyqGmdXfiAI4KlFynAVwrBZz8GSU5CuI6tilubjJ4D_tNV5ZEDLNQe7i64G5guhvAZLb8jEOeK2Wueg1jzSVVlRQaOZwfoEOxI_ZeOo1U9Uo12dNcTE5H4ytXSMWztlmPa_8uShZE8hu9BYETe4qRdnCQM92PPIUX83JvN76Wbk_A57TIsctIDWQCdtZJcjIQyj=w1280",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v_13ArbME2wf_3Wlr_LZ4L-WiVNBiROx1rhLd-14rGsZxgMCUCY-cHIJscM-0Dl_VS-3OnfdvjdCCffwKbIES4lc3On9pKn-ml4EKWe8iqp2RtjK44Zy4ZxSRqnpg4_XNEth2FceRdmPUN9KLhB7ysD6GIKBJMiLkMN_0McShXIUmVy0KPFiQfG0HjQ9lHvtXaczornbwsszo_UkOi87wE024LQDzGF92kzBZ9=w1280",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tbZVZ12wQEeRpxq0iHg-HlyK_EiXDKtGUDeydrxcDo-sAHDSLXPxV2LfBCeshDBO8xuj9u-wNOY54t2VBeqwDfersfdcwIhap4B6qBfv1CJNwxqL4OqVtC1g5gDQjq5-YCNHq267ArE9ZgQr3vCAW6xVxDvyqtb3oTSpvaAMuuSkqG6slpmkLGf6Pqi6JT_hxO1FyWihH4zHFEZTcVHAmDcOUozTHNUJciCJRCIGY=w1280",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vERv28kg18kOrdYLHphF_me4sDwIuWXdnmHqXgTSJgzEYgqhnR-9khLOVfgHqdkvJMtFRVpx64AfVCCdXtD7haczHy_O8oIAqJywzgaRnrOWvZGSnh-e6PnUQkxoYnLsFIAdIK4EUbYI0H66Z-zQL_Rg3S2b5sY15fAn5oZpQnV7IVMP7RGYc0KuVvq6ZSZBAyJFho1KN-4nFPwXsJhsAro2r5aPBFIFBZkCtK=w1280",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vLtm_tyes9w24OTygf8QxMgTxWD7Hl9BV4vBIy6SSXLFRW8-Au_MxkFsDQQG7f9C4VTpEY1lpwrZecPpupBMXZi15AF7IP9xjLOAdNf3TJWrTeqB_CQrSjpjIS8N11e5R537gP6lG2jqTQjAmdBSHM-WCFJ7NZfOrMSnQnWxjPXljX2aJqZV3Ad-c36rLhOSsJ259l4Wn5ox7cukanNvhTgiNyBmAopnmOPrMJgAw=w1280",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t-QtspN-90pVxYrSxoHDi28wb79OSHciS4OL75tFoUtHIBA-ZscToFgNtyQiigZzPsOHIwNtO0c6fHasuP8YuoTjJzqwH4RnHyYcgQvkM5EAFCvUkwsbhOi_MWa8n7eVF65RqdwnwdpeMxl_6-yThOX-EK6xT_7Gi0vd-Ji-h6M-_9tzR00mOKNKebIG4LJdQ-cURVvhSJ5Xa6xIEEIa8YCsnocov9QjPJTG7P=w1280",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u4Ig5WHYVsXGAdzRteEvk-irPz4VctcDZulYToNAwXfhn_VV0qJmjW3G_uXW12TkOhRVg7g9Z9fhj9KgAmrFC_CDjUp6-YhmJklXqeL-a5SSvcLrU3wpS59oM0E4ud6yNrtnfbN1LDK7Aqpa0glM0irXzRisMJzxAAO4LGp1GgGcl7Ccg4fi-LR9UKH5ca0oK4vKxHqufQv8cLg_KexALZswIUrU2eMCOfdk9-U5M=w1280",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v_qqxikEFIhw344SuimgQoGMDZ8LozkINSvBbQ6XhkjbSTPEhMiJogDBDATTdRJuF1rnIpf_NuWJRR_a5AEBnfQL_R7fqIhSKTT3Dk8aDYBFMxT8jVunUfzb3ENGQG26R6tqqhOEe3Kia0H0OX7ulJGpXRWavHOrzk8QlMFs3lVzQ4-2Jy493CIKhF0-Kk8ozDccbLt_V8hwy4hem-u0fvf807KQkqEUquNcKM=w1280",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tv-hpnLcQEYe9iQ96pbMbbhtx0sx9lXzYcnZLlNtcKjaHMVAeOEkOCJD-P65Yi1brZwJj3xMiH7ZTLKMmbQTS9um1lCpCQPzrO7KuTJ64R4LymDkTd0-7Grrqnuyk20Mcl9PM-eb4Lhw0F0ILEMOk2DROXqnwyUI688yRp9qgaRZ_Q_DECAAjWwJ5HMoirkC9td7YGgFGgFo-yOtd8wNsW-2TnxDaGuSmp8qxBjBk=w1280",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tL1btQHEJ0ctx_tgcDG9isEpDrVF-rDj2nldB_FtImYufXCQ4PqtKX87dnhrEoggZuw0k5Zpnyn7BOdvqu_TFV-QhTK3WYe0HlBoZWhz0JPgKMqLlKWty64B4yD1K9ZuzI3w7X075jKKattmrS5IAs90_FliFJMIvMv3MQraCpoaN0bMKK5VLrcrdwmhyDw2qJeqoVh69niIgYawE-aKKzcRUC8UK2B1hM8hdh86Q=w1280",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t4Tgsv0njJXDkvNNQAacGcRyTBJohNn5fOGOj2HHg4G2rS519DnJPq8IxqIeIHOoHmkOF_beN8Bh3TFKpayK6HJZuxyD4lzdhAQbuDZ9ovCCvl7jstqD1GJspXSfMx2QYThu-13MCPsnBEOpN_25YuBVuApPn_qbNqDjIxrq9hj5pQC-4jRlDjzIKPjxVCQgN7uTlpc1ES25LTnwerqZQnLRiYb7wVKZFbI1go=w1280",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sdiNarB6rWce_4nUqIGHqskcSNY9nuBnJqyjQLJqMB6HhlYt070Cb8UN8dvrwhVQtydTAZhgDPGee_L3usws_fS6IHAlm4B95L-UwLfsNA5el3tNefieks2dvC2__dmZPJUQXkXdn_JipRbzud70PuYq83X_1wXCbZRJST6DvkdX5_tmKKZ0w4fwP5s0hVzTJsodB2pd4ieUchX-NqAiOKtLccEdSy9r8_Ole9Tmw=w1280",
+      "alt": "Image 3"
+    }
+  ]
+}

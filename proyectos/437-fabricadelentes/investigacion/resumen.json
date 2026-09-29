@@ -1,0 +1,453 @@
+{
+  "sitio": "https://fabricadelentes.mx/",
+  "fecha": "2026-09-26T07:52:18.338Z",
+  "motor": "jina-reader",
+  "slug": "fabricadelentes",
+  "nombre": "Fábrica de Lentes",
+  "rubro": "SALUD",
+  "ciudad": "Guadalajara, Jalisco",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://fabricadelentes.mx/",
+      "titulo": "Fábrica de Lentes® — La Mejor Óptica en Guadalajara con Laboratorio Propio"
+    },
+    {
+      "url": "https://fabricadelentes.mx/lentes-graduados",
+      "titulo": "Lentes Graduados en Guadalajara desde $1,949 | Fábrica de Lentes®"
+    },
+    {
+      "url": "https://fabricadelentes.mx/contacto",
+      "titulo": "Contacto | Examen de la Vista Gratis en Guadalajara | Fábrica de Lentes®"
+    },
+    {
+      "url": "https://fabricadelentes.mx/lentes-de-contacto",
+      "titulo": "Lentes de Contacto en Guadalajara | Air Optix, Alcon | Fábrica de Lentes®"
+    },
+    {
+      "url": "https://fabricadelentes.mx/lentes-de-sol",
+      "titulo": "Lentes de Sol Frida Kahlo en Guadalajara | Fábrica de Lentes®"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "523314257226",
+      "33 3616 6603",
+      "+523336166603",
+      "33 1425 7226",
+      "4-03621066",
+      "4-92943180",
+      "3-12125544",
+      "17-59191938"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/523314257226?text=Hola%2C%20vi%20la%20promo%20de%20los%20Oakley%20Meta%20en%20%249%2C950.%20Quiero%20mas%20info)",
+      "wa.me/523314257226)",
+      "wa.me/523314257226?text=Hola%2C%20vi%20la%20promo%20de%2025%25%20para%20estudiantes%20y%20maestros.%20Quiero%20info)[Ver",
+      "wa.me/523314257226?text=Hola%2C%20quiero%20agendar%20una%20visita)ZONA",
+      "wa.me/523314257226?text=Hola%2C%20quiero%20cotizar%20lentes%20graduados)",
+      "wa.me/523314257226?text=Hola%2C%20quiero%20agendar%20mi%20examen%20de%20la%20vista%20gratis)",
+      "wa.me/523314257226?text=Hola%2C%20quiero%20cotizar%20lentes%20de%20contacto)",
+      "wa.me/523314257226?text=Hola%2C%20me%20interesan%20lentes%20de%20sol)"
+    ],
+    "redes": [
+      "https://instagram.com/fabricadelentesmex",
+      "https://tiktok.com/@fabricadelentes"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Flogo-black.png&w=384&q=75",
+      "alt": "Image 1: Fábrica de Lentes"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Fhero-estudiantes.jpg&w=2048&q=75",
+      "alt": "Image 2: Estudiantes y maestros: 25% de descuento. — Regreso a clases | Fábrica de Lentes Guadalajara"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Fhero-3.png&w=2048&q=75",
+      "alt": "Image 3: Llegas, eliges y estrenas. — Entrega Express | Fábrica de Lentes Guadalajara"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Fcat-graduados.jpg&w=2048&q=75",
+      "alt": "Image 4: Lentes Graduados"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Fcat-graduados-hover.jpg&w=2048&q=75",
+      "alt": "Image 5: Lentes Graduados — ver colección"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Fsitio%2Fcat-sol-17e8417526.jpg&w=2048&q=75",
+      "alt": "Image 6: Lentes de Sol"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Fcat-sol-hover.jpg&w=2048&q=75",
+      "alt": "Image 7: Lentes de Sol — ver colección"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Fcat-contactos.jpg&w=2048&q=75",
+      "alt": "Image 8: Lentes de Contacto"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Fcat-contactos-hover.jpg&w=2048&q=75",
+      "alt": "Image 9: Lentes de Contacto — ver colección"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Feditorial.jpg&w=2048&q=75",
+      "alt": "Image 10: Elige, prueba y estrena tus lentes nuevos en Fábrica de Lentes Guadalajara — óptica con laboratorio propio"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fcontacto%2Flentes10-4ac1893a.png&w=2048&q=90",
+      "alt": "Image 11: Air Optix Hydraglyde"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fcontacto%2Flentes12-7a23fd3e.webp&w=2048&q=90",
+      "alt": "Image 12: Alcon Total 1"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB004-C29.jpg&w=2048&q=90",
+      "alt": "Image 13: André Badi AB-004 C29"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB005-C13.jpg&w=2048&q=90",
+      "alt": "Image 14: André Badi AB-005 C13"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB006-C10.jpg&w=2048&q=90",
+      "alt": "Image 15: André Badi AB-006 C10"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB007-C10.jpg&w=2048&q=90",
+      "alt": "Image 16: André Badi AB-007 C10"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB007-C29.jpg&w=2048&q=90",
+      "alt": "Image 17: André Badi AB-007 C29"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB008-C04.jpg&w=2048&q=90",
+      "alt": "Image 18: André Badi AB-008 C04"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Ftestimonials%2Favatar-1.jpg&w=96&q=75",
+      "alt": "Image 19: Mariana Rodríguez"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Ftestimonials%2Favatar-2.jpg&w=96&q=75",
+      "alt": "Image 20: Roberto Hernández"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Ftestimonials%2Favatar-3.jpg&w=96&q=75",
+      "alt": "Image 21: Andrea Chen"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Ftestimonials%2Favatar-4.jpg&w=96&q=75",
+      "alt": "Image 22: Lucía Mendoza"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fimages%2Ftestimonials%2Favatar-5.jpg&w=96&q=75",
+      "alt": "Image 23: Carlos Vega"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2Fbl3-68dce26b.jpg&w=2048&q=90",
+      "alt": "Image 2: Lentes Brizzant modelo ANDRE AZUL — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2Fbl8-11a4e5f8.jpg&w=2048&q=90",
+      "alt": "Image 3: Lentes Brizzant modelo ANDRE CAFE — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2Fbl4-29f105d4.jpg&w=2048&q=90",
+      "alt": "Image 4: Lentes Brizzant modelo DALI — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2Fbl1-80666f1f.jpg&w=2048&q=90",
+      "alt": "Image 5: Lentes Brizzant modelo GIOVANNI — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2Fbl2-b52145f3.jpg&w=2048&q=90",
+      "alt": "Image 6: Lentes Brizzant modelo SYDNEY — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2Fbl6-02c24b24.jpg&w=2048&q=90",
+      "alt": "Image 7: Lentes Brizzant modelo VINCENT — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFK101-C08.jpg&w=2048&q=90",
+      "alt": "Image 8: Lentes Frida Kahlo modelo FK 101 C08 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFK101-C20.jpg&w=2048&q=90",
+      "alt": "Image 9: Lentes Frida Kahlo modelo FK 101 C20 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFK102-C01.jpg&w=2048&q=90",
+      "alt": "Image 10: Lentes Frida Kahlo modelo FK 102 C01 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFK102-C13.jpg&w=2048&q=90",
+      "alt": "Image 11: Lentes Frida Kahlo modelo FK 102 C13 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFK102-C20.jpg&w=2048&q=90",
+      "alt": "Image 12: Lentes Frida Kahlo modelo FK 102 C20 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFK104-C09.jpg&w=2048&q=90",
+      "alt": "Image 13: Lentes Frida Kahlo modelo FK 104 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFK106-C16.jpg&w=2048&q=90",
+      "alt": "Image 14: Lentes Frida Kahlo modelo FK 106 C16 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFK106-C21.jpg&w=2048&q=90",
+      "alt": "Image 15: Lentes Frida Kahlo modelo FK 106 C21 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFK107-C09.jpg&w=2048&q=90",
+      "alt": "Image 16: Lentes Frida Kahlo modelo FK 107 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFK108-C01.jpg&w=2048&q=90",
+      "alt": "Image 17: Lentes Frida Kahlo modelo FK 108 C01 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFKL1-e4cd1228.jpg&w=2048&q=90",
+      "alt": "Image 18: Lentes Frida Kahlo modelo FK1001M-BL — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFKL3-5eb6a330.jpg&w=2048&q=90",
+      "alt": "Image 19: Lentes Frida Kahlo modelo FK1001M-BU — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFKL2-ef116390.jpg&w=2048&q=90",
+      "alt": "Image 20: Lentes Frida Kahlo modelo FK1004A-BL — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFKL4-ac86fdf3.jpg&w=2048&q=90",
+      "alt": "Image 21: Lentes Frida Kahlo modelo FK1004A-BU — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFKL5-1d2d0c30.jpg&w=2048&q=90",
+      "alt": "Image 22: Lentes Frida Kahlo modelo FK1005M-PU — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFKL6-eff4151a.jpg&w=2048&q=90",
+      "alt": "Image 23: Lentes Frida Kahlo modelo FK1006A-BL — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFKL7-7f961a7e.jpg&w=2048&q=90",
+      "alt": "Image 24: Lentes Frida Kahlo modelo FK1007M-PI — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFKL8-d10cc3de.jpg&w=2048&q=90",
+      "alt": "Image 25: Lentes Frida Kahlo modelo FK1009M-BU — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FFKL9-ca4a0420.jpg&w=2048&q=90",
+      "alt": "Image 26: Lentes Frida Kahlo modelo FK1013M-PU — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FMAL1-86309c0e.jpg&w=2048&q=90",
+      "alt": "Image 27: Lentes Massimo modelo MM4004 C2 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FMAL2-547d5921.jpg&w=2048&q=90",
+      "alt": "Image 28: Lentes Massimo modelo MM4004 C3 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FMAL4-03621066.jpg&w=2048&q=90",
+      "alt": "Image 29: Lentes Massimo modelo MR 071 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FMAL5-7bc3d53a.jpg&w=2048&q=90",
+      "alt": "Image 30: Lentes Massimo modelo MR 086 C13 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FMAL6-3170f4b3.jpg&w=2048&q=90",
+      "alt": "Image 31: Lentes Massimo modelo MR 090 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FMAL7-46fcf064.jpg&w=2048&q=90",
+      "alt": "Image 32: Lentes Massimo modelo MR 098 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FMAL8-d1f76825.jpg&w=2048&q=90",
+      "alt": "Image 33: Lentes Massimo modelo MR 100 C29 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FMAL9-c2ee203b.jpg&w=2048&q=90",
+      "alt": "Image 34: Lentes Massimo modelo MR 101 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FMAL3-43ce1ec8.jpg&w=2048&q=90",
+      "alt": "Image 35: Lentes Massimo modelo WD1167 C1 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FNOL1-541b9e74.jpg&w=2048&q=90",
+      "alt": "Image 36: Lentes Nobleman modelo HC04-08 C7 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FNO2-5fecad74.jpg&w=2048&q=90",
+      "alt": "Image 37: Lentes Nobleman modelo HC05-10 C2 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FNOL4-92943180.jpg&w=2048&q=90",
+      "alt": "Image 38: Lentes Nobleman modelo HC07-14 C2 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Foftalmicos%2FNOL3-987ac48f.jpg&w=2048&q=90",
+      "alt": "Image 39: Lentes Nobleman modelo HC07-14 C5 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FNOL5-00eccef1.jpg&w=2048&q=90",
+      "alt": "Image 40: Lentes Nobleman modelo MF02-03 C2 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FNOL6-2b494ac3.jpg&w=2048&q=90",
+      "alt": "Image 41: Lentes Nobleman modelo MF02-04 C10 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FNOL7-4907a672.jpg&w=2048&q=90",
+      "alt": "Image 42: Lentes Nobleman modelo MF03-05 C1 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FNOL9-75640a1d.jpg&w=2048&q=90",
+      "alt": "Image 43: Lentes Nobleman modelo MM0011 C2 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FNOL8-77158d54.jpg&w=2048&q=90",
+      "alt": "Image 44: Lentes Nobleman modelo MM1027 C2 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fcontacto%2Flentes11-9434f124.webp&w=2048&q=90",
+      "alt": "Image 4: Lentes de contacto Frecuent ALCON — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB008-C10.jpg&w=2048&q=90",
+      "alt": "Image 8: Lentes de sol André Badi modelo AB-008 C10 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB011-C03.jpg&w=2048&q=90",
+      "alt": "Image 9: Lentes de sol André Badi modelo AB-011 C03 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB011-C09.jpg&w=2048&q=90",
+      "alt": "Image 10: Lentes de sol André Badi modelo AB-011 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB011-C19.jpg&w=2048&q=90",
+      "alt": "Image 11: Lentes de sol André Badi modelo AB-011 C19 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB012-C04.jpg&w=2048&q=90",
+      "alt": "Image 12: Lentes de sol André Badi modelo AB-012 C04 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB012-C07.jpg&w=2048&q=90",
+      "alt": "Image 13: Lentes de sol André Badi modelo AB-012 C07 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB012-C09.jpg&w=2048&q=90",
+      "alt": "Image 14: Lentes de sol André Badi modelo AB-012 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB013-C04.jpg&w=2048&q=90",
+      "alt": "Image 15: Lentes de sol André Badi modelo AB-013 C04 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB013-C05.jpg&w=2048&q=90",
+      "alt": "Image 16: Lentes de sol André Badi modelo AB-013 C05 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FAB013-C10.jpg&w=2048&q=90",
+      "alt": "Image 17: Lentes de sol André Badi modelo AB-013 C10 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL3-12125544.jpg&w=2048&q=90",
+      "alt": "Image 18: Lentes de sol Frida Kahlo modelo FK 001 C11 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL2-975aa408.jpg&w=2048&q=90",
+      "alt": "Image 19: Lentes de sol Frida Kahlo modelo FK 001 C13 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FFKSL1-5ea420bc.jpg&w=2048&q=90",
+      "alt": "Image 20: Lentes de sol Frida Kahlo modelo FK 001 C19 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FFKSL4-ce07cd8f.jpg&w=2048&q=90",
+      "alt": "Image 21: Lentes de sol Frida Kahlo modelo FK-003 C04 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FFKSL5-9e669b02.jpg&w=2048&q=90",
+      "alt": "Image 22: Lentes de sol Frida Kahlo modelo FK-003 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL6-b1e0f8cb.jpg&w=2048&q=90",
+      "alt": "Image 23: Lentes de sol Frida Kahlo modelo FK-003 C16 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL7-f29fd241.jpg&w=2048&q=90",
+      "alt": "Image 24: Lentes de sol Frida Kahlo modelo FK-004 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL8-5c6791bf.jpg&w=2048&q=90",
+      "alt": "Image 25: Lentes de sol Frida Kahlo modelo FK-004 C19 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FFKSL9-30fd373d.jpg&w=2048&q=90",
+      "alt": "Image 26: Lentes de sol Frida Kahlo modelo FK-005 C07 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=%2Fproducts%2Fsolares%2FFKSL10-dd8eb04a.jpg&w=2048&q=90",
+      "alt": "Image 27: Lentes de sol Frida Kahlo modelo FK-005 C16 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL11-b9756cf2.jpg&w=2048&q=90",
+      "alt": "Image 28: Lentes de sol Frida Kahlo modelo FK-006 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL12-dd2607d7.jpg&w=2048&q=90",
+      "alt": "Image 29: Lentes de sol Frida Kahlo modelo FK-006 C11 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL13-c580f4c5.jpg&w=2048&q=90",
+      "alt": "Image 30: Lentes de sol Frida Kahlo modelo FK-007 C05 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL14-6481cecd.jpg&w=2048&q=90",
+      "alt": "Image 31: Lentes de sol Frida Kahlo modelo FK-007 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL15-cc812cc9.jpg&w=2048&q=90",
+      "alt": "Image 32: Lentes de sol Frida Kahlo modelo FK-007 C19 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL16-ba9839a6.jpg&w=2048&q=90",
+      "alt": "Image 33: Lentes de sol Frida Kahlo modelo FK-010 C01 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL17-59191938.jpg&w=2048&q=90",
+      "alt": "Image 34: Lentes de sol Frida Kahlo modelo FK-011 C04 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL18-07df05bd.jpg&w=2048&q=90",
+      "alt": "Image 35: Lentes de sol Frida Kahlo modelo FK-011 C19 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL19-d74582b9.jpg&w=2048&q=90",
+      "alt": "Image 36: Lentes de sol Frida Kahlo modelo FK-012 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL20-5f4afdc3.jpg&w=2048&q=90",
+      "alt": "Image 37: Lentes de sol Frida Kahlo modelo FK-013 C09 — Fábrica de Lentes GDL"
+    },
+    {
+      "src": "https://fabricadelentes.mx/_next/image?url=https%3A%2F%2Ffabricadelentes.mx%2Fassets%2FFKSL21-60df5e9c.jpg&w=2048&q=90",
+      "alt": "Image 38: Lentes de sol Frida Kahlo modelo FK-013 C13 — Fábrica de Lentes GDL"
+    }
+  ]
+}

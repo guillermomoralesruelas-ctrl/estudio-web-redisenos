@@ -1,0 +1,85 @@
+{
+  "sitio": "https://www.harmoniapilates.com/",
+  "fecha": "2026-09-26T08:14:13.728Z",
+  "motor": "jina-reader",
+  "slug": "harmoniapilatesreformer",
+  "nombre": "Harmonía Pilates - Reformer Studio",
+  "rubro": "FITNESS",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "fitness-gym",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.harmoniapilates.com/",
+      "titulo": "Harmonía Pilates — Reformer Studio"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "200.00-50",
+      "400.00-20",
+      "700.00-20",
+      "000.00-20",
+      "750.00-20",
+      "5625700521",
+      "2023 - 2026"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "whatsapp.com/send?phone=5625700521)[Instagram](https://instagram.com/harmonia.pilates)[Facebook](https://facebook.com/estudio.harmonia.pilates)"
+    ],
+    "redes": [
+      "https://instagram.com/harmonia.pilates",
+      "https://facebook.com/estudio.harmonia.pilates"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://harmoniapilates.com/img/home/home.jpg",
+      "alt": "Image 1: Harmonía Pilates Estudio"
+    },
+    {
+      "src": "https://www.harmoniapilates.com/img/logo.png",
+      "alt": "Image 2: Harmonía Pilates Logo"
+    },
+    {
+      "src": "https://harmoniapilates.com/img/home/beneficios_fuerza.jpg",
+      "alt": "Image 3: Potencia Tu Fuerza"
+    },
+    {
+      "src": "https://harmoniapilates.com/img/home/beneficios_estetica.jpg",
+      "alt": "Image 4: Esculpe Tu Figura"
+    },
+    {
+      "src": "https://harmoniapilates.com/img/home/beneficios_articulaciones.jpg",
+      "alt": "Image 5: Descomprime Articulaciones"
+    },
+    {
+      "src": "https://harmoniapilates.com/img/home/beneficios_core.jpg",
+      "alt": "Image 6: Fortalece Tu Core"
+    },
+    {
+      "src": "https://harmoniapilates.com/img/home/beneficios_flexibilidad.jpg",
+      "alt": "Image 7: Incrementa Flexibilidad"
+    },
+    {
+      "src": "https://harmoniapilates.com/img/home/beneficios_cero_impacto.jpg",
+      "alt": "Image 8: Cero Impacto • 100% Esfuerzo"
+    },
+    {
+      "src": "https://www.harmoniapilates.com/img/home/_4gxwas.jpg",
+      "alt": "Image 9: Josué Miranda - Maestro Harmonía Pilates"
+    },
+    {
+      "src": "https://www.harmoniapilates.com/img/home/mi_estudio_01.jpg",
+      "alt": "Image 10: Nuestras Instalaciones - Vista 1"
+    },
+    {
+      "src": "https://www.harmoniapilates.com/img/home/mi_estudio_02.jpg",
+      "alt": "Image 11: Nuestras Instalaciones - Vista 2"
+    },
+    {
+      "src": "https://www.harmoniapilates.com/img/home/mi_estudio_03.jpg",
+      "alt": "Image 12: Nuestras Instalaciones - Vista 3"
+    }
+  ]
+}

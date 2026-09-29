@@ -1,0 +1,177 @@
+{
+  "sitio": "https://codamusicinstitute.com/",
+  "fecha": "2026-09-26T06:33:56.451Z",
+  "motor": "jina-reader",
+  "slug": "codamusicinstitute",
+  "nombre": "Coda Music Institute",
+  "rubro": "EDUCACION",
+  "ciudad": "Querétaro, Querétaro",
+  "plantilla": "educacion",
+  "paginasRevisadas": [
+    {
+      "url": "https://codamusicinstitute.com/",
+      "titulo": "Clases de música en Querétaro para todas las edades | Coda Music Institute"
+    },
+    {
+      "url": "https://codamusicinstitute.com/programas",
+      "titulo": "Programas de música para todas las edades | Coda Music Institute"
+    },
+    {
+      "url": "https://codamusicinstitute.com/reservas",
+      "titulo": "Reserva clases en coda music institute | Coda Music Institute"
+    },
+    {
+      "url": "https://codamusicinstitute.com/contacto",
+      "titulo": "Contacto Coda Music Institute Querétaro | Coda Music Institute"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "1558332729",
+      "1588833183972-2",
+      "1619378448271-49616680044",
+      "1566305763584-34",
+      "1696522732406-065",
+      "1655470447095-3",
+      "1524082284887-781",
+      "1509781827353",
+      "1598209134206",
+      "4421234567",
+      "1581929378520",
+      "4230051620",
+      "1681716455523",
+      "1554712439-15",
+      "350.00 30",
+      "550.00 30",
+      "1538475317096",
+      "1686504660739"
+    ],
+    "emails": [
+      "info@codamusicqro.com"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.facebook.com/",
+      "https://www.instagram.com/",
+      "https://tiktok.com/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://images.unsplash.com/photo-1558332729-a99a44a70124?auto=format&fit=crop&w=606&h=544",
+      "alt": "Image 1: Children happily playing musical instruments in a bright classroom at a music institute in Queretaro."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558332729-a99a44a70124?auto=format&fit=crop&w=328&h=376",
+      "alt": "Image 2: Children happily playing musical instruments in a bright classroom at a music institute in Queretaro."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1588833183972-2a73e1482d43?auto=format&fit=crop&w=400&h=396",
+      "alt": "Image 3: Children joyfully playing small percussion instruments during an early stimulation music class."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1588833183972-2a73e1482d43?auto=format&fit=crop&w=158&h=168",
+      "alt": "Image 4: Children joyfully playing small percussion instruments during an early stimulation music class."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1619378448271-49616680044b?auto=format&fit=crop&w=400&h=396",
+      "alt": "Image 5: A young student concentrating while playing an electric guitar in a bright classroom."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1619378448271-49616680044b?auto=format&fit=crop&w=158&h=168",
+      "alt": "Image 6: A young student concentrating while playing an electric guitar in a bright classroom."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1566305763584-34ad7804724c?auto=format&fit=crop&w=400&h=396",
+      "alt": "Image 7: Group of kids singing together in a lively choir session at the music institute."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1566305763584-34ad7804724c?auto=format&fit=crop&w=158&h=168",
+      "alt": "Image 8: Group of kids singing together in a lively choir session at the music institute."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1696522732406-065ef560da8c?auto=format&fit=crop&w=400&h=396",
+      "alt": "Image 9: A piano lesson in progress with a teacher guiding a child’s hands on the keys."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1696522732406-065ef560da8c?auto=format&fit=crop&w=158&h=168",
+      "alt": "Image 10: A piano lesson in progress with a teacher guiding a child’s hands on the keys."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1655470447095-3c77dd001a6f?auto=format&fit=crop&w=400&h=396",
+      "alt": "Image 11: Students practicing violin with focused expressions in a cozy studio."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1655470447095-3c77dd001a6f?auto=format&fit=crop&w=158&h=168",
+      "alt": "Image 12: Students practicing violin with focused expressions in a cozy studio."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1524082284887-781e4d3fcd36?auto=format&fit=crop&w=400&h=396",
+      "alt": "Image 13: A child enthusiastically playing drums, surrounded by colorful musical notes on the walls."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1524082284887-781e4d3fcd36?auto=format&fit=crop&w=158&h=168",
+      "alt": "Image 14: A child enthusiastically playing drums, surrounded by colorful musical notes on the walls."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1509781827353-fb95c262fc40?auto=format&fit=crop&w=606&h=344",
+      "alt": "Image 15: A toddler happily playing with colorful musical instruments in a bright classroom."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1509781827353-fb95c262fc40?auto=format&fit=crop&w=328&h=240",
+      "alt": "Image 16: A toddler happily playing with colorful musical instruments in a bright classroom."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1598209134206-d57fd5fad694?auto=format&fit=crop&w=606&h=344",
+      "alt": "Image 17: A young student focused on playing an electric guitar during a lesson."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1598209134206-d57fd5fad694?auto=format&fit=crop&w=328&h=240",
+      "alt": "Image 18: A young student focused on playing an electric guitar during a lesson."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581929378520-a4230051620d?auto=format&fit=crop&w=606&h=304",
+      "alt": "Image 1: Children happily playing musical instruments in a bright classroom."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581929378520-a4230051620d?auto=format&fit=crop&w=328&h=224",
+      "alt": "Image 2: Children happily playing musical instruments in a bright classroom."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1681716455523-f6c10c3c17d3?auto=format&fit=crop&w=606&h=304",
+      "alt": "Image 3: A group of students practicing guitar and piano together in a cozy music room."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1681716455523-f6c10c3c17d3?auto=format&fit=crop&w=328&h=224",
+      "alt": "Image 4: A group of students practicing guitar and piano together in a cozy music room."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1554712439-15b62858f52a?auto=format&fit=crop&w=377&h=377&q=100",
+      "alt": "Image 1: Reserva tu clase"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1588833183972-2a73e1482d43?auto=format&fit=crop&w=377&h=377&q=100",
+      "alt": "Image 2: Reserva tu clase"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558332729-a99a44a70124?auto=format&fit=crop&w=377&h=377&q=100",
+      "alt": "Image 3: Reserva tu clase"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1538475317096-c56643548f73?auto=format&fit=crop&w=48&h=48",
+      "alt": "Image 4: A smiling young girl playing piano at Coda Music Institute."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1538475317096-c56643548f73?auto=format&fit=crop&w=54&h=53",
+      "alt": "Image 5: A smiling young girl playing piano at Coda Music Institute."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1686504660739-c4058a8599b9?auto=format&fit=crop&w=1111&h=384",
+      "alt": "Image 1: A welcoming music classroom with children playing various instruments in Queretaro."
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1686504660739-c4058a8599b9?auto=format&fit=crop&w=328&h=320",
+      "alt": "Image 2: A welcoming music classroom with children playing various instruments in Queretaro."
+    }
+  ]
+}

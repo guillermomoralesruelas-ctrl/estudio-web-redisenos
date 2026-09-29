@@ -1,0 +1,83 @@
+{
+  "sitio": "https://www.estudiodeartecoyoacan.com/",
+  "fecha": "2026-09-26T07:32:51.535Z",
+  "motor": "jina-reader",
+  "slug": "estudiodearte",
+  "nombre": "Estudio de Arte Coyoacán",
+  "rubro": "EDUCACION",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "educacion",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.estudiodeartecoyoacan.com/",
+      "titulo": "Clases de música en la CDMX – Estudio de Arte Coyoacán"
+    },
+    {
+      "url": "https://www.estudiodeartecoyoacan.com/servicios",
+      "titulo": "Servicios de spa en Ciudad Satélite - Nor.Skin"
+    },
+    {
+      "url": "https://www.estudiodeartecoyoacan.com/services",
+      "titulo": "Servicios de spa en Ciudad Satélite - Nor.Skin"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "5215534841018",
+      "55-3484-1018",
+      "19.342654 -99.150277 10 15"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/5215534841018?text=Vi%20su%20sitio%20ADN%2C%20%C2%BFMe%20podr%C3%ADan%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%3F)",
+      "wa.me/5215534841018?text=%C2%A1Hola!%20%C2%BFMe%20podr%C3%ADan%20brindar%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios?)"
+    ],
+    "redes": [
+      "https://www.youtube.com/watch?v=HsSXFej9nBc",
+      "https://www.youtube.com/watch?v=KuelZ_2ZKQ4",
+      "https://www.youtube.com/watch?v=zx-6nQE650E"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://irp.cdn-website.com/5792ef34/dms3rep/multi/opt/logo-trans+%282%29-125h.png",
+      "alt": "Image 1: Nor.skin"
+    },
+    {
+      "src": "https://irp.cdn-website.com/5792ef34/dms3rep/multi/opt/logo-trans+%282%29-1753h.png",
+      "alt": "Image 2: Nor.skin"
+    },
+    {
+      "src": "https://irp.cdn-website.com/5792ef34/dms3rep/multi/opt/pin-702w.png",
+      "alt": "Image 3: pintura"
+    },
+    {
+      "src": "https://www.estudiodeartecoyoacan.com/",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://irp.cdn-website.com/5792ef34/dms3rep/multi/opt/logo-trans+%282%29-211h.png",
+      "alt": "Image 6: Nor.skin"
+    },
+    {
+      "src": "https://graficos.seccionamarilla.com.mx/ADN/logo-adn-COLOR.png",
+      "alt": "Image 7: Logo Sección Amarilla"
+    },
+    {
+      "src": "https://irp.cdn-website.com/md/dmtmpl/ac53d66e-d786-4d89-9d0b-7230f3b4ac6d/dms3rep/multi/opt/womans_smooth_legs_tan_upclose-1920w.png",
+      "alt": "Image 8: Nor.skin"
+    },
+    {
+      "src": "https://irp.cdn-website.com/md/dmtmpl/ac53d66e-d786-4d89-9d0b-7230f3b4ac6d/dms3rep/multi/opt/woman_relaxing_getting_face_massage_spa-1920w.png",
+      "alt": "Image 9: Nor.skin"
+    },
+    {
+      "src": "https://minegocio.seccionamarilla.com.mx/interacciones/forms/resourcesengage/Images/Engage/msgloading.gif",
+      "alt": "Image 11: Retorno de llamada"
+    },
+    {
+      "src": "https://irp.cdn-website.com/5792ef34/dms3rep/multi/opt/logo-trans+%282%29-1920w.png",
+      "alt": "Image 1: Nor.skin"
+    }
+  ]
+}

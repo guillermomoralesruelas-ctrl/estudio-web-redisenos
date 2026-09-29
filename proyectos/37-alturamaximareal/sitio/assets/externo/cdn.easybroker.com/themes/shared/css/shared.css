@@ -1,0 +1,89 @@
+/** Main menu dropdowns **/
+@media (min-width: 992px) {
+  #main_menu .dropdown-menu {
+    width: max-content;
+    max-width: 20rem;
+  }
+
+  #main_menu .dropdown-menu li,
+  #main_menu .dropdown-menu li a {
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+}
+
+/** Site messages **/
+.eb-message {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.7rem;
+  background-color: #F2F2F6;
+  color: #2E2E38;
+}
+
+.eb-message__container {
+  display: flex;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.eb-message__icon {
+  display: flex;
+  align-items: flex-start;
+}
+
+.eb-message__icon i {
+  color: #E51A1A;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.eb-message__title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.eb-message__title + .eb-message__subtitle {
+  margin-top: 0.25rem;
+}
+
+.eb-message__subtitle {
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.eb-message__subtitle ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 0.25rem;
+  margin: 0.5rem 0 0;
+}
+
+.eb-message__subtitle li {
+  list-style-type: disc;
+}
+
+.eb-message__subtitle li:not(:last-of-type) {
+  margin-bottom: 0.25rem;
+}
+
+.eb-message.--danger {
+  background-color: #FEECEC;
+}
+
+.eb-message.--danger .eb-message__icon i {
+  color: #E51A1A;
+}
+
+.eb-message.--success {
+  background-color: #EEFBF5;
+}
+
+.eb-message.--success .eb-message__icon i {
+  color: #22C373;
+}

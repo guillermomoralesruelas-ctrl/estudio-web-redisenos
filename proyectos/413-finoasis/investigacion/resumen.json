@@ -1,0 +1,173 @@
+{
+  "sitio": "https://finoasis.mx/",
+  "fecha": "2026-09-26T07:40:21.442Z",
+  "motor": "jina-reader",
+  "slug": "finoasis",
+  "nombre": "FinOasis",
+  "rubro": "FINANZAS",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "negocio-local",
+  "paginasRevisadas": [
+    {
+      "url": "https://finoasis.mx/",
+      "titulo": "Asesoría Financiera y Gestión de Inversiones | FinOasis"
+    },
+    {
+      "url": "https://finoasis.mx/contacto",
+      "titulo": "Contáctanos | FinOasis"
+    },
+    {
+      "url": "https://finoasis.mx/servicios",
+      "titulo": "Servicios Financieros | Wealth Planning y Estrategias de Inversión"
+    },
+    {
+      "url": "https://finoasis.mx/servicios/gestion-de-inversiones",
+      "titulo": "Gestión de Inversiones | Crece tu Patrimonio con Estrategia"
+    },
+    {
+      "url": "https://finoasis.mx/servicios/coaching-financiero",
+      "titulo": "Coaching Financiero | FinOasis"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "+52 55 1479 3193",
+      "+525514793193",
+      "525548976259"
+    ],
+    "emails": [
+      "ernesto@finoasis.mx",
+      "info@yourdomain.com",
+      "info@finoasis.mx",
+      "hr@yourdomain.com",
+      "info@finoasis.com"
+    ],
+    "whatsapp": [
+      "wa.me/525548976259)"
+    ],
+    "redes": [
+      "https://www.linkedin.com/in/jesus-ernesto-brise%C3%B1o-alcantara-98979a8b/",
+      "https://www.facebook.com/",
+      "http://www.linkedin.com/",
+      "http://www.instagram.com/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/investing-1.jpg?&fit=cover&w=433&h=533&fm=webp",
+      "alt": "Image 1: Foto de inverstionista"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/investing-2.jpg?&fit=cover&w=352&h=452&fm=webp",
+      "alt": "Image 2: Foto de inverstionista"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/services-investing.jpg?&fit=cover&w=600&h=815&fm=webp",
+      "alt": "Image 3"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/services-coaching.jpg?&fit=cover&w=600&h=815&fm=webp",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/services-education.jpg?&fit=cover&w=600&h=815&fm=webp",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/services-foreign.jpg?&fit=cover&w=600&h=815&fm=webp",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/actinver.png?&fit=cover&fm=webp",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/banorte.png?&fit=cover&fm=webp",
+      "alt": "Image 8"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/brokers.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/citi.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/finamex.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/gbm.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 12"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/invex.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 13"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/jpmorgan.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 14"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/morganstanley.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/pershing.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/santander.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 17"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/scotia.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 18"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/banks/ubs.png?&fit=contain&w=400&h=150&fm=webp",
+      "alt": "Image 19"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/ernesto.jpg?&fit=cover&w=600&h=765&fm=webp",
+      "alt": "Image 20"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/uploads/blog-3.jpg&fit=cover&w=600&h=460&fm=webp",
+      "alt": "Image 21: Invertir en el Extranjero: Beneficios y Consideraciones"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/uploads/blog-2.jpg&fit=cover&w=600&h=460&fm=webp",
+      "alt": "Image 22: Fondos Indexados vs. Gestión Activa: ¿Cuál es Mejor para Ti?"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/uploads/blog-1.jpg&fit=cover&w=600&h=460&fm=webp",
+      "alt": "Image 23: Cómo Diversificar tu Portafolio y Minimizar Riesgos"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/services.jpg?&fit=cover&w=570&h=561&fm=webp",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/finoasis-icon.png?&fit=cover&w=148&h=148&fm=webp",
+      "alt": "Image 2"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/services-investing.jpg?&fit=cover&w=600&h=590&fm=webp",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/investing-4.jpg?&fit=cover&w=960&h=762&fm=webp",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/services-coaching.jpg?&fit=cover&w=600&h=590&fm=webp",
+      "alt": "Image 1"
+    },
+    {
+      "src": "https://finoasis.mx/.netlify/images?url=/images/coaching-1.jpg?&fit=cover&w=960&h=762&fm=webp",
+      "alt": "Image 2"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "sitio": "https://www.inglespractico.com.mx/",
+  "fecha": "2026-09-26T08:48:27.620Z",
+  "motor": "jina-reader",
+  "slug": "inglespractico",
+  "nombre": "Inglés Práctico",
+  "rubro": "EDUCACION",
+  "ciudad": "Ciudad Juárez, Chihuahua",
+  "plantilla": "educacion",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.inglespractico.com.mx/",
+      "titulo": "Clases de ingl&#233;s en Ciudad Ju&#225;rez | Inglés Práctico"
+    },
+    {
+      "url": "https://www.inglespractico.com.mx/home/Horarios",
+      "titulo": "Horarios de clases de inglés en Cd. Juárez"
+    },
+    {
+      "url": "https://www.inglespractico.com.mx/home/Metodo",
+      "titulo": "Método 80% práctico | Inglés Práctico"
+    },
+    {
+      "url": "https://www.inglespractico.com.mx/home/Planteles",
+      "titulo": "Planteles en Cd. Juárez: Torres e Independencia"
+    },
+    {
+      "url": "https://www.inglespractico.com.mx/home/empresas",
+      "titulo": "Capacitación de inglés para empresas en Cd. Juárez"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "656) 690-4936",
+      "656) 276-5287",
+      "656) 655-7468",
+      "656) 782-6214",
+      "5216562158562",
+      "6566904936",
+      "6562765287",
+      "6566557468",
+      "6567826214"
+    ],
+    "emails": [
+      "contacto@inglespractico.com.mx",
+      "emilio.alvarado@inglespractico.com.mx"
+    ],
+    "whatsapp": [
+      "wa.me/5216562158562?text=Hola,%20quiero%20informaci%C3%B3n%20de%20los%20cursos)"
+    ],
+    "redes": [
+      "https://www.facebook.com/Ppractico/",
+      "https://www.instagram.com/ingles_practico2008/?hl=es-la"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://www.inglespractico.com.mx/content/img/logo18anios.png",
+      "alt": "Image 3: 18 Años"
+    },
+    {
+      "src": "https://www.inglespractico.com.mx/content/img/plantel-torres.jpeg",
+      "alt": "Image 4: Fachada de Plantel Torres"
+    },
+    {
+      "src": "https://www.inglespractico.com.mx/content/img/plantel-independencia.jpeg",
+      "alt": "Image 5: Fachada de Plantel Independencia"
+    },
+    {
+      "src": "https://www.inglespractico.com.mx/content/img/empresas/Brp.webp",
+      "alt": "Image 4: BRP"
+    },
+    {
+      "src": "https://www.inglespractico.com.mx/content/img/empresas/valeo.jpg",
+      "alt": "Image 5: Valeo"
+    },
+    {
+      "src": "https://www.inglespractico.com.mx/content/img/empresas/coficab.webp",
+      "alt": "Image 7: COFICAB"
+    },
+    {
+      "src": "https://www.inglespractico.com.mx/content/img/empresas/navico.webp",
+      "alt": "Image 8: NAVICO Group"
+    },
+    {
+      "src": "https://www.inglespractico.com.mx/content/img/empresas/TECMA.webp",
+      "alt": "Image 9: TECMA"
+    },
+    {
+      "src": "https://www.inglespractico.com.mx/content/img/empresas/gobierno.webp",
+      "alt": "Image 10: Gobierno del Estado"
+    },
+    {
+      "src": "https://www.inglespractico.com.mx/content/img/empresas/autofletes.png",
+      "alt": "Image 11: Autofletes"
+    }
+  ]
+}
