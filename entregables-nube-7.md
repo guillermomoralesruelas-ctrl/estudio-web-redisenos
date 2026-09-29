@@ -20,8 +20,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 21 | 333-drhugosanchez | Pendiente (fotos en servidor bloqueado para la nube) | 1cfdfc50 | — (Zyro: fotos en assets.zyrosite.com) | — | — | — |
 | 22 | 365-elreybar | Pendiente (fotos en servidor bloqueado para la nube) | d64ab7d9 | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
 | 23 | 379-escondidooaxacagrupo | Descartado, `cadena` | a160ab90 | — (hotel de Grupo Habita, Design Hotels) | — | — | — |
-| 24 | 399-eventosjubileo | Pendiente (fotos en servidor bloqueado para la nube) | (este commit) | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
+| 24 | 399-eventosjubileo | Pendiente (fotos en servidor bloqueado para la nube) | ecda51fd | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
 
 ## En curso
 
-Ninguno.
+449-gimnasiobefit.
