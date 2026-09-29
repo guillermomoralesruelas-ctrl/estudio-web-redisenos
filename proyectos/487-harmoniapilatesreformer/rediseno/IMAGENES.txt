@@ -1,0 +1,9 @@
+# Imágenes disponibles en publicDir (../sitio/assets/img), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+home/mi_estudio_01.jpg	1044x915	655 KB
+home/mi_estudio_03.jpg	756x1008	425 KB
+home/mi_estudio_02.jpg	810x902	389 KB
+home/_4gxwas.jpg	579x772	305 KB
+style/bg_div.jpg	400x400	179 KB
+logo.png	983x415	126 KB
+style/bg.jpg	50x50	1 KB

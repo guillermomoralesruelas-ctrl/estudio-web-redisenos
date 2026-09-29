@@ -1,0 +1,124 @@
+{
+  "fecha": "2026-09-29T18:16:10.057Z",
+  "carpeta": "487-harmoniapilatesreformer",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 96723,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 12,
+      "rotas": [
+        "https://harmoniapilates.com/img/home/home.jpg",
+        "http://127.0.0.1:43475/487-harmoniapilatesreformer/sitio/img/logo.png",
+        "https://harmoniapilates.com/img/home/beneficios_fuerza.jpg",
+        "https://harmoniapilates.com/img/home/beneficios_estetica.jpg",
+        "https://harmoniapilates.com/img/home/beneficios_articulaciones.jpg",
+        "https://harmoniapilates.com/img/home/beneficios_core.jpg",
+        "https://harmoniapilates.com/img/home/beneficios_flexibilidad.jpg",
+        "https://harmoniapilates.com/img/home/beneficios_cero_impacto.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Harmonía Pilates — Reformer Studio",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "tailwind is not defined",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43475/487-harmoniapilatesreformer/sitio/img/logo.png",
+        "404 http://127.0.0.1:43475/487-harmoniapilatesreformer/sitio/img/style/bg.jpg",
+        "404 http://127.0.0.1:43475/487-harmoniapilatesreformer/sitio/img/style/bg_div.jpg",
+        "404 http://127.0.0.1:43475/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "404 http://127.0.0.1:43475/487-harmoniapilatesreformer/sitio/favicon.png"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 36609,
+      "desbordeX": 637,
+      "h1": 1,
+      "imagenes": 12,
+      "rotas": [
+        "https://harmoniapilates.com/img/home/home.jpg",
+        "http://127.0.0.1:43475/487-harmoniapilatesreformer/sitio/img/logo.png",
+        "https://harmoniapilates.com/img/home/beneficios_fuerza.jpg",
+        "https://harmoniapilates.com/img/home/beneficios_estetica.jpg",
+        "https://harmoniapilates.com/img/home/beneficios_articulaciones.jpg",
+        "https://harmoniapilates.com/img/home/beneficios_core.jpg",
+        "https://harmoniapilates.com/img/home/beneficios_flexibilidad.jpg",
+        "https://harmoniapilates.com/img/home/beneficios_cero_impacto.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Harmonía Pilates — Reformer Studio",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "tailwind is not defined",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43475/487-harmoniapilatesreformer/sitio/img/logo.png",
+        "404 http://127.0.0.1:43475/487-harmoniapilatesreformer/sitio/img/style/bg.jpg",
+        "404 http://127.0.0.1:43475/487-harmoniapilatesreformer/sitio/img/style/bg_div.jpg",
+        "404 http://127.0.0.1:43475/cdn-cgi/challenge-platform/scripts/jsd/main.js"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6646,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Harmonía Pilates | Pilates Reformer en Tlalnepantla",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 10849,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Harmonía Pilates | Pilates Reformer en Tlalnepantla",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

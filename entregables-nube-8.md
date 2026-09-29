@@ -20,7 +20,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 12 | 437-fabricadelentes | Pendiente 1.2 (PC) | 62ccda65 | — (clon sin fotos; `fabricadelentes.mx` bloqueado; 10 sucursales: evaluar si es cadena) | — | — | — |
 | 13 | 441-galeriamexicanade | Pendiente 1.2 (PC) | ce321ca7 | — (clon sin fotos; 260 imágenes en `images.squarespace-cdn.com`, bloqueado) | — | — | — |
 | 14 | 446-gemaspahuatulco | Pendiente 1.2 (PC) | eb797130 | — (clon sin fotos; imágenes en `content.app-sources.com`, bloqueado) | — | — | — |
-| 15 | 454-goldenscissors | Pendiente 1.2 (PC) | … | — (clon sin fotos; `goldenscissors.com.mx` bloqueado; sus imágenes parecen de IA) | — | — | — |
+| 15 | 454-goldenscissors | Pendiente 1.2 (PC) | 668bc9ca | — (clon sin fotos; `goldenscissors.com.mx` bloqueado; sus imágenes parecen de IA) | — | — | — |
+| 16 | 487-harmoniapilatesreformer | Terminado (1.1 en la nube) | … | 0 problemas; 6,646 / 10,849 px | "Elige tu hora y tu reformer": sus 13 clases de la semana y el estudio visto desde arriba con ocho reformers; VIP y Elite apartan el suyo | ALTA | WhatsApp sin código de país; horario con palomitas grises sin explicar; sin dirección escrita |
 
 ## Dominios bloqueados para la nube en este lote
 

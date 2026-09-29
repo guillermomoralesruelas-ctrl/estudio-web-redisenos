@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Fraunces (títulos, con cursiva que recuerda el script del logotipo) y Archivo (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Fraunces"; src: url("../node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Fraunces"; src: url("../node_modules/@fontsource/fraunces/files/fraunces-latin-600-italic.woff2") format("woff2"); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: "Archivo"; src: url("../node_modules/@fontsource/archivo/files/archivo-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Archivo"; src: url("../node_modules/@fontsource/archivo/files/archivo-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: noche (azul del logotipo), papel, azul (botones), gris, hielo (fondo alterno), turquesa (degradado del logotipo) y ámbar (la mañana en su horario).
+   Contrastes: noche/papel 12.93, blanco/azul 7.09, azul/papel 6.52, gris/papel 6.63, turquesa/noche 8.83, ámbar/noche 7.88, noche/hielo 11.13. */
+@theme {
+  --color-noche: #0e2f4f;
+  --color-papel: #f4f6f7;
+  --color-azul: #135d8c;
+  --color-gris: #4d5b69;
+  --color-hielo: #dcebf2;
+  --color-turquesa: #8fd6e3;
+  --color-ambar: #f4b33d;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Archivo", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-papel text-noche font-sans antialiased; font-size: 1.04rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-noche; font-weight: 600; line-height: 1.06; text-wrap: balance; letter-spacing: -0.01em; }
+  h1 em, h2 em { @apply text-azul; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-noche text-papel/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-papel; }
+  .oscuro h1 em, .oscuro h2 em { @apply text-turquesa; }
+  :focus-visible { outline: 3px solid var(--color-azul); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-turquesa); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-azul text-white hover:bg-noche; }
+  .oscuro .btn { @apply bg-ambar text-noche hover:bg-papel; }
+  .btn-linea { @apply border-2 border-noche/25 text-noche hover:border-noche; }
+  .oscuro .btn-linea { @apply border-papel/40 text-papel hover:border-papel; }
+  .reformer { transition: transform .2s, fill .2s; }
+}
