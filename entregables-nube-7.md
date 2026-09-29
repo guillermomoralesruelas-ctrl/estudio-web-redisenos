@@ -23,8 +23,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 24 | 399-eventosjubileo | Pendiente (fotos en servidor bloqueado para la nube) | ecda51fd | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
 | 26 | 449-gimnasiobefit | Terminado (1.2 en la nube) | 50d3a2e6 | 0 problemas; 3,652 / 5,743 px | "¿Qué quieres entrenar?": fichas de servicios que dicen qué sucursal conviene y cuánto se ahorra | ALTA | Teléfonos de 9 dígitos; sin WhatsApp; fotos de banco |
 | 27 | 483-hafersonsinnhotel | Pendiente (fotos en servidor bloqueado para la nube) | fbce092f | — (Rotamundos: fotos en rotamundos-assets.b-cdn.net) | — | — | — |
-| 29 | 533-hotelmaculis | Pendiente (fotos en servidor bloqueado para la nube) | (este commit) | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
+| 29 | 533-hotelmaculis | Pendiente (fotos en servidor bloqueado para la nube) | 53391097 | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
 
 ## En curso
 
-Ninguno.
+535-hotelmontealban.
