@@ -18,7 +18,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 10 | 426-flowbarber | Pendiente 1.2 (PC) | 51e1f0b9 | — (clon sin fotos; `flowbarberpdc.com` bloqueado; teléfono de plantilla 984 123 4567) | — | — | — |
 | 11 | 430-forter | Pendiente 1.2 (PC) | 0dde644d | — (clon con 1 foto propia; el resto en `forter.mx`, bloqueado) | — | — | — |
 | 12 | 437-fabricadelentes | Pendiente 1.2 (PC) | 62ccda65 | — (clon sin fotos; `fabricadelentes.mx` bloqueado; 10 sucursales: evaluar si es cadena) | — | — | — |
-| 13 | 441-galeriamexicanade | Pendiente 1.2 (PC) | … | — (clon sin fotos; 260 imágenes en `images.squarespace-cdn.com`, bloqueado) | — | — | — |
+| 13 | 441-galeriamexicanade | Pendiente 1.2 (PC) | ce321ca7 | — (clon sin fotos; 260 imágenes en `images.squarespace-cdn.com`, bloqueado) | — | — | — |
+| 14 | 446-gemaspahuatulco | Pendiente 1.2 (PC) | … | — (clon sin fotos; imágenes en `content.app-sources.com`, bloqueado) | — | — | — |
 
 ## Dominios bloqueados para la nube en este lote
 
