@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+
+@theme {
+  --color-fondo:    #F8F3EC;
+  --color-tinta:    #1C2B1C;
+  --color-verde:    #1C3E1C;
+  --color-piedra:   #7A6550;
+  --color-calido:   #C4956A;
+  --color-crema:    #EDE6D8;
+  --font-sans: "Poppins", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-fondo text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-calido); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-verde { @apply inline-flex items-center gap-2 rounded-full bg-verde text-white px-6 py-3 text-sm font-medium hover:bg-[#254425] transition-colors; }
+  .btn-contorno { @apply inline-flex items-center gap-2 rounded-full border border-verde text-verde px-6 py-3 text-sm font-medium hover:bg-verde hover:text-white transition-colors; }
+}

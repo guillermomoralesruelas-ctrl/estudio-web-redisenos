@@ -1,0 +1,82 @@
+{
+  "fecha": "2026-09-29T13:05:42.690Z",
+  "carpeta": "646-lasjarasaguas",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5705,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 7,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Las Jaras Centro Termal | Aguas Termales en Jalisco",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to font at 'https://lasjaras.mx/wp-content/uploads/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia1zl7.woff2' from origin 'http://127.0.0.1:49837' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://lasjaras.mx/wp-content/uploads/elementor/google-fonts/fonts/encodesans-ldihapofnxewr-bd1o9uynmnuqomage25imksbhlsma6.woff2' from origin 'http://127.0.0.1:49837' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:49837/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 11033,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 7,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Las Jaras Centro Termal | Aguas Termales en Jalisco",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to font at 'https://lasjaras.mx/wp-content/uploads/elementor/google-fonts/fonts/encodesans-ldihapofnxewr-bd1o9uynmnuqomage25imksbhlsma6.woff2' from origin 'http://127.0.0.1:49837' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://lasjaras.mx/wp-content/uploads/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia1zl7.woff2' from origin 'http://127.0.0.1:49837' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:49837/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3481,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Las Jaras Aguas Termales | Jalisco — Accesos, SPA y Hotel",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5882,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Las Jaras Aguas Termales | Jalisco — Accesos, SPA y Hotel",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
