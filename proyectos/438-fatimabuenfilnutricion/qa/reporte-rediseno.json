@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T03:41:40.524Z",
+  "fecha": "2026-09-29T12:33:29.886Z",
   "carpeta": "438-fatimabuenfilnutricion",
   "antes": [
     {
@@ -18,25 +18,28 @@
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "AOS is not defined",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to font at 'https://www.fatimabuenfil.com/media/gantry5/assets/fonts/fontawesome-webfont.woff2?v=4.7.0' from origin 'http://127.0.0.1:60082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.fatimabuenfil.com/media/gantry5/assets/fonts/fontawesome-webfont.woff?v=4.7.0' from origin 'http://127.0.0.1:60082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.fatimabuenfil.com/media/gantry5/assets/fonts/fontawesome-webfont.ttf?v=4.7.0' from origin 'http://127.0.0.1:60082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:43591/media/com_jchoptimize/cache/js/22f5dbb9a3021b734291c34e32b78a032d8e8650cd934f3e5db9ef29fc0ae75f.js",
-        "404 http://127.0.0.1:43591/media/gantry5/assets/js/main.js",
-        "404 http://127.0.0.1:43591/templates/rt_salient/custom/images/swiper/fatima-buenfil-nutricion-clinica-merida-1.jpg",
-        "404 http://127.0.0.1:43591/templates/rt_salient/custom/images/01-calorimetria-slide.jpg",
-        "404 http://127.0.0.1:43591/templates/rt_salient/js/length.min.js",
-        "404 http://127.0.0.1:43591/templates/rt_salient/js/swiper.min.js",
-        "404 http://127.0.0.1:43591/templates/rt_salient/js/swiper.init.js",
-        "404 http://127.0.0.1:43591/media/com_jchoptimize/cache/js/22f5dbb9a3021b734291c34e32b78a037daf2dcbbfe4cdfa25bde8fb1e07f7e4.js"
+        "404 http://127.0.0.1:60082/media/com_jchoptimize/cache/js/22f5dbb9a3021b734291c34e32b78a032d8e8650cd934f3e5db9ef29fc0ae75f.js",
+        "404 http://127.0.0.1:60082/media/gantry5/assets/js/main.js",
+        "404 http://127.0.0.1:60082/templates/rt_salient/js/length.min.js",
+        "404 http://127.0.0.1:60082/templates/rt_salient/js/swiper.min.js",
+        "404 http://127.0.0.1:60082/templates/rt_salient/js/swiper.init.js",
+        "404 http://127.0.0.1:60082/media/com_jchoptimize/cache/js/22f5dbb9a3021b734291c34e32b78a037daf2dcbbfe4cdfa25bde8fb1e07f7e4.js",
+        "404 http://127.0.0.1:60082/templates/rt_salient/custom/images/swiper/fatima-buenfil-nutricion-clinica-merida-1.jpg",
+        "404 http://127.0.0.1:60082/templates/rt_salient/custom/images/01-calorimetria-slide.jpg"
       ],
-      "captura": "qa/antes-escritorio.png"
+      "captura": "qa\\antes-escritorio.png"
     },
     {
       "vista": "movil",
@@ -58,21 +61,24 @@
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "Failed to load resource: the server responded with a status of 404 (Not Found)",
         "AOS is not defined",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        "Access to font at 'https://www.fatimabuenfil.com/media/gantry5/assets/fonts/fontawesome-webfont.woff2?v=4.7.0' from origin 'http://127.0.0.1:60082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.fatimabuenfil.com/media/gantry5/assets/fonts/fontawesome-webfont.woff?v=4.7.0' from origin 'http://127.0.0.1:60082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.fatimabuenfil.com/media/gantry5/assets/fonts/fontawesome-webfont.ttf?v=4.7.0' from origin 'http://127.0.0.1:60082' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:43591/media/com_jchoptimize/cache/js/22f5dbb9a3021b734291c34e32b78a032d8e8650cd934f3e5db9ef29fc0ae75f.js",
-        "404 http://127.0.0.1:43591/media/gantry5/assets/js/main.js",
-        "404 http://127.0.0.1:43591/templates/rt_salient/custom/images/swiper/fatima-buenfil-nutricion-clinica-merida-1.jpg",
-        "404 http://127.0.0.1:43591/templates/rt_salient/custom/images/01-calorimetria-slide.jpg",
-        "404 http://127.0.0.1:43591/templates/rt_salient/js/length.min.js",
-        "404 http://127.0.0.1:43591/templates/rt_salient/js/swiper.min.js",
-        "404 http://127.0.0.1:43591/templates/rt_salient/js/swiper.init.js",
-        "404 http://127.0.0.1:43591/media/com_jchoptimize/cache/js/22f5dbb9a3021b734291c34e32b78a037daf2dcbbfe4cdfa25bde8fb1e07f7e4.js"
+        "404 http://127.0.0.1:60082/media/com_jchoptimize/cache/js/22f5dbb9a3021b734291c34e32b78a032d8e8650cd934f3e5db9ef29fc0ae75f.js",
+        "404 http://127.0.0.1:60082/media/gantry5/assets/js/main.js",
+        "404 http://127.0.0.1:60082/templates/rt_salient/custom/images/swiper/fatima-buenfil-nutricion-clinica-merida-1.jpg",
+        "404 http://127.0.0.1:60082/templates/rt_salient/custom/images/01-calorimetria-slide.jpg",
+        "404 http://127.0.0.1:60082/templates/rt_salient/js/length.min.js",
+        "404 http://127.0.0.1:60082/templates/rt_salient/js/swiper.min.js",
+        "404 http://127.0.0.1:60082/templates/rt_salient/js/swiper.init.js",
+        "404 http://127.0.0.1:60082/media/com_jchoptimize/cache/js/22f5dbb9a3021b734291c34e32b78a037daf2dcbbfe4cdfa25bde8fb1e07f7e4.js"
       ],
-      "captura": "qa/antes-movil.png"
+      "captura": "qa\\antes-movil.png"
     }
   ],
   "despues": [
@@ -88,7 +94,7 @@
       "titulo": "Fátima Buenfil | Nutrición clínica en Mérida, Yucatán",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-escritorio.png"
+      "captura": "qa\\despues-escritorio.png"
     },
     {
       "vista": "movil",
@@ -102,7 +108,7 @@
       "titulo": "Fátima Buenfil | Nutrición clínica en Mérida, Yucatán",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-movil.png"
+      "captura": "qa\\despues-movil.png"
     }
   ],
   "problemasRediseno": [],

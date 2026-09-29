@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T05:21:44.754Z",
+  "fecha": "2026-09-29T12:49:31.005Z",
   "carpeta": "183-canondelsumidero",
   "antes": [
     {
@@ -9,50 +9,33 @@
       "desbordeX": 0,
       "h1": 1,
       "imagenes": 16,
-      "rotas": [
-        "https://www.google.com/images/branding/product/2x/maps_96in128dp.png",
-        "https://upload.wikimedia.org/wikipedia/commons/4/45/GetYourGuide_logo.png"
-      ],
+      "rotas": [],
       "sinAlt": 0,
       "titulo": "Tours en Palenque y Chiapas | Kichan Bajlum",
       "errores": [
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        "Cannot read properties of null (reading 'addEventListener')",
+        "SimpleLightbox is not defined",
+        "Cannot read properties of null (reading 'classList')"
       ],
       "fallidos": [],
-      "captura": "qa/antes-escritorio.png"
+      "captura": "qa\\antes-escritorio.png"
     },
     {
       "vista": "movil",
       "ancho": 390,
-      "alto": 11248,
+      "alto": 11239,
       "desbordeX": 4,
       "h1": 1,
       "imagenes": 16,
-      "rotas": [
-        "https://www.google.com/images/branding/product/2x/maps_96in128dp.png",
-        "https://upload.wikimedia.org/wikipedia/commons/4/45/GetYourGuide_logo.png"
-      ],
+      "rotas": [],
       "sinAlt": 0,
       "titulo": "Tours en Palenque y Chiapas | Kichan Bajlum",
       "errores": [
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        "Cannot read properties of null (reading 'addEventListener')",
+        "SimpleLightbox is not defined"
       ],
       "fallidos": [],
-      "captura": "qa/antes-movil.png"
+      "captura": "qa\\antes-movil.png"
     }
   ],
   "despues": [
@@ -68,7 +51,7 @@
       "titulo": "Kichan Bajlum | Tours desde Palenque, Chiapas",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-escritorio.png"
+      "captura": "qa\\despues-escritorio.png"
     },
     {
       "vista": "movil",
@@ -82,7 +65,7 @@
       "titulo": "Kichan Bajlum | Tours desde Palenque, Chiapas",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-movil.png"
+      "captura": "qa\\despues-movil.png"
     }
   ],
   "problemasRediseno": [],

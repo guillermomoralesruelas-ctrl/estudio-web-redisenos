@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-09-29T03:54:22.564Z",
+  "fecha": "2026-09-29T12:34:40.342Z",
   "carpeta": "232-clinicadentaljustsmiles",
   "antes": [
     {
@@ -20,13 +20,13 @@
         "Failed to load resource: the server responded with a status of 404 (Not Found)"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:44773/js/plugins.js",
-        "404 http://127.0.0.1:44773/js/designesia.js",
-        "404 http://127.0.0.1:44773/js/swiper.js",
-        "404 http://127.0.0.1:44773/js/custom-swiper-1.js",
-        "404 http://127.0.0.1:44773/js/custom-marquee.js"
+        "404 http://127.0.0.1:50807/js/plugins.js",
+        "404 http://127.0.0.1:50807/js/designesia.js",
+        "404 http://127.0.0.1:50807/js/custom-swiper-1.js",
+        "404 http://127.0.0.1:50807/js/custom-marquee.js",
+        "404 http://127.0.0.1:50807/js/swiper.js"
       ],
-      "captura": "qa/antes-escritorio.png"
+      "captura": "qa\\antes-escritorio.png"
     },
     {
       "vista": "movil",
@@ -46,20 +46,20 @@
         "Failed to load resource: the server responded with a status of 404 (Not Found)"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:44773/js/plugins.js",
-        "404 http://127.0.0.1:44773/js/designesia.js",
-        "404 http://127.0.0.1:44773/js/swiper.js",
-        "404 http://127.0.0.1:44773/js/custom-swiper-1.js",
-        "404 http://127.0.0.1:44773/js/custom-marquee.js"
+        "404 http://127.0.0.1:50807/js/plugins.js",
+        "404 http://127.0.0.1:50807/js/designesia.js",
+        "404 http://127.0.0.1:50807/js/swiper.js",
+        "404 http://127.0.0.1:50807/js/custom-swiper-1.js",
+        "404 http://127.0.0.1:50807/js/custom-marquee.js"
       ],
-      "captura": "qa/antes-movil.png"
+      "captura": "qa\\antes-movil.png"
     }
   ],
   "despues": [
     {
       "vista": "escritorio",
       "ancho": 1280,
-      "alto": 5503,
+      "alto": 5528,
       "desbordeX": 0,
       "h1": 1,
       "imagenes": 5,
@@ -68,7 +68,7 @@
       "titulo": "Justsmiles | Dental specialists in Puerto Vallarta since 1987",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-escritorio.png"
+      "captura": "qa\\despues-escritorio.png"
     },
     {
       "vista": "movil",
@@ -82,7 +82,7 @@
       "titulo": "Justsmiles | Dental specialists in Puerto Vallarta since 1987",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-movil.png"
+      "captura": "qa\\despues-movil.png"
     }
   ],
   "problemasRediseno": [],

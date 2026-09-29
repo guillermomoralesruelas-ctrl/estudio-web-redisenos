@@ -622,5 +622,157 @@
   "fallos": [],
   "ok": true,
   "fecha": "2026-09-29T00:15:20.303Z"
+ },
+ "199-centroodontologicoespeci": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 4,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:32:05.323Z"
+ },
+ "438-fatimabuenfilnutricion": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 6,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:35:46.588Z"
+ },
+ "98-barberiaspremium": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 10,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:35:51.121Z"
+ },
+ "232-clinicadentaljustsmiles": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 5,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:35:55.699Z"
+ },
+ "404-exploravallarta": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 13,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:36:00.510Z"
+ },
+ "423-floreriarivieracancun": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 18,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:39:52.433Z"
+ },
+ "509-hospitalveterinariovetpe": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 10,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:39:56.825Z"
+ },
+ "506-hospitalveterinariocarso": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 6,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:40:01.580Z"
+ },
+ "417-floatsano": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 5,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:40:05.852Z"
+ },
+ "363-elpatronbarberia": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 8,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:40:10.112Z"
+ },
+ "280-cumbresdemita": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 7,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:44:57.733Z"
+ },
+ "544-hotelrecreoclandestino": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 7,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:45:50.593Z"
+ },
+ "143-cancuncatamaranes": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 12,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:47:53.491Z"
+ },
+ "250-colegiobanting": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 5,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:48:43.060Z"
+ },
+ "584-ismmexicosalsa": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 11,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:49:23.551Z"
+ },
+ "183-canondelsumidero": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 9,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:50:03.401Z"
+ },
+ "594-joydfadez": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 4,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:50:58.558Z"
+ },
+ "334-drjulioc": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 3,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:53:25.917Z"
+ },
+ "39-amatestudio": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 9,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T12:53:58.241Z"
  }
 }

@@ -1,11 +1,11 @@
 {
-  "fecha": "2026-09-29T04:59:31.573Z",
+  "fecha": "2026-09-29T12:45:52.747Z",
   "carpeta": "143-cancuncatamaranes",
   "antes": [
     {
       "vista": "escritorio",
       "ancho": 1280,
-      "alto": 5026,
+      "alto": 5077,
       "desbordeX": 0,
       "h1": 6,
       "imagenes": 9,
@@ -22,31 +22,27 @@
       "sinAlt": 0,
       "titulo": "Cancun Catamarans — Luxury Sailing Tours to Isla Mujeres",
       "errores": [
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
       ],
       "fallidos": [],
-      "captura": "qa/antes-escritorio.png"
+      "captura": "qa\\antes-escritorio.png"
     },
     {
       "vista": "movil",
       "ancho": 390,
-      "alto": 4772,
+      "alto": 4823,
       "desbordeX": 0,
       "h1": 6,
       "imagenes": 9,
@@ -63,26 +59,23 @@
       "sinAlt": 0,
       "titulo": "Cancun Catamarans — Luxury Sailing Tours to Isla Mujeres",
       "errores": [
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "carga: page.goto: Timeout 45000ms exceeded."
       ],
       "fallidos": [],
-      "captura": "qa/antes-movil.png"
+      "captura": "qa\\antes-movil.png"
     }
   ],
   "despues": [
@@ -98,7 +91,7 @@
       "titulo": "Cancun Catamarans | Catamaran tours to Isla Mujeres",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-escritorio.png"
+      "captura": "qa\\despues-escritorio.png"
     },
     {
       "vista": "movil",
@@ -112,7 +105,7 @@
       "titulo": "Cancun Catamarans | Catamaran tours to Isla Mujeres",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-movil.png"
+      "captura": "qa\\despues-movil.png"
     }
   ],
   "problemasRediseno": [],

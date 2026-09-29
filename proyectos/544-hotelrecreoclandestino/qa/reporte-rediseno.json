@@ -1,11 +1,11 @@
 {
-  "fecha": "2026-09-29T04:50:38.281Z",
+  "fecha": "2026-09-29T12:44:59.879Z",
   "carpeta": "544-hotelrecreoclandestino",
   "antes": [
     {
       "vista": "escritorio",
       "ancho": 1280,
-      "alto": 15989,
+      "alto": 19146,
       "desbordeX": 0,
       "h1": 1,
       "imagenes": 19,
@@ -13,31 +13,15 @@
       "sinAlt": 0,
       "titulo": "Inicio - Clandestino Hotel",
       "errores": [
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "jQuery is not defined",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "wp is not defined",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        "Class extends value undefined is not a constructor or null"
       ],
       "fallidos": [],
-      "captura": "qa/antes-escritorio.png"
+      "captura": "qa\\antes-escritorio.png"
     },
     {
       "vista": "movil",
       "ancho": 390,
-      "alto": 25346,
+      "alto": 28207,
       "desbordeX": 0,
       "h1": 1,
       "imagenes": 19,
@@ -45,26 +29,10 @@
       "sinAlt": 0,
       "titulo": "Inicio - Clandestino Hotel",
       "errores": [
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "jQuery is not defined",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "wp is not defined",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        "Class extends value undefined is not a constructor or null"
       ],
       "fallidos": [],
-      "captura": "qa/antes-movil.png"
+      "captura": "qa\\antes-movil.png"
     }
   ],
   "despues": [
@@ -80,7 +48,7 @@
       "titulo": "Clandestino Hotel | Hotel boutique en San Miguel de Allende",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-escritorio.png"
+      "captura": "qa\\despues-escritorio.png"
     },
     {
       "vista": "movil",
@@ -94,7 +62,7 @@
       "titulo": "Clandestino Hotel | Hotel boutique en San Miguel de Allende",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-movil.png"
+      "captura": "qa\\despues-movil.png"
     }
   ],
   "problemasRediseno": [],

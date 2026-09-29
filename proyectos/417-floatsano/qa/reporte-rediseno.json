@@ -1,64 +1,62 @@
 {
-  "fecha": "2026-09-29T04:27:37.386Z",
+  "fecha": "2026-09-29T12:41:52.250Z",
   "carpeta": "417-floatsano",
   "antes": [
     {
       "vista": "escritorio",
       "ancho": 1280,
-      "alto": 5368,
+      "alto": 5727,
       "desbordeX": 0,
       "h1": 2,
-      "imagenes": 10,
-      "rotas": [],
+      "imagenes": 16,
+      "rotas": [
+        "",
+        ""
+      ],
       "sinAlt": 0,
       "titulo": "Spa en San Miguel de Allende - Sauna y Más | Float Sano",
       "errores": [
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        "Access to font at 'https://floatsano.com/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufn5qu.woff2' from origin 'http://127.0.0.1:62484' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://floatsano.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-kfo7cnqeu92fr1me7ksn66agldtyluama3yuba.woff2' from origin 'http://127.0.0.1:62484' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://floatsano.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1xlfq.woff2' from origin 'http://127.0.0.1:62484' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://floatsano.com/wp-content/uploads/elementor/google-fonts/fonts/archivo-k3kpo8udi-1m0wlsv9xaw6lqkqwy8q82slydoxi.woff2' from origin 'http://127.0.0.1:62484' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://floatsano.com/wp-content/uploads/elementor/google-fonts/fonts/metrophobic-sjoa3lzuhmsapv_u0qwiaq-o5x8.woff2' from origin 'http://127.0.0.1:62484' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
       ],
       "fallidos": [],
-      "captura": "qa/antes-escritorio.png"
+      "captura": "qa\\antes-escritorio.png"
     },
     {
       "vista": "movil",
       "ancho": 390,
-      "alto": 9465,
+      "alto": 10052,
       "desbordeX": 0,
       "h1": 2,
-      "imagenes": 10,
-      "rotas": [],
+      "imagenes": 16,
+      "rotas": [
+        "",
+        ""
+      ],
       "sinAlt": 0,
       "titulo": "Spa en San Miguel de Allende - Sauna y Más | Float Sano",
       "errores": [
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
-        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+        "Access to font at 'https://floatsano.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-kfo7cnqeu92fr1me7ksn66agldtyluama3yuba.woff2' from origin 'http://127.0.0.1:62484' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://floatsano.com/wp-content/uploads/elementor/google-fonts/fonts/robotoslab-bngmuxzytxpivibgjjsb6ufn5qu.woff2' from origin 'http://127.0.0.1:62484' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://floatsano.com/wp-content/uploads/elementor/google-fonts/fonts/metrophobic-sjoa3lzuhmsapv_u0qwiaq-o5x8.woff2' from origin 'http://127.0.0.1:62484' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://floatsano.com/wp-content/uploads/elementor/google-fonts/fonts/poppins-pxibyp8kv8jhgfvrldz8z1xlfq.woff2' from origin 'http://127.0.0.1:62484' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://floatsano.com/wp-content/uploads/elementor/google-fonts/fonts/archivo-k3kpo8udi-1m0wlsv9xaw6lqkqwy8q82slydoxi.woff2' from origin 'http://127.0.0.1:62484' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
       ],
       "fallidos": [],
-      "captura": "qa/antes-movil.png"
+      "captura": "qa\\antes-movil.png"
     }
   ],
   "despues": [
@@ -74,7 +72,7 @@
       "titulo": "Float Sano | Flotación, sauna y masajes en San Miguel de Allende",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-escritorio.png"
+      "captura": "qa\\despues-escritorio.png"
     },
     {
       "vista": "movil",
@@ -88,7 +86,7 @@
       "titulo": "Float Sano | Flotación, sauna y masajes en San Miguel de Allende",
       "errores": [],
       "fallidos": [],
-      "captura": "qa/despues-movil.png"
+      "captura": "qa\\despues-movil.png"
     }
   ],
   "problemasRediseno": [],
