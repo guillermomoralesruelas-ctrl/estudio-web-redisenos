@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Su logo es un flamenco con visor de snorkel en rosa, letras redondas y gruesas. Aquí: Baloo 2 (títulos, redonda y
+   alegre como su logo) y Outfit (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Baloo 2"; src: url("../node_modules/@fontsource/baloo-2/files/baloo-2-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Baloo 2"; src: url("../node_modules/@fontsource/baloo-2/files/baloo-2-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("../node_modules/@fontsource/outfit/files/outfit-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: el rosa flamenco de su logo, azul de mar profundo, turquesa del agua de Holbox y arena.
+   Contrastes: blanco sobre rosa 5.19, rosa oscuro sobre arena 6.90, blanco sobre rosa oscuro 7.44, blanco sobre mar 9.52,
+   turquesa sobre profundo 7.66, arena sobre profundo 13.48, tinta sobre arena 14.29, gris sobre arena 5.81,
+   profundo sobre turquesa 7.66. El rosa claro sobre arena (4.82) solo en textos grandes o bordes. */
+@theme {
+  --color-rosa: #d4145a;
+  --color-rosaosc: #a80f47;
+  --color-mar: #0b4a6b;
+  --color-profundo: #062c42;
+  --color-turquesa: #3fd0c9;
+  --color-arena: #fbf6ec;
+  --color-tinta: #12263a;
+  --color-gris: #526273;
+  --font-titulo: "Baloo 2", "Arial Rounded MT Bold", sans-serif;
+  --font-sans: "Outfit", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4rem; }
+  body { @apply bg-arena text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-titulo font-extrabold; line-height: 1.02; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-mar); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-turquesa); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-semibold transition-colors; }
+  .antetitulo { @apply text-sm font-semibold uppercase tracking-[0.16em] text-rosaosc; }
+  .oscuro .antetitulo { @apply text-turquesa; }
+}

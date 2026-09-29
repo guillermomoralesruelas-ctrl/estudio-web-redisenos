@@ -1,0 +1,25 @@
+# Imágenes disponibles en publicDir (../sitio/assets/img), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+bg.jpg	2048x1365	441 KB
+isla-holbox.png	1000x575	271 KB
+tour-descubreholbox.jpg	406x481	157 KB
+tour-tulum.jpg	406x481	136 KB
+nado-tiburon.jpg	1500x1000	129 KB
+tiburonballenaholbox.jpg	1000x575	129 KB
+tour-tiburonballena01.jpg	406x481	86 KB
+tour-tiburonballena03.jpg	406x481	83 KB
+tour-chichen-itza.jpg	406x481	70 KB
+tour-clasico.jpg	406x481	67 KB
+tour-bio.jpg	406x481	64 KB
+tour-ekbalam.jpg	406x481	56 KB
+tour-snorkel-en-cabo-catoche.jpg	406x481	45 KB
+HolboxAdventure.png	120x56	3 KB
+whalesharkholbox.png	120x56	2 KB
+cachorro.png	120x56	2 KB
+logo-head.png	170x46	2 KB
+logo-nav.png	170x46	2 KB
+9h.png	120x56	2 KB
+HolboxGuide.png	120x56	2 KB
+iholbox.png	120x56	1 KB
+play-btn.png	92x92	1 KB
+holbox-tv.png	120x56	1 KB
