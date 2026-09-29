@@ -8,7 +8,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 |---|---|---|---|---|---|---|---|
 | 1 | 27-alcazarinmobiliaria | Pendiente 1.2 (PC) | 76301d90 | — (clon sin fotos; fotos en `assets.easybroker.com`, bloqueado) | — | — | — |
 | 2 | 28-aldocastanedabodas | Pendiente 1.2 (PC) | 468feca4 | — (clon sin fotos; portafolio en `assets.zyrosite.com`, bloqueado) | — | — | — |
-| 3 | 37-alturamaximareal | Pendiente 1.2 (PC) | … | — (clon sin fotos; fotos en `assets.easybroker.com`, bloqueado) | — | — | — |
+| 3 | 37-alturamaximareal | Pendiente 1.2 (PC) | 76e12fb7 | — (clon sin fotos; fotos en `assets.easybroker.com`, bloqueado) | — | — | — |
+| 4 | 75-azulbacalar | Pendiente 1.2 (PC) | … | — (clon sin fotos; `bacalar.com.mx` sí es del negocio; revisar en la PC si hay 3 fotos propias) | — | — | — |
 
 ## Dominios bloqueados para la nube en este lote
 
