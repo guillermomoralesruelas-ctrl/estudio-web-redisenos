@@ -56,6 +56,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `379-escondidooaxacagrupo` | Escondido Oaxaca | Oaxaca de Juárez, Oax. | `cadena` | Hotel de Grupo Habita (título "Escondido Oaxaca \| Grupo Habita", logotipo del grupo y enlace a Design Hotels); su web es parte del portal del grupo, con hoteles en varias ciudades | Nube |
 | `249-cognitiomexico` | Cognitio México (psicología cristiana) | Ciudad de México | `pocas-fotos` | Sitio de Hostinger (Zyro): solo tres retratos de 450 px de sus terapeutas; las demás imágenes (9) son de Unsplash y no hay fotos del consultorio. WhatsApp 55 1356 9011, cognitiomexico@gmail.com. Rubro delicado (salud mental) | Nube |
 | `259-corefisioterapia` | Core Fisioterapia | Guadalajara, España (la base dice Guadalajara, Jalisco) | `url-ajena` | corefisioterapia.com es una clínica de fisioterapia en Calle San Juan de Dios 6, CP 19001, Guadalajara, España (tels. 949 21 41 11 y 656 46 85 61). Si el bot es de un Core Fisioterapia en Jalisco, falta encontrar su sitio real. Además, de sus fotos solo cuatro son propias (tomadas por WhatsApp) | Nube |
+| `247-codamusicinstitute` | Coda Music Institute | Querétaro, Qro. | `sin-fotos` · `sin-contacto` | Las 29 imágenes son de Unsplash. El teléfono (442 123 4567), la dirección ("Av. Universidad 123") y las redes (enlaces a la portada de cada red) parecen de plantilla; solo el correo info@codamusicqro.com parece real. Sin WhatsApp | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
