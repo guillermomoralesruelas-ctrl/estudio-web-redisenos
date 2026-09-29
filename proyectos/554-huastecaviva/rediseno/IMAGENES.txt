@@ -1,0 +1,21 @@
+# Imágenes disponibles en publicDir (../sitio/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+baner-huichi.jpg	1800x1350	783 KB
+baner-golo.jpg	1800x1350	767 KB
+baner-beto.jpg	1800x1350	643 KB
+baner-taninul.jpg	1800x1350	628 KB
+baner-xilitla-1.jpg	1200x578	597 KB
+banner-meco.jpg	1200x578	401 KB
+banermicos.jpg	1200x578	284 KB
+baner-tamtoc-1.jpg	1200x578	262 KB
+baner-tamasopo.jpg	1200x578	251 KB
+banertamul.jpg	1200x578	230 KB
+avent-tirolesa.jpg	768x768	228 KB
+rafting1.jpg	960x640	174 KB
+social-buttons-64x64.png	704x256	49 KB
+logohv2.png	1754x728	38 KB
+social-buttons-32x32.png	352x128	24 KB
+aventura-rappel.jpg	300x230	23 KB
+loading.gif	24x24	3 KB
+accordion.png	44x44	1 KB
+loading2.gif	20x20	0 KB

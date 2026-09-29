@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Su sitio usa el verde y el amarillo de su logo sobre fotos de ríos turquesa. Aquí: Bricolage Grotesque (títulos,
+   con carácter de cartel de aventura) y Nunito Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Bricolage Grotesque"; src: url("../node_modules/@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Bricolage Grotesque"; src: url("../node_modules/@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+
+/* Tokens: el verde y el amarillo de su logo, un verde selva oscuro, el turquesa de sus ríos y crema.
+   Contrastes: crema sobre selva 12.23, sol sobre selva 10.23, turquesa sobre selva 6.41, selva sobre sol 10.23,
+   tinta sobre crema 14.68, gris sobre crema 6.60, verde sobre crema 5.12, río sobre crema 4.56, blanco sobre verde 5.65,
+   blanco sobre río 5.03, gris sobre blanco 7.28, selva sobre turquesa 6.41. El verde claro del logo (#009933) solo va en
+   el ícono y en adornos, nunca con texto blanco (3.75). */
+@theme {
+  --color-selva: #0d3528;
+  --color-verde: #00782a;
+  --color-hoja: #009933;
+  --color-rio: #0e7c78;
+  --color-turquesa: #39c6bd;
+  --color-sol: #f0e51e;
+  --color-crema: #f6f4ea;
+  --color-tinta: #13241d;
+  --color-gris: #4b5a53;
+  --font-titulo: "Bricolage Grotesque", "Arial Narrow", sans-serif;
+  --font-sans: "Nunito Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-crema text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-titulo font-extrabold; line-height: 1.02; letter-spacing: -0.015em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rio); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-sol); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-bold transition-colors; }
+  .antetitulo { @apply text-sm font-extrabold uppercase tracking-[0.18em] text-verde; }
+  .oscuro .antetitulo { @apply text-sol; }
+  .chip { @apply inline-flex items-center rounded-full bg-white px-3 py-1 text-sm font-bold text-selva ring-1 ring-selva/10; }
+}
+
+/* El medidor: el agua sube por la figura según el nivel elegido. */
+.agua { transition: transform 700ms cubic-bezier(.2,.8,.2,1); }
+.ola { animation: ola 6s linear infinite; }
+@keyframes ola { from { transform: translateX(0); } to { transform: translateX(-200px); } }
