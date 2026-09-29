@@ -1,0 +1,114 @@
+{
+  "fecha": "2026-09-29T16:09:32.847Z",
+  "carpeta": "176-casapitic",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8277,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 3,
+      "rotas": [
+        "https://qiomcexgggnmjxtbzynp.supabase.co/storage/v1/object/public/fotos/comunes/patio-hero.jpg",
+        "https://qiomcexgggnmjxtbzynp.supabase.co/storage/v1/object/public/fotos/pitic/sala-hero.jpg",
+        "https://qiomcexgggnmjxtbzynp.supabase.co/storage/v1/object/public/fotos/kino/terraza-atardecer-hero.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Casa Pitic — Residencia ejecutiva boutique en Hermosillo",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to fetch dynamically imported module: http://127.0.0.1:33443/assets/main-Dx83kC4d.js",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:33443/assets/main-Dx83kC4d.js",
+        "404 http://127.0.0.1:33443/assets/index-gWIOtZdZ.js",
+        "404 http://127.0.0.1:33443/assets/EventCard-HVFQZ304.js",
+        "404 http://127.0.0.1:33443/assets/SuiteComparison-DNGZjhEm.js",
+        "404 http://127.0.0.1:33443/assets/client-QBFTBa-c.js",
+        "404 http://127.0.0.1:33443/~flock.js",
+        "404 http://127.0.0.1:33443/assets/SiteLayout-Bvbu_5B-.js"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 12548,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 3,
+      "rotas": [
+        "https://qiomcexgggnmjxtbzynp.supabase.co/storage/v1/object/public/fotos/comunes/patio-hero.jpg",
+        "https://qiomcexgggnmjxtbzynp.supabase.co/storage/v1/object/public/fotos/pitic/sala-hero.jpg",
+        "https://qiomcexgggnmjxtbzynp.supabase.co/storage/v1/object/public/fotos/kino/terraza-atardecer-hero.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Casa Pitic — Residencia ejecutiva boutique en Hermosillo",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to fetch dynamically imported module: http://127.0.0.1:33443/assets/main-Dx83kC4d.js",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:33443/assets/main-Dx83kC4d.js",
+        "404 http://127.0.0.1:33443/assets/index-gWIOtZdZ.js",
+        "404 http://127.0.0.1:33443/assets/SuiteComparison-DNGZjhEm.js",
+        "404 http://127.0.0.1:33443/assets/SiteLayout-Bvbu_5B-.js",
+        "404 http://127.0.0.1:33443/assets/EventCard-HVFQZ304.js",
+        "404 http://127.0.0.1:33443/assets/client-QBFTBa-c.js",
+        "404 http://127.0.0.1:33443/~flock.js"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4063,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 3,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Casa Pitic | Hospedaje ejecutivo en Colonia Pitic, Hermosillo",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5894,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 3,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Casa Pitic | Hospedaje ejecutivo en Colonia Pitic, Hermosillo",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

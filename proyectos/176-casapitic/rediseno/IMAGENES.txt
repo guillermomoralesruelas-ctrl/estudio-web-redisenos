@@ -1,0 +1,5 @@
+# Imágenes disponibles en publicDir (../sitio/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+icon-512.png	512x512	8 KB
+icon-192.png	192x192	8 KB
+apple-touch-icon.png	180x180	8 KB

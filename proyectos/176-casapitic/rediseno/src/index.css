@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Young Serif (títulos, de trazo cálido) y Public Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Young Serif"; src: url("../node_modules/@fontsource/young-serif/files/young-serif-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Public Sans"; src: url("../node_modules/@fontsource/public-sans/files/public-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Public Sans"; src: url("../node_modules/@fontsource/public-sans/files/public-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: tinta, cal, teja (sus techos y pérgolas), laja (texto secundario, el muro de piedra del patio), mezquite
+   (verde de sus plantas), adobe (fondo alterno) y atardecer (acento sobre oscuro).
+   Contrastes: tinta/cal 14.59, blanco/teja 6.12, teja/cal 5.49, laja/cal 6.28, mezquite/cal 6.35,
+   atardecer/tinta 8.79, tinta/adobe 12.46, teja/adobe 4.69. */
+@theme {
+  --color-tinta: #22201c;
+  --color-cal: #f7f2ea;
+  --color-teja: #a2461f;
+  --color-laja: #5f5850;
+  --color-mezquite: #4a5d4f;
+  --color-adobe: #ebe0cf;
+  --color-atardecer: #f0b27a;
+  --font-display: "Young Serif", Georgia, serif;
+  --font-sans: "Public Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-cal text-tinta font-sans antialiased; font-size: 1.04rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-tinta; font-weight: 400; line-height: 1.1; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-tinta text-cal/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-cal; }
+  :focus-visible { outline: 3px solid var(--color-teja); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-atardecer); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 font-semibold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-teja text-white hover:bg-tinta; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta; }
+  .oscuro .btn-linea { @apply border-cal/40 text-cal hover:border-cal; }
+  /* Corte de la casa: techo de teja con franjas y plantas como botones. */
+  .teja { background-image: repeating-linear-gradient(90deg, var(--color-teja) 0 14px, #8b3a18 14px 16px); clip-path: polygon(6% 100%, 50% 0, 94% 100%); }
+  .pergola { background-image: repeating-linear-gradient(90deg, var(--color-teja) 0 6px, transparent 6px 16px); }
+  .planta { @apply flex w-full flex-col items-start justify-center border-2 px-4 py-3 text-left transition-colors; }
+  .planta[aria-pressed="true"] { @apply border-teja bg-teja text-white; }
+  .planta[aria-pressed="false"] { @apply border-tinta/25 bg-white text-tinta hover:border-tinta; }
+}
