@@ -4,7 +4,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 
 | # | Carpeta | Resultado | Commit | QA (escritorio / celular) | Elemento memorable | Prioridad | Hallazgo principal |
 |---|---|---|---|---|---|---|---|
+| 1 | 13-academiamusicalrubinstei | Pendiente 1.2 (PC) | (este commit) | — (el clon solo trae un banner; 6 fotos de galería sin bajar) | — | — | — |
 
 ## En curso
 
-13-academiamusicalrubinstei.
+Ninguno.
