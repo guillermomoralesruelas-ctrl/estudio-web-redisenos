@@ -10,7 +10,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 4 | 102-baronbarbershop | Pendiente 1.2 (PC) | c73ef969 | — (Hostinger Horizons; el clon no trae fotos, en vivo hay 12) | — | — | — |
 | 5 | 107-bellezalatina | Descartado, `pocas-fotos` | 2f44004a | — (héroes hechos con IA, retratos de 256 px; 4 sucursales) | — | — | — |
 | 9 | 176-casapitic | Pendiente (fotos en Supabase, bloqueado en la nube) | 13261445 | — | — | — | — |
-| 10 | 204-cervusbarberia | Pendiente (fotos en servidor bloqueado para la nube) | (este commit) | — (Framer: fotos en framerusercontent.com) | — | — | — |
+| 10 | 204-cervusbarberia | Pendiente (fotos en servidor bloqueado para la nube) | 2a113ad7 | — (Framer: fotos en framerusercontent.com) | — | — | — |
+| 11 | 217-cincodoscinco | Pendiente (fotos en servidor bloqueado para la nube) | (este commit) | — (LeadConnector: fotos en images.leadconnectorhq.com) | — | — | — |
 
 ## En curso
 
