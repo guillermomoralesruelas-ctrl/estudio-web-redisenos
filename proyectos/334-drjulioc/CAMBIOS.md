@@ -22,7 +22,7 @@ El mismo psiquiatra de San Pedro, con sus credenciales, su proceso, sus terapias
 
 | Problema en el clon | Cómo quedó en el rediseño |
 |---|---|
-| Google Tag Manager, mapa con API de Google y un carrusel que repite las 21 reseñas (ver `qa/reporte-rediseno.json` → `antes`) | Página sin scripts de terceros: 0 desbordes, 0 imágenes rotas, 0 recursos fallidos; el mapa es el mismo `iframe` de su sitio |
+| Google Tag Manager, mapa con API de Google y un carrusel que repite las 21 reseñas (ver `qa/reporte-rediseno.json` → `antes`) | Página sin scripts de terceros: 0 desbordes, 0 imágenes rotas, 0 recursos fallidos; el mapa apunta al mismo lugar que el de su sitio (Edificio Valle Real), con el embed de Google Maps que no requiere clave |
 
 ## Qué se cambió (mismo contenido, otra forma)
 

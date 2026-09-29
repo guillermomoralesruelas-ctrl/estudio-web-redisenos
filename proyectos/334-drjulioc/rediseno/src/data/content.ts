@@ -10,8 +10,8 @@ export const negocio = {
   edificio: 'Edificio Valle Real, piso 1, puerta 14',
   direccion: 'Cjon. de los Ayala 101, Zona Los Callejones, C.P. 66220, San Pedro Garza García, N. L.',
   mapa: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Edificio Valle Real, Callejón de los Ayala 101, San Pedro Garza García, N.L.'),
-  // El mismo mapa que muestra su sitio (Google Maps Embed con su clave).
-  mapaEmbed: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyCqQeBZIVSkc-WVYlweu7uGqTegXvcvmIs&q=Edificio%20Valle%20Real&zoom=15',
+  // El mismo lugar que muestra el mapa de su sitio (Edificio Valle Real), con el embed de Google Maps que no requiere clave.
+  mapaEmbed: 'https://www.google.com/maps?q=' + encodeURIComponent('Edificio Valle Real, Callejón de los Ayala 101, San Pedro Garza García, N.L.') + '&z=16&output=embed',
 };
 
 export const foto = (n: string) => `${import.meta.env.BASE_URL}${n}.webp`;
