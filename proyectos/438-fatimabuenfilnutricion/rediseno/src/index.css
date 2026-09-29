@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Su sitio usa Abril Fatface y PT Serif. Aquí también: Abril Fatface solo en títulos grandes y PT Serif para todo lo demás,
+   de @fontsource, solo latino y locales. */
+@font-face { font-family: "Abril Fatface"; src: url("../node_modules/@fontsource/abril-fatface/files/abril-fatface-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "PT Serif"; src: url("../node_modules/@fontsource/pt-serif/files/pt-serif-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "PT Serif"; src: url("../node_modules/@fontsource/pt-serif/files/pt-serif-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "PT Serif"; src: url("../node_modules/@fontsource/pt-serif/files/pt-serif-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: los pétalos de su logo (ciruela, rojo granada, amarillo miel) y el verde azulado de su nombre (agua), más un jade
+   oscuro para texto y un papel cálido.
+   Contrastes: jade sobre papel 6.13, papel sobre ciruela 11.15, agua sobre ciruela 5.16, miel sobre ciruela 7.31,
+   granada sobre papel 6.74, gris sobre papel 6.76, blanco sobre granada 7.20, tinta sobre papel 14.61, papel sobre jade 6.13. */
+@theme {
+  --color-ciruela: #4a2f3c;
+  --color-jade: #2f6664;
+  --color-agua: #86b3b2;
+  --color-granada: #a52535;
+  --color-miel: #f2c46a;
+  --color-papel: #fbf7f0;
+  --color-tinta: #2b2124;
+  --color-gris: #5c5652;
+  --font-display: "Abril Fatface", Georgia, serif;
+  --font-serif: "PT Serif", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-papel text-tinta font-serif antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2 { @apply font-display text-jade; font-weight: 400; line-height: 1.08; text-wrap: balance; }
+  h3 { @apply font-serif text-tinta; font-weight: 700; line-height: 1.25; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-ciruela text-papel/90; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-papel; }
+  :focus-visible { outline: 3px solid var(--color-jade); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-miel); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-jade, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[1rem] font-bold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-miel text-ciruela hover:bg-[#f7d58f]; }
+  .btn-jade { @apply bg-jade text-papel hover:bg-ciruela; }
+  .btn-linea { @apply border-2 border-jade/40 text-jade hover:border-jade hover:bg-white; }
+  .btn-claro { @apply border-2 border-papel/40 text-papel hover:border-papel hover:bg-papel/10; }
+  .enlace { @apply font-bold text-jade underline decoration-1 underline-offset-4 hover:text-granada; }
+  .oscuro .enlace { @apply text-miel hover:text-papel; }
+  .opcion { @apply min-h-[44px] rounded-full border-2 px-4 py-1.5 text-left text-[0.95rem] transition-colors; }
+
+  /* La hoja: papel de formato clínico con renglones y margen rojo. */
+  .hoja {
+    @apply relative rounded-md bg-white text-tinta;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 0.04), 0 30px 60px -30px rgb(0 0 0 / 0.55);
+  }
+  .renglon { @apply flex flex-wrap items-baseline gap-x-3 border-b border-agua/60 py-2.5; }
+  .renglon dt { @apply w-32 shrink-0 text-[0.8rem] font-bold tracking-wide text-gris; }
+  .renglon dd { @apply min-w-0 flex-1 italic text-tinta; }
+}
