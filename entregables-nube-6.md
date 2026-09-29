@@ -29,7 +29,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-3.md`, trabajados uno por uno con el m�
 | 23 | 584-ismmexicosalsa | Terminado (inglés) | 28d04683 | 0 problemas; 4,656 / 7,787 px | "How long are you in Mexico City?": cuatro boletos con el plan, precio y WhatsApp de cada estancia | MEDIA | Dos direcciones y dos WhatsApp; testimonios de plantilla; fechas sin año | Dirección y WhatsApp correctos, próximo curso, nombres del equipo |
 | 24 | 183-canondelsumidero | Terminado (Kichan Bajlum, Palenque) | 5d5165b2 | 0 problemas; 5,101 / 7,047 px | "¿Qué quieres ver desde Palenque?": mapa esquemático que filtra los 23 tours y dibuja la ruta del elegido | ALTA | Los 27 WhatsApp de /tours/Palenque sin el 52 | Número de WhatsApp, tours desde San Cristóbal, dirección |
 | 25 | 145-cancunplasticsurgery | Descartado, `pocas-fotos` | cb4d50c2 | — (retrato del doctor y fachada del hospital; el resto de banco, IA o antes y después con desnudos) | — | — | Procedimientos ilustrados con modelos de banco | Fotos del consultorio y del equipo |
-| 26 | 67-automotrizmaee | Descartado, `sin-fotos` | (este commit) | — (seis fotos de iStock y un auto de banco) | — | ALTA (cuando se haga) | Sus WhatsApp van a `wa.me/5541001580` sin el 52 | Fotos del taller |
+| 26 | 67-automotrizmaee | Descartado, `sin-fotos` | 66a89790 | — (seis fotos de iStock y un auto de banco) | — | ALTA (cuando se haga) | Sus WhatsApp van a `wa.me/5541001580` sin el 52 | Fotos del taller |
+| 27 | 468-grimaradventures | Pendiente 1.2 (PC) | (este commit) | — (el clon bajó 4 de 22 fotos de tours, de origen dudoso) | — | — | — | En la PC: bajar las fotos de /tours/filtrado y de cada tour |
 
 ## En curso
 
