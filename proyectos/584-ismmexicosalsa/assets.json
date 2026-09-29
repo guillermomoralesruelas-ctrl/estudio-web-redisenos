@@ -1,0 +1,139 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/01/ISM.png",
+      "archivo": "ISM.png",
+      "alt": "Image 1: ISM"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/12/Arthurfest-11-scaled-683x1024.jpg",
+      "archivo": "Arthurfest-11-scaled-683x1024.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/12/20220312_CDMXParqueMexicoClassesSalsaBachataKentaro_0070-scaled-1024x683.jpg",
+      "archivo": "20220312_CDMXParqueMexicoClassesSalsaBachataKentaro_0070-scaled-1024x683.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2024/01/20240120_InaugurationISMStudioHamburgo4_0210-1024x683.jpg",
+      "archivo": "20240120_InaugurationISMStudioHamburgo4_0210-1024x683.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/06/pp-1.jpeg",
+      "archivo": "pp-1.jpeg",
+      "alt": "Image 5: B.C"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/06/pp-2.jpeg",
+      "archivo": "pp-2.jpeg",
+      "alt": "Image 11: Jesica Hernandez"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/06/WhatsApp-Image-2021-05-14-at-08.44.37.jpeg",
+      "archivo": "WhatsApp-Image-2021-05-14-at-08.44.37.jpeg",
+      "alt": "Image 13: Iva Keselicova"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/06/pablo.jpeg",
+      "archivo": "pablo.jpeg",
+      "alt": "Image 14: Pablo Pivo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/06/pp.jpeg",
+      "archivo": "pp.jpeg",
+      "alt": "Image 16: Rubi Ramirez"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2024/12/DSC_0377-scaled.jpg",
+      "archivo": "DSC_0377-scaled.jpg",
+      "alt": "Image 17"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2024/12/DSC_0807-scaled.jpg",
+      "archivo": "DSC_0807-scaled.jpg",
+      "alt": "Image 18"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2024/12/DSC_1055-scaled.jpg",
+      "archivo": "DSC_1055-scaled.jpg",
+      "alt": "Image 19"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2024/12/DSC_1394-scaled.jpg",
+      "archivo": "DSC_1394-scaled.jpg",
+      "alt": "Image 20"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2024/12/DSC_1037.jpg",
+      "archivo": "DSC_1037.jpg",
+      "alt": "Image 21"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/12/280609549_398076928993782_5061057277220187698_n.jpeg",
+      "archivo": "280609549_398076928993782_5061057277220187698_n.jpeg",
+      "alt": "Image 22"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/12/20220312_CDMXParqueMexicoClassesSalsaBachataKentaro_0498-scaled-1024x683.jpg",
+      "archivo": "20220312_CDMXParqueMexicoClassesSalsaBachataKentaro_0498-scaled-1024x683.jpg",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2024/01/20240120_InaugurationISMStudioHamburgo4_0251-1024x683.jpg",
+      "archivo": "20240120_InaugurationISMStudioHamburgo4_0251-1024x683.jpg",
+      "alt": "Image 3"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2022/04/20220312_CDMXParqueMexicoClassesSalsaBachataKentaro_0369.jpg",
+      "archivo": "20220312_CDMXParqueMexicoClassesSalsaBachataKentaro_0369.jpg",
+      "alt": "Image 5: 20220312_CDMXParqueMexicoClassesSalsaBachataKentaro_0369"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2023/03/Image-Q375YLM.jpg",
+      "archivo": "Image-Q375YLM.jpg",
+      "alt": "Image 6: Robert Wong"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2023/03/Image-KSAYUDC.jpg",
+      "archivo": "Image-KSAYUDC.jpg",
+      "alt": "Image 7: Erick Djemba-jemba"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2023/03/Image-J8L8TR7.jpg",
+      "archivo": "Image-J8L8TR7.jpg",
+      "alt": "Image 8: John Stone"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://ismmexico.space/wp-content/uploads/2023/03/20220420_untitled_0135-Edit-Edit-e1678987590362.jpg",
+      "archivo": "20220420_untitled_0135-Edit-Edit-e1678987590362.jpg",
+      "alt": "Image 15: 20220420_untitled_0135-Edit-Edit"
+    }
+  ]
+}

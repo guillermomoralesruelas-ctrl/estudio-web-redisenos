@@ -12,7 +12,7 @@
 
 ## La lista: lote PC-1, lo que falta (10 sitios)
 
-Los primeros 10 del lote PC-1 ya se hicieron en la PC el 2026-09-28 (ver `METODOS.md`). **Estos 10 pasaron a la nube** (`INSTRUCCIONES-NUBE-2.md`, lote 5): las sesiones de la PC no los toman, salvo los que la nube deje como "Pendiente 1.2 (PC)" en `METODOS.md` (recuperar las fotos del sitio en vivo, que solo se hace en la PC).
+Los primeros 10 del lote PC-1 ya se hicieron en la PC el 2026-09-28 (ver `METODOS.md`). **Estos 10 pasaron a la nube** (ahora en `INSTRUCCIONES-NUBE-3.md`, lote 6): las sesiones de la PC no los toman, salvo los que la nube deje como "Pendiente 1.2 (PC)" en `METODOS.md` (recuperar las fotos del sitio en vivo, que solo se hace en la PC).
 
 | # | Carpeta | Negocio | Sitio original | Fotos en el clon |
 |---|---|---|---|---|

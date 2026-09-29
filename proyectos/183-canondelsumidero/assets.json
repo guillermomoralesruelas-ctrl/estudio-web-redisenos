@@ -1,0 +1,253 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/pagina/logotipo-transparent.png",
+      "archivo": "logotipo-transparent.png",
+      "alt": "Image 1: Kichan Bajlum"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/pagina/logotipo.png",
+      "archivo": "logotipo.png",
+      "alt": "Image 2: Kichan Bajlum"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1756841383.webp",
+      "archivo": "1756841383.webp",
+      "alt": "Image 3: Tour Yaxchilan y Bonampak 1 día en Chiapas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1756733089.webp",
+      "archivo": "1756733089.webp",
+      "alt": "Image 4: Tour Cascadas de Misol-ha y Agua Azul en Chiapas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1756733123.webp",
+      "archivo": "1756733123.webp",
+      "alt": "Image 5: Tour Cascadas de Agua Azul, Misol Ha, Z. A. de Palenque Desde San Cristobal en Chiapas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1756733121.webp",
+      "archivo": "1756733121.webp",
+      "alt": "Image 6: Tour Misol ha - Agua Azul y traslado a San Cristóbal de las Casas en Chiapas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1756840873.webp",
+      "archivo": "1756840873.webp",
+      "alt": "Image 7: Tour Cascadas Roberto Barrios en Chiapas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1756732805.webp",
+      "archivo": "1756732805.webp",
+      "alt": "Image 8: Tour Zona Arqueológica Palenque y Cascadas Roberto Barrios en Chiapas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1759616956.webp",
+      "archivo": "1759616956.webp",
+      "alt": "Image 9: Traslado Traslado a Flores Guatemala"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1760059025.webp",
+      "archivo": "1760059025.webp",
+      "alt": "Image 10: Traslado Traslado de hotel en Palenque a la Estación del Tren Maya"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1760059026.webp",
+      "archivo": "1760059026.webp",
+      "alt": "Image 11: Traslado Traslado a San Cristobal Desde Palenque."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.google.com/images/branding/product/2x/maps_96in128dp.png",
+      "archivo": "maps_96in128dp.png",
+      "alt": "Image 13: Google Maps"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/pagina/tripadvisor.png",
+      "archivo": "tripadvisor.png",
+      "alt": "Image 14: Tripadvisor"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/GetYourGuide_logo.png",
+      "archivo": "GetYourGuide_logo.png",
+      "alt": "Image 15: GetYourGuide"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/pagina/lang_en.webp",
+      "archivo": "lang_en.webp",
+      "alt": "Image 4: English"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/pagina/lang_es.webp",
+      "archivo": "lang_es.webp",
+      "alt": "Image 5: Español"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1756732840.webp",
+      "archivo": "1756732840.webp",
+      "alt": "Image 6: Tours desde Palenque"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1756841383.webp",
+      "archivo": "1756841383.webp",
+      "alt": "Image 7: Yaxchilan y Bonampak 1 día"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1756733089.webp",
+      "archivo": "1756733089.webp",
+      "alt": "Image 8: Cascadas de Misol-ha y Agua Azul"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1756733123.webp",
+      "archivo": "1756733123.webp",
+      "alt": "Image 9: Ecoparque Aluxes, Cascadas de Misol-ha y Agua Azul Con Traslado a San Cristobal."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1758855396.webp",
+      "archivo": "1758855396.webp",
+      "alt": "Image 10: Yaxchilan, Bonampak y Senderismo en la Selva Lacandona 2 dias 1 noche."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1756733121.webp",
+      "archivo": "1756733121.webp",
+      "alt": "Image 11: Zona arqueológica. Palenque, Misol-ha, agua azul y traslado a San Cristóbal de las Casas"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1756840873.webp",
+      "archivo": "1756840873.webp",
+      "alt": "Image 12: Cascadas Roberto Barrios"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1756732805.webp",
+      "archivo": "1756732805.webp",
+      "alt": "Image 13: Zona Arqueológica Palenque y Cascadas Roberto Barrios"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1759876598.webp",
+      "archivo": "1759876598.webp",
+      "alt": "Image 14: Selva Lacandona y Bonampak"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1758824097.webp",
+      "archivo": "1758824097.webp",
+      "alt": "Image 16: Cascadas Roberto Barrios y Traslado a San Cristobal."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1756732376.webp",
+      "archivo": "1756732376.webp",
+      "alt": "Image 17: Zona Arqueologica Palenque, Cascadas de Roberto Barrios y Traslado a San Cristobal."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1756734689.webp",
+      "archivo": "1756734689.webp",
+      "alt": "Image 18: Ecoparque Aluxes, Cascadas de Misol-ha y Agua Azul"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1759876600.webp",
+      "archivo": "1759876600.webp",
+      "alt": "Image 20: Caminata en la Selva Lacandona"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1759874034.webp",
+      "archivo": "1759874034.webp",
+      "alt": "Image 21: Rafting y Caminata en la Selva Lacandona"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1760999729.webp",
+      "archivo": "1760999729.webp",
+      "alt": "Image 25: Laguna de Metzabok Selva Lacandona"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1762020416.webp",
+      "archivo": "1762020416.webp",
+      "alt": "Image 26: visita de Zona Arqueologica Tikal Guatemala 3 dias 2 noches. Salida desde Palenque."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1762012096.webp",
+      "archivo": "1762012096.webp",
+      "alt": "Image 29: Selva lacandona Naha y Metzabok 2 dias"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1759616956.webp",
+      "archivo": "1759616956.webp",
+      "alt": "Image 30: Traslado a Flores Guatemala"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1760059026.webp",
+      "archivo": "1760059026.webp",
+      "alt": "Image 31: Traslado a San Cristobal Desde Palenque."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1760059023.webp",
+      "archivo": "1760059023.webp",
+      "alt": "Image 32: RECEPCIÓN EN LA ESTACIÓN DEL TREN MAYA PALENQUE Y TRASLADO AL HOTEL."
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/mediana/1760059025.webp",
+      "archivo": "1760059025.webp",
+      "alt": "Image 33: Traslado de hotel en Palenque a la Estación del Tren Maya"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/pagina/pagina/banner.webp",
+      "archivo": "banner.webp",
+      "alt": "Image 4: Tours"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1758826220.webp",
+      "archivo": "1758826220.webp",
+      "alt": "Image 4: AVENTURA CHIAPAS"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1759805051.webp",
+      "archivo": "1759805051.webp",
+      "alt": "Image 5: Explora Chiapas 6 Días"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://kichanbajlumtours.com/imagenes/cuadrado/1759870349.webp",
+      "archivo": "1759870349.webp",
+      "alt": "Image 6: Chiapas Expres"
+    }
+  ]
+}

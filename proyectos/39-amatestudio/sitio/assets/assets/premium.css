@@ -1,0 +1,464 @@
+/* ═══════════════════════════════════════════════════════════════
+   AMATE Studio — Premium layer
+   Lenis smooth scroll + Apple-style liquid glass
+   Compartido por todas las páginas (cargado tras el CSS inline)
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ──────────── LENIS (requerido) ──────────── */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+/* ──────────── TOKENS LIQUID GLASS ──────────── */
+:root {
+  --lg-blur: 18px;
+  --lg-tint: rgba(255, 255, 255, 0.16);
+  --lg-tint-strong: rgba(255, 255, 255, 0.34);
+  --lg-edge: rgba(255, 255, 255, 0.55);
+  --lg-shadow: 0 8px 32px rgba(29, 29, 31, 0.08);
+  --lg-gold-glow: rgba(200, 169, 122, 0.55);
+}
+
+/* ──────────── TRANSICIÓN ENTRE PÁGINAS ──────────── */
+body.page-leaving {
+  animation: none !important;
+  opacity: 0 !important;
+  transition: opacity 0.24s ease !important;
+}
+
+/* ════════════════════════════════════════════════
+   PÍLDORAS / BOTONES OUTLINE → LIQUID GLASS
+   ════════════════════════════════════════════════ */
+.btn-outline,
+.btn-ghost,
+.btn-outline-nav,
+.nav-cta,
+.hero-btn-outline,
+.btn-proj-all,
+.filter-btn,
+.svc-tab,
+.lb-project-link {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--lg-tint-strong), var(--lg-tint)) padding-box;
+  -webkit-backdrop-filter: blur(var(--lg-blur)) saturate(170%);
+  backdrop-filter: blur(var(--lg-blur)) saturate(170%);
+  box-shadow:
+    inset 0 1px 0 var(--lg-edge),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.10),
+    var(--lg-shadow);
+}
+
+/* Reflejo especular que sigue al cursor (variables --gx/--gy desde JS) */
+.btn-outline::after,
+.btn-ghost::after,
+.btn-outline-nav::after,
+.nav-cta::after,
+.hero-btn-outline::after,
+.btn-proj-all::after,
+.filter-btn::after,
+.svc-tab::after,
+.lb-project-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: radial-gradient(
+    110px circle at var(--gx, 50%) var(--gy, 50%),
+    rgba(255, 255, 255, 0.38),
+    transparent 65%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 1;
+}
+
+.btn-outline:hover::after,
+.btn-ghost:hover::after,
+.btn-outline-nav:hover::after,
+.nav-cta:hover::after,
+.hero-btn-outline:hover::after,
+.btn-proj-all:hover::after,
+.filter-btn:hover::after,
+.svc-tab:hover::after,
+.lb-project-link:hover::after {
+  opacity: 1;
+}
+
+/* Sobre fondo claro la píldora translúcida pierde el borde gris duro */
+.btn-outline,
+.btn-proj-all { border-color: rgba(140, 140, 140, 0.45); }
+
+/* Micro-feedback táctil */
+.btn:active,
+.btn-proj-all:active,
+.hero-btn-outline:active,
+.filter-btn:active,
+.svc-tab:active { transform: scale(0.97); }
+
+/* ════════════════════════════════════════════════
+   BOTÓN DORADO → BARRIDO DE LUZ (gloss sweep)
+   ════════════════════════════════════════════════ */
+.btn-gold {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.btn-gold::after {
+  content: '';
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: -75%;
+  width: 50%;
+  background: linear-gradient(
+    105deg,
+    transparent,
+    rgba(255, 255, 255, 0.45) 50%,
+    transparent
+  );
+  transform: skewX(-20deg);
+  transition: left 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.btn-gold:hover::after { left: 130%; }
+
+/* ════════════════════════════════════════════════
+   TARJETAS → BORDE LUMINOSO + REFLEJO QUE SIGUE AL CURSOR
+   ════════════════════════════════════════════════ */
+.svc-card,
+.t-card,
+.unidad-card,
+.proceso-item,
+.form-card,
+.svc-item {
+  position: relative;
+}
+
+/* Aro dorado líquido que sigue al cursor (solo el borde, vía mask) */
+.svc-card::before,
+.t-card::before,
+.unidad-card::before,
+.proceso-item::before,
+.form-card::before,
+.svc-item::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: radial-gradient(
+    260px circle at var(--gx, 50%) var(--gy, 50%),
+    var(--lg-gold-glow),
+    transparent 70%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.45s ease;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.svc-card:hover::before,
+.t-card:hover::before,
+.unidad-card:hover::before,
+.proceso-item:hover::before,
+.form-card:hover::before,
+.svc-item:hover::before {
+  opacity: 1;
+}
+
+/* Velo especular interior, muy sutil */
+.svc-card::after,
+.t-card::after,
+.unidad-card::after,
+.proceso-item::after,
+.svc-item::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: radial-gradient(
+    320px circle at var(--gx, 50%) var(--gy, 50%),
+    rgba(255, 255, 255, 0.16),
+    transparent 65%
+  );
+  opacity: 0;
+  transition: opacity 0.45s ease;
+  z-index: 2;
+}
+
+.svc-card:hover::after,
+.t-card:hover::after,
+.unidad-card:hover::after,
+.proceso-item:hover::after,
+.svc-item:hover::after {
+  opacity: 1;
+}
+
+/* ════════════════════════════════════════════════
+   NAVBAR — filo de luz dorada bajo el cristal
+   ════════════════════════════════════════════════ */
+nav::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 5%,
+    rgba(200, 169, 122, 0.45) 50%,
+    transparent 95%
+  );
+  pointer-events: none;
+}
+
+/* ════════════════════════════════════════════════
+   CONTROLES FLOTANTES — cristal más profundo
+   ════════════════════════════════════════════════ */
+.scroll-btn,
+.menu-btn {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.14));
+  -webkit-backdrop-filter: blur(24px) saturate(190%);
+  backdrop-filter: blur(24px) saturate(190%);
+}
+
+.scroll-btn:active,
+.menu-btn:active { transform: scale(0.92); }
+
+.lb-close,
+.lb-prev,
+.lb-next {
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  backdrop-filter: blur(16px) saturate(160%);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Etiquetas sobre fotos de proyectos: cristal más definido */
+.project-label {
+  background: rgba(255, 255, 255, 0.14);
+  -webkit-backdrop-filter: blur(14px) saturate(170%);
+  backdrop-filter: blur(14px) saturate(170%);
+  border-color: rgba(255, 255, 255, 0.55);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+/* ════════════════════════════════════════════════
+   MENÚ HAMBURGUESA → LÁMINA DE CRISTAL LÍQUIDO
+   ════════════════════════════════════════════════ */
+/* El fondo casi opaco pasa a cristal oscuro: la página se ve
+   detrás, desenfocada y saturada, estilo hoja de vidrio de iOS */
+.menu-overlay {
+  background: rgba(29, 29, 31, 0.55);
+  -webkit-backdrop-filter: blur(36px) saturate(170%);
+  backdrop-filter: blur(36px) saturate(170%);
+  transition: opacity 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Luz ambiental dentro del cristal: brillo frío arriba, halo dorado abajo */
+.menu-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 70% at 50% -10%, rgba(255, 255, 255, 0.09), transparent 60%),
+    radial-gradient(70% 50% at 50% 115%, rgba(200, 169, 122, 0.14), transparent 70%);
+  pointer-events: none;
+}
+
+/* El bloque de enlaces se materializa: llega grande y desenfocado,
+   y cristaliza en su sitio */
+.menu-nav {
+  transform: scale(1.10);
+  filter: blur(10px);
+  transition: transform 0.65s cubic-bezier(0.23, 1, 0.32, 1),
+              filter 0.65s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu-overlay.open .menu-nav {
+  transform: scale(1);
+  filter: blur(0);
+}
+
+/* Entrada de los enlaces por animación (no transición), para que el
+   stagger no retrase los efectos hover una vez abierto el menú */
+.menu-overlay.open .menu-nav a:nth-child(n) { transition-delay: 0s; }
+
+.menu-overlay.open .menu-nav a {
+  animation: menuLinkIn 0.65s cubic-bezier(0.23, 1, 0.32, 1) backwards;
+}
+
+.menu-overlay.open .menu-nav a:nth-child(1) { animation-delay: 0.10s; }
+.menu-overlay.open .menu-nav a:nth-child(2) { animation-delay: 0.17s; }
+.menu-overlay.open .menu-nav a:nth-child(3) { animation-delay: 0.24s; }
+.menu-overlay.open .menu-nav a:nth-child(4) { animation-delay: 0.31s; }
+.menu-overlay.open .menu-nav a:nth-child(5) { animation-delay: 0.38s; }
+.menu-overlay.open .menu-nav a:nth-child(6) { animation-delay: 0.45s; }
+
+/* Estado final estable para cualquier número de enlaces
+   (las páginas solo definen nth-child 1-4 en su CSS inline) */
+.menu-overlay.open .menu-nav a {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes menuLinkIn {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+    filter: blur(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+/* Cada enlace se vuelve una cápsula de cristal al pasar el cursor */
+.menu-nav a {
+  position: relative;
+  padding: 6px 36px;
+  border-radius: 70px;
+  border: 1px solid transparent;
+  transition: color 0.3s,
+              background 0.35s ease,
+              border-color 0.35s ease,
+              box-shadow 0.35s ease,
+              transform 0.5s cubic-bezier(0.23, 1, 0.32, 1),
+              opacity 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu-nav a:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.04));
+  border-color: rgba(255, 255, 255, 0.16);
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+  backdrop-filter: blur(12px) saturate(160%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+/* Reflejo especular que sigue al cursor también en el menú */
+.menu-nav a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: radial-gradient(
+    140px circle at var(--gx, 50%) var(--gy, 50%),
+    rgba(255, 255, 255, 0.14),
+    transparent 65%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.menu-nav a:hover::after { opacity: 1; }
+
+/* ════════════════════════════════════════════════
+   ACCESIBILIDAD / FALLBACKS
+   ════════════════════════════════════════════════ */
+/* Sin soporte de backdrop-filter: mantener fondos legibles */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .btn-outline, .btn-ghost, .btn-outline-nav, .nav-cta,
+  .hero-btn-outline, .btn-proj-all, .filter-btn, .svc-tab, .lb-project-link {
+    background: rgba(255, 255, 255, 0.82);
+  }
+  .hero-btn-outline, .lb-project-link { background: rgba(0, 0, 0, 0.35); }
+  .menu-overlay { background: rgba(29, 29, 31, 0.96); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.page-leaving { opacity: 1 !important; }
+  .btn-gold::after { display: none; }
+}
+
+/* ════════════════════════════════════════════════
+   SELECTOR DE IDIOMA — estilos globales
+   (permite añadir ES|EN en cualquier navbar)
+   ════════════════════════════════════════════════ */
+.nav-right { display: flex; align-items: center; gap: 20px; }
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: .12em;
+}
+.lang-btn { color: #55555c; text-decoration: none; transition: color .25s; }
+.lang-btn:hover, .lang-btn.lang-active { color: #C8A97A; }
+.lang-btn.lang-active { font-weight: 500; }
+.lang-sep { color: #e2d9ce; }
+
+@media (max-width: 768px) {
+  .nav-right { gap: 12px; }
+  .lang-switch { font-size: 13px; gap: 7px; }
+  .lang-btn { font-size: 13px; font-weight: 400; }
+}
+
+/* ════════════════════════════════════════════════
+   LEGIBILIDAD EN MÓVIL
+   Texto más oscuro y con mayor peso en pantallas
+   pequeñas (feedback de clientes: se leía muy claro)
+   ════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+  /* Gris de apoyo más oscuro en todo el sitio */
+  :root { --gray-text: #4a4a51; }
+
+  /* Párrafos y textos descriptivos: de light (300) a regular (400) */
+  .intro-text,
+  .claim-text,
+  .concept-body,
+  .t-text,
+  .t-subtitle,
+  .svc-card-cats,
+  .services-new-sub,
+  .proj-sub,
+  .info-services,
+  .info-value small,
+  .footer-contact,
+  .hero-sub,
+  .hero-location,
+  .proceso-cap,
+  .form-sub,
+  .form-note,
+  .form-label,
+  .svc-desc,
+  .svc-item p,
+  .about-text,
+  .faq-a,
+  .cta-sub {
+    font-weight: 400;
+  }
+
+  .concept-body { color: #2c2c2f; }
+  .t-text { color: #1D1D1F; }
+
+  /* Textos sobre fondos oscuros: más contraste */
+  .hero-sub { color: rgba(255,255,255,0.95); }
+  .hero-location { color: rgba(255,255,255,0.88); }
+  .hero-cat { color: rgba(255,255,255,0.92); border-color: rgba(255,255,255,0.45); }
+  .cta-dark p { color: rgba(255,255,255,0.72); font-weight: 400; }
+  .divider-label { color: #d4b98a; }
+  .proceso-cap { color: rgba(255,255,255,0.92); }
+
+  /* Enlaces y botones de texto pequeño */
+  .nav-cta { font-weight: 400; }
+  .footer-copy { color: #8e8e93; font-weight: 400; }
+}

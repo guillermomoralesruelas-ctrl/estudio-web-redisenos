@@ -1,0 +1,1753 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<base href="./">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VVRR28QN6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4VVRR28QN6');
+  </script>
+  <title>Arquitectura e Interiorismo Puerto Vallarta | Amate Studio</title>
+  <meta name="description" content="Arquitectura & Diseño de Interiores en Puerto Vallarta. Remodelaciones y construcción residencial en Bahía de Banderas.">
+  <meta property="og:title" content="Arquitectura e Interiorismo Puerto Vallarta | Amate Studio">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arqacasillas.com/">
+  <meta property="og:description" content="Arquitecto y diseño de interiores en Puerto Vallarta. Remodelación y construcción residencial en Bahía de Banderas. Proyectos de lujo, primera consulta gratis.">
+  <meta property="og:image" content="https://arqacasillas.com/images/og-cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://arqacasillas.com/">
+  <link rel="alternate" hreflang="es" href="https://arqacasillas.com/">
+  <link rel="alternate" hreflang="en" href="https://arqacasillas.com/en/">
+  <link rel="alternate" hreflang="x-default" href="https://arqacasillas.com/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["LocalBusiness", "ProfessionalService"],
+        "@id": "https://arqacasillas.com/#business",
+        "name": "AMATE Studio",
+        "alternateName": "AMATE Studio Arquitectura",
+        "description": "Estudio integral de arquitectura, diseño de interiores y construcción en Puerto Vallarta y Bahía de Banderas. Proyectos residenciales y vacacionales de lujo.",
+        "url": "https://arqacasillas.com",
+        "telephone": "+523222642367",
+        "email": "contacto@arqacasillas.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Puerto Vallarta",
+          "addressRegion": "Jalisco",
+          "addressCountry": "MX"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 20.6534,
+          "longitude": -105.2253
+        },
+        "image": "https://arqacasillas.com/images/logo.png",
+        "priceRange": "$$",
+        "areaServed": ["Puerto Vallarta", "Bahía de Banderas", "Riviera Nayarit", "Jalisco", "Nayarit"],
+        "knowsAbout": ["Arquitectura residencial", "Diseño de interiores", "Construcción", "Remodelación", "Proyectos vacacionales"],
+        "serviceType": "Servicios de arquitectura y diseño de interiores",
+        "hasMap": "https://maps.google.com/?q=Puerto+Vallarta,+Jalisco,+M%C3%A9xico"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://arqacasillas.com/#website",
+        "url": "https://arqacasillas.com",
+        "name": "AMATE Studio",
+        "publisher": { "@id": "https://arqacasillas.com/#business" },
+        "inLanguage": "es-MX"
+      }
+    ]
+  }
+  </script>
+  <link rel="preload" as="image" href="images/hero.webp" imagesrcset="images/hero-960.webp 960w, images/hero.webp 1920w" imagesizes="100vw" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/externo/fonts.googleapis.com/css2" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="assets/externo/fonts.googleapis.com/css2"></noscript>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold:       #C8A97A;
+      --gold-light: #d4b98a;
+      --gold-pale:  #ecddc8;
+      --black:      #1D1D1F;
+      --dark:       #232323;
+      --white:      #FFFFFF;
+      --gray-bg:    #F2F2F2;
+      --gray-text:  #6e6e73;
+      --gray-line:  #e2d9ce;
+      --serif:      'Cormorant Garamond', serif;
+      --sans:       'Jost', sans-serif;
+      --ease-out:   cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      color: var(--black);
+      background: var(--white);
+      overflow-x: hidden;
+      cursor: none;
+      animation: pageFade 0.5s ease forwards;
+    }
+
+    @keyframes pageFade {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    /* ──────────── CUSTOM CURSOR ──────────── */
+    body { cursor: none; }
+    /* Un solo elemento: círculo translúcido que sigue exactamente */
+    .cursor-ring {
+      position: fixed;
+      width: 28px;
+      height: 28px;
+      border: 1.5px solid rgba(200,169,122,0.7);
+      background: rgba(200,169,122,0.06);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 99999;
+      transform: translate(-50%, -50%);
+      transition: width 0.2s var(--ease-out), height 0.2s var(--ease-out),
+                  border-color 0.2s, background 0.2s;
+      will-change: left, top;
+    }
+    body.cursor-hover .cursor-ring {
+      width: 44px;
+      height: 44px;
+      border-color: rgba(200,169,122,0.45);
+      background: rgba(200,169,122,0.1);
+    }
+    /* Punto pequeño centrado (CSS, no JS) */
+    .cursor-dot {
+      position: fixed;
+      width: 4px;
+      height: 4px;
+      background: var(--gold);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 99999;
+      transform: translate(-50%, -50%);
+      will-change: left, top;
+    }
+    body.cursor-hover .cursor-dot { opacity: 0; }
+    @media (hover: none) {
+      body { cursor: auto; }
+      .cursor-dot, .cursor-ring { display: none; }
+    }
+
+    /* ──────────── NAVBAR ──────────── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 56px;
+      height: 88px;
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border-bottom: 1px solid rgba(255,255,255,0.55);
+      box-shadow: 0 1px 0 rgba(200,169,122,0.10), inset 0 1px 0 rgba(255,255,255,0.80);
+      transition: box-shadow 0.4s ease, background 0.4s ease, backdrop-filter 0.4s ease;
+    }
+
+    nav.scrolled {
+      background: rgba(255,255,255,0.22);
+      backdrop-filter: blur(32px) saturate(200%);
+      -webkit-backdrop-filter: blur(32px) saturate(200%);
+      box-shadow: 0 1px 40px rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.90);
+    }
+
+    .nav-logo {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-decoration: none;
+      gap: 2px;
+      transition: opacity 0.25s;
+    }
+
+    .nav-logo:hover { opacity: 0.75; }
+
+    /* Logo imagen — ajusta este número para cambiar el tamaño */
+    .nav-logo-img {
+      height: 56px;
+      width: auto;
+      display: block;
+    }
+
+    /* Fallback texto mientras se agrega el PNG */
+    .nav-logo .wordmark {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 17px;
+      letter-spacing: 0.38em;
+      color: var(--black);
+      line-height: 1;
+    }
+
+    .nav-logo .wordmark strong { font-weight: 500; }
+
+    .nav-logo .tagline {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      color: var(--gray-text);
+    }
+
+    .nav-cta {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      color: var(--gold);
+      text-decoration: none;
+      border: 1px solid var(--gold);
+      border-radius: 50px;
+      padding: 11px 32px;
+      transition: border-color 0.3s, color 0.3s, background 0.3s;
+    }
+
+    .nav-cta:hover {
+      background: var(--gold);
+      border-color: var(--gold);
+      color: var(--white);
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .lang-switch {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .lang-btn {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: .12em;
+      color: var(--gray-text);
+      text-decoration: none;
+      transition: color .25s;
+    }
+    .lang-btn:hover, .lang-btn.lang-active { color: var(--gold); }
+    .lang-sep { color: var(--gray-line); font-size: 11px; }
+
+    /* ──────────── HERO ──────────── */
+    .hero {
+      position: relative;
+      height: 100vh;
+      min-height: 580px;
+      overflow: hidden;
+    }
+
+    .hero-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 115%;
+      object-fit: cover;
+      object-position: center top;
+      animation: heroZoom 14s ease-out forwards;
+      will-change: transform;
+    }
+
+    @keyframes heroZoom {
+      from { transform: scale(1.05); }
+      to   { transform: scale(1); }
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.60) 0%,
+        rgba(0,0,0,0.22) 55%,
+        rgba(0,0,0,0.20) 100%
+      );
+    }
+
+    .hero-content {
+      position: absolute;
+      bottom: 72px;
+      left: 72px;
+      color: var(--white);
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 1.1s var(--ease-out) 0.5s forwards;
+    }
+
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-title {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(34px, 4.4vw, 60px);
+      line-height: 1.12;
+      margin-bottom: 14px;
+      max-width: 680px;
+    }
+
+    .hero-sub {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 15px;
+      letter-spacing: 0.06em;
+      color: rgba(255,255,255,0.82);
+    }
+
+    /* ──────────── INTRO ──────────── */
+    .intro {
+      padding: 92px 48px 84px;
+      text-align: center;
+      background: var(--white);
+    }
+
+    .intro-text {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(17px, 1.85vw, 22px);
+      line-height: 1.8;
+      color: var(--black);
+      max-width: 600px;
+      margin: 0 auto 44px;
+    }
+
+    /* ──────────── BOTONES (sistema unificado) ──────────── */
+    .btn {
+      display: inline-block;
+      font-family: var(--sans);
+      font-weight: 400;
+      font-size: 12px;
+      letter-spacing: 0.15em;
+      text-decoration: none;
+      border-radius: 50px;
+      padding: 13px 36px;
+      transition: all 0.35s var(--ease-out);
+      cursor: none;
+    }
+
+    .btn-gold {
+      color: var(--white);
+      background: var(--gold);
+      border: 1.5px solid transparent;
+    }
+
+    .btn-gold:hover {
+      background: #b8946a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 32px rgba(200,169,122,0.38);
+    }
+
+    .btn-outline {
+      color: var(--black);
+      background: transparent;
+      border: 1px solid #aaaaaa;
+    }
+
+    .btn-outline:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    /* ── Nav CTA: override btn-outline con mayor especificidad ── */
+    .nav-cta.btn-outline { color: var(--gold); border-color: var(--gold); }
+    .nav-cta.btn-outline:hover { background: var(--gold); border-color: var(--gold); color: var(--white); }
+
+    /* ──────────── ICONOS SOCIALES ──────────── */
+    .social-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 56px;
+      margin-top: 52px;
+    }
+
+    .social-row a {
+      color: var(--gold);
+      transition: opacity 0.3s, transform 0.3s var(--ease-out);
+    }
+
+    .social-row a:hover { opacity: 0.6; transform: translateY(-3px); }
+    .social-row svg { width: 24px; height: 24px; display: block; }
+
+    /* ──────────── DIVISOR ──────────── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold-pale), var(--gold-light), var(--gold-pale), transparent);
+    }
+
+    /* ──────────── SERVICIOS ──────────── */
+    .services {
+      background: var(--gray-bg);
+      padding: 96px 56px 0;
+    }
+
+    .svc-split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    .svc-eyebrow {
+      display: block;
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 18px;
+    }
+
+    .svc-title {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(28px, 3vw, 42px);
+      line-height: 1.15;
+      color: var(--black);
+      margin: 0 0 40px;
+    }
+
+    .svc-tabs {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .svc-tab {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 28px;
+      border: 1px solid var(--gold);
+      border-radius: 50px;
+      color: var(--gold);
+      text-decoration: none;
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+      transition: background 0.35s var(--ease-out), color 0.35s;
+    }
+
+    .svc-tab:hover,
+    .svc-tab.svc-active {
+      background: var(--gold);
+      color: var(--white);
+    }
+
+    .svc-right {
+      position: relative;
+      aspect-ratio: 3/4;
+      border-radius: 20px;
+      overflow: hidden;
+      background: var(--gray-line);
+    }
+
+    .svc-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 0.6s var(--ease-out);
+    }
+
+    .svc-img.svc-active {
+      opacity: 1;
+    }
+
+    /* ──────────── CLAIM SERVICIOS ──────────── */
+    .services-claim {
+      background: var(--gray-bg);
+      padding: 60px 48px 56px;
+      text-align: center;
+    }
+
+    .claim-text {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(15px, 1.55vw, 19px);
+      line-height: 1.9;
+      color: var(--gray-text);
+      max-width: 600px;
+      margin: 0 auto 40px;
+    }
+
+    /* ──────────── PROYECTOS ──────────── */
+    .projects {
+      background: var(--gray-bg);
+    }
+
+    .projects-header {
+      text-align: center;
+      padding: 52px 0 44px;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+    }
+
+    .project-card {
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 1/1;
+      display: block;
+      text-decoration: none;
+      cursor: none;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.75s var(--ease-out), filter 0.4s ease;
+      filter: brightness(0.82);
+    }
+
+    .project-card:hover img {
+      transform: scale(1.07);
+      filter: brightness(0.52);
+    }
+
+    .project-label {
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,0.7);
+      border-radius: 50px;
+      padding: 7px 18px;
+      white-space: nowrap;
+      background: rgba(0,0,0,0.15);
+      backdrop-filter: blur(4px);
+      transition: background 0.3s, border-color 0.3s;
+    }
+
+    .project-card:hover .project-label {
+      background: rgba(200,169,122,0.85);
+      border-color: transparent;
+    }
+
+    /* ──────────── LIGHTBOX PROYECTOS ──────────── */
+    .lb-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(0,0,0,0.92);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lb-backdrop.open {
+      display: flex;
+      animation: lbFadeIn 0.22s ease forwards;
+    }
+
+    @keyframes lbFadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    .lb-close {
+      position: absolute;
+      top: 24px;
+      right: 28px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(255,255,255,0.25);
+      background: transparent;
+      cursor: none;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color 0.25s, background 0.25s;
+      z-index: 10;
+    }
+
+    .lb-close:hover {
+      border-color: var(--gold);
+      background: rgba(200,169,122,0.15);
+    }
+
+    .lb-close svg { width: 18px; height: 18px; }
+
+    .lb-figure {
+      max-width: min(88vw, 1100px);
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .lb-figure img {
+      max-width: 100%;
+      max-height: 76vh;
+      object-fit: contain;
+      border-radius: 6px;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.6);
+    }
+
+    .lb-caption {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .lb-caption span {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: 17px;
+      letter-spacing: 0.04em;
+      color: rgba(255,255,255,0.8);
+    }
+
+    .lb-project-link {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      color: var(--gold);
+      text-decoration: none;
+      border: 1px solid rgba(200,169,122,0.45);
+      border-radius: 50px;
+      padding: 8px 22px;
+      white-space: nowrap;
+      transition: background 0.3s, border-color 0.3s, color 0.3s;
+    }
+
+    .lb-project-link:hover {
+      background: var(--gold);
+      color: var(--white);
+      border-color: var(--gold);
+    }
+
+    /* ──────────── RESEÑAS ──────────── */
+    .testimonials {
+      background: var(--gray-bg);
+      padding: 88px 48px;
+    }
+
+    .testimonials-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .testimonials-header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .t-eyebrow {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+
+    .t-stars-header {
+      color: var(--gold);
+      font-size: 20px;
+      letter-spacing: 4px;
+      margin-bottom: 14px;
+    }
+
+    .t-subtitle {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(16px, 1.6vw, 20px);
+      color: var(--gray-text);
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 52px;
+      max-width: 920px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .t-card {
+      background: var(--white);
+      border: 1px solid var(--gray-line);
+      border-radius: 14px;
+      padding: 36px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.7s var(--ease-out),
+                  transform 0.7s var(--ease-out),
+                  box-shadow 0.35s var(--ease-out);
+    }
+
+    .testimonials-grid.visible .t-card:nth-child(1) { transition-delay: 0.05s; }
+    .testimonials-grid.visible .t-card:nth-child(2) { transition-delay: 0.15s; }
+    .testimonials-grid.visible .t-card:nth-child(3) { transition-delay: 0.25s; }
+    .testimonials-grid.visible .t-card:nth-child(4) { transition-delay: 0.35s; }
+
+    .testimonials-grid.visible .t-card {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .t-card:hover {
+      box-shadow: 0 12px 40px rgba(0,0,0,0.07);
+    }
+
+    .t-stars {
+      color: var(--gold);
+      font-size: 15px;
+      letter-spacing: 3px;
+    }
+
+    .t-text {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-style: italic;
+      font-size: clamp(15px, 1.3vw, 17px);
+      line-height: 1.85;
+      color: var(--black);
+      flex: 1;
+    }
+
+    .t-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 16px;
+      border-top: 1px solid var(--gray-line);
+      gap: 12px;
+    }
+
+    .t-name {
+      font-family: var(--sans);
+      font-weight: 400;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      color: var(--black);
+    }
+
+    .t-link {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+      text-decoration: none;
+      white-space: nowrap;
+      transition: opacity 0.25s;
+    }
+
+    .t-link:hover { opacity: 0.65; }
+
+    .testimonials-cta-row {
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .testimonials { padding: 64px 20px; }
+      .testimonials-grid { grid-template-columns: 1fr; gap: 16px; }
+      .t-card { padding: 28px 24px; }
+    }
+
+    /* ──────────── CTA OSCURO ──────────── */
+    .cta-dark {
+      background: var(--dark);
+      padding: 108px 48px;
+      text-align: center;
+    }
+
+    .cta-dark h2 {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(30px, 4vw, 54px);
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 16px;
+      max-width: 620px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-dark p {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 14px;
+      color: rgba(255,255,255,0.42);
+      letter-spacing: 0.04em;
+      margin-bottom: 48px;
+    }
+
+    /* ── SCROLL PROGRESS ── */
+    .scroll-progress { position:fixed; top:0; left:0; z-index:102; height:2px; background:var(--gold); width:0; pointer-events:none; }
+
+    /* ──────────── FOOTER ──────────── */
+    footer {
+      background: var(--white);
+      padding: 64px 48px 44px;
+      text-align: center;
+      border-top: 1px solid var(--gray-line);
+    }
+
+    .footer-contact {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 13px;
+      color: var(--gray-text);
+      line-height: 2.2;
+      margin-bottom: 36px;
+    }
+
+    .footer-contact a {
+      color: var(--gray-text);
+      text-decoration: none;
+      transition: color 0.25s;
+      position: relative;
+    }
+
+    .footer-contact a::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0; right: 100%;
+      height: 1px;
+      background: var(--gold);
+      transition: right 0.35s var(--ease-out);
+    }
+
+    .footer-contact a:hover { color: var(--gold); }
+    .footer-contact a:hover::after { right: 0; }
+
+    .footer-logo {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      gap: 4px;
+      margin-bottom: 36px;
+      transition: opacity 0.25s;
+    }
+
+    .footer-logo:hover { opacity: 0.7; }
+
+    /* Logo imagen footer */
+    .footer-logo-img {
+      height: 36px;
+      width: auto;
+      display: block;
+    }
+
+    /* Fallback texto footer */
+    .footer-logo .wordmark {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 18px;
+      letter-spacing: 0.38em;
+      color: var(--black);
+      line-height: 1;
+    }
+
+    .footer-logo .wordmark strong { font-weight: 500; }
+
+    .footer-logo .tagline {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 9px;
+      letter-spacing: 0.2em;
+      color: var(--gray-text);
+    }
+
+    .footer-copy {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 0.05em;
+      color: #c0c0c0;
+    }
+
+    /* ──────────── SCROLL REVEAL ──────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Stagger para tabs de servicios */
+    .svc-left .svc-tab {
+      opacity: 0;
+      transform: translateX(-16px);
+      transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out),
+                  background 0.35s var(--ease-out), color 0.35s;
+    }
+
+    .svc-left.visible .svc-tab:nth-child(1) { transition-delay: 0.05s; }
+    .svc-left.visible .svc-tab:nth-child(2) { transition-delay: 0.15s; }
+    .svc-left.visible .svc-tab:nth-child(3) { transition-delay: 0.25s; }
+
+    .svc-left.visible .svc-tab {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* Stagger para tarjetas de proyectos */
+    .projects-grid .project-card {
+      opacity: 0;
+      transition: opacity 0.8s var(--ease-out), transform 0s;
+    }
+
+    .projects-grid.visible .project-card:nth-child(1) { transition-delay: 0.0s; }
+    .projects-grid.visible .project-card:nth-child(2) { transition-delay: 0.1s; }
+    .projects-grid.visible .project-card:nth-child(3) { transition-delay: 0.2s; }
+    .projects-grid.visible .project-card:nth-child(4) { transition-delay: 0.3s; }
+
+    .projects-grid.visible .project-card { opacity: 1; }
+
+    /* ──────────── BOTÓN SCROLL / TOP ──────────── */
+    .scroll-btn {
+      position: fixed;
+      bottom: 36px;
+      right: 36px;
+      z-index: 90;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(255,255,255,0.6);
+      background: rgba(255,255,255,0.25);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10), inset 0 1px 0 rgba(255,255,255,0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: none;
+      transition: border-color 0.3s, background 0.3s, transform 0.3s var(--ease-out), opacity 0.4s, box-shadow 0.3s;
+      opacity: 1;
+    }
+
+    .scroll-btn:hover {
+      border-color: rgba(200,169,122,0.7);
+      background: rgba(255,255,255,0.45);
+      transform: scale(1.1);
+      box-shadow: 0 6px 32px rgba(0,0,0,0.13), inset 0 1px 0 rgba(255,255,255,0.85);
+    }
+
+    .scroll-btn svg {
+      width: 16px;
+      height: 16px;
+      color: var(--gold);
+      transition: transform 0.4s var(--ease-out);
+    }
+
+    /* Flecha abajo con bounce cuando está arriba */
+    .scroll-btn.at-top svg {
+      animation: bounce 2s ease-in-out infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(4px); }
+    }
+
+    /* ──────────── RESPONSIVE ──────────── */
+    @media (max-width: 1024px) {
+      .svc-split { grid-template-columns: 1fr; gap: 48px; }
+      .svc-right { aspect-ratio: 16/9; }
+    }
+
+    @media (max-width: 768px) {
+      nav { padding: 0 24px; height: 72px; }
+      .nav-logo .wordmark { font-size: 13px; }
+      .nav-logo-img { height: 34px; }
+      .nav-cta { font-size: 11px; padding: 9px 20px; }
+      .hero { height: 37vh; min-height: 240px; }
+      .hero-content { left: 28px; bottom: 32px; }
+      /* servicios: ocultar imagen, todos los tabs iguales */
+      .svc-right { display: none; }
+      .svc-tab, .svc-tab.svc-active { background: transparent; color: var(--gold); }
+      .svc-tab:hover, .svc-tab.svc-active:hover { background: var(--gold); color: var(--white); }
+      .intro { padding: 68px 24px 60px; }
+      .services { padding: 56px 20px 0; }
+      .services-claim { padding: 48px 24px 40px; }
+      .projects-grid { grid-template-columns: repeat(2, 1fr); }
+      .cta-dark { padding: 84px 24px; }
+      footer { padding: 52px 24px 36px; }
+      .social-row { gap: 40px; }
+    }
+
+    @media (max-width: 480px) {
+      .svc-tab { font-size: 13px; padding: 17px 22px; }
+      /* Servicios cards al 80% en móvil */
+      .svc-card-photo { aspect-ratio: 16/9; }
+      .svc-card-body { padding: 20px 20px 24px; }
+      .svc-card-icon { width: 36px; height: 36px; margin-bottom: 12px; }
+      .svc-card-name { font-size: 18px; margin-bottom: 8px; }
+      .svc-card-cats { font-size: 11px; margin-bottom: 14px; }
+      .services-new { padding: 56px 20px; }
+    }
+
+    /* ── HERO BUTTON OUTLINE ── */
+    .hero-btn-outline {
+      display: inline-block;
+      margin-top: 28px;
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 12px;
+      letter-spacing: .15em;
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,.65);
+      border-radius: 50px;
+      padding: 12px 32px;
+      text-decoration: none;
+      transition: background .3s, border-color .3s;
+      cursor: none;
+    }
+    .hero-btn-outline:hover {
+      background: rgba(255,255,255,.15);
+      border-color: var(--white);
+    }
+
+    /* ── SERVICES NEW ── */
+    .services-new {
+      background: var(--white);
+      padding: 96px 56px;
+    }
+    .services-new-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .services-new-eyebrow {
+      display: inline-block;
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+    }
+    .services-new-title {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(28px, 3vw, 42px);
+      color: var(--black);
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+    .services-new-sub {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 14px;
+      letter-spacing: .04em;
+      color: var(--gray-text);
+    }
+    .svc-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .svc-card {
+      background: var(--white);
+      border: 1px solid var(--gray-line);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: box-shadow .4s var(--ease-out), transform .4s var(--ease-out);
+    }
+    .svc-card:hover {
+      box-shadow: 0 20px 56px rgba(0,0,0,.09);
+      transform: translateY(-5px);
+    }
+    .svc-card-photo-wrap { overflow: hidden; }
+    .svc-card-photo {
+      width: 100%;
+      aspect-ratio: 16/10;
+      object-fit: cover;
+      display: block;
+      transition: transform .6s var(--ease-out);
+    }
+    .svc-card:hover .svc-card-photo { transform: scale(1.04); }
+    .svc-card-body { padding: 28px 28px 32px; }
+    .svc-card-icon {
+      width: 44px;
+      height: 44px;
+      color: var(--gray-text);
+      margin-bottom: 16px;
+      display: block;
+    }
+    .svc-card-name {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: 22px;
+      color: var(--black);
+      margin-bottom: 10px;
+    }
+    .svc-card-cats {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 12px;
+      color: var(--gray-text);
+      letter-spacing: .03em;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+    .svc-card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--sans);
+      font-weight: 400;
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--black);
+      text-decoration: none;
+      transition: color .25s;
+    }
+    .svc-card-link:hover { color: var(--gold); }
+    .svc-card-link svg { width: 14px; height: 14px; transition: transform .25s var(--ease-out); }
+    .svc-card-link:hover svg { transform: translate(3px,-3px); }
+    @media (max-width: 900px) { .svc-cards-grid { grid-template-columns: 1fr; max-width: 480px; } }
+    @media (max-width: 640px) { .services-new { padding: 64px 20px; } }
+
+    /* ── PROJECTS NEW HEADER ── */
+    .projects-header-new {
+      text-align: center;
+      padding: 80px 56px 48px;
+    }
+    .proj-eyebrow {
+      display: inline-block;
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+    }
+    .proj-title {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(28px, 3vw, 42px);
+      color: var(--black);
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+    .proj-sub {
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 14px;
+      letter-spacing: .04em;
+      color: var(--gray-text);
+    }
+    .projects-footer {
+      padding: 52px 0 72px;
+      text-align: center;
+    }
+    .btn-proj-all {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--black);
+      text-decoration: none;
+      border: 1px solid #aaaaaa;
+      border-radius: 50px;
+      padding: 13px 36px;
+      transition: border-color .3s, color .3s;
+      cursor: none;
+    }
+    .btn-proj-all:hover { border-color: var(--gold); color: var(--gold); }
+    .btn-proj-all svg { width: 14px; height: 14px; transition: transform .3s var(--ease-out); }
+    .btn-proj-all:hover svg { transform: translateX(4px); }
+
+    /* ── PROJECT CARD UPDATED ── */
+    .project-label { bottom: 28px !important; }
+    .project-ver {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 10px;
+      letter-spacing: .13em;
+      color: rgba(255,255,255,.75);
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity .35s;
+      pointer-events: none;
+    }
+    .project-card:hover .project-ver { opacity: 1; }
+
+    /* ── HAMBURGER MENU ── */
+    .menu-btn {
+      position: fixed;
+      bottom: 36px;
+      left: 36px;
+      z-index: 10000;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(255,255,255,0.6);
+      background: rgba(255,255,255,0.25);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10), inset 0 1px 0 rgba(255,255,255,0.7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      cursor: none;
+      transition: border-color .3s, background .3s, transform .3s var(--ease-out), box-shadow .3s;
+    }
+    .menu-btn:hover { border-color: rgba(200,169,122,0.7); background: rgba(255,255,255,0.45); transform: scale(1.1); box-shadow: 0 6px 32px rgba(0,0,0,0.13), inset 0 1px 0 rgba(255,255,255,0.85); }
+    .menu-btn span {
+      display: block;
+      width: 16px;
+      height: 1.5px;
+      background: var(--gold);
+      border-radius: 2px;
+      transition: transform .35s var(--ease-out), opacity .25s;
+    }
+    .menu-btn.menu-open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+    .menu-btn.menu-open span:nth-child(2) { opacity: 0; }
+    .menu-btn.menu-open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+    .menu-overlay {
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      z-index: 9999;
+      background: rgba(29,29,31,.97);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .4s var(--ease-out);
+    }
+    .menu-overlay.open { opacity: 1; pointer-events: auto; }
+    .menu-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .menu-nav a {
+      font-family: var(--serif);
+      font-weight: 300;
+      font-size: clamp(32px, 5vw, 52px);
+      color: rgba(255,255,255,.55);
+      text-decoration: none;
+      letter-spacing: .02em;
+      line-height: 1.3;
+      transform: translateY(20px);
+      opacity: 0;
+      transition: color .3s, transform .5s var(--ease-out), opacity .5s var(--ease-out);
+    }
+    .menu-overlay.open .menu-nav a:nth-child(1) { transform: translateY(0); opacity: 1; transition-delay: .05s; }
+    .menu-overlay.open .menu-nav a:nth-child(2) { transform: translateY(0); opacity: 1; transition-delay: .1s; }
+    .menu-overlay.open .menu-nav a:nth-child(3) { transform: translateY(0); opacity: 1; transition-delay: .15s; }
+    .menu-overlay.open .menu-nav a:nth-child(4) { transform: translateY(0); opacity: 1; transition-delay: .2s; }
+    .menu-nav a:hover { color: var(--gold); }
+
+    /* ── PROJ NAV SIMPLE (project pages) ── */
+    .proj-nav-simple {
+      padding: 40px 56px;
+      background: var(--white);
+      border-top: 1px solid var(--gray-line);
+      text-align: center;
+    }
+    .proj-nav-simple-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--sans);
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      text-decoration: none;
+      transition: opacity .25s;
+    }
+    .proj-nav-simple-link:hover { opacity: .65; }
+    .proj-nav-simple-link svg { width: 16px; height: 16px; }
+  
+    /* ── Accesibilidad ── */
+    :focus-visible { outline: 2px solid var(--gold, #C8A97A); outline-offset: 3px; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="assets/assets/premium.css">
+</head>
+<body>
+
+  <!-- Menú hamburguesa -->
+  <button class="menu-btn" id="menuBtn" aria-label="Menú">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <!-- Overlay menú -->
+  <div class="menu-overlay" id="menuOverlay">
+    <div class="menu-nav">
+      <a href="/">Inicio</a>
+      <a href="/servicios/">Servicios</a>
+      <a href="/proyectos/">Proyectos</a>
+      <a href="https://wa.me/message/ELDHF4FZPEAMM1" target="_blank" rel="noopener">Contacto</a>
+      <a href="/en/">English</a>
+    </div>
+  </div>
+
+  <!-- Botón scroll / volver arriba -->
+  <button class="scroll-btn at-top" id="scrollBtn" aria-label="Scroll">
+    <svg id="scrollIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="6 9 12 15 18 9"/>
+    </svg>
+  </button>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Cursor personalizado -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ═══════════ NAVBAR ═══════════ -->
+  <nav id="navbar">
+    <a href="/" class="nav-logo">
+      <img src="images/logo.webp" alt="AMATE Studio" class="nav-logo-img"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" loading="lazy">
+      <span style="display:none; flex-direction:column; gap:2px;">
+        <span class="wordmark">AMATE<strong>STUDIO</strong></span>
+        <span class="tagline">Architecture | Interior Design</span>
+      </span>
+    </a>
+    <div class="nav-right">
+      <div class="lang-switch">
+        <a href="/" class="lang-btn lang-active">ES</a>
+        <span class="lang-sep">|</span>
+        <a href="/en/" class="lang-btn">EN</a>
+      </div>
+      <a href="https://wa.me/message/ELDHF4FZPEAMM1" class="btn btn-outline nav-cta" target="_blank" rel="noopener">
+        Agendar Consulta
+      </a>
+    </div>
+  </nav>
+
+  <main>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="hero">
+    <img
+      class="hero-img"
+      id="heroImg"
+      src="images/hero.webp" srcset="images/hero-960.webp 960w, images/hero.webp 1920w" sizes="100vw" width="1920" height="1280"
+      alt="Terraza con alberca infinita, Puerto Vallarta"
+     fetchpriority="high">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">El espacio donde vives dice quién eres.</h1>
+      <p class="hero-sub">Arquitectura &nbsp;·&nbsp; Diseño de interiores &nbsp;·&nbsp; Construcción</p>
+      <a href="/proyectos/" class="hero-btn-outline">Explorar proyectos</a>
+    </div>
+  </section>
+
+  <!-- ═══════════ INTRO ═══════════ -->
+  <section class="intro reveal">
+    <p class="intro-text">
+      Hay espacios que simplemente se transitan; hay espacios que se recuerdan.
+      En AMATE Studio diseñamos y construimos los segundos: integrando arquitectura,
+      interiorismo y obra bajo un solo equipo para que nada se pierda entre la idea y la realidad.
+    </p>
+    <a href="https://wa.me/message/ELDHF4FZPEAMM1" class="btn btn-gold" target="_blank" rel="noopener">
+      ¡Contáctanos!
+    </a>
+
+    <div class="social-row">
+      <a href="mailto:contacto@arqacasillas.com?subject=Consulta%20de%20servicios&amp;body=Hola%2C%20estoy%20interesado%20en%20tus%20servicios." aria-label="Correo electrónico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="M2 7l10 7 10-7"/>
+        </svg>
+      </a>
+      <a href="https://wa.me/message/ELDHF4FZPEAMM1" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+      </a>
+      <a href="https://www.instagram.com/amatestudiomx/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════ SERVICIOS ═══════════ -->
+  <section class="services-new">
+    <div class="services-new-header reveal">
+      <h2 class="services-new-title">Servicios</h2>
+      <p class="services-new-sub">Cada proyecto, de principio a fin.</p>
+    </div>
+    <div class="svc-cards-grid">
+
+      <div class="svc-card reveal">
+        <div class="svc-card-photo-wrap">
+          <img src="images/servicio-arquitectura.webp" alt="Arquitectura AMATE Studio" class="svc-card-photo" loading="lazy">
+        </div>
+        <div class="svc-card-body">
+          <svg class="svc-card-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="24,6 44,20 44,42 4,42 4,20"/>
+            <rect x="18" y="28" width="12" height="14"/>
+            <line x1="24" y1="6" x2="24" y2="2"/>
+          </svg>
+          <h3 class="svc-card-name">Arquitectura</h3>
+          <p class="svc-card-cats">Diseño Conceptual · Proyecto Arquitectónico · Proyecto Ejecutivo · Gestión de Permisos</p>
+          <a href="/servicios/" class="svc-card-link">
+            Ver más
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-card-photo-wrap">
+          <img src="images/servicio-interiorismo.webp" alt="Diseño de Interiores AMATE Studio" class="svc-card-photo" loading="lazy">
+        </div>
+        <div class="svc-card-body">
+          <svg class="svc-card-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="10" y="22" width="28" height="12" rx="4"/>
+            <rect x="6" y="26" width="6" height="8" rx="2"/>
+            <rect x="36" y="26" width="6" height="8" rx="2"/>
+            <line x1="14" y1="34" x2="14" y2="40"/>
+            <line x1="34" y1="34" x2="34" y2="40"/>
+            <path d="M14 22v-4a10 10 0 0120 0v4"/>
+          </svg>
+          <h3 class="svc-card-name">Diseño de Interiores</h3>
+          <p class="svc-card-cats">Look &amp; Feel · Renders Fotorrealistas · Mobiliario a Medida · Revestimientos y Acabados · Home Staging</p>
+          <a href="/servicios/" class="svc-card-link">
+            Ver más
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="svc-card reveal">
+        <div class="svc-card-photo-wrap">
+          <img src="images/servicio-construccion.webp" alt="Construcción AMATE Studio" class="svc-card-photo" loading="lazy">
+        </div>
+        <div class="svc-card-body">
+          <svg class="svc-card-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 30h24"/>
+            <path d="M14 30V22a10 10 0 0120 0v8"/>
+            <rect x="8" y="30" width="32" height="6" rx="2"/>
+            <line x1="24" y1="6" x2="24" y2="14"/>
+            <line x1="16" y1="12" x2="18" y2="15"/>
+            <line x1="32" y1="12" x2="30" y2="15"/>
+          </svg>
+          <h3 class="svc-card-name">Construcción</h3>
+          <p class="svc-card-cats">Construcción desde Cero · Remodelación · Carpintería Propia · Supervisión Técnica</p>
+          <a href="/servicios/" class="svc-card-link">
+            Ver más
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ PROYECTOS ═══════════ -->
+  <section class="projects">
+    <div class="projects-header-new reveal">
+      <h2 class="proj-title">Proyectos Destacados</h2>
+      <p class="proj-sub">Una muestra de lo que construimos juntos.</p>
+    </div>
+
+    <div class="projects-grid">
+      <a href="/rosamorada-h5/" class="project-card">
+        <img src="images/rosamorada-h5.webp" alt="Rosamorada H5" loading="lazy">
+        <span class="project-label">Rosamorada H5</span>
+        <span class="project-ver">Ver proyecto →</span>
+      </a>
+      <a href="/harbor-401/" class="project-card">
+        <img src="images/harbor-401.webp" alt="Harbor 401" loading="lazy">
+        <span class="project-label">Harbor 401</span>
+        <span class="project-ver">Ver proyecto →</span>
+      </a>
+      <a href="/harbor-107/" class="project-card">
+        <img src="images/harbor-107.webp" alt="Harbor 107" loading="lazy">
+        <span class="project-label">Harbor 107</span>
+        <span class="project-ver">Ver proyecto →</span>
+      </a>
+      <a href="/zul/" class="project-card">
+        <img src="images/zul.webp" alt="ZUL" loading="lazy">
+        <span class="project-label">ZUL</span>
+        <span class="project-ver">Ver proyecto →</span>
+      </a>
+    </div>
+
+    <div class="projects-footer reveal">
+      <a href="/proyectos/" class="btn-proj-all">
+        Ver todos los proyectos
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════ RESEÑAS ═══════════ -->
+  <section class="testimonials">
+    <div class="testimonials-inner">
+
+      <div class="testimonials-header reveal">
+        <p class="t-eyebrow">Reseñas</p>
+        <div class="t-stars-header">★★★★★</div>
+        <p class="t-subtitle">Sus palabras, no las nuestras.</p>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <article class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <blockquote class="t-text">
+            "Muy profesionales, atentos a los requerimientos y deseos del cliente. El proyecto se revisa hasta estar al 100% contentos, dan ideas y propuestas pero siempre respetando la idea original. Muy recomendados."
+          </blockquote>
+          <footer class="t-footer">
+            <span class="t-name">Cinthya Feregrino Palacios</span>
+            <a href="https://share.google/O4hbk28hbdwEmXO2s" target="_blank" rel="noopener" class="t-link">Ver en Google ↗</a>
+          </footer>
+        </article>
+
+        <article class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <blockquote class="t-text">
+            "Alejandro helped me to fit out my raw condo space in Puerto Vallarta. As an Architect myself, I have exacting standards, and he was more than equipped to meet them. He was also able to help manage the project through construction — which is where you can make or break a good design — and he made it happen."
+          </blockquote>
+          <footer class="t-footer">
+            <span class="t-name">B B · Architect</span>
+            <a href="https://share.google/O4hbk28hbdwEmXO2s" target="_blank" rel="noopener" class="t-link">Ver en Google ↗</a>
+          </footer>
+        </article>
+
+      </div>
+
+      <div class="testimonials-cta-row reveal">
+        <a href="https://share.google/O4hbk28hbdwEmXO2s" target="_blank" rel="noopener" class="btn btn-outline">
+          Ver todas las reseñas en Google
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════ CTA OSCURO ═══════════ -->
+  <section class="cta-dark reveal">
+    <h2>No dejes tu proyecto en manos equivocadas.</h2>
+    <p>La primera consulta es gratuita. En 30 minutos sabes si somos el equipo que necesitas.</p>
+    <a href="https://wa.me/message/ELDHF4FZPEAMM1" class="btn btn-gold" target="_blank" rel="noopener">
+      Agendar Consulta Gratis
+    </a>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  </main>
+
+  <footer>
+    <div class="footer-contact">
+      Puerto Vallarta, Jalisco, México<br>
+      <a href="mailto:contacto@arqacasillas.com?subject=Consulta%20de%20servicios&amp;body=Hola%2C%20estoy%20interesado%20en%20tus%20servicios.">contacto@arqacasillas.com</a><br>
+      <a href="https://wa.me/message/ELDHF4FZPEAMM1" target="_blank" rel="noopener">+52 322 264 2367</a>
+    </div>
+
+    <a href="http://arqacasillas.com" class="footer-logo">
+      <img src="images/logo.webp" alt="AMATE Studio" class="footer-logo-img"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" loading="lazy">
+      <span style="display:none; flex-direction:column; align-items:center; gap:4px;">
+        <span class="wordmark">AMATE<strong>STUDIO</strong></span>
+        <span class="tagline">Architecture | Interior Design</span>
+      </span>
+    </a>
+
+    <br>
+    <p class="footer-copy">© 2026 AMATE Studio. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    /* ── Cursor personalizado ── */
+    const dot  = document.getElementById('cursorDot');
+    const ring = document.getElementById('cursorRing');
+
+    document.addEventListener('mousemove', e => {
+      const x = e.clientX, y = e.clientY;
+      dot.style.left  = x + 'px';
+      dot.style.top   = y + 'px';
+      ring.style.left = x + 'px';
+      ring.style.top  = y + 'px';
+    }, { passive: true });
+
+    /* Expand cursor al pasar sobre elementos interactivos */
+    document.querySelectorAll('a, button, .svc-card, .project-card').forEach(el => {
+      el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+      el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+    });
+
+    /* ── Botón scroll / top ── */
+    const scrollBtn  = document.getElementById('scrollBtn');
+    const scrollIcon = document.getElementById('scrollIcon');
+    const arrowDown  = '<polyline points="6 9 12 15 18 9"/>';
+    const arrowUp    = '<polyline points="18 15 12 9 6 15"/>';
+
+    scrollBtn.addEventListener('click', () => {
+      if (scrollBtn.classList.contains('at-top')) {
+        window.scrollBy({ top: window.innerHeight * 0.85, behavior: 'smooth' });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    });
+
+    /* ── Navbar al hacer scroll + parallax hero ── */
+    const navbar  = document.getElementById('navbar');
+    const heroImg = document.getElementById('heroImg');
+
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+      navbar.classList.toggle('scrolled', scrollY > 40);
+
+      /* Cambia flecha según posición */
+      if (scrollY > window.innerHeight * 0.5) {
+        scrollBtn.classList.remove('at-top');
+        scrollIcon.innerHTML = arrowUp;
+      } else {
+        scrollBtn.classList.add('at-top');
+        scrollIcon.innerHTML = arrowDown;
+      }
+
+      /* Parallax sutil en hero */
+      if (scrollY < window.innerHeight && heroImg) {
+        heroImg.style.transform = `translateY(${scrollY * 0.22}px)`;
+      }
+    }, { passive: true });
+
+    // ── SCROLL PROGRESS ──
+    const progress = document.getElementById('scrollProgress');
+    window.addEventListener('scroll', () => {
+      const pct = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight) * 100;
+      progress.style.width = pct + '%';
+    }, { passive:true });
+
+    /* ── Scroll reveal (secciones + grids con stagger) ── */
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+
+    document.querySelectorAll('.reveal, .svc-left, .projects-grid, .testimonials-grid').forEach(el => {
+      observer.observe(el);
+    });
+
+    /* ── Hamburger menu ── */
+    const menuBtn     = document.getElementById('menuBtn');
+    const menuOverlay = document.getElementById('menuOverlay');
+
+    menuBtn.addEventListener('click', () => {
+      const isOpen = menuOverlay.classList.toggle('open');
+      menuBtn.classList.toggle('menu-open', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+
+    menuOverlay.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menuOverlay.classList.remove('open');
+        menuBtn.classList.remove('menu-open');
+        document.body.style.overflow = '';
+      });
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && menuOverlay.classList.contains('open')) {
+        menuOverlay.classList.remove('open');
+        menuBtn.classList.remove('menu-open');
+        document.body.style.overflow = '';
+      }
+    });
+  </script>
+
+  <script src="/assets/lenis.min.js"></script>
+  <script src="/assets/premium.js"></script>
+</body>
+</html>
+

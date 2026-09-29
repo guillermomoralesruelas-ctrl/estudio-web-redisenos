@@ -1,0 +1,208 @@
+{
+  "sitio": "https://www.materialesparaconstruccion.com.mx/",
+  "fecha": "2026-09-26T07:39:18.040Z",
+  "motor": "jina-reader",
+  "slug": "ferrex",
+  "nombre": "Ferrex",
+  "rubro": "RETAIL",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "negocio-local",
+  "paginasRevisadas": [
+    {
+      "url": "https://www.materialesparaconstruccion.com.mx/",
+      "titulo": "Materiales Para Construcción en CDMX | Ferrex - Sitio Oficial"
+    },
+    {
+      "url": "https://www.materialesparaconstruccion.com.mx/contacto/",
+      "titulo": "Contacto y Cotizaciones | Ferrex - Sitio Oficial"
+    },
+    {
+      "url": "https://www.materialesparaconstruccion.com.mx/productos/",
+      "titulo": "Conoce Nuestros Productos - Ferrex"
+    },
+    {
+      "url": "https://www.materialesparaconstruccion.com.mx/productos/aceros/",
+      "titulo": "Venta de Aceros para construcción | Ferrex - Sitio Oficial"
+    },
+    {
+      "url": "https://www.materialesparaconstruccion.com.mx/productos/envasados/",
+      "titulo": "Envasados para construcción | Ferrex - Sitio Oficial"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "55) 5532-3203",
+      "5555323203",
+      "670592873",
+      "1746211651781",
+      "55) 5532 3203",
+      "55)5532-3203",
+      "986446626"
+    ],
+    "emails": [
+      "mario@ferrex.com.mx"
+    ],
+    "whatsapp": [],
+    "redes": [
+      "https://www.facebook.com/FERREX.MX/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "blob:http://localhost/c6f85148bb88db63b4ce670592873edd",
+      "alt": "Image 2: Ferrex – Sitio Oficial"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/themes/materiales-para-construccion-ferrex/img/logo.jpg",
+      "alt": "Image 4: Ferrex – Sitio Oficial"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/uploads/2021/08/sliderferrex-1-1.jpg",
+      "alt": "Image 6: materiales para construcción"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/uploads/2020/06/bloque2.jpg",
+      "alt": "Image 8: ofertas de materiales para construccion"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/uploads/2020/01/bloque1.fw_.png",
+      "alt": "Image 10: materiales para construcción con entrega a domicilio"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/uploads/2020/01/bloque3.fw_.png",
+      "alt": "Image 12: retiro de escombro"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/uploads/2020/02/MALLA-ELECTROSOLDADA.jpg",
+      "alt": "Image 14: Malla electrosoldada"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/uploads/2020/02/cemento--e1746211651781.png",
+      "alt": "Image 16: cemento"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/uploads/2020/03/Arena.jpg",
+      "alt": "Image 18: arenta para construcción"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/uploads/2020/02/madera-polin.jpg",
+      "alt": "Image 20: Madera polin"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/uploads/2020/02/tabique-.jpg",
+      "alt": "Image 22: tabique"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/uploads/2020/03/ferreteria-1000x67-1.png",
+      "alt": "Image 24: ferretería"
+    },
+    {
+      "src": "blob:http://localhost/0a72da0122c1f174a8286788f16cad35",
+      "alt": "Image 26: arena para construcción"
+    },
+    {
+      "src": "blob:http://localhost/3ed3f8159f73cdbff5557eea05140337",
+      "alt": "Image 34: grava triturada"
+    },
+    {
+      "src": "blob:http://localhost/bacd3d13631e4a7b34b6ed7d1195e017",
+      "alt": "Image 36: alambrón"
+    },
+    {
+      "src": "blob:http://localhost/53e647897d7d59ffa7998b5f9735ac28",
+      "alt": "Image 42: malla hexagonal pollera de acero galvanizado"
+    },
+    {
+      "src": "blob:http://localhost/f8186d573a2f3c5a5e0348d58d16575b",
+      "alt": "Image 44: impermeabilizar paredes exteriores"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/themes/materiales-para-construccion-ferrex/img/logo.jpg.webp",
+      "alt": "Image 4: Ferrex – Sitio Oficial"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/06/aceros-1-350x350.jpg.webp",
+      "alt": "Image 6: aceros"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/04/cemento-350x350.jpg.webp",
+      "alt": "Image 8: Cemento"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/04/Grava-Triturada-1-350x350.jpg.webp",
+      "alt": "Image 10: Grava Triturada 1"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/04/retiro-de-escombro-1-1-350x350.jpg.webp",
+      "alt": "Image 12: retiro de escombro cdmx"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/04/tabique--350x350.jpg.webp",
+      "alt": "Image 14: Tabique"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/04/polin-350x350.jpg.webp",
+      "alt": "Image 16: Polin"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/04/ferreteria-350x350.jpg.webp",
+      "alt": "Image 18: sección de ferretería"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/04/guantes-350x350.jpg.webp",
+      "alt": "Image 20: guantes"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/04/maquina-350x350.jpg.webp",
+      "alt": "Image 22: maquina apisonadora entrega inmediata"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/03/aceros.png.webp",
+      "alt": "Image 5: Aceros"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/02/VARILLA-CORRUGADA-1-350x350.jpg.webp",
+      "alt": "Image 6: VARILLA CORRUGADA 1"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/02/alambre-recocido-precio-350x350.jpg.webp",
+      "alt": "Image 7: alambre recocido para construcción"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/02/ALAMBRON-350x350.jpg.webp",
+      "alt": "Image 8: alambrón"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/02/ANILLOS-350x350.jpg.webp",
+      "alt": "Image 9: ANILLOS"
+    },
+    {
+      "src": "blob:http://localhost/b7caf65018bb6e4728b9ea0b311c0e40",
+      "alt": "Image 10: malla hexagonal pollera de acero galvanizado"
+    },
+    {
+      "src": "blob:http://localhost/05610c8494f4220e775acf1e2d8ac680",
+      "alt": "Image 26: Varilla Grado 6000 / TEC 60"
+    },
+    {
+      "src": "blob:http://localhost/ce436eae36b986446626eb932d05c3e2",
+      "alt": "Image 4: Ferrex – Sitio Oficial"
+    },
+    {
+      "src": "blob:http://localhost/c1975c36d5db845738bf720e881a7cbb",
+      "alt": "Image 6: Envasados"
+    },
+    {
+      "src": "blob:http://localhost/3186c2dabba5ddc75738d44286b0441f",
+      "alt": "Image 18: Cal hidratada"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/10/APLANADO-350x350.png.webp",
+      "alt": "Image 72: Aplanado Cemix saco de 25 kg"
+    },
+    {
+      "src": "https://www.materialesparaconstruccion.com.mx/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2025/11/Proyecto-nuevo-1-350x350.jpg.webp",
+      "alt": "Image 73: Mortero Seco"
+    }
+  ]
+}

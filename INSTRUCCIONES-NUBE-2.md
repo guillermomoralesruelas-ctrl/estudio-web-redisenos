@@ -1,5 +1,7 @@
 # Instrucciones para Claude Code en la nube (lote 5)
 
+> **Esta lista ya no se trabaja.** Lo que faltó pasó a `INSTRUCCIONES-NUBE-3.md` (lote 6). Si te dieron este archivo, abre ese.
+
 > Este archivo es para una **segunda** sesión de Claude Code en la nube. Tiene su propia lista: los 10 sitios que la PC no alcanzó a hacer del lote PC-1. Al mismo tiempo, otra sesión de la nube trabaja en `INSTRUCCIONES-NUBE.md` (lote 4). Para no pisarse, cada una tiene su lista y **no toca los proyectos de la otra**.
 
 ## Antes de empezar

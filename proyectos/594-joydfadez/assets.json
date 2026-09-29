@@ -1,0 +1,37 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://joydfadez.com/img/corte.jpg",
+      "archivo": "corte.jpg",
+      "alt": "Image 1: Cliente recibiendo un corte de precisión"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joydfadez.com/fade.jpg",
+      "archivo": "fade.jpg",
+      "alt": "Image 2: Corte fade ejecutado en el estudio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joydfadez.com/fade2.jpg",
+      "archivo": "fade2.jpg",
+      "alt": "Image 3: Acabado lateral de un fade"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joydfadez.com/fade3.jpg",
+      "archivo": "fade3.jpg",
+      "alt": "Image 4: Otro corte con foco en el contorno"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://joydfadez.com/rooftop.jpg",
+      "archivo": "rooftop.jpg",
+      "alt": "Image 5: Joy D Fadez en una sesión rooftop en Monterrey"
+    }
+  ]
+}

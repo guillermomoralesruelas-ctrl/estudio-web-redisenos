@@ -1,0 +1,241 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/logo.webp",
+      "archivo": "logo.webp",
+      "alt": "Image 1: AMATE Studio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/hero.webp",
+      "archivo": "hero.webp",
+      "alt": "Image 2: Terraza con alberca infinita, Puerto Vallarta"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/servicio-arquitectura.webp",
+      "archivo": "servicio-arquitectura.webp",
+      "alt": "Image 3: Arquitectura AMATE Studio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/servicio-interiorismo.webp",
+      "archivo": "servicio-interiorismo.webp",
+      "alt": "Image 4: Diseño de Interiores AMATE Studio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/servicio-construccion.webp",
+      "archivo": "servicio-construccion.webp",
+      "alt": "Image 5: Construcción AMATE Studio"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/rosamorada-h5.webp",
+      "archivo": "rosamorada-h5.webp",
+      "alt": "Image 6: Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/harbor-401.webp",
+      "archivo": "harbor-401.webp",
+      "alt": "Image 7: Harbor 401"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/harbor-107.webp",
+      "archivo": "harbor-107.webp",
+      "alt": "Image 8: Harbor 107"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/zul.webp",
+      "archivo": "zul.webp",
+      "alt": "Image 9: ZUL"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/flamingos-h28.webp",
+      "archivo": "flamingos-h28.webp",
+      "alt": "Image 5: Flamingos H-28"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/las-torres.webp",
+      "archivo": "las-torres.webp",
+      "alt": "Image 7: Las Torres"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/manglar.webp",
+      "archivo": "manglar.webp",
+      "alt": "Image 8: Manglar"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/argentina.webp",
+      "archivo": "argentina.webp",
+      "alt": "Image 9: Argentina"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/mar-2.webp",
+      "archivo": "mar-2.webp",
+      "alt": "Image 10: Mar 2 — Punta Esmeralda"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/almejas-6.webp",
+      "archivo": "almejas-6.webp",
+      "alt": "Image 11: Almejas 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/lote-111.webp",
+      "archivo": "lote-111.webp",
+      "alt": "Image 12: Lote 111"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/almejas-8.webp",
+      "archivo": "almejas-8.webp",
+      "alt": "Image 13: Almejas 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/scala-202.webp",
+      "archivo": "scala-202.webp",
+      "alt": "Image 14: Scala 202"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/images/scala-201.webp",
+      "archivo": "scala-201.webp",
+      "alt": "Image 15: Scala 201"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/hero.webp",
+      "archivo": "hero.webp",
+      "alt": "Image 2: Rosamorada H5 — cocina y barra social, Burgundy Style"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/render-01.webp",
+      "archivo": "render-01.webp",
+      "alt": "Image 3: Sala de estar — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/render-02.webp",
+      "archivo": "render-02.webp",
+      "alt": "Image 4: Cocina y barra — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/render-03.webp",
+      "archivo": "render-03.webp",
+      "alt": "Image 5: Recámara secundaria — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/render-04.webp",
+      "archivo": "render-04.webp",
+      "alt": "Image 6: Recámara principal — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/foto-01.webp",
+      "archivo": "foto-01.webp",
+      "alt": "Image 7: Cocina y barra social — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/foto-15.webp",
+      "archivo": "foto-15.webp",
+      "alt": "Image 8: Sala de estar — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/foto-19.webp",
+      "archivo": "foto-19.webp",
+      "alt": "Image 9: Sala — luz natural — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/foto-17.webp",
+      "archivo": "foto-17.webp",
+      "alt": "Image 10: Sala — mesas de centro — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/foto-06.webp",
+      "archivo": "foto-06.webp",
+      "alt": "Image 11: Recámara principal — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/foto-07.webp",
+      "archivo": "foto-07.webp",
+      "alt": "Image 12: Recámara — ambiente nocturno — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/foto-09.webp",
+      "archivo": "foto-09.webp",
+      "alt": "Image 13: Recámara principal — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/foto-12.webp",
+      "archivo": "foto-12.webp",
+      "alt": "Image 14: Recámara secundaria — Rosamorada H5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/proceso-01.webp",
+      "archivo": "proceso-01.webp",
+      "alt": "Image 15: Selección de color Burgundy BEHR"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/proceso-02.webp",
+      "archivo": "proceso-02.webp",
+      "alt": "Image 16: Espacio en bruto"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/proceso-04.webp",
+      "archivo": "proceso-04.webp",
+      "alt": "Image 17: Fabricación de paneles de listón"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/proceso-05.webp",
+      "archivo": "proceso-05.webp",
+      "alt": "Image 18: Instalación panel de mármol sintético"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/proceso-07.webp",
+      "archivo": "proceso-07.webp",
+      "alt": "Image 19: Casi terminado"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/images/proceso-08.webp",
+      "archivo": "proceso-08.webp",
+      "alt": "Image 20: Detalles finales de proceso"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://arqacasillas.com/rosamorada-h5/",
+      "archivo": "rosamorada-h5",
+      "alt": "Image 22"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/cancun-plastic-surgery-iso.webp",
+      "archivo": "cancun-plastic-surgery-iso.webp",
+      "alt": "Image 1: Cancun Plastic Surgery"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/bg-cancun-beach-hero.webp",
+      "archivo": "bg-cancun-beach-hero.webp",
+      "alt": "Image 2: Cancun Beach Hero"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/international-plastic-reconstructive-aesthetic-surgery.webp",
+      "archivo": "international-plastic-reconstructive-aesthetic-surgery.webp",
+      "alt": "Image 3: IPRAS Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/filacp-federacion-ibero-latinoamericana-plastic-surgery.webp",
+      "archivo": "filacp-federacion-ibero-latinoamericana-plastic-surgery.webp",
+      "alt": "Image 4: FILACP Logo"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/dr-rafael-velasco-marin-plastic-surgeon-cancun.webp",
+      "archivo": "dr-rafael-velasco-marin-plastic-surgeon-cancun.webp",
+      "alt": "Image 5: Dr. Rafael Velasco Marín, Board-Certified Plastic Surgeon in Cancun"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/medicine-faculty-unam.webp",
+      "archivo": "medicine-faculty-unam.webp",
+      "alt": "Image 6: UNAM School of Medicine, where Dr. Rafael Velasco Marín completed his medical training, Mexico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/abdominoplasty-tummy-tuck.webp",
+      "archivo": "abdominoplasty-tummy-tuck.webp",
+      "alt": "Image 7: Tummy Tuck in Cancun Mexico - Abdominoplasty by Dr. Velasco Marín"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/breast-augmentation.webp",
+      "archivo": "breast-augmentation.webp",
+      "alt": "Image 8: Breast Lift Surgery in Cancun - Mastopexy Results"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/rhytidectomy-facelift.webp",
+      "archivo": "rhytidectomy-facelift.webp",
+      "alt": "Image 9: Facelift in Cancun Mexico - Facial Rejuvenation"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/rhinoplasty-nose-job.webp",
+      "archivo": "rhinoplasty-nose-job.webp",
+      "alt": "Image 10: Rhinoplasty in Cancun - Nose Job Specialist Mexico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/liposculpture.webp",
+      "archivo": "liposculpture.webp",
+      "alt": "Image 11: Liposculpture in Cancun - Advanced Liposuction Mexico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/mommy-makeover.webp",
+      "archivo": "mommy-makeover.webp",
+      "alt": "Image 12: All-inclusive Mommy Makeover in Cancun - Best Packages"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/breast-implants.webp",
+      "archivo": "breast-implants.webp",
+      "alt": "Image 13: Breast Implants Cancun - Breast Augmentation Mexico"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/otoplasty-ear-surgery.webp",
+      "archivo": "otoplasty-ear-surgery.webp",
+      "alt": "Image 14: Otoplasty in Cancun - Ear Surgery Specialist"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/breast-reduction.webp",
+      "archivo": "breast-reduction.webp",
+      "alt": "Image 15: Breast Reduction Cancun - Alleviate Pain & Enhance Shape"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/hospital-joya-cancun-plastic-surgery.webp",
+      "archivo": "hospital-joya-cancun-plastic-surgery.webp",
+      "alt": "Image 16: Hospital Joya Cancún - Third-Level High Specialty Medical Facility in the Hotel Zone"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/h-distintive.webp",
+      "archivo": "h-distintive.webp",
+      "alt": "Image 17: Distintivo H"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/safety-healthy-seal.webp",
+      "archivo": "safety-healthy-seal.webp",
+      "alt": "Image 18: Safety Healthy Seal"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/rhinoplasty-before-after-photos.webp",
+      "archivo": "rhinoplasty-before-after-photos.webp",
+      "alt": "Image 19: Rhinoplasty Before After Photos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/breast-implants-before-after-photos.webp",
+      "archivo": "breast-implants-before-after-photos.webp",
+      "alt": "Image 20: Breast Implants Before After Photos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/rhytidectomy-before-after-photos.webp",
+      "archivo": "rhytidectomy-before-after-photos.webp",
+      "alt": "Image 21: Facelift Before After Photos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/mommy-makeover-before-after-photos.webp",
+      "archivo": "mommy-makeover-before-after-photos.webp",
+      "alt": "Image 22: Mommy Makeover Before After Photos"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/essential-recovery-tips-after-tummy-tuck-surgery.webp",
+      "archivo": "essential-recovery-tips-after-tummy-tuck-surgery.webp",
+      "alt": "Image 23: Choosing the Right Breast Implant Size and Type"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/choosing-the-right-breast-implant-size-type.webp",
+      "archivo": "choosing-the-right-breast-implant-size-type.webp",
+      "alt": "Image 24: Choosing the Right Breast Implant Size and Type"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/guide-to-plastic-surgery-in-cancun.webp",
+      "archivo": "guide-to-plastic-surgery-in-cancun.webp",
+      "alt": "Image 25: Your Complete Guide to Plastic Surgery in Cancun"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://www.launchpact.io/badge-listed.png",
+      "archivo": "badge-listed.png",
+      "alt": "Image 26: Listed on LaunchPact"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/facelift-before-after-photos-front.webp",
+      "archivo": "facelift-before-after-photos-front.webp",
+      "alt": "Image 3: Facelift before after photos front view showing facial rejuvenation results"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/facelift-cancun-before-after-photos-left-profile.webp",
+      "archivo": "facelift-cancun-before-after-photos-left-profile.webp",
+      "alt": "Image 4: Facelift before after photos left profile view patient 2 highlighting neck and jaw improvement"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/facelift-blepharoplasty-before-after-photos-front-patient-b.webp",
+      "archivo": "facelift-blepharoplasty-before-after-photos-front-patient-b.webp",
+      "alt": "Image 5: Facelift and blepharoplasty before after photos front view showing combined procedure results"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/facelift-tip-rhinoplasty-before-after-photos-front.webp",
+      "archivo": "facelift-tip-rhinoplasty-before-after-photos-front.webp",
+      "alt": "Image 6: Facelift and tip rhinoplasty before after photos front view showing comprehensive facial enhancement"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/blepharoplasty-before-after-photos-front.webp",
+      "archivo": "blepharoplasty-before-after-photos-front.webp",
+      "alt": "Image 2: Blepharoplasty before after photos front view highlighting eye area transformation"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/blepharoplasty-before-after-photos-close-view.webp",
+      "archivo": "blepharoplasty-before-after-photos-close-view.webp",
+      "alt": "Image 3: Blepharoplasty before after photos close view showing detailed eyelid surgery results"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/blepharoplasty-rhinoplasty-front-before-after-pictures.webp",
+      "archivo": "blepharoplasty-rhinoplasty-front-before-after-pictures.webp",
+      "alt": "Image 4: Blepharoplasty with rhinoplasty before after photos front view showing combined procedure results"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/blepharoplasty-rhinoplasty-left-before-after-pictures.webp",
+      "archivo": "blepharoplasty-rhinoplasty-left-before-after-pictures.webp",
+      "alt": "Image 5: Blepharoplasty with rhinoplasty before after photos left profile highlighting facial balance improvement"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/otoplasty-before-after-photos-front.webp",
+      "archivo": "otoplasty-before-after-photos-front.webp",
+      "alt": "Image 2: Otoplasty before and after photos front view showing ear surgery results"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/otoplasty-before-after-photos-left.webp",
+      "archivo": "otoplasty-before-after-photos-left.webp",
+      "alt": "Image 3: Otoplasty before and after photos left profile view highlighting improved ear shape"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://cancunplasticsurgery.com/img/otoplasty-before-after-photos-right.webp",
+      "archivo": "otoplasty-before-after-photos-right.webp",
+      "alt": "Image 4: Otoplasty before and after photos right profile view demonstrating patient transformation"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "base": "",
+  "destino": "assets",
+  "nota": "Borrador automático — fabricador.mjs",
+  "assets": [
+    {
+      "carpeta": "secciones",
+      "url": "https://drjuliopsiquiatria.com/wp-content/uploads/2025/07/Logotipo-Dr-Julio-Jimenez_horizontal-original-1-scaled-e1752772151192-1024x397.png",
+      "archivo": "Logotipo-Dr-Julio-Jimenez_horizontal-original-1-scaled-e1752772151192-1024x397.png",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/2b2478b99a7281f8f2bea57fc2583f9b",
+      "archivo": "2b2478b99a7281f8f2bea57fc2583f9b",
+      "alt": "Image 2"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drjuliopsiquiatria.com/wp-content/uploads/2025/07/Logo-Doctoralia-Circulo-1024x1024.png",
+      "archivo": "Logo-Doctoralia-Circulo-1024x1024.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drjuliopsiquiatria.com/wp-content/uploads/2025/07/Estrellas2.png",
+      "archivo": "Estrellas2.png",
+      "alt": "Image 6"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drjuliopsiquiatria.com/wp-content/uploads/2025/07/Dr.Julio_1-681x1024.jpg",
+      "archivo": "Dr.Julio_1-681x1024.jpg",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/78a2285135bb6d3397f7bb844e3677b2",
+      "archivo": "78a2285135bb6d3397f7bb844e3677b2",
+      "alt": "Image 8"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/dad6c82bf4bba894c7c8f66cacaa3c30",
+      "archivo": "dad6c82bf4bba894c7c8f66cacaa3c30",
+      "alt": "Image 10"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/f3a16eb94533235f35de1ae8674ede8c",
+      "archivo": "f3a16eb94533235f35de1ae8674ede8c",
+      "alt": "Image 96"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/be0c8c1b05a01a0354fbf677f6e9a8b2",
+      "archivo": "be0c8c1b05a01a0354fbf677f6e9a8b2",
+      "alt": "Image 98"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/99331273d2968e7e01747dd6f8a73131",
+      "archivo": "99331273d2968e7e01747dd6f8a73131",
+      "alt": "Image 1"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drjuliopsiquiatria.com/wp-content/uploads/2025/07/Logotipo-Dr-Julio-Jimenez_horizontal-original-1-scaled-e1752772151192-1-1024x397.png",
+      "archivo": "Logotipo-Dr-Julio-Jimenez_horizontal-original-1-scaled-e1752772151192-1-1024x397.png",
+      "alt": "Image 5"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drjuliopsiquiatria.com/wp-content/uploads/2025/07/Logo-Doctoralia-Circulo-1-1024x1024.png",
+      "archivo": "Logo-Doctoralia-Circulo-1-1024x1024.png",
+      "alt": "Image 7"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drjuliopsiquiatria.com/wp-content/uploads/2025/07/Estrellas2-1.png",
+      "archivo": "Estrellas2-1.png",
+      "alt": "Image 9"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drjuliopsiquiatria.com/wp-content/uploads/2025/07/Dr.Julio_1-scaled-1-681x1024.jpg",
+      "archivo": "Dr.Julio_1-scaled-1-681x1024.jpg",
+      "alt": "Image 11"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "https://drjuliopsiquiatria.com/wp-content/uploads/2025/07/Firma-Dr-Julio-Jimenez-scaled-1-1024x171.png",
+      "archivo": "Firma-Dr-Julio-Jimenez-scaled-1-1024x171.png",
+      "alt": "Image 12"
+    },
+    {
+      "carpeta": "secciones",
+      "url": "blob:http://localhost/93c66a5e2dc2e8df7de6138f38cd6bcc",
+      "archivo": "93c66a5e2dc2e8df7de6138f38cd6bcc",
+      "alt": "Image 8"
+    }
+  ]
+}

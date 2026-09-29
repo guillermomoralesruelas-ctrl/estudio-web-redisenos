@@ -1,5 +1,7 @@
 # Instrucciones para Claude Code en la nube
 
+> **Esta lista ya no se trabaja.** Lo que faltó pasó a `INSTRUCCIONES-NUBE-3.md` (lote 6). Si te dieron este archivo, abre ese.
+
 > Este archivo es para la sesión de Claude Code en la nube que trabaja sobre este repositorio. La sesión en la PC de Guillermo trabaja al mismo tiempo en **otros** sitios. Para no pisarse, cada una tiene su lista y **no toca los proyectos de la otra**.
 
 ## Antes de empezar

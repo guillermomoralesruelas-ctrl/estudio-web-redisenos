@@ -1,0 +1,57 @@
+{
+  "sitio": "https://joydfadez.com/",
+  "fecha": "2026-09-26T09:01:07.840Z",
+  "motor": "jina-reader",
+  "slug": "joydfadez",
+  "nombre": "JOY D FADEZ",
+  "rubro": "SPA",
+  "ciudad": "Monterrey, Nuevo León",
+  "plantilla": "salud-bienestar",
+  "paginasRevisadas": [
+    {
+      "url": "https://joydfadez.com/",
+      "titulo": "JOY D FADEZ | Industrial Elegance Barbería"
+    },
+    {
+      "url": "https://joydfadez.com/productos",
+      "titulo": "JOY D FADEZ | Industrial Elegance Barbería"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "527206371461",
+      "+52 720 637 1461"
+    ],
+    "emails": [],
+    "whatsapp": [
+      "wa.me/527206371461)",
+      "wa.me/527206371461)[Mientras"
+    ],
+    "redes": [
+      "https://instagram.com/joyd.fadez",
+      "https://www.facebook.com/joyd.barber.1005"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://joydfadez.com/img/corte.jpg",
+      "alt": "Image 1: Cliente recibiendo un corte de precisión"
+    },
+    {
+      "src": "https://joydfadez.com/fade.jpg",
+      "alt": "Image 2: Corte fade ejecutado en el estudio"
+    },
+    {
+      "src": "https://joydfadez.com/fade2.jpg",
+      "alt": "Image 3: Acabado lateral de un fade"
+    },
+    {
+      "src": "https://joydfadez.com/fade3.jpg",
+      "alt": "Image 4: Otro corte con foco en el contorno"
+    },
+    {
+      "src": "https://joydfadez.com/rooftop.jpg",
+      "alt": "Image 5: Joy D Fadez en una sesión rooftop en Monterrey"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "sitio": "https://mail.ismm.com.mx/",
+  "fecha": "2026-09-26T08:52:37.121Z",
+  "motor": "jina-reader",
+  "slug": "institutosuperiormariano",
+  "nombre": "Instituto Superior Mariano Moreno - Diplomado de Cocina para Aficionados",
+  "rubro": "EDUCACION",
+  "ciudad": "Ciudad de México, CDMX",
+  "plantilla": "educacion",
+  "paginasRevisadas": [
+    {
+      "url": "https://mail.ismm.com.mx/",
+      "titulo": "Instituto Superior Mariano Moreno"
+    },
+    {
+      "url": "https://mail.ismm.com.mx/quienes-somos",
+      "titulo": "Instituto Superior Mariano Moreno - ¿Quiénes Somos?"
+    },
+    {
+      "url": "https://mail.ismm.com.mx/contacto",
+      "titulo": "Instituto Superior Mariano Moreno - Contacto"
+    },
+    {
+      "url": "https://mail.ismm.com.mx/eventos",
+      "titulo": "Instituto Superior Mariano Moreno - Servicios Culinarios"
+    },
+    {
+      "url": "https://mail.ismm.com.mx/politicas-de-privacidad",
+      "titulo": "Instituto Superior Mariano Moreno - Aviso de Privacidad"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "55-5782-9212",
+      "5557829212",
+      "1740603474",
+      "1784589336",
+      "1787700252",
+      "1773964444",
+      "1787703029",
+      "1773089719",
+      "1773517011",
+      "1787684127",
+      "1777074847",
+      "1775776158",
+      "1773963681",
+      "1773964495",
+      "1788994169",
+      "1777075157",
+      "1774310579",
+      "1773964615",
+      "1787946020",
+      "1787684150",
+      "1708187466",
+      "1700251796",
+      "1712705980",
+      "1708187997",
+      "1674150153",
+      "1782163083",
+      "1774311410",
+      "1777074986",
+      "1777075225",
+      "1679767563",
+      "1672941175",
+      "1714677722",
+      "5215648140199",
+      "1743623783",
+      "1672765779",
+      "1.000.000",
+      "1709051118",
+      "19.442528",
+      "99.200495",
+      "5525936835",
+      "1671635013",
+      "19.421348",
+      "99.171010",
+      "5555251142",
+      "1672767011",
+      "1672767010",
+      "55.2593.6835"
+    ],
+    "emails": [
+      "informes@ismm.com.mx"
+    ],
+    "whatsapp": [
+      "wa.me/5215648140199?text=Estoy%20interesado%20en..)"
+    ],
+    "redes": [
+      "https://www.facebook.com/ISMMMexico",
+      "https://www.youtube.com/embed/6y6Qes3JUqQ",
+      "https://www.instagram.com/ismmmexico/",
+      "https://twitter.com/ISMM_Mexico",
+      "https://www.tiktok.com/@institutomarianomoreno?_t=8ZSoaGHG1IL&_r=1",
+      "https://www.youtube.com/watch?v=x24cVC5zKZE"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://mail.ismm.com.mx/assets/images/logo-4.png",
+      "alt": "Image 3: ISMM"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1784589336_img-destacada-asitica.png",
+      "alt": "Image 4: Curso Corto de Cocina Asiática"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1787700252_admin-negocios.png",
+      "alt": "Image 5: Administración de negocios gastronómicos"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1773964444_img-destacada-ccpp-polanco.png",
+      "alt": "Image 6: Carrera de Cocinero y Pastelero Profesional"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1787703029_dad-8-sesiones.png",
+      "alt": "Image 7: Diplomado en Artes Dulces 8 Sesiones"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1773089719_img-destacada-asiatica.png",
+      "alt": "Image 8: Curso Corto de Cocina Asiática"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1773517011_img-destacada-daf.png",
+      "alt": "Image 9: Diplomado de Cocina para Aficionados"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1787684127_mundo-del-vino-polanco.png",
+      "alt": "Image 10: Diplomado el Mundo del Vino"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1777074847_img-destacada-galletas-rom.png",
+      "alt": "Image 11: Curso Corto de Galletería"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1775776158_img-destacada-daf-mayo.png",
+      "alt": "Image 12: Diplomado de Cocina para Aficionados"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1773963681_img-destacada-ccpp-roma.png",
+      "alt": "Image 13: Carrera de Cocinero y Pastelero Profesional"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1773964495_img-destacada-cppp-roma.png",
+      "alt": "Image 14: Carrera de Panadería y Pastelería Profesional"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1788994169_dad-8-sesiones-polanco.jpg",
+      "alt": "Image 15: Diplomado en Artes Dulces 8 Sesiones"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1777075157_img-destacada-galletas.png",
+      "alt": "Image 16: Curso Corto de Galletería"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1774310579_img-destacada-destacada.png",
+      "alt": "Image 17: Curso Corto de Cocina Mexicana"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1773964615_img-destacada-cppp-polanco.png",
+      "alt": "Image 18: Carrera de Panadería y Pastelería Profesional"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1787946020_dpan-pol.png",
+      "alt": "Image 19: Diplomado en Panadería del Mundo"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1787684150_mundo-del-vino-roma.png",
+      "alt": "Image 20: Diplomado el Mundo del Vino"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/images/banner/banner-desktop.png",
+      "alt": "Image 39: BannerISMM"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/images/banner/banner-movil.jpeg",
+      "alt": "Image 40: BannerISMM"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/home-c.jpg",
+      "alt": "Image 45: Pasión al 100%"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1708187466_4asiaimglist.jpg",
+      "alt": "Image 46: Curso Corto de Cocina Asiática"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1700251796_dafmo1imglist.jpg",
+      "alt": "Image 47: Diplomado de Cocina para Aficionados"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1712705980_1imglist.jpg",
+      "alt": "Image 48: Diplomado en Artes Dulces 8 Sesiones"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1708187997_5asiaimglist.jpg",
+      "alt": "Image 49: Curso Corto de Cocina Asiática"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1674150153_enoro1imglist.jpg",
+      "alt": "Image 50: Diplomado el Mundo del Vino"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1782163083_gestion-dest-destacada.png",
+      "alt": "Image 52: Administración de negocios gastronómicos"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1774311410_imagenes-para-web-mx.png",
+      "alt": "Image 53: Curso Corto de Cocina Mexicana"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1777074986_galletas.png",
+      "alt": "Image 54: Curso Corto de Galletería"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1777075225_galletas-2.png",
+      "alt": "Image 55: Curso Corto de Galletería"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1679767563_romaimglist.jpg",
+      "alt": "Image 56: Diplomado en Artes Dulces 8 Sesiones"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1672941175_dafroimglist.jpg",
+      "alt": "Image 57: Diplomado de Cocina para Aficionados"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/cursos/1714677722_7imglist.jpg",
+      "alt": "Image 58: Diplomado en Panadería del Mundo"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/1.png",
+      "alt": "Image 73"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/2.png",
+      "alt": "Image 74"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/3.png",
+      "alt": "Image 75"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/contenidos/1743623783_w1.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/contenidos/1672765779_augustine-fou-cakj7pwqfbq-unsplash.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/sedes/1709051118_polanco2.jpg",
+      "alt": "Image 6"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/sedes/1671635013_roma.png",
+      "alt": "Image 7"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/contenidos/1672767011_1.jpg",
+      "alt": "Image 4"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/contenidos/1672767011_2.jpg",
+      "alt": "Image 5"
+    },
+    {
+      "src": "https://mail.ismm.com.mx/assets/contenidos/1672767010_3.jpg",
+      "alt": "Image 6"
+    }
+  ]
+}

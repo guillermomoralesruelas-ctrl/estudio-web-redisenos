@@ -1,0 +1,188 @@
+{
+  "sitio": "https://playamarietas.mx/",
+  "fecha": "2026-09-26T08:07:28.707Z",
+  "motor": "jina-reader",
+  "slug": "grimaradventures",
+  "nombre": "Grimar Adventures",
+  "rubro": "TURISMO",
+  "ciudad": "Nuevo Vallarta, Nayarit",
+  "plantilla": "turismo-aventura",
+  "paginasRevisadas": [
+    {
+      "url": "https://playamarietas.mx/",
+      "titulo": "Tours Islas Marietas y Playa Escondida desde Punta Mita | Grimar Adventures"
+    },
+    {
+      "url": "https://playamarietas.mx/en",
+      "titulo": "Marietas Islands and Hidden Beach Tours from Punta Mita | Grimar Adventures"
+    },
+    {
+      "url": "https://playamarietas.mx/tours/filtrado",
+      "titulo": "Tours | Grimar Adventures"
+    },
+    {
+      "url": "https://playamarietas.mx/contacto",
+      "titulo": "Contacto | Grimar Adventures"
+    },
+    {
+      "url": "https://playamarietas.mx/tour/islas-marietas-playa-escondida",
+      "titulo": "Islas Marietas Playa Escondida desde Punta de Mita | Acceso Asegurado | Grimar Adventures"
+    }
+  ],
+  "contacto": {
+    "telefonos": [
+      "44-8511-549361372113",
+      "+52 322 104 7948",
+      "+5213221047948",
+      "5213221047948",
+      "8-4823019",
+      "208-3173-40",
+      "0-2337-46",
+      "60114092-6560-47"
+    ],
+    "emails": [
+      "infogrimar@playamarietas.mx"
+    ],
+    "whatsapp": [
+      "wa.me/5213221047948)"
+    ],
+    "redes": [
+      "https://www.facebook.com/IslasMarietasPlayaDelAmorPescaBallenaPuntaMita",
+      "https://www.instagram.com/grimar_adventures.mita/"
+    ]
+  },
+  "imagenes": [
+    {
+      "src": "https://playamarietas.mx/img/grimarlogo-horizontal.webp",
+      "alt": "Image 1: Grimar Adventures Logo"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/24f47218-35ff-405e-88f5-a30fd17022ff.png",
+      "alt": "Image 5: Tour Playa Escondida (Playa del Amor)"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/db6e4ec7-e753-4f44-8511-549361372113.png",
+      "alt": "Image 6: Tour De Snorkel & Playa Nopalera"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/4965a989-00b1-4ef9-8a58-26df0edfb316.jpeg",
+      "alt": "Image 7: Avistamiento de Ballenas Jorobadas En Punta Mita"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/5bec93e3-34ea-4c14-abbb-23239a604e8d.png",
+      "alt": "Image 8: Experiencia Costera en Punta Mita"
+    },
+    {
+      "src": "https://playamarietas.mx/assets/img/core-img/shape48.png",
+      "alt": "Image 9"
+    },
+    {
+      "src": "https://playamarietas.mx/assets/img/core-img/bag.png",
+      "alt": "Image 10"
+    },
+    {
+      "src": "https://playamarietas.mx/assets/img/core-img/shape12.png",
+      "alt": "Image 11"
+    },
+    {
+      "src": "https://playamarietas.mx/assets/img/core-img/shape17.png",
+      "alt": "Image 15"
+    },
+    {
+      "src": "https://playamarietas.mx/assets/img/core-img/shape18.png",
+      "alt": "Image 16"
+    },
+    {
+      "src": "https://playamarietas.mx/assets/icons/velero.webp",
+      "alt": "Image 20: Sailboat image"
+    },
+    {
+      "src": "https://playamarietas.mx/img/grimaricono.webp",
+      "alt": "Image 21"
+    },
+    {
+      "src": "https://playamarietas.mx/assets/img/core-img/quoter-icon.png",
+      "alt": "Image 34"
+    },
+    {
+      "src": "https://playamarietas.mx/assets/img/core-img/shape50.png",
+      "alt": "Image 39"
+    },
+    {
+      "src": "https://playamarietas.mx/assets/img/core-img/tree.png",
+      "alt": "Image 40"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/5786d791-395e-4db8-bdfe-f3b310daa9c9.jpeg",
+      "alt": "Image 5: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/5d1ce889-00bf-4ce8-98f8-4823019ce816.jpg",
+      "alt": "Image 7: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/2a6596aa-201c-4f93-a7d5-ca751658bfdc.jpeg",
+      "alt": "Image 8: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/6e313e84-ca46-4b2b-8298-aa518e86bb57.jpeg",
+      "alt": "Image 10: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/38243fab-6a1d-40f9-a08e-c028ff940d41.jpeg",
+      "alt": "Image 11: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/9f92d84c-398d-4140-831c-27f083fcdfec.jpeg",
+      "alt": "Image 12: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/b2c4377a-8b0c-4a88-91c7-4ef65086d250.jpeg",
+      "alt": "Image 13: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/9cecd702-36fb-452c-b6ae-fcb2af279529.jpeg",
+      "alt": "Image 14: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/4367c208-3173-40ec-b7ab-675d32e22337.jpeg",
+      "alt": "Image 15: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/ab8dccf0-2337-46c7-9947-2be6f93c8774.jpeg",
+      "alt": "Image 16: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/dc928b06-9d39-4ca4-85ec-65a5105638d3.jpeg",
+      "alt": "Image 17: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/17de3ce1-7cec-4003-9c65-0595df0fea14.jpeg",
+      "alt": "Image 18: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/46c85e04-154a-4c75-98af-d580de356c8a.jpeg",
+      "alt": "Image 19: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/9d1d5d71-ed34-42de-bc3a-adc50189dd1f.jpeg",
+      "alt": "Image 20: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/2f35ba0b-6cfb-4b00-8fa6-e6e45fcbe9a7.jpeg",
+      "alt": "Image 21: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/60114092-6560-47b7-8de4-559d9b4c41ad.jpeg",
+      "alt": "Image 22: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/b6665d94-0fba-49c5-a691-d653f295cd17.jpeg",
+      "alt": "Image 23: Imagen del tour"
+    },
+    {
+      "src": "https://playamarietas.mx/uploads/0f830b57-ad75-41ab-8333-b119fb7674f0.png",
+      "alt": "Image 24: Imagen del tour"
+    }
+  ]
+}
