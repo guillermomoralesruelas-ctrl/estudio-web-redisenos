@@ -17,7 +17,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-3.md`, trabajados uno por uno con el m�
 | 11 | 445-gcbeautybarber | Descartado, `sin-fotos` | 9c774b48 | — (sin fotos propias ni en el clon ni en vivo: logos, íconos y relleno de WooCommerce) | — | — | Sus servicios muestran la imagen de relleno de WooCommerce | Fotos propias, WhatsApp y dirección |
 | 12 | 387-escuelademusica | Pendiente 1.2 (PC) | 46d942de | — (el clon no trae las fotos de la escuela; el sitio en vivo sí: alumnos, maestros, fachada, calendarios) | — | — | — | En la PC: bajar las fotos de /escuela/, /instrumento/, /induccion/ e /iniciacion/ |
 | 13 | 363-elpatronbarberia | Terminado | 50386c26 | 0 problemas; 4,945 / 10,294 px | "Tu año de Patrón": doce meses que gastan el crédito de la membresía ($3,480 = 12 cortes de $290) | MEDIA | Contador "+0 Estilos Transformados"; retrato hecho con IA; mapa de ejemplo | En qué se usa el crédito, fotos de Yosef y Uriel, mapa correcto |
-| 14 | 613-kitesurfmexico | Pendiente 1.2 (PC) | (este commit) | — (reto anti-bot: sin textos; portada con imágenes hechas con IA; el resto del sitio no se bajó) | — | — | Su portada usa imágenes generadas con IA (una se llama "ChatGPT-Image") | En la PC: leer cursos, escuela, renta, tienda, hospedaje y contacto y bajar sus fotos reales |
+| 14 | 613-kitesurfmexico | Pendiente 1.2 (PC) | 1ae905d7 | — (reto anti-bot: sin textos; portada con imágenes hechas con IA; el resto del sitio no se bajó) | — | — | Su portada usa imágenes generadas con IA (una se llama "ChatGPT-Image") | En la PC: leer cursos, escuela, renta, tienda, hospedaje y contacto y bajar sus fotos reales |
+| 15 | 600-junglerealtor | Pendiente 1.2 (PC) | (este commit) | — (reto anti-bot; fotos en storage.googleapis.com sin bajar) | — | ALTA (cuando se haga) | **Sitio hackeado:** enlaces ocultos a ocho casinos franceses en la portada | En la PC: leer páginas de destinos y contacto, bajar fotos |
 
 ## En curso
 
