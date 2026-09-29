@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* Bricolage Grotesque (títulos) y Figtree (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Bricolage Grotesque"; src: url("../node_modules/@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Figtree"; src: url("../node_modules/@fontsource/figtree/files/figtree-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: abismo, espuma, laguna, coral, bruma, arrecife y sol (el mar de Isla Mujeres en sus fotos).
+   Contrastes: abismo sobre espuma 11.42, blanco sobre coral 5.52, laguna sobre abismo 7.78, coral sobre espuma 5.22,
+   bruma sobre espuma 5.85, arrecife sobre espuma 4.90, sol sobre abismo 9.02, espuma sobre abismo 11.42. */
+@theme {
+  --color-abismo: #0b3b4a;
+  --color-espuma: #f3faf9;
+  --color-laguna: #7fe0d6;
+  --color-coral: #b8402a;
+  --color-bruma: #4b6570;
+  --color-arrecife: #0e7a74;
+  --color-sol: #ffd9a0;
+  --font-display: "Bricolage Grotesque", "Arial Black", sans-serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-espuma text-abismo font-sans antialiased; font-size: 1.04rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display text-abismo; font-weight: 800; line-height: 1.02; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-abismo text-espuma/85; }
+  .oscuro h1, .oscuro h2 { @apply text-espuma; }
+  :focus-visible { outline: 3px solid var(--color-coral); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-laguna); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-coral text-white hover:bg-abismo; }
+  .btn-linea { @apply border-2 border-abismo/30 text-abismo hover:border-abismo; }
+  .btn-claro { @apply border-2 border-espuma/40 text-espuma hover:border-espuma; }
+  .enlace { @apply font-bold text-coral underline decoration-1 underline-offset-4 hover:text-abismo; }
+  .rango { accent-color: var(--color-coral); }
+}

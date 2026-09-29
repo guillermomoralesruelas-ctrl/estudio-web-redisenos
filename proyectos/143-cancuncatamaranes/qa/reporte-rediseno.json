@@ -1,0 +1,120 @@
+{
+  "fecha": "2026-09-29T04:59:31.573Z",
+  "carpeta": "143-cancuncatamaranes",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5026,
+      "desbordeX": 0,
+      "h1": 6,
+      "imagenes": 9,
+      "rotas": [
+        "https://cancuncatamarans.mxassets/uploads/hero/20260401_b921775651b5e150.jpg",
+        "https://cancuncatamarans.mxassets/uploads/hero/20260401_dff772058012595e.jpg",
+        "https://cancuncatamarans.mxassets/uploads/hero/20260401_5798f3d8cbc7cfd0.jpg",
+        "https://cancuncatamarans.mxassets/uploads/tours/20260401_10139c2cde9b30af.jpg",
+        "https://cancuncatamarans.mxassets/uploads/tours/20260507_952fc06994ef35ef.jpg",
+        "https://cancuncatamarans.mxassets/uploads/tours/20260617_ec9ab759dd823e61.jpg",
+        "https://cancuncatamarans.mxassets/uploads/tours/20260617_5d730b1e218d1092.jpg",
+        "https://cancuncatamarans.mxassets/uploads/settings/20260617_225945_img-20260410-wa0092.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Cancun Catamarans — Luxury Sailing Tours to Isla Mujeres",
+      "errores": [
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 4772,
+      "desbordeX": 0,
+      "h1": 6,
+      "imagenes": 9,
+      "rotas": [
+        "https://cancuncatamarans.mxassets/uploads/hero/20260401_b921775651b5e150.jpg",
+        "https://cancuncatamarans.mxassets/uploads/hero/20260401_dff772058012595e.jpg",
+        "https://cancuncatamarans.mxassets/uploads/hero/20260401_5798f3d8cbc7cfd0.jpg",
+        "https://cancuncatamarans.mxassets/uploads/tours/20260401_10139c2cde9b30af.jpg",
+        "https://cancuncatamarans.mxassets/uploads/tours/20260507_952fc06994ef35ef.jpg",
+        "https://cancuncatamarans.mxassets/uploads/tours/20260617_ec9ab759dd823e61.jpg",
+        "https://cancuncatamarans.mxassets/uploads/tours/20260617_5d730b1e218d1092.jpg",
+        "https://cancuncatamarans.mxassets/uploads/settings/20260617_225945_img-20260410-wa0092.jpg"
+      ],
+      "sinAlt": 0,
+      "titulo": "Cancun Catamarans — Luxury Sailing Tours to Isla Mujeres",
+      "errores": [
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6732,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 12,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Cancun Catamarans | Catamaran tours to Isla Mujeres",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 12684,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 12,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Cancun Catamarans | Catamaran tours to Isla Mujeres",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
