@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Cormorant Garamond (títulos) y Karla (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Cormorant Garamond"; src: url("../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Karla"; src: url("../node_modules/@fontsource/karla/files/karla-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Karla"; src: url("../node_modules/@fontsource/karla/files/karla-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: tinta, cal, cantera, almagre, nopal y piedra (muros encalados, cantera rosa y fachadas de San Miguel).
+   Contrastes: tinta sobre cal 13.97, cal sobre tinta 13.97, cantera sobre tinta 8.84, almagre sobre cal 5.81,
+   blanco sobre almagre 6.53, piedra sobre cal 5.62, nopal sobre cal 6.74, tinta sobre cantera 8.84. */
+@theme {
+  --color-tinta: #2b211d;
+  --color-cal: #f6f1ea;
+  --color-cantera: #e6b9a2;
+  --color-almagre: #9c4221;
+  --color-nopal: #3f5a4a;
+  --color-piedra: #6b5d56;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Karla", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-cal text-tinta font-sans antialiased; font-size: 1.05rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-tinta; font-weight: 600; line-height: 1.02; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-tinta text-cal/85; }
+  .oscuro h1, .oscuro h2 { @apply text-cal; }
+  :focus-visible { outline: 3px solid var(--color-almagre); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-cantera); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-almagre text-white hover:bg-tinta; }
+  .btn-linea { @apply border-2 border-tinta/30 text-tinta hover:border-tinta; }
+  .btn-claro { @apply border-2 border-cal/40 text-cal hover:border-cal; }
+  .enlace { @apply font-bold text-almagre underline decoration-1 underline-offset-4 hover:text-tinta; }
+  .arco { border-radius: 999px 999px 1.25rem 1.25rem; }
+}
