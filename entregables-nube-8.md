@@ -6,7 +6,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 
 | # | Carpeta | Resultado | Commit | QA (escritorio / celular) | Elemento memorable | Prioridad | Hallazgo principal |
 |---|---|---|---|---|---|---|---|
-| 1 | 27-alcazarinmobiliaria | Pendiente 1.2 (PC) | … | — (clon sin fotos; fotos en `assets.easybroker.com`, bloqueado) | — | — | — |
+| 1 | 27-alcazarinmobiliaria | Pendiente 1.2 (PC) | 76301d90 | — (clon sin fotos; fotos en `assets.easybroker.com`, bloqueado) | — | — | — |
+| 2 | 28-aldocastanedabodas | Pendiente 1.2 (PC) | … | — (clon sin fotos; portafolio en `assets.zyrosite.com`, bloqueado) | — | — | — |
 
 ## Dominios bloqueados para la nube en este lote
 
