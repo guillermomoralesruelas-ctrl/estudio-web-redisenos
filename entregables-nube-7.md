@@ -10,7 +10,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 4 | 102-baronbarbershop | Terminado (1.2 en la nube; antes pendiente en c73ef969) | a58fc6df | 0 problemas; 4,734 / 7,120 px | "¿Qué incluye tu corte?": botones que encienden lo que incluye cada corte | MEDIA | Contenido solo con JavaScript; foto de Unsplash como "Interior" |
 | 5 | 107-bellezalatina | Descartado, `pocas-fotos` | 2f44004a | — (héroes hechos con IA, retratos de 256 px; 4 sucursales) | — | — | — |
 | 9 | 176-casapitic | Terminado (1.2 en la nube; antes pendiente en 13261445) | 1ee22380 | 0 problemas; 4,063 / 5,894 px | "¿Arriba o abajo?": corte de la casa con una planta por suite y precio por noches | BAJA | Cotizador sin disponibilidad; sin tarifas cortas; fotos con "Watermark Remover" |
-| 10 | 204-cervusbarberia | Pendiente (fotos en servidor bloqueado para la nube) | 2a113ad7 | — (Framer: fotos en framerusercontent.com) | — | — | — |
+| 10 | 204-cervusbarberia | Terminado (1.2 en la nube; antes pendiente en 2a113ad7) | (este commit) | 0 problemas; 4,225 / 6,686 px | "¿Cuánto tiempo tienes?": botones de minutos que activan los servicios que caben | MEDIA | Sin WhatsApp; tendencias con fotos de IA; solo tres fotos propias |
 | 11 | 217-cincodoscinco | Pendiente (fotos en servidor bloqueado para la nube) | a793c721 | — (LeadConnector: fotos en images.leadconnectorhq.com) | — | — | — |
 | 14 | 249-cognitiomexico | Pendiente (fotos en servidor bloqueado para la nube) | bfad0b42 | — (Zyro: fotos en assets.zyrosite.com) | — | — | — |
 | 15 | 259-corefisioterapia | Pendiente (fotos en servidor bloqueado para la nube) | 28360ec5 | — (Zyro: fotos en assets.zyrosite.com) | — | — | — |
@@ -28,4 +28,4 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 
 ## En curso
 
-204-cervusbarberia (método 1.2 en la nube).
+Ninguno.

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Instrument Serif (títulos, con la cursiva que usa su sitio) y DM Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Instrument Serif"; src: url("../node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Instrument Serif"; src: url("../node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "DM Sans"; src: url("../node_modules/@fontsource/dm-sans/files/dm-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: tinta, papel, azul (el trazo de su mascota), gris, lavanda (fondo alterno) y cielo (acento sobre oscuro).
+   Contrastes: tinta/papel 16.90, blanco/azul 10.53, azul/papel 9.58, gris/papel 5.98, cielo/tinta 12.17, azul/lavanda 8.65. */
+@theme {
+  --color-tinta: #111318;
+  --color-papel: #f6f4ef;
+  --color-azul: #1f2fa3;
+  --color-gris: #5a5d66;
+  --color-lavanda: #e6e8f7;
+  --color-cielo: #c9ceff;
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-sans: "DM Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-papel text-tinta font-sans antialiased; font-size: 1.04rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-tinta; font-weight: 400; line-height: 1.02; text-wrap: balance; }
+  h1 em, h2 em { @apply text-azul; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-tinta text-papel/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-papel; }
+  .oscuro h1 em, .oscuro h2 em { @apply text-cielo; }
+  :focus-visible { outline: 3px solid var(--color-azul); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-cielo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-azul text-white hover:bg-tinta; }
+  .oscuro .btn { @apply hover:bg-papel hover:text-tinta; }
+  .btn-linea { @apply border-2 border-tinta/25 text-tinta hover:border-tinta; }
+  .oscuro .btn-linea { @apply border-papel/40 text-papel hover:border-papel; }
+  .servicio { transition: opacity .2s; }
+  input[type="range"] { accent-color: var(--color-azul); }
+}

@@ -1,0 +1,122 @@
+{
+  "fecha": "2026-09-29T16:16:50.515Z",
+  "carpeta": "204-cervusbarberia",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6268,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [
+        "https://framerusercontent.com/images/LgZ93G2kP5AXDei0HV8WZJHECy8.png?width=2161&height=719",
+        "https://framerusercontent.com/images/up8iAUQXPUy3WWDFnlGeImdayB8.png?width=1536&height=1024",
+        "https://framerusercontent.com/images/Ic0pIE2wWAiWBOaibUsBMlOkwY.png?width=1086&height=1448",
+        "https://framerusercontent.com/images/F94QW4K62tVdD1c3DsONKNjm9I.png?width=1086&height=1448",
+        "https://framerusercontent.com/images/plx60OjDOTK0DxL5WfR3rCKOGS4.png?width=1086&height=1448",
+        "https://framerusercontent.com/images/LgZ93G2kP5AXDei0HV8WZJHECy8.png?width=2161&height=719"
+      ],
+      "sinAlt": 0,
+      "titulo": "CERVUS BARBERÍA | Barbería y Cortes de Cabello en Zapopan",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:38177/204-cervusbarberia/sitio/&"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7471,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 6,
+      "rotas": [
+        "https://framerusercontent.com/images/LgZ93G2kP5AXDei0HV8WZJHECy8.png?width=2161&height=719",
+        "https://framerusercontent.com/images/up8iAUQXPUy3WWDFnlGeImdayB8.png?width=1536&height=1024",
+        "https://framerusercontent.com/images/Ic0pIE2wWAiWBOaibUsBMlOkwY.png?width=1086&height=1448",
+        "https://framerusercontent.com/images/F94QW4K62tVdD1c3DsONKNjm9I.png?width=1086&height=1448",
+        "https://framerusercontent.com/images/plx60OjDOTK0DxL5WfR3rCKOGS4.png?width=1086&height=1448",
+        "https://framerusercontent.com/images/LgZ93G2kP5AXDei0HV8WZJHECy8.png?width=2161&height=719"
+      ],
+      "sinAlt": 0,
+      "titulo": "CERVUS BARBERÍA | Barbería y Cortes de Cabello en Zapopan",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID",
+        "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:38177/204-cervusbarberia/sitio/&"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4225,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Cervus Barbería | Barbería en Zoquipan, Zapopan",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6686,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 5,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Cervus Barbería | Barbería en Zoquipan, Zapopan",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
