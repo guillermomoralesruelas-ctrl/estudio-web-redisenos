@@ -8,7 +8,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 2 | 16-acurauniversidad | Descartado, `cadena` | 1acfb8cb | — (agencia de marca; solo banners y renders de Acura) | — | — | — |
 | 3 | 51-arenahybridclub | Terminado (1.2 en la nube; antes pendiente en 7091ab1f) | 180da70f | 0 problemas; 5,610 / 7,288 px | "Carril por carril": pista con un carril por plan y el costo del mes según las clases | MEDIA | Contador "0 de 100 membresías"; contenido solo con JavaScript |
 | 4 | 102-baronbarbershop | Pendiente 1.2 (PC) | c73ef969 | — (Hostinger Horizons; el clon no trae fotos, en vivo hay 12) | — | — | — |
+| 5 | 107-bellezalatina | Descartado, `pocas-fotos` | (este commit) | — (héroes hechos con IA, retratos de 256 px; 4 sucursales) | — | — | — |
 
 ## En curso
 
-107-bellezalatina.
+Ninguno.
