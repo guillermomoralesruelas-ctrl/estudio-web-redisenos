@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Fredoka (títulos) y Nunito Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Fredoka"; src: url("../node_modules/@fontsource/fredoka/files/fredoka-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Nunito Sans"; src: url("../node_modules/@fontsource/nunito-sans/files/nunito-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: uva, noche, tinta, papel, lila, sol y pizarra (el morado del uniforme Banting).
+   Contrastes: uva sobre papel 9.97, blanco sobre uva 10.51, tinta sobre papel 16.31, sol sobre noche 9.83,
+   papel sobre noche 14.65, pizarra sobre papel 6.57, tinta sobre sol 10.94, uva sobre lila 8.63. */
+@theme {
+  --color-uva: #4b2a8a;
+  --color-noche: #2a1a4f;
+  --color-tinta: #1f1633;
+  --color-papel: #faf8fd;
+  --color-lila: #ece6f7;
+  --color-sol: #f6c945;
+  --color-pizarra: #5d5670;
+  --font-display: "Fredoka", "Trebuchet MS", sans-serif;
+  --font-sans: "Nunito Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-papel text-tinta font-sans antialiased; font-size: 1.05rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display text-uva; font-weight: 600; line-height: 1.05; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-noche text-papel/85; }
+  .oscuro h1, .oscuro h2 { @apply text-papel; }
+  :focus-visible { outline: 3px solid var(--color-uva); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-sol); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-uva text-white hover:bg-noche; }
+  .btn-sol { @apply inline-flex items-center justify-center gap-2 rounded-full bg-sol px-6 py-3 font-bold text-tinta transition-colors hover:bg-papel; min-height: 48px; }
+  .btn-linea { @apply border-2 border-uva/30 text-uva hover:border-uva; }
+  .btn-claro { @apply border-2 border-papel/40 text-papel hover:border-papel; }
+  .enlace { @apply font-bold text-uva underline decoration-1 underline-offset-4 hover:text-noche; }
+}
