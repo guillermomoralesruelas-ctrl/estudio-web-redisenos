@@ -1,0 +1,78 @@
+{
+  "fecha": "2026-09-29T00:07:48.202Z",
+  "carpeta": "410-fc4boxinggym",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 9036,
+      "desbordeX": 0,
+      "h1": 6,
+      "imagenes": 12,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "FC4 Boxing Gym – Clases de box en CDMX",
+      "errores": [
+        "Access to script at 'https://fc4boxinggym.com/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=efaa5193bbad9c60ffd1' from origin 'http://127.0.0.1:52749' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to script at 'https://fc4boxinggym.com/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=1bf28ded04f9f188bdcb' from origin 'http://127.0.0.1:52749' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "carga: page.goto: Timeout 45000ms exceeded."
+      ],
+      "fallidos": [],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 12076,
+      "desbordeX": 0,
+      "h1": 6,
+      "imagenes": 12,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "FC4 Boxing Gym – Clases de box en CDMX",
+      "errores": [
+        "Access to script at 'https://fc4boxinggym.com/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=efaa5193bbad9c60ffd1' from origin 'http://127.0.0.1:52749' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to script at 'https://fc4boxinggym.com/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=1bf28ded04f9f188bdcb' from origin 'http://127.0.0.1:52749' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "carga: page.goto: Timeout 45000ms exceeded."
+      ],
+      "fallidos": [],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3524,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 7,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "FC4 Boxing Gym | Clases de boxeo y entrenamiento funcional en CDMX",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6031,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 7,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "FC4 Boxing Gym | Clases de boxeo y entrenamiento funcional en CDMX",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

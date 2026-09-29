@@ -141,6 +141,8 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 | 179-casatunkul | Casa Tunkul, Mérida, Yucatán (hospedaje) | 1.1 | Terminado (PC, 2026-09-28) | `/proyectos/179-casatunkul/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Hotel boutique en Barrio de Santiago; 3 suites con cocineta; 9.6/10 en Booking con 108 reseñas reales mostradas en tarjetas. Historia: propiedad del poeta Víctor Manuel Martínez Herrera ("El Tunkul"). Sin WhatsApp en el original (Cloudbeds + email). Mapa real en rediseño. QA 0 (escritorio 5200 px, móvil 7808 px, 0 fotos rotas). Prioridad MEDIA |
 | 643-lapurificadora | La Purificadora, Puebla, Puebla (hospedaje/gastronomía) | 1.2 | Terminado (PC, 2026-09-28) | `/proyectos/643-lapurificadora/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Hotel boutique diseñado por Ricardo Legorreta en fábrica purificadora s. XIX. "Elige tu habitación": 7 cards expandibles con características reales y CTA al motor Synxis. Sin precios (no publicados en el original). Sin mapa embed (el original tiene iframe vacío). Arquitectura, restaurante y terraza destacados. |
 
+| 410-fc4boxinggym | FC4 Boxing Gym, Ciudad de México, CDMX (fitness) | 1.1 | Terminado (PC, 2026-09-28) | `/proyectos/410-fc4boxinggym/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Gym boutique CDMX con dos sedes (Pánuco y Anzures). Coaches expandibles con credenciales reales. Selector de sedes con Maps reales. Barra móvil con WA por sede. Precios reales: $1,200/$1,400/$1,600 MXN. QA 0. Prioridad ALTA. |
+
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 
 - Sin fotos en el clon (1.2, descargar en la PC primero): 532-hotelklimt (solo 2 fotos), 534-hotelmaela (0).

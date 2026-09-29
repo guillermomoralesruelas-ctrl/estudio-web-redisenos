@@ -1,0 +1,15 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content/uploads/2025), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+03/blonde-girl-has-a-training-with-experienced-boxer-2025-01-25-14-01-54-utc_3-scaled.jpg	2560x1707	266 KB
+03/SaveClip.App_469164792_17915011032034000_2065649853860948252_n_V2.jpg	1080x1080	116 KB
+03/SaveClip.App_361914311_184016591329818_1194623729188763346_n2-1.jpg	1080x1080	98 KB
+03/SaveClip.App_469164792_17915011032034000_2065649853860948252_n-2.jpg	1080x1080	94 KB
+04/Sergio-682x1024.jpeg	682x1024	71 KB
+03/SaveClip.App_469164792_17915011032034000_2065649853860948252_n-1.jpg	1080x1080	68 KB
+04/Brayan-682x1024.jpeg	682x1024	66 KB
+04/Roberto-683x1024.jpeg	683x1024	64 KB
+04/Enrique-683x1024.jpeg	683x1024	57 KB
+03/cropped-FC4_LogoNegro_150x150_V1-192x192.png	192x192	11 KB
+03/cropped-FC4_LogoNegro_150x150_V1-180x180.png	180x180	10 KB
+03/FC4_LogoBlanco_150x150_V1.png	150x150	3 KB
+03/cropped-FC4_LogoNegro_150x150_V1-32x32.png	32x32	1 KB
