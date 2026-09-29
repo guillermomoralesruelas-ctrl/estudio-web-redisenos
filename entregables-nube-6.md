@@ -25,7 +25,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-3.md`, trabajados uno por uno con el m�
 | 19 | 143-cancuncatamaranes | Terminado (inglés) | eb209699 | 0 problemas; 6,732 / 12,684 px | "How many are coming aboard?": de 2 a 100 personas, la flota a escala con los barcos que caben, los tours y el transporte desde el hotel | MEDIA | Docking fee de $20 escondido en /deals; seis H1; tabla de transporte con precios al revés | Docking fee en todos los tours, tarifas de Puerto Aventuras y Akumal, barco de cada tour |
 | 20 | 250-colegiobanting | Terminado | e6e970e4 | 0 problemas; 5,780 / 10,072 px | "¿A qué hora pasas por él?": nivel y hora de recogida, con la jornada y el horario extendido en una franja de 6:30 a 19:00 | ALTA | Retratos de testimonios hechos con IA marcados "verified"; foto de papá como "Madre de familia" | Costos por nivel, costo del extendido, fotos reales de familias |
 | 21 | 578-institutosuperiormariano | Descartado, `cadena` | 5e531203 | — (18 escuelas en seis países; fotos de banco) | — | — | Red internacional; la base apunta al subdominio `mail.` | — |
-| 22 | 411-ferrex | Descartado, `sin-fotos` | (este commit) | — (solo catálogo de materiales, ilustraciones y logos) | — | — | Ninguna foto de su patio, tienda o reparto; sin WhatsApp | Fotos propias, WhatsApp |
+| 22 | 411-ferrex | Descartado, `sin-fotos` | 478a1a5b | — (solo catálogo de materiales, ilustraciones y logos) | — | — | Ninguna foto de su patio, tienda o reparto; sin WhatsApp | Fotos propias, WhatsApp |
+| 23 | 584-ismmexicosalsa | Terminado (inglés) | (este commit) | 0 problemas; 4,656 / 7,787 px | "How long are you in Mexico City?": cuatro boletos con el plan, precio y WhatsApp de cada estancia | MEDIA | Dos direcciones y dos WhatsApp; testimonios de plantilla; fechas sin año | Dirección y WhatsApp correctos, próximo curso, nombres del equipo |
 
 ## En curso
 

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Dela Gothic One (títulos) y Work Sans (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Dela Gothic One"; src: url("../node_modules/@fontsource/dela-gothic-one/files/dela-gothic-one-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Work Sans"; src: url("../node_modules/@fontsource/work-sans/files/work-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Work Sans"; src: url("../node_modules/@fontsource/work-sans/files/work-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Work Sans"; src: url("../node_modules/@fontsource/work-sans/files/work-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: carbon, crema, chile, mango, humo y arena (la pista de noche y los colores de sus socials).
+   Contrastes: carbon sobre crema 16.72, blanco sobre chile 5.67, mango sobre carbon 10.32, chile sobre crema 5.24,
+   humo sobre crema 6.63, carbon sobre arena 14.39, crema sobre carbon 16.72, carbon sobre mango 10.32. */
+@theme {
+  --color-carbon: #17151c;
+  --color-crema: #fbf5ee;
+  --color-chile: #c42a22;
+  --color-mango: #ffb627;
+  --color-humo: #5c5561;
+  --color-arena: #f3e3cf;
+  --font-display: "Dela Gothic One", "Arial Black", sans-serif;
+  --font-sans: "Work Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-crema text-carbon font-sans antialiased; font-size: 1.04rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display text-carbon; font-weight: 400; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-carbon text-crema/85; }
+  .oscuro h1, .oscuro h2 { @apply text-crema; }
+  :focus-visible { outline: 3px solid var(--color-chile); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-mango); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-chile text-white hover:bg-carbon; }
+  .btn-linea { @apply border-2 border-carbon/30 text-carbon hover:border-carbon; }
+  .btn-claro { @apply border-2 border-crema/40 text-crema hover:border-crema; }
+  .enlace { @apply font-bold text-chile underline decoration-1 underline-offset-4 hover:text-carbon; }
+  /* Boleto: muescas laterales como un ticket de evento. */
+  .boleto { -webkit-mask: radial-gradient(circle 10px at 0 50%, #0000 98%, #000) left / 51% 100% no-repeat, radial-gradient(circle 10px at 100% 50%, #0000 98%, #000) right / 51% 100% no-repeat;
+            mask: radial-gradient(circle 10px at 0 50%, #0000 98%, #000) left / 51% 100% no-repeat, radial-gradient(circle 10px at 100% 50%, #0000 98%, #000) right / 51% 100% no-repeat; }
+}
