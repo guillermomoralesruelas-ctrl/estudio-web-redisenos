@@ -28,4 +28,4 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m√
 
 ## En curso
 
-Ninguno.
+102-baronbarbershop (m√©todo 1.2 en la nube).
