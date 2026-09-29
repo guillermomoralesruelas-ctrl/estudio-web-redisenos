@@ -790,5 +790,13 @@
   "fallos": [],
   "ok": true,
   "fecha": "2026-09-29T13:15:56.100Z"
+ },
+ "613-kitesurfmexico": {
+  "rotas": 0,
+  "h1": 1,
+  "imagenes": 4,
+  "fallos": [],
+  "ok": true,
+  "fecha": "2026-09-29T13:23:31.239Z"
  }
 }
