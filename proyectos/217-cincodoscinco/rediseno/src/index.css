@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Big Shoulders Display (títulos, ancha y deportiva), Karla (texto) y Permanent Marker (solo el pizarrón),
+   de @fontsource, solo latino y locales. */
+@font-face { font-family: "Big Shoulders Display"; src: url("../node_modules/@fontsource/big-shoulders-display/files/big-shoulders-display-latin-800-normal.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Karla"; src: url("../node_modules/@fontsource/karla/files/karla-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Karla"; src: url("../node_modules/@fontsource/karla/files/karla-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Permanent Marker"; src: url("../node_modules/@fontsource/permanent-marker/files/permanent-marker-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+
+/* Tokens: negro, blanco roto, naranja (su logotipo), naranja oscuro (sobre claro), gris, y los plumones del pizarrón
+   (azul y rojo). Contrastes: negro/blanco 17.15, blanco/naranja-osc 5.18, naranja-osc/blanco 4.74, negro/naranja 6.59,
+   naranja/negro 6.54, gris/blanco 6.22, plumon-azul/blanco 10.24, plumon-rojo/blanco 6.47. */
+@theme {
+  --color-negro: #121212;
+  --color-blanco: #f5f5f2;
+  --color-naranja: #ff6a1a;
+  --color-naranja-osc: #c2410c;
+  --color-gris: #5b5b5b;
+  --color-plumon-azul: #1f3b8a;
+  --color-plumon-rojo: #b91c1c;
+  --font-display: "Big Shoulders Display", "Arial Narrow", sans-serif;
+  --font-sans: "Karla", "Segoe UI", sans-serif;
+  --font-plumon: "Permanent Marker", "Comic Sans MS", cursive;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-blanco text-negro font-sans antialiased; font-size: 1.06rem; line-height: 1.6; }
+  h1, h2, h3 { @apply font-display text-negro uppercase; font-weight: 800; line-height: 0.95; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-negro text-blanco/85; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-blanco; }
+  :focus-visible { outline: 3px solid var(--color-naranja-osc); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-naranja); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-linea {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-naranja text-negro hover:bg-white; }
+  .btn-oscuro { @apply bg-negro text-blanco hover:bg-naranja-osc; }
+  .btn-linea { @apply border-2 border-negro/25 text-negro hover:border-negro; }
+  .oscuro .btn-linea { @apply border-blanco/40 text-blanco hover:border-blanco; }
+  /* Pizarrón blanco con marco de aluminio, como el del WOD del box. */
+  .pizarron { background: #fff; border: 10px solid #b9bcc0; box-shadow: inset 0 0 0 2px #e4e6e8, 0 18px 40px -20px rgb(0 0 0 / .45); }
+  .plumon { font-family: var(--font-plumon); }
+}
