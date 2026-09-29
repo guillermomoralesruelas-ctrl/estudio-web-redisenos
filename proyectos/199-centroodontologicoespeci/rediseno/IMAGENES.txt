@@ -1,0 +1,24 @@
+# Imágenes disponibles en publicDir (../sitio/assets/assets/images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+main-slides/slides-bg1.jpg	1920x1000	1090 KB
+services/services-9.jpg	550x500	1076 KB
+main-slides/slides-bg3.jpg	1920x1000	1016 KB
+main-slides/slides-bg2.jpg	1920x1000	843 KB
+overview.png	750x880	640 KB
+about/about-1.png	480x535	434 KB
+appointment/appointment-1.jpg	780x750	223 KB
+services/services-8.jpg	550x500	202 KB
+services/services-6.jpg	550x500	191 KB
+services/services-1.jpg	550x500	188 KB
+services/services-5.jpg	550x500	183 KB
+appointment/appointment-2.jpg	780x450	165 KB
+services/services-7.jpg	550x500	162 KB
+services/services-4.jpg	550x500	161 KB
+services/services-3.jpg	550x500	155 KB
+services/services-2.jpg	550x500	141 KB
+logo1.png	599x198	24 KB
+review/review-2.jpg	150x150	23 KB
+review/review-3.jpg	150x150	23 KB
+review/review-1.jpg	150x150	22 KB
+logo.png	151x61	8 KB
+favicon.png	50x50	5 KB

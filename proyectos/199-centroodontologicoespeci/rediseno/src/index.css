@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Su sitio usa Poppins. Aquí también: títulos en 600 y texto en 400, de @fontsource, solo latino y locales. */
+@font-face { font-family: "Poppins"; src: url("../node_modules/@fontsource/poppins/files/poppins-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("../node_modules/@fontsource/poppins/files/poppins-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Poppins"; src: url("../node_modules/@fontsource/poppins/files/poppins-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+
+/* Tokens: el marino de su CSS (#2a437a), un marino noche, el azul de los sillones de su sala, el verde menta de su CSS
+   (#14e49a), un fondo espuma (de su #eef9ff) y el gris de su logo.
+   Contrastes: marino sobre blanco 9.62, marino sobre espuma 8.75, noche sobre menta 9.48, blanco sobre noche 15.80,
+   niebla sobre noche 7.53, sillón sobre blanco 5.19, sillón sobre espuma 4.72, grafito sobre espuma 7.24,
+   menta sobre marino 5.77. */
+@theme {
+  --color-marino: #2a437a;
+  --color-noche: #0f2147;
+  --color-sillon: #3d6db4;
+  --color-menta: #14e49a;
+  --color-espuma: #eef5fb;
+  --color-grafito: #4a5160;
+  --color-niebla: #9fb4d9;
+  --color-tinta: #16213a;
+  --font-sans: "Poppins", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-white text-tinta font-sans antialiased; font-size: 1rem; line-height: 1.7; }
+  h1, h2, h3 { @apply text-marino; font-weight: 600; line-height: 1.12; text-wrap: balance; letter-spacing: -0.01em; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-noche text-white/90; }
+  .oscuro h1, .oscuro h2, .oscuro h3 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-sillon); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-menta); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn, .btn-marino, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-semibold transition-colors;
+    min-height: 46px;
+  }
+  .btn { @apply bg-menta text-noche hover:bg-[#5cf0bb]; }
+  .btn-marino { @apply bg-marino text-white hover:bg-noche; }
+  .btn-linea { @apply border-2 border-marino/30 text-marino hover:border-marino hover:bg-espuma; }
+  .btn-claro { @apply border-2 border-white/35 text-white hover:border-white hover:bg-white/10; }
+  .enlace { @apply font-semibold text-sillon underline decoration-1 underline-offset-4 hover:text-marino; }
+  .oscuro .enlace { @apply text-menta hover:text-white; }
+}
+
+/* El diente: las capas que no están elegidas se apagan. */
+.diente .capa { transition: opacity 0.35s ease, filter 0.35s ease; cursor: pointer; }
+.diente[data-activa] .capa:not(.on) { opacity: 0.28; filter: saturate(0.3); }
+.diente .escaneo { animation: escaneo 3.2s ease-in-out infinite; }
+@keyframes escaneo { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(380px); } }
