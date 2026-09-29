@@ -18,8 +18,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 19 | 324-dolcebellaspa | Terminado (1.1 en la nube) | 51ecad2f | 0 problemas; 5,055 / 8,392 px | "¿Vienes solo o en pareja?": paquetes con barra de duración por pasos y precio para una o dos personas | ALTA | WhatsApp con número incompleto; restos de plantilla en inglés |
 | 20 | 327-donrogeliocafe | Descartado, `sin-fotos` | 41b723ed | — (9 fotos con C2PA/SynthID de IA; productos en Shopify) | — | — | — |
 | 21 | 333-drhugosanchez | Pendiente (fotos en servidor bloqueado para la nube) | 1cfdfc50 | — (Zyro: fotos en assets.zyrosite.com) | — | — | — |
-| 22 | 365-elreybar | Pendiente (fotos en servidor bloqueado para la nube) | (este commit) | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
+| 22 | 365-elreybar | Pendiente (fotos en servidor bloqueado para la nube) | d64ab7d9 | — (GoDaddy: fotos en img1.wsimg.com) | — | — | — |
 
 ## En curso
 
-Ninguno.
+379-escondidooaxacagrupo.
