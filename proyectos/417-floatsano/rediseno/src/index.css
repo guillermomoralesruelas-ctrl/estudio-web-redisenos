@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Lora (títulos) y Karla (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Lora"; src: url("../node_modules/@fontsource/lora/files/lora-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Lora"; src: url("../node_modules/@fontsource/lora/files/lora-latin-500-italic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Karla"; src: url("../node_modules/@fontsource/karla/files/karla-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Karla"; src: url("../node_modules/@fontsource/karla/files/karla-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+
+/* Tokens: el azul de sus cabinas (noche y flota), luna, sal, cantera (las fachadas de San Miguel) y ámbar (la luz de la
+   otra cabina). Contrastes: noche sobre sal 12.08, blanco sobre noche 13.59, luna sobre noche 6.97, flota sobre blanco
+   5.72, cantera sobre sal 5.37, blanco sobre cantera 6.04, piedra sobre sal 6.14, ámbar sobre noche 8.33. */
+@theme {
+  --color-noche: #1d2b5a;
+  --color-flota: #2f5fd0;
+  --color-luna: #9fb8ff;
+  --color-sal: #f6f1e8;
+  --color-cantera: #a4461f;
+  --color-ambar: #f2c46a;
+  --color-piedra: #555a66;
+  --font-display: "Lora", Georgia, serif;
+  --font-sans: "Karla", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-sal text-noche font-sans antialiased; font-size: 1.06rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-display text-noche; font-weight: 500; line-height: 1.1; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  .oscuro { @apply bg-noche text-white/85; }
+  .oscuro h1, .oscuro h2 { @apply text-white; }
+  :focus-visible { outline: 3px solid var(--color-flota); outline-offset: 3px; border-radius: 6px; }
+  .oscuro :focus-visible { outline-color: var(--color-ambar); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[72rem] px-5 sm:px-8; }
+  .btn, .btn-cantera, .btn-linea, .btn-claro {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-bold transition-colors;
+    min-height: 48px;
+  }
+  .btn { @apply bg-ambar text-noche hover:bg-[#f7d792]; }
+  .btn-cantera { @apply bg-cantera text-white hover:bg-noche; }
+  .btn-linea { @apply border-2 border-noche/25 text-noche hover:border-noche; }
+  .btn-claro { @apply border-2 border-white/35 text-white hover:border-white; }
+  .enlace { @apply font-bold text-cantera underline decoration-1 underline-offset-4 hover:text-noche; }
+  .interruptor { @apply flex min-h-[52px] w-full items-center justify-between gap-3 rounded-2xl border-2 px-4 py-2 text-left font-bold transition-colors; }
+}
+
+.tapa { transition: transform 0.6s ease; transform-origin: 60px 170px; transform-box: view-box; }
+.onda { animation: onda 5s ease-in-out infinite; }
+@keyframes onda { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-12px); } }
+.nota { animation: nota 3s ease-in-out infinite; }
+@keyframes nota { 0% { transform: translateY(0); opacity: 0; } 30% { opacity: 1; } 100% { transform: translateY(-26px); opacity: 0; } }

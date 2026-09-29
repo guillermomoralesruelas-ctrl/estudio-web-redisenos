@@ -1,0 +1,19 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content/uploads/2023), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+04/front_PNG.webp	526x643	239 KB
+04/d1f977_c5c34275b65241d680170cc98c3c0cc1mv2.webp	613x475	226 KB
+04/d1f977_927e4b6a96a34efdaa25648919baa95emv2.webp	540x960	108 KB
+04/d1f977_403b13f0b73745949df2a93a75e081f4mv2.webp	540x960	67 KB
+04/spa-holistico-san-miguel-de-allende-guanajuato.webp	1153x474	49 KB
+04/DSC00108.webp	526x643	45 KB
+04/d1f977_06754173030447eab8e5564c09777a6b_mv2.webp	1500x571	38 KB
+04/d1f977_bf0b39dd35b349a093ff40f2695df415mv2_d_4240_2832_s_4_2.webp	796x531	32 KB
+04/4_LI.webp	389x486	28 KB
+04/parejas4.webp	377x472	24 KB
+04/sauna-san-miguel-de-allende_edited_edite.webp	389x485	14 KB
+04/float-man-angle_edited.webp	389x485	10 KB
+04/massage-back.webp	389x485	10 KB
+03/Spa_Holistico___Holistic_Health_Spa.webp	163x89	2 KB
+03/cropped-Spa_Holistico___Holistic_Health_Spa-192x192.webp	192x192	2 KB
+03/cropped-Spa_Holistico___Holistic_Health_Spa-180x180.webp	180x180	2 KB
+03/cropped-Spa_Holistico___Holistic_Health_Spa-32x32.webp	32x32	1 KB
