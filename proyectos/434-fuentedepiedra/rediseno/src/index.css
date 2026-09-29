@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Su sitio usa Playfair Display (el nombre en su logo es una serif de alto contraste) y un verde olivo (#818765).
+   Aquí: Playfair Display (títulos y la frase) y Jost (texto), de @fontsource, solo latino y locales. */
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Playfair Display"; src: url("../node_modules/@fontsource/playfair-display/files/playfair-display-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Jost"; src: url("../node_modules/@fontsource/jost/files/jost-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Jost"; src: url("../node_modules/@fontsource/jost/files/jost-latin-500-normal.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+
+/* Tokens: piedra oscura, su verde olivo (oscurecido para texto), arena y cantera de sus muros, y el dorado de sus luces.
+   Contrastes: arena sobre piedra 13.42, oro sobre piedra 6.77, cantera sobre piedra 11.09, tinta sobre arena 13.94,
+   gris sobre arena 5.98, olivo sobre arena 6.74, blanco sobre olivo 7.79, oro oscuro sobre arena 5.21, gris sobre cantera
+   4.94, piedra sobre oro 6.77. Su olivo original (#818765) sobre arena da 3.25: solo en líneas y adornos. */
+@theme {
+  --color-piedra: #26241f;
+  --color-olivo: #4f553c;
+  --color-salvia: #818765;
+  --color-arena: #f3eee5;
+  --color-cantera: #e3d9c8;
+  --color-oro: #c8a766;
+  --color-orooscuro: #7a5f24;
+  --color-tinta: #22211d;
+  --color-gris: #5c5a52;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Jost", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-arena text-tinta font-sans antialiased; font-size: 1.0625rem; line-height: 1.65; }
+  h1, h2, h3 { @apply font-serif; font-weight: 400; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-olivo); outline-offset: 3px; border-radius: 4px; }
+  .oscuro :focus-visible { outline-color: var(--color-oro); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .boton { @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 font-medium tracking-wide transition-colors; }
+  .antetitulo { @apply text-[0.8rem] font-medium uppercase tracking-[0.24em] text-orooscuro; }
+  .oscuro .antetitulo { @apply text-oro; }
+  /* Las opciones dentro de la frase: se leen como parte del texto, subrayadas en dorado. */
+  .hueco {
+    @apply cursor-pointer appearance-none rounded-md bg-transparent px-1 font-serif italic text-white;
+    border-bottom: 2px solid var(--color-oro);
+    background-image: linear-gradient(45deg, transparent 50%, var(--color-oro) 50%), linear-gradient(135deg, var(--color-oro) 50%, transparent 50%);
+    background-position: calc(100% - 10px) 58%, calc(100% - 5px) 58%;
+    background-size: 5px 5px; background-repeat: no-repeat; padding-right: 1.3rem;
+  }
+  .hueco option { @apply bg-piedra font-sans not-italic text-arena; }
+}
