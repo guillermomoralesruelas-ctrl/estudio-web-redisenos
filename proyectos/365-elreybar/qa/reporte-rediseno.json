@@ -1,0 +1,87 @@
+{
+  "fecha": "2026-09-29T17:36:22.675Z",
+  "carpeta": "365-elreybar",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8164,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 79,
+      "rotas": [],
+      "sinAlt": 11,
+      "titulo": "El Rey Bar PV",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "A bad HTTP response code (404) was received when fetching the script.",
+        "Failed to register a ServiceWorker for scope ('http://127.0.0.1:54618/') with script ('http://127.0.0.1:54618/sw.js'): A bad HTTP response code (404) was received when fetching the script."
+      ],
+      "fallidos": [
+        "403 http://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js",
+        "404 http://127.0.0.1:54618/markup/ad",
+        "404 http://127.0.0.1:54618/g/api/cart/cart?cartNotifyTimeout=5000&websiteId=79cd93cf-135c-4e72-b25f-ad7374a0f5c3&env=production&cartUrl=http://127.0.0.1:54618/g/api/cart&websiteUrl=http://127.0.0.1:54618"
+      ],
+      "captura": "qa\\antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7392,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 72,
+      "rotas": [],
+      "sinAlt": 11,
+      "titulo": "El Rey Bar PV",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "A bad HTTP response code (404) was received when fetching the script.",
+        "Failed to register a ServiceWorker for scope ('http://127.0.0.1:54618/') with script ('http://127.0.0.1:54618/sw.js'): A bad HTTP response code (404) was received when fetching the script."
+      ],
+      "fallidos": [
+        "403 http://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js",
+        "404 http://127.0.0.1:54618/markup/ad",
+        "404 http://127.0.0.1:54618/g/api/cart/cart?cartNotifyTimeout=5000&websiteId=79cd93cf-135c-4e72-b25f-ad7374a0f5c3&env=production&cartUrl=http://127.0.0.1:54618/g/api/cart&websiteUrl=http://127.0.0.1:54618"
+      ],
+      "captura": "qa\\antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 2259,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 8,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "El Rey Bar & Supper Club | BBQ y cocteles en Puerto Vallarta",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 2864,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 8,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "El Rey Bar & Supper Club | BBQ y cocteles en Puerto Vallarta",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa\\despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

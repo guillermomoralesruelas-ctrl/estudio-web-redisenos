@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fondo: #09090b;
+  --color-tinta: #f4f4f5;
+  --color-acento: #fbbf24;
+  --font-sans: "Inter", "Segoe UI", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4rem; }
+  body { @apply bg-zinc-950 text-zinc-100 font-sans antialiased; }
+  h1, h2, h3 { @apply font-serif; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-acento); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
