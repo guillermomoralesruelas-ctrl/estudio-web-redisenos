@@ -1,0 +1,106 @@
+{
+  "fecha": "2026-10-09T14:23:04.178Z",
+  "carpeta": "441-galeriamexicanade",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6486,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 40,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Galería Mexicana de Diseño",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43385/api/census/RecordHit",
+        "404 http://127.0.0.1:43385/api/census/form-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/popup-overlay/render?currentUrl=%2F441-galeriamexicanade%2Fsitio%2Findex.html"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9230,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 40,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Galería Mexicana de Diseño",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43385/api/census/RecordHit",
+        "404 http://127.0.0.1:43385/api/census/form-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/census/button-render",
+        "404 http://127.0.0.1:43385/api/popup-overlay/render?currentUrl=%2F441-galeriamexicanade%2Fsitio%2Findex.html"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 7878,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 41,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Galería Mexicana de Diseño | Diseño mexicano contemporáneo en la Roma Norte",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 11813,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 41,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Galería Mexicana de Diseño | Diseño mexicano contemporáneo en la Roma Norte",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

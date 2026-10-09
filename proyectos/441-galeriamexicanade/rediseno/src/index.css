@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "@fontsource/instrument-serif/latin-400.css";
+@import "@fontsource/instrument-serif/latin-400-italic.css";
+@import "@fontsource-variable/inter-tight/wght.css";
+
+@theme {
+  /* Paleta GMD: el papel crema de sus catálogos, la tinta negra de su logotipo y el rosa mexicano de su libro "20 años" */
+  --color-papel: #F3EEE5;
+  --color-hueso: #FBF8F2;
+  --color-arena: #E4DCCD;
+  --color-tinta: #1A1816;
+  --color-grafito: #4F4A44;   /* texto secundario (AA sobre papel) */
+  --color-rosa: #B8195A;      /* rosa mexicano (AA con blanco y sobre papel) */
+  --color-rosa-hondo: #8E1245;
+  --color-madera: #8A5A33;
+
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-sans: "Inter Tight Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-serif); font-weight: 400; line-height: 1.02; text-wrap: balance; letter-spacing: -0.01em; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rosa); outline-offset: 3px; }
+  input[type="range"] { accent-color: var(--color-rosa); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[80rem] px-5 sm:px-8; }
+  .btn-rosa { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors bg-rosa text-white hover:bg-rosa-hondo; }
+  .btn-tinta { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors bg-tinta text-hueso hover:bg-grafito; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors border border-current hover:bg-tinta hover:text-hueso; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.24em] text-rosa; }
+  .chip { @apply rounded-full border border-tinta/25 px-4 py-2 text-sm font-medium transition-colors; }
+}
