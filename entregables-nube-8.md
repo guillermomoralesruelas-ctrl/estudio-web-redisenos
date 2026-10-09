@@ -41,8 +41,23 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 
 ## Dominios bloqueados para la nube en este lote
 
-Se llenará al terminar el lote.
+El 2026-09-29 la nube no llegaba a estos dominios, por eso sus sitios quedaron como "Pendiente 1.2 (PC)". Desde el 2026-10-09 la nube ya llega a los sitios de los clientes y a sus CDN, así que se pueden hacer en una sesión en la nube o en la PC:
+
+| # | Carpeta | Dominio de las fotos |
+|---|---|---|
+| 1 | 27-alcazarinmobiliaria | `assets.easybroker.com` |
+| 2 | 28-aldocastanedabodas | `assets.zyrosite.com` |
+| 3 | 37-alturamaximareal | `assets.easybroker.com` |
+| 4 | 75-azulbacalar | `bacalar.com.mx` |
+| 7 | 370-encisan | `irp.cdn-website.com` |
+| 9 | 413-finoasis | `finoasis.mx` |
+| 10 | 426-flowbarber | `flowbarberpdc.com` |
+| 11 | 430-forter | `forter.mx` |
+| 12 | 437-fabricadelentes | `fabricadelentes.mx` |
+| 13 | 441-galeriamexicanade | `images.squarespace-cdn.com` |
+| 14 | 446-gemaspahuatulco | `content.app-sources.com` |
+| 15 | 454-goldenscissors | `goldenscissors.com.mx` |
 
 ## En curso
 
-Ninguno.
+Ninguno. Las 30 filas del lote tienen resultado; quedan los 12 "Pendiente 1.2 (PC)" de arriba.
