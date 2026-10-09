@@ -64,6 +64,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `224-clinicaveterinariaadrian` | Clínica Veterinaria Adrián Zamora | Querétaro, Qro. | `sin-fotos` | Sitio ADN de Sección Amarilla: sus 19 imágenes son de banco (nombres con número de iStock), ninguna de la clínica. Contacto completo (WhatsApp 442 370 8857) | Nube |
 | `262-cosmetologianaturalspa` | Cosmetología Natural Spa | Hermosillo, Son. | `sin-fotos` | Google Sites: sus 53 imágenes (googleusercontent sitesv-images) dan HTTP 403 y el clon no las trae. Tel. 662 433 0681 | Nube |
 | `570-inglespractico` | Inglés Práctico | Ciudad Juárez, Chih. | `pocas-fotos` | Solo 2 fotos propias (fachadas de sus dos planteles); el resto son fondos de banco y logotipos de empresas cliente. WhatsApp 656 215 8562 | Nube |
+| `595-joyeriadignum` | Joyería Dignum | Guadalajara, Jal. | `sin-fotos` | Sus fotos de portada y de piezas tienen aspecto de IA (mármol y luz idénticos); solo un retrato pequeño. WhatsApp 33 1602 7259 | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
