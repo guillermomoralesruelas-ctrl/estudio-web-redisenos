@@ -61,6 +61,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `395-estudiodearte` | Estudio de Arte Coyoacán | Coyoacán, CDMX | `sin-fotos` | Sitio de Sección Amarilla sobre la plantilla de otro negocio: logotipo de Nor.skin (spa de Ciudad Satélite), dos fotos de banco de spa y una ilustración de pintura; sus páginas de servicios dicen "Nor.Skin". Sin fotos del estudio ni dirección (sí tel. y WhatsApp 55 3484 1018). Buen cliente para un sitio nuevo si da fotos | Nube |
 | `510-hostaldela` | Hostal de la Luz, Spa Holistic Resort | Tepoztlán, Mor. | `url-ajena` | La URL es una ficha de stateofmexico.mx, que se presenta como "sitio web no oficial de información y reservas de hoteles"; logotipo, menú y reservas son del portal. Buscar el sitio propio del hotel | Nube |
 | `611-kingstoninstitute` | Kingston Institute | Torreón, Coah. | `sin-fotos` | Sus 8 fotos parecen generadas con IA o de banco (retratos de estudio con fondo blanco para tres "alumnos" con nombre, escenas de curso genéricas); ninguna de sus 3 sucursales. Contacto completo (WhatsApp 871 465 0985) | Nube |
+| `224-clinicaveterinariaadrian` | Clínica Veterinaria Adrián Zamora | Querétaro, Qro. | `sin-fotos` | Sitio ADN de Sección Amarilla: sus 19 imágenes son de banco (nombres con número de iStock), ninguna de la clínica. Contacto completo (WhatsApp 442 370 8857) | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 

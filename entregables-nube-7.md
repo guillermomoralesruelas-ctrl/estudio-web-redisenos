@@ -15,6 +15,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 9 | 176-casapitic | Terminado (1.2 en la nube; antes pendiente en 13261445) | 1ee22380 | 0 problemas; 4,063 / 5,894 px | "¿Arriba o abajo?": corte de la casa con una planta por suite y precio por noches | BAJA | Cotizador sin disponibilidad; sin tarifas cortas; fotos con "Watermark Remover" |
 | 10 | 204-cervusbarberia | Terminado (1.2 en la nube; antes pendiente en 2a113ad7) | 335ed858 | 0 problemas; 4,225 / 6,686 px | "¿Cuánto tiempo tienes?": botones de minutos que activan los servicios que caben | MEDIA | Sin WhatsApp; tendencias con fotos de IA; solo tres fotos propias |
 | 11 | 217-cincodoscinco | Terminado (1.2 en la nube; antes pendiente en a793c721) | c726b5cd | 0 problemas; 4,804 / 5,866 px | "¿Desde dónde empiezas?": pizarrón del WOD que dice cuánto pagas hoy | MEDIA | Correo con enlace a "youremail@email.com"; textos de plantilla en inglés |
+| 12 | 224-clinicaveterinariaadrian | Descartado, `sin-fotos` | (este commit) | — (sitio ADN; sus 19 imágenes son de banco, con número de iStock) | — | — | — |
 | 14 | 249-cognitiomexico | Descartado, `pocas-fotos` (antes pendiente en bfad0b42) | a04f0f08 | — (3 retratos de 450 px; el resto de Unsplash) | — | — | — |
 | 15 | 259-corefisioterapia | Descartado, `url-ajena` (antes pendiente en 28360ec5) | 55397590 | — (la web es de una clínica de Guadalajara, España) | — | — | — |
 | 18 | 306-dermatologiamx | Descartado, `pocas-fotos` | b6c568b2 | — (2 retratos; tratamientos en /images/generated/ y de banco) | — | — | — |
