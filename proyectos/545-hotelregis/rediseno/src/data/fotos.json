@@ -1,0 +1,54 @@
+{
+ "bano": [
+  960,
+  1280
+ ],
+ "doble": [
+  1280,
+  960
+ ],
+ "entrada-villa": [
+  1024,
+  575
+ ],
+ "escritorio": [
+  960,
+  1280
+ ],
+ "fachada-atardecer": [
+  1179,
+  607
+ ],
+ "fachada-dia": [
+  1179,
+  746
+ ],
+ "fachada-esquina": [
+  1179,
+  752
+ ],
+ "habitacion-escritorio": [
+  1280,
+  960
+ ],
+ "lavabo": [
+  960,
+  1280
+ ],
+ "restaurante-barra": [
+  1024,
+  575
+ ],
+ "restaurante-salon": [
+  975,
+  1300
+ ],
+ "sencilla": [
+  960,
+  1280
+ ],
+ "triple": [
+  1280,
+  960
+ ]
+}

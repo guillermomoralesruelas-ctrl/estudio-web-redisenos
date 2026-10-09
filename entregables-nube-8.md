@@ -28,6 +28,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 18 | 497-hiya | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,736 / 5,973 px | "Tu comanda": platos y vinos por copa o botella suman y se dividen entre la mesa, y reserva en OpenTable | ALTA | Tres horarios distintos; logotipo de otro negocio |
 | 19 | 510-hostaldela | Descartado, `url-ajena` | (este commit) | — (ficha de stateofmexico.mx, "sitio web no oficial… de reservas de hoteles") | — | — | — |
 | 20 | 542-hotelpremierhermosillo | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,376 / 10,067 px | "Tarjeta de registro": fechas, habitación, huéspedes y motivo del viaje arman un correo a reservaciones, con sello de la hora de Hermosillo | ALTA | Texto de configuración visible; sin dirección en la página |
+| 21 | 545-hotelregis | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,140 / 9,395 px | "¿A qué hora llegas?": reloj de 24 h que muestra qué está abierto en el hotel y en Villa Don Nacho; cuenta de la estancia con sus precios | MEDIA | Testimonios de ejemplo; "Reservar Mesa" sin enlace |
 | 22 | 570-inglespractico | Descartado, `pocas-fotos` | (este commit) | — (solo 2 fotos propias: fachadas de sus planteles) | — | — | — |
 | 23 | 595-joyeriadignum | Descartado, `sin-fotos` | (este commit) | — (portada y piezas con aspecto de IA) | — | — | — |
 | 24 | 611-kingstoninstitute | Descartado, `sin-fotos` | (este commit) | — (8 fotos con aspecto de IA o de banco; testimonios con retratos de estudio) | — | — | — |
