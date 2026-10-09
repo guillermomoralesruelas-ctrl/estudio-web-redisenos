@@ -16,7 +16,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 6 | 345-dremmanuelsanchez | Descartado, `sin-fotos` | ea75e3df | — (imágenes "ChatGPT Image…", solo el logotipo es propio) | — | — | — |
 | 7 | 370-encisan | Descartado, `sin-fotos` | (este commit) | — (sus 7 fotos son de banco (iStock), ninguna del consultorio) | — | — | — |
 | 8 | 395-estudiodearte | Descartado, `sin-fotos` | abee95fc | — (plantilla de otro negocio, Nor.skin; fotos de banco) | — | — | — |
-| 9 | 413-finoasis | Pendiente 1.2 (PC) | bf36ffa4 | — (clon sin fotos; `finoasis.mx` bloqueado; probablemente solo el retrato de Ernesto es propio) | — | — | — |
+| 9 | 413-finoasis | Descartado, `sin-fotos` | (este commit) | — (solo su retrato es propio; 12 fotos de banco) | — | — | — |
 | 10 | 426-flowbarber | Pendiente 1.2 (PC) | 51e1f0b9 | — (clon sin fotos; `flowbarberpdc.com` bloqueado; teléfono de plantilla 984 123 4567) | — | — | — |
 | 11 | 430-forter | Pendiente 1.2 (PC) | 0dde644d | — (clon con 1 foto propia; el resto en `forter.mx`, bloqueado) | — | — | — |
 | 12 | 437-fabricadelentes | Pendiente 1.2 (PC) | 62ccda65 | — (clon sin fotos; `fabricadelentes.mx` bloqueado; 10 sucursales: evaluar si es cadena) | — | — | — |

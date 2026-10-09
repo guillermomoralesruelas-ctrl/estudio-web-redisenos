@@ -68,6 +68,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `648-lcpfastridlarrondo` | LCPF Astrid Larrondo | Tampico, Tamps. | `sin-fotos` | Google Sites: sus imágenes dan HTTP 403 y el clon no las trae. Tel. 833 211 80 51 | Nube |
 | `640-lapincoyacafe` | La Pincoya Café | La Paz, BCS | `sin-contacto` · `pocas-fotos` | Sin teléfono, WhatsApp ni dirección en el sitio (su /contact solo tiene formulario); unas 5 fotos de celular pequeñas | Nube |
 | `370-encisan` | ENCISAN (periodoncia e implantes, Dra. Laura Elena Rojas Murillo) | Oaxaca de Juárez, Oax. | `sin-fotos` | Sitio de Duda (Sección Amarilla ADN) de una página; sus 7 fotos son de banco (3 con número de iStock), más 3 íconos y el logo. Ninguna del consultorio. Sí tiene tel. 951 514 1928 y WhatsApp 951 156 4272 | Nube |
+| `413-finoasis` | FinOasis (consultoría patrimonial, Jesús Ernesto Briseño Alcántara) | Ciudad de México | `sin-fotos` | Solo una foto propia (su retrato); las otras 12 son de banco y los logos son de bancos y casas de bolsa. Sin dirección. Sí tiene tel. 55 1479 3193 y WhatsApp 55 4897 6259 | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
