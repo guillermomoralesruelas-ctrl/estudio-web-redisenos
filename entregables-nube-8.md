@@ -8,21 +8,21 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 
 | # | Carpeta | Resultado | Commit | QA (escritorio / celular) | Elemento memorable | Prioridad | Hallazgo principal |
 |---|---|---|---|---|---|---|---|
-| 1 | 27-alcazarinmobiliaria | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 5,848 / 9,571 px | "Buscar en el mapa": sus 137 propiedades en el valle de Oaxaca por coordenadas, filtradas por operación, tipo, recámaras y presupuesto, con WhatsApp por propiedad | MEDIA | Listado de 9 páginas sin búsqueda por presupuesto; fichas con datos erróneos |
-| 2 | 28-aldocastanedabodas | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 5,443 / 9,372 px | "Capítulo a capítulo": los 16 momentos de la boda con su foto, qué cubre cada paquete, meses para la fecha, anticipo y WhatsApp | MEDIA | Dos precios distintos; cifras que no coinciden |
-| 3 | 37-alturamaximareal | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 7,260 / 10,677 px | "El metro cuadrado, por zona": con su listado de 433 propiedades, qué te alcanza por m² en cada zona de Zapopan y Vallarta, cuántas caben y WhatsApp | ALTA | 22 páginas de listado; textos para buscadores visibles; datos erróneos |
-| 4 | 75-azulbacalar | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 8,496 / 13,239 px | "¿Quién se encarga de qué?": sus planes Starter y Relax tarea por tarea (Azul Bacalar, tú o no incluido) con WhatsApp del plan | ALTA | "Lorem ipsum" visible; Malena con dos precios; dos WhatsApp |
+| 1 | 27-alcazarinmobiliaria | Terminado (1.2 en la nube, 2026-10-09) | 85f7771f | 0 problemas; 5,848 / 9,571 px | "Buscar en el mapa": sus 137 propiedades en el valle de Oaxaca por coordenadas, filtradas por operación, tipo, recámaras y presupuesto, con WhatsApp por propiedad | MEDIA | Listado de 9 páginas sin búsqueda por presupuesto; fichas con datos erróneos |
+| 2 | 28-aldocastanedabodas | Terminado (1.2 en la nube, 2026-10-09) | fac3de21 | 0 problemas; 5,443 / 9,372 px | "Capítulo a capítulo": los 16 momentos de la boda con su foto, qué cubre cada paquete, meses para la fecha, anticipo y WhatsApp | MEDIA | Dos precios distintos; cifras que no coinciden |
+| 3 | 37-alturamaximareal | Terminado (1.2 en la nube, 2026-10-09) | b7130850 | 0 problemas; 7,260 / 10,677 px | "El metro cuadrado, por zona": con su listado de 433 propiedades, qué te alcanza por m² en cada zona de Zapopan y Vallarta, cuántas caben y WhatsApp | ALTA | 22 páginas de listado; textos para buscadores visibles; datos erróneos |
+| 4 | 75-azulbacalar | Terminado (1.2 en la nube, 2026-10-09) | 9799c93d | 0 problemas; 8,496 / 13,239 px | "¿Quién se encarga de qué?": sus planes Starter y Relax tarea por tarea (Azul Bacalar, tú o no incluido) con WhatsApp del plan | ALTA | "Lorem ipsum" visible; Malena con dos precios; dos WhatsApp |
 | 5 | 247-codamusicinstitute | Descartado, `sin-fotos` | bf4d95f3 | — (29 fotos de Unsplash; teléfono y dirección de plantilla) | — | — | — |
 | 6 | 345-dremmanuelsanchez | Descartado, `sin-fotos` | ea75e3df | — (imágenes "ChatGPT Image…", solo el logotipo es propio) | — | — | — |
-| 7 | 370-encisan | Descartado, `sin-fotos` | (este commit) | — (sus 7 fotos son de banco (iStock), ninguna del consultorio) | — | — | — |
+| 7 | 370-encisan | Descartado, `sin-fotos` | 497a6431 | — (sus 7 fotos son de banco (iStock), ninguna del consultorio) | — | — | — |
 | 8 | 395-estudiodearte | Descartado, `sin-fotos` | abee95fc | — (plantilla de otro negocio, Nor.skin; fotos de banco) | — | — | — |
-| 9 | 413-finoasis | Descartado, `sin-fotos` | (este commit) | — (solo su retrato es propio; 12 fotos de banco) | — | — | — |
-| 10 | 426-flowbarber | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 5,031 / 7,476 px | "Arma tu visita": servicios, niños, día y hora con precio, duración y hora de salida, y reserva en Fresha (sin WhatsApp: su teléfono es de plantilla) | ALTA | Teléfono de plantilla; precios distintos |
-| 11 | 430-forter | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 6,917 / 10,754 px | "Dibuja tu barda y tu losa": dibujo a escala y lista de material con sus fórmulas, en un solo WhatsApp | BAJA | WhatsApp no escrito; calculadoras separadas |
-| 12 | 437-fabricadelentes | Descartado, `sin-fotos` | (este commit) | — (13 fotos de banco o generadas y fotos de catálogo de proveedores; ninguna de sucursales ni laboratorio) | — | — | — |
-| 13 | 441-galeriamexicanade | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 7,878 / 11,813 px | "Encuentra tu pieza": sus 38 piezas por presupuesto, tipo y existencias, con comprar o preguntar | MEDIA | Imágenes de IA; dos horarios |
-| 14 | 446-gemaspahuatulco | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 5,985 / 8,768 px | "Arma tu masaje": cabina, playa o domicilio con precio y WhatsApp listo | ALTA | WhatsApp a número incompleto; restos de otro negocio |
-| 15 | 454-goldenscissors | Descartado, `sin-fotos` | (este commit) | — ((7 imágenes generadas con IA: letreros "GILDED NOIR" y "THE GOLDEN BARBER"; ninguna foto real)) | — | — | — |
+| 9 | 413-finoasis | Descartado, `sin-fotos` | 3e4248cf | — (solo su retrato es propio; 12 fotos de banco) | — | — | — |
+| 10 | 426-flowbarber | Terminado (1.2 en la nube, 2026-10-09) | 7a6f6e82 | 0 problemas; 5,031 / 7,476 px | "Arma tu visita": servicios, niños, día y hora con precio, duración y hora de salida, y reserva en Fresha (sin WhatsApp: su teléfono es de plantilla) | ALTA | Teléfono de plantilla; precios distintos |
+| 11 | 430-forter | Terminado (1.2 en la nube, 2026-10-09) | 7b42e56a | 0 problemas; 6,917 / 10,754 px | "Dibuja tu barda y tu losa": dibujo a escala y lista de material con sus fórmulas, en un solo WhatsApp | BAJA | WhatsApp no escrito; calculadoras separadas |
+| 12 | 437-fabricadelentes | Descartado, `sin-fotos` | aa9d21d9 | — (13 fotos de banco o generadas y fotos de catálogo de proveedores; ninguna de sucursales ni laboratorio) | — | — | — |
+| 13 | 441-galeriamexicanade | Terminado (1.2 en la nube, 2026-10-09) | 34404e3f | 0 problemas; 7,878 / 11,813 px | "Encuentra tu pieza": sus 38 piezas por presupuesto, tipo y existencias, con comprar o preguntar | MEDIA | Imágenes de IA; dos horarios |
+| 14 | 446-gemaspahuatulco | Terminado (1.2 en la nube, 2026-10-09) | 699d2457 | 0 problemas; 5,985 / 8,768 px | "Arma tu masaje": cabina, playa o domicilio con precio y WhatsApp listo | ALTA | WhatsApp a número incompleto; restos de otro negocio |
+| 15 | 454-goldenscissors | Descartado, `sin-fotos` | df7d7d46 | — (7 imágenes generadas con IA: letreros "GILDED NOIR" y "THE GOLDEN BARBER"; ninguna foto real) | — | — | — |
 | 16 | 487-harmoniapilatesreformer | Terminado (1.1 en la nube) | … | 0 problemas; 6,646 / 10,849 px | "Elige tu hora y tu reformer": sus 13 clases de la semana y el estudio visto desde arriba con ocho reformers; VIP y Elite apartan el suyo | ALTA | WhatsApp sin código de país; horario con palomitas grises sin explicar; sin dirección escrita |
 | 17 | 491-heartsonfilm | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 7,249 / 10,310 px | "Su boda, en la línea de tiempo": fecha y destino dan los días que faltan, el fin de semana a apartar y cuándo llega su película | MEDIA | Pide un formulario que no existe; imágenes en imgur |
 | 18 | 497-hiya | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,736 / 5,973 px | "Tu comanda": platos y vinos por copa o botella suman y se dividen entre la mesa, y reserva en OpenTable | ALTA | Tres horarios distintos; logotipo de otro negocio |
@@ -41,23 +41,8 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 
 ## Dominios bloqueados para la nube en este lote
 
-El 2026-09-29 la nube no llegaba a estos dominios, por eso sus sitios quedaron como "Pendiente 1.2 (PC)". Desde el 2026-10-09 la nube ya llega a los sitios de los clientes y a sus CDN, así que se pueden hacer en una sesión en la nube o en la PC:
-
-| # | Carpeta | Dominio de las fotos |
-|---|---|---|
-| 1 | 27-alcazarinmobiliaria | `assets.easybroker.com` |
-| 2 | 28-aldocastanedabodas | `assets.zyrosite.com` |
-| 3 | 37-alturamaximareal | `assets.easybroker.com` |
-| 4 | 75-azulbacalar | `bacalar.com.mx` |
-| 7 | 370-encisan | `irp.cdn-website.com` |
-| 9 | 413-finoasis | `finoasis.mx` |
-| 10 | 426-flowbarber | `flowbarberpdc.com` |
-| 11 | 430-forter | `forter.mx` |
-| 12 | 437-fabricadelentes | `fabricadelentes.mx` |
-| 13 | 441-galeriamexicanade | `images.squarespace-cdn.com` |
-| 14 | 446-gemaspahuatulco | `content.app-sources.com` |
-| 15 | 454-goldenscissors | `goldenscissors.com.mx` |
+El 2026-09-29 la nube no llegaba a los dominios de 12 sitios y quedaron como "Pendiente 1.2 (PC)". El 2026-10-09 la nube ya llegó a todos y se cerraron en la nube: 8 rediseñados (27, 28, 37, 75, 426, 430, 441 y 446) y 4 descartados `sin-fotos` (370, 413, 437 y 454; motivos en `DESCARTADOS.md`).
 
 ## En curso
 
-Ninguno. Las 30 filas del lote tienen resultado; quedan los 12 "Pendiente 1.2 (PC)" de arriba.
+Ninguno. Las 30 filas del lote tienen resultado final; no queda ningún "Pendiente 1.2 (PC)".
