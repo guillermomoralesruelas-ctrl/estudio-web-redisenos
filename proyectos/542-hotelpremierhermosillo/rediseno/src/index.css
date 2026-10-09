@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "@fontsource/dm-serif-display/latin-400.css";
+@import "@fontsource/dm-serif-display/latin-400-italic.css";
+@import "@fontsource/public-sans/latin-400.css";
+@import "@fontsource/public-sans/latin-600.css";
+@import "@fontsource/public-sans/latin-700.css";
+
+@theme {
+  /* Paleta Premier: el vino y el rojo de su logotipo y de sus piezas, el oro de la "P", la cantera de su fachada */
+  --color-vino: #6E1C1A;     /* vino del logotipo: fondos oscuros */
+  --color-rojo: #B02E28;     /* rojo de sus piezas: botones (AA con blanco) */
+  --color-oro: #F2C230;      /* oro de la "P": acentos sobre vino */
+  --color-cantera: #F5EEE3;  /* fondo claro, tono de la fachada */
+  --color-cal: #FFFCF7;
+  --color-tinta: #221A17;
+  --color-gris: #5C514B;
+
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-sans: "Public Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn-rojo { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold leading-none transition-colors bg-rojo text-white hover:bg-vino; }
+  .btn-oro { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold leading-none transition-colors bg-oro text-vino hover:bg-white; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold leading-none transition-colors border-2 border-current hover:bg-white hover:text-vino; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.22em] text-rojo; }
+}
+
+/* Tarjeta de registro: papel con renglones */
+.tarjeta { background: #FFFDF8; background-image: repeating-linear-gradient(to bottom, transparent 0 2.45rem, #E9DCCB 2.45rem 2.5rem); }
+.sello { transform: rotate(-8deg); }
+.campo { @apply w-full border-0 border-b-2 border-dashed border-gris/60 bg-transparent px-0 py-1.5 text-base text-tinta focus:border-rojo focus:outline-none focus:ring-0; }

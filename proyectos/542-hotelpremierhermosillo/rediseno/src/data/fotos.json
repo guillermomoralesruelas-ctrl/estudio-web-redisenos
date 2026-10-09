@@ -1,0 +1,102 @@
+{
+ "alberca-dia": [
+  1024,
+  770
+ ],
+ "alberca-noche": [
+  1024,
+  770
+ ],
+ "buffet-desayuno": [
+  600,
+  380
+ ],
+ "buffet": [
+  552,
+  444
+ ],
+ "centro-negocios": [
+  800,
+  530
+ ],
+ "donas": [
+  552,
+  444
+ ],
+ "estacion-buffet": [
+  800,
+  530
+ ],
+ "estacionamiento-noche": [
+  1024,
+  770
+ ],
+ "exterior-noche": [
+  800,
+  530
+ ],
+ "fachada": [
+  820,
+  600
+ ],
+ "fruta": [
+  552,
+  444
+ ],
+ "gimnasio": [
+  1024,
+  770
+ ],
+ "habitacion-camas-dobles": [
+  1024,
+  770
+ ],
+ "habitacion-dos-camas": [
+  800,
+  530
+ ],
+ "habitacion-escritorio": [
+  1024,
+  770
+ ],
+ "habitacion-sala": [
+  800,
+  530
+ ],
+ "habitacion-una-cama": [
+  800,
+  530
+ ],
+ "hamburguesa": [
+  552,
+  444
+ ],
+ "llave": [
+  956,
+  736
+ ],
+ "lobby-billar": [
+  1024,
+  770
+ ],
+ "restaurante-bar": [
+  600,
+  452
+ ],
+ "sala-juntas": [
+  1024,
+  770
+ ],
+ "salmon": [
+  552,
+  444
+ ],
+ "salon-desayunos": [
+  552,
+  444
+ ],
+ "videojuegos": [
+  600,
+  452
+ ]
+}
