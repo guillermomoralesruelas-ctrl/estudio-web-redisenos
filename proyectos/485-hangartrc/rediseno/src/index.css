@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "@fontsource/saira-condensed/latin-600.css";
+@import "@fontsource/saira-condensed/latin-800.css";
+@import "@fontsource/manrope/latin-400.css";
+@import "@fontsource/manrope/latin-600.css";
+@import "@fontsource/manrope/latin-700.css";
+
+@theme {
+  /* Paleta Hangar: el amarillo dorado de su logotipo y sus franjas de advertencia, negro de su gimnasio, el pasto verde */
+  --color-oro: #F5D157;         /* amarillo del logotipo: botones con texto negro, acentos sobre negro */
+  --color-oro-hondo: #8A6A00;   /* amarillo oscurecido: texto sobre claro (AA) */
+  --color-noche: #0E0E0E;
+  --color-asfalto: #1C1C1C;
+  --color-grafito: #2A2A2A;
+  --color-humo: #B9B9B9;
+  --color-pasto: #3F8F3A;
+
+  --font-display: "Saira Condensed", "Arial Narrow", sans-serif;
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-noche text-white antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 800; text-transform: uppercase; letter-spacing: 0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-oro { font-family: var(--font-display); @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-base font-extrabold uppercase tracking-wider leading-none transition-colors bg-oro text-noche hover:bg-white; }
+  .btn-linea { font-family: var(--font-display); @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-base font-extrabold uppercase tracking-wider leading-none transition-colors border-2 border-white text-white hover:bg-white hover:text-noche; }
+  .eyebrow { font-family: var(--font-display); @apply text-sm font-semibold uppercase tracking-[0.25em] text-oro; }
+}
+
+/* Franja de advertencia del hangar (la usan en sus muros) */
+.franja { background: repeating-linear-gradient(-45deg, var(--color-oro) 0 14px, var(--color-noche) 14px 28px); }
+/* Talón perforado del pase de abordar */
+.perforado { background-image: radial-gradient(circle, var(--color-noche) 5px, transparent 5.5px); background-size: 100% 18px; background-repeat: repeat-y; }

@@ -1,0 +1,83 @@
+{
+  "fecha": "2026-10-09T04:56:47.878Z",
+  "carpeta": "485-hangartrc",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 0,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 0,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hangar TRC | Gimnasio en Torreón",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:41485/assets/index-COE_n6Z-.js",
+        "404 http://127.0.0.1:41485/~flock.js",
+        "404 http://127.0.0.1:41485/cdn-cgi/challenge-platform/scripts/jsd/main.js"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 0,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 0,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hangar TRC | Gimnasio en Torreón",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:41485/assets/index-COE_n6Z-.js",
+        "404 http://127.0.0.1:41485/~flock.js",
+        "404 http://127.0.0.1:41485/cdn-cgi/challenge-platform/scripts/jsd/main.js"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 7290,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 35,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hangar TRC | Gimnasio de pesas, box y crossfit en Torreón",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 10809,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 35,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hangar TRC | Gimnasio de pesas, box y crossfit en Torreón",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
