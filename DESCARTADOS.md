@@ -65,6 +65,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `262-cosmetologianaturalspa` | Cosmetología Natural Spa | Hermosillo, Son. | `sin-fotos` | Google Sites: sus 53 imágenes (googleusercontent sitesv-images) dan HTTP 403 y el clon no las trae. Tel. 662 433 0681 | Nube |
 | `570-inglespractico` | Inglés Práctico | Ciudad Juárez, Chih. | `pocas-fotos` | Solo 2 fotos propias (fachadas de sus dos planteles); el resto son fondos de banco y logotipos de empresas cliente. WhatsApp 656 215 8562 | Nube |
 | `595-joyeriadignum` | Joyería Dignum | Guadalajara, Jal. | `sin-fotos` | Sus fotos de portada y de piezas tienen aspecto de IA (mármol y luz idénticos); solo un retrato pequeño. WhatsApp 33 1602 7259 | Nube |
+| `648-lcpfastridlarrondo` | LCPF Astrid Larrondo | Tampico, Tamps. | `sin-fotos` | Google Sites: sus imágenes dan HTTP 403 y el clon no las trae. Tel. 833 211 80 51 | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
