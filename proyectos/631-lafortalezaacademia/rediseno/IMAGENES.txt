@@ -1,0 +1,5 @@
+# Imágenes disponibles en publicDir (../sitio/assets), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+favicon.png	500x500	17 KB
+5-1.png	931x392	15 KB
+optimized_5-1_342x144.png	342x144	3 KB

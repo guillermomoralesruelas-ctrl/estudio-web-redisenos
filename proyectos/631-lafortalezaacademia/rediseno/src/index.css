@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "@fontsource/bebas-neue/latin-400.css";
+@import "@fontsource/dm-sans/latin-400.css";
+@import "@fontsource/dm-sans/latin-500.css";
+@import "@fontsource/dm-sans/latin-700.css";
+
+@theme {
+  /* Paleta Fortaleza: el verde de su marca, el telón rojo, el negro del escenario y la luz del seguidor */
+  --color-bosque: #2F5A36;   /* verde de su marca: fondos y botones (AA con blanco) */
+  --color-bosque-claro: #3F6B45;
+  --color-telon: #A3201D;    /* telón rojo: acentos y botón principal (AA con blanco) */
+  --color-escena: #121212;   /* piso del escenario */
+  --color-foco: #F4C542;     /* luz del seguidor: acentos sobre oscuro */
+  --color-papel: #FBF8F1;
+  --color-crema: #F1EBDD;
+  --color-tinta: #1A1A1A;
+  --color-gris: #55574F;
+
+  --font-display: "Bebas Neue", Impact, sans-serif;
+  --font-sans: "DM Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; letter-spacing: 0.02em; line-height: 0.95; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-foco); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-telon { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold uppercase tracking-[0.12em] leading-none transition-colors bg-telon text-white hover:bg-escena; }
+  .btn-foco { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold uppercase tracking-[0.12em] leading-none transition-colors bg-foco text-escena hover:bg-white; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold uppercase tracking-[0.12em] leading-none transition-colors border-2 border-current hover:bg-white hover:text-escena; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.26em] text-telon; }
+}
+
+/* Haz del seguidor sobre la portada */
+.seguidor { background: radial-gradient(ellipse 60% 70% at 70% 30%, rgb(244 197 66 / 0.22), transparent 70%); }
+/* Pliegues del telón */
+.telon { background-image: repeating-linear-gradient(90deg, rgb(0 0 0 / 0.18) 0 2px, transparent 2px 22px, rgb(255 255 255 / 0.05) 22px 24px, transparent 24px 44px); }
