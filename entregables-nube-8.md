@@ -14,7 +14,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 4 | 75-azulbacalar | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 8,496 / 13,239 px | "¿Quién se encarga de qué?": sus planes Starter y Relax tarea por tarea (Azul Bacalar, tú o no incluido) con WhatsApp del plan | ALTA | "Lorem ipsum" visible; Malena con dos precios; dos WhatsApp |
 | 5 | 247-codamusicinstitute | Descartado, `sin-fotos` | bf4d95f3 | — (29 fotos de Unsplash; teléfono y dirección de plantilla) | — | — | — |
 | 6 | 345-dremmanuelsanchez | Descartado, `sin-fotos` | ea75e3df | — (imágenes "ChatGPT Image…", solo el logotipo es propio) | — | — | — |
-| 7 | 370-encisan | Pendiente 1.2 (PC) | d046479b | — (clon sin fotos; fotos en `irp.cdn-website.com`, bloqueado; varias parecen de iStock) | — | — | — |
+| 7 | 370-encisan | Descartado, `sin-fotos` | (este commit) | — (sus 7 fotos son de banco (iStock), ninguna del consultorio) | — | — | — |
 | 8 | 395-estudiodearte | Descartado, `sin-fotos` | abee95fc | — (plantilla de otro negocio, Nor.skin; fotos de banco) | — | — | — |
 | 9 | 413-finoasis | Pendiente 1.2 (PC) | bf36ffa4 | — (clon sin fotos; `finoasis.mx` bloqueado; probablemente solo el retrato de Ernesto es propio) | — | — | — |
 | 10 | 426-flowbarber | Pendiente 1.2 (PC) | 51e1f0b9 | — (clon sin fotos; `flowbarberpdc.com` bloqueado; teléfono de plantilla 984 123 4567) | — | — | — |

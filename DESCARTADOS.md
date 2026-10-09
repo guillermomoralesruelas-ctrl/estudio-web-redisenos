@@ -67,6 +67,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `595-joyeriadignum` | Joyería Dignum | Guadalajara, Jal. | `sin-fotos` | Sus fotos de portada y de piezas tienen aspecto de IA (mármol y luz idénticos); solo un retrato pequeño. WhatsApp 33 1602 7259 | Nube |
 | `648-lcpfastridlarrondo` | LCPF Astrid Larrondo | Tampico, Tamps. | `sin-fotos` | Google Sites: sus imágenes dan HTTP 403 y el clon no las trae. Tel. 833 211 80 51 | Nube |
 | `640-lapincoyacafe` | La Pincoya Café | La Paz, BCS | `sin-contacto` · `pocas-fotos` | Sin teléfono, WhatsApp ni dirección en el sitio (su /contact solo tiene formulario); unas 5 fotos de celular pequeñas | Nube |
+| `370-encisan` | ENCISAN (periodoncia e implantes, Dra. Laura Elena Rojas Murillo) | Oaxaca de Juárez, Oax. | `sin-fotos` | Sitio de Duda (Sección Amarilla ADN) de una página; sus 7 fotos son de banco (3 con número de iStock), más 3 íconos y el logo. Ninguna del consultorio. Sí tiene tel. 951 514 1928 y WhatsApp 951 156 4272 | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
