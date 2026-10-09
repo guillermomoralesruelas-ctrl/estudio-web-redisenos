@@ -1,0 +1,112 @@
+{
+  "fecha": "2026-10-09T13:30:29.366Z",
+  "carpeta": "28-aldocastanedabodas",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8315,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 49,
+      "rotas": [],
+      "sinAlt": 7,
+      "titulo": "Aldo Castañeda Bodas | Cineasta y fotógrafo de bodas en Guadalajara, México | Aldo Castañeda Bodas - Cineasta y fotógrafo",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "[astro-island] Error hydrating /_astro-1789698588427/ClientHead.C2Pkh1nG.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:38859/_astro-1789698588427/ClientHead.C2Pkh1nG.js?astro-retry=1791552630804",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "[astro-island] Error hydrating /_astro-1789698588427/Page.dZW9kxHs.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:38859/_astro-1789698588427/client.BuD5P5zy.js?astro-retry=1791552630881",
+        "[astro-island] Error hydrating /_astro-1789698588427/Integrations.W4rzWNcK.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:38859/_astro-1789698588427/client.BuD5P5zy.js?astro-retry=1791552630881",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:38859/_astro-1789698588427/ClientHead.C2Pkh1nG.js",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/client.BuD5P5zy.js",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/Page.dZW9kxHs.js",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/Integrations.W4rzWNcK.js",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/ClientHead.C2Pkh1nG.js?astro-retry=1791552630804",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/client.BuD5P5zy.js?astro-retry=1791552630805",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/client.BuD5P5zy.js?astro-retry=1791552630881",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/Page.dZW9kxHs.js?astro-retry=1791552630897",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/Integrations.W4rzWNcK.js?astro-retry=1791552630898"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 14610,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 49,
+      "rotas": [],
+      "sinAlt": 7,
+      "titulo": "Aldo Castañeda Bodas | Cineasta y fotógrafo de bodas en Guadalajara, México | Aldo Castañeda Bodas - Cineasta y fotógrafo",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "[astro-island] Error hydrating /_astro-1789698588427/ClientHead.C2Pkh1nG.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:38859/_astro-1789698588427/ClientHead.C2Pkh1nG.js?astro-retry=1791552642346",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "[astro-island] Error hydrating /_astro-1789698588427/Integrations.W4rzWNcK.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:38859/_astro-1789698588427/client.BuD5P5zy.js?astro-retry=1791552642395",
+        "[astro-island] Error hydrating /_astro-1789698588427/Page.dZW9kxHs.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:38859/_astro-1789698588427/client.BuD5P5zy.js?astro-retry=1791552642395",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:38859/_astro-1789698588427/ClientHead.C2Pkh1nG.js",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/client.BuD5P5zy.js",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/Integrations.W4rzWNcK.js",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/Page.dZW9kxHs.js",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/ClientHead.C2Pkh1nG.js?astro-retry=1791552642346",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/client.BuD5P5zy.js?astro-retry=1791552642347",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/client.BuD5P5zy.js?astro-retry=1791552642395",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/Integrations.W4rzWNcK.js?astro-retry=1791552642401",
+        "404 http://127.0.0.1:38859/_astro-1789698588427/Page.dZW9kxHs.js?astro-retry=1791552642401"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5443,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 8,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Aldo Castañeda Bodas | Cineasta y fotógrafo de bodas en Guadalajara",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9372,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 8,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Aldo Castañeda Bodas | Cineasta y fotógrafo de bodas en Guadalajara",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

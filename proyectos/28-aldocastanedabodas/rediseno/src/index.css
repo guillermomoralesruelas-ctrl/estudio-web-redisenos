@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "@fontsource/bodoni-moda/latin-400.css";
+@import "@fontsource/bodoni-moda/latin-400-italic.css";
+@import "@fontsource/bodoni-moda/latin-600.css";
+@import "@fontsource/manrope/latin-400.css";
+@import "@fontsource/manrope/latin-600.css";
+@import "@fontsource/manrope/latin-700.css";
+
+@theme {
+  /* Paleta de su portafolio: la noche de los salones, el champán de las luces cálidas y el marfil de los vestidos */
+  --color-noche: #141210;     /* fondos oscuros, texto */
+  --color-champan: #C9A877;   /* acentos sobre oscuro */
+  --color-champan-hondo: #7D5F33; /* acento sobre claro (AA) */
+  --color-marfil: #F7F3EC;
+  --color-lino: #ECE4D7;
+  --color-tinta: #1D1B19;
+  --color-gris: #5E5852;
+
+  --font-display: "Bodoni Moda", "Didot", Georgia, serif;
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-marfil text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-champan); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-champan { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-xs font-bold uppercase tracking-[0.22em] leading-none transition-colors bg-champan text-noche hover:bg-white; }
+  .btn-noche { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-xs font-bold uppercase tracking-[0.22em] leading-none transition-colors bg-noche text-white hover:bg-champan-hondo; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-xs font-bold uppercase tracking-[0.22em] leading-none transition-colors border border-current hover:bg-white hover:text-noche; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.32em] text-champan-hondo; }
+}
