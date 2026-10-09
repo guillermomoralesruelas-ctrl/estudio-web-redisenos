@@ -60,6 +60,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `345-dremmanuelsanchez` | Dr. Emmanuel Sánchez Sepúlveda (psiquiatría) | Monterrey, N. L. | `sin-fotos` | Salvo el logotipo, sus imágenes son recortes de dos archivos "ChatGPT Image 30 jul 2026…" (IA). Sin retrato ni consultorio y sin dirección publicada (sí WhatsApp 81 3576 5584). El texto del inicio repite cuatro veces el mismo título | Nube |
 | `395-estudiodearte` | Estudio de Arte Coyoacán | Coyoacán, CDMX | `sin-fotos` | Sitio de Sección Amarilla sobre la plantilla de otro negocio: logotipo de Nor.skin (spa de Ciudad Satélite), dos fotos de banco de spa y una ilustración de pintura; sus páginas de servicios dicen "Nor.Skin". Sin fotos del estudio ni dirección (sí tel. y WhatsApp 55 3484 1018). Buen cliente para un sitio nuevo si da fotos | Nube |
 | `510-hostaldela` | Hostal de la Luz, Spa Holistic Resort | Tepoztlán, Mor. | `url-ajena` | La URL es una ficha de stateofmexico.mx, que se presenta como "sitio web no oficial de información y reservas de hoteles"; logotipo, menú y reservas son del portal. Buscar el sitio propio del hotel | Nube |
+| `611-kingstoninstitute` | Kingston Institute | Torreón, Coah. | `sin-fotos` | Sus 8 fotos parecen generadas con IA o de banco (retratos de estudio con fondo blanco para tres "alumnos" con nombre, escenas de curso genéricas); ninguna de sus 3 sucursales. Contacto completo (WhatsApp 871 465 0985) | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
