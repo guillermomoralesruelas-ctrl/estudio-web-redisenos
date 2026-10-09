@@ -1,0 +1,310 @@
+{
+ "Smoothies": [
+  {
+   "nombre": "Nutty Power",
+   "precio": "$157",
+   "desc": "Plátano, dátiles, maca, leche de almendra, crema de almendra, crema de cacahuate, proteína vegana, toque de sal de mar, con cacao nibs."
+  },
+  {
+   "nombre": "Choco-Brain",
+   "precio": "$152",
+   "desc": "Cacao orgánico, plátano, dátiles, crema de almendra, reishi, maca, leche de almendra, canela, con quinoa inflada."
+  },
+  {
+   "nombre": "Berry AB & J",
+   "precio": "$150",
+   "desc": "Blueberry, fresa, plátano, crema de almendra, agua de coco y dátiles, con chía y polen de abeja."
+  },
+  {
+   "nombre": "Campo Verde",
+   "precio": "$148",
+   "desc": "Pepino, apio, perejil, espinaca, chlorella, jugo de naranja, dátiles, plátano, yogurt de cashew, con polen de abeja."
+  },
+  {
+   "nombre": "Lassi Tropical",
+   "precio": "$145",
+   "desc": "Mango, plátano, dátil, yogurt de cashew, jugo de naranja, lúcuma, cúrcuma, leche de coco, con polen de abeja."
+  },
+  {
+   "nombre": "Inspirulina",
+   "precio": "$165",
+   "desc": "Espirulina azul, ashwagandha, coco, dátiles, maca, crema de almendra, vainilla, goji."
+  }
+ ],
+ "Jugos Prensados en Frío": [
+  {
+   "nombre": "Daily Greens (Detox)",
+   "precio": "",
+   "desc": "Apio, pepino, perejil, manzana verde, jengibre, limón."
+  },
+  {
+   "nombre": "Dulce Raíz (Revive)",
+   "precio": "",
+   "desc": "Betabel, manzana gala, jengibre, pepino, limón verde."
+  },
+  {
+   "nombre": "Sidra Natural (Digest)",
+   "precio": "",
+   "desc": "Manzana golden, mackintosh y granny smith, jengibre, canela, toque de vinagre de manzana, limón."
+  },
+  {
+   "nombre": "Puro Sol (Energía)",
+   "precio": "",
+   "desc": "Zanahoria, manzana, jengibre."
+  }
+ ],
+ "Shots Prensados en Frío": [
+  {
+   "nombre": "Feel Better Shot",
+   "precio": "$65",
+   "desc": "Echinacea, naranja, lúcuma, cúrcuma, jengibre, polen de abeja."
+  },
+  {
+   "nombre": "The Hulk Logan",
+   "precio": "$60",
+   "desc": "Espirulina, jugo verde, cítricos, sal de mar."
+  },
+  {
+   "nombre": "Shot of Ginger",
+   "precio": "$45",
+   "desc": "Jengibre puro."
+  }
+ ],
+ "All Day Breakfast (desayuno todo el día)": [
+  {
+   "nombre": "Apple Blueberry Oatmeal",
+   "precio": "$105",
+   "desc": "Avena orgánica cremosa, leches de almendra y coco, puré de manzana, canela, jarabe de dátil de la casa, con blueberries y manzana."
+  },
+  {
+   "nombre": "Blueberry Parfait Yogurt Bowl",
+   "precio": "$115",
+   "desc": "Yogurt de coco y cashew con blueberries frescas y cashews rostizados con agave."
+  },
+  {
+   "nombre": "Maple Apple Mini-Waffles",
+   "precio": "$135",
+   "desc": "Mini waffles sin gluten con manzana y canela, blueberries, plátano, nueces tostadas y miel con maple."
+  },
+  {
+   "nombre": "Herb & Egg Mini Omelette",
+   "precio": "$142",
+   "desc": "Omelette de huevos orgánicos de libre pastoreo con espinaca, jitomate y perejil, con ensalada de lado."
+  },
+  {
+   "nombre": "Veggie Breakfast Tacos",
+   "precio": "$158",
+   "desc": "Dos tacos con proteína de chícharo, huevo orgánico, espinaca al vapor, jitomate cherry y queso vegano."
+  }
+ ],
+ "Toasties & Wraps": [
+  {
+   "nombre": "Berry Almond Butter Toast",
+   "precio": "$130",
+   "desc": "Crema de almendra, compota de frambuesa y chía, polen de abeja, canela y plátano sobre masa madre tostada."
+  },
+  {
+   "nombre": "Lemony Avo-Egg Toast",
+   "precio": "$145",
+   "desc": "Masa madre con aceite de oliva extra virgen, aguacate, huevo orgánico, rábano, jitomate cherry, hojuelas de chile, chía, ajonjolí negro y ralladura de limón."
+  },
+  {
+   "nombre": "Tuna Avo Red Pepper Wrap",
+   "precio": "$152",
+   "desc": "Ensalada de atún, mayonesa de aguacate, pimiento rostizado, ajonjolí negro y pepino."
+  },
+  {
+   "nombre": "Turkey Spinach Wrap",
+   "precio": "$152",
+   "desc": "Pavo artesanal, espinaca fresca, jitomate cherry, pimienta y mayonesa de aceite de aguacate."
+  },
+  {
+   "nombre": "Chicken Caesar Wrap",
+   "precio": "$158",
+   "desc": "Pollo deshebrado, lechuga crujiente, aguacate, jitomate cherry y aderezo césar de la casa."
+  }
+ ],
+ "Healing Lattes": [
+  {
+   "nombre": "Golden Milk Latte",
+   "precio": "$75",
+   "desc": "Cúrcuma, jengibre, canela, pimienta negra."
+  },
+  {
+   "nombre": "Pink Rose Latte",
+   "precio": "$75",
+   "desc": "Canela, vainilla, betabel, jengibre, clavo."
+  },
+  {
+   "nombre": "Matcha Latte",
+   "precio": "$80",
+   "desc": "Matcha orgánico de Japón."
+  },
+  {
+   "nombre": "Salted Honey Latte",
+   "precio": "$80",
+   "desc": "Espresso, miel cruda, toque de sal de mar."
+  },
+  {
+   "nombre": "Masala Chai Latte",
+   "precio": "$80",
+   "desc": "Té negro, cardamomo, canela, jengibre, hinojo, clavo, pimienta negra."
+  },
+  {
+   "nombre": "Charcoal Latte",
+   "precio": "$80",
+   "desc": "Carbón activado, coco."
+  },
+  {
+   "nombre": "Cosmic Dream Latte",
+   "precio": "$85",
+   "desc": "Espirulina azul, coco, vainilla."
+  },
+  {
+   "nombre": "Chai Apple Cider",
+   "precio": "$90",
+   "desc": "Manzana fresca con jengibre y mezcla de especias."
+  },
+  {
+   "nombre": "Cacao Adaptógenos",
+   "precio": "$95",
+   "desc": "Cacao orgánico, reishi, maca, ashwagandha."
+  },
+  {
+   "nombre": "Teas of the Day",
+   "precio": "$65",
+   "desc": "Selección curada de tés de temporada."
+  }
+ ],
+ "Café": [
+  {
+   "nombre": "Espresso",
+   "precio": "$45",
+   "desc": ""
+  },
+  {
+   "nombre": "Americano",
+   "precio": "$50",
+   "desc": ""
+  },
+  {
+   "nombre": "Macchiato",
+   "precio": "$55",
+   "desc": ""
+  },
+  {
+   "nombre": "Cortado",
+   "precio": "$55",
+   "desc": ""
+  },
+  {
+   "nombre": "Flat White",
+   "precio": "$60",
+   "desc": ""
+  },
+  {
+   "nombre": "Cappuccino",
+   "precio": "$60",
+   "desc": ""
+  },
+  {
+   "nombre": "Latte",
+   "precio": "$65",
+   "desc": ""
+  },
+  {
+   "nombre": "Vanilla Latte",
+   "precio": "$75",
+   "desc": ""
+  },
+  {
+   "nombre": "Maple Latte",
+   "precio": "$75",
+   "desc": ""
+  },
+  {
+   "nombre": "Mocha Latte",
+   "precio": "$80",
+   "desc": ""
+  },
+  {
+   "nombre": "Espresso Tonic",
+   "precio": "$80",
+   "desc": ""
+  },
+  {
+   "nombre": "Bulletproof Latte (MCT)",
+   "precio": "$85",
+   "desc": ""
+  }
+ ],
+ "Extras de Superfoods": [
+  {
+   "nombre": "Proteína vegana orgánica",
+   "precio": "$35",
+   "desc": ""
+  },
+  {
+   "nombre": "Colágeno",
+   "precio": "$35",
+   "desc": ""
+  },
+  {
+   "nombre": "Crema de almendra o cacahuate",
+   "precio": "$35",
+   "desc": ""
+  },
+  {
+   "nombre": "Reishi",
+   "precio": "$35",
+   "desc": ""
+  },
+  {
+   "nombre": "Ashwagandha",
+   "precio": "$35",
+   "desc": ""
+  },
+  {
+   "nombre": "Camu camu",
+   "precio": "$35",
+   "desc": ""
+  },
+  {
+   "nombre": "Wheatgrass",
+   "precio": "$20",
+   "desc": ""
+  },
+  {
+   "nombre": "Maca",
+   "precio": "$20",
+   "desc": ""
+  },
+  {
+   "nombre": "Espirulina",
+   "precio": "$20",
+   "desc": ""
+  },
+  {
+   "nombre": "Aloe vera",
+   "precio": "$20",
+   "desc": ""
+  },
+  {
+   "nombre": "Lúcuma",
+   "precio": "$20",
+   "desc": ""
+  }
+ ],
+ "Extras": [
+  {
+   "nombre": "Huevo orgánico de libre pastoreo",
+   "precio": "$35",
+   "desc": ""
+  },
+  {
+   "nombre": "Aguacate",
+   "precio": "$35",
+   "desc": ""
+  }
+ ]
+}

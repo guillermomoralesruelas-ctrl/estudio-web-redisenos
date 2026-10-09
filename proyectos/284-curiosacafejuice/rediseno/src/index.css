@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "@fontsource/young-serif/latin-400.css";
+@import "@fontsource/figtree/latin-400.css";
+@import "@fontsource/figtree/latin-600.css";
+@import "@fontsource/figtree/latin-700.css";
+
+@theme {
+  /* Paleta Curiosa: el azul de su logotipo, crema de su local y los colores de sus cuatro jugos */
+  --color-azul: #4783B5;        /* azul del logotipo: fondos con texto grande, acentos */
+  --color-azul-hondo: #2A5C87;  /* azul oscuro: texto y botones sobre claro (AA) */
+  --color-tinta: #1D2A36;
+  --color-crema: #FBF6EC;
+  --color-arena: #F1E7D3;
+  --color-gris: #4E5A66;
+  --color-greens: #6AA33A;
+  --color-raiz: #A3244B;
+  --color-sidra: #D6A53A;
+  --color-sol: #EE8526;
+
+  --font-display: "Young Serif", Georgia, serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-sol); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn-azul { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-bold leading-none transition-colors bg-azul-hondo text-white hover:bg-tinta; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-bold leading-none transition-colors border-2 border-azul-hondo text-azul-hondo hover:bg-azul-hondo hover:text-white; }
+  .btn-claro { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-bold leading-none transition-colors bg-white text-azul-hondo hover:bg-arena; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.18em] text-azul-hondo; }
+}
+
+/* Botellas del Juice Flight: el jugo sube al elegirlo */
+.liquido { transition: height 0.6s cubic-bezier(.3,1.4,.5,1), background-color 0.3s; }

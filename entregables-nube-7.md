@@ -20,6 +20,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 14 | 249-cognitiomexico | Descartado, `pocas-fotos` (antes pendiente en bfad0b42) | a04f0f08 | — (3 retratos de 450 px; el resto de Unsplash) | — | — | — |
 | 15 | 259-corefisioterapia | Descartado, `url-ajena` (antes pendiente en 28360ec5) | 55397590 | — (la web es de una clínica de Guadalajara, España) | — | — | — |
 | 16 | 262-cosmetologianaturalspa | Descartado, `sin-fotos` | (este commit) | — (Google Sites; sus imágenes dan 403) | — | — | — |
+| 17 | 284-curiosacafejuice | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,078 / 7,529 px | "Arma tu Juice Flight": tres de sus cuatro jugos llenan botellas con su color, shot opcional y pedido por WhatsApp | BAJA | Textos y avisos legales de la plantilla de Framer |
 | 18 | 306-dermatologiamx | Descartado, `pocas-fotos` | b6c568b2 | — (2 retratos; tratamientos en /images/generated/ y de banco) | — | — | — |
 | 19 | 324-dolcebellaspa | Terminado (1.1 en la nube) | 51ecad2f | 0 problemas; 5,055 / 8,392 px | "¿Vienes solo o en pareja?": paquetes con barra de duración por pasos y precio para una o dos personas | ALTA | WhatsApp con número incompleto; restos de plantilla en inglés |
 | 20 | 327-donrogeliocafe | Descartado, `sin-fotos` | 41b723ed | — (9 fotos con C2PA/SynthID de IA; productos en Shopify) | — | — | — |

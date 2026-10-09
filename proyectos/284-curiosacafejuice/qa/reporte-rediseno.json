@@ -1,0 +1,72 @@
+{
+  "fecha": "2026-10-09T04:33:11.476Z",
+  "carpeta": "284-curiosacafejuice",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 10988,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 30,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Curiosa Cafe & Juice Bar | CDMX, La Condesa",
+      "errores": [
+        "Access to XMLHttpRequest at 'https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo' from origin 'https://www.google.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 16201,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 30,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Curiosa Cafe & Juice Bar | CDMX, La Condesa",
+      "errores": [
+        "Access to XMLHttpRequest at 'https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo' from origin 'https://www.google.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5078,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 14,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Curiosa Café & Juice Bar | Jugos y café en La Condesa, CDMX",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7529,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 14,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Curiosa Café & Juice Bar | Jugos y café en La Condesa, CDMX",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
