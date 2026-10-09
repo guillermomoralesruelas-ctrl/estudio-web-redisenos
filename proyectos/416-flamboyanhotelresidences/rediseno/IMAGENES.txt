@@ -1,0 +1,6 @@
+# Imágenes disponibles en publicDir (../sitio/assets/app), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+mirai-themes/mirai-ma/icofonts/mirai-icofonts/fonts/mirai-icofonts.svg	?	1608 KB
+plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg	?	897 KB
+plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg	?	732 KB
+plugins/elementor/assets/lib/eicons/fonts/eicons.svg	?	363 KB

@@ -1,0 +1,106 @@
+{
+ "aerea": [
+  1200,
+  800
+ ],
+ "alberca-rooftop": [
+  1200,
+  800
+ ],
+ "atardecer": [
+  1200,
+  800
+ ],
+ "camastro": [
+  1200,
+  800
+ ],
+ "fachada": [
+  1200,
+  800
+ ],
+ "florista": [
+  1200,
+  800
+ ],
+ "huesped-balcon": [
+  1200,
+  800
+ ],
+ "obra-andrade": [
+  1200,
+  800
+ ],
+ "pasillo": [
+  1200,
+  800
+ ],
+ "room-3fFPne": [
+  1022,
+  768
+ ],
+ "room-5zySYS": [
+  1024,
+  768
+ ],
+ "room-811SKT": [
+  1024,
+  682
+ ],
+ "room-FXg0dg": [
+  1024,
+  682
+ ],
+ "room-GdYqN0": [
+  1024,
+  768
+ ],
+ "room-I6vdLr": [
+  1024,
+  768
+ ],
+ "room-PPTONA": [
+  1024,
+  683
+ ],
+ "room-Qd0iWe": [
+  1024,
+  683
+ ],
+ "room-SDevKE": [
+  1024,
+  768
+ ],
+ "room-VGH9RF": [
+  1024,
+  678
+ ],
+ "room-XMlDAu": [
+  1024,
+  682
+ ],
+ "room-bynYdF": [
+  1024,
+  686
+ ],
+ "room-i0VGWN": [
+  1024,
+  683
+ ],
+ "room-yL6ybJ": [
+  1024,
+  682
+ ],
+ "terraza": [
+  1200,
+  800
+ ],
+ "vista-palmas": [
+  1200,
+  800
+ ],
+ "vista-pueblo": [
+  1200,
+  800
+ ]
+}
