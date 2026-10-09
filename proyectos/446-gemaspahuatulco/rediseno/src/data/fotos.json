@@ -1,0 +1,98 @@
+{
+ "alberca-lumax": [
+  900,
+  1200
+ ],
+ "alberca-noche": [
+  1400,
+  1050
+ ],
+ "cabina-azul": [
+  900,
+  1200
+ ],
+ "cabina-noche": [
+  900,
+  1200
+ ],
+ "cabina": [
+  675,
+  1200
+ ],
+ "facial-led": [
+  675,
+  1200
+ ],
+ "noche-playa": [
+  1400,
+  1050
+ ],
+ "playa-cara": [
+  900,
+  1200
+ ],
+ "playa-dos": [
+  1400,
+  1050
+ ],
+ "playa-espalda": [
+  1400,
+  1050
+ ],
+ "playa-lumax": [
+  900,
+  1200
+ ],
+ "playa-mar": [
+  1400,
+  1050
+ ],
+ "playa-pareja": [
+  1280,
+  960
+ ],
+ "playa-terapeuta": [
+  900,
+  1200
+ ],
+ "playa-terapeutas": [
+  1400,
+  1050
+ ],
+ "productos": [
+  900,
+  1200
+ ],
+ "recepcion": [
+  900,
+  1200
+ ],
+ "terraza-cabina": [
+  1400,
+  1050
+ ],
+ "terraza-dos": [
+  1400,
+  1050
+ ],
+ "terraza-mar": [
+  1400,
+  1050
+ ],
+ "terraza-plantas": [
+  1400,
+  1050
+ ],
+ "terraza-sol": [
+  1400,
+  1050
+ ],
+ "yate": [
+  1400,
+  1050
+ ],
+ "logo": [
+  360,
+  314
+ ]
+}

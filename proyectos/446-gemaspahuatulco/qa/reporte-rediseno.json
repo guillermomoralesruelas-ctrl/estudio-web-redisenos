@@ -1,0 +1,80 @@
+{
+  "fecha": "2026-10-09T14:31:28.629Z",
+  "carpeta": "446-gemaspahuatulco",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5594,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 13,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Relájate en Huatulco - Servicios Exclusivos en Gema Spa",
+      "errores": [
+        "Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support.",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43539/clientRequestHandler/?action=getSessionDetails&_csrfToken=IMyTFt-yXXPNh-ezEFI9-1238.10637.1399933.296122056&r=0.21413253984886704",
+        "404 http://127.0.0.1:43539/clientRequestHandler/?action=getPopup&_csrfToken=IMyTFt-yXXPNh-ezEFI9-1238.10637.1399933.296122056&r=0.2871393969852152&id=12&preview=&edit=false&isTemplate=false"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7181,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 13,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Relájate en Huatulco - Servicios Exclusivos en Gema Spa",
+      "errores": [
+        "Looks like your website URL has changed. To ensure the proper functioning of your banner, update the registered URL on your CookieYes account (navigate to the Organizations & Sites page (https://app.cookieyes.com/settings/organizations-and-sites) and click the More button associated with your site). Then, reload this page to retry. If the issue persists, please contact us at https://www.cookieyes.com/support.",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43539/clientRequestHandler/?action=getSessionDetails&_csrfToken=qM22Oi-H4bjSr-E00H18-1238.10637.1399933.296122056&r=0.0032447736353267143",
+        "404 http://127.0.0.1:43539/clientRequestHandler/?action=getPopup&_csrfToken=qM22Oi-H4bjSr-E00H18-1238.10637.1399933.296122056&r=0.6277102252298826&id=12&preview=&edit=false&isTemplate=false"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5985,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 17,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Gema Spa Huatulco | Masajes en cabina, en la playa o a domicilio",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 8768,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 17,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Gema Spa Huatulco | Masajes en cabina, en la playa o a domicilio",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

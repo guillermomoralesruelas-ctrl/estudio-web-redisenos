@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/latin-500.css";
+@import "@fontsource/cormorant-garamond/latin-500-italic.css";
+@import "@fontsource/cormorant-garamond/latin-600.css";
+@import "@fontsource-variable/outfit/wght.css";
+
+@theme {
+  /* Paleta Gema Spa: el coral de su loto, la arena de Huatulco, el verde de su carpa y el azul de la bahía */
+  --color-arena: #F6EFE6;
+  --color-concha: #FFFBF6;
+  --color-loto: #E77D8A;      /* coral de su logotipo (decorativo) */
+  --color-coral: #A63A50;     /* coral profundo: texto y botones (AA) */
+  --color-coral-hondo: #85283D;
+  --color-carpa: #2F5D4E;     /* verde de su carpa de playa */
+  --color-bahia: #173A44;
+  --color-tinta: #2A2422;
+  --color-gris: #5E5551;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Outfit Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-serif); font-weight: 500; line-height: 1.02; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-coral); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-coral { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-medium leading-none transition-colors bg-coral text-white hover:bg-coral-hondo; }
+  .btn-carpa { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-medium leading-none transition-colors bg-carpa text-white hover:bg-bahia; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-medium leading-none transition-colors border border-current hover:bg-white/15; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.26em] text-coral; }
+}
