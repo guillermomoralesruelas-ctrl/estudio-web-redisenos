@@ -1,0 +1,92 @@
+{
+  "fecha": "2026-10-09T05:50:04.886Z",
+  "carpeta": "623-labovedahotel",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3031,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Luxury Hotel in Historic Colonial Mansion in Nochistlán, Zacatecas | La Boveda Hotel",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "[astro-island] Error hydrating /_astro-1728518387796/ClientHead.DTuaiJjP.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:36333/_astro-1728518387796/ClientHead.DTuaiJjP.js",
+        "[astro-island] Error hydrating /_astro-1728518387796/Page.CxEb9kgp.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:36333/_astro-1728518387796/client.CsREDN1O.js",
+        "[astro-island] Error hydrating /_astro-1728518387796/Integrations.DY_GatCR.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:36333/_astro-1728518387796/client.CsREDN1O.js",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:36333/_astro-1728518387796/ClientHead.DTuaiJjP.js",
+        "404 http://127.0.0.1:36333/_astro-1728518387796/client.CsREDN1O.js",
+        "404 http://127.0.0.1:36333/_astro-1728518387796/Page.CxEb9kgp.js",
+        "404 http://127.0.0.1:36333/_astro-1728518387796/Integrations.DY_GatCR.js"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 3757,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 15,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Luxury Hotel in Historic Colonial Mansion in Nochistlán, Zacatecas | La Boveda Hotel",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "[astro-island] Error hydrating /_astro-1728518387796/ClientHead.DTuaiJjP.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:36333/_astro-1728518387796/ClientHead.DTuaiJjP.js",
+        "[astro-island] Error hydrating /_astro-1728518387796/Page.CxEb9kgp.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:36333/_astro-1728518387796/client.CsREDN1O.js",
+        "[astro-island] Error hydrating /_astro-1728518387796/Integrations.DY_GatCR.js TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:36333/_astro-1728518387796/client.CsREDN1O.js",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:36333/_astro-1728518387796/ClientHead.DTuaiJjP.js",
+        "404 http://127.0.0.1:36333/_astro-1728518387796/client.CsREDN1O.js",
+        "404 http://127.0.0.1:36333/_astro-1728518387796/Page.CxEb9kgp.js",
+        "404 http://127.0.0.1:36333/_astro-1728518387796/Integrations.DY_GatCR.js"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8659,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 21,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Bóveda Hotel Boutique | Nochistlán, Zacatecas, Pueblo Mágico",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 12520,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 21,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Bóveda Hotel Boutique | Nochistlán, Zacatecas, Pueblo Mágico",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

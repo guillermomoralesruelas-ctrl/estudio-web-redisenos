@@ -1,0 +1,118 @@
+{
+ "acueducto": [
+  1300,
+  975
+ ],
+ "bordado": [
+  1300,
+  975
+ ],
+ "boveda-techo": [
+  975,
+  1300
+ ],
+ "cabecera-tapizada": [
+  1300,
+  974
+ ],
+ "caja-toallas": [
+  1300,
+  975
+ ],
+ "calle-sombrillas": [
+  1300,
+  975
+ ],
+ "cama-cojin": [
+  975,
+  1300
+ ],
+ "candil-cupula": [
+  975,
+  1300
+ ],
+ "centro-mesa": [
+  975,
+  1300
+ ],
+ "cojines-bordados": [
+  1300,
+  975
+ ],
+ "comoda": [
+  1300,
+  975
+ ],
+ "cupula": [
+  975,
+  1300
+ ],
+ "dos-camas-ventanas": [
+  1300,
+  975
+ ],
+ "dos-camas": [
+  1300,
+  975
+ ],
+ "escalera-flores": [
+  853,
+  1280
+ ],
+ "herreria": [
+  1300,
+  975
+ ],
+ "jardin-fiesta": [
+  1284,
+  963
+ ],
+ "jardin": [
+  1300,
+  975
+ ],
+ "mesa-evento": [
+  1280,
+  853
+ ],
+ "muro-piedra": [
+  1300,
+  975
+ ],
+ "patio-arcos": [
+  1300,
+  975
+ ],
+ "portales-noche": [
+  1300,
+  975
+ ],
+ "puerta": [
+  975,
+  1300
+ ],
+ "salon-columnas": [
+  1300,
+  975
+ ],
+ "sillon-cuero": [
+  975,
+  1300
+ ],
+ "suite-ventanales": [
+  1300,
+  975
+ ],
+ "suite-vigas": [
+  1300,
+  975
+ ],
+ "templo": [
+  1300,
+  975
+ ],
+ "zaguan": [
+  975,
+  1300
+ ]
+}

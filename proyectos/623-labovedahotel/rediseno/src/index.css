@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/latin-500.css";
+@import "@fontsource/cormorant-garamond/latin-600.css";
+@import "@fontsource/cormorant-garamond/latin-500-italic.css";
+@import "@fontsource/mulish/latin-400.css";
+@import "@fontsource/mulish/latin-600.css";
+@import "@fontsource/mulish/latin-700.css";
+
+@theme {
+  /* Paleta Bóveda: el azul noche y el oro de su logotipo, el barro de sus pisos y la cal de sus muros */
+  --color-noche: #2A3345;   /* azul del logotipo: fondos y texto */
+  --color-oro: #D4AA6A;     /* oro del logotipo: acentos sobre noche */
+  --color-oro-hondo: #8A6127; /* oro oscurecido: texto de acento sobre claro (AA) */
+  --color-barro: #A8471F;   /* piso de barro: botones (AA con blanco) */
+  --color-cal: #FCFAF6;
+  --color-cantera: #F1E9DD;
+  --color-tinta: #1E2330;
+  --color-gris: #565C68;
+
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Mulish", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-barro { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold uppercase tracking-[0.14em] leading-none transition-colors bg-barro text-white hover:bg-noche; }
+  .btn-oro { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold uppercase tracking-[0.14em] leading-none transition-colors bg-oro text-noche hover:bg-white; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold uppercase tracking-[0.14em] leading-none transition-colors border border-current hover:bg-white hover:text-noche; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.26em] text-oro-hondo; }
+}
+
+/* Arco de medio punto, como los del patio */
+.arco { border-radius: 999px 999px 0 0; }
