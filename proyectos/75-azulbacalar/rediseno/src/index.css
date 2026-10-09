@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "@fontsource/dm-serif-display/latin-400.css";
+@import "@fontsource-variable/figtree/wght.css";
+
+@theme {
+  /* Paleta Azul Bacalar: las franjas de su logotipo son los azules de la laguna; arena, selva y el gris de su texto */
+  --color-laguna: #0B5B74;   /* azul profundo de la laguna: botones y fondos (AA con blanco) */
+  --color-hondo: #08364A;    /* azul del fondo de la laguna: secciones oscuras */
+  --color-turquesa: #3599BB; /* azul de su logotipo: acentos grandes */
+  --color-agua: #9FE3E8;     /* turquesa claro: acentos sobre oscuro */
+  --color-arena: #F7F3EA;
+  --color-concha: #ECE4D4;
+  --color-selva: #2F5A3F;    /* verde selva: estado "vendido" y detalles (AA con blanco) */
+  --color-tinta: #14232B;
+  --color-gris: #4F5D66;
+
+  --font-display: "DM Serif Display", "Georgia", serif;
+  --font-sans: "Figtree Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; line-height: 1.04; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-turquesa); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-laguna { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors bg-laguna text-white hover:bg-hondo; }
+  .btn-agua { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors bg-agua text-hondo hover:bg-white; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors border border-current hover:bg-white hover:text-hondo; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.28em] text-laguna; }
+  /* Las franjas del logotipo, como separador */
+  .franjas { background: repeating-linear-gradient(90deg, #3599BB 0 18%, #9FE3E8 18% 27%, #0B5B74 27% 41%, #CBEFF3 41% 47%, #5FB7D2 47% 66%, #0B5B74 66% 74%, #9FE3E8 74% 88%, #3599BB 88% 100%); }
+}

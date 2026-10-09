@@ -1,0 +1,106 @@
+{
+ "cdp-alberca": [
+  500,
+  475
+ ],
+ "cdp-bienvenidos": [
+  1280,
+  720
+ ],
+ "cdp-coworking": [
+  500,
+  475
+ ],
+ "cdp-gimnasio": [
+  500,
+  475
+ ],
+ "cdp-planta-baja": [
+  768,
+  512
+ ],
+ "cdp-superior": [
+  768,
+  512
+ ],
+ "cdp-zen": [
+  500,
+  475
+ ],
+ "laguna-aerea": [
+  1080,
+  1350
+ ],
+ "laguna-cabana": [
+  1000,
+  667
+ ],
+ "laguna-dron": [
+  1600,
+  900
+ ],
+ "laguna-muelle": [
+  1600,
+  1066
+ ],
+ "laguna-paddle": [
+  1080,
+  630
+ ],
+ "malena-alberca": [
+  1600,
+  964
+ ],
+ "malena-asoleadero": [
+  1000,
+  603
+ ],
+ "malena-fachada": [
+  1600,
+  1542
+ ],
+ "malena-habitacion": [
+  1600,
+  900
+ ],
+ "malena-pergola": [
+  1000,
+  603
+ ],
+ "malena-skylounge": [
+  1000,
+  603
+ ],
+ "renta-alberca": [
+  960,
+  641
+ ],
+ "renta-aldea-mayab": [
+  768,
+  512
+ ],
+ "renta-casa-tiago": [
+  720,
+  480
+ ],
+ "renta-casita": [
+  850,
+  567
+ ],
+ "renta-estancia": [
+  960,
+  640
+ ],
+ "renta-hamaca": [
+  1200,
+  800
+ ],
+ "renta-recamara": [
+  1200,
+  800
+ ],
+ "logo": [
+  640,
+  313
+ ]
+}
