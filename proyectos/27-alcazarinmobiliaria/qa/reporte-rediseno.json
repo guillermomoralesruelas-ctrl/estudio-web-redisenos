@@ -1,0 +1,94 @@
+{
+  "fecha": "2026-10-09T13:21:40.511Z",
+  "carpeta": "27-alcazarinmobiliaria",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 2372,
+      "desbordeX": 0,
+      "h1": 3,
+      "imagenes": 12,
+      "rotas": [],
+      "sinAlt": 12,
+      "titulo": "Bienvenido a Alcazar Inmobiliaria",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/milan/built_in_images/img-milan.png",
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-brands-400.woff2",
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-solid-900.woff2",
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-regular-400.woff2",
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-brands-400.ttf",
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-solid-900.ttf",
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-regular-400.ttf"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 4670,
+      "desbordeX": 0,
+      "h1": 3,
+      "imagenes": 12,
+      "rotas": [],
+      "sinAlt": 12,
+      "titulo": "Bienvenido a Alcazar Inmobiliaria",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/milan/built_in_images/img-milan.png",
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-brands-400.woff2",
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-regular-400.woff2",
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-brands-400.ttf",
+        "404 http://127.0.0.1:39119/27-alcazarinmobiliaria/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-regular-400.ttf"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5848,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 22,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Alcázar Inmobiliaria | Casas, terrenos y locales en venta y renta en Oaxaca",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9571,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 22,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Alcázar Inmobiliaria | Casas, terrenos y locales en venta y renta en Oaxaca",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

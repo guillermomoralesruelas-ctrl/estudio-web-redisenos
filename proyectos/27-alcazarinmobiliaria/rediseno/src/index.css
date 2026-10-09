@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "@fontsource/jost/latin-400.css";
+@import "@fontsource/jost/latin-500.css";
+@import "@fontsource/jost/latin-600.css";
+@import "@fontsource/karla/latin-400.css";
+@import "@fontsource/karla/latin-600.css";
+@import "@fontsource/karla/latin-700.css";
+
+@theme {
+  /* Paleta Alcázar: el oro y el gris grafito de su logotipo, la cantera verde de Oaxaca y el blanco de cal */
+  --color-oro: #C9AE72;      /* oro del logotipo: acentos sobre oscuro */
+  --color-oro-hondo: #7A6230; /* oro oscurecido: texto de acento sobre claro (AA) */
+  --color-grafito: #3F4044;  /* gris del logotipo, oscurecido: fondos y botones (AA con blanco) */
+  --color-cantera: #4D6B53;  /* cantera verde: botones secundarios y mapa (AA con blanco) */
+  --color-cal: #FAF8F4;
+  --color-arena: #EFE9DE;
+  --color-tinta: #212226;
+  --color-gris: #5A5C62;
+
+  --font-display: "Jost", "Futura", "Segoe UI", sans-serif;
+  --font-sans: "Karla", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 500; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-grafito { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold uppercase tracking-[0.16em] leading-none transition-colors bg-grafito text-white hover:bg-cantera; }
+  .btn-oro { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold uppercase tracking-[0.16em] leading-none transition-colors bg-oro text-tinta hover:bg-white; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold uppercase tracking-[0.16em] leading-none transition-colors border border-current hover:bg-white hover:text-tinta; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.3em] text-oro-hondo; }
+}
