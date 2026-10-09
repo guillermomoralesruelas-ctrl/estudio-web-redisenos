@@ -1,0 +1,92 @@
+{
+  "fecha": "2026-10-09T04:10:01.697Z",
+  "carpeta": "653-liccesarsobrado",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4151,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 26,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Inicio - Nutriologo en Cancún - Lic. César Sobrado",
+      "errores": [
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-jtusjig1_i6t8kchkm459wlhyw.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/aclonica-k2fyfzjvlfnnsebxgy7uao8.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/delagothicone-hesp6xxvmdra-2ed0lxpda6qkba2qkei.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/delagothicone-hesp6xxvmdra-2ed0lxpda6qkbagqcmzqhgpmhvqclgqe7mevsqpbdrj6fo.118.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/delagothicone-hesp6xxvmdra-2ed0lxpda6qkbagqcmzqhgpmhvqclgqe7mevsqpbdrj6fo.59.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/delagothicone-hesp6xxvmdra-2ed0lxpda6qkbagqcmzqhgpmhvqclgqe7mevsqpbdrj6fo.119.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 6527,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 26,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Inicio - Nutriologo en Cancún - Lic. César Sobrado",
+      "errores": [
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/aclonica-k2fyfzjvlfnnsebxgy7uao8.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/montserrat-jtusjig1_i6t8kchkm459wlhyw.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/delagothicone-hesp6xxvmdra-2ed0lxpda6qkba2qkei.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/delagothicone-hesp6xxvmdra-2ed0lxpda6qkbagqcmzqhgpmhvqclgqe7mevsqpbdrj6fo.59.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/delagothicone-hesp6xxvmdra-2ed0lxpda6qkbagqcmzqhgpmhvqclgqe7mevsqpbdrj6fo.119.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'https://www.cesarsobrado.com/wp-content/uploads/elementor/google-fonts/fonts/delagothicone-hesp6xxvmdra-2ed0lxpda6qkbagqcmzqhgpmhvqclgqe7mevsqpbdrj6fo.118.woff2' from origin 'http://127.0.0.1:36635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5849,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 8,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Nutriólogo en Cancún | Lic. César Sobrado, nutrición clínica y deportiva",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9861,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 8,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Nutriólogo en Cancún | Lic. César Sobrado, nutrición clínica y deportiva",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

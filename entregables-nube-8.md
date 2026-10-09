@@ -26,6 +26,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 16 | 487-harmoniapilatesreformer | Terminado (1.1 en la nube) | … | 0 problemas; 6,646 / 10,849 px | "Elige tu hora y tu reformer": sus 13 clases de la semana y el estudio visto desde arriba con ocho reformers; VIP y Elite apartan el suyo | ALTA | WhatsApp sin código de país; horario con palomitas grises sin explicar; sin dirección escrita |
 | 19 | 510-hostaldela | Descartado, `url-ajena` | (este commit) | — (ficha de stateofmexico.mx, "sitio web no oficial… de reservas de hoteles") | — | — | — |
 | 24 | 611-kingstoninstitute | Descartado, `sin-fotos` | (este commit) | — (8 fotos con aspecto de IA o de banco; testimonios con retratos de estudio) | — | — | — |
+| 30 | 653-liccesarsobrado | Terminado (1.1 en la nube) | (este commit) | 0 problemas; 5,849 / 9,861 px | "La supermedición": silueta con ocho puntos de lo que se mide en su consulta; meta y medidas arman el WhatsApp | ALTA | WhatsApp sin el 52 en todos sus botones; íconos de redes que llevan a su propia página |
 
 ## Dominios bloqueados para la nube en este lote
 

@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import "@fontsource/sora/latin-600.css";
+@import "@fontsource/sora/latin-700.css";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-600.css";
+
+@theme {
+  /* Paleta César Sobrado: aqua y ámbar de su logotipo, menta de las paredes de su consultorio */
+  --color-tinta:  #142326;  /* texto y fondos oscuros */
+  --color-agua:   #2B8F9A;  /* aqua del logotipo: bordes, íconos, fondos con texto blanco grande */
+  --color-hondo:  #1B6670;  /* aqua oscuro: texto y botones sobre claro (AA) */
+  --color-ambar:  #FAB72B;  /* ámbar del logotipo: solo sobre oscuro o como acento */
+  --color-menta:  #E3F3F1;  /* paredes del consultorio */
+  --color-papel:  #FBFAF6;
+  --color-gris:   #4A5A5D;  /* texto secundario sobre claro */
+
+  --font-display: "Sora", "Segoe UI", sans-serif;
+  --font-sans: "Inter", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-tinta antialiased; font-family: var(--font-sans); }
+  h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; letter-spacing: -0.01em; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ambar); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold leading-none transition-colors;
+    font-family: var(--font-display);
+  }
+  .btn-agua { font-family: var(--font-display); @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold leading-none transition-colors bg-hondo text-white hover:bg-tinta; }
+  .btn-ambar { font-family: var(--font-display); @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold leading-none transition-colors bg-ambar text-tinta hover:bg-white; }
+  .btn-linea { font-family: var(--font-display); @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold leading-none transition-colors border-2 border-hondo text-hondo hover:bg-hondo hover:text-white; }
+}
+
+/* Cinta métrica: marcas de centímetro para las líneas del elemento memorable y de los pasos */
+.cinta {
+  background-color: var(--color-ambar);
+  background-image:
+    repeating-linear-gradient(to bottom, var(--color-tinta) 0 1px, transparent 1px 8px),
+    repeating-linear-gradient(to bottom, var(--color-tinta) 0 2px, transparent 2px 40px);
+  background-size: 40% 100%, 70% 100%;
+  background-repeat: repeat-y;
+}
+
+@keyframes pulso { 0%, 100% { r: 7; } 50% { r: 10; } }
+.punto-activo { animation: pulso 1.6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .punto-activo { animation: none; } }

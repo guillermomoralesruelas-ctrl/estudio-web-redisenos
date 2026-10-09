@@ -1,0 +1,23 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+uploads/2023/05/Nutriologos-en-cancun.jpg	1452x1890	1247 KB
+plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg	?	897 KB
+uploads/2023/04/Fondo-Cesar-1.png	5566x2395	778 KB
+plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg	?	732 KB
+plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.svg	?	434 KB
+plugins/elementor/assets/lib/eicons/fonts/eicons.svg	?	364 KB
+uploads/2023/04/Fondo-Cesar-1-2048x881.png	2048x881	348 KB
+uploads/2023/05/Foto-3-1024x683.jpg	1024x683	142 KB
+plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg	?	141 KB
+uploads/2023/05/Nutricionista-en-cancun-838x1024.jpg	838x1024	125 KB
+uploads/2023/05/Foto-1-2-1024x683.jpg	1024x683	114 KB
+uploads/2023/05/Foto-2-1024x683.jpg	1024x683	110 KB
+uploads/2023/04/Nutriologo-en-cancun-1-1024x683.jpg	1024x683	101 KB
+uploads/2023/05/Nutriologo-cancun-838x1024.jpg	838x1024	100 KB
+uploads/2023/05/Nutricionistas-en-cancun-1-838x1024.jpg	838x1024	89 KB
+uploads/2023/05/cropped-Logo-1-Negativo.png	2160x1400	40 KB
+uploads/2023/09/LOGO-CESAR.svg	260x111	12 KB
+uploads/2023/04/cropped-Recurso-3_1-192x192.png	192x192	9 KB
+uploads/2023/04/cropped-Recurso-3_1-180x180.png	180x180	8 KB
+plugins/sassy-social-share/images/transparent_bg.png	4x4	1 KB
+uploads/2023/04/cropped-Recurso-3_1-32x32.png	32x32	1 KB
