@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "@fontsource/fraunces/latin-600.css";
+@import "@fontsource/fraunces/latin-600-italic.css";
+@import "@fontsource/outfit/latin-400.css";
+@import "@fontsource/outfit/latin-600.css";
+@import "@fontsource/outfit/latin-700.css";
+
+@theme {
+  /* Paleta Blanca Mérida: el morado de su logotipo, el achiote de la cochinita, la chaya y el huano de su casita maya, la cal de Mérida */
+  --color-morado: #6B2860;   /* letras de su logotipo: texto de acento y fondos (AA) */
+  --color-achiote: #B9411A;  /* recado rojo: botones (AA con blanco) */
+  --color-chaya: #2E6A3B;    /* verde de la chaya y del logotipo */
+  --color-huano: #D9B57A;    /* techo de palma: acentos sobre oscuro */
+  --color-cal: #FBF6EE;
+  --color-masa: #F3E7D3;
+  --color-tinta: #23181F;
+  --color-gris: #5B4F55;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Outfit", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-huano); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn-achiote { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-base font-semibold leading-none transition-colors bg-achiote text-white hover:bg-morado; }
+  .btn-huano { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-base font-semibold leading-none transition-colors bg-huano text-tinta hover:bg-white; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-base font-semibold leading-none transition-colors border-2 border-current hover:bg-white hover:text-morado; }
+  .eyebrow { @apply text-sm font-semibold uppercase tracking-[0.2em] text-achiote; }
+}
+
+/* Cenefa de hilo: punto de cruz como el de un hipil */
+.cenefa { height: 14px; background:
+  linear-gradient(45deg, transparent 35%, var(--color-achiote) 35% 65%, transparent 65%) 0 0 / 14px 14px,
+  linear-gradient(-45deg, transparent 35%, var(--color-chaya) 35% 65%, transparent 65%) 7px 0 / 14px 14px; }

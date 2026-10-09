@@ -32,6 +32,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 22 | 570-inglespractico | Descartado, `pocas-fotos` | (este commit) | — (solo 2 fotos propias: fachadas de sus planteles) | — | — | — |
 | 23 | 595-joyeriadignum | Descartado, `sin-fotos` | (este commit) | — (portada y piezas con aspecto de IA) | — | — | — |
 | 24 | 611-kingstoninstitute | Descartado, `sin-fotos` | (este commit) | — (8 fotos con aspecto de IA o de banco; testimonios con retratos de estudio) | — | — | — |
+| 25 | 620-lablancamerida | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,491 / 10,846 px | "Tu antojo de hoy": pedido con su menú; de martes a jueves aplica solas sus promociones y dice cuánto ahorras | ALTA | Plantilla en inglés (Londres, París, Michelin); WhatsApp sin número |
 | 28 | 640-lapincoyacafe | Descartado, `sin-contacto` | (este commit) | — (sin teléfono, WhatsApp ni dirección; pocas fotos) | — | — | — |
 | 29 | 648-lcpfastridlarrondo | Descartado, `sin-fotos` | (este commit) | — (Google Sites; sus imágenes dan 403) | — | — | — |
 | 30 | 653-liccesarsobrado | Terminado (1.1 en la nube) | (este commit) | 0 problemas; 5,849 / 9,861 px | "La supermedición": silueta con ocho puntos de lo que se mide en su consulta; meta y medidas arman el WhatsApp | ALTA | WhatsApp sin el 52 en todos sus botones; íconos de redes que llevan a su propia página |

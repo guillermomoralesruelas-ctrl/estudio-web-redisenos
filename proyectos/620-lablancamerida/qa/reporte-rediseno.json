@@ -1,0 +1,92 @@
+{
+  "fecha": "2026-10-09T05:39:25.446Z",
+  "carpeta": "620-lablancamerida",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8550,
+      "desbordeX": 0,
+      "h1": 18,
+      "imagenes": 56,
+      "rotas": [
+        "http://127.0.0.1:42021/620-lablancamerida/sitio/",
+        "http://127.0.0.1:42021/620-lablancamerida/sitio/",
+        "http://127.0.0.1:42021/620-lablancamerida/sitio/",
+        "http://127.0.0.1:42021/620-lablancamerida/sitio/"
+      ],
+      "sinAlt": 0,
+      "titulo": "",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:42021/620-lablancamerida/sitio/TU_IMAGEN_AQUI.jpg",
+        "404 http://127.0.0.1:42021/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "404 http://127.0.0.1:42021/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 12030,
+      "desbordeX": 0,
+      "h1": 18,
+      "imagenes": 56,
+      "rotas": [
+        "http://127.0.0.1:42021/620-lablancamerida/sitio/",
+        "http://127.0.0.1:42021/620-lablancamerida/sitio/",
+        "http://127.0.0.1:42021/620-lablancamerida/sitio/",
+        "http://127.0.0.1:42021/620-lablancamerida/sitio/"
+      ],
+      "sinAlt": 0,
+      "titulo": "",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:42021/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "404 http://127.0.0.1:42021/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "404 http://127.0.0.1:42021/620-lablancamerida/sitio/TU_IMAGEN_AQUI.jpg"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6491,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 17,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Blanca Mérida | Comida yucateca en León, Guanajuato",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 10846,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 17,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "La Blanca Mérida | Comida yucateca en León, Guanajuato",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}
