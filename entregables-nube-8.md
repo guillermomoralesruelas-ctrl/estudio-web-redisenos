@@ -25,6 +25,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 15 | 454-goldenscissors | Pendiente 1.2 (PC) | 668bc9ca | — (clon sin fotos; `goldenscissors.com.mx` bloqueado; sus imágenes parecen de IA) | — | — | — |
 | 16 | 487-harmoniapilatesreformer | Terminado (1.1 en la nube) | … | 0 problemas; 6,646 / 10,849 px | "Elige tu hora y tu reformer": sus 13 clases de la semana y el estudio visto desde arriba con ocho reformers; VIP y Elite apartan el suyo | ALTA | WhatsApp sin código de país; horario con palomitas grises sin explicar; sin dirección escrita |
 | 17 | 491-heartsonfilm | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 7,249 / 10,310 px | "Su boda, en la línea de tiempo": fecha y destino dan los días que faltan, el fin de semana a apartar y cuándo llega su película | MEDIA | Pide un formulario que no existe; imágenes en imgur |
+| 18 | 497-hiya | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,736 / 5,973 px | "Tu comanda": platos y vinos por copa o botella suman y se dividen entre la mesa, y reserva en OpenTable | ALTA | Tres horarios distintos; logotipo de otro negocio |
 | 19 | 510-hostaldela | Descartado, `url-ajena` | (este commit) | — (ficha de stateofmexico.mx, "sitio web no oficial… de reservas de hoteles") | — | — | — |
 | 22 | 570-inglespractico | Descartado, `pocas-fotos` | (este commit) | — (solo 2 fotos propias: fachadas de sus planteles) | — | — | — |
 | 23 | 595-joyeriadignum | Descartado, `sin-fotos` | (este commit) | — (portada y piezas con aspecto de IA) | — | — | — |

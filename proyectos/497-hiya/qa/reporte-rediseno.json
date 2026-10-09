@@ -1,0 +1,66 @@
+{
+  "fecha": "2026-10-09T05:12:55.466Z",
+  "carpeta": "497-hiya",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 7708,
+      "desbordeX": 0,
+      "h1": 2,
+      "imagenes": 34,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hiya",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 7996,
+      "desbordeX": 0,
+      "h1": 2,
+      "imagenes": 34,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hiya",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4736,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 13,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hiya | Robata y wine bar en la Roma Norte, CDMX",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5973,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 13,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hiya | Robata y wine bar en la Roma Norte, CDMX",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

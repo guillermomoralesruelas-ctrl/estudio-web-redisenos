@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "@fontsource/shippori-mincho/latin-500.css";
+@import "@fontsource/shippori-mincho/latin-700.css";
+@import "@fontsource/work-sans/latin-400.css";
+@import "@fontsource/work-sans/latin-500.css";
+@import "@fontsource/work-sans/latin-600.css";
+
+@theme {
+  /* Paleta Hiya: carbón de la robata, papel washi y el verde de su logotipo, la luz naranja de sus linternas */
+  --color-carbon: #151513;
+  --color-brasa: #22211E;
+  --color-washi: #EBEBE6;
+  --color-verde: #465A50;        /* verde del logotipo */
+  --color-linterna: #E8893B;     /* luz de sus linternas: acentos sobre carbón */
+  --color-humo: #A9A8A0;
+
+  --font-display: "Shippori Mincho", Georgia, serif;
+  --font-sans: "Work Sans", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-carbon text-washi antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 500; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-linterna); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-linterna { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-semibold uppercase tracking-[0.16em] leading-none transition-colors bg-linterna text-carbon hover:bg-washi; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-semibold uppercase tracking-[0.16em] leading-none transition-colors border border-washi/60 text-washi hover:bg-washi hover:text-carbon; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.3em] text-linterna; }
+}
+
+/* Comanda de papel: bordes dentados arriba y abajo */
+.comanda { background: var(--color-washi); color: var(--color-carbon); position: relative; }
+.comanda::before, .comanda::after { content: ""; position: absolute; left: 0; right: 0; height: 10px; background: radial-gradient(circle at 7px -2px, transparent 7px, var(--color-washi) 7.5px) repeat-x; background-size: 14px 10px; }
+.comanda::before { top: -10px; transform: rotate(180deg); }
+.comanda::after { bottom: -10px; }

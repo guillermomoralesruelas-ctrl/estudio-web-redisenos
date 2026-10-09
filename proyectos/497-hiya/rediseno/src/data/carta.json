@@ -1,0 +1,510 @@
+{
+ "comida": [
+  {
+   "seccion": "Encurtidos",
+   "titulo": "titulo-2",
+   "items": [
+    {
+     "nombre": "Spicy persian pickles",
+     "precio": 138
+    },
+    {
+     "nombre": "Sesame Edamames",
+     "precio": 133
+    }
+   ]
+  },
+  {
+   "seccion": "Ensaladas",
+   "titulo": "titulo-3",
+   "items": [
+    {
+     "nombre": "Ensalada de Hojas",
+     "precio": 196
+    }
+   ]
+  },
+  {
+   "seccion": "Crudos",
+   "titulo": "titulo-4",
+   "items": [
+    {
+     "nombre": "Ceviche negro de salmon",
+     "precio": 355
+    }
+   ]
+  },
+  {
+   "seccion": "Small plates",
+   "titulo": "titulo-5",
+   "items": [
+    {
+     "nombre": "NY steak+chimichurri",
+     "precio": 480
+    },
+    {
+     "nombre": "Vongole Ramen",
+     "precio": 315
+    },
+    {
+     "nombre": "Alfredo Ramen+Trufa",
+     "precio": 520
+    },
+    {
+     "nombre": "Manitas de Jaiba+aioli",
+     "precio": 403
+    },
+    {
+     "nombre": "Cheese Corn",
+     "precio": 175
+    },
+    {
+     "nombre": "Cangreburger",
+     "precio": 170
+    }
+   ]
+  },
+  {
+   "seccion": "Robata",
+   "titulo": "titulo-6",
+   "items": [
+    {
+     "nombre": "Vacio",
+     "precio": 147
+    },
+    {
+     "nombre": "Wagyu",
+     "precio": 1000
+    },
+    {
+     "nombre": "Muslo de pollo",
+     "precio": 170
+    },
+    {
+     "nombre": "Zanahorias Criollas",
+     "precio": 276
+    },
+    {
+     "nombre": "Toro+carbon",
+     "precio": 223
+    },
+    {
+     "nombre": "Pulpo encuerado",
+     "precio": 233
+    },
+    {
+     "nombre": "Pulpo vestido",
+     "precio": 255
+    },
+    {
+     "nombre": "Enoki",
+     "precio": 175
+    },
+    {
+     "nombre": "Elote baby",
+     "precio": 133
+    },
+    {
+     "nombre": "Salmon al carbon",
+     "precio": 215
+    },
+    {
+     "nombre": "arrachera",
+     "precio": 135
+    }
+   ]
+  },
+  {
+   "seccion": "Temakis",
+   "titulo": null,
+   "items": [
+    {
+     "nombre": "Toro wasabi",
+     "precio": 202
+    },
+    {
+     "nombre": "Salmon spicy trufa",
+     "precio": 175
+    },
+    {
+     "nombre": "Jaiba de concha suave",
+     "precio": 205
+    },
+    {
+     "nombre": "kampachi Yuzu",
+     "precio": 165
+    },
+    {
+     "nombre": "Camaron Vestido",
+     "precio": 210
+    },
+    {
+     "nombre": "Anguila+chiles",
+     "precio": 202
+    }
+   ]
+  },
+  {
+   "seccion": "Postres",
+   "titulo": "titulo-8",
+   "items": [
+    {
+     "nombre": "Cheesecake De Higo",
+     "precio": 196
+    },
+    {
+     "nombre": "Cheesecake De Mamey",
+     "precio": 196
+    },
+    {
+     "nombre": "Helado de temporada",
+     "precio": 75
+    }
+   ]
+  }
+ ],
+ "vinos": [
+  {
+   "nombre": "Radio Boka 0.0vol 2024 - España - Viura/Sauvignon Blanc (white)",
+   "tipo": "blanco",
+   "copa": null,
+   "botella": 1420
+  },
+  {
+   "nombre": "Wabi-Sabi r.i.v.e.r.s.i.d.e.-Austria (White)",
+   "tipo": "blanco",
+   "copa": 365,
+   "botella": 1800
+  },
+  {
+   "nombre": "Livvera-argentina-malvasia (White)",
+   "tipo": "blanco",
+   "copa": null,
+   "botella": 1850
+  },
+  {
+   "nombre": "Castelveccio-Italia-Pinot Grigio (White)",
+   "tipo": "blanco",
+   "copa": 270,
+   "botella": 1300
+  },
+  {
+   "nombre": "Fallanghina-Italia-Fallanghina(white)",
+   "tipo": "blanco",
+   "copa": 240,
+   "botella": 1200
+  },
+  {
+   "nombre": "Traverso-Italia (White)",
+   "tipo": "blanco",
+   "copa": 265,
+   "botella": 1300
+  },
+  {
+   "nombre": "En Blanc 2020 - Francia - Saivignon (Blend) (White)",
+   "tipo": "blanco",
+   "copa": null,
+   "botella": 2200
+  },
+  {
+   "nombre": "Amorcito 2024 - Francia - Viognier (White)",
+   "tipo": "blanco",
+   "copa": 280,
+   "botella": 1375
+  },
+  {
+   "nombre": "Coude a Coude 2023 - Francia - Grenache Blanc (White)",
+   "tipo": "blanco",
+   "copa": 260,
+   "botella": 1300
+  },
+  {
+   "nombre": "OTT Amberg 2024 - Austria - Gruner (White)",
+   "tipo": "blanco",
+   "copa": 305,
+   "botella": 1500
+  },
+  {
+   "nombre": "Alto de Pioz 2023 - España - Malvar (white)",
+   "tipo": "blanco",
+   "copa": 230,
+   "botella": 1100
+  },
+  {
+   "nombre": "Omnia Mater 2024 - Italia - Sauvignon Blanc (white)",
+   "tipo": "blanco",
+   "copa": 355,
+   "botella": 1750
+  },
+  {
+   "nombre": "Calcaires-Francia-Grillons(white)",
+   "tipo": "blanco",
+   "copa": null,
+   "botella": 2560
+  },
+  {
+   "nombre": "Sesto 21 superiore riserva-Italia-Malvasia(white)",
+   "tipo": "blanco",
+   "copa": 320,
+   "botella": 1600
+  },
+  {
+   "nombre": "SOM-Estados Unidos-Riesling(white)",
+   "tipo": "blanco",
+   "copa": 310,
+   "botella": 1475
+  },
+  {
+   "nombre": "Ornella mollon-Italia-Pinot Grigio(White",
+   "tipo": "blanco",
+   "copa": 245,
+   "botella": 1100
+  },
+  {
+   "nombre": "Lillo Grillo-Italia-Pinot Grigio(white",
+   "tipo": "blanco",
+   "copa": 245,
+   "botella": 1200
+  },
+  {
+   "nombre": "Kroseille-Francia(white)",
+   "tipo": "blanco",
+   "copa": null,
+   "botella": 2500
+  },
+  {
+   "nombre": "Chianti-Italia-Sangiovesse(Red)",
+   "tipo": "tinto",
+   "copa": 280,
+   "botella": 1200
+  },
+  {
+   "nombre": "Ma pia belle Primer crio - Mexico - 2023 - Tempranillo/Grenache/Syrah - (Red)",
+   "tipo": "tinto",
+   "copa": null,
+   "botella": 1500
+  },
+  {
+   "nombre": "Ma pia belle Segundo crio - Mexico - 2023 - Cabernet Franc (Red)",
+   "tipo": "tinto",
+   "copa": null,
+   "botella": 1900
+  },
+  {
+   "nombre": "Ma pia belle Tercer crio - Mexico - 2021 - Zinfandel (Red)",
+   "tipo": "tinto",
+   "copa": null,
+   "botella": 3500
+  },
+  {
+   "nombre": "Mas amiel-Francia-Cinsault",
+   "tipo": "otros",
+   "copa": 250,
+   "botella": 1500
+  },
+  {
+   "nombre": "Vuala-Italia-Nero devola(Red)",
+   "tipo": "tinto",
+   "copa": 250,
+   "botella": 1200
+  },
+  {
+   "nombre": "Love red- Calofornia (USA)-Cariñera/Sirah (Red)",
+   "tipo": "tinto",
+   "copa": 365,
+   "botella": 1800
+  },
+  {
+   "nombre": "Violeta-Francia-Carignan(Red)",
+   "tipo": "tinto",
+   "copa": 350,
+   "botella": 1750
+  },
+  {
+   "nombre": "Calibre 12 IGP 2021-Francia (Red)",
+   "tipo": "tinto",
+   "copa": null,
+   "botella": 1880
+  },
+  {
+   "nombre": "Ruffia-Portugal-Jaen/Touriga/Rufete(Red)",
+   "tipo": "tinto",
+   "copa": 285,
+   "botella": 1400
+  },
+  {
+   "nombre": "Castelveccio-Italia-Cavernet Frank(Red)",
+   "tipo": "tinto",
+   "copa": 330,
+   "botella": 1600
+  },
+  {
+   "nombre": "A vue de nez-Francia-Cabernet Frank(Red)",
+   "tipo": "tinto",
+   "copa": 265,
+   "botella": 1300
+  },
+  {
+   "nombre": "(V)ivre 2022 - Francia - Merlot (Red)",
+   "tipo": "tinto",
+   "copa": 360,
+   "botella": 1770
+  },
+  {
+   "nombre": "Alto de pioz 2021 - España - Tempranillo/Cabernet (Red)",
+   "tipo": "tinto",
+   "copa": 240,
+   "botella": 1150
+  },
+  {
+   "nombre": "La galoche 2023 - Francia - Gamay (Red)",
+   "tipo": "tinto",
+   "copa": 280,
+   "botella": 1370
+  },
+  {
+   "nombre": "X Infinity 2020 - Mexico - Tempranillo/Petite Sirah (Red)",
+   "tipo": "tinto",
+   "copa": 340,
+   "botella": 1700
+  },
+  {
+   "nombre": "Torre de Tavares 2018 - Portugal - Mencia (Red)",
+   "tipo": "tinto",
+   "copa": 310,
+   "botella": 1530
+  },
+  {
+   "nombre": "Omnia Mater 2022 - Italia - Syrah (Red)",
+   "tipo": "tinto",
+   "copa": 355,
+   "botella": 1750
+  },
+  {
+   "nombre": "Pagaille Hors Les Murs 2023-Francia (Red)",
+   "tipo": "tinto",
+   "copa": 275,
+   "botella": 1350
+  },
+  {
+   "nombre": "Campo del bosco-Italia-Sangiovesse(Red)",
+   "tipo": "tinto",
+   "copa": 280,
+   "botella": 1400
+  },
+  {
+   "nombre": "Peaux a peaux-Francia-Riesling(orange)",
+   "tipo": "naranja",
+   "copa": 490,
+   "botella": 2380
+  },
+  {
+   "nombre": "1564 Party Organic-España (Orange)",
+   "tipo": "naranja",
+   "copa": 285,
+   "botella": 1400
+  },
+  {
+   "nombre": "Press Gang Something-USA (Orange)",
+   "tipo": "naranja",
+   "copa": 445,
+   "botella": 2200
+  },
+  {
+   "nombre": "Candy sota la salada-España (Orange)",
+   "tipo": "naranja",
+   "copa": 465,
+   "botella": 2300
+  },
+  {
+   "nombre": "Camino Corazon 2024 - Mexico - Malbec (Rose)",
+   "tipo": "rosado",
+   "copa": 250,
+   "botella": 1200
+  },
+  {
+   "nombre": "Alto de Pioz 2023 - España - Tempranillo/Marvar (Rose)",
+   "tipo": "rosado",
+   "copa": 225,
+   "botella": 1100
+  },
+  {
+   "nombre": "Foulaquier 2023 - Francia - Grenache Noir (Rose)",
+   "tipo": "rosado",
+   "copa": 345,
+   "botella": 1700
+  },
+  {
+   "nombre": "Arktika 2024 - Austria - Petnat",
+   "tipo": "pet nat",
+   "copa": null,
+   "botella": 1970
+  },
+  {
+   "nombre": "Tinc Set - España - (Pet Nat)",
+   "tipo": "pet nat",
+   "copa": null,
+   "botella": 1450
+  },
+  {
+   "nombre": "Cacique maravilla chacoli-Chile",
+   "tipo": "otros",
+   "copa": null,
+   "botella": 1600
+  },
+  {
+   "nombre": "Mirabella Edea-Italia",
+   "tipo": "otros",
+   "copa": null,
+   "botella": 1900
+  },
+  {
+   "nombre": "Trimbach / Francia, Riesling BT",
+   "tipo": "otros",
+   "copa": null,
+   "botella": 1970
+  }
+ ],
+ "sake": [
+  {
+   "nombre": "Shiborita(GF)",
+   "precio": 420
+  },
+  {
+   "nombre": "Kikumasamune Kimoto(GF)",
+   "precio": 420
+  },
+  {
+   "nombre": "Tamanohikari Classic(GF)",
+   "precio": 450
+  },
+  {
+   "nombre": "Nihon Sakari(GF)",
+   "precio": 480
+  },
+  {
+   "nombre": "Love sushi amabuki(BT)",
+   "precio": 2100
+  },
+  {
+   "nombre": "Tamanohikari Classic(BT)",
+   "precio": 1600
+  },
+  {
+   "nombre": "Nihon Sakari(BT)",
+   "precio": 1800
+  },
+  {
+   "nombre": "Fudoh Junmai Ginjo(BT)",
+   "precio": 1400
+  },
+  {
+   "nombre": "Fudoh Tokubetsu Junmai (BT)",
+   "precio": 1400
+  },
+  {
+   "nombre": "Shiborita(BT)",
+   "precio": 1900
+  }
+ ]
+}
