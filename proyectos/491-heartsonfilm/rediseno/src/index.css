@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "@fontsource/playfair-display/latin-400.css";
+@import "@fontsource/playfair-display/latin-400-italic.css";
+@import "@fontsource/jost/latin-400.css";
+@import "@fontsource/jost/latin-500.css";
+@import "@fontsource/jost/latin-600.css";
+
+@theme {
+  /* Paleta Hearts on Film: negro de sala de cine, marfil de vestido y velo, verde de sus jardines y el rojo de grabar */
+  --color-sala: #15120F;
+  --color-carbon: #2A2520;
+  --color-marfil: #F3ECE2;
+  --color-lino: #E7D9C4;
+  --color-tinta: #1A1714;
+  --color-gris: #5A524A;
+  --color-rec: #B3261E;          /* punto de grabación: acento y botón (AA con texto blanco) */
+  --color-salvia: #5E7458;
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "Jost", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-marfil text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
+  em { font-family: var(--font-display); font-style: italic; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rec); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-rec { @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold uppercase tracking-[0.14em] leading-none transition-colors bg-rec text-white hover:bg-tinta; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold uppercase tracking-[0.14em] leading-none transition-colors border border-current hover:bg-tinta hover:text-marfil; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.28em] text-rec; }
+}
+
+@keyframes parpadeo { 50% { opacity: .25; } }
+.rec { animation: parpadeo 1.4s steps(1) infinite; }
