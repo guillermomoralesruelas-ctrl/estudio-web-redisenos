@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "@fontsource/archivo-black/latin-400.css";
+@import "@fontsource-variable/archivo/wght.css";
+
+@theme {
+  /* Paleta FORTER: el rojo de su logotipo, el gris concreto de su block y su marca, y el cielo de Sonora */
+  --color-forter: #C02326;   /* rojo de su logotipo (AA con blanco) */
+  --color-rojo-hondo: #8E1A1C;
+  --color-concreto: #CDD0CD; /* gris de su marca */
+  --color-cemento: #EEEFEC;
+  --color-acero: #3A3F44;
+  --color-noche: #1B1E21;
+  --color-tinta: #17191B;
+  --color-gris: #565C61;
+
+  --font-display: "Archivo Black", "Arial Black", sans-serif;
+  --font-sans: "Archivo Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cemento text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.02; text-wrap: balance; letter-spacing: -0.01em; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-forter); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-rojo { @apply inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-bold uppercase tracking-[0.12em] leading-none transition-colors bg-forter text-white hover:bg-rojo-hondo; }
+  .btn-blanco { @apply inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-bold uppercase tracking-[0.12em] leading-none transition-colors bg-white text-tinta hover:bg-concreto; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-bold uppercase tracking-[0.12em] leading-none transition-colors border-2 border-current hover:bg-white hover:text-tinta; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.28em] text-forter; }
+  .campo { @apply mt-2 block w-full border-2 border-concreto bg-white px-3 py-3 text-lg font-semibold text-tinta; }
+}

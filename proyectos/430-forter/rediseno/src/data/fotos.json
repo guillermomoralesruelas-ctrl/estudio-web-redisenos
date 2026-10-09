@@ -1,0 +1,110 @@
+{
+ "alambre-recocido": [
+  480,
+  640
+ ],
+ "alambron": [
+  480,
+  640
+ ],
+ "armex-cadena-15-20-4": [
+  480,
+  480
+ ],
+ "armex-castillo-15-15-4": [
+  480,
+  640
+ ],
+ "armex": [
+  1168,
+  784
+ ],
+ "block-gris-12-20-40": [
+  480,
+  640
+ ],
+ "block-gris-15-20-40": [
+  480,
+  640
+ ],
+ "block-yard": [
+  1500,
+  1000
+ ],
+ "block": [
+  1500,
+  1000
+ ],
+ "bovedilla-11": [
+  479,
+  640
+ ],
+ "bovedilla-16": [
+  480,
+  640
+ ],
+ "cemento-gris-campana-25kg": [
+  480,
+  640
+ ],
+ "cemento-pour": [
+  1000,
+  1500
+ ],
+ "cemento-truck": [
+  1000,
+  1500
+ ],
+ "hero-forter": [
+  1500,
+  1000
+ ],
+ "malla-electrosoldada-66-10-10": [
+  480,
+  640
+ ],
+ "mortero-optimo-25kg": [
+  480,
+  640
+ ],
+ "varilla-1-2": [
+  480,
+  640
+ ],
+ "varilla-3-8": [
+  480,
+  640
+ ],
+ "varilla": [
+  1168,
+  784
+ ],
+ "vigueta-bed": [
+  1000,
+  1500
+ ],
+ "vigueta-v11": [
+  480,
+  640
+ ],
+ "vigueta-v16": [
+  480,
+  640
+ ],
+ "vigueta": [
+  1000,
+  1500
+ ],
+ "wordmark-red": [
+  520,
+  56
+ ],
+ "wordmark-white": [
+  520,
+  56
+ ],
+ "mark": [
+  160,
+  246
+ ]
+}

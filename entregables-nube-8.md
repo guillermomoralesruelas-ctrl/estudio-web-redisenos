@@ -18,7 +18,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 8 | 395-estudiodearte | Descartado, `sin-fotos` | abee95fc | — (plantilla de otro negocio, Nor.skin; fotos de banco) | — | — | — |
 | 9 | 413-finoasis | Descartado, `sin-fotos` | (este commit) | — (solo su retrato es propio; 12 fotos de banco) | — | — | — |
 | 10 | 426-flowbarber | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 5,031 / 7,476 px | "Arma tu visita": servicios, niños, día y hora con precio, duración y hora de salida, y reserva en Fresha (sin WhatsApp: su teléfono es de plantilla) | ALTA | Teléfono de plantilla; precios distintos |
-| 11 | 430-forter | Pendiente 1.2 (PC) | 0dde644d | — (clon con 1 foto propia; el resto en `forter.mx`, bloqueado) | — | — | — |
+| 11 | 430-forter | Terminado (1.2 en la nube, 2026-10-09) | (este commit) | 0 problemas; 6,917 / 10,754 px | "Dibuja tu barda y tu losa": dibujo a escala y lista de material con sus fórmulas, en un solo WhatsApp | BAJA | WhatsApp no escrito; calculadoras separadas |
 | 12 | 437-fabricadelentes | Pendiente 1.2 (PC) | 62ccda65 | — (clon sin fotos; `fabricadelentes.mx` bloqueado; 10 sucursales: evaluar si es cadena) | — | — | — |
 | 13 | 441-galeriamexicanade | Pendiente 1.2 (PC) | ce321ca7 | — (clon sin fotos; 260 imágenes en `images.squarespace-cdn.com`, bloqueado) | — | — | — |
 | 14 | 446-gemaspahuatulco | Pendiente 1.2 (PC) | eb797130 | — (clon sin fotos; imágenes en `content.app-sources.com`, bloqueado) | — | — | — |
