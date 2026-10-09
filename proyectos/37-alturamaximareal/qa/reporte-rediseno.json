@@ -1,0 +1,91 @@
+{
+  "fecha": "2026-10-09T13:43:39.913Z",
+  "carpeta": "37-alturamaximareal",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5564,
+      "desbordeX": 0,
+      "h1": 5,
+      "imagenes": 21,
+      "rotas": [
+        "https://assets.easybroker.com/organization_files/53362/yo-soy-camara-blanco.png"
+      ],
+      "sinAlt": 17,
+      "titulo": "Casas en Venta en Zapopan",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:33357/37-alturamaximareal/sitio/assets/externo/cdn.easybroker.com/themes/merida/images/bg-welcome.png",
+        "404 http://127.0.0.1:33357/37-alturamaximareal/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-brands-400.woff2",
+        "404 http://127.0.0.1:33357/37-alturamaximareal/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-solid-900.woff2",
+        "404 http://127.0.0.1:33357/37-alturamaximareal/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-brands-400.ttf",
+        "404 http://127.0.0.1:33357/37-alturamaximareal/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-solid-900.ttf"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 10122,
+      "desbordeX": 0,
+      "h1": 5,
+      "imagenes": 21,
+      "rotas": [
+        "https://assets.easybroker.com/organization_files/53362/yo-soy-camara-blanco.png"
+      ],
+      "sinAlt": 17,
+      "titulo": "Casas en Venta en Zapopan",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:33357/37-alturamaximareal/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-brands-400.woff2",
+        "404 http://127.0.0.1:33357/37-alturamaximareal/sitio/assets/externo/cdn.easybroker.com/themes/merida/images/bg-welcome.png",
+        "404 http://127.0.0.1:33357/37-alturamaximareal/sitio/assets/externo/cdn.easybroker.com/themes/shared/fontawesome/webfonts/fa-brands-400.ttf",
+        "404 http://127.0.0.1:33357/37-alturamaximareal/sitio/"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 7260,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Altura Máxima Real Estate | Casas y departamentos en Zapopan y Puerto Vallarta",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 10677,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Altura Máxima Real Estate | Casas y departamentos en Zapopan y Puerto Vallarta",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

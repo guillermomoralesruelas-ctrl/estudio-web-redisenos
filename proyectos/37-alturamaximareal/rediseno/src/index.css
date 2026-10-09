@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/latin-500.css";
+@import "@fontsource/cormorant-garamond/latin-600.css";
+@import "@fontsource-variable/outfit/wght.css";
+
+@theme {
+  /* Paleta Altura Máxima: el azul de su logotipo, la noche de Zapopan, la arena de Vallarta y el sol de la bahía */
+  --color-azul: #144294;     /* azul del logotipo: botones y acentos (AA con blanco) */
+  --color-noche: #0D1B3E;    /* azul noche: fondos oscuros */
+  --color-cielo: #A9C2F0;    /* azul claro: acentos sobre noche */
+  --color-sol: #E9B65A;      /* sol de la bahía: marcas sobre noche */
+  --color-teja: #9A4B22;     /* teja: texto de acento sobre claro (AA) */
+  --color-arena: #F5F0E7;
+  --color-concha: #EAE2D3;
+  --color-tinta: #161B26;
+  --color-gris: #535B6B;
+
+  --font-display: "Cormorant Garamond", "Georgia", serif;
+  --font-sans: "Outfit Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; line-height: 1.05; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-sol); outline-offset: 3px; }
+  input[type="range"] { accent-color: var(--color-azul); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-azul { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors bg-azul text-white hover:bg-noche; }
+  .btn-sol { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors bg-sol text-noche hover:bg-white; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors border border-current hover:bg-white hover:text-noche; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.28em] text-teja; }
+  .chip { @apply rounded-full border px-4 py-2 text-sm font-medium transition-colors; }
+}
