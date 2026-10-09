@@ -1,0 +1,124 @@
+{
+  "fecha": "2026-10-09T04:21:44.842Z",
+  "carpeta": "244-clinicaveterinariadel",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3992,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sinAlt": 0,
+      "titulo": "Clínica Veterinaria del Dr. Memo en Querétaro",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "srcList is not defined",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Cannot read properties of null (reading 'data')",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Locale 'es' could not be loaded and no fallback found.",
+        "Error: Locale 'es' could not be loaded and no fallback found.\n    at Proxy.fetch (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:218495)\n    at async Object.GR [as initializationCallback] (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:281197)\n    at async oI (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:237677)\n    at async qR (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:281384)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "nh: Could not complete the request\n    at UR.mR (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:260861)\n    at async Z (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:3:17006)\n    at async qR (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:281873)",
+        "Could not complete the request",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Cannot read properties of null (reading 'data')"
+      ],
+      "fallidos": [
+        "403 https://kit.fontawesome.com/eb496ab1a0.js",
+        "404 http://127.0.0.1:41029/rts/collections/public/client/resources",
+        "404 http://127.0.0.1:41029/rts/snipcart-integration/passthrough/next/cart/localization/strings/es.json",
+        "404 http://127.0.0.1:41029/rts/snipcart-integration/passthrough/next/cart/localization/strings/en.json",
+        "404 http://127.0.0.1:41029/rts/snipcart-integration/passthrough/next/cart/cart/init",
+        "404 http://127.0.0.1:41029/rts/collections/public/client/resources"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5330,
+      "desbordeX": 378,
+      "h1": 1,
+      "imagenes": 9,
+      "rotas": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sinAlt": 0,
+      "titulo": "Clínica Veterinaria del Dr. Memo en Querétaro",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 403 ()",
+        "srcList is not defined",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Cannot read properties of null (reading 'data')",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Locale 'es' could not be loaded and no fallback found.",
+        "Error: Locale 'es' could not be loaded and no fallback found.\n    at Proxy.fetch (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:218495)\n    at async Object.GR [as initializationCallback] (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:281197)\n    at async oI (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:237677)\n    at async qR (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:281384)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "nh: Could not complete the request\n    at UR.mR (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:260861)\n    at async Z (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:3:17006)\n    at async qR (https://ms-cdn.multiscreensite.com/snipcart-frontend/latest/res/native-ecomm.js:18:281873)",
+        "Could not complete the request",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Cannot read properties of null (reading 'data')"
+      ],
+      "fallidos": [
+        "403 https://kit.fontawesome.com/eb496ab1a0.js",
+        "404 http://127.0.0.1:41029/rts/collections/public/client/resources",
+        "404 http://127.0.0.1:41029/rts/snipcart-integration/passthrough/next/cart/localization/strings/es.json",
+        "404 http://127.0.0.1:41029/rts/snipcart-integration/passthrough/next/cart/localization/strings/en.json",
+        "404 http://127.0.0.1:41029/rts/snipcart-integration/passthrough/next/cart/cart/init",
+        "404 http://127.0.0.1:41029/rts/collections/public/client/resources"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4873,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 12,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Clínica Veterinaria del Dr. Memo | Veterinaria en el Centro de Querétaro",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 8019,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 12,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Clínica Veterinaria del Dr. Memo | Veterinaria en el Centro de Querétaro",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

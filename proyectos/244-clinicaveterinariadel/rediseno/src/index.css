@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import "@fontsource/archivo/latin-700.css";
+@import "@fontsource/archivo/latin-800.css";
+@import "@fontsource/source-sans-3/latin-400.css";
+@import "@fontsource/source-sans-3/latin-600.css";
+
+@theme {
+  /* Paleta Dr. Memo: rojo y negro de su logotipo */
+  --color-carbon: #17181A;      /* negro del logotipo */
+  --color-rojo: #DB232C;        /* rojo del logotipo: fondos con texto blanco grande, acentos */
+  --color-rojo-hondo: #A8141C;  /* rojo oscuro: texto y botones sobre claro (AA) */
+  --color-ambar: #F6B93B;       /* hora elegida en la agenda */
+  --color-verde: #2E9E5B;       /* "abierto ahora" */
+  --color-crema: #F7F3EE;
+  --color-gris: #4D5157;
+
+  --font-display: "Archivo", "Segoe UI", sans-serif;
+  --font-sans: "Source Sans 3", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-white text-carbon antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ambar); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[74rem] px-5 sm:px-8; }
+  .btn { font-family: var(--font-display); @apply inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 text-sm font-bold leading-none transition-colors; }
+  .btn-rojo { font-family: var(--font-display); @apply inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 text-sm font-bold leading-none transition-colors bg-rojo-hondo text-white hover:bg-carbon; }
+  .btn-linea { font-family: var(--font-display); @apply inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 text-sm font-bold leading-none transition-colors border-2 border-carbon text-carbon hover:bg-carbon hover:text-white; }
+}

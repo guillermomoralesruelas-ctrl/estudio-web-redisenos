@@ -16,6 +16,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-7.md`, trabajados uno por uno con el m�
 | 10 | 204-cervusbarberia | Terminado (1.2 en la nube; antes pendiente en 2a113ad7) | 335ed858 | 0 problemas; 4,225 / 6,686 px | "¿Cuánto tiempo tienes?": botones de minutos que activan los servicios que caben | MEDIA | Sin WhatsApp; tendencias con fotos de IA; solo tres fotos propias |
 | 11 | 217-cincodoscinco | Terminado (1.2 en la nube; antes pendiente en a793c721) | c726b5cd | 0 problemas; 4,804 / 5,866 px | "¿Desde dónde empiezas?": pizarrón del WOD que dice cuánto pagas hoy | MEDIA | Correo con enlace a "youremail@email.com"; textos de plantilla en inglés |
 | 12 | 224-clinicaveterinariaadrian | Descartado, `sin-fotos` | (este commit) | — (sitio ADN; sus 19 imágenes son de banco, con número de iStock) | — | — | — |
+| 13 | 244-clinicaveterinariadel | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,873 / 8,019 px | "La agenda del Dr. Memo": abierto o cerrado ahora, días y horas con el corte de 3 a 5, mascota y motivo arman el WhatsApp | MEDIA | Dos horarios distintos en el inicio y en el pie |
 | 14 | 249-cognitiomexico | Descartado, `pocas-fotos` (antes pendiente en bfad0b42) | a04f0f08 | — (3 retratos de 450 px; el resto de Unsplash) | — | — | — |
 | 15 | 259-corefisioterapia | Descartado, `url-ajena` (antes pendiente en 28360ec5) | 55397590 | — (la web es de una clínica de Guadalajara, España) | — | — | — |
 | 16 | 262-cosmetologianaturalspa | Descartado, `sin-fotos` | (este commit) | — (Google Sites; sus imágenes dan 403) | — | — | — |

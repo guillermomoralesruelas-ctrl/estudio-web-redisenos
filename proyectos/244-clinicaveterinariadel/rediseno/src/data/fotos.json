@@ -1,0 +1,54 @@
+{
+ "accesorios": [
+  800,
+  672
+ ],
+ "alimentos": [
+  800,
+  599
+ ],
+ "antipulgas": [
+  800,
+  805
+ ],
+ "consultorio-medico": [
+  800,
+  597
+ ],
+ "consultorio": [
+  800,
+  607
+ ],
+ "correas": [
+  800,
+  596
+ ],
+ "farmacia": [
+  800,
+  600
+ ],
+ "laboratorio": [
+  800,
+  597
+ ],
+ "quirofano": [
+  800,
+  605
+ ],
+ "recepcion": [
+  800,
+  600
+ ],
+ "tienda-mostrador": [
+  800,
+  596
+ ],
+ "tienda": [
+  800,
+  599
+ ],
+ "logo": [
+  250,
+  105
+ ]
+}
