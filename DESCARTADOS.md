@@ -62,6 +62,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `510-hostaldela` | Hostal de la Luz, Spa Holistic Resort | Tepoztlán, Mor. | `url-ajena` | La URL es una ficha de stateofmexico.mx, que se presenta como "sitio web no oficial de información y reservas de hoteles"; logotipo, menú y reservas son del portal. Buscar el sitio propio del hotel | Nube |
 | `611-kingstoninstitute` | Kingston Institute | Torreón, Coah. | `sin-fotos` | Sus 8 fotos parecen generadas con IA o de banco (retratos de estudio con fondo blanco para tres "alumnos" con nombre, escenas de curso genéricas); ninguna de sus 3 sucursales. Contacto completo (WhatsApp 871 465 0985) | Nube |
 | `224-clinicaveterinariaadrian` | Clínica Veterinaria Adrián Zamora | Querétaro, Qro. | `sin-fotos` | Sitio ADN de Sección Amarilla: sus 19 imágenes son de banco (nombres con número de iStock), ninguna de la clínica. Contacto completo (WhatsApp 442 370 8857) | Nube |
+| `262-cosmetologianaturalspa` | Cosmetología Natural Spa | Hermosillo, Son. | `sin-fotos` | Google Sites: sus 53 imágenes (googleusercontent sitesv-images) dan HTTP 403 y el clon no las trae. Tel. 662 433 0681 | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
