@@ -2,6 +2,8 @@
 
 Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sitio se sube en su propio commit a `main`. Los rediseños terminados llevan su `rediseno/dist/` compilado en el repo (subido con `git add -f`), así que en la PC basta con `git pull` y abrirlos en XAMPP.
 
+**Red de la nube (2026-10-09):** en la sesión del 9 de octubre la nube ya llega a los sitios de los clientes y a sus CDN de fotos (probado con 14 de los 16 sitios sin fotos pendientes). 
+
 **Red de la nube (2026-09-29):** esta sesión no llega a ningún dominio de los clientes del lote ni a sus CDN de fotos (el proxy responde 403 por política). Por eso los sitios cuyo clon no trae fotos quedan como "Pendiente 1.2 (PC)", con el dominio que hay que abrir anotado en su fila. La lista completa de dominios está al final.
 
 | # | Carpeta | Resultado | Commit | QA (escritorio / celular) | Elemento memorable | Prioridad | Hallazgo principal |
@@ -22,6 +24,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-8.md`, trabajados uno por uno. Cada sit
 | 14 | 446-gemaspahuatulco | Pendiente 1.2 (PC) | eb797130 | — (clon sin fotos; imágenes en `content.app-sources.com`, bloqueado) | — | — | — |
 | 15 | 454-goldenscissors | Pendiente 1.2 (PC) | 668bc9ca | — (clon sin fotos; `goldenscissors.com.mx` bloqueado; sus imágenes parecen de IA) | — | — | — |
 | 16 | 487-harmoniapilatesreformer | Terminado (1.1 en la nube) | … | 0 problemas; 6,646 / 10,849 px | "Elige tu hora y tu reformer": sus 13 clases de la semana y el estudio visto desde arriba con ocho reformers; VIP y Elite apartan el suyo | ALTA | WhatsApp sin código de país; horario con palomitas grises sin explicar; sin dirección escrita |
+| 19 | 510-hostaldela | Descartado, `url-ajena` | (este commit) | — (ficha de stateofmexico.mx, "sitio web no oficial… de reservas de hoteles") | — | — | — |
 
 ## Dominios bloqueados para la nube en este lote
 
