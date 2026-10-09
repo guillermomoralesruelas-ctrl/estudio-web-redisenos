@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "../node_modules/@fontsource-variable/big-shoulders-display/index.css";
+@import "@fontsource-variable/manrope/wght.css";
+
+@theme {
+  /* Paleta Flow Barber: el negro de su logotipo, la madera de sus muros, el mármol blanco del piso y la luz de sus hexágonos */
+  --color-carbon: #111111;
+  --color-grafito: #1D1D1D;
+  --color-madera: #8A5A33;   /* madera de sus muros: texto de acento sobre claro (AA) */
+  --color-laton: #C9A26A;    /* luz cálida: acentos sobre negro */
+  --color-marmol: #F2F0EA;
+  --color-humo: #E2DED5;
+  --color-tinta: #161514;
+  --color-gris: #5B5853;
+
+  --font-display: "Big Shoulders Display Variable", "Impact", sans-serif;
+  --font-sans: "Manrope Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-marmol text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 800; text-transform: uppercase; letter-spacing: 0.01em; line-height: 0.95; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-laton); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-laton { @apply inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-bold uppercase tracking-[0.14em] leading-none transition-colors bg-laton text-carbon hover:bg-white; }
+  .btn-negro { @apply inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-bold uppercase tracking-[0.14em] leading-none transition-colors bg-carbon text-white hover:bg-madera; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 px-6 py-4 text-sm font-bold uppercase tracking-[0.14em] leading-none transition-colors border border-current hover:bg-white hover:text-carbon; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.3em] text-madera; }
+  .hex { clip-path: polygon(25% 3%, 75% 3%, 100% 50%, 75% 97%, 25% 97%, 0 50%); }
+}
