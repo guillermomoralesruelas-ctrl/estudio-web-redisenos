@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "@fontsource-variable/figtree/wght.css";
+@import "@fontsource/bodoni-moda/400.css";
+@import "@fontsource/bodoni-moda/400-italic.css";
+@import "@fontsource/bodoni-moda/600.css";
+
+@theme {
+  /* Crisantemo: ciruela profunda, rosa polvo de los vestidos, verde salvia de los jardines y un dorado de marco */
+  --color-ciruela: #2A1F22;
+  --color-ciruela-2: #3B2C30;
+  --color-polvo: #F3E7E2;
+  --color-crema: #FBF7F4;
+  --color-vino: #8A2E42;      /* AA con blanco */
+  --color-rosa: #E7A9B4;      /* sobre ciruela */
+  --color-salvia: #5E6F55;
+  --color-dorado: #C9A46A;
+  --color-tinta: #231B1D;
+  --color-gris: #64595B;
+
+  --font-display: "Bodoni Moda", Didot, Georgia, serif;
+  --font-sans: "Figtree Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.02; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rosa); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-vino { @apply btn bg-vino text-white hover:bg-[#6F2335]; }
+  .btn-rosa { @apply btn bg-rosa text-ciruela hover:bg-[#F0C2CA]; }
+  .btn-linea { @apply btn border-2 border-current hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.26em] text-vino; }
+  .chip { @apply rounded-full border border-tinta/25 px-4 py-2 text-sm font-semibold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-vino bg-vino text-white; }
+}
