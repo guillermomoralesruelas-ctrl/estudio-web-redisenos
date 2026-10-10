@@ -1,0 +1,136 @@
+{
+  "fecha": "2026-10-10T01:37:07.309Z",
+  "carpeta": "600-junglerealtor",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5250,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 70,
+      "rotas": [
+        "http://127.0.0.1:33635/600-junglerealtor/sitio/"
+      ],
+      "sinAlt": 0,
+      "titulo": "Jungle Realtor - Eco Friendly Real Estate",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "tryInit is not defined",
+        "Access to XMLHttpRequest at 'https://junglerealtor.com/wp-admin/admin-ajax.php?action=get_liked_listings_count&lang=en' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:33635/600-junglerealtor/sitio/assets/externo/use.fontawesome.com/releases/v7.1.0/webfonts/fa-solid-900.woff2",
+        "404 http://127.0.0.1:33635/600-junglerealtor/sitio/assets/externo/use.fontawesome.com/releases/v7.1.0/webfonts/fa-regular-400.woff2",
+        "404 http://127.0.0.1:33635/600-junglerealtor/sitio/assets/externo/use.fontawesome.com/releases/v7.1.0/webfonts/fa-brands-400.woff2"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 9466,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 68,
+      "rotas": [
+        "http://127.0.0.1:33635/600-junglerealtor/sitio/"
+      ],
+      "sinAlt": 0,
+      "titulo": "Jungle Realtor - Eco Friendly Real Estate",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to font at 'http://junglerealtor.com/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "tryInit is not defined",
+        "Access to XMLHttpRequest at 'https://junglerealtor.com/wp-admin/admin-ajax.php?action=get_liked_listings_count&lang=en' from origin 'http://127.0.0.1:33635' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:33635/600-junglerealtor/sitio/assets/externo/use.fontawesome.com/releases/v7.1.0/webfonts/fa-solid-900.woff2",
+        "404 http://127.0.0.1:33635/600-junglerealtor/sitio/assets/externo/use.fontawesome.com/releases/v7.1.0/webfonts/fa-regular-400.woff2",
+        "404 http://127.0.0.1:33635/600-junglerealtor/sitio/assets/externo/use.fontawesome.com/releases/v7.1.0/webfonts/fa-brands-400.woff2"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 11046,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 36,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Jungle Realtor | Bienes raíces en Tulum, Bacalar y Riviera Maya",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 19725,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 36,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Jungle Realtor | Bienes raíces en Tulum, Bacalar y Riviera Maya",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

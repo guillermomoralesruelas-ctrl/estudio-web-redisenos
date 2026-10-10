@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "@fontsource-variable/fraunces/wght.css";
+@import "@fontsource-variable/manrope/wght.css";
+
+@theme {
+  /* Paleta Jungle Realtor: el verde selva de sus franjas, el dorado de su óvalo y el turquesa de la laguna de Bacalar */
+  --color-selva: #1D4A36;       /* verde de su marca (AA con blanco) */
+  --color-selva-honda: #10291E;
+  --color-hoja: #2F6B4F;
+  --color-laguna: #3FB8B0;
+  --color-laguna-clara: #DDF2EF;
+  --color-arena: #F6F1E7;
+  --color-dorado: #C9A24A;      /* decorativo */
+  --color-dorado-hondo: #7F5F1A; /* texto dorado (AA sobre arena) */
+  --color-tinta: #17221D;
+  --color-gris: #4E5A54;
+
+  --font-display: "Fraunces Variable", Georgia, serif;
+  --font-sans: "Manrope Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.02; text-wrap: balance; letter-spacing: -0.015em; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-dorado); outline-offset: 3px; }
+  input[type="range"] { accent-color: var(--color-selva); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-selva { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold leading-none transition-colors bg-selva text-white hover:bg-selva-honda; }
+  .btn-claro { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold leading-none transition-colors bg-arena text-selva-honda hover:bg-white; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold leading-none transition-colors border-2 border-current hover:bg-white/15; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.22em] text-dorado-hondo; }
+  .chip { @apply rounded-full px-4 py-2 text-sm font-semibold ring-1 transition-colors; }
+}

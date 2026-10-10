@@ -1,0 +1,25 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg	?	896 KB
+themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg	?	730 KB
+plugins/ListingCentral/include/js/intel-tel-init/img/flags@2x.png	11524x30	180 KB
+themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg	?	141 KB
+plugins/ListingCentral/include/js/intel-tel-init/img/flags.png	5762x15	69 KB
+uploads/2026/01/ChIJf4_5eSXRT48RcIx5lOtlGgc_ace2986d8441de8431ae8be6c694a4f1.jpg	128x128	31 KB
+uploads/2026/01/ChIJf4_5eSXRT48RcIx5lOtlGgc_6a5be4b8f7148e401e44a04bf45123d8.jpg	128x128	22 KB
+uploads/2026/01/ChIJf4_5eSXRT48RcIx5lOtlGgc_502e51920cd6bcc7b9cd9dd4549ceb2a.jpg	128x128	20 KB
+uploads/2026/01/ChIJf4_5eSXRT48RcIx5lOtlGgc_e88754d5ca64fbc023e7c3d3133b33c3.jpg	128x128	18 KB
+themes/Divi/core/admin/fonts/modules/base/modules.svg	?	16 KB
+plugins/feeds-for-youtube/img/placeholder.png	1600x900	11 KB
+themes/Divi/includes/builder/styles/images/preloader.gif	32x32	9 KB
+uploads/2026/01/ChIJf4_5eSXRT48RcIx5lOtlGgc_5a6c2a42c689b49f66f37ea43c11fbb6.jpg	128x128	5 KB
+uploads/2026/01/ChIJf4_5eSXRT48RcIx5lOtlGgc_0fe55b3b81f3d4b87c28fbeee988e821.jpg	128x128	5 KB
+uploads/2026/01/ChIJf4_5eSXRT48RcIx5lOtlGgc_553351fb413917f5123a3bc0fb74d068.jpg	128x128	4 KB
+plugins/ListingCentral/include/js/slick/ajax-loader.gif	32x32	4 KB
+plugins/feeds-for-youtube/public/build/images/sby-sprite.50dde50c.png	119x55	4 KB
+plugins/ListingCentral/include/js/slick/fonts/slick.svg	?	2 KB
+plugins/ListingCentral/include/js/intel-tel-init/img/globe@2x.png	40x40	2 KB
+plugins/ListingCentral/include/js/intel-tel-init/img/globe.png	20x20	1 KB
+plugins/widget-google-reviews/assets/img/guest.png	128x128	1 KB
+uploads/flags/images.png	18x12	0 KB
+plugins/feeds-for-youtube/public/build/images/close.0cfd6489.png	27x27	0 KB
