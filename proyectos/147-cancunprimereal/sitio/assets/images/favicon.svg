@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Cancún Prime">
+  <!-- Fondo navy redondeado (para favicon nítido) -->
+  <rect width="100" height="100" rx="14" ry="14" fill="#172234"/>
+  <!-- Marco mint -->
+  <rect x="18" y="18" width="64" height="64" rx="2" ry="2" fill="none" stroke="#8AD7CF" stroke-width="3.5"/>
+  <!-- Barras blancas -->
+  <rect x="38" y="52" width="9" height="20" fill="#FFFFFF"/>
+  <rect x="53" y="38" width="9" height="34" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,81 @@
+.custom-select {
+  border-radius: 4px;
+  position: relative;
+  background: #fff;
+}
+
+.custom-select:after {
+  content: ' ';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 7px;
+  vertical-align: middle;
+  border-top: 4px solid #000;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  border-bottom: 0 dotted;
+  position: absolute;
+  right: 10px;
+  top: 24px;
+  pointer-events: none;
+}
+
+.custom-select.disabled {
+  opacity: .65;
+}
+
+.custom-select.disabled select {
+  background: none;
+}
+
+.custom-select select {
+  background-color: transparent;
+  border: 0 none;
+  box-shadow: none;
+  display: block;
+  line-height: normal;
+  margin: 0;
+  font-size: 100%;
+  padding: .5em 1rem .5rem .5rem;
+  width: 100%!important;
+  color: #000;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 20px;
+}
+
+.custom-select select::-ms-expand {
+  display: none;
+  /* to ie 10 */
+}
+
+.custom-select select:focus {
+  outline: none;
+}
+
+.custom-select select option {
+  background: #fff;
+  padding: 5px;
+}
+
+:-moz-any(.custom-select):before {
+  background-color: #fff;
+  /* this is necessary for overcome the caret default browser */
+  pointer-events: none;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events  */
+  z-index: 1;
+  /* this is necessary for overcome the pseudo element */
+}
+
+.select-default {
+  padding: 0;
+}
+
+.select-default select {
+  height: 32px;
+}

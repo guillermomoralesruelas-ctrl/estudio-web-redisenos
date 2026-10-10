@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" role="img" aria-label="Cancún Prime Real Estate" preserveAspectRatio="xMidYMid meet">
+  <g>
+    <rect x="13" y="23" width="194" height="194" rx="3" ry="3" fill="none" stroke="#8AD7CF" stroke-width="6"/>
+    <rect x="78" y="120" width="34" height="65" fill="#FFFFFF"/>
+    <rect x="125" y="73" width="34" height="112" fill="#FFFFFF"/>
+  </g>
+  <g font-family="Poppins, system-ui, -apple-system, Segoe UI, sans-serif" font-weight="700" fill="#8AD7CF">
+    <text x="245" y="100" font-size="58" letter-spacing="3">CANCÚN</text>
+    <text x="245" y="170" font-size="58" letter-spacing="3">PRIME</text>
+  </g>
+  <text x="247" y="212" font-family="Poppins, system-ui, sans-serif" font-weight="400" font-size="20" letter-spacing="8" fill="#FFFFFF">REAL ESTATE</text>
+</svg>
