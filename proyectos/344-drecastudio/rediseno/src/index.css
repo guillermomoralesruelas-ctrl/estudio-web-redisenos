@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "@fontsource-variable/onest/wght.css";
+@import "@fontsource/syne/600.css";
+@import "@fontsource/syne/800.css";
+
+@theme {
+  /* DRECA: el verde de su logotipo sobre carbón, y papel claro para las galerías */
+  --color-carbon: #141614;
+  --color-carbon-2: #1F231F;
+  --color-verde: #63C242;     /* sobre carbón */
+  --color-verde-osc: #2E7420; /* AA con blanco */
+  --color-papel: #F5F4EF;
+  --color-tinta: #191B19;
+  --color-gris: #5D625D;
+  --color-niebla: #B8BDB6;
+
+  --font-display: "Syne", "Arial Black", sans-serif;
+  --font-sans: "Onest Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 800; line-height: 1; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-verde); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-verde { @apply btn bg-verde text-carbon hover:bg-[#7DD35E]; }
+  .btn-oscuro { @apply btn bg-verde-osc text-white hover:bg-[#245C19]; }
+  .btn-linea { @apply btn border-2 border-current hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.24em] text-verde-osc; }
+  .chip { @apply rounded-full border border-tinta/25 px-4 py-2 text-sm font-semibold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-verde-osc bg-verde-osc text-white; }
+}

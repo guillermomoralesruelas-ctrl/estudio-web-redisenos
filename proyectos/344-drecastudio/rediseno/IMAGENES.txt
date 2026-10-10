@@ -1,0 +1,7 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg	?	897 KB
+plugins/elementor/assets/lib/eicons/fonts/eicons.svg	?	364 KB
+uploads/2024/03/Jenn-y-Chris-11.jpg	1756x1172	348 KB
+uploads/2022/10/DRECA-studio-logo-2-170x51.png	170x51	6 KB
+uploads/2022/10/DRECA-studio-logo-pequeno.png	62x62	2 KB
