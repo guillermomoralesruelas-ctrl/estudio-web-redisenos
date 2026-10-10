@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter-tight/wght.css";
+@import "@fontsource-variable/oswald/wght.css";
+
+@theme {
+  /* Control room: madera y luz cálida del estudio, negro de consola, ámbar de los VU y el azul de las pantallas */
+  --color-negro: #121010;
+  --color-consola: #1E1A19;
+  --color-madera: #6B3A24;
+  --color-ambar: #F2A33A;     /* sobre negro */
+  --color-vu: #FFD27A;
+  --color-azul: #3B82C4;
+  --color-hueso: #F4EEE6;
+  --color-humo: #B9AFA6;      /* texto secundario sobre negro */
+
+  --font-display: "Oswald Variable", "Arial Narrow", sans-serif;
+  --font-sans: "Inter Tight Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-negro text-hueso antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 650; line-height: 0.98; text-transform: uppercase; letter-spacing: 0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ambar); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 font-semibold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-ambar { @apply btn bg-ambar text-negro hover:bg-vu; }
+  .btn-linea { @apply btn border-2 border-hueso/60 hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.26em] text-ambar; }
+}

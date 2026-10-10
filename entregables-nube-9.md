@@ -15,7 +15,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 9 | 264-costadreamrealty | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,001 / 9,518 px | "La costa, pueblo por pueblo": sus 50 propiedades sobre la línea de costa de Oaxaca | MEDIA | "Whastapp"; tres H1; pin erróneo; mezcla de idiomas |
 | 10 | 269-crisantemofotografia | Terminado (1.2 en la nube) | (este commit) | 0 problemas | "¿Qué tan grande en tu pared?": sus ampliaciones a escala sobre un sillón | ALTA | Inicio sin texto; sin WhatsApp; precios contradictorios |
 | 11 | 302-dentistacuernavaca | Descartado, `sin-contacto` | (este commit) | — (plantilla con teléfono 777 123 4567 y dirección de relleno) | — | — | — |
-| 12 | 319-dmstudiosdestino | Pendiente | — | — | — | — | — |
+| 12 | 319-dmstudiosdestino | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,710 / 6,508 px | "Sube los canales de tu sesión": consola de siete faders que arma la reserva | MEDIA | Estudio escondido en la tienda; sin WhatsApp; erratas |
 | 13 | 344-drecastudio | Pendiente | — | — | — | — | — |
 | 14 | 331-dredgarmonroy | Pendiente | — | — | — | — | — |
 | 15 | 355-eldentistapachuca | Pendiente | — | — | — | — | — |
