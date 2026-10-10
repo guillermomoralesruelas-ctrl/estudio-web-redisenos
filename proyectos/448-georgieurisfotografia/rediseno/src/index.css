@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import "@fontsource-variable/instrument-sans/wght.css";
+@import "@fontsource/instrument-serif/400.css";
+@import "@fontsource/instrument-serif/400-italic.css";
+
+@theme {
+  /* Paleta de estudio: negro de fondo de retrato, papel marfil y el rojo de sus retratos de color */
+  --color-noche: #121110;
+  --color-grafito: #2A2826;
+  --color-marfil: #F4EFE7;
+  --color-papel: #FBF8F3;
+  --color-rojo: #B5301C;      /* AA con blanco */
+  --color-rojo-claro: #F08A6E; /* sobre negro */
+  --color-tinta: #1B1917;
+  --color-gris: #5A5551;
+
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-sans: "Instrument Sans Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-marfil text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 0.98; text-wrap: balance; letter-spacing: -0.01em; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rojo-claro); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[80rem] px-5 sm:px-8; }
+  .btn-rojo { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold leading-none transition-colors bg-rojo text-white hover:bg-[#8F2414]; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold leading-none transition-colors border-2 border-current hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.24em] text-rojo; }
+}

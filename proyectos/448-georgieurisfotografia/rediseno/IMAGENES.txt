@@ -1,0 +1,23 @@
+# Imágenes disponibles en publicDir (../sitio/assets/wp-content), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+uploads/2024/01/fotografo-publicidad-ciudad-de-mexico_12_telefonia.jpg	1350x900	1195 KB
+uploads/2024/01/fotografo_retrato_ciudad_de_mexico_104_modelo_morena.jpg	730x900	641 KB
+uploads/2024/01/fotografo_retrato_ciudad_de_mexico_03_amigas.jpg	600x900	523 KB
+uploads/2024/01/fotografo-publicidad-ciudad-de-mexico_03_ordenadores.jpg	654x900	511 KB
+uploads/2024/01/fotografo-moda-ciudad-de-mexico_01_vogue.jpg	720x900	480 KB
+plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.svg	?	434 KB
+uploads/2024/01/fotografo_retrato_ciudad_de_mexico_01_modelo.jpg	639x900	398 KB
+uploads/2024/01/fotografo_retrato_ciudad_de_mexico_06_pareja_sonrie.jpg	600x900	393 KB
+uploads/2024/01/fotografo-publicidad-ciudad-de-mexico_15_sonrisa.jpg	1002x900	355 KB
+uploads/2024/01/fotografo-moda-ciudad-de-mexico_07_seda.jpg	600x900	355 KB
+uploads/2024/01/fotografo-moda-ciudad-de-mexico_19_couture.jpg	600x900	353 KB
+plugins/elementor/assets/lib/eicons/fonts/eicons.svg	?	349 KB
+themes/Divi/core/admin/fonts/modules/all/modules.svg	?	292 KB
+uploads/2024/01/fotografo-publicidad-ciudad-de-mexico_12_telefonia-1024x683.jpg	1024x683	99 KB
+plugins/popups-for-divi/images/spin.gif	120x120	43 KB
+uploads/2020/03/logo.jpg	521x105	18 KB
+themes/Divi/includes/builder/styles/images/preloader.gif	32x32	9 KB
+uploads/2022/10/cropped-georgie_favicon-192x192.jpg	192x192	5 KB
+plugins/sina-extension-for-elementor/assets/css/img/owl.video.play.png	80x80	5 KB
+uploads/2022/10/cropped-georgie_favicon-180x180.jpg	180x180	5 KB
+uploads/2022/10/cropped-georgie_favicon-32x32.jpg	32x32	1 KB
