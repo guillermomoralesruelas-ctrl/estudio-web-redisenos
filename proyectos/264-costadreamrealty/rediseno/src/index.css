@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "@fontsource-variable/manrope/wght.css";
+@import "@fontsource/dm-serif-display/400.css";
+@import "@fontsource/dm-serif-display/400-italic.css";
+
+@theme {
+  /* Costa de Oaxaca: arena, Pacífico profundo, terracota de los techos, selva y el sol de la tarde */
+  --color-arena: #F5EEE4;
+  --color-concha: #FBF8F3;
+  --color-pacifico: #0E3B43;   /* AA con blanco */
+  --color-pacifico-2: #165561;
+  --color-terracota: #A8482A;  /* AA con blanco */
+  --color-selva: #3F5B3A;
+  --color-sol: #E8B04B;        /* sobre pacífico */
+  --color-tinta: #1D2324;
+  --color-gris: #5A6061;
+
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-sans: "Manrope Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.04; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-terracota); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 font-semibold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-terracota { @apply btn bg-terracota text-white hover:bg-[#8A3A21]; }
+  .btn-linea { @apply btn border-2 border-current hover:bg-tinta/5; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.24em] text-terracota; }
+  .chip { @apply rounded-full border border-tinta/25 px-4 py-2 text-sm font-semibold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-pacifico bg-pacifico text-white; }
+}

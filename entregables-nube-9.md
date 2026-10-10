@@ -12,7 +12,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 6 | 95-barberiadeluxepolanco | Descartado, `url-ajena` | (este commit) | — (barberia.mx es un directorio nacional de barberías) | — | — | — |
 | 7 | 109-belovaluxuryhotel | Descartado, `url-ajena` | (este commit) | — (su dominio redirige al motor de reservas direct-book.com) | — | — | — |
 | 8 | 209-chefgabygreen | Descartado, `sin-contacto` | (este commit) | — (solo correo y formulario; sin teléfono, WhatsApp ni dirección) | — | — | — |
-| 9 | 264-costadreamrealty | Pendiente | — | — | — | — | — |
+| 9 | 264-costadreamrealty | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,001 / 9,518 px | "La costa, pueblo por pueblo": sus 50 propiedades sobre la línea de costa de Oaxaca | MEDIA | "Whastapp"; tres H1; pin erróneo; mezcla de idiomas |
 | 10 | 269-crisantemofotografia | Pendiente | — | — | — | — | — |
 | 11 | 302-dentistacuernavaca | Pendiente | — | — | — | — | — |
 | 12 | 319-dmstudiosdestino | Pendiente | — | — | — | — | — |
