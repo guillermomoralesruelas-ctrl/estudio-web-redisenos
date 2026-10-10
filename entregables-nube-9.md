@@ -11,7 +11,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 5 | 79-backtothe | Descartado, `sitio-reciente` | (este commit) | — (sitio Next.js de 2026 que ya cumple el método) | — | — | — |
 | 6 | 95-barberiadeluxepolanco | Descartado, `url-ajena` | (este commit) | — (barberia.mx es un directorio nacional de barberías) | — | — | — |
 | 7 | 109-belovaluxuryhotel | Descartado, `url-ajena` | (este commit) | — (su dominio redirige al motor de reservas direct-book.com) | — | — | — |
-| 8 | 209-chefgabygreen | Pendiente | — | — | — | — | — |
+| 8 | 209-chefgabygreen | Descartado, `sin-contacto` | (este commit) | — (solo correo y formulario; sin teléfono, WhatsApp ni dirección) | — | — | — |
 | 9 | 264-costadreamrealty | Pendiente | — | — | — | — | — |
 | 10 | 269-crisantemofotografia | Pendiente | — | — | — | — | — |
 | 11 | 302-dentistacuernavaca | Pendiente | — | — | — | — | — |

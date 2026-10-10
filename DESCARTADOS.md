@@ -77,6 +77,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `79-backtothe` | Lunita Jungle Retreat Center (Back to the Breath) | Puerto Morelos, Q. Roo | `sitio-reciente` | Sitio Next.js de 2026 muy cuidado: fotos propias, H1, descripción, seis JSON-LD, WhatsApp y textos alternativos completos. Un rediseño de una página no le aporta. Ofrece retiros "con o sin medicinas ancestrales" | Nube |
 | `95-barberiadeluxepolanco` | Barbería Deluxe | Ciudad de México | `url-ajena` | La URL es barberia.mx, un directorio nacional de barberías por estado, no el sitio del negocio | Nube |
 | `109-belovaluxuryhotel` | Belova Luxury Hotel | San Cristóbal de las Casas, Chis. | `url-ajena` | Su dominio redirige al motor de reservas direct-book.com (SiteMinder); no hay sitio propio que rediseñar | Nube |
+| `209-chefgabygreen` | Chef Gaby Green | San Miguel de Allende, Gto. | `sin-contacto` | Solo correo, formulario y redes; sin teléfono, WhatsApp ni dirección. Buen prospecto: fotos propias y el carrusel del inicio muestra textos de plantilla ("Slide title", "Write your caption here", "Button") | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
