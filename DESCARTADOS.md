@@ -79,6 +79,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `109-belovaluxuryhotel` | Belova Luxury Hotel | San Cristóbal de las Casas, Chis. | `url-ajena` | Su dominio redirige al motor de reservas direct-book.com (SiteMinder); no hay sitio propio que rediseñar | Nube |
 | `209-chefgabygreen` | Chef Gaby Green | San Miguel de Allende, Gto. | `sin-contacto` | Solo correo, formulario y redes; sin teléfono, WhatsApp ni dirección. Buen prospecto: fotos propias y el carrusel del inicio muestra textos de plantilla ("Slide title", "Write your caption here", "Button") | Nube |
 | `302-dentistacuernavaca` | Dentista Cuernavaca | Cuernavaca, Mor. | `sin-contacto` | Plantilla con datos de relleno: teléfono 777 123 4567, "Av. Insurgentes 123", emojis en vez de fotos y ninguna imagen propia; no hay consultorio real identificable | Nube |
+| `331-dredgarmonroy` | Dr. Edgar Monroy | CDMX | `sin-fotos` | Solo 2 imágenes propias (retrato del doctor y clínica Nutrimedic); sitio LeadConnector con íconos emoji | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
