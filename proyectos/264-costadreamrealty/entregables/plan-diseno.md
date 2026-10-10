@@ -1,7 +1,7 @@
 # Plan de diseño: Costa Dream Realty (método 1.2 en la nube, lote 9)
 
 ## Negocio y público
-Asesoría inmobiliaria boutique de Elsa Ontiveros en la costa de Oaxaca (Huatulco, Mazunte, Zipolite, Puerto Ángel, Puerto Escondido) y San Miguel de Allende. 50 propiedades en EasyBroker: casas, departamentos, terrenos, hoteles boutique; 41 en venta y 9 en preventa, en pesos o dólares. Público: compradores mexicanos y extranjeros que buscan casa de playa, terreno o inversión.
+Asesoría inmobiliaria boutique de Elsa Ontiveros en la costa de Oaxaca (Huatulco, Mazunte, Zipolite, Puerto Ángel, Puerto Escondido) y San Miguel de Allende. 50 propiedades en EasyBroker: casas, departamentos, terrenos, hoteles boutique; 42 en venta y 8 en preventa, en pesos o dólares. Público: compradores mexicanos y extranjeros que buscan casa de playa, terreno o inversión.
 
 ## Concepto
 "Sin lo obvio": la costa como una línea de poniente a oriente; cada propiedad es un punto.
