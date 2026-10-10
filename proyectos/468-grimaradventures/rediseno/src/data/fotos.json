@@ -1,0 +1,54 @@
+{
+ "ballena-cola": [
+  640,
+  427
+ ],
+ "ballena-salto": [
+  1190,
+  794
+ ],
+ "grupo-playa-escondida": [
+  1440,
+  1080
+ ],
+ "lancha-familia": [
+  1200,
+  1600
+ ],
+ "lancha-islas": [
+  1200,
+  1600
+ ],
+ "lancha-puente": [
+  1440,
+  810
+ ],
+ "lancha": [
+  1600,
+  1200
+ ],
+ "muelle": [
+  900,
+  1600
+ ],
+ "pareja-playa-escondida": [
+  1280,
+  960
+ ],
+ "playa-escondida-aerea": [
+  1200,
+  1600
+ ],
+ "proa": [
+  1200,
+  1600
+ ],
+ "snorkel": [
+  1600,
+  1200
+ ],
+ "logo": [
+  315,
+  135
+ ]
+}

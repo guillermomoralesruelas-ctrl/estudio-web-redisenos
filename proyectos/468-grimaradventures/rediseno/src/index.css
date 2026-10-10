@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "@fontsource-variable/bricolage-grotesque/wght.css";
+@import "@fontsource-variable/figtree/wght.css";
+
+@theme {
+  /* Paleta Grimar: el turquesa y el azul de su logotipo, la arena de Playa Escondida y el naranja de los chalecos */
+  --color-mar: #0B4F6C;       /* azul profundo (AA con blanco) */
+  --color-abismo: #062C3D;
+  --color-turquesa: #2BB3B1;
+  --color-laguna: #D7F1EE;
+  --color-arena: #F7F1E6;
+  --color-chaleco: #E8590C;   /* naranja de chaleco (decorativo y botones grandes) */
+  --color-chaleco-hondo: #B9450A; /* AA con blanco */
+  --color-tinta: #102A35;
+  --color-gris: #4D5F66;
+
+  --font-display: "Bricolage Grotesque Variable", "Segoe UI", sans-serif;
+  --font-sans: "Figtree Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1; text-wrap: balance; letter-spacing: -0.02em; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-chaleco); outline-offset: 3px; }
+  input[type="range"] { accent-color: var(--color-chaleco-hondo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-chaleco { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold leading-none transition-colors bg-chaleco-hondo text-white hover:bg-[#933708]; }
+  .btn-mar { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold leading-none transition-colors bg-mar text-white hover:bg-abismo; }
+  .btn-linea { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold leading-none transition-colors border-2 border-current hover:bg-white/15; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.22em] text-chaleco-hondo; }
+}
