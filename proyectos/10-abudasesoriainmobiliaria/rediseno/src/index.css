@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "@fontsource-variable/public-sans/wght.css";
+@import "@fontsource/young-serif/400.css";
+
+@theme {
+  /* Paleta de fachadas campechanas: cal, ocre, verde colonial, azul añil, turquesa del Golfo y rosa mexicano */
+  --color-cal: #FAF5EA;
+  --color-arena: #F1E7D3;
+  --color-tinta: #1F2522;
+  --color-gris: #59605B;
+  --color-verde: #2E6A4E;     /* AA con blanco */
+  --color-verde-osc: #1F4A36;
+  --color-ocre: #E2A63B;      /* con texto tinta */
+  --color-azul: #2F5E8C;      /* AA con blanco */
+  --color-mar: #1C6F75;       /* AA con blanco */
+  --color-rosa: #A83A57;      /* AA con blanco */
+
+  --font-display: "Young Serif", Georgia, serif;
+  --font-sans: "Public Sans Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.05; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-azul); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 font-semibold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-verde { @apply btn bg-verde text-white hover:bg-verde-osc; }
+  .btn-linea { @apply btn border-2 border-tinta/80 hover:bg-tinta hover:text-cal; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.22em] text-verde; }
+  .chip { @apply rounded-full border border-tinta/25 px-4 py-2 text-sm font-semibold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-tinta bg-tinta text-cal; }
+}
