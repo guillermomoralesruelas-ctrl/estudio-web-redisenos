@@ -19,7 +19,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 13 | 344-drecastudio | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,808 / 7,030 px | "Tu invitación, en vivo en el celular": sus invitaciones digitales armadas en vivo | ALTA | Galería de eventos vacía; sin H1; fotos sin alt |
 | 14 | 331-dredgarmonroy | Descartado, `sin-fotos` | (este commit) | — (solo 2 imágenes: retrato del doctor y clínica Nutrimedic; sitio LeadConnector con emojis) | — | — | — |
 | 15 | 355-eldentistapachuca | Descartado, `url-ajena` | (este commit) | — (sitio de captación con consultorios asociados; solo ilustraciones 3D) | — | — | — |
-| 16 | 356-eldoradobeach | Pendiente | — | — | — | — | — |
+| 16 | 356-eldoradobeach | Descartado, `sitio-reciente` | (este commit) | — (Webflow bilingüe con mantenimiento activo en sept. 2026) | — | — | — |
 | 17 | 357-eldoradohermosillo | Pendiente | — | — | — | — | — |
 | 18 | 373-ensenadafishingcharter | Pendiente | — | — | — | — | — |
 | 19 | 377-equilibratenutriciony | Pendiente | — | — | — | — | — |
