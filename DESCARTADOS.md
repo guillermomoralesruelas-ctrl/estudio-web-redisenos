@@ -76,6 +76,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `70-aventuradeesnorquel` | Aventura de esnórquel con tiburón ballena | Isla Mujeres, Q. Roo | `url-ajena` | La URL es isla-mujeres-boat-charters.com, un comparador internacional de charters en inglés (teléfonos de EE. UU., Países Bajos y Reino Unido) que revende barcos de varias empresas; el nombre de la base es un tour, no un negocio | Nube |
 | `79-backtothe` | Lunita Jungle Retreat Center (Back to the Breath) | Puerto Morelos, Q. Roo | `sitio-reciente` | Sitio Next.js de 2026 muy cuidado: fotos propias, H1, descripción, seis JSON-LD, WhatsApp y textos alternativos completos. Un rediseño de una página no le aporta. Ofrece retiros "con o sin medicinas ancestrales" | Nube |
 | `95-barberiadeluxepolanco` | Barbería Deluxe | Ciudad de México | `url-ajena` | La URL es barberia.mx, un directorio nacional de barberías por estado, no el sitio del negocio | Nube |
+| `109-belovaluxuryhotel` | Belova Luxury Hotel | San Cristóbal de las Casas, Chis. | `url-ajena` | Su dominio redirige al motor de reservas direct-book.com (SiteMinder); no hay sitio propio que rediseñar | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
