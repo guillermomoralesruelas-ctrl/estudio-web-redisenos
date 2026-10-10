@@ -8,7 +8,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 2 | 10-abudasesoriainmobiliaria | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,854 / 9,330 px | "¿Ciudad, playa o campo?": sus 54 inmuebles por zona con los colores de las fachadas campechanas | ALTA | Sin H1 ni títulos propios; sin WhatsApp; sin filtro de precio |
 | 3 | 147-cancunprimereal | Descartado, `cadena` | (este commit) | — (portal con panel de agentes, buscador, ROI con IA y cinco idiomas; ya es más completo que un rediseño) | — | — | — |
 | 4 | 70-aventuradeesnorquel | Descartado, `url-ajena` | (este commit) | — (comparador internacional de charters en inglés, no el negocio) | — | — | — |
-| 5 | 79-backtothe | Pendiente | — | — | — | — | — |
+| 5 | 79-backtothe | Descartado, `sitio-reciente` | (este commit) | — (sitio Next.js de 2026 que ya cumple el método) | — | — | — |
 | 6 | 95-barberiadeluxepolanco | Pendiente | — | — | — | — | — |
 | 7 | 109-belovaluxuryhotel | Pendiente | — | — | — | — | — |
 | 8 | 209-chefgabygreen | Pendiente | — | — | — | — | — |

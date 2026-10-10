@@ -13,6 +13,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `url-ajena` | La URL de la base apunta a un directorio, portal de reservas, revista o nota de prensa, no al sitio del negocio | Buscar el sitio propio del negocio y volver a clonar; si no tiene, es cliente para sitio nuevo (método 1) |
 | `cadena` | Cadena o corporativo grande: no es el tipo de cliente del estudio | Solo si Guillermo decide lo contrario |
 | `pocas-fotos` | Tiene fotos propias pero muy pocas o de baja calidad para un rediseño completo | Revisar a mano; puede servir para un sitio de una página |
+| `sitio-reciente` | El sitio actual es reciente y ya cumple lo que pide el método (H1, descripción, JSON-LD, WhatsApp, textos alternativos, fotos propias): un rediseño de una página no le aporta y sería difícil de vender | Revisar dentro de un año, o si Guillermo quiere ofrecer otra cosa (fotos, campañas, idiomas) |
 
 ## Descartados (revisados a fondo)
 
@@ -73,6 +74,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `454-goldenscissors` | Golden Scissors (barbería, 4 sedes) | Cancún, Q. Roo | `sin-fotos` | Sus 7 imágenes son PNG de 640 × 640 generadas con IA: los letreros dicen "GILDED NOIR BARBERSHOP" y "THE GOLDEN BARBER". Ninguna foto real de sus sedes ni barberos. WhatsApp 52 1 998 149 1632 | Nube |
 | `147-cancunprimereal` | Cancún Prime | Cancún, Q. Roo | `cadena` | Portal inmobiliario con plataforma propia: panel de agentes con registro abierto, catálogo con buscador de 20 zonas, calculadora de ROI con IA, reservas vacacionales, blog, revista y cinco idiomas, con mantenimiento activo. Sin dirección física. Un sitio de una página sería un paso atrás | Nube |
 | `70-aventuradeesnorquel` | Aventura de esnórquel con tiburón ballena | Isla Mujeres, Q. Roo | `url-ajena` | La URL es isla-mujeres-boat-charters.com, un comparador internacional de charters en inglés (teléfonos de EE. UU., Países Bajos y Reino Unido) que revende barcos de varias empresas; el nombre de la base es un tour, no un negocio | Nube |
+| `79-backtothe` | Lunita Jungle Retreat Center (Back to the Breath) | Puerto Morelos, Q. Roo | `sitio-reciente` | Sitio Next.js de 2026 muy cuidado: fotos propias, H1, descripción, seis JSON-LD, WhatsApp y textos alternativos completos. Un rediseño de una página no le aporta. Ofrece retiros "con o sin medicinas ancestrales" | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
