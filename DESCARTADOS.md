@@ -83,6 +83,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `355-eldentistapachuca` | El Dentista Pachuca | Pachuca, Hgo. | `url-ajena` | Sitio de captación que conecta pacientes con "consultorios asociados"; sin consultorio ni doctor identificable y sin fotos reales (ilustraciones 3D y antes/después genéricos) | Nube |
 | `356-eldoradobeach` | El Dorado Restaurant | Puerto Vallarta, Jal. | `sitio-reciente` | Sitio Webflow bilingüe con mantenimiento activo (cambios de septiembre de 2026), fotografía profesional y reservas en línea | Nube |
 | `373-ensenadafishingcharter` | Ensenada Shore Excursions | Ensenada, B.C. | `sitio-reciente` | Sitio Squarespace en inglés con mantenimiento activo en 2026, reservas y cotizador; ya no venden pesca sino excursiones para cruceros | Nube |
+| `377-equilibratenutriciony` | Equilíbrate Nutrición y Salud | Apizaco, Tlax. | `sitio-reciente` | Sitio nuevo con precios 2026, planes, pago con PayPal, agenda por WhatsApp y app web propia; además casi sin fotos | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
