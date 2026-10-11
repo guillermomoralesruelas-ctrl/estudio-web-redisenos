@@ -88,6 +88,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `408-ezenciastudiopilates` | Ezencia Studio Pilates | Oaxaca | `sitio-reciente` | Sitio estrenado en julio de 2026 con reservas y panel de alumno, compra de planes y tienda | Nube |
 | `455-goldensgym` | Golden's Gym | — | `url-ajena` | El dominio muestra una página de apuestas en línea (TANTE777); el clon guardó esa página, no un gimnasio | Nube |
 | `467-greenyogacondesa` | Green Yoga | CDMX | `sitio-reciente` | Escuela en línea en Thinkific con cursos de 2026, inscripción y pago en la plataforma; imágenes son tarjetas de curso con texto | Nube |
+| `476-gruponavierode` | Grupo Naviero de la Bahía | Puerto Vallarta, Jal. | `sitio-reciente` | Sitio Next.js reciente con video, tours con precio, reservas, TripAdvisor y preguntas frecuentes | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 

@@ -28,7 +28,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 22 | 408-ezenciastudiopilates | Descartado, `sitio-reciente` | (este commit) | — (sitio de julio 2026 con reservas, compra de planes y tienda) | — | — | — |
 | 23 | 455-goldensgym | Descartado, `url-ajena` | (este commit) | — (el dominio muestra una página de apuestas; el clon también) | — | — | — |
 | 24 | 467-greenyogacondesa | Descartado, `sitio-reciente` | (este commit) | — (escuela en Thinkific con inscripción en la plataforma) | — | — | — |
-| 25 | 476-gruponavierode | Pendiente | — | — | — | — | — |
+| 25 | 476-gruponavierode | Descartado, `sitio-reciente` | (este commit) | — (Next.js reciente con tours, precios y reservas) | — | — | — |
 | 26 | 482-haciendasotutade | Pendiente | — | — | — | — | — |
 | 27 | 517-hotelboutiquespa | Pendiente | — | — | — | — | — |
 | 28 | 534-hotelmaela | Pendiente | — | — | — | — | — |
