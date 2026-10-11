@@ -1,0 +1,266 @@
+{
+ "aerea": [
+  1400,
+  788
+ ],
+ "alberca-palmeras": [
+  1400,
+  931
+ ],
+ "alberca-vinedos": [
+  1400,
+  933
+ ],
+ "bicicletas": [
+  1400,
+  933
+ ],
+ "boda-2": [
+  934,
+  1400
+ ],
+ "boda-3": [
+  1400,
+  933
+ ],
+ "boda": [
+  1170,
+  823
+ ],
+ "cabalgata": [
+  1400,
+  1374
+ ],
+ "caballo-vinedo": [
+  1024,
+  683
+ ],
+ "cata": [
+  1400,
+  1050
+ ],
+ "chef": [
+  801,
+  1200
+ ],
+ "classic-2": [
+  1400,
+  930
+ ],
+ "classic": [
+  1400,
+  922
+ ],
+ "decoracion": [
+  1000,
+  667
+ ],
+ "deluxe-studio-terraza": [
+  1400,
+  933
+ ],
+ "deluxe-studio": [
+  1400,
+  931
+ ],
+ "doble-king-2": [
+  1200,
+  900
+ ],
+ "doble-king": [
+  1200,
+  900
+ ],
+ "fachada": [
+  1400,
+  931
+ ],
+ "fuego-interior": [
+  1400,
+  931
+ ],
+ "fuego-mesa": [
+  1200,
+  800
+ ],
+ "fuego-platillo": [
+  1200,
+  798
+ ],
+ "fuego-terraza": [
+  1024,
+  645
+ ],
+ "garden-master": [
+  1400,
+  788
+ ],
+ "governor-one-2": [
+  1200,
+  900
+ ],
+ "governor-one": [
+  1200,
+  900
+ ],
+ "governor-two-cocina": [
+  1200,
+  900
+ ],
+ "governor-two": [
+  1200,
+  900
+ ],
+ "grand-deluxe-2": [
+  1400,
+  933
+ ],
+ "grand-deluxe": [
+  1400,
+  933
+ ],
+ "hero-alberca": [
+  1400,
+  1049
+ ],
+ "jacuzzi-spa": [
+  1200,
+  801
+ ],
+ "jr-deluxe-2": [
+  1333,
+  1000
+ ],
+ "jr-deluxe": [
+  1333,
+  1000
+ ],
+ "jr-terraza-2": [
+  1400,
+  1050
+ ],
+ "jr-terraza": [
+  1400,
+  933
+ ],
+ "masaje": [
+  934,
+  1400
+ ],
+ "master-grand-2": [
+  1400,
+  933
+ ],
+ "master-grand": [
+  1400,
+  933
+ ],
+ "omakase-2": [
+  1400,
+  788
+ ],
+ "omakase": [
+  1200,
+  675
+ ],
+ "penthouse-1-2": [
+  1400,
+  933
+ ],
+ "penthouse-1": [
+  1400,
+  933
+ ],
+ "penthouse-2-camas-2": [
+  1400,
+  932
+ ],
+ "penthouse-2-camas": [
+  1400,
+  933
+ ],
+ "penthouse-2-recamaras-2": [
+  1400,
+  1050
+ ],
+ "penthouse-2-recamaras": [
+  1400,
+  931
+ ],
+ "presidencial-1-jacuzzi": [
+  1400,
+  788
+ ],
+ "presidencial-1": [
+  1400,
+  882
+ ],
+ "presidencial-2-sala": [
+  1400,
+  933
+ ],
+ "presidencial-2": [
+  1400,
+  933
+ ],
+ "rosas": [
+  667,
+  1000
+ ],
+ "salto": [
+  1200,
+  800
+ ],
+ "sauna": [
+  1400,
+  1184
+ ],
+ "spa-alberca": [
+  1200,
+  801
+ ],
+ "spa-infinity": [
+  960,
+  1200
+ ],
+ "superior-suite-terraza": [
+  1400,
+  963
+ ],
+ "superior-suite": [
+  1400,
+  1050
+ ],
+ "superior-villa-tina": [
+  1200,
+  900
+ ],
+ "superior-villa": [
+  1200,
+  800
+ ],
+ "tours-cata": [
+  1400,
+  1050
+ ],
+ "tours-van": [
+  1400,
+  661
+ ],
+ "villas-vinedo": [
+  1400,
+  1050
+ ],
+ "vino-tabla": [
+  667,
+  1000
+ ],
+ "vino": [
+  933,
+  1400
+ ],
+ "yoga": [
+  1200,
+  800
+ ]
+}
