@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "@fontsource-variable/work-sans/wght.css";
+@import "@fontsource/cormorant-garamond/500.css";
+@import "@fontsource/cormorant-garamond/600.css";
+@import "@fontsource/cormorant-garamond/500-italic.css";
+
+@theme {
+  /* Sotuta de Peón: verde henequén, ocre de los muros de la hacienda, rojo óxido y el turquesa de los cenotes */
+  --color-henequen: #3F4F2C;
+  --color-henequen-2: #56683D;
+  --color-ocre: #E0A83A;      /* sobre henequén */
+  --color-oxido: #9A3A27;     /* AA con blanco */
+  --color-cenote: #157F82;    /* AA con blanco */
+  --color-cenote-claro: #CDEBE8;
+  --color-cal: #F7F2E8;
+  --color-cal-2: #EDE4D3;
+  --color-tinta: #22261C;
+  --color-gris: #5E6156;
+
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Work Sans Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.02; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ocre); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3.5 text-sm font-semibold uppercase tracking-[0.12em] leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-ocre { @apply btn bg-ocre text-henequen hover:bg-[#ECBD5E]; }
+  .btn-oxido { @apply btn bg-oxido text-white hover:bg-[#7E2F1F]; }
+  .btn-linea { @apply btn border border-current hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.26em] text-oxido; }
+  .chip { @apply rounded-sm border border-tinta/20 bg-white px-3.5 py-2 text-sm font-semibold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-cenote bg-cenote text-white; }
+}

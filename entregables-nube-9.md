@@ -29,7 +29,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 23 | 455-goldensgym | Descartado, `url-ajena` | (este commit) | — (el dominio muestra una página de apuestas; el clon también) | — | — | — |
 | 24 | 467-greenyogacondesa | Descartado, `sitio-reciente` | (este commit) | — (escuela en Thinkific con inscripción en la plataforma) | — | — | — |
 | 25 | 476-gruponavierode | Descartado, `sitio-reciente` | (este commit) | — (Next.js reciente con tours, precios y reservas) | — | — | — |
-| 26 | 482-haciendasotutade | Pendiente | — | — | — | — | — |
+| 23 | 482-haciendasotutade | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 9,141 / 15,477 px | "El Anillo de los Cenotes": la hacienda sobre el borde de Chicxulub y sus 15 cenotes | ALTA | Textos de relleno de plantilla en la página del hotel |
 | 27 | 517-hotelboutiquespa | Pendiente | — | — | — | — | — |
 | 28 | 534-hotelmaela | Pendiente | — | — | — | — | — |
 | 29 | 568-indigopilatesand | Pendiente | — | — | — | — | — |

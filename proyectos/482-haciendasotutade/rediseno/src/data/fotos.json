@@ -1,0 +1,202 @@
+{
+ "aerea-atardecer": [
+  1400,
+  933
+ ],
+ "aerea-hotel": [
+  1400,
+  1050
+ ],
+ "aerea-selva": [
+  1148,
+  1125
+ ],
+ "bicicleta": [
+  933,
+  1400
+ ],
+ "boda-catolica": [
+  600,
+  600
+ ],
+ "boda-cenote": [
+  1280,
+  960
+ ],
+ "boda-civil": [
+  750,
+  1143
+ ],
+ "boda-maya": [
+  600,
+  600
+ ],
+ "caballo": [
+  1400,
+  933
+ ],
+ "casa-principal-noche": [
+  1400,
+  933
+ ],
+ "cena-pareja": [
+  1400,
+  931
+ ],
+ "cenote-1": [
+  1000,
+  668
+ ],
+ "cenote-2": [
+  1400,
+  935
+ ],
+ "cenote-3": [
+  1200,
+  801
+ ],
+ "cenote-4": [
+  1000,
+  668
+ ],
+ "cenote-caverna": [
+  1400,
+  933
+ ],
+ "cenote-turquesa": [
+  1236,
+  825
+ ],
+ "cordeleria": [
+  1400,
+  734
+ ],
+ "corredor-rojo": [
+  1400,
+  933
+ ],
+ "corredor": [
+  960,
+  640
+ ],
+ "cuatrimoto": [
+  933,
+  1400
+ ],
+ "deluxe-exterior": [
+  853,
+  1280
+ ],
+ "deluxe-piscina-2": [
+  1400,
+  931
+ ],
+ "deluxe-piscina": [
+  750,
+  499
+ ],
+ "hab-deluxe-2": [
+  1400,
+  935
+ ],
+ "hab-deluxe": [
+  750,
+  500
+ ],
+ "hab-petalos": [
+  1400,
+  933
+ ],
+ "hab-superior-2": [
+  1024,
+  681
+ ],
+ "hab-superior": [
+  1400,
+  933
+ ],
+ "hamaca": [
+  1024,
+  681
+ ],
+ "henequen-artesano": [
+  1400,
+  933
+ ],
+ "henequenal": [
+  1400,
+  932
+ ],
+ "masaje-2": [
+  1400,
+  933
+ ],
+ "masaje-sentado": [
+  1400,
+  786
+ ],
+ "masaje": [
+  1400,
+  786
+ ],
+ "mesa-yucateca": [
+  1400,
+  933
+ ],
+ "noche": [
+  1086,
+  724
+ ],
+ "piscina": [
+  1400,
+  927
+ ],
+ "platillo-1": [
+  1280,
+  853
+ ],
+ "platillo-2": [
+  1400,
+  933
+ ],
+ "platillos": [
+  1400,
+  933
+ ],
+ "pollo": [
+  1400,
+  934
+ ],
+ "restaurante-hotel": [
+  1400,
+  931
+ ],
+ "restaurante-palapa": [
+  1280,
+  853
+ ],
+ "secadero": [
+  1400,
+  933
+ ],
+ "temazcal": [
+  564,
+  847
+ ],
+ "tornaboda": [
+  1400,
+  921
+ ],
+ "truk-mulas": [
+  1400,
+  786
+ ],
+ "truk-tour": [
+  1400,
+  933
+ ],
+ "visitantes-henequen": [
+  1400,
+  933
+ ]
+}
