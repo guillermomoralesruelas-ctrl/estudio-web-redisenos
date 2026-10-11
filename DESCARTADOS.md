@@ -93,6 +93,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `610-khemspa` | KHEM tierra viva | CDMX (la base dice Chihuahua) | `sin-fotos` | Fotos del spa de banco y volantes de marca; solo ~6 propias. Centro holístico con terapias de afirmaciones de salud; ciudad distinta a la de la base | Nube |
 | `532-hotelklimt` | Hotel Klimt | Xalapa, Ver. | `sitio-reciente` | WordPress 7.1 al día: motor de reservas WuBook, precios, reseñas de 2026; se dice parte de una cadena | Nube |
 | `576-innovacioninmobiliaria` | Innovación Inmobiliaria | [PENDIENTE] | `sin-contacto` | Sitio inactivo en EasyBroker: sin propiedades, fotos ni datos de contacto | Nube |
+| `478-guiacasasy` | Guía Casas y Terrenos | Guadalajara, Jal. | `sin-fotos` | Plantilla de EasyBroker sin logotipo, con texto de ejemplo y catálogo de la red nacional (fotos de otras inmobiliarias) | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 

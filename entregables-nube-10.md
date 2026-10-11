@@ -11,7 +11,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 5 | 464-greathomesrs | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,362 / 9,551 px | "¿Cuánto vale tu casa?" con sus precios por m² de referencia | MEDIA | Plantilla de EasyBroker para una firma de lujo; textos con errores |
 | 6 | 572-inmobiliariaconstructora | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,890 / 8,701 px | "¿Cuánto cuesta rentar en Carmen?": histograma de 500 rentas | ALTA | Precios imposibles; plantilla de 2019 |
 | 7 | 573-inmobiliariafeyte | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,913 / 8,551 px | "Precio contra metros": gráfica de 414 casas con tope | MEDIA | WhatsApp sin 52; catálogo mezclado |
-| 8 | 478-guiacasasy | Pendiente | — | — | — | — | — |
+| 8 | 478-guiacasasy | Descartado, `sin-fotos` | (este commit) | — (plantilla sin identidad propia; catálogo de la red) | — | — | — |
 | 9 | 474-grupoinmobiliarioelite | Pendiente | — | — | — | — | — |
 | 10 | 450-globalkeyreal | Pendiente | — | — | — | — | — |
 | 11 | 42-ampicolimaclubsantiago | Pendiente | — | — | — | — | — |
