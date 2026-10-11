@@ -1,0 +1,10 @@
+/* Google Translate */
+#website_translator {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  /* Keep Google Translate below modal dialogs. */
+  z-index: 1040;
+  margin: 0;
+}

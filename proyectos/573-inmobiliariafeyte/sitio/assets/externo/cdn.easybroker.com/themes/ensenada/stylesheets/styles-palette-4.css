@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #108bf0;
+  --primary-dark-color: #025fac;
+}
+
+#hero::after, .body-footer {
+  background-image: linear-gradient(to left bottom,#01c9fc 0%, #108bf0 100%);
+}
