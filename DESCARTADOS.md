@@ -94,7 +94,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `532-hotelklimt` | Hotel Klimt | Xalapa, Ver. | `sitio-reciente` | WordPress 7.1 al día: motor de reservas WuBook, precios, reseñas de 2026; se dice parte de una cadena | Nube |
 | `576-innovacioninmobiliaria` | Innovación Inmobiliaria | [PENDIENTE] | `sin-contacto` | Sitio inactivo en EasyBroker: sin propiedades, fotos ni datos de contacto | Nube |
 | `478-guiacasasy` | Guía Casas y Terrenos | Guadalajara, Jal. | `sin-fotos` | Plantilla de EasyBroker sin logotipo, con texto de ejemplo y catálogo de la red nacional (fotos de otras inmobiliarias) | Nube |
-| `474-grupoinmobiliarioelite` | Grupo Inmobiliario Elite | Ciudad de México | `sitio-reciente` | Sitio corporativo en WordPress de 2025 (elitecorporativo.com.mx); el dominio del lote es solo su catálogo de EasyBroker | Nube |
+| `474-grupoinmobiliarioelite` | Grupo Inmobiliario Elite | [PENDIENTE] | `sitio-reciente` | Sitio corporativo en WordPress de 2025 (elitecorporativo.com.mx); el dominio del lote es solo su catálogo de EasyBroker | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
