@@ -85,6 +85,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `373-ensenadafishingcharter` | Ensenada Shore Excursions | Ensenada, B.C. | `sitio-reciente` | Sitio Squarespace en inglés con mantenimiento activo en 2026, reservas y cotizador; ya no venden pesca sino excursiones para cruceros | Nube |
 | `377-equilibratenutriciony` | Equilíbrate Nutrición y Salud | Apizaco, Tlax. | `sitio-reciente` | Sitio nuevo con precios 2026, planes, pago con PayPal, agenda por WhatsApp y app web propia; además casi sin fotos | Nube |
 | `385-escueladegastronomia` | Cursos Gastronomía (EMCEBAR) | CDMX, Puebla, GDL | `pocas-fotos` | 5 fotos recortadas en círculo y un collage, el resto son temarios en imagen; es un sitio satélite de la escuela EMCEBAR | Nube |
+| `408-ezenciastudiopilates` | Ezencia Studio Pilates | Oaxaca | `sitio-reciente` | Sitio estrenado en julio de 2026 con reservas y panel de alumno, compra de planes y tienda | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
