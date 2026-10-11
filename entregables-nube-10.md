@@ -4,7 +4,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 
 | # | Carpeta | Resultado | Commit | QA (escritorio / celular) | Elemento memorable | Prioridad | Hallazgo principal |
 |---|---|---|---|---|---|---|---|
-| 1 | 532-hotelklimt | Pendiente | — | — | — | — | — |
+| 1 | 532-hotelklimt | Descartado, `sitio-reciente` | (este commit) | — (WordPress 7.1 al día con reservas WuBook, precios y reseñas de 2026; parte de una cadena) | — | — | — |
 | 2 | 563-igcapital | Pendiente | — | — | — | — | — |
 | 3 | 488-hausrealestate | Pendiente | — | — | — | — | — |
 | 4 | 576-innovacioninmobiliaria | Pendiente | — | — | — | — | — |
