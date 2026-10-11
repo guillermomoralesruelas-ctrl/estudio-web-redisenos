@@ -1,0 +1,136 @@
+{
+  "fecha": "2026-10-10T21:38:49.759Z",
+  "carpeta": "357-eldoradohermosillo",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 12058,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 11,
+      "rotas": [
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u_fSSLpVKdDpPhwSwK7CiPR0N0kg-GMX4ZzfgtHQX7o6IRRxWhFWLnW4FbRlABdQi8fq_Poc2z8i2VPx1HSEQWPU8KLHsO4sQTolu5x43Wnc4o0j5cJkXiWHeLB32vrJ0BmfRbSKOQoFEdvmr7diE9LvJ4Z-i7eoepF2YIyOdfKpJpKy2dOTI2EGne=w16383",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u_fSSLpVKdDpPhwSwK7CiPR0N0kg-GMX4ZzfgtHQX7o6IRRxWhFWLnW4FbRlABdQi8fq_Poc2z8i2VPx1HSEQWPU8KLHsO4sQTolu5x43Wnc4o0j5cJkXiWHeLB32vrJ0BmfRbSKOQoFEdvmr7diE9LvJ4Z-i7eoepF2YIyOdfKpJpKy2dOTI2EGne=w16383",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72shJtbupe-_d0qSYA-ib-nV9wIvEKQ83skSRrA7CmpJRiONzU7me4L3L2NpFF-_0khuhFbBLz_UAmFVaNHNUaSYY-pdiYmkI8uI4dxOIuOYaUf7IRTD_AoB7P4IMcv8g9ktnQFd0xpnsNMeMohRZLr2igN0InVWgrfjQWAlw40DhIJl1W5ESFqWzESo3eh47ApjGxamprQLVn40TsMnMUdecQNcZirg2nEGWLaudG8=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sljS7YneGGPjhSq2ayIDcF0f7P11cpqt7NvtJywTG8c0Vff3DtecQVfFf_43lqE2pN_RAn9g1qPHhaWF5gK_pV4Et0I-G8wJC7s-k8Nyl3Mqj_sm_zPLQxc1ODZ92rW4rRBG-kSDPnOLKEio8sSDyXq-40AipA6DkmykDMVugJ0mkONflruKPnV9up5AvAJozDSOB2PELzwsn_RR9lRIgslC64GDplDObK5uvXhr4=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tCyhi82A1Yw3jXsUYdvwTztWnAE-Wr6aiyoPGRt542_6rTPYj0wZnHrsJq_TOe9iSkDtLRLL2_HEfBqWuvfVp75dXiTjln5q-2sYOZtsfKzhn7UHt2fI4xNt4YFwX0qPdJkK7TNQpeRq6bHMLE4145-xeX34Ga5Le0EWx_p4pLbENFOAKTCQEGmHbHUg0xH4T2fhs4dTolSgiGaR7lfS1bGUWk8pvfPAHE_Z8J4ME=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tQXL4za8laihBlE_HYp5mcf48A77JnZLEHJQYjS3rMrICk50921nbL2_GkC87vdJ2sCz2Qm_pXMfBJU6hEdBuAxWBMzS-AM58t2VX6oJi4oill1zTjMjaAoumCHj7iTQ6UgT-xql4Xji7-RqpN3S7UST479fzLJ89qdi9v_qODaQva_InSLwB-ascJUFTzHpGUNh8h6J-Mpi5xLf9cXkpF6kh97b_oD2buDAEo0pQ=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uMTQ-ae6mwmfueqzE9ZrE4Q5SDbPLREZzsWB5btb1V_Q_5NI_urxrAel260p4Ynaw8IArkcpdAWPkC9V4XiIkz700D4cgIfhoWPlh9QbrQKUKA0X5AAeJ4SqEW5-cEvB5WU0so_WJnDy2cjzqZpyYnNJGKxvFXViROaSyT2mcENBm73D5AU_t7_8LV7NGie8Q9eCSfZyv1JmOh3cdC2vp7lLmX6UUhs3l7HSVxrx8=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vlK041TaE449sXNuscFwXC7uiqH5KyOdo3gvbm-t2a5RxlP9xxwC9xszVYnECW43BOu_6IwAXfWSmE24NGeDnd25ysG_oaeN8GgDSuTN0eVZ9H3hRf7L2YsFyxEuyVLMzM_L8kug5ty2gB_nnWpExijsc8cKD43vOvDwFlRiZJZ3xG7vR8-G_ZPTo7MDPZ7Tt8hRanrbTZ25AEvybvRWUFhMIDzyPjgd2Fk4Nawj0=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tqG6K3q-x1HfT0YK6dxx-g1_uc-D5oH1rvMhJ5lcs2fUFVkRZfvmAljHPUx7EFA8gJefp6QsGI2ok6zmOy0nmRBKEutXzJSNfVBG5HAEIZE4WYGlW6taojqWKPUhFMf5DKQP_DcdOhpm25VBVEiVvOHLWtg5fe2bq3Bff7CWSQkKDoiYwOgsM2us-Yvni6HuF6AUoB-CWtCjM1LLCgE2qXsiJi70_Fu_LoagbA9iQ=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tC3pQGf9uoEGGMX7GNIxJpmw-vo4Mr3mOB-PDAlgxdZoL3X4EQE31J8M95u2evedqWzDnyqyxIxGoWZoCMFPVNaT9iTmjjngMxdfG5L2VBW3LeGF6KHePAby1w7zyIhgx8nVGT8HXDby-uC5YJub-8Z7AgVdNppzTmVltJAOLxOu7LmA5DBg5gEUCsLyG-2ocFmaQWlDk01L2DmMiUCSc5dAOX-dWj8bT12vKp77E=w1280",
+        "https://ssl.gstatic.comassets/externo/ssl.gstatic.com/atari/images/sociallinks/facebook_white_28dp.png"
+      ],
+      "sinAlt": 10,
+      "titulo": "Inicio",
+      "errores": [
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to fetch at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'http://127.0.0.1:39559' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'http://127.0.0.1:39559' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to fetch at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'http://127.0.0.1:39559' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo' from origin 'https://www.google.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:39559/_/view/naLogImpressions?authuser=0",
+        "404 http://127.0.0.1:39559/_/view/naLogImpressions?authuser=0"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 5786,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 11,
+      "rotas": [
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u_fSSLpVKdDpPhwSwK7CiPR0N0kg-GMX4ZzfgtHQX7o6IRRxWhFWLnW4FbRlABdQi8fq_Poc2z8i2VPx1HSEQWPU8KLHsO4sQTolu5x43Wnc4o0j5cJkXiWHeLB32vrJ0BmfRbSKOQoFEdvmr7diE9LvJ4Z-i7eoepF2YIyOdfKpJpKy2dOTI2EGne=w16383",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72u_fSSLpVKdDpPhwSwK7CiPR0N0kg-GMX4ZzfgtHQX7o6IRRxWhFWLnW4FbRlABdQi8fq_Poc2z8i2VPx1HSEQWPU8KLHsO4sQTolu5x43Wnc4o0j5cJkXiWHeLB32vrJ0BmfRbSKOQoFEdvmr7diE9LvJ4Z-i7eoepF2YIyOdfKpJpKy2dOTI2EGne=w16383",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72shJtbupe-_d0qSYA-ib-nV9wIvEKQ83skSRrA7CmpJRiONzU7me4L3L2NpFF-_0khuhFbBLz_UAmFVaNHNUaSYY-pdiYmkI8uI4dxOIuOYaUf7IRTD_AoB7P4IMcv8g9ktnQFd0xpnsNMeMohRZLr2igN0InVWgrfjQWAlw40DhIJl1W5ESFqWzESo3eh47ApjGxamprQLVn40TsMnMUdecQNcZirg2nEGWLaudG8=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sljS7YneGGPjhSq2ayIDcF0f7P11cpqt7NvtJywTG8c0Vff3DtecQVfFf_43lqE2pN_RAn9g1qPHhaWF5gK_pV4Et0I-G8wJC7s-k8Nyl3Mqj_sm_zPLQxc1ODZ92rW4rRBG-kSDPnOLKEio8sSDyXq-40AipA6DkmykDMVugJ0mkONflruKPnV9up5AvAJozDSOB2PELzwsn_RR9lRIgslC64GDplDObK5uvXhr4=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tCyhi82A1Yw3jXsUYdvwTztWnAE-Wr6aiyoPGRt542_6rTPYj0wZnHrsJq_TOe9iSkDtLRLL2_HEfBqWuvfVp75dXiTjln5q-2sYOZtsfKzhn7UHt2fI4xNt4YFwX0qPdJkK7TNQpeRq6bHMLE4145-xeX34Ga5Le0EWx_p4pLbENFOAKTCQEGmHbHUg0xH4T2fhs4dTolSgiGaR7lfS1bGUWk8pvfPAHE_Z8J4ME=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tQXL4za8laihBlE_HYp5mcf48A77JnZLEHJQYjS3rMrICk50921nbL2_GkC87vdJ2sCz2Qm_pXMfBJU6hEdBuAxWBMzS-AM58t2VX6oJi4oill1zTjMjaAoumCHj7iTQ6UgT-xql4Xji7-RqpN3S7UST479fzLJ89qdi9v_qODaQva_InSLwB-ascJUFTzHpGUNh8h6J-Mpi5xLf9cXkpF6kh97b_oD2buDAEo0pQ=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uMTQ-ae6mwmfueqzE9ZrE4Q5SDbPLREZzsWB5btb1V_Q_5NI_urxrAel260p4Ynaw8IArkcpdAWPkC9V4XiIkz700D4cgIfhoWPlh9QbrQKUKA0X5AAeJ4SqEW5-cEvB5WU0so_WJnDy2cjzqZpyYnNJGKxvFXViROaSyT2mcENBm73D5AU_t7_8LV7NGie8Q9eCSfZyv1JmOh3cdC2vp7lLmX6UUhs3l7HSVxrx8=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vlK041TaE449sXNuscFwXC7uiqH5KyOdo3gvbm-t2a5RxlP9xxwC9xszVYnECW43BOu_6IwAXfWSmE24NGeDnd25ysG_oaeN8GgDSuTN0eVZ9H3hRf7L2YsFyxEuyVLMzM_L8kug5ty2gB_nnWpExijsc8cKD43vOvDwFlRiZJZ3xG7vR8-G_ZPTo7MDPZ7Tt8hRanrbTZ25AEvybvRWUFhMIDzyPjgd2Fk4Nawj0=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tqG6K3q-x1HfT0YK6dxx-g1_uc-D5oH1rvMhJ5lcs2fUFVkRZfvmAljHPUx7EFA8gJefp6QsGI2ok6zmOy0nmRBKEutXzJSNfVBG5HAEIZE4WYGlW6taojqWKPUhFMf5DKQP_DcdOhpm25VBVEiVvOHLWtg5fe2bq3Bff7CWSQkKDoiYwOgsM2us-Yvni6HuF6AUoB-CWtCjM1LLCgE2qXsiJi70_Fu_LoagbA9iQ=w1280",
+        "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tC3pQGf9uoEGGMX7GNIxJpmw-vo4Mr3mOB-PDAlgxdZoL3X4EQE31J8M95u2evedqWzDnyqyxIxGoWZoCMFPVNaT9iTmjjngMxdfG5L2VBW3LeGF6KHePAby1w7zyIhgx8nVGT8HXDby-uC5YJub-8Z7AgVdNppzTmVltJAOLxOu7LmA5DBg5gEUCsLyG-2ocFmaQWlDk01L2DmMiUCSc5dAOX-dWj8bT12vKp77E=w1280",
+        "https://ssl.gstatic.comassets/externo/ssl.gstatic.com/atari/images/sociallinks/facebook_white_28dp.png"
+      ],
+      "sinAlt": 10,
+      "titulo": "Inicio",
+      "errores": [
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to fetch at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'http://127.0.0.1:39559' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to fetch at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'http://127.0.0.1:39559' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Access to fetch at 'https://play.google.com/log?format=json&hasfast=true&authuser=0' from origin 'http://127.0.0.1:39559' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header has a value 'http://play.google.com' that is not equal to the supplied origin. Have the server send the header with a valid value.",
+        "Failed to load resource: net::ERR_FAILED",
+        "Access to XMLHttpRequest at 'https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo' from origin 'https://www.google.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:39559/_/view/naLogImpressions?authuser=0",
+        "404 http://127.0.0.1:39559/_/view/naLogImpressions?authuser=0"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6154,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 19,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel El Dorado Hermosillo | A 5 minutos del aeropuerto, desayuno incluido",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 10604,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 19,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Hotel El Dorado Hermosillo | A 5 minutos del aeropuerto, desayuno incluido",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

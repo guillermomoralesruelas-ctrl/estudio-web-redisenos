@@ -20,7 +20,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 14 | 331-dredgarmonroy | Descartado, `sin-fotos` | (este commit) | — (solo 2 imágenes: retrato del doctor y clínica Nutrimedic; sitio LeadConnector con emojis) | — | — | — |
 | 15 | 355-eldentistapachuca | Descartado, `url-ajena` | (este commit) | — (sitio de captación con consultorios asociados; solo ilustraciones 3D) | — | — | — |
 | 16 | 356-eldoradobeach | Descartado, `sitio-reciente` | (este commit) | — (Webflow bilingüe con mantenimiento activo en sept. 2026) | — | — | — |
-| 17 | 357-eldoradohermosillo | Pendiente | — | — | — | — | — |
+| 17 | 357-eldoradohermosillo | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,154 / 10,604 px | "¿Cuántas noches te quedas?": calculadora con sus tarifas de Larga Estadía | ALTA | Título "Inicio"; tarifas y carta solo en imágenes |
 | 18 | 373-ensenadafishingcharter | Pendiente | — | — | — | — | — |
 | 19 | 377-equilibratenutriciony | Pendiente | — | — | — | — | — |
 | 20 | 385-escueladegastronomia | Pendiente | — | — | — | — | — |

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "@fontsource-variable/figtree/wght.css";
+@import "@fontsource-variable/oswald/wght.css";
+
+@theme {
+  /* El Dorado: el rojo del letrero y del logotipo, la noche de su fachada y la arena de Sonora */
+  --color-noche: #17130F;
+  --color-noche-2: #241E18;
+  --color-rojo: #C8202A;      /* AA con blanco */
+  --color-rojo-osc: #9E1820;
+  --color-oro: #E8B54D;       /* sobre noche */
+  --color-arena: #F4EEE5;
+  --color-arena-2: #E9DFD0;
+  --color-tinta: #1D1813;
+  --color-gris: #615850;
+  --color-humo: #BDB3A7;
+
+  --font-display: "Oswald Variable", "Arial Narrow", sans-serif;
+  --font-sans: "Figtree Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.02; letter-spacing: -0.005em; text-transform: uppercase; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; }
+  input[type="range"] { accent-color: var(--color-rojo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-md px-6 py-3.5 font-semibold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-rojo { @apply btn bg-rojo text-white hover:bg-rojo-osc; }
+  .btn-oro { @apply btn bg-oro text-noche hover:bg-[#F2C76B]; }
+  .btn-linea { @apply btn border-2 border-current hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.24em] text-rojo; }
+  .chip { @apply rounded-md border border-tinta/25 bg-white px-3.5 py-2 text-left text-sm font-semibold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-rojo bg-rojo text-white; }
+}
