@@ -33,7 +33,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 27 | 517-hotelboutiquespa | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 10,589 / 15,990 px | "¿Cuántos vienen?": buscador de sus 17 habitaciones por adultos, niños y extras | ALTA | WhatsApp del inicio roto y textos de relleno de plantilla |
 | 28 | 534-hotelmaela | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 7,334 / 11,800 px | "Oaxaca a la medida de tus pasos": regla de distancias desde el hotel | ALTA | WhatsApp roto y textos de relleno de plantilla |
 | 29 | 568-indigopilatesand | Descartado, `sitio-reciente` | (este commit) | — (sitio Hostinger de 2026, bilingüe, con precios, monedero virtual y políticas; solo 4 fotos) | — | — | — |
-| 30 | 610-khemspa | Pendiente | — | — | — | — | — |
+| 30 | 610-khemspa | Descartado, `sin-fotos` | (este commit) | — (fotos de banco y volantes de marca; centro holístico en CDMX, no Chihuahua) | — | — | — |
 
 ## En curso
 

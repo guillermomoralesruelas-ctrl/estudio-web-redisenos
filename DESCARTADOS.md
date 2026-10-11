@@ -90,6 +90,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `467-greenyogacondesa` | Green Yoga | CDMX | `sitio-reciente` | Escuela en línea en Thinkific con cursos de 2026, inscripción y pago en la plataforma; imágenes son tarjetas de curso con texto | Nube |
 | `476-gruponavierode` | Grupo Naviero de la Bahía | Puerto Vallarta, Jal. | `sitio-reciente` | Sitio Next.js reciente con video, tours con precio, reservas, TripAdvisor y preguntas frecuentes | Nube |
 | `568-indigopilatesand` | Indigo Pilates and Fitness Studio | Cabo San Lucas, BCS | `sitio-reciente` | Sitio Hostinger bilingüe con mantenimiento activo en 2026: precios, monedero virtual, políticas y preguntas frecuentes; además solo 4 fotos | Nube |
+| `610-khemspa` | KHEM tierra viva | CDMX (la base dice Chihuahua) | `sin-fotos` | Fotos del spa de banco y volantes de marca; solo ~6 propias. Centro holístico con terapias de afirmaciones de salud; ciudad distinta a la de la base | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
