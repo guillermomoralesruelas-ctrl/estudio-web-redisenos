@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "@fontsource-variable/newsreader/wght.css";
+@import "@fontsource-variable/newsreader/wght-italic.css";
+@import "@fontsource-variable/public-sans/wght.css";
+
+@theme {
+  /* Great Homes RS: el rojo de su recuadro y la crema de sus banners */
+  --color-rojo: #C51230;        /* del logotipo; AA con blanco */
+  --color-rojo-2: #A00E27;
+  --color-crema: #F3EDE4;
+  --color-crema-2: #E7DED1;
+  --color-tinta: #1D1A18;
+  --color-piedra: #625951;
+  --color-noche: #221E1B;
+
+  --font-display: "Newsreader Variable", Georgia, serif;
+  --font-sans: "Public Sans Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-crema text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.05; letter-spacing: -0.015em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rojo); outline-offset: 3px; }
+  input[type="range"] { accent-color: var(--color-rojo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-none px-6 py-3.5 text-sm font-semibold uppercase leading-none tracking-[0.12em] transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-rojo { @apply btn bg-rojo text-white hover:bg-rojo-2; }
+  .btn-tinta { @apply btn bg-tinta text-white hover:bg-noche; }
+  .btn-linea { @apply btn border border-current hover:bg-tinta/5; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.24em] text-rojo; }
+  .chip { @apply border border-tinta/25 bg-transparent px-4 py-2 text-sm font-semibold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-tinta bg-tinta text-white; }
+}

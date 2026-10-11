@@ -8,7 +8,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 2 | 563-igcapital | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,049 / 13,993 px | "La escalera de Zibatá": 28 casas como barras por precio con tope | MEDIA | Plantilla de EasyBroker sin dirección; WhatsApp sin 52 |
 | 3 | 488-hausrealestate | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,130 / 7,732 px | "Brújula de destinos" con 9 destinos y comparador de 3 | MEDIA | 707 propiedades en 40 páginas; precio en USD erróneo |
 | 4 | 576-innovacioninmobiliaria | Descartado, `sin-contacto` | (este commit) | — (sitio inactivo en EasyBroker) | — | — | — |
-| 5 | 464-greathomesrs | Pendiente | — | — | — | — | — |
+| 5 | 464-greathomesrs | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,362 / 9,551 px | "¿Cuánto vale tu casa?" con sus precios por m² de referencia | MEDIA | Plantilla de EasyBroker para una firma de lujo; textos con errores |
 | 6 | 572-inmobiliariaconstructora | Pendiente | — | — | — | — | — |
 | 7 | 573-inmobiliariafeyte | Pendiente | — | — | — | — | — |
 | 8 | 478-guiacasasy | Pendiente | — | — | — | — | — |
