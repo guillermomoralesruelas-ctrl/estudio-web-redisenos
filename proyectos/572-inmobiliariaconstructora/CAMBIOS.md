@@ -5,7 +5,7 @@
 | Dato | Valor |
 |---|---|
 | Sitio original | https://www.inmobiliariacdg.com/ (plantilla "Milan" de EasyBroker, pie "© 2019") |
-| Método | **1.2 en la nube** (lote 10): el clon trae miniaturas de 450 px; se leyeron inicio, acerca de, vende o alquila tu casa, contacto y todo el catálogo (1,063 propiedades en 60 páginas de venta y renta), y se bajaron las fotos de portada de 35 propiedades y el logotipo a `assets/originales/` |
+| Método | **1.2 en la nube** (lote 10): el clon trae miniaturas de 450 px; se leyeron inicio, acerca de, vende o alquila tu casa, contacto y todo el catálogo (2,498 propiedades en 81 páginas de venta y 64 de renta), y se bajaron las fotos de portada de 35 propiedades y el logotipo a `assets/originales/` |
 | Fecha | 2026-10-11 |
 | Clon (antes) | `sitio/index.html`: no se modifica, es la referencia |
 | Rediseño (después) | `rediseno/` (código) y `rediseno/dist/` (compilado, se abre en XAMPP) |
@@ -16,7 +16,7 @@
 
 ## En una línea
 
-La inmobiliaria de Ciudad del Carmen en una página: un histograma de sus 280 casas y departamentos en renta en la isla para ver cuánto cuesta rentar y cuántas te alcanzan, locales y oficinas para negocios, casas y terrenos en venta en Carmen y en Mérida, propietarios y contacto.
+La inmobiliaria de Ciudad del Carmen en una página: un histograma de sus 500 casas y departamentos en renta en la isla para ver cuánto cuesta rentar y cuántas te alcanzan, locales y oficinas para negocios, casas y terrenos en venta en Carmen y en Mérida, propietarios y contacto.
 
 ## Qué estaba roto o incompleto en el clon
 
@@ -26,13 +26,13 @@ La inmobiliaria de Ciudad del Carmen en una página: un histograma de sus 280 ca
 
 ## Qué se cambió (mismo contenido, otra forma)
 
-- El listado se reorganiza por lo que más publican: rentas de vivienda en Ciudad del Carmen (408 rentas en el municipio), espacios para negocio, y venta en Carmen y en Mérida y Yucatán.
+- El listado se reorganiza por lo que más publican: rentas de vivienda en Ciudad del Carmen (888 rentas en el municipio), espacios para negocio, y venta en Carmen y en Mérida y Yucatán.
 - El título de cada tarjeta se arma con el tipo y la colonia que publica EasyBroker ("Casa en Limonar") en lugar de sus títulos en mayúsculas; el título original va en el mensaje de WhatsApp.
 - Isla Aguada aparece como parte del municipio de Carmen, como lo agrupa EasyBroker.
 
 ## Qué se agregó (no existía en el original)
 
-- **"¿Cuánto cuesta rentar en Carmen?"** (elemento memorable): las 280 casas y departamentos en renta en Ciudad del Carmen con precio mensual y recámaras, en barras de $2,500. Al mover el presupuesto se pintan las que caben, con filtro de tipo y recámaras, el conteo ("171 de 280") y la renta de en medio (mediana, cálculo del estudio). Debajo, ejemplos con foto que caben y un botón que manda la búsqueda por WhatsApp.
+- **"¿Cuánto cuesta rentar en Carmen?"** (elemento memorable): las 500 casas y departamentos en renta en Ciudad del Carmen con precio mensual y recámaras, en barras de $2,500. Al mover el presupuesto se pintan las que caben, con filtro de tipo y recámaras, el conteo ("278 de 500" con $15,000) y la renta de en medio (mediana, cálculo del estudio). Debajo, ejemplos con foto que caben y un botón que manda la búsqueda por WhatsApp.
 - Conteo de locales, oficinas, bodegas y naves en renta.
 - Textos del estudio: titulares, introducciones y textos alternativos.
 - Barra fija en el celular (llamar y WhatsApp), mapa con la dirección, JSON-LD `RealEstateAgent`, title, description e imagen para compartir.

@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-10-11T17:39:20.266Z",
+  "fecha": "2026-10-11T17:43:56.851Z",
   "carpeta": "572-inmobiliariaconstructora",
   "antes": [
     {
@@ -50,7 +50,9 @@
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
         "Failed to load resource: the server responded with a status of 404 (Not Found)"
       ],
-      "fallidos": [],
+      "fallidos": [
+        "404 http://127.0.0.1:42751/572-inmobiliariaconstructora/sitio/"
+      ],
       "captura": "qa/antes-escritorio.png"
     },
     {
@@ -101,7 +103,7 @@
         "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
       ],
       "fallidos": [
-        "404 http://127.0.0.1:39389/572-inmobiliariaconstructora/sitio/"
+        "404 http://127.0.0.1:42751/572-inmobiliariaconstructora/sitio/"
       ],
       "captura": "qa/antes-movil.png"
     }

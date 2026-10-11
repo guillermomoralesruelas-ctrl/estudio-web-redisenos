@@ -1,7 +1,7 @@
 # Plan de diseño: CDG Buildings (método 1.2 en la nube, lote 10)
 
 ## Negocio y público
-Inmobiliaria y constructora en Ciudad del Carmen, Campeche (oficina en la colonia Guanal). Catálogo de 1,063 propiedades: 408 en renta en el municipio de Carmen (casas, departamentos, locales, oficinas, bodegas), 81 en venta en Carmen e Isla Aguada y 418 en venta o preventa en Mérida y la costa de Yucatán. Público: familias y trabajadores que buscan renta en la isla, negocios que buscan local u oficina, compradores en Carmen y Mérida, y propietarios.
+Inmobiliaria y constructora en Ciudad del Carmen, Campeche (oficina en la colonia Guanal). Catálogo de 2,498 propiedades: 888 en renta en el municipio de Carmen (casas, departamentos, locales, oficinas, bodegas), 448 en venta en Carmen e Isla Aguada y 730 en venta o preventa en Mérida y la costa de Yucatán. Público: familias y trabajadores que buscan renta en la isla, negocios que buscan local u oficina, compradores en Carmen y Mérida, y propietarios.
 
 ## Concepto
 "¿Cuánto cuesta rentar en Carmen?": convertir sus cientos de rentas en una respuesta clara al presupuesto de cada quien. Dorado y gris de su logotipo, azul del Golfo.
