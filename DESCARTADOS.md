@@ -89,6 +89,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `455-goldensgym` | Golden's Gym | — | `url-ajena` | El dominio muestra una página de apuestas en línea (TANTE777); el clon guardó esa página, no un gimnasio | Nube |
 | `467-greenyogacondesa` | Green Yoga | CDMX | `sitio-reciente` | Escuela en línea en Thinkific con cursos de 2026, inscripción y pago en la plataforma; imágenes son tarjetas de curso con texto | Nube |
 | `476-gruponavierode` | Grupo Naviero de la Bahía | Puerto Vallarta, Jal. | `sitio-reciente` | Sitio Next.js reciente con video, tours con precio, reservas, TripAdvisor y preguntas frecuentes | Nube |
+| `568-indigopilatesand` | Indigo Pilates and Fitness Studio | Cabo San Lucas, BCS | `sitio-reciente` | Sitio Hostinger bilingüe con mantenimiento activo en 2026: precios, monedero virtual, políticas y preguntas frecuentes; además solo 4 fotos | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
