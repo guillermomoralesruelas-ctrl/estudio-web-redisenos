@@ -1,0 +1,100 @@
+{
+  "fecha": "2026-10-11T09:38:57.470Z",
+  "carpeta": "389-esenciayogaspa",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 0,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 2,
+      "rotas": [
+        "https://images.squarespace-cdn.comassets/externo/images.squarespace-cdn.com/content/v1/552027c5e4b0f588f511dc72/d8d86928-96f4-4a1c-870d-2e696df1e632/AMICI-3823.jpg?format=1500w",
+        "https://images.squarespace-cdn.comassets/externo/images.squarespace-cdn.com/content/v1/552027c5e4b0f588f511dc72/37fd01a1-0648-49aa-ab2c-6673f359ea55/logowall.jpg?format=2500w"
+      ],
+      "sinAlt": 0,
+      "titulo": "Esencia Yoga Spa",
+      "errores": [
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Typekit: the domain \"127.0.0.1\" isn't in the list of published domains for kit \"2019345_552027c5e4b0f588f511dc72\".",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:34085/api/census/RecordHit",
+        "404 http://127.0.0.1:34085/api/census/button-render",
+        "404 http://127.0.0.1:34085/api/census/button-render"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 0,
+      "desbordeX": 0,
+      "h1": 0,
+      "imagenes": 2,
+      "rotas": [
+        "https://images.squarespace-cdn.comassets/externo/images.squarespace-cdn.com/content/v1/552027c5e4b0f588f511dc72/d8d86928-96f4-4a1c-870d-2e696df1e632/AMICI-3823.jpg?format=1500w",
+        "https://images.squarespace-cdn.comassets/externo/images.squarespace-cdn.com/content/v1/552027c5e4b0f588f511dc72/37fd01a1-0648-49aa-ab2c-6673f359ea55/logowall.jpg?format=2500w"
+      ],
+      "sinAlt": 0,
+      "titulo": "Esencia Yoga Spa",
+      "errores": [
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Typekit: the domain \"127.0.0.1\" isn't in the list of published domains for kit \"2019345_552027c5e4b0f588f511dc72\".",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:34085/api/census/RecordHit",
+        "404 http://127.0.0.1:34085/api/census/button-render",
+        "404 http://127.0.0.1:34085/api/census/button-render"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 8490,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 29,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Esencia Yoga Spa | Yoga, spa y jacuzzi en San Miguel de Allende",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 13673,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 29,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Esencia Yoga Spa | Yoga, spa y jacuzzi en San Miguel de Allende",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

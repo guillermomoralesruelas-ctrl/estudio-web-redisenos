@@ -24,7 +24,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 18 | 373-ensenadafishingcharter | Descartado, `sitio-reciente` | (este commit) | — (Squarespace en inglés al día en 2026, con reservas) | — | — | — |
 | 19 | 377-equilibratenutriciony | Descartado, `sitio-reciente` | (este commit) | — (sitio nuevo con precios 2026, PayPal y app web) | — | — | — |
 | 20 | 385-escueladegastronomia | Descartado, `pocas-fotos` | (este commit) | — (5 fotos en círculo y temarios en imagen; sitio satélite de EMCEBAR) | — | — | — |
-| 21 | 389-esenciayogaspa | Pendiente | — | — | — | — | — |
+| 21 | 389-esenciayogaspa | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 8,490 / 13,673 px | "¿Cuántas clases al mes?" y selector efectivo/tarjeta en toda la página | ALTA | Formularios que no envían; texto de plantilla visible |
 | 22 | 408-ezenciastudiopilates | Pendiente | — | — | — | — | — |
 | 23 | 455-goldensgym | Pendiente | — | — | — | — | — |
 | 24 | 467-greenyogacondesa | Pendiente | — | — | — | — | — |

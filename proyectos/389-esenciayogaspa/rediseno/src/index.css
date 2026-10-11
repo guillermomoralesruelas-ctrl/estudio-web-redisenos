@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "@fontsource-variable/nunito-sans/wght.css";
+@import "@fontsource/marcellus/400.css";
+
+@theme {
+  /* Esencia: el turquesa de su fachada, el rosa del loto y el muro terracota de San Miguel */
+  --color-turquesa: #2AAFB8;     /* fondos y detalles */
+  --color-turquesa-osc: #0E6B72; /* AA con blanco */
+  --color-rosa: #C2266A;         /* AA con blanco */
+  --color-rosa-claro: #F7DCE7;
+  --color-terracota: #B5452A;
+  --color-cal: #FBF7F1;
+  --color-cal-2: #F1E9DD;
+  --color-tinta: #1E2627;
+  --color-gris: #59605F;
+
+  --font-display: "Marcellus", Georgia, serif;
+  --font-sans: "Nunito Sans Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.08; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-rosa); outline-offset: 3px; }
+  input[type="range"] { accent-color: var(--color-rosa); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-bold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-rosa { @apply btn bg-rosa text-white hover:bg-[#A11E57]; }
+  .btn-turquesa { @apply btn bg-turquesa-osc text-white hover:bg-[#0A5459]; }
+  .btn-linea { @apply btn border-2 border-current hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-extrabold uppercase tracking-[0.22em] text-turquesa-osc; }
+  .chip { @apply rounded-full border border-tinta/20 bg-white px-4 py-2 text-sm font-bold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-turquesa-osc bg-turquesa-osc text-white; }
+}
