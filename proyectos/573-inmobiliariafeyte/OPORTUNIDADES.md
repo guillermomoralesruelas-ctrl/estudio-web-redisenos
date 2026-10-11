@@ -18,7 +18,7 @@
 | 3 | Precios que parecen errores: terrenos a $600 y $1,500, y una bodega en renta publicada en venta a $30,000. | Restan confianza al catálogo. | /properties |
 | 4 | Varias fotos llevan marca de agua de otras inmobiliarias (CEC, Marfil, Verduzco Vende). | Confunde al cliente sobre con quién trata. | /properties |
 | 5 | La portada usa la imagen genérica de la plantilla; sus diez asesores solo aparecen como nombres en mayúsculas en el pie. | Su equipo es su ventaja y casi no se ve. | / |
-| 6 | Los enlaces del menú "¿Quiénes es Feyte Inmobiliaria?", "Propietarios" y "Blog" no llevan a ninguna página propia; además "¿Quiénes es" tiene un error. | Menú que promete y no cumple. | Pie de todas las páginas |
+| 6 | En el menú del pie, "Propietarios" lleva a su Facebook, "¿Quiénes es Feyte Inmobiliaria?" (con error) lleva a Google Maps y el "Blog" es una sola guía en "/nueva-página". | No hay una página que cuente quiénes son ni una para propietarios. | Pie de todas las páginas |
 
 ## Qué le ofrecemos
 
