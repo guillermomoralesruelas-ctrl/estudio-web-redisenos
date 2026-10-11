@@ -1,0 +1,102 @@
+{
+ "andador-papel-picado": [
+  921,
+  614
+ ],
+ "andador": [
+  933,
+  1400
+ ],
+ "calenda": [
+  1400,
+  933
+ ],
+ "calle-fachada": [
+  1050,
+  700
+ ],
+ "dos-matrimoniales": [
+  1400,
+  933
+ ],
+ "dos-queen-individual": [
+  1400,
+  933
+ ],
+ "dos-queen": [
+  1400,
+  788
+ ],
+ "fachada-2": [
+  1400,
+  934
+ ],
+ "fachada": [
+  921,
+  614
+ ],
+ "jardin-etnobotanico": [
+  1357,
+  1400
+ ],
+ "matrimonial-queen": [
+  1200,
+  800
+ ],
+ "matrimonial": [
+  1400,
+  934
+ ],
+ "mole": [
+  1400,
+  933
+ ],
+ "museo": [
+  1050,
+  1400
+ ],
+ "pasillo": [
+  1024,
+  596
+ ],
+ "patio": [
+  1024,
+  765
+ ],
+ "queen": [
+  1200,
+  800
+ ],
+ "recepcion": [
+  1400,
+  932
+ ],
+ "santo-domingo-interior": [
+  931,
+  1400
+ ],
+ "santo-domingo": [
+  933,
+  1400
+ ],
+ "suite-mitla-b": [
+  1400,
+  933
+ ],
+ "suite-mitla": [
+  1400,
+  933
+ ],
+ "suite-yagul": [
+  1400,
+  934
+ ],
+ "terraza": [
+  1200,
+  800
+ ],
+ "tres-camas": [
+  1200,
+  800
+ ]
+}

@@ -31,7 +31,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-9.md`, armado y clonado en la nube el 2
 | 25 | 476-gruponavierode | Descartado, `sitio-reciente` | (este commit) | — (Next.js reciente con tours, precios y reservas) | — | — | — |
 | 26 | 482-haciendasotutade | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 9,141 / 15,477 px | "El Anillo de los Cenotes": la hacienda sobre el borde de Chicxulub y sus 15 cenotes | ALTA | Textos de relleno de plantilla en la página del hotel |
 | 27 | 517-hotelboutiquespa | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 10,589 / 15,990 px | "¿Cuántos vienen?": buscador de sus 17 habitaciones por adultos, niños y extras | ALTA | WhatsApp del inicio roto y textos de relleno de plantilla |
-| 28 | 534-hotelmaela | Pendiente | — | — | — | — | — |
+| 28 | 534-hotelmaela | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 7,334 / 11,800 px | "Oaxaca a la medida de tus pasos": regla de distancias desde el hotel | ALTA | WhatsApp roto y textos de relleno de plantilla |
 | 29 | 568-indigopilatesand | Pendiente | — | — | — | — | — |
 | 30 | 610-khemspa | Pendiente | — | — | — | — | — |
 
