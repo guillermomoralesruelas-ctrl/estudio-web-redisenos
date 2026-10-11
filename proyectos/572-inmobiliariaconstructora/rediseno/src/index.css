@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "@fontsource-variable/montserrat/wght.css";
+@import "@fontsource-variable/source-sans-3/wght.css";
+
+@theme {
+  /* CDG Buildings: el dorado y el gris de su logotipo, y el azul del Golfo frente a la isla */
+  --color-dorado: #CFAE6C;      /* del logotipo; solo de fondo o sobre carbón */
+  --color-bronce: #7D5F25;      /* dorado oscurecido, AA sobre blanco */
+  --color-carbon: #2F2F31;
+  --color-golfo: #0D4A57;
+  --color-golfo-2: #0A3A45;
+  --color-arena: #F7F4EE;
+  --color-arena-2: #ECE6DA;
+  --color-tinta: #1E1F21;
+  --color-gris: #5A5C60;
+
+  --font-display: "Montserrat Variable", "Segoe UI", sans-serif;
+  --font-sans: "Source Sans 3 Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.08; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-golfo); outline-offset: 3px; }
+  input[type="range"] { accent-color: var(--color-golfo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3.5 text-sm font-bold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-dorado { @apply btn bg-dorado text-carbon hover:bg-[#DCC28E]; }
+  .btn-golfo { @apply btn bg-golfo text-white hover:bg-golfo-2; }
+  .btn-linea { @apply btn border-2 border-current hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.2em] text-bronce; }
+  .chip { @apply rounded-lg border border-tinta/20 bg-white px-4 py-2 text-sm font-semibold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-golfo bg-golfo text-white; }
+}
