@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "@fontsource-variable/cormorant/wght.css";
+@import "@fontsource-variable/jost/wght.css";
+
+@theme {
+  /* GlobalKey: la llave dorada y las letras negras de su logotipo */
+  --color-oro: #C9973F;         /* de la llave; fondos y sobre negro */
+  --color-bronce: #8A6421;      /* oro oscurecido, AA sobre marfil */
+  --color-negro: #121212;
+  --color-negro-2: #1F1E1C;
+  --color-marfil: #F7F3EC;
+  --color-marfil-2: #ECE4D6;
+  --color-tinta: #1A1917;
+  --color-gris: #5D5A55;
+
+  --font-display: "Cormorant Variable", Georgia, serif;
+  --font-sans: "Jost Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-marfil text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.02; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-bronce); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-medium uppercase leading-none tracking-[0.14em] transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-oro { @apply btn bg-oro text-negro hover:bg-[#D9AE62]; }
+  .btn-negro { @apply btn bg-negro text-white hover:bg-negro-2; }
+  .btn-linea { @apply btn border border-current hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-medium uppercase tracking-[0.28em] text-bronce; }
+}

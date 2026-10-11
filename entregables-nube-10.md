@@ -13,7 +13,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 7 | 573-inmobiliariafeyte | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,913 / 8,551 px | "Precio contra metros": gráfica de 414 casas con tope | MEDIA | WhatsApp sin 52; catálogo mezclado |
 | 8 | 478-guiacasasy | Descartado, `sin-fotos` | (este commit) | — (plantilla sin identidad propia; catálogo de la red) | — | — | — |
 | 9 | 474-grupoinmobiliarioelite | Descartado, `sitio-reciente` | (este commit) | — (sitio corporativo de 2025) | — | — | — |
-| 10 | 450-globalkeyreal | Pendiente | — | — | — | — | — |
+| 10 | 450-globalkeyreal | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,942 / 7,325 px | Selector de estrategia de inversión con conteo y entrada | MEDIA | Páginas "nueva-página"; sin guía por estrategia |
 | 11 | 42-ampicolimaclubsantiago | Pendiente | — | — | — | — | — |
 | 12 | 475-grupoinsapropiedades | Pendiente | — | — | — | — | — |
 | 13 | 152-carsainmobiliaria | Pendiente | — | — | — | — | — |
