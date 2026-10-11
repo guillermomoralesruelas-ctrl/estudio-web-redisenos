@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "@fontsource-variable/outfit/wght.css";
+@import "@fontsource-variable/dm-sans/wght.css";
+
+@theme {
+  /* IG Capital: el negro y el verde lima de su espiral, y la cantera clara de las fachadas de Zibatá */
+  --color-carbon: #141613;
+  --color-carbon-2: #252a22;
+  --color-lima: #DAEF75;        /* del logotipo; solo sobre carbón */
+  --color-musgo: #4A6416;       /* lima oscurecido, AA con blanco */
+  --color-cantera: #F4F1EA;
+  --color-cantera-2: #E7E1D4;
+  --color-tinta: #1B1D19;
+  --color-gris: #5C6058;
+
+  --font-display: "Outfit Variable", "Segoe UI", sans-serif;
+  --font-sans: "DM Sans Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cantera text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.05; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-musgo); outline-offset: 3px; }
+  input[type="range"] { accent-color: var(--color-musgo); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-bold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-lima { @apply btn bg-lima text-carbon hover:bg-[#E6F59C]; }
+  .btn-carbon { @apply btn bg-carbon text-white hover:bg-carbon-2; }
+  .btn-linea { @apply btn border-2 border-current hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.22em] text-musgo; }
+  .chip { @apply rounded-full border border-tinta/20 bg-white px-4 py-2 text-sm font-semibold transition-colors; }
+  .chip[aria-pressed="true"] { @apply border-carbon bg-carbon text-lima; }
+}

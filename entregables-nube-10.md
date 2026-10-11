@@ -5,7 +5,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | # | Carpeta | Resultado | Commit | QA (escritorio / celular) | Elemento memorable | Prioridad | Hallazgo principal |
 |---|---|---|---|---|---|---|---|
 | 1 | 532-hotelklimt | Descartado, `sitio-reciente` | (este commit) | — (WordPress 7.1 al día con reservas WuBook, precios y reseñas de 2026; parte de una cadena) | — | — | — |
-| 2 | 563-igcapital | Pendiente | — | — | — | — | — |
+| 2 | 563-igcapital | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,049 / 13,993 px | "La escalera de Zibatá": 28 casas como barras por precio con tope | MEDIA | Plantilla de EasyBroker sin dirección; WhatsApp sin 52 |
 | 3 | 488-hausrealestate | Pendiente | — | — | — | — | — |
 | 4 | 576-innovacioninmobiliaria | Pendiente | — | — | — | — | — |
 | 5 | 464-greathomesrs | Pendiente | — | — | — | — | — |
