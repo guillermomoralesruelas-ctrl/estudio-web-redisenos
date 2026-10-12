@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "@fontsource-variable/lexend/wght.css";
+@import "@fontsource-variable/figtree/wght.css";
+
+@theme {
+  /* CARSA: el azul y el gris carbón de su logotipo, sobre el tono arena del valle de Mexicali */
+  --color-azul: #0B5592;       /* del logotipo; AA con blanco */
+  --color-azul-2: #083F6E;
+  --color-carbon: #2E2F33;     /* letras "CARSA" */
+  --color-arena: #F5F0E7;
+  --color-arena-2: #E8DFCF;
+  --color-teja: #A84B22;       /* acento cálido; AA con blanco y sobre arena */
+  --color-teja-2: #8C3D1A;
+  --color-gris: #5B5D63;
+
+  --font-display: "Lexend Variable", "Segoe UI", sans-serif;
+  --font-sans: "Figtree Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-carbon antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.08; letter-spacing: -0.025em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-teja); outline-offset: 3px; }
+  select { font: inherit; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3.5 text-sm font-bold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-azul { @apply btn bg-azul text-white hover:bg-azul-2; }
+  .btn-teja { @apply btn bg-teja text-white hover:bg-teja-2; }
+  .btn-linea { @apply btn border-2 border-current hover:bg-white/10; }
+  .chip { @apply rounded-lg border border-carbon/20 bg-white px-4 py-2 text-sm font-semibold transition-colors hover:border-azul; }
+  .chip[aria-pressed="true"] { @apply border-azul bg-azul text-white; }
+}

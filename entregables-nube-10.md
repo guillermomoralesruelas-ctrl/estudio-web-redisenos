@@ -16,7 +16,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 10 | 450-globalkeyreal | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,942 / 7,325 px | Selector de estrategia de inversión con conteo y entrada | MEDIA | Páginas "nueva-página"; sin guía por estrategia |
 | 11 | 42-ampicolimaclubsantiago | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 7,174 / 9,389 px | "¿Tu asesor es socio AMPI?": buscador sobre 43 socios | MEDIA | Correos mal escritos en el directorio; sin buscador |
 | 12 | 475-grupoinsapropiedades | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 7,444 / 13,438 px | "¿Para qué necesitas el avalúo?": hoja de trámite con papeles y tarifa | MEDIA | Avalúos en cuatro páginas; cifras de experiencia distintas |
-| 13 | 152-carsainmobiliaria | Pendiente | — | — | — | — | — |
+| 13 | 152-carsainmobiliaria | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,721 / 8,098 px | "Dos casas, lado a lado": comparador de 40 casas con WhatsApp | MEDIA | Portada con propiedades ajenas; Asesores vacío |
 | 14 | 523-hotelcelayamexico | Descartado, `cadena` | (este commit) | — (Cadena: 5 hoteles México Plaza más Hyatt y propiedades en San Miguel) | — | — | — |
 | 15 | 618-lab | Pendiente | — | — | — | — | — |
 | 16 | 473-grupofractal | Pendiente | — | — | — | — | — |
