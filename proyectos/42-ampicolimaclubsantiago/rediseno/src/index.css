@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "@fontsource-variable/outfit/wght.css";
+@import "@fontsource/source-serif-4/latin-400.css";
+@import "@fontsource/source-serif-4/latin-400-italic.css";
+@import "@fontsource/source-serif-4/latin-600.css";
+
+@theme {
+  /* AMPI Colima: el verde de su bandera y su marca, con el azul marino de sus anuncios */
+  --color-verde: #0E6B3F;
+  --color-verde-2: #0A5432;
+  --color-menta: #CFE8D8;
+  --color-marino: #16233F;
+  --color-papel: #F4F5F0;
+  --color-tinta: #17201B;
+  --color-gris: #55605A;
+  --color-losa: #E4E8E2;
+
+  --font-display: "Outfit Variable", "Segoe UI", sans-serif;
+  --font-serif: "Source Serif 4", Georgia, serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-tinta antialiased; font-family: var(--font-serif); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-verde); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-medium leading-none transition-colors; font-family: var(--font-display); }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[78rem] px-5 sm:px-8; }
+  .btn-verde { @apply btn bg-verde text-white hover:bg-verde-2; }
+  .btn-blanco { @apply btn bg-white text-verde hover:bg-menta; }
+  .btn-linea { @apply btn border border-current hover:bg-black/5; }
+  .chip { @apply rounded-full border border-tinta/20 px-4 py-2 text-sm transition-colors; font-family: var(--font-display); }
+  .chip-on { @apply border-verde bg-verde text-white; }
+  .eyebrow { @apply text-sm font-medium text-verde; font-family: var(--font-display); }
+}

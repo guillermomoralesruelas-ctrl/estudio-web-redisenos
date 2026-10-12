@@ -14,7 +14,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 8 | 478-guiacasasy | Descartado, `sin-fotos` | (este commit) | — (plantilla sin identidad propia; catálogo de la red) | — | — | — |
 | 9 | 474-grupoinmobiliarioelite | Descartado, `sitio-reciente` | (este commit) | — (sitio corporativo de 2025) | — | — | — |
 | 10 | 450-globalkeyreal | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,942 / 7,325 px | Selector de estrategia de inversión con conteo y entrada | MEDIA | Páginas "nueva-página"; sin guía por estrategia |
-| 11 | 42-ampicolimaclubsantiago | Pendiente | — | — | — | — | — |
+| 11 | 42-ampicolimaclubsantiago | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 7,174 / 9,389 px | "¿Tu asesor es socio AMPI?": buscador sobre 43 socios | MEDIA | Correos mal escritos en el directorio; sin buscador |
 | 12 | 475-grupoinsapropiedades | Pendiente | — | — | — | — | — |
 | 13 | 152-carsainmobiliaria | Pendiente | — | — | — | — | — |
 | 14 | 523-hotelcelayamexico | Descartado, `cadena` | (este commit) | — (Cadena: 5 hoteles México Plaza más Hyatt y propiedades en San Miguel) | — | — | — |
