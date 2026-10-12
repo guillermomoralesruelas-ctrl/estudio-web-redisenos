@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import "@fontsource-variable/sora/wght.css";
+@import "@fontsource/ibm-plex-sans/latin-400.css";
+@import "@fontsource/ibm-plex-sans/latin-500.css";
+@import "@fontsource/ibm-plex-sans/latin-600.css";
+@import "@fontsource/ibm-plex-mono/latin-400.css";
+@import "@fontsource/ibm-plex-mono/latin-500.css";
+
+@theme {
+  /* Grupo INSA: el morado de su logotipo (#440099) y el azul violeta de su degradado; papel para el dictamen; azul del Pacífico */
+  --color-insa: #440099;        /* botones, títulos de acento; AA sobre blanco y papel */
+  --color-insa-2: #3B3FC0;      /* azul violeta del logotipo */
+  --color-insa-claro: #B9B3FF;  /* acento sobre fondo noche */
+  --color-noche: #170B35;
+  --color-noche-2: #24164D;
+  --color-papel: #F7F5F0;
+  --color-papel-2: #ECE8DE;
+  --color-dictamen: #FFFDF7;
+  --color-tinta: #1B1830;
+  --color-gris: #57536A;
+  --color-mar: #0B5F6E;         /* AA sobre blanco */
+
+  --font-display: "Sora Variable", "Segoe UI", sans-serif;
+  --font-sans: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 650; line-height: 1.05; letter-spacing: -0.025em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-insa-2); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-insa { @apply btn bg-insa text-white hover:bg-insa-2; }
+  .btn-blanco { @apply btn bg-white text-insa hover:bg-papel-2; }
+  .btn-linea { @apply btn border-2 border-current hover:bg-insa/5; }
+  .eyebrow { @apply font-mono text-xs font-medium uppercase tracking-[0.2em] text-insa; }
+}
+
+@keyframes sello { from { opacity: 0; transform: rotate(-14deg) scale(1.35); } to { opacity: 1; transform: rotate(-9deg) scale(1); } }
+.sello { animation: sello 0.45s cubic-bezier(.2,.8,.3,1.2) both; }
+@keyframes hoja { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.hoja { animation: hoja 0.35s ease-out both; }
