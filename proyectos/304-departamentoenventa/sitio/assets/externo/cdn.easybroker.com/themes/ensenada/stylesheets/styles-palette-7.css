@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #0253A2;
+  --primary-dark-color: #00366d;
+}
+
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus,
+.btn-primary,
+.btn-default,
+.input-button {
+  background: var(--color-button_background, #EB1716);
+}

@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #F4B414;
+  --primary-dark-color: #ac7f0d;
+}
+
+#hero:after,
+.body-footer {
+  background: var(--color-button_background, #111);
+}

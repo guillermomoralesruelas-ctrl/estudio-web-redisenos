@@ -1,0 +1,13 @@
+.elementor-editor-active .wrapper {
+  padding-top: 138px;
+}
+.elementor-editor-active .element-anim-1 {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+.elementor-editor-active .text-anim-1 .char,
+.elementor-editor-active .text-anim-1 .word,
+.elementor-editor-active .text-anim-1 .line {
+  opacity: 1;
+	transform: translate3d(0,0,0);
+}

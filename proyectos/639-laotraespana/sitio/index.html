@@ -1,0 +1,1866 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<base href="./">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="La Otra España — Auténtica cocina española en San Luis Potosí. Tapas, paellas, postres y más en Plaza El Dorado. Reserva tu mesa por WhatsApp.">
+  <meta name="theme-color" content="#E63946">
+  <meta property="og:title" content="La Otra España | Restaurante Español en San Luis Potosí">
+  <meta property="og:description" content="Auténtica cocina española en el corazón de San Luis Potosí. Ingredientes frescos, recetas tradicionales, ambiente acogedor.">
+  <meta property="og:type" content="restaurant">
+  <title>La Otra España | Restaurante Español en San Luis Potosí</title>
+
+  <!-- SEO: Structured Data para Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "La Otra España",
+    "description": "Auténtica cocina española en San Luis Potosí. Tapas, paellas, postres y más en Plaza El Dorado.",
+    "url": "https://la-otra-espana.vercel.app",
+    "telephone": "+524441250024",
+    "image": "https://la-otra-espana.vercel.appassets/tapaespanola.jpg",
+    "servesCuisine": "Española",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av Nereo Rodríguez Barragán 450, Local ULC18B1, Plaza El Dorado",
+      "addressLocality": "San Luis Potosí",
+      "addressRegion": "SLP",
+      "postalCode": "78200",
+      "addressCountry": "MX"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 22.1565,
+      "longitude": -100.998
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Monday",
+        "opens": "08:30",
+        "closes": "14:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "08:30",
+        "closes": "23:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/laotraespana"
+    ],
+    "menu": "https://la-otra-espana.vercel.app/#menu",
+    "hasMap": "https://maps.google.com/?q=Plaza+El+Dorado,+Av+Nereo+Rodriguez+Barragan+450,+San+Luis+Potosi"
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.comassets/externo/fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ─────────────────────────────────────────────
+       DESIGN TOKENS
+    ───────────────────────────────────────────── */
+    :root {
+      --red:          #E63946;
+      --red-dark:     #C0303D;
+      --red-deeper:   #8B1F25;
+      --red-light:    #FDECEA;
+      --gold:         #F4A261;
+      --gold-dark:    #D4843F;
+      --dark:         #1A0A08;
+      --text:         #2C1810;
+      --text-muted:   #7A5A52;
+      --cream:        #FDF6F0;
+      --cream-dark:   #F0E4D8;
+      --white:        #FFFFFF;
+      --border:       rgba(230,57,70,.12);
+      --shadow-sm:    0 2px 12px rgba(44,24,16,.08);
+      --shadow-md:    0 8px 32px rgba(44,24,16,.13);
+      --shadow-lg:    0 24px 64px rgba(44,24,16,.17);
+      --ease-out:     cubic-bezier(0.23,1,0.32,1);
+      --ease-in-out:  cubic-bezier(0.77,0,0.175,1);
+      --nav-h:        72px;
+    }
+
+    /* ─────────────────────────────────────────────
+       RESET & BASE
+    ───────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    body {
+      font-family: 'Karla', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+    a   { color: inherit; text-decoration: none; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+      html { scroll-behavior: auto; }
+    }
+
+    /* ─────────────────────────────────────────────
+       UTILITIES
+    ───────────────────────────────────────────── */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin-inline: auto;
+      padding-inline: clamp(1.25rem, 5vw, 3rem);
+    }
+
+    .sr-only {
+      position: absolute; width: 1px; height: 1px;
+      padding: 0; margin: -1px; overflow: hidden;
+      clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+
+    .section-label {
+      display: inline-block;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: .75rem;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display SC', serif;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 700;
+      color: var(--dark);
+      line-height: 1.1;
+    }
+
+    .star-divider {
+      display: flex;
+      align-items: center;
+      gap: .875rem;
+      margin: 1.25rem 0;
+    }
+    .star-divider::before,
+    .star-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+    .star-divider svg { flex-shrink: 0; color: var(--gold); }
+
+    /* ─────────────────────────────────────────────
+       SCROLL REVEAL
+    ───────────────────────────────────────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 620ms var(--ease-out), transform 620ms var(--ease-out);
+    }
+    .reveal.visible  { opacity: 1; transform: translateY(0); }
+
+    .reveal-left {
+      opacity: 0;
+      transform: translateX(-32px);
+      transition: opacity 620ms var(--ease-out), transform 620ms var(--ease-out);
+    }
+    .reveal-left.visible { opacity: 1; transform: translateX(0); }
+
+    .reveal-right {
+      opacity: 0;
+      transform: translateX(32px);
+      transition: opacity 620ms var(--ease-out), transform 620ms var(--ease-out);
+    }
+    .reveal-right.visible { opacity: 1; transform: translateX(0); }
+
+    .d1 { transition-delay:  80ms; }
+    .d2 { transition-delay: 160ms; }
+    .d3 { transition-delay: 240ms; }
+    .d4 { transition-delay: 320ms; }
+    .d5 { transition-delay: 400ms; }
+
+    /* ─────────────────────────────────────────────
+       BUTTONS
+    ───────────────────────────────────────────── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .625rem;
+      padding: .875rem 1.875rem;
+      border-radius: 4px;
+      font-family: 'Karla', sans-serif;
+      font-size: .9375rem;
+      font-weight: 600;
+      letter-spacing: .02em;
+      cursor: pointer;
+      border: none;
+      white-space: nowrap;
+      transition:
+        transform 160ms var(--ease-out),
+        box-shadow 160ms var(--ease-out),
+        background-color 160ms var(--ease-out),
+        border-color 160ms var(--ease-out),
+        color 160ms var(--ease-out),
+        opacity 160ms var(--ease-out);
+    }
+
+    @media (hover: hover) and (pointer: fine) {
+      .btn:hover { transform: translateY(-2px); }
+    }
+    .btn:active { transform: scale(.97) !important; }
+
+    .btn-primary {
+      background: var(--red);
+      color: var(--white);
+      box-shadow: 0 4px 16px rgba(230,57,70,.32);
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .btn-primary:hover {
+        background: var(--red-dark);
+        box-shadow: 0 6px 24px rgba(230,57,70,.42);
+      }
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid rgba(255,255,255,.55);
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .btn-ghost:hover {
+        background: rgba(255,255,255,.1);
+        border-color: var(--white);
+      }
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--red);
+      border: 2px solid var(--red);
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .btn-outline:hover {
+        background: var(--red);
+        color: var(--white);
+      }
+    }
+
+    .btn-wa {
+      background: #25D366;
+      color: var(--white);
+      box-shadow: 0 4px 16px rgba(37,211,102,.32);
+      font-size: 1.0625rem;
+      padding: 1rem 2.25rem;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .btn-wa:hover {
+        background: #1DA851;
+        box-shadow: 0 6px 24px rgba(37,211,102,.42);
+      }
+    }
+
+    .btn-ig {
+      background: linear-gradient(135deg, #833AB4, #FD1D1D, #FCAF45);
+      color: var(--white);
+      box-shadow: 0 4px 16px rgba(253,29,29,.28);
+      font-size: 1.0625rem;
+      padding: 1rem 2.25rem;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .btn-ig:hover {
+        opacity: .88;
+        box-shadow: 0 6px 24px rgba(253,29,29,.38);
+      }
+    }
+
+    /* ─────────────────────────────────────────────
+       NAVIGATION
+    ───────────────────────────────────────────── */
+    .nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      height: var(--nav-h);
+      transition:
+        background 280ms var(--ease-out),
+        backdrop-filter 280ms var(--ease-out),
+        box-shadow 280ms var(--ease-out);
+    }
+
+    .nav.scrolled {
+      background: rgba(253,246,240,.92);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    .nav-logo {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 1.375rem;
+      font-weight: 700;
+      color: var(--white);
+      transition: color 280ms;
+      cursor: pointer;
+    }
+    .nav-logo em { color: var(--red); font-style: normal; }
+    .nav.scrolled .nav-logo { color: var(--dark); }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+    .nav-links a {
+      font-size: .875rem;
+      font-weight: 600;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.88);
+      transition: color 200ms;
+      cursor: pointer;
+    }
+    .nav.scrolled .nav-links a { color: var(--text-muted); }
+    .nav-links a:hover { color: var(--red) !important; }
+
+    .nav-cta-btn {
+      font-size: .8125rem;
+      padding: .625rem 1.25rem;
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 6px;
+      width: 40px;
+      height: 40px;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition:
+        background 280ms,
+        transform 280ms var(--ease-out),
+        opacity 200ms;
+    }
+    .nav.scrolled .hamburger span { background: var(--dark); }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Mobile overlay */
+    .nav-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: var(--dark);
+      z-index: 99;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2.5rem;
+    }
+    .nav-overlay.open { display: flex; }
+    .nav-overlay a {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 1.75rem;
+      color: var(--white);
+      transition: color 200ms;
+      cursor: pointer;
+    }
+    .nav-overlay a:hover { color: var(--gold); }
+    .nav-overlay-close {
+      position: absolute;
+      top: 1.5rem; right: 1.5rem;
+      background: none; border: none;
+      color: rgba(255,255,255,.7);
+      cursor: pointer;
+      padding: 8px;
+      transition: color 200ms;
+    }
+    .nav-overlay-close:hover { color: var(--white); }
+
+    @media (max-width: 768px) {
+      .nav-links, .nav-cta-btn { display: none; }
+      .hamburger { display: flex; }
+    }
+
+    /* ─────────────────────────────────────────────
+       HERO
+    ───────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height: 100svh;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('https://images.unsplash.comassets/externo/images.unsplash.com/photo-1534080564583-6be75777b70a?w=1920&q=85&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center 40%;
+      transform: scale(1.06);
+      will-change: transform;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        140deg,
+        rgba(13,13,13,.80) 0%,
+        rgba(26,10,8,.68) 45%,
+        rgba(139,31,37,.38) 100%
+      );
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 820px;
+      padding-top: var(--nav-h);
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: .875rem;
+      font-size: .8125rem;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+      opacity: 0;
+      animation: heroFadeIn 800ms 300ms var(--ease-out) forwards;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      display: block;
+      width: 36px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .hero-title {
+      font-family: 'Playfair Display SC', serif;
+      font-size: clamp(3.25rem, 10vw, 7.5rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: .92;
+      margin-bottom: .5rem;
+      text-shadow: 0 4px 40px rgba(0,0,0,.28);
+      opacity: 0;
+      animation: heroFadeIn 900ms 480ms var(--ease-out) forwards;
+    }
+    .hero-title-red { color: var(--red); }
+
+    .hero-tagline {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+      color: rgba(255,255,255,.82);
+      line-height: 1.4;
+      margin-bottom: 2.75rem;
+      opacity: 0;
+      animation: heroFadeIn 900ms 680ms var(--ease-out) forwards;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      opacity: 0;
+      animation: heroFadeIn 900ms 860ms var(--ease-out) forwards;
+    }
+
+    @keyframes heroFadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 2.25rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .5rem;
+      color: rgba(255,255,255,.55);
+      font-size: .6875rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: none;
+      background: none;
+      animation: scrollPulse 2.4s var(--ease-in-out) infinite 1.5s;
+    }
+    .hero-scroll svg { animation: scrollBob 2.4s var(--ease-in-out) infinite 1.5s; }
+
+    @keyframes scrollPulse {
+      0%,100% { opacity: .55; }
+      50%      { opacity: .9; }
+    }
+    @keyframes scrollBob {
+      0%,100% { transform: translateY(0); }
+      50%      { transform: translateY(5px); }
+    }
+
+    /* ─────────────────────────────────────────────
+       ABOUT
+    ───────────────────────────────────────────── */
+    .about {
+      padding: clamp(5rem,10vw,8rem) 0;
+      background: var(--white);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .about-text p {
+      font-size: 1.0625rem;
+      color: var(--text-muted);
+      line-height: 1.82;
+      margin-top: 1.25rem;
+    }
+    .about-text p.lead {
+      font-size: 1.1875rem;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .about-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .875rem;
+      background: var(--red-light);
+      border: 1px solid rgba(230,57,70,.18);
+      border-radius: 4px;
+      padding: 1rem 1.375rem;
+      margin-top: 2rem;
+    }
+    .about-badge svg { color: var(--red); flex-shrink: 0; }
+    .about-badge-body { }
+    .about-badge-title {
+      font-size: .875rem;
+      font-weight: 700;
+      color: var(--red-deeper);
+      line-height: 1.3;
+    }
+    .about-badge-sub {
+      font-size: .8125rem;
+      color: var(--text-muted);
+      margin-top: .125rem;
+    }
+
+    .about-btn { margin-top: 2.25rem; }
+
+    .about-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: 1rem;
+    }
+
+    .about-img {
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .about-img img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 700ms var(--ease-out);
+    }
+    .about-img:hover img { transform: scale(1.05); }
+
+    .about-img-tall {
+      grid-column: 1;
+      grid-row: 1 / 3;
+      aspect-ratio: 3/4;
+    }
+    .about-img-sm { aspect-ratio: 4/3; }
+
+    @media (max-width: 900px) {
+      .about-grid { grid-template-columns: 1fr; gap: 3rem; }
+      .about-img-tall { grid-column: auto; grid-row: auto; aspect-ratio: 16/10; }
+    }
+
+    /* ─────────────────────────────────────────────
+       MENU
+    ───────────────────────────────────────────── */
+    .menu {
+      padding: clamp(5rem,10vw,8rem) 0;
+      background: var(--cream);
+    }
+
+    .menu-header {
+      text-align: center;
+      max-width: 580px;
+      margin: 0 auto 4rem;
+    }
+    .menu-header p {
+      color: var(--text-muted);
+      font-size: 1.0625rem;
+      line-height: 1.75;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 1.5rem;
+    }
+
+    .menu-card {
+      background: var(--white);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition:
+        box-shadow 280ms var(--ease-out),
+        transform 280ms var(--ease-out);
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .menu-card:hover {
+        box-shadow: var(--shadow-md);
+        transform: translateY(-5px);
+      }
+      .menu-card:hover .menu-card-photo { transform: scale(1.06); }
+    }
+
+    .menu-card-figure {
+      aspect-ratio: 16/10;
+      overflow: hidden;
+      position: relative;
+    }
+    .menu-card-photo {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 700ms var(--ease-out);
+    }
+    .menu-card-figure-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(13,13,13,.52) 0%, transparent 55%);
+    }
+    .menu-card-price-badge {
+      position: absolute;
+      bottom: 1rem; left: 1rem;
+      background: var(--red);
+      color: var(--white);
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      padding: .3rem .75rem;
+      border-radius: 3px;
+    }
+
+    .menu-card-body { padding: 1.75rem; }
+    .menu-card-cat {
+      font-size: .6875rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: .5rem;
+    }
+    .menu-card-name {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 1.3125rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 1.375rem;
+    }
+
+    .dish-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: .625rem;
+    }
+    .dish-item {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      font-size: .9375rem;
+      color: var(--text-muted);
+    }
+    .dish-dot {
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--gold);
+      flex-shrink: 0;
+    }
+
+    .menu-footer { text-align: center; margin-top: 3rem; }
+
+    @media (max-width: 768px) {
+      .menu-grid { grid-template-columns: 1fr; }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .menu-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    /* ─────────────────────────────────────────────
+       HOURS
+    ───────────────────────────────────────────── */
+    .hours {
+      padding: clamp(5rem,10vw,8rem) 0;
+      background: var(--dark);
+      position: relative;
+      overflow: hidden;
+    }
+    .hours::before {
+      content: '';
+      position: absolute;
+      top: -30%; right: -15%;
+      width: 650px; height: 650px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(230,57,70,.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hours::after {
+      content: '';
+      position: absolute;
+      bottom: -20%; left: -10%;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(244,162,97,.05) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hours-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hours-text .section-label { color: var(--gold); }
+    .hours-text .section-title { color: var(--white); }
+    .hours-text p {
+      color: rgba(255,255,255,.62);
+      font-size: 1.0625rem;
+      line-height: 1.8;
+      margin-top: 1.25rem;
+    }
+
+    .hours-table {
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .hours-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.125rem 1.625rem;
+      border-bottom: 1px solid rgba(255,255,255,.05);
+      transition: background 200ms;
+    }
+    .hours-row:last-child { border-bottom: none; }
+    @media (hover: hover) and (pointer: fine) {
+      .hours-row:hover { background: rgba(255,255,255,.04); }
+    }
+
+    .hours-day {
+      display: flex;
+      align-items: center;
+      gap: .875rem;
+      font-weight: 600;
+      color: var(--white);
+      font-size: .9375rem;
+    }
+    .day-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--red);
+      flex-shrink: 0;
+    }
+    .day-dot.gold { background: var(--gold); }
+
+    .hours-time {
+      font-size: .9375rem;
+      color: rgba(255,255,255,.62);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .hours-special {
+      margin-top: 1.75rem;
+      background: linear-gradient(135deg, rgba(230,57,70,.14), rgba(244,162,97,.09));
+      border: 1px solid rgba(244,162,97,.2);
+      border-radius: 8px;
+      padding: 1.625rem;
+    }
+    .hours-special-badge {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--dark);
+      font-size: .6875rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: .3rem .75rem;
+      border-radius: 3px;
+      margin-bottom: .875rem;
+    }
+    .hours-special-title {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 1.125rem;
+      color: var(--gold);
+      margin-bottom: .5rem;
+    }
+    .hours-special-desc {
+      font-size: .9375rem;
+      color: rgba(255,255,255,.72);
+      line-height: 1.65;
+    }
+
+    @media (max-width: 800px) {
+      .hours-grid { grid-template-columns: 1fr; gap: 2.75rem; }
+    }
+
+    /* ─────────────────────────────────────────────
+       LOCATION
+    ───────────────────────────────────────────── */
+    .location {
+      padding: clamp(5rem,10vw,8rem) 0;
+      background: var(--white);
+    }
+
+    .location-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .location-info .section-title { margin-bottom: 1.75rem; }
+
+    .location-detail {
+      display: flex;
+      gap: 1.125rem;
+      margin-bottom: 1.625rem;
+    }
+    .detail-icon {
+      width: 44px; height: 44px;
+      border-radius: 6px;
+      background: var(--red-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--red);
+      flex-shrink: 0;
+    }
+    .detail-label {
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: .25rem;
+    }
+    .detail-value {
+      font-size: .9375rem;
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .detail-value a {
+      color: var(--red);
+      font-weight: 600;
+      transition: color 200ms;
+    }
+    .detail-value a:hover { color: var(--red-dark); }
+
+    .location-map-wrap {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      aspect-ratio: 4/3;
+    }
+    .location-map-wrap iframe {
+      width: 100%; height: 100%;
+      border: none;
+      display: block;
+    }
+
+    @media (max-width: 800px) {
+      .location-grid { grid-template-columns: 1fr; }
+      .location-map-wrap { order: -1; }
+    }
+
+    /* ─────────────────────────────────────────────
+       CTA SECTION
+    ───────────────────────────────────────────── */
+    .cta {
+      padding: clamp(5rem,10vw,8rem) 0;
+      background: linear-gradient(140deg, var(--red-deeper) 0%, #0D0D0D 60%);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+    .cta::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url('https://images.unsplash.comassets/externo/images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=60&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+      opacity: .07;
+    }
+
+    .cta-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 660px;
+      margin: 0 auto;
+    }
+    .cta-eyebrow {
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.25rem;
+    }
+    .cta-title {
+      font-family: 'Playfair Display SC', serif;
+      font-size: clamp(2rem,5vw,3.25rem);
+      color: var(--white);
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+    .cta-desc {
+      color: rgba(255,255,255,.68);
+      font-size: 1.0625rem;
+      line-height: 1.75;
+      margin-bottom: 2.75rem;
+    }
+    .cta-actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .cta-tel {
+      margin-top: 2rem;
+      font-size: .875rem;
+      color: rgba(255,255,255,.45);
+    }
+    .cta-tel a {
+      color: var(--gold);
+      font-weight: 600;
+      transition: color 200ms;
+    }
+    .cta-tel a:hover { color: var(--white); }
+
+    /* ─────────────────────────────────────────────
+       FOOTER
+    ───────────────────────────────────────────── */
+    .footer {
+      background: #080808;
+      padding: 3.5rem 0 1.75rem;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 3rem;
+      padding-bottom: 2.75rem;
+      border-bottom: 1px solid rgba(255,255,255,.05);
+    }
+
+    .footer-logo {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 1.25rem;
+      color: var(--white);
+      margin-bottom: .75rem;
+    }
+    .footer-logo span { color: var(--red); }
+    .footer-tagline {
+      font-size: .875rem;
+      color: rgba(255,255,255,.4);
+      line-height: 1.72;
+      max-width: 280px;
+      margin-bottom: 1.75rem;
+    }
+    .footer-socials {
+      display: flex;
+      gap: .625rem;
+    }
+    .social-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px; height: 36px;
+      border-radius: 4px;
+      background: rgba(255,255,255,.06);
+      color: rgba(255,255,255,.55);
+      transition:
+        background 200ms,
+        color 200ms,
+        transform 160ms var(--ease-out);
+      cursor: pointer;
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .social-btn:hover {
+        background: var(--red);
+        color: var(--white);
+        transform: translateY(-2px);
+      }
+    }
+    .social-btn:active { transform: scale(.97); }
+
+    .footer-col-label {
+      font-size: .6875rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.32);
+      margin-bottom: 1.25rem;
+    }
+    .footer-col-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: .625rem;
+    }
+    .footer-col-links a {
+      font-size: .875rem;
+      color: rgba(255,255,255,.5);
+      transition: color 200ms;
+      cursor: pointer;
+    }
+    .footer-col-links a:hover { color: var(--white); }
+
+    .footer-address {
+      font-size: .8125rem;
+      color: rgba(255,255,255,.38);
+      line-height: 1.65;
+      margin-top: 1.25rem;
+    }
+
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 1.75rem;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .footer-copy { font-size: .8125rem; color: rgba(255,255,255,.28); }
+    .footer-city { font-size: .8125rem; color: rgba(255,255,255,.22); }
+
+    @media (max-width: 768px) {
+      .footer-grid { grid-template-columns: 1fr; gap: 2.25rem; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; }
+    }
+
+    /* ─────────────────────────────────────────────
+       MOBILE-SPECIFIC FIXES (≤ 480px)
+    ───────────────────────────────────────────── */
+    @media (max-width: 480px) {
+      /* Hero: botones apilados full-width */
+      .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .hero-actions .btn {
+        justify-content: center;
+        text-align: center;
+      }
+
+      /* About: imágenes en columna única */
+      .about-images {
+        grid-template-columns: 1fr;
+      }
+      .about-img-tall { aspect-ratio: 16/9; }
+      .about-img-sm:last-child { display: none; }
+
+      /* About badge: wrap */
+      .about-badge { flex-wrap: wrap; }
+
+      /* CTA: botones full-width */
+      .cta-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .cta-actions .btn {
+        justify-content: center;
+        text-align: center;
+      }
+
+      /* Hours: padding más compacto para que no corte "Miércoles" */
+      .hours-row { padding: .875rem 1rem; }
+      .hours-day { font-size: .875rem; gap: .625rem; }
+      .hours-time { font-size: .8125rem; }
+
+      /* Footer: reducir padding top/bottom */
+      .footer { padding: 2.5rem 0 1.25rem; }
+
+      /* Nav overlay: links más chicos */
+      .nav-overlay a { font-size: 1.5rem; }
+    }
+
+    /* Tablet: centrar la última card del menú */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .menu-card:last-child {
+        grid-column: 1 / -1;
+        max-width: 480px;
+        margin-inline: auto;
+      }
+    }
+
+    /* ─────────────────────────────────────────────
+       FLOATING WHATSAPP
+    ───────────────────────────────────────────── */
+    .wa-fab {
+      position: fixed;
+      bottom: 1.75rem; right: 1.75rem;
+      z-index: 80;
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      background: #25D366;
+      box-shadow: 0 4px 24px rgba(37,211,102,.45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      cursor: pointer;
+      transition:
+        transform 200ms var(--ease-out),
+        box-shadow 200ms var(--ease-out);
+    }
+    @media (hover: hover) and (pointer: fine) {
+      .wa-fab:hover {
+        transform: scale(1.09) translateY(-2px);
+        box-shadow: 0 8px 32px rgba(37,211,102,.55);
+      }
+    }
+    .wa-fab:active { transform: scale(.95) !important; }
+    .wa-fab::before {
+      content: '';
+      position: absolute;
+      inset: -5px;
+      border-radius: 50%;
+      background: rgba(37,211,102,.22);
+      animation: waPulse 2.6s ease-in-out infinite;
+    }
+    @keyframes waPulse {
+      0%,100% { transform: scale(1); opacity: .7; }
+      60%      { transform: scale(1.35); opacity: 0; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ── FLOATING WHATSAPP ──────────────────────── -->
+  <a
+    href="https://wa.me/5214441250024"
+    target="_blank" rel="noopener"
+    class="wa-fab"
+    aria-label="Contactar por WhatsApp"
+  >
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- ── NAVIGATION ────────────────────────────── -->
+  <header>
+    <nav class="nav" id="mainNav" role="navigation" aria-label="Navegación principal">
+      <div class="container nav-inner">
+
+        <a href="#inicio" class="nav-logo" onclick="scrollTo('inicio')" aria-label="La Otra España — Inicio">
+          La <em>Otra</em> España
+        </a>
+
+        <ul class="nav-links" role="list">
+          <li><a href="#nosotros" onclick="scrollTo('nosotros');return false;">Nosotros</a></li>
+          <li><a href="#menu"     onclick="scrollTo('menu');return false;">Menú</a></li>
+          <li><a href="#horarios" onclick="scrollTo('horarios');return false;">Horarios</a></li>
+          <li><a href="#ubicacion" onclick="scrollTo('ubicacion');return false;">Ubicación</a></li>
+        </ul>
+
+        <a
+          href="https://wa.me/5214441250024"
+          target="_blank" rel="noopener"
+          class="btn btn-primary nav-cta-btn"
+        >Reservar Mesa</a>
+
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="mobileNav"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <nav
+    class="nav-overlay"
+    id="mobileNav"
+    role="navigation"
+    aria-label="Menú móvil"
+    aria-hidden="true"
+  >
+    <button class="nav-overlay-close" id="navClose" aria-label="Cerrar menú">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+    <a href="#nosotros" onclick="closeNav();scrollTo('nosotros');return false;">Nosotros</a>
+    <a href="#menu"     onclick="closeNav();scrollTo('menu');return false;">Menú</a>
+    <a href="#horarios" onclick="closeNav();scrollTo('horarios');return false;">Horarios</a>
+    <a href="#ubicacion" onclick="closeNav();scrollTo('ubicacion');return false;">Ubicación</a>
+    <a href="https://wa.me/5214441250024" target="_blank" rel="noopener" onclick="closeNav()">Reservar Mesa</a>
+  </nav>
+
+  <main>
+
+    <!-- ── HERO ──────────────────────────────────── -->
+    <section class="hero" id="inicio" aria-labelledby="heroTitle">
+      <div class="hero-bg" id="heroBg" role="img" aria-label="Paella española tradicional"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-eyebrow">San Luis Potosí, México</p>
+          <h1 class="hero-title" id="heroTitle">
+            La<br>
+            <span class="hero-title-red">Otra</span><br>
+            España
+          </h1>
+          <p class="hero-tagline">
+            Auténtica Cocina Española<br>en el Corazón de San Luis Potosí
+          </p>
+          <div class="hero-actions">
+            <a
+              href="https://wa.me/5214441250024"
+              target="_blank" rel="noopener"
+              class="btn btn-primary"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Reservar Mesa
+            </a>
+            <a href="#menu" onclick="scrollTo('menu');return false;" class="btn btn-ghost">
+              Ver Menú
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="hero-scroll"
+        onclick="scrollTo('nosotros')"
+        aria-label="Desplazar hacia abajo"
+      >
+        <span>Descubrir</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </button>
+    </section>
+
+
+    <!-- ── ABOUT ──────────────────────────────────── -->
+    <section class="about" id="nosotros" aria-labelledby="aboutTitle">
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-text">
+            <span class="section-label reveal">Nuestra Historia</span>
+            <h2 class="section-title reveal d1" id="aboutTitle">
+              Sabores que<br>cruzan el atlántico
+            </h2>
+            <div class="star-divider reveal d2" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+            </div>
+            <p class="lead reveal d2">
+              Experiencia gastronómica española auténtica en el corazón de San Luis Potosí.
+            </p>
+            <p class="reveal d3">
+              Ingredientes frescos traídos de España, recetas que han pasado de generación en generación y un ambiente que te transporta directo a la Península Ibérica. Cada platillo cuenta una historia.
+            </p>
+
+            <div class="about-badge reveal d4">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <div class="about-badge-body">
+                <p class="about-badge-title">Cocina Española Auténtica</p>
+                <p class="about-badge-sub">Ingredientes importados · Recetas tradicionales</p>
+              </div>
+            </div>
+
+            <a
+              href="https://wa.me/5214441250024"
+              target="_blank" rel="noopener"
+              class="btn btn-primary about-btn reveal d5"
+            >
+              Hacer una Reservación
+            </a>
+          </div>
+
+          <div class="about-images">
+            <div class="about-img about-img-tall reveal-left">
+              <img
+                src="https://images.unsplash.comassets/externo/images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=82&auto=format&fit=crop"
+                alt="Interior cálido del restaurante La Otra España"
+                loading="lazy" width="700" height="940"
+              >
+            </div>
+            <div class="about-img about-img-sm reveal d1">
+              <img
+                src="https://images.unsplash.com/photo-1515539408953-9403f070ad2e?w=500&q=82&auto=format&fit=crop"
+                alt="Tapas españolas auténticas"
+                loading="lazy" width="500" height="375"
+              >
+            </div>
+            <div class="about-img about-img-sm reveal d2">
+              <img
+                src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?w=500&q=82&auto=format&fit=crop"
+                alt="Vino y gastronomía española"
+                loading="lazy" width="500" height="375"
+              >
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── MENU ───────────────────────────────────── -->
+    <section class="menu" id="menu" aria-labelledby="menuTitle">
+      <div class="container">
+
+        <div class="menu-header">
+          <span class="section-label reveal">Nuestro Menú</span>
+          <h2 class="section-title reveal d1" id="menuTitle">Lo Mejor de España en tu Mesa</h2>
+          <div class="star-divider reveal d2" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+          <p class="reveal d3">Platillos tradicionales preparados con ingredientes frescos y las recetas más auténticas de la cocina española.</p>
+        </div>
+
+        <div class="menu-grid">
+
+          <!-- Tapas -->
+          <article class="menu-card reveal">
+            <figure class="menu-card-figure">
+              <img
+                class="menu-card-photo"
+                src="tapaespanola.jpg"
+                alt="Tapas españolas con jamón, tomate y albahaca sobre tabla de madera"
+                loading="lazy" width="700" height="437"
+              >
+              <div class="menu-card-figure-overlay" aria-hidden="true"></div>
+              <span class="menu-card-price-badge">Desde $105</span>
+            </figure>
+            <div class="menu-card-body">
+              <p class="menu-card-cat">Especialidades</p>
+              <h3 class="menu-card-name">Tapas Españolas</h3>
+              <ul class="dish-list" role="list">
+                <li class="dish-item"><span class="dish-dot" aria-hidden="true"></span>Bacalao a la Vizcaína</li>
+                <li class="dish-item"><span class="dish-dot" aria-hidden="true"></span>Chorizo español</li>
+                <li class="dish-item"><span class="dish-dot" aria-hidden="true"></span>Jamón serrano</li>
+                <li class="dish-item"><span class="dish-dot" aria-hidden="true"></span>Queso de cabra</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Paellas -->
+          <article class="menu-card reveal d1">
+            <figure class="menu-card-figure">
+              <img
+                class="menu-card-photo"
+                src="https://images.unsplash.comassets/externo/images.unsplash.com/photo-1534080564583-6be75777b70a?w=700&q=82&auto=format&fit=crop"
+                alt="Paella valenciana con mariscos"
+                loading="lazy" width="700" height="437"
+              >
+              <div class="menu-card-figure-overlay" aria-hidden="true"></div>
+              <span class="menu-card-price-badge">Desde $190</span>
+            </figure>
+            <div class="menu-card-body">
+              <p class="menu-card-cat">Platos Principales</p>
+              <h3 class="menu-card-name">Paellas</h3>
+              <ul class="dish-list" role="list">
+                <li class="dish-item"><span class="dish-dot" aria-hidden="true"></span>Paella de mariscos</li>
+                <li class="dish-item"><span class="dish-dot" aria-hidden="true"></span>Paella mixta</li>
+                <li class="dish-item"><span class="dish-dot" aria-hidden="true"></span>Paella vegetariana</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Postres -->
+          <article class="menu-card reveal d2">
+            <figure class="menu-card-figure">
+              <img
+                class="menu-card-photo"
+                src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=700&q=82&auto=format&fit=crop"
+                alt="Postres españoles: tarta de Santiago y arroz con leche"
+                loading="lazy" width="700" height="437"
+              >
+              <div class="menu-card-figure-overlay" aria-hidden="true"></div>
+              <span class="menu-card-price-badge">Desde $65</span>
+            </figure>
+            <div class="menu-card-body">
+              <p class="menu-card-cat">Dulces Finales</p>
+              <h3 class="menu-card-name">Postres</h3>
+              <ul class="dish-list" role="list">
+                <li class="dish-item"><span class="dish-dot" aria-hidden="true"></span>Tarta de Santiago</li>
+                <li class="dish-item"><span class="dish-dot" aria-hidden="true"></span>Brownie con helado</li>
+                <li class="dish-item"><span class="dish-dot" aria-hidden="true"></span>Arroz con leche</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="menu-footer reveal">
+          <a
+            href="https://wa.me/5214441250024"
+            target="_blank" rel="noopener"
+            class="btn btn-outline"
+          >
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+            </svg>
+            Consultar Menú Completo
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ── HOURS ──────────────────────────────────── -->
+    <section class="hours" id="horarios" aria-labelledby="hoursTitle">
+      <div class="container">
+        <div class="hours-grid">
+
+          <div class="hours-text">
+            <span class="section-label reveal">Horarios</span>
+            <h2 class="section-title reveal d1" id="hoursTitle">
+              Abierto para<br>Recibirte
+            </h2>
+            <p class="reveal d2">
+              Ven a disfrutar de la auténtica cocina española cualquier día de la semana — desde el desayuno hasta la cena.
+            </p>
+
+            <div class="hours-special reveal d3">
+              <span class="hours-special-badge">Oferta Especial</span>
+              <p class="hours-special-title">Barra Libre de Tapas</p>
+              <p class="hours-special-desc">
+                Martes, Miércoles y Jueves<br>
+                <strong style="color:var(--gold)">7:00 PM – 10:00 PM</strong>
+              </p>
+            </div>
+          </div>
+
+          <div class="reveal d2" role="table" aria-label="Horarios del restaurante">
+            <div class="hours-table">
+              <div class="hours-row" role="row">
+                <div class="hours-day" role="cell">
+                  <span class="day-dot" aria-hidden="true"></span>Lunes
+                </div>
+                <div class="hours-time" role="cell">8:30 AM – 2:00 PM</div>
+              </div>
+              <div class="hours-row" role="row">
+                <div class="hours-day" role="cell">
+                  <span class="day-dot gold" aria-hidden="true"></span>Martes
+                </div>
+                <div class="hours-time" role="cell">8:30 AM – 11:00 PM</div>
+              </div>
+              <div class="hours-row" role="row">
+                <div class="hours-day" role="cell">
+                  <span class="day-dot gold" aria-hidden="true"></span>Miércoles
+                </div>
+                <div class="hours-time" role="cell">8:30 AM – 11:00 PM</div>
+              </div>
+              <div class="hours-row" role="row">
+                <div class="hours-day" role="cell">
+                  <span class="day-dot gold" aria-hidden="true"></span>Jueves
+                </div>
+                <div class="hours-time" role="cell">8:30 AM – 11:00 PM</div>
+              </div>
+              <div class="hours-row" role="row">
+                <div class="hours-day" role="cell">
+                  <span class="day-dot" aria-hidden="true"></span>Viernes
+                </div>
+                <div class="hours-time" role="cell">8:30 AM – 11:00 PM</div>
+              </div>
+              <div class="hours-row" role="row">
+                <div class="hours-day" role="cell">
+                  <span class="day-dot" aria-hidden="true"></span>Sábado
+                </div>
+                <div class="hours-time" role="cell">8:30 AM – 11:00 PM</div>
+              </div>
+              <div class="hours-row" role="row">
+                <div class="hours-day" role="cell">
+                  <span class="day-dot" aria-hidden="true"></span>Domingo
+                </div>
+                <div class="hours-time" role="cell">8:30 AM – 11:00 PM</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── LOCATION ───────────────────────────────── -->
+    <section class="location" id="ubicacion" aria-labelledby="locationTitle">
+      <div class="container">
+        <div class="location-grid">
+
+          <div class="location-info">
+            <span class="section-label reveal">Encuéntranos</span>
+            <h2 class="section-title reveal d1" id="locationTitle">
+              Visítanos en<br>Plaza El Dorado
+            </h2>
+
+            <div class="location-detail reveal d2">
+              <div class="detail-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div>
+                <p class="detail-label">Dirección</p>
+                <p class="detail-value">
+                  Av Nereo Rodríguez Barragán 450<br>
+                  Local ULC18B1, Plaza El Dorado<br>
+                  CP 78200, San Luis Potosí, S.L.P.
+                </p>
+              </div>
+            </div>
+
+            <div class="location-detail reveal d3">
+              <div class="detail-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="detail-label">Teléfono</p>
+                <p class="detail-value">
+                  <a href="tel:4441250024">444-125-0024</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="location-detail reveal d4">
+              <div class="detail-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="detail-label">Instagram</p>
+                <p class="detail-value">
+                  <a href="https://instagram.com/laotraespana" target="_blank" rel="noopener">@laotraespana</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="reveal d5">
+              <a
+                href="https://maps.google.com/?q=Plaza+El+Dorado,+Av+Nereo+Rodriguez+Barragan+450,+San+Luis+Potosi,+SLP,+Mexico"
+                target="_blank" rel="noopener"
+                class="btn btn-primary"
+              >
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+                Cómo Llegar
+              </a>
+            </div>
+          </div>
+
+          <div class="location-map-wrap reveal-right">
+            <iframe
+              src="https://maps.google.com/maps?q=Plaza+El+Dorado,+Av+Nereo+Rodriguez+Barragan+450,+San+Luis+Potosi,+SLP,+Mexico&output=embed&z=16&hl=es"
+              title="Mapa de La Otra España — Plaza El Dorado, San Luis Potosí"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── CTA SECTION ────────────────────────────── -->
+    <section class="cta" aria-labelledby="ctaTitle">
+      <div class="container">
+        <div class="cta-inner">
+          <p class="cta-eyebrow reveal">¿Listo para Vivir España?</p>
+          <h2 class="cta-title reveal d1" id="ctaTitle">
+            Reserva tu Mesa<br>Hoy Mismo
+          </h2>
+          <p class="cta-desc reveal d2">
+            Ven a disfrutar de la auténtica cocina española en San Luis Potosí. Reserva ahora y asegura tu lugar en La Otra España.
+          </p>
+          <div class="cta-actions reveal d3">
+            <a
+              href="https://wa.me/5214441250024"
+              target="_blank" rel="noopener"
+              class="btn btn-wa"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Reservar por WhatsApp
+            </a>
+            <a
+              href="https://instagram.com/laotraespana"
+              target="_blank" rel="noopener"
+              class="btn btn-ig"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              Síguenos en Instagram
+            </a>
+          </div>
+          <p class="cta-tel reveal d4">
+            O llámanos directamente: <a href="tel:4441250024">444-125-0024</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ── FOOTER ─────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div>
+          <p class="footer-logo">La <span>Otra</span> España</p>
+          <p class="footer-tagline">
+            Auténtica cocina española en el corazón de San Luis Potosí. Tapas, paellas, postres y mucho más.
+          </p>
+          <div class="footer-socials">
+            <a
+              href="https://instagram.com/laotraespana"
+              target="_blank" rel="noopener"
+              class="social-btn"
+              aria-label="Instagram — @laotraespana"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a
+              href="https://wa.me/5214441250024"
+              target="_blank" rel="noopener"
+              class="social-btn"
+              aria-label="WhatsApp — 444-125-0024"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer-col-label">Navegación</p>
+          <ul class="footer-col-links" role="list">
+            <li><a href="#inicio"   onclick="scrollTo('inicio');return false;">Inicio</a></li>
+            <li><a href="#nosotros" onclick="scrollTo('nosotros');return false;">Nosotros</a></li>
+            <li><a href="#menu"     onclick="scrollTo('menu');return false;">Menú</a></li>
+            <li><a href="#horarios" onclick="scrollTo('horarios');return false;">Horarios</a></li>
+            <li><a href="#ubicacion" onclick="scrollTo('ubicacion');return false;">Ubicación</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer-col-label">Contacto</p>
+          <ul class="footer-col-links" role="list">
+            <li><a href="tel:4441250024">444-125-0024</a></li>
+            <li><a href="https://wa.me/5214441250024" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://instagram.com/laotraespana" target="_blank" rel="noopener">@laotraespana</a></li>
+          </ul>
+          <p class="footer-address">
+            Plaza El Dorado<br>
+            Av Nereo Rodríguez Barragán 450<br>
+            San Luis Potosí, S.L.P.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 La Otra España. Todos los derechos reservados.</p>
+        <p class="footer-city">Plaza El Dorado · San Luis Potosí</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script>
+    /* ─────────────────────────────────────────────
+       SMOOTH SCROLL
+    ───────────────────────────────────────────── */
+    function scrollTo(id) {
+      const target = document.getElementById(id);
+      if (!target) return;
+      const nav    = document.getElementById('mainNav');
+      const offset = nav ? nav.offsetHeight : 72;
+      window.scrollTo({
+        top: target.getBoundingClientRect().top + window.scrollY - offset,
+        behavior: 'smooth'
+      });
+    }
+
+    /* ─────────────────────────────────────────────
+       NAV SCROLL STATE
+    ───────────────────────────────────────────── */
+    const nav = document.getElementById('mainNav');
+
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 48);
+    }, { passive: true });
+
+    /* ─────────────────────────────────────────────
+       MOBILE NAV
+    ───────────────────────────────────────────── */
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+
+    function openNav() {
+      hamburger.classList.add('open');
+      mobileNav.classList.add('open');
+      mobileNav.setAttribute('aria-hidden', 'false');
+      hamburger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeNav() {
+      hamburger.classList.remove('open');
+      mobileNav.classList.remove('open');
+      mobileNav.setAttribute('aria-hidden', 'true');
+      hamburger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    hamburger.addEventListener('click', () => {
+      mobileNav.classList.contains('open') ? closeNav() : openNav();
+    });
+
+    document.getElementById('navClose').addEventListener('click', closeNav);
+    mobileNav.addEventListener('click', e => { if (e.target === mobileNav) closeNav(); });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && mobileNav.classList.contains('open')) closeNav();
+    });
+
+    /* ─────────────────────────────────────────────
+       SCROLL REVEAL — IntersectionObserver
+    ───────────────────────────────────────────── */
+    const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    revealEls.forEach(el => io.observe(el));
+
+    /* ─────────────────────────────────────────────
+       HERO PARALLAX (subtle, GPU only)
+    ───────────────────────────────────────────── */
+    if (window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
+      const heroBg = document.getElementById('heroBg');
+      if (heroBg) {
+        window.addEventListener('scroll', () => {
+          const y = window.scrollY;
+          if (y < window.innerHeight * 1.2) {
+            heroBg.style.transform = `scale(1.06) translateY(${y * 0.1}px)`;
+          }
+        }, { passive: true });
+      }
+    }
+  </script>
+
+</body>
+</html>

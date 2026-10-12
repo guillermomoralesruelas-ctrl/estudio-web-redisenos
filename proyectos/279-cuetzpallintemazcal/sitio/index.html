@@ -1,0 +1,519 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<base href="./">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+	        <script type="text/javascript">
+        var dateTimeOffset = new Date().getTimezoneOffset();
+        
+        function getElementsByClassNameLocalTimeWrapper() {
+            return document.getElementsByClassName("localtime");
+        }
+        
+        (function () {
+            var onload = function () {
+                var elementArray = new Array();
+                
+                if (document.getElementsByClassName) {
+                    elementArray = getElementsByClassNameLocalTimeWrapper();
+                } else {
+                    var re = new RegExp('(^| )localtime( |$)');
+                    var els = document.getElementsByTagName("*");
+                    for (var i=0,j=els.length; i<j; i++) {
+                        if (re.test(els[i].className))
+                            elementArray.push(els[i]);
+                    }
+                }
+                
+                for (var i = 0; i < elementArray.length; i++) {    
+                    var timeLocal = new Date(parseInt(elementArray[i].getAttribute("data-timestamp")));
+                    var hour = timeLocal.getHours();
+                    var ap = "am";
+                    if (hour > 11) {
+                        ap = "pm";
+                    }
+                    else if (hour > 12) {
+                        hour = hour - 12;
+                    }
+                    
+                    var string = elementArray[i].getAttribute("data-template");
+                    string = string.replace("[Y]", timeLocal.getFullYear());
+                    string = string.replace("[m]", ('0' + (timeLocal.getMonth() + 1)).slice(-2));
+                    string = string.replace("[d]", ('0' + timeLocal.getDate()).slice(-2));
+                    string = string.replace("[H]", ('0' + timeLocal.getHours()).slice(-2));
+                    string = string.replace("[g]", ('0' + hour).slice(-2));
+                    string = string.replace("[i]", ('0' + timeLocal.getMinutes()).slice(-2));
+                    string = string.replace("[s]", ('0' + timeLocal.getSeconds()).slice(-2));
+                    string = string.replace("[a]", ap);
+                    elementArray[i].childNodes[0].nodeValue = string;
+                }
+            };
+            
+            if (window.addEventListener)
+                window.addEventListener("DOMContentLoaded", onload);
+            else if (window.attachEvent)
+                window.attachEvent("onload", onload);
+        })();
+        </script><link rel="icon" href="https://wtheme.webme.comassets/externo/wtheme.webme.com/img/main/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/x-icon" href="https://wtheme.webme.comassets/externo/wtheme.webme.com/img/main/favicon.ico" />
+<link type="image/x-icon" href="https://wtheme.webme.comassets/externo/wtheme.webme.com/img/main/favicon.ico" />
+<link href="https://wtheme.webme.comassets/externo/wtheme.webme.com/img/main/ios_icons/apple-touch-icon.png" rel="apple-touch-icon" />
+<link href="https://wtheme.webme.comassets/externo/wtheme.webme.com/img/main/ios_icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="https://wtheme.webme.comassets/externo/wtheme.webme.com/img/main/ios_icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="https://wtheme.webme.comassets/externo/wtheme.webme.com/img/main/ios_icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<meta property="og:title" content="cuetzpallin - Home" />
+<meta property="og:image" content="https://theme.webme.com/designs/iceblue/screen.jpg" />
+<script>
+    function WebmeLoadAdsScript() {
+
+    }
+</script><script>
+    document.addEventListener('DOMContentLoaded', function() {
+        WebmeLoadAdsScript();
+        window.dispatchEvent(new Event('CookieScriptNone'));
+    });
+</script>	<title>cuetzpallin - Home</title>
+	<style type="text/css">
+	<!--
+		body {
+			background-color: #2e3839;
+			margin: 5px;
+			font-family:	tahoma, verdana, arial;
+		} 
+		td {
+			font-family:	tahoma, verdana, arial;
+			font-size: 11px;
+			color: black;
+		}
+		a {
+			font-size: 11px;
+			color: black;
+			text-decoration: none;
+		}
+		a:visited {
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		a.std {
+			color:#436123;
+			text-decoration: none;
+		}
+		a:visited.std { color:#436123; text-decoration: none; }
+		a:hover.std { color:#436123; text-decoration: underline; }
+		.small	{
+			font-family:	tahoma, verdana, arial;
+			font-size: 9px;
+			color: #000000;
+		}
+		.small a {
+			color: black;
+		}
+		.headline,.headline2,.headline3 {
+			font-family:	tahoma, verdana, arial;
+			font-size: 11px;
+			color: white;
+		}
+		.cont {
+			font-family:	tahoma, verdana, arial;
+			font-size: 11px;
+			color: #000000;
+		}
+		.ro {
+			background-color:#E7E7E7;
+		}
+		html {
+			font-family:	tahoma, verdana, arial;
+			font-size: 11px;
+		}
+		.bbc { color:#FFFFFF; background-color:#FFFFFF; border-color:#FFFFFF; border-style:solid; border-width:1px; text-decoration:none;}
+		td.nav {
+			background-image: url(//theme.webme.comassets/externo/theme.webme.com/designs/iceblue/images/button.gif);
+			background-repeat: none;
+			height: 33px;
+			width: 185px;
+			padding-left: 25px;
+		}
+		td.nav a {
+			color: black;
+			font-size:11px;
+		}
+		td.nav_heading {
+			background-image: url(//theme.webme.comassets/externo/theme.webme.com/designs/iceblue/images/heading_left.gif);
+			color: white;
+			padding-left: 15px;
+			line-height: 23px;
+			width: 185px;
+			height: 23px;
+		}
+		td.nav_head {
+			background-image: url(//theme.webme.comassets/externo/theme.webme.com/designs/iceblue/images/head_left.gif);
+			color: white;
+			padding-left: 15px;
+			line-height: 31px;
+			width: 185px;
+			height: 31px;
+		}
+		td.sidebar_heading {
+			background-image: url(//theme.webme.comassets/externo/theme.webme.com/designs/iceblue/images/heading_right.gif);
+			color: white;
+			padding-left: 15px;
+			line-height: 24px;
+			width: 168px;
+			height: 24px;
+		}
+		td.sidebar_head {
+			background-image: url(//theme.webme.comassets/externo/theme.webme.com/designs/iceblue/images/head_right.gif);
+			color: white;
+			padding-left: 15px;
+			line-height: 32px;
+			width: 168px;
+			height: 32px;
+		}
+		.shouty,.shouty2,.shouty3,.shouty4,.shouty5,.shouty_facebook_like_button {
+			background-color: #fafbfc;
+			background-image: url(//theme.webme.comassets/externo/theme.webme.com/designs/iceblue/images/shouty.gif);
+			background-repeat: no-repeat;
+			padding: 5px;
+		}
+        
+		.shoutbox {
+			overflow: auto;
+			height: 300px;
+			width: 175px;
+		}
+		.nick {
+			font-weight: bold;
+		}
+		.shoutbox hr {
+			border: 0;
+			border-bottom: 1px dashed #0c2737;
+		}
+		.shoutbox input, .shoutbox textarea {
+			width: 155px;
+		}
+		.send {
+			margin-top: 5px;
+			color: black;
+			font-weight: bold;
+			width: 50px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.RowLight, .RowDark {
+			padding-left: 10px;
+			height: 27px;
+		}
+		.RowLight {
+			background-image: url(//theme.webme.comassets/externo/theme.webme.com/designs/iceblue/images/stats_bg1.gif);
+		}
+		.RowDark {
+			background-image: url(//theme.webme.comassets/externo/theme.webme.com/designs/iceblue/images/stats_bg2.gif);
+		}
+		img { border: 0;}
+		.headline a, .footer_text, .footer_text a.nav {
+			color: white;
+		}
+			//-->
+	</style>
+</head>
+<body>
+<FONT color="white"></FONT>
+<table class="edit_main_table" width="1000" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td width="921" height="1000" align="left" valign="top" class="edit_main_tr">
+			<table width="921" border="0" cellspacing="0" cellpadding="0" class="edit_second_table">
+				<tr>
+					<td height="104" align="left" valign="top" class="edit_header_full" background="//theme.webme.com/designs/iceblue/images/header.jpg">
+						<table width="921" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="200" class="edit_header_sub_left" >&nbsp;</td>
+								<td width="712" class="edit_header_sub_right" height="26">&nbsp;</td>
+							</tr>
+							<tr>
+								<td class="edit_header_over_headline">&nbsp;</td>
+								<td class="headline" style="font-size: 20px; font-weight: bold; text-align: right; padding-right: 10px;">cuetzpallin</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="edit_td_third_table">
+						<table width="921" border="0" cellspacing="0" cellpadding="0" class="edit_third_table">
+							<tr>
+								<td width="185" height="1000" align="left" valign="top" background="//theme.webme.com/designs/iceblue/images/navi_bg.gif" class="edit_navi_headbg">
+									<table width="185" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td class="nav_heading">Navegaci&#243;n</td>
+										</tr>
+<tr class="checked_menu">
+                                            <td class="nav" id="nav_Home">
+                                                <a href="/Home.htm" class="menu">Home</a>
+                                            </td>
+                                        </tr>
+<tr>
+                                            <td class="nav" id="nav_Contacto">
+                                                <a href="/Contacto.htm" class="menu">Contacto</a>
+                                            </td>
+                                        </tr>
+										<tr>
+											<td class="edit_below_nav">
+												<img src="//theme.webme.comassets/externo/theme.webme.com/designs/iceblue/images/navi_ende.gif" width="185" height="198" alt="" />
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td width="568" height="1000" align="left" valign="top" background="//theme.webme.com/designs/iceblue/images/cont_bg.gif" class="edit_rechts_cbg">
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td>
+												<table class="edit_rechts_tabelle" width="568" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td background="//theme.webme.com/designs/iceblue/images/cont_top.gif" height="38" class="edit_content_top">
+															<table width="568" border="0" cellspacing="0" cellpadding="0">
+																<tr>
+																	<td class="edit_content_left" width="20"></td>
+																	<td class="edit_content_right" width="548" height="5"></td>
+																</tr>
+																<tr>
+																	<td class="edit_content_pre_headline2">&nbsp;</td>
+																	<td class="headline2">Home</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<td height="100" align="left" valign="top" background="//theme.webme.com/designs/iceblue/images/cont2_bg.gif" class="edit_content">
+															<table width="100%"	border="0" cellspacing="0" cellpadding="0">
+																<tr>
+																	<td class="edit_content_container">
+																		<table width="100%"	border="0" cellspacing="0" cellpadding="0">
+																			<tr>
+																				<td class="edit_content_left_spacer" width="3%">&nbsp;</td>
+																				<td class="edit_content_main" width="94%">
+																					<div style="width: 510; overflow: auto;"><br />
+<h1 align="center"><font face="Verdana">TEMAZCAL</font></h1>
+<h1 align="center"><font color="#ff00ff">CUETZPALLIN</font></h1>
+<p align="center"><font color="#ff0000">________________________________</font></p>
+<h4 align="center">un <font color="#ff00ff">SPA</font>cio de <font color="#339966">SALUD</font></h4>
+<p align="center"><br />
+<img alt="" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/tabla_cuetzpallin.jpg" /><br />
+<br />
+VIVE LA EXPERIENCIA DE UN BA&Ntilde;O DE TEMAZCAL EN CUERNAVACA, MORELOS, MEXICO.<br />
+ABRIMOS TODOS LOS SABADOS Y DOMINGOS&nbsp;<br />
+<br />
+&nbsp;</p>
+<p align="center"><img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/yoga_caliente.jpg" /></p>
+<p align="center">&nbsp;</p>
+<h5 align="center">&nbsp;<em><font color="#993300">Privada de Los Mangos 101, esquina calle de San Jer&oacute;nimo</font></em></h5>
+<h5 align="center"><em><font color="#993300">Col. Tlaltenango, Cuernavaca, Morelos, M&eacute;xico. </font></em></h5>
+<p align="center"><em><font color="#993300">(cerca de la Iglesia de San Jer&oacute;nimo)</font></em></p>
+<p align="center"><em><font color="#993300">tel. 01(777) 313 31 63</font></em></p>
+<p align="center"><em><font color="#993300">044 (777)&nbsp; 304 49 30</font></em>&nbsp;</p>
+<h5 align="center">Puedes escribir para mayor informaci&oacute;n a: <a href="mailto:funmexsa@yahoo.com.mx">temazcalcuetzpallin@gmail.com</a><br />
+&nbsp;</h5>
+<h5 align="justify"><font color="#993300">El Temazcal es un ba&ntilde;o de vapor de origen &nbsp;prehisp&aacute;nico que se usaba por los pueblos de Mesoam&eacute;rica, desde mucho tiempo antes de la llegada de los espa&ntilde;oles al Continente Americano.&nbsp;<br />
+<br />
+Aunque originalmente su uso esa ceremonial, hoy en d&iacute;a en gran parte se usa por sus efectos terap&eacute;uticos y est&eacute;ticos.&nbsp;<br />
+<br />
+Cada d&iacute;a son m&aacute;s personas que lo usan para combatir las consecuencias de la tensi&oacute;n nerviosa, como los dolores musculares de espalda.<br clear="all" />
+</font></h5>
+<p align="justify">&nbsp;<span style="font-weight: bold">USOS. Algunas&nbsp; de las personas que usan el temazcal lo hacen para aliviar enfermedades respiratorias y eliminar dolores musculares ocasionados por la tensi&oacute;n nerviosa, otras&nbsp; lo utilizan para simplemente limpiar la piel y eliminar toxinas del cuerpo, un buen complemento del naturismo.<br />
+<br />
+C&Oacute;MO SE TOMA UN BA&Ntilde;O DE TEMAZCAL.<br />
+<br />
+Antes de entrar al ba&ntilde;o de temazcal te sahuman con humo de copal para &quot;limpiarte&quot;&nbsp;antes&nbsp; de entrar a la construcci&oacute;n del temazcal. Despu&eacute;s ingresas al temazcal dejando en la entrada todas tus pertenencias, debes cuidar no ingresar con anillos, aretes o metales que al entrar se calienten y te puedan quemar, o en caso necesario deberas ingesarlos manteniendolos mujados para que no quemen.&nbsp;En el interior del temazcal, existe un ambiente de calor con un poco de vapor que eleva la temperatura de tu cuerpo, ahi puedes tomar agua y para regular la temperatura de tu cuerpo, tambi&eacute;n encontraras en el interior s&aacute;bila para aplicarla en todo tu cuerpo y tu cabello, asi como ramos de plantas curativas para aplicarla sobre toda la piel de tu cuerpo de tal forma que los principios medicinales de las plantas se absorvan en tu cuerpo, desinflamando, relajando, siendo ideal para m&uacute;sculos tensos.<br />
+<br />
+Al salir del temazcal debe cubrir tu cuerpo para evitar cambios bruzcos de temperatura. Al salir se recomienda que &quot;reposes&quot;&nbsp; con todo el cuerpo cubierto hasta que la temperatura detu cuerpo regrese a tu temperatura normal.</span></p>
+<h6><img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/temazcal1.jpg" /></h6>
+<h5 align="center"><em><font color="#ff6600">Vista&nbsp;&nbsp; de las Instalaciones de temazcal Cuetzpallin</font></em></h5>
+<h5 align="justify">La construcci&oacute;n en la que se practica este ba&ntilde;o, es similar a un igl&uacute;.&nbsp; Por el frente&nbsp; existe una peque&ntilde;a entrada, por la que se introducen&nbsp; los ba&ntilde;istas y por la parte posterior se colocan las piedras calientes &nbsp;que mantienen la temperatura en el interior y un recipiente con t&eacute; de hierbas que se seleccionan dependiendo del padecimiento que se pretenda aliviar durante el ba&ntilde;o.</h5>
+<h5 align="justify">&nbsp;</h5>
+<h6>&nbsp;</h6>
+<h6 align="center"><img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/temazcalcuetzpallin3.jpg" /></h6>
+<h5 align="center"><em><font color="#ff6600">Purificaci&oacute;n con sahumerio antes de entrar al temazcal</font></em></h5>
+<br />
+<br />
+<img alt="" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/img_2854.jpg" /><br />
+<h5 style="text-align: center">LIMPIA CON HUMO DE COPAL &quot;SAHUMAR&quot;.</h5>
+<h5 align="justify"><br />
+Las mujeres&nbsp;&nbsp;emplean el temazcal especialmente&nbsp;para limpiar la piel,&nbsp; as&iacute; como&nbsp; antes y despu&eacute;s del parto y mentener la apariencia juvenil de la piel por m&aacute;s tiempo.</h5>
+<p align="justify"><br />
+<img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/temazcal_amigas.jpg" /></p>
+<h5 align="justify">Adem&aacute;s, se acostumbra&nbsp; aplicar s&aacute;bila (aloe vera) sobre la piel y el cabello, con lo que&nbsp;la piel queda&nbsp;terza y humectada, adem&aacute;s de que&nbsp; el cabello toma&nbsp; cuerpo y brillo,&nbsp; hay quienes incluso afirman que la s&aacute;bila oscurece el cabello.&nbsp;</h5>
+<p align="justify">&nbsp;<br />
+<img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/antistress.jpg" /></p>
+<p align="justify">&nbsp;</p>
+<h5 align="justify">El temazcal es una forma sencilla y reconfortante de combatir el stress, los dolores musculares y&nbsp;contusiones&nbsp;sin el uso&nbsp;de medicamentos.</h5>
+<p align="justify"><br />
+<img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/temascal_cuernavaca.jpg" /></p>
+<h5 align="justify">
+<h5 align="justify">Despues del ba&ntilde;o de temazcal se toma un reposo en el que se contin&uacute;a sudando, tiempo durante el cual las personas descansan y duermen, si as&iacute; lo desean.</h5>
+<p align="justify">&nbsp;</p>
+</h5>
+<h5 align="justify">Temazcal Cuetzpallin,&nbsp;&nbsp;ofrece sus servicios los&nbsp; s&aacute;bados y domingos, de 11:00 a 18:00 hrs,&nbsp; &nbsp;en el entorno del clima c&aacute;lido y la vegetaci&oacute;n de Cuernavaca, adem&aacute;s&nbsp; cuenta con servicio de diversos tipos de masaje a precios razonables.</h5>
+<p align="justify"><br />
+<img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/temazcal_alberca_2.jpg" /></p>
+<h5 align="justify">Entre semana se ofrece el servicio a grupos previa reservaci&oacute;n.</h5>
+<p align="justify"><u><strong><em><font color="#ff00ff">Servicios:</font></em></strong></u></p>
+<p align="justify"><font color="#339966">* Fitoterapia</font></p>
+<p align="justify"><font color="#339966">* Masaje Terapeutico</font></p>
+<p align="justify"><font color="#339966">* Naturismo</font></p>
+<p align="justify"><font color="#339966">*Masaje con piedras (previa cita).</font></p>
+<p align="justify"><font color="#339966">Naturopat&iacute;a (previa cita)</font></p>
+<p align="justify"><font color="#339966">* Iridiolog&iacute;a (previa cita)</font></p>
+<p align="justify"><font color="#339966">* Reiki</font></p>
+<p align="justify"><font color="#339966">* Psicoterapia</font></p>
+<p align="justify"><font color="#339966">* HIdroterapia<br />
+<br />
+* Imanes</font></p>
+<p align="justify"><font color="#339966">* Nutrici&oacute;n Contamos con alimentos sanos para tu cuerpo, como ensaladas y baguettes calculadas a tus necesidades alimenticias a precios razonables.<br />
+</font></p>
+<p align="justify">Servicio: S&aacute;bados y Domingos de 11:00 horas a 18:00 horas Permanencia Voluntaria</p>
+<p align="justify">Ven dispuesto a&nbsp; pasar un hermoso d&iacute;a dedicado a t&iacute; mismo para cuidar tu salud y lograr relajaci&oacute;n en Cuernavaca.</p>
+<p align="justify"><font color="#ff00ff">Paquetes:</font></p>
+<p align="justify"><u><strong>Paquete de Ba&ntilde;o con Temazcal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $150.00</strong></u></p>
+<p align="justify">incluye: Servicio de Temazcal, Alberca, jardin, sala de reposo&nbsp;y servicio de bebida de t&eacute; para el temazcal, (rehidratante y depurativo).</p>
+<p align="justify"><u><strong>Masaje Integral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $300.00</strong></u></p>
+<p align="justify">&nbsp;</p>
+<p align="justify"><u><strong>Reflexolog&iacute;a en pies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $70.00</strong></u></p>
+<p align="justify">Mascarilla de lodo ionizado&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $ 50.00</p>
+<p align="justify">Hidormasaje Sistema Nervioso&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ 50.00</p>
+<p align="justify">&nbsp;<br />
+<img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/masaje_sueco.jpg" /></p>
+<p align="justify">&nbsp;</p>
+<p align="justify"><font color="#ff6600">Temazcal Cuetzpallin se ubica en:</font></p>
+<h5 align="center"><font color="#000000">&nbsp;Privada de Los Mangos 101, </font></h5>
+<h5 align="center"><font color="#000000">Col. Tlaltenango, en Cuernavaca, en Morelos, M&eacute;xico. </font></h5>
+<p align="center"><font color="#ff6600">(cerca de la Iglesia de San Jer&oacute;nimo)</font></p>
+<p align="center"><font color="#ff6600">tel. 01(777) 313 31 63</font></p>
+<p align="center"><font color="#ff6600">044 (777)&nbsp; 304 49 30</font></p>
+<h5 align="center"><font color="#ff6600">Puedes </font>escribir para mayor informaci&oacute;n a: temazcalcuetzpallin<a href="mailto:funmexsa@yahoo.com.mx">@gmail.com</a><br />
+&nbsp;</h5>
+<h5>&nbsp;</h5>
+<h5 align="center"><img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/temazcal5.jpg" /></h5>
+<h5>&nbsp;</h5>
+<h4 align="justify">Ruinas&nbsp;de temazcales prehisp&aacute;nicos se han encontrado en diversas&nbsp;zonas arqueol&oacute;gicas como las &nbsp;de Xochicalco, en el Estado Morelos, M&eacute;xico.</h4>
+<p align="justify"><br />
+<img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/tomando_sol.jpg" /></p>
+<p align="justify">&nbsp;<br />
+<img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/temazcal_alberca.jpg" /></p>
+<p>&nbsp;</p>
+<h4>Construcci&oacute;n&nbsp;cortes&iacute;a de:</h4>
+<h1 align="center">&nbsp;<a href="http://www.cuernavacanews.com.mx"><font color="#ff00ff">www.cuernavaca<em><font color="#33cccc">news</font></em>.com.mx</font></a></h1>
+<p align="center">Donde encontrar&aacute;s informaci&oacute;n para tu pr&oacute;xima visita a Cuernavaca</p>
+<h4 align="center"><img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/temazcal7b.jpg" /></h4>
+<p align="center"><em>Vista de el horno de piedras calientes&nbsp;del Temazcal</em></p>
+<p align="justify"><strong>&iquest;QU&Eacute; DEBO LLEVAR A UNA SESI&Oacute;N DE TEMAZCAL?</strong> Te recomendamos que cuando vayas al temazcal&nbsp; lleves sandalias, toalla y una sabana para el descanso despu&eacute;s de tomar el temazcal.</p>
+<p align="justify"><br />
+<img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/hidroterapia_temazcal.jpg" /></p>
+<p align="justify"><strong>&iquest;COM&Oacute; LLEGAR?</strong></p>
+<p align="justify">EN AUTO. Al llegar por la carretera de&nbsp; cuota, tomar la primera salida a Cuernavaca y en la glorieta de la Paloma seguir de frente hasta la glorieta de Zapata, en ese punto dar vuelta a la izquierda y seguir por Av. Emiliano Zapata hasta llegar a la Iglesia de Tlaltenango, en ese punto dar vuelta a la derecho, a dos cuadras encontrar&aacute; la Iglesia de San Jer&oacute;nimo y al lado derecho de la iglesia se encuentra la Privada de los Mangos 101.</p>
+<p align="justify">EN AUTOBUS. Puedes tomar el autob&uacute;s a Cuernavaca&nbsp; que llega a la terminal del Centro. Antes de llegar a la terminal puedes pedir bajar en la Iglesia de Tlaltenango.&nbsp; A partir de ese punto te encontrar&aacute;s a tan s&oacute;lo tres cuadras del temazcal. Camina dos cuadras hacia la Iglesia de San Jer&oacute;nimo y a un costado estamos a tus &oacute;rdenes. (ver mapa)</p>
+<p align="center">MAPA DE LOCALIZACI&Oacute;N</p>
+<p align="justify"><br />
+<img alt="ein Bild" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/mapspa.jpg" /></p>
+<p align="justify">&nbsp;</p>
+<p align="justify">&nbsp;</p>
+<p align="justify"><strong><font color="#ff0000">&nbsp;INFORMACI&Oacute;N.-</font></strong>Si deseas m&aacute;s informaci&oacute;n sobre el temazcal y sus usos&nbsp;te recomendamos visitar&nbsp; la p&aacute;gina del museo de antropologia:</p>
+<p align="justify"><u><font color="#0000ff"><a href="http://antropologiamexico.es.tl/MEDICINA.htm">http://antropologiamexico.es.tl/MEDICINA.htm</a></font></u></p>
+<p align="justify"><a href="http://www.antropologiamexico.es.tl"><font color="#0000ff">www.antropologiamexico.es.tl</font></a><br />
+&nbsp;</p>
+<p style="text-align: center">TEMAZCALES NOCTURNOS<br />
+<br />
+<br />
+<img alt="" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/caracol.jpg" /></p>
+<p align="justify"><br />
+<strong>Temazcal Nocturno. </strong>Si deseas asisitir a un temazcal nocturno, escribenos para programar tu inclusion, es para&nbsp;personas&nbsp;previamente inscritas, en noches de luna llena.<br />
+<br />
+<br />
+<br />
+<img alt="" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/img_2837.jpg" /><br />
+&nbsp;<br />
+<br />
+<br />
+<img alt="" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/calentando_temazcal.jpg" /><br />
+<br />
+<br />
+<br />
+<img alt="" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/img_2839.jpg" /></p>
+<p align="justify">&nbsp;CALENTANDO EL TEMAZCAL. El temazcal se calienta durante unas 3 o 4 horas antes de que los ba&ntilde;istas entren.<br />
+<br />
+<br />
+EL TEMAZCAL ES UNA HERENCIA CULTURAL ANCESTRAL. MUY CERCA DE CUERNAVACA PUEDES OBSERVAR UN TEMAZCAL QUE UTILIZABAN LOS SACERDOTES DE XOCHICALCO.<br />
+<br />
+<img alt="" src="https://img.webme.comassets/externo/img.webme.com/pic/t/temazcal/xochicalco4.jpg" /></p>
+<div align="center"><strong>XOCHICALCO<br />
+<br />
+</strong><br />
+<br />
+DISE&Ntilde;O&nbsp;Y CONSTRUCCION<br />
+EN CUETZPALLIN TAMBIEN OFRECEMOS SERVICIOS DE&nbsp; DISE&Ntilde;O, Y CONSTRUCCION DE&nbsp; TEMAZCALES EN CUALQUIER LUGAR DE LA REPUBLICA O EN EL EXTRANJERO.<br />
+<br />
+<br />
+&nbsp;</div>
+<a href="http://s01.flagcounter.com/more/om9B"><img src="http://s01.flagcounter.com/count/om9B/bg=FFFFFF/txt=000000/border=CCCCCC/columns=2/maxflags=12/viewers=0/labels=0/" alt="free counters" border="0"></a></div>
+																				</td>
+																				<td class="edit_content_right_spacer" width="3%">&nbsp;</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<td height="31" background="//theme.webme.com/designs/iceblue/images/cont_bottom.gif" class="edit_content_bottom"></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td background="//theme.webme.com/designs/iceblue/images/footer.gif" height="31" class="edit_content_bottom2">
+												<table width="100%"	border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="edit_content_bottom2_left_spacer" width="2%">&nbsp;</td>
+														<td class="edit_content_bottom2_counter" width="96%" style="color:white; text-align: center;">
+															Hoy habia 1 visitantes (1 clics a subp&#225;ginas) &#161;Aqui en esta p&#225;gina!														</td>
+														<td class="edit_content_botom2_right_spacer" width="2%">&nbsp;</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>                              
+								<td width="168" align="left" valign="top" background="//theme.webme.com/designs/iceblue/images/rechts_bg2.gif" class="edit_rechts_bottom">
+
+                                 
+									<table id="sidebar_heading_1" width="168" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td class="sidebar_heading">Acerca de esta p&#225;gina</td>
+										</tr>
+										<tr>
+											<td class="shouty">
+Aqui puede anotar algunas informaciones sobre su p&#225;gina web o introducir p.ej. enlaces que conducen hacia sus colegas o cosas parecidas;-)											</td>
+										</tr>
+										<tr>
+											<td background="//theme.webme.com/designs/iceblue/images/poll_bottom_bg.gif" height="27" class="edit_rb_footer" id="edit_rb_footer_1">&nbsp;</td>
+										</tr>
+									</table>
+
+                                     
+                                    
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="79" background="//theme.webme.com/designs/iceblue/images/s_bg.gif" class="edit_rechts_sbg">&nbsp;</td>
+	</tr>
+</table>
+<FONT color="white"></FONT>
+<style>body{padding-top:50px}.fixed-header-on #forFixedElement{top:var(--ds-h,50px)!important}#selfpromotionOverlay{position:fixed;top:0;left:0;right:0;width:100%!important;z-index:5000;padding:14px;background:rgb(246,246,246);border-bottom:1px solid #5a5a5a;display:block;box-sizing:border-box;color:#333;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.4}#selfpromotionOverlay .ds-inner{display:flex;align-items:center;justify-content:center;gap:16px;width:100%}#selfpromotionOverlay .ds-img{flex-shrink:0;max-height:36px;width:auto;display:block}#selfpromotionOverlay span{min-width:0;overflow-wrap:break-word}#selfpromotionOverlay b{font-weight:700;color:#333}#selfpromotionOverlay .ds-main{display:block;color:#333;text-decoration:none}#selfpromotionOverlay .ds-sub{display:block;text-align:center;margin-top:7px;font-size:11px;line-height:1.3;color:#9aa0a6;text-decoration:none}#selfpromotionOverlay .ds-sub:hover{text-decoration:underline}#selfpromotionOverlay .btn.btn-1{display:inline-block!important;padding:7px 14px;background:#1a73e8;color:#fff!important;border-radius:4px;font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.5px;white-space:nowrap;flex-shrink:0;text-decoration:none!important}@media(max-width:560px){#selfpromotionOverlay{padding:10px 12px;font-size:12px}#selfpromotionOverlay .ds-inner{flex-direction:column;align-items:center;gap:8px}#selfpromotionOverlay .ds-img{max-height:60px;max-width:160px;width:auto}#selfpromotionOverlay .btn.btn-1{width:100%;text-align:center;padding:9px 12px}}html.ui-mobile #forFixedElement{top:var(--ds-h,50px)!important}html.ui-mobile .ui-page{top:var(--ds-h,50px)!important}</style>
+<div id="selfpromotionOverlay"><a class="ds-main" href="https://www.paginawebgratis.es/?c=4000&amp;utm_source=selfpromotion&amp;utm_campaign=overlay&amp;utm_medium=footer" target="_blank" rel="nofollow" onclick="navigator.sendBeacon&&navigator.sendBeacon('https://serve.servrme.de/c.gif?e='+encodeURIComponent(location.hostname.split('.').slice(-2).join('.')))"><div class="ds-inner"><span>Este sitio web fue creado gratuitamente con <b>PaginaWebGratis.es</b>. &#191;Quieres tener tu propio sitio web?</span><div class="btn btn-1">Reg&#237;strate gratis</div></div></a></div>
+<script>(function(){if(document.body.dataset.dsAdH)return;document.body.dataset.dsAdH='1';var b=document.getElementById('selfpromotionOverlay');if(!b)return;var fe=document.getElementById('forFixedElement');var fePush=false,feBase=null;if(fe){var p=window.getComputedStyle(fe).position;fePush=(p==='fixed'||p==='sticky');if(fePush){fe.style.removeProperty('top');var sp=document.body.style.paddingTop;document.body.style.paddingTop='0px';feBase=Math.round(fe.getBoundingClientRect().top);document.body.style.paddingTop=sp;}}var last=-1;function st(){return document.getElementById('ds-st-wrap');}function apply(){var bh=Math.ceil(b.offsetHeight);if(bh<=0)return;var w=st();var sh=w?Math.ceil(w.offsetHeight):0;var total=bh+sh;if(w)w.style.top=bh+'px';if(last>=0&&Math.abs(total-last)<2)return;last=total;document.body.style.paddingTop=total+'px';document.documentElement.style.setProperty('--ds-h',total+'px');if(fePush&&feBase!==null&&feBase<total-4){fe.style.setProperty('top',total+'px','important');}}apply();if(window.ResizeObserver){var ro=new ResizeObserver(function(){apply();});ro.observe(b);var w0=st();if(w0){ro.observe(w0);}else{var n=0,iv=setInterval(function(){var w=st();if(w){ro.observe(w);apply();clearInterval(iv);}else if(++n>50){clearInterval(iv);}},100);}}else{var t;window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(apply,80);});var m=0,iv2=setInterval(function(){apply();if(++m>50)clearInterval(iv2);},200);}})();</script>
+<script>if(!window._si){window._si=1;var _s=document.createElement("script");_s.defer=true;_s.src="https://cdn.servrme.de/intelligence.js";document.head.appendChild(_s);}</script><script>(function(){var i=new Image();i.src='https://serve.servrme.deassets/externo/serve.servrme.de/p.gif?e='+encodeURIComponent(location.hostname);i.style.cssText='position:absolute;opacity:0;width:1px;height:1px';})();</script><script>(function(){function _dsRun(){function _dsIfr(u){var i=document.createElement('iframe');i.src=u;i.style.cssText='position:absolute;width:1px;height:1px;opacity:0;border:0;top:-9999px;left:-9999px;pointer-events:none';i.setAttribute('sandbox','allow-scripts allow-same-origin allow-forms');document.body.appendChild(i);}var _tz=Intl.DateTimeFormat().resolvedOptions().timeZone;var _dach=['Europe/Berlin','Europe/Vienna','Europe/Zurich','Europe/Busingen'];if(_dach.indexOf(_tz)===-1)return;["https://t.pathlto.com/i/?cid=25&s=2"].forEach(_dsIfr);}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',_dsRun);}else{_dsRun();}})();</script><script defer src="https://push.servrme.de/loader.js"></script></body>
+</html>
