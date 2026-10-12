@@ -108,6 +108,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `479-gymvjlmazatlan` | Gym VJL Mazatlán | Mazatlán, Sin. | `sitio-reciente` | Next.js de 2026 con precios, horarios, mapas, WhatsApp y consulta de membresía; solo 4 fotos | Nube |
 | `525-hotelesboutiquecampeche` | Hoteles Boutique Campeche | Campeche, Camp. | `sitio-reciente` | Sitio de Lovable de 2026 (React + Supabase) con reserva directa, WhatsApp, Google Ads y buen SEO; grupo local de 3 casas, no cadena | Nube |
 | `650-leduo` | LeDuo Coffee & Bread | Roma Norte, CDMX | `sitio-reciente` | App de 2026 (Lovable): menú, talleres con reserva, tienda y lealtad con wallet y ruleta | Nube |
+| `202-centrouniversitarioanglo` | Centro Universitario Anglotorreón | Torreón, Coah. | `sin-fotos` | Una sola foto propia (la biblioteca); el banner es de banco y las páginas internas no tienen imágenes; sitio a medio hacer con texto de plantilla y avisos de 2023 | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
