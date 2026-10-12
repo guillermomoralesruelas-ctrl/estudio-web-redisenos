@@ -104,6 +104,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `644-larefineriabarber` | La Refinería Barber Shop | San Luis Potosí, S.L.P. | `sitio-reciente` | Página moderna en LeadConnector con 3 sucursales, programa de lealtad y reseñas al día (3,418 en Google) | Nube |
 | `622-labvida` | LabVida | Querétaro, Qro. | `sitio-reciente` | WordPress rehecho en 2025 (© 2026) con textos por público, proceso, tiempos de entrega y precios | Nube |
 | `376-equayogastudio` | Equa Yoga Studio | Veracruz (sin confirmar) | `sin-contacto` | El sitio muestra "Estudio Inactivo" en todas sus páginas; sin teléfono, dirección ni fotos | Nube |
+| `598-jrtransporteejecutivo` | JR Transporte Ejecutivo | Ciudad de México | `sin-fotos` | Solo dos fotos propias (la Escalade de frente y de atrás); las de aeropuerto, oficina, eventos y tours son ajenas, parecen hechas con IA o vienen de Pinterest | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
