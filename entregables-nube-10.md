@@ -24,7 +24,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 18 | 348-eduardodavalosfotografia | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,644 / 8,222 px | Colecciones como horas del día de la boda | ALTA | Restos en inglés; página "copia-de" |
 | 19 | 415-fit | Pendiente | — | — | — | — | — |
 | 20 | 556-huatulcowellnesssanctuar | Pendiente | — | — | — | — | — |
-| 21 | 587-ixiimchableyucatan | Pendiente | — | — | — | — | — |
+| 21 | 587-ixiimchableyucatan | Descartado, `cadena` | (este commit) | — (Restaurante del resort Chablé, sitio dentro de chablehotels.com) | — | — | — |
 | 22 | 470-grupobeardman | Pendiente | — | — | — | — | — |
 | 23 | 376-equayogastudio | Pendiente | — | — | — | — | — |
 | 24 | 598-jrtransporteejecutivo | Pendiente | — | — | — | — | — |
