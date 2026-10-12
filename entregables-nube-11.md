@@ -10,7 +10,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-11.md`, armado y clonado en la nube el 
 | 4 | 548-hotelsuiteskino | Descartado, `sitio-reciente` | (este commit) | — (Sitio rehecho en junio de 2026 con motor de reservas) | — | — | — |
 | 5 | 597-joypack | Descartado, `url-ajena` | (este commit) | — (Marketplace de experiencias para regalar, no operador de tours) | — | — | — |
 | 6 | 21-agenciainmobiliariaproin | Descartado, `sin-contacto` | (este commit) | — (Sitio EasyBroker inactivo: sin propiedades, fotos ni contacto) | — | — | — |
-| 7 | 155-casaazulgran | Pendiente | — | — | — | — | — |
+| 7 | 155-casaazulgran | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,004 / 10,330 px | "El Centro, parque por parque": mosaicos de pasta y esquinas | MEDIA | Catálogo mezclado con la red; textos de plantilla |
 | 8 | 158-casacolonialen | Pendiente | — | — | — | — | — |
 | 9 | 159-casacolonialrestaurada | Pendiente | — | — | — | — | — |
 | 10 | 160-casaconsuelo | Pendiente | — | — | — | — | — |

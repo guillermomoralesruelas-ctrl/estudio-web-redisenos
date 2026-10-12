@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "@fontsource/young-serif/latin-400.css";
+@import "@fontsource-variable/figtree/wght.css";
+
+@theme {
+  /* Thó: el dorado de su logotipo y los colores de las fachadas del Centro de Mérida e Izamal */
+  --color-oro: #B9A25F;        /* logotipo; solo decorativo */
+  --color-oro-2: #6E5B25;      /* dorado oscuro para texto, AA sobre cal */
+  --color-cal: #F7F2E8;
+  --color-cal-2: #EDE4D3;
+  --color-tinta: #2A2621;
+  --color-gris: #5E574D;
+  --color-verde: #2E6A57;      /* botones; AA con blanco */
+  --color-verde-2: #22513F;
+  --color-terracota: #B0502B;
+  --color-anil: #1F567F;
+  --color-amarillo: #E2B13C;   /* amarillo Izamal; solo decorativo */
+
+  --font-display: "Young Serif", Georgia, serif;
+  --font-sans: "Figtree Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-cal text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.08; letter-spacing: -0.01em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-terracota); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[0.95rem] font-semibold leading-none transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-verde { @apply btn bg-verde text-white hover:bg-verde-2; }
+  .btn-linea { @apply btn border-2 border-current hover:bg-white/10; }
+  .btn-tinta { @apply btn border-2 border-tinta/80 text-tinta hover:bg-tinta hover:text-cal; }
+}
