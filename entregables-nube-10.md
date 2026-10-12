@@ -22,10 +22,10 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 16 | 473-grupofractal | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,875 / 7,727 px | "El mosaico Fractal": treemap del catálogo por precio | MEDIA | Privacidad copiada de otro sitio; catálogo repetido |
 | 17 | 457-gotransferscancun | Descartado, `sitio-reciente` | (este commit) | — (Astro 5.16, © 2026, reservas en línea) | — | — | — |
 | 18 | 348-eduardodavalosfotografia | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,644 / 8,222 px | Colecciones como horas del día de la boda | ALTA | Restos en inglés; página "copia-de" |
-| 19 | 415-fit | Pendiente | — | — | — | — | — |
-| 20 | 556-huatulcowellnesssanctuar | Pendiente | — | — | — | — | — |
+| 19 | 415-fit | Descartado, `sitio-reciente` | (este commit) | — (Wix actualizado en 2026, con precios y 4 sucursales) | — | — | — |
+| 20 | 556-huatulcowellnesssanctuar | Descartado, `sitio-reciente` | (este commit) | — (WordPress 2026 completo; contenido de salud no copiable) | — | — | — |
 | 21 | 587-ixiimchableyucatan | Descartado, `cadena` | (este commit) | — (Restaurante del resort Chablé, sitio dentro de chablehotels.com) | — | — | — |
-| 22 | 470-grupobeardman | Pendiente | — | — | — | — | — |
+| 22 | 470-grupobeardman | Descartado, `cadena` | (este commit) | — (Barberías con sucursales y franquicia) | — | — | — |
 | 23 | 376-equayogastudio | Pendiente | — | — | — | — | — |
 | 24 | 598-jrtransporteejecutivo | Pendiente | — | — | — | — | — |
 | 25 | 479-gymvjlmazatlan | Pendiente | — | — | — | — | — |

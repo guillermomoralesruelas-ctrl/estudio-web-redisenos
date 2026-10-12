@@ -98,6 +98,9 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `523-hotelcelayamexico` | Hoteles México Plaza (Celaya) | Bajío (Celaya, Gto., y otras cuatro ciudades) | `cadena` | Portal corporativo de una cadena con 5 hoteles México Plaza (Celaya, Irapuato, Silao, León y Querétaro), además de Hyatt Centric León y cinco propiedades en San Miguel de Allende; línea 800 y división de grupos y eventos. Su pie tiene enlaces de spam de casinos inyectados (WordPress hackeado) | Nube |
 | `457-gotransferscancun` | Go Transfers (Cancun Airport Transportation) | Cancún, Q. Roo | `sitio-reciente` | Sitio en Astro 5.16 (fines de 2025), © 2026, con reservas en línea y tarifas en USD | Nube |
 | `587-ixiimchableyucatan` | Ixi’im (Chablé Yucatán) | Chocholá, Yuc. | `cadena` | Restaurante del resort Chablé Yucatán; su sitio forma parte de chablehotels.com y lo firma el chef corporativo del grupo | Nube |
+| `470-grupobeardman` | Grupo Beardman | CDMX y Edo. Méx. | `cadena` | Barberías con varias sucursales y modelo de franquicia; agenda en línea y tienda | Nube |
+| `415-fit` | Fit+ | Chihuahua, Chih. | `sitio-reciente` | Wix con mantenimiento activo en 2026 (blog de marzo de 2026), programa "Fit+ 21", precios al día y 4 sucursales con horario y servicios | Nube |
+| `556-huatulcowellnesssanctuar` | Huatulco Wellness Sanctuary / Natoorales | Huatulco, Oax. | `sitio-reciente` | WordPress con Elementor y AIOSEO rehecho en 2026, en inglés, con JSON-LD, WhatsApp y fotos propias; coaching remoto mundial lleno de afirmaciones de salud | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
