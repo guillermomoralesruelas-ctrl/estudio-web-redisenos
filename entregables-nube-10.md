@@ -26,11 +26,11 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 20 | 556-huatulcowellnesssanctuar | Descartado, `sitio-reciente` | (este commit) | — (WordPress 2026 completo; contenido de salud no copiable) | — | — | — |
 | 21 | 587-ixiimchableyucatan | Descartado, `cadena` | (este commit) | — (Restaurante del resort Chablé, sitio dentro de chablehotels.com) | — | — | — |
 | 22 | 470-grupobeardman | Descartado, `cadena` | (este commit) | — (Barberías con sucursales y franquicia) | — | — | — |
-| 23 | 376-equayogastudio | Pendiente | — | — | — | — | — |
+| 23 | 376-equayogastudio | Descartado, `sin-contacto` | (este commit) | — (El sitio dice "Estudio Inactivo"; sin datos de contacto) | — | — | — |
 | 24 | 598-jrtransporteejecutivo | Pendiente | — | — | — | — | — |
 | 25 | 479-gymvjlmazatlan | Pendiente | — | — | — | — | — |
 | 26 | 644-larefineriabarber | Descartado, `sitio-reciente` | (este commit) | — (Página moderna en LeadConnector, 3 sucursales y lealtad) | — | — | — |
-| 27 | 622-labvida | Pendiente | — | — | — | — | — |
+| 27 | 622-labvida | Descartado, `sitio-reciente` | (este commit) | — (WordPress de 2025, bien enfocado a médicos y pacientes) | — | — | — |
 | 28 | 525-hotelesboutiquecampeche | Pendiente | — | — | — | — | — |
 | 29 | 650-leduo | Pendiente | — | — | — | — | — |
 | 30 | 202-centrouniversitarioanglo | Pendiente | — | — | — | — | — |

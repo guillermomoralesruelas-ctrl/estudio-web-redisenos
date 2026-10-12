@@ -102,6 +102,8 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `415-fit` | Fit+ | Chihuahua, Chih. | `sitio-reciente` | Wix con mantenimiento activo en 2026 (blog de marzo de 2026), programa "Fit+ 21", precios al día y 4 sucursales con horario y servicios | Nube |
 | `556-huatulcowellnesssanctuar` | Huatulco Wellness Sanctuary / Natoorales | Huatulco, Oax. | `sitio-reciente` | WordPress con Elementor y AIOSEO rehecho en 2026, en inglés, con JSON-LD, WhatsApp y fotos propias; coaching remoto mundial lleno de afirmaciones de salud | Nube |
 | `644-larefineriabarber` | La Refinería Barber Shop | San Luis Potosí, S.L.P. | `sitio-reciente` | Página moderna en LeadConnector con 3 sucursales, programa de lealtad y reseñas al día (3,418 en Google) | Nube |
+| `622-labvida` | LabVida | Querétaro, Qro. | `sitio-reciente` | WordPress rehecho en 2025 (© 2026) con textos por público, proceso, tiempos de entrega y precios | Nube |
+| `376-equayogastudio` | Equa Yoga Studio | Veracruz (sin confirmar) | `sin-contacto` | El sitio muestra "Estudio Inactivo" en todas sus páginas; sin teléfono, dirección ni fotos | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
