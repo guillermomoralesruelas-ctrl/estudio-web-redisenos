@@ -32,7 +32,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 26 | 644-larefineriabarber | Descartado, `sitio-reciente` | (este commit) | — (Página moderna en LeadConnector, 3 sucursales y lealtad) | — | — | — |
 | 27 | 622-labvida | Descartado, `sitio-reciente` | (este commit) | — (WordPress de 2025, bien enfocado a médicos y pacientes) | — | — | — |
 | 28 | 525-hotelesboutiquecampeche | Descartado, `sitio-reciente` | (este commit) | — (Sitio de Lovable de 2026 con reserva directa y WhatsApp) | — | — | — |
-| 29 | 650-leduo | Pendiente | — | — | — | — | — |
+| 29 | 650-leduo | Descartado, `sitio-reciente` | (este commit) | — (App de 2026 con lealtad, reservas y tienda; un solo café) | — | — | — |
 | 30 | 202-centrouniversitarioanglo | Pendiente | — | — | — | — | — |
 
 ## En curso

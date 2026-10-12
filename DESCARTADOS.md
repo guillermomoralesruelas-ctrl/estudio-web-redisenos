@@ -107,6 +107,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `598-jrtransporteejecutivo` | JR Transporte Ejecutivo | Ciudad de México | `sin-fotos` | Solo dos fotos propias (la Escalade de frente y de atrás); las de aeropuerto, oficina, eventos y tours son ajenas, parecen hechas con IA o vienen de Pinterest | Nube |
 | `479-gymvjlmazatlan` | Gym VJL Mazatlán | Mazatlán, Sin. | `sitio-reciente` | Next.js de 2026 con precios, horarios, mapas, WhatsApp y consulta de membresía; solo 4 fotos | Nube |
 | `525-hotelesboutiquecampeche` | Hoteles Boutique Campeche | Campeche, Camp. | `sitio-reciente` | Sitio de Lovable de 2026 (React + Supabase) con reserva directa, WhatsApp, Google Ads y buen SEO; grupo local de 3 casas, no cadena | Nube |
+| `650-leduo` | LeDuo Coffee & Bread | Roma Norte, CDMX | `sitio-reciente` | App de 2026 (Lovable): menú, talleres con reserva, tienda y lealtad con wallet y ruleta | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
