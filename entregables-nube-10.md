@@ -21,7 +21,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 15 | 618-lab | Pendiente | — | — | — | — | — |
 | 16 | 473-grupofractal | Pendiente | — | — | — | — | — |
 | 17 | 457-gotransferscancun | Descartado, `sitio-reciente` | (este commit) | — (Astro 5.16, © 2026, reservas en línea) | — | — | — |
-| 18 | 348-eduardodavalosfotografia | Pendiente | — | — | — | — | — |
+| 18 | 348-eduardodavalosfotografia | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,644 / 8,222 px | Colecciones como horas del día de la boda | ALTA | Restos en inglés; página "copia-de" |
 | 19 | 415-fit | Pendiente | — | — | — | — | — |
 | 20 | 556-huatulcowellnesssanctuar | Pendiente | — | — | — | — | — |
 | 21 | 587-ixiimchableyucatan | Pendiente | — | — | — | — | — |

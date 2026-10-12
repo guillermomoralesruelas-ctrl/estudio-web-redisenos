@@ -1,0 +1,116 @@
+{
+  "fecha": "2026-10-12T02:33:40.217Z",
+  "carpeta": "348-eduardodavalosfotografia",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 3458,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 8,
+      "rotas": [
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/77265744-6827-4bf3-9565-35430a067813_rwc_20x0x1186x355x4096.png?h=25a51c2733a496dc8fe8c0f6aac1c9cb",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/e291733c-97c0-4c8a-8e59-e78819d21c0d_rwc_0x122x3840x2164x32.jpg?h=e932143f8bb7234acf3c9a26e2fdb15e",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/41ffbd43-f8f6-400a-b373-7ccc5ee04754_rwc_0x195x3909x2203x32.JPG?h=624ac05ed965be36c3197a659c508aee",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/f06a375a-8629-4e2f-9405-63334ecb3063_rwc_0x158x3174x1788x32.JPG?h=69aa5fd5cf2ba55584aa2ea3685da47e",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/ef60659c-a99f-4905-9848-a38db61a6920_rwc_0x0x5340x3009x32.JPG?h=216690327cd4406190c1e2daabec51ee",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/9992469f-e51e-4332-815b-e37dbdeb0782_rwc_0x251x3691x2080x32.jpg?h=4e45ad365cb0848097d368c92e8ccdb0",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/4ec510c1-d6f0-4af9-9d68-c0c06b0ca34e_rwc_0x244x4894x2758x32.JPG?h=42a1e30e7535c3c79e706bc3dfc29945",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/a6b1c591-ede1-416a-84ca-c75ef3e31bd5_rwc_0x273x5475x3085x32.JPG?h=95c05138252a5a468c094455a789eeef"
+      ],
+      "sinAlt": 7,
+      "titulo": "Eduardo Davalos Fotografo de Bodas en Guadalajara",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:37187/site/translations?cb=37c32611197a654772ef671298063a188e40eea7",
+        "404 http://127.0.0.1:37187/dist/js/main.js?cb=37c32611197a654772ef671298063a188e40eea7"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 1788,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 8,
+      "rotas": [
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/77265744-6827-4bf3-9565-35430a067813_rwc_20x0x1186x355x4096.png?h=25a51c2733a496dc8fe8c0f6aac1c9cb",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/e291733c-97c0-4c8a-8e59-e78819d21c0d_rwc_0x122x3840x2164x32.jpg?h=e932143f8bb7234acf3c9a26e2fdb15e",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/41ffbd43-f8f6-400a-b373-7ccc5ee04754_rwc_0x195x3909x2203x32.JPG?h=624ac05ed965be36c3197a659c508aee",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/f06a375a-8629-4e2f-9405-63334ecb3063_rwc_0x158x3174x1788x32.JPG?h=69aa5fd5cf2ba55584aa2ea3685da47e",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/ef60659c-a99f-4905-9848-a38db61a6920_rwc_0x0x5340x3009x32.JPG?h=216690327cd4406190c1e2daabec51ee",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/9992469f-e51e-4332-815b-e37dbdeb0782_rwc_0x251x3691x2080x32.jpg?h=4e45ad365cb0848097d368c92e8ccdb0",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/4ec510c1-d6f0-4af9-9d68-c0c06b0ca34e_rwc_0x244x4894x2758x32.JPG?h=42a1e30e7535c3c79e706bc3dfc29945",
+        "https://cdn.myportfolio.comassets/externo/cdn.myportfolio.com/1d8d4b1e-525d-414e-831c-469cb0557823/a6b1c591-ede1-416a-84ca-c75ef3e31bd5_rwc_0x273x5475x3085x32.JPG?h=95c05138252a5a468c094455a789eeef"
+      ],
+      "sinAlt": 7,
+      "titulo": "Eduardo Davalos Fotografo de Bodas en Guadalajara",
+      "errores": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:37187/site/translations?cb=37c32611197a654772ef671298063a188e40eea7",
+        "404 http://127.0.0.1:37187/dist/js/main.js?cb=37c32611197a654772ef671298063a188e40eea7"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 6644,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 18,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Eduardo Dávalos | Fotógrafo de bodas en Guadalajara",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 8222,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 18,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Eduardo Dávalos | Fotógrafo de bodas en Guadalajara",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

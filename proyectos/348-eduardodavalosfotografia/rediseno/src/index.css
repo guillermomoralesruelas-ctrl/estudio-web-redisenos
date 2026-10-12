@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "@fontsource-variable/bodoni-moda/wght.css";
+@import "@fontsource-variable/bodoni-moda/wght-italic.css";
+@import "@fontsource-variable/manrope/wght.css";
+
+@theme {
+  /* Sus fotos: noches oscuras, confeti y piel cálida; su firma en tinta sobre blanco */
+  --color-noche: #12100E;
+  --color-noche-2: #1E1B18;
+  --color-hueso: #F4EFE7;
+  --color-papel: #FBF8F3;
+  --color-tinta: #1B1916;
+  --color-gris: #615B53;
+  --color-vela: #C99A5B;       /* luz de vela de sus fotos nocturnas, sobre oscuro */
+  --color-cobre: #8C5A26;      /* versión AA sobre hueso */
+
+  --font-display: "Bodoni Moda Variable", Didot, Georgia, serif;
+  --font-sans: "Manrope Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-hueso text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.04; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-vela); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-semibold leading-none tracking-wide transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[80rem] px-5 sm:px-8; }
+  .btn-vela { @apply btn bg-vela text-noche hover:bg-[#D8B07A]; }
+  .btn-noche { @apply btn bg-noche text-hueso hover:bg-noche-2; }
+  .btn-linea { @apply btn border border-current hover:bg-black/5; }
+}
