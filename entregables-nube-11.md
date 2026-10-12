@@ -27,7 +27,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-11.md`, armado y clonado en la nube el 
 | 21 | 255-copaltulumhotel | Pendiente | — | — | — | — | — |
 | 22 | 317-divineesteticacanina | Pendiente | — | — | — | — | — |
 | 23 | 341-drarosalindasepulveda | Pendiente | — | — | — | — | — |
-| 24 | 375-entrevallehotelboutique | Pendiente | — | — | — | — | — |
+| 24 | 375-entrevallehotelboutique | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 8,091 / 12,547 px | "El año del valle, mes por mes": calendario de bodas con condiciones de grupo | ALTA | Reglamento corrompido; WhatsApp a otro número |
 | 25 | 625-lacasadel | Pendiente | — | — | — | — | — |
 | 26 | 639-laotraespana | Pendiente | — | — | — | — | — |
 | 27 | 279-cuetzpallintemazcal | Pendiente | — | — | — | — | — |

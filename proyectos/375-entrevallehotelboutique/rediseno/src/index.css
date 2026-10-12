@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "@fontsource/marcellus/latin-400.css";
+@import "@fontsource-variable/work-sans/wght.css";
+
+@theme {
+  /* Entrevalle: el verde salvia de su logotipo, el adobe rojizo de sus cabañas, el vino del valle y la arena del terreno */
+  --color-salvia: #648B73;        /* del logotipo; fondos y detalles */
+  --color-salvia-osc: #3E634F;    /* AA sobre arena y blanco */
+  --color-adobe: #B4603F;         /* muros de las cabañas; solo fondos y bordes */
+  --color-adobe-osc: #8E4630;     /* AA sobre arena */
+  --color-tinto: #5E2230;         /* vino; temporada de Vendimia */
+  --color-arena: #F5EFE4;
+  --color-arena-2: #E8DDCB;
+  --color-tinta: #22261F;
+  --color-gris: #59584F;
+  --color-noche: #18241F;         /* el cielo de noche del valle */
+
+  --font-display: "Marcellus", Georgia, serif;
+  --font-sans: "Work Sans Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-arena text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.05; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-adobe); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-semibold leading-none tracking-wide transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-salvia { @apply btn bg-salvia-osc text-white hover:bg-[#2F4F3E]; }
+  .btn-adobe { @apply btn bg-adobe-osc text-white hover:bg-[#743826]; }
+  .btn-claro { @apply btn bg-arena text-tinta hover:bg-white; }
+  .btn-linea { @apply btn border border-current hover:bg-white/10; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.24em] text-adobe-osc; }
+}
+
+/* Estrellas del cielo nocturno (sección de bodas) */
+.cielo {
+  background-image:
+    radial-gradient(1.5px 1.5px at 12% 18%, #fff9 50%, transparent 51%),
+    radial-gradient(1px 1px at 28% 62%, #fff8 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 44% 30%, #fffa 50%, transparent 51%),
+    radial-gradient(1px 1px at 63% 12%, #fff9 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 78% 48%, #fff8 50%, transparent 51%),
+    radial-gradient(1px 1px at 90% 22%, #fffa 50%, transparent 51%),
+    radial-gradient(1px 1px at 52% 80%, #fff6 50%, transparent 51%),
+    radial-gradient(1px 1px at 8% 86%, #fff7 50%, transparent 51%);
+  background-size: 420px 300px;
+}
+@keyframes titilar { 50% { opacity: 0.55; } }
+.titila { animation: titilar 5s ease-in-out infinite; }
