@@ -7,7 +7,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-11.md`, armado y clonado en la nube el 
 | 1 | 257-coppercanyontours | Descartado, `sin-contacto` | (este commit) | — (Dominio estacionado en GoDaddy: sin sitio, fotos ni contacto) | — | — | — |
 | 2 | 288-daryakrylovafotografia | Pendiente | — | — | — | — | — |
 | 3 | 418-floraspa | Pendiente | — | — | — | — | — |
-| 4 | 548-hotelsuiteskino | Pendiente | — | — | — | — | — |
+| 4 | 548-hotelsuiteskino | Descartado, `sitio-reciente` | (este commit) | — (Sitio rehecho en junio de 2026 con motor de reservas) | — | — | — |
 | 5 | 597-joypack | Pendiente | — | — | — | — | — |
 | 6 | 21-agenciainmobiliariaproin | Descartado, `sin-contacto` | (este commit) | — (Sitio EasyBroker inactivo: sin propiedades, fotos ni contacto) | — | — | — |
 | 7 | 155-casaazulgran | Pendiente | — | — | — | — | — |

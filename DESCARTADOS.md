@@ -111,6 +111,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `202-centrouniversitarioanglo` | Centro Universitario Anglotorreón | Torreón, Coah. | `sin-fotos` | Una sola foto propia (la biblioteca); el banner es de banco y las páginas internas no tienen imágenes; sitio a medio hacer con texto de plantilla y avisos de 2023 | Nube |
 | `21-agenciainmobiliariaproin` | Agencia inmobiliaria Proinmex | Veracruz, Ver. (sin confirmar) | `sin-contacto` | Sitio inactivo en EasyBroker (indavarealestate.com): sin propiedades, fotos ni datos de contacto; proinmex.com.mx es otra empresa | Nube |
 | `257-coppercanyontours` | Copper Canyon Tours Mexico | Creel, Chih. (sin confirmar) | `sin-contacto` | Dominio estacionado en GoDaddy (redirige a /lander): sin textos, fotos ni contacto | Nube |
+| `548-hotelsuiteskino` | Hotel Suites Kino | Hermosillo, Son. | `sitio-reciente` | Sitio rehecho en junio de 2026 en R2-OS con motor de reservas, WhatsApp, mapa y FAQ; la URL de la base da 404 | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
