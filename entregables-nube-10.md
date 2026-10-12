@@ -17,7 +17,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 11 | 42-ampicolimaclubsantiago | Pendiente | — | — | — | — | — |
 | 12 | 475-grupoinsapropiedades | Pendiente | — | — | — | — | — |
 | 13 | 152-carsainmobiliaria | Pendiente | — | — | — | — | — |
-| 14 | 523-hotelcelayamexico | Pendiente | — | — | — | — | — |
+| 14 | 523-hotelcelayamexico | Descartado, `cadena` | (este commit) | — (Cadena: 5 hoteles México Plaza más Hyatt y propiedades en San Miguel) | — | — | — |
 | 15 | 618-lab | Pendiente | — | — | — | — | — |
 | 16 | 473-grupofractal | Pendiente | — | — | — | — | — |
 | 17 | 457-gotransferscancun | Pendiente | — | — | — | — | — |

@@ -292,7 +292,8 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 | 42-ampicolimaclubsantiago | AMPI Colima (asociación inmobiliaria; Colima, Col.) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 | 475-grupoinsapropiedades | Grupo Insa Propiedades (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 | 152-carsainmobiliaria | CARSA Inmobiliaria (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
-| 523-hotelcelayamexico | Hotel Celaya México Plaza (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
+| 523-hotelcelayamexico | Hoteles México Plaza (cadena hotelera del Bajío; la URL de la base es el portal del grupo, no el hotel de Celaya) | — | Descartado | — | Hecho en la nube (lote 10, 2026-10-12), revisado en el sitio en vivo. `cadena` (ver `DESCARTADOS.md`): mexicoplaza.com.mx es el portal corporativo de Hoteles México Plaza. Su buscador de reservas reúne 5 hoteles (Celaya, Irapuato, Silao Aeropuerto, Campestre León y Querétaro) y además enlaza Hyatt Centric Campestre León y cinco propiedades boutique en San Miguel de Allende (La Estación, Residencias La Estación, Casa Primavera, Clevia y La Pilarica), con línea 800 733 38 25, división de grupos "MP Business & Social" y reservaciones@mexicoplaza.com.mx. No es el tipo de cliente del estudio. Ojo: su pie tiene inyectados enlaces de spam de casinos (888starz, vavada, 4rabet, w88), señal de WordPress hackeado |
+| 618-lab | LAB (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 

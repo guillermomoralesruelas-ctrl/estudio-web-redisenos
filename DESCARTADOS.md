@@ -95,6 +95,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `576-innovacioninmobiliaria` | Innovación Inmobiliaria | [PENDIENTE] | `sin-contacto` | Sitio inactivo en EasyBroker: sin propiedades, fotos ni datos de contacto | Nube |
 | `478-guiacasasy` | Guía Casas y Terrenos | Guadalajara, Jal. | `sin-fotos` | Plantilla de EasyBroker sin logotipo, con texto de ejemplo y catálogo de la red nacional (fotos de otras inmobiliarias) | Nube |
 | `474-grupoinmobiliarioelite` | Grupo Inmobiliario Elite | [PENDIENTE] | `sitio-reciente` | Sitio corporativo en WordPress de 2025 (elitecorporativo.com.mx); el dominio del lote es solo su catálogo de EasyBroker | Nube |
+| `523-hotelcelayamexico` | Hoteles México Plaza (Celaya) | Bajío (Celaya, Gto., y otras cuatro ciudades) | `cadena` | Portal corporativo de una cadena con 5 hoteles México Plaza (Celaya, Irapuato, Silao, León y Querétaro), además de Hyatt Centric León y cinco propiedades en San Miguel de Allende; línea 800 y división de grupos y eventos. Su pie tiene enlaces de spam de casinos inyectados (WordPress hackeado) | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
