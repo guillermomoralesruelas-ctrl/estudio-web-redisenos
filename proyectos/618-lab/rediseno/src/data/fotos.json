@@ -1,0 +1,150 @@
+{
+ "bolsa-en-mano": [
+  1080,
+  1350
+ ],
+ "bolsas-de-cafe": [
+  1400,
+  934
+ ],
+ "cafe-ojo": [
+  1120,
+  1400
+ ],
+ "centro-barista": [
+  788,
+  1400
+ ],
+ "centro-bowl-latte": [
+  1120,
+  1400
+ ],
+ "centro-cafetera": [
+  934,
+  1400
+ ],
+ "centro-comunidad": [
+  1400,
+  934
+ ],
+ "centro-dj": [
+  1120,
+  1400
+ ],
+ "centro-latte-art": [
+  768,
+  1024
+ ],
+ "centro-latte": [
+  880,
+  1400
+ ],
+ "centro-noche-de-cine": [
+  1400,
+  934
+ ],
+ "centro-noche": [
+  1400,
+  934
+ ],
+ "centro-sandwich": [
+  1120,
+  1400
+ ],
+ "cold-brew": [
+  1400,
+  1400
+ ],
+ "cowork-escritorios": [
+  1400,
+  708
+ ],
+ "cowork-sala": [
+  1400,
+  731
+ ],
+ "cowork-tienda": [
+  1400,
+  1400
+ ],
+ "cowork-ventanal": [
+  1120,
+  1400
+ ],
+ "equipo-mural": [
+  1400,
+  1400
+ ],
+ "equipo-ventanilla": [
+  934,
+  1400
+ ],
+ "lab-entrada": [
+  2000,
+  1600
+ ],
+ "playita-atardecer": [
+  1120,
+  1400
+ ],
+ "playita-brunch": [
+  1120,
+  1400
+ ],
+ "playita-coctel": [
+  1283,
+  1400
+ ],
+ "playita-espresso": [
+  934,
+  1400
+ ],
+ "playita-hamburguesa": [
+  1120,
+  1400
+ ],
+ "playita-interior": [
+  1120,
+  1400
+ ],
+ "playita-mesas-calle": [
+  1192,
+  1400
+ ],
+ "playita-mural": [
+  934,
+  1400
+ ],
+ "playita-noroom": [
+  1400,
+  934
+ ],
+ "playita-palapa": [
+  1335,
+  2000
+ ],
+ "playita-terraza": [
+  2000,
+  1335
+ ],
+ "playita-toast": [
+  934,
+  1400
+ ],
+ "playita-vino": [
+  934,
+  1400
+ ],
+ "tostado-en-equipo": [
+  1400,
+  1400
+ ],
+ "tostado-granos": [
+  1400,
+  787
+ ],
+ "tostador-diedrich": [
+  1051,
+  1400
+ ]
+}

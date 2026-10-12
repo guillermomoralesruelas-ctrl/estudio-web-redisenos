@@ -18,7 +18,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 12 | 475-grupoinsapropiedades | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 7,444 / 13,438 px | "¿Para qué necesitas el avalúo?": hoja de trámite con papeles y tarifa | MEDIA | Avalúos en cuatro páginas; cifras de experiencia distintas |
 | 13 | 152-carsainmobiliaria | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,721 / 8,098 px | "Dos casas, lado a lado": comparador de 40 casas con WhatsApp | MEDIA | Portada con propiedades ajenas; Asesores vacío |
 | 14 | 523-hotelcelayamexico | Descartado, `cadena` | (este commit) | — (Cadena: 5 hoteles México Plaza más Hyatt y propiedades en San Miguel) | — | — | — |
-| 15 | 618-lab | Pendiente | — | — | — | — | — |
+| 15 | 618-lab | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 8,226 / 13,076 px | "¿Qué día vienes?": horario de dos LAB, bar y cowork por día | MEDIA | Boletín roto a la vista; horarios contradictorios |
 | 16 | 473-grupofractal | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,875 / 7,727 px | "El mosaico Fractal": treemap del catálogo por precio | MEDIA | Privacidad copiada de otro sitio; catálogo repetido |
 | 17 | 457-gotransferscancun | Descartado, `sitio-reciente` | (este commit) | — (Astro 5.16, © 2026, reservas en línea) | — | — | — |
 | 18 | 348-eduardodavalosfotografia | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,644 / 8,222 px | Colecciones como horas del día de la boda | ALTA | Restos en inglés; página "copia-de" |
