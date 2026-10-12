@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import "@fontsource-variable/playfair-display/wght.css";
+@import "@fontsource-variable/playfair-display/wght-italic.css";
+@import "@fontsource-variable/montserrat/wght.css";
+
+/* Darya Krylova: el morado y el turquesa de su sitio (#5a3792, #0f8083), el lila y el amarillo de sus acentos,
+   y el blanco y negro de su logotipo "dK creative studio". Fuentes: Playfair Display y Montserrat, las de su sitio. */
+@theme {
+  --color-papel: #F6F3EE;
+  --color-papel-2: #ECE7DF;
+  --color-tinta: #17151A;
+  --color-gris: #5B5660;
+  --color-morado: #5A3792;
+  --color-morado-2: #432870;
+  --color-lila: #B9B9EA;
+  --color-turquesa: #0B6A6D;
+  --color-amarillo: #DED074;
+  --font-serif: "Playfair Display Variable", Georgia, serif;
+  --font-sans: "Montserrat Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-papel text-tinta font-sans antialiased; }
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-morado); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+  }
+}
+
+@utility contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+@utility titulo { @apply font-serif text-3xl leading-tight sm:text-4xl md:text-5xl; }
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-colors; }
+@utility btn-morado { @apply btn bg-morado text-white hover:bg-morado-2; }
+@utility btn-borde { @apply btn border border-tinta/30 hover:border-tinta hover:bg-white; }

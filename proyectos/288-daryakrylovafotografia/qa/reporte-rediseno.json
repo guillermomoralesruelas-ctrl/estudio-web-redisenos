@@ -1,0 +1,104 @@
+{
+  "fecha": "2026-10-12T02:59:00.938Z",
+  "carpeta": "288-daryakrylovafotografia",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 39646,
+      "desbordeX": 728,
+      "h1": 1,
+      "imagenes": 86,
+      "rotas": [
+        "http://static-cdn4-2.vigbo.techassets/externo/static-cdn4-2.vigbo.tech/u250107/141335/logo/u-71cdc27acd1257d715a62d4fd8ea9c4f.png.1305",
+        "http://static-cdn4-2.vigbo.techassets/externo/static-cdn4-2.vigbo.tech/u250107/141335/logo/u-71cdc27acd1257d715a62d4fd8ea9c4f.png.1305"
+      ],
+      "sinAlt": 0,
+      "titulo": "Fotografía de producto en Guadalajara | Fotógrafo de producto Darya Krylova",
+      "errores": [
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43425/__api/get-pages-structure"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 28637,
+      "desbordeX": 1618,
+      "h1": 1,
+      "imagenes": 86,
+      "rotas": [
+        "http://static-cdn4-2.vigbo.techassets/externo/static-cdn4-2.vigbo.tech/u250107/141335/logo/u-71cdc27acd1257d715a62d4fd8ea9c4f.png.1305",
+        "http://static-cdn4-2.vigbo.techassets/externo/static-cdn4-2.vigbo.tech/u250107/141335/logo/u-71cdc27acd1257d715a62d4fd8ea9c4f.png.1305"
+      ],
+      "sinAlt": 0,
+      "titulo": "Fotografía de producto en Guadalajara | Fotógrafo de producto Darya Krylova",
+      "errores": [
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:43425/__api/menu",
+        "404 http://127.0.0.1:43425/__api/get-pages-structure"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 9458,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 34,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Darya Krylova | Fotografía de producto en Guadalajara para catálogo, eCommerce y redes",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 15496,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 34,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Darya Krylova | Fotografía de producto en Guadalajara para catálogo, eCommerce y redes",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

@@ -5,7 +5,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-11.md`, armado y clonado en la nube el 
 | # | Carpeta | Resultado | Commit | QA (escritorio / celular) | Elemento memorable | Prioridad | Hallazgo principal |
 |---|---|---|---|---|---|---|---|
 | 1 | 257-coppercanyontours | Descartado, `sin-contacto` | (este commit) | — (Dominio estacionado en GoDaddy: sin sitio, fotos ni contacto) | — | — | — |
-| 2 | 288-daryakrylovafotografia | Pendiente | — | — | — | — | — |
+| 2 | 288-daryakrylovafotografia | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 9,458 / 15,496 px | "¿Cuántas fotos necesita tu producto?": silla en 7 tomas con paquete | MEDIA | Entrega 1-2 semanas vs 5-7 días; WhatsApp vacío |
 | 3 | 418-floraspa | Pendiente | — | — | — | — | — |
 | 4 | 548-hotelsuiteskino | Descartado, `sitio-reciente` | (este commit) | — (Sitio rehecho en junio de 2026 con motor de reservas) | — | — | — |
 | 5 | 597-joypack | Descartado, `url-ajena` | (este commit) | — (Marketplace de experiencias para regalar, no operador de tours) | — | — | — |
