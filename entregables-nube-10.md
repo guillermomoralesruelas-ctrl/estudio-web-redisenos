@@ -31,7 +31,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 25 | 479-gymvjlmazatlan | Descartado, `sitio-reciente` | (este commit) | — (Next.js de 2026 completo: precios, horarios, mapas, WhatsApp) | — | — | — |
 | 26 | 644-larefineriabarber | Descartado, `sitio-reciente` | (este commit) | — (Página moderna en LeadConnector, 3 sucursales y lealtad) | — | — | — |
 | 27 | 622-labvida | Descartado, `sitio-reciente` | (este commit) | — (WordPress de 2025, bien enfocado a médicos y pacientes) | — | — | — |
-| 28 | 525-hotelesboutiquecampeche | Pendiente | — | — | — | — | — |
+| 28 | 525-hotelesboutiquecampeche | Descartado, `sitio-reciente` | (este commit) | — (Sitio de Lovable de 2026 con reserva directa y WhatsApp) | — | — | — |
 | 29 | 650-leduo | Pendiente | — | — | — | — | — |
 | 30 | 202-centrouniversitarioanglo | Pendiente | — | — | — | — | — |
 

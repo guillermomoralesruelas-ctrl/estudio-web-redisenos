@@ -106,6 +106,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `376-equayogastudio` | Equa Yoga Studio | Veracruz (sin confirmar) | `sin-contacto` | El sitio muestra "Estudio Inactivo" en todas sus páginas; sin teléfono, dirección ni fotos | Nube |
 | `598-jrtransporteejecutivo` | JR Transporte Ejecutivo | Ciudad de México | `sin-fotos` | Solo dos fotos propias (la Escalade de frente y de atrás); las de aeropuerto, oficina, eventos y tours son ajenas, parecen hechas con IA o vienen de Pinterest | Nube |
 | `479-gymvjlmazatlan` | Gym VJL Mazatlán | Mazatlán, Sin. | `sitio-reciente` | Next.js de 2026 con precios, horarios, mapas, WhatsApp y consulta de membresía; solo 4 fotos | Nube |
+| `525-hotelesboutiquecampeche` | Hoteles Boutique Campeche | Campeche, Camp. | `sitio-reciente` | Sitio de Lovable de 2026 (React + Supabase) con reserva directa, WhatsApp, Google Ads y buen SEO; grupo local de 3 casas, no cadena | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
