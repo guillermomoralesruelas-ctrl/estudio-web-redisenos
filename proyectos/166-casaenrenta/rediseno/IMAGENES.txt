@@ -1,0 +1,4 @@
+# Imágenes disponibles en publicDir (../sitio/assets/themes/frutillar/built_in_images), de mayor a menor peso.
+# En el código: `${import.meta.env.BASE_URL}<ruta>`
+main.jpg	1920x1080	240 KB
+welcome.jpg	1620x1080	167 KB

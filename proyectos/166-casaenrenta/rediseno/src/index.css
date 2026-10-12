@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "@fontsource/gloock/latin-400.css";
+@import "@fontsource/hanken-grotesk/latin-400.css";
+@import "@fontsource/hanken-grotesk/latin-500.css";
+@import "@fontsource/hanken-grotesk/latin-700.css";
+
+@theme {
+  /* Firma Inmobiliaria: el roble blanco sobre negro de su logotipo, con el verde de Tapalpa y el ocre de la madera */
+  --color-tinta: #191C18;      /* negro del logotipo, un poco verde */
+  --color-tinta-2: #262B25;
+  --color-papel: #F4F0E7;
+  --color-papel-2: #E7E0D1;
+  --color-roble: #2D4A36;      /* verde de bosque; fondo del elemento distintivo */
+  --color-roble-2: #3B5E45;
+  --color-ocre: #D6A24A;       /* sobre fondos oscuros */
+  --color-ocre-osc: #85561A;   /* texto sobre papel (AA) */
+  --color-gris: #565B54;
+
+  --font-display: "Gloock", Georgia, serif;
+  --font-sans: "Hanken Grotesk", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { @apply bg-papel text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.05; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-ocre); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-medium leading-none transition-colors; }
+@utility chip { @apply rounded-full border px-4 py-2 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-35; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[76rem] px-5 sm:px-8; }
+  .btn-ocre { @apply btn bg-ocre text-tinta hover:bg-[#E4B666]; }
+  .btn-tinta { @apply btn bg-tinta text-papel hover:bg-tinta-2; }
+  .btn-linea { @apply btn border border-current hover:bg-white/10; }
+}

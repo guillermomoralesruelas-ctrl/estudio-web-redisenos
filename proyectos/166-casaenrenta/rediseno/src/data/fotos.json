@@ -1,0 +1,86 @@
+{
+ "bacalar-casa": [
+  1024,
+  683
+ ],
+ "bacalar-laguna": [
+  720,
+  960
+ ],
+ "bacalar-sala": [
+  960,
+  638
+ ],
+ "bucerias-quadrant": [
+  1000,
+  667
+ ],
+ "el-salto-bodega-aeropuerto": [
+  1200,
+  900
+ ],
+ "guadalajara-torre-del-bosque": [
+  1200,
+  900
+ ],
+ "guadalajara-warhol-colomos": [
+  1200,
+  900
+ ],
+ "mazamitla-cabana-alpina": [
+  900,
+  1200
+ ],
+ "mazamitla-dos-cabanas": [
+  900,
+  1200
+ ],
+ "mazamitla-paseo-del-ciervo": [
+  1024,
+  768
+ ],
+ "tapalpa-cabana-golf-cocina": [
+  1200,
+  900
+ ],
+ "tapalpa-cabana-golf-sala": [
+  1200,
+  900
+ ],
+ "tapalpa-cabana-golf": [
+  1200,
+  900
+ ],
+ "tapalpa-la-lima": [
+  1200,
+  675
+ ],
+ "tlajomulco-bodega-las-cuatas": [
+  1200,
+  931
+ ],
+ "todos-santos-las-tunas": [
+  699,
+  561
+ ],
+ "todos-santos-punta-lobos": [
+  1200,
+  900
+ ],
+ "tulum-aldea-zama": [
+  1200,
+  800
+ ],
+ "zapopan-centinela": [
+  1200,
+  800
+ ],
+ "zapopan-lirica-towers": [
+  1200,
+  900
+ ],
+ "zapopan-solares": [
+  1200,
+  960
+ ]
+}

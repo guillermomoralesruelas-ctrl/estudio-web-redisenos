@@ -1,0 +1,747 @@
+{
+ "fecha": "2026-10-12",
+ "totalVenta": 2806,
+ "totalRenta": 738,
+ "grupos": [
+  {
+   "municipio": "Guadalajara",
+   "tipo": "Casa",
+   "rec": 4,
+   "nVenta": 82,
+   "nRenta": 15,
+   "medVenta": 9150000.0,
+   "medRenta": 45000.0,
+   "anios": 16.9,
+   "ejVenta": [
+    {
+     "precio": 9200000.0,
+     "col": "Independencia",
+     "titulo": "CASA EN VENTA EN COL. INDEPENDENCIA",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-venta-en-col-independencia-80edbb1e-3fb3-4d34-ba1d-924a4037aba7",
+     "rec": 4,
+     "banos": 5,
+     "m2": 317.0,
+     "op": "venta"
+    },
+    {
+     "precio": 9100000.0,
+     "col": "Lomas de Independencia",
+     "titulo": "HERMOSA CASA EN VENTA EN LOMAS INDEPENDENCIA",
+     "url": "https://www.firmainmobiliaria.com/property/hermosa-casa-en-venta-en-lomas-independencia",
+     "rec": 5,
+     "banos": 3,
+     "m2": 343.0,
+     "op": "venta"
+    },
+    {
+     "precio": 9300000.0,
+     "col": "Residencial Victoria",
+     "titulo": "CASA EN VENTA EN RESIDENCIAL VICTORIA",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-venta-en-residencial-victoria-7216d1b5-b606-47f0-8950-2a3687475a12",
+     "rec": 4,
+     "banos": 2,
+     "m2": 424.0,
+     "op": "venta"
+    }
+   ],
+   "ejRenta": [
+    {
+     "precio": 45000.0,
+     "col": "Providencia 1a Secc",
+     "titulo": "Casa en renta uso mixto para oficinas/comercio en Providencia | Guadalajara",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-renta-uso-mixto-para-oficinas-comercio-en-providencia-guadalajara",
+     "rec": 4,
+     "banos": 2,
+     "m2": 350.0,
+     "op": "renta"
+    },
+    {
+     "precio": 45000.0,
+     "col": "Santa Teresita",
+     "titulo": "Terreno/bodega/local en Santa Tere (A 140 m de Av Chapultepec) Santa Teresita, G",
+     "url": "https://www.firmainmobiliaria.com/property/terreno-bodega-local-en-santa-tere-a-100-m-de-av-chapultepec",
+     "rec": 4,
+     "banos": 4,
+     "m2": 120.0,
+     "op": "renta"
+    },
+    {
+     "precio": 45000.0,
+     "col": "Independencia",
+     "titulo": "Casa en Renta en Col. Independencia ¡ESTRÉNALA!",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-renta-en-col-independencia-b70a247d-9f4f-4c6b-bb5d-d51c527a9bdb",
+     "rec": 4,
+     "banos": 5,
+     "m2": 317.0,
+     "op": "renta"
+    }
+   ]
+  },
+  {
+   "municipio": "Guadalajara",
+   "tipo": "Departamento",
+   "rec": 1,
+   "nVenta": 205,
+   "nRenta": 41,
+   "medVenta": 3839430.0,
+   "medRenta": 19800.0,
+   "anios": 16.2,
+   "ejVenta": [
+    {
+     "precio": 3839430.0,
+     "col": "Americana",
+     "titulo": "PREVENTA DE DEPARTAMENTOS EN COLONIA AMERICANA EN GUADALAJARA",
+     "url": "https://www.firmainmobiliaria.com/property/preventa-de-departamentos-en-colonia-americana-en-guadalajara-americana-guadalajara",
+     "rec": 1,
+     "banos": 1,
+     "m2": 47.0,
+     "op": "venta"
+    },
+    {
+     "precio": 3845346.0,
+     "col": "Americana",
+     "titulo": "PREVENTA DE DEPARTAMENTOS EN COLONIA AMERICANA EN GUADALAJARA",
+     "url": "https://www.firmainmobiliaria.com/property/preventa-de-departamentos-en-colonia-americana-en-guadalajara",
+     "rec": 1,
+     "banos": 1,
+     "m2": 44.0,
+     "op": "venta"
+    },
+    {
+     "precio": 3850000.0,
+     "col": "Moderna",
+     "titulo": "Departamento Tipo TOWNHOUSE  en ORZA LOFT | Planta Baja",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-tipo-townhouse-en-orza-loft",
+     "rec": 1,
+     "banos": 2,
+     "m2": 81.93,
+     "op": "venta"
+    }
+   ],
+   "ejRenta": [
+    {
+     "precio": 19800.0,
+     "col": "Country Club",
+     "titulo": "Departamento en Country Club, Guadalajara.Departamento en Country Club, Guadalaj",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-country-club-guadalajara-departamento-en-country-club-guadalaj",
+     "rec": 1,
+     "banos": 1,
+     "m2": 48.0,
+     "op": "renta"
+    },
+    {
+     "precio": 19670.0,
+     "col": "Country Club",
+     "titulo": "Depa en renta Nomad Living Zona Country Club",
+     "url": "https://www.firmainmobiliaria.com/property/depa-en-renta-nomad-living-zona-country-club-country-club",
+     "rec": 1,
+     "banos": 1,
+     "m2": 56.6,
+     "op": "renta"
+    },
+    {
+     "precio": 19500.0,
+     "col": "Colomos Providencia",
+     "titulo": "Loft en renta en Brasilia | Providencia | Semi amueblado | Amenidades premium",
+     "url": "https://www.firmainmobiliaria.com/property/loft-en-renta-en-brasilia-providencia-semi-amueblado-amenidades-premium",
+     "rec": 1,
+     "banos": 1,
+     "m2": 60.0,
+     "op": "renta"
+    }
+   ]
+  },
+  {
+   "municipio": "Guadalajara",
+   "tipo": "Departamento",
+   "rec": 2,
+   "nVenta": 252,
+   "nRenta": 55,
+   "medVenta": 5776046.42,
+   "medRenta": 25500.0,
+   "anios": 18.9,
+   "ejVenta": [
+    {
+     "precio": 5752092.84,
+     "col": "Jardines del Bosque Centro",
+     "titulo": "Departamento en Preventa en Jardines del Bosque, Guadalajara",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-preventa-en-colinas-de-san-javier-zapopan-colinas-de-san-javier",
+     "rec": 2,
+     "banos": 2,
+     "m2": 71.0,
+     "op": "venta"
+    },
+    {
+     "precio": 5800000.0,
+     "col": "Providencia 3a Secc",
+     "titulo": "Departamentos Boutique en Preventa en Providencia Guadalajara, Jalisco",
+     "url": "https://www.firmainmobiliaria.com/property/departamentos-boutique-en-preventa-en-providencia-guadalajara-jalisco-providencia-3a-secc-guadalajara",
+     "rec": 2,
+     "banos": 2,
+     "m2": 75.0,
+     "op": "venta"
+    },
+    {
+     "precio": 5746013.0,
+     "col": "Providencia 3a Secc",
+     "titulo": "Departamento en preventa en Providencia",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-preventa-en-providencia-5435cf7f-2a9d-493f-b395-9ea4f098c0d2",
+     "rec": 2,
+     "banos": 2,
+     "m2": 71.8,
+     "op": "preventa"
+    }
+   ],
+   "ejRenta": [
+    {
+     "precio": 25500.0,
+     "col": "Lomas Del Country",
+     "titulo": "Departamento Amueblado en Renta en YU Country – Lomas del Country",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-amueblado-en-renta-en-yu-country-lomas-del-country",
+     "rec": 2,
+     "banos": 2,
+     "m2": 75.19,
+     "op": "renta"
+    },
+    {
+     "precio": 25500.0,
+     "col": "Lomas Del Country",
+     "titulo": "Departamento en renta en el Country - YU Country a estrenar amueblado",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-renta-en-el-country-yu-country-a-estrenar-amueblado",
+     "rec": 2,
+     "banos": 2,
+     "m2": 70.0,
+     "op": "renta"
+    },
+    {
+     "precio": 25500.0,
+     "col": "Jardines del Bosque Centro",
+     "titulo": "Cauda Residence",
+     "url": "https://www.firmainmobiliaria.com/property/cauda-residence-jardines-del-bosque-centro-guadalajara",
+     "rec": 2,
+     "banos": 2,
+     "m2": 107.0,
+     "op": "renta"
+    }
+   ]
+  },
+  {
+   "municipio": "Guadalajara",
+   "tipo": "Departamento",
+   "rec": 3,
+   "nVenta": 85,
+   "nRenta": 25,
+   "medVenta": 8700000.0,
+   "medRenta": 33300.0,
+   "anios": 21.8,
+   "ejVenta": [
+    {
+     "precio": 8700000.0,
+     "col": "Vallarta Norte",
+     "titulo": "Departamento en Venta en Espacio Minerva | 3 Recámaras | Guadalajara",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-venta-en-espacio-minerva-3-recamaras-guadalajara",
+     "rec": 3,
+     "banos": 3,
+     "m2": 171.0,
+     "op": "venta"
+    },
+    {
+     "precio": 8604000.0,
+     "col": "Ladrón de Guevara",
+     "titulo": "DEPARTAMENTO EN VENTA TORRE HIDALGO RESIDENCES",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-venta-torre-hidalgo-residences",
+     "rec": 3,
+     "banos": 3,
+     "m2": 167.0,
+     "op": "venta"
+    },
+    {
+     "precio": 8881000.0,
+     "col": "Vallarta Norte",
+     "titulo": "Departamento en PREVENTA en Harmony",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-preventa-en-harmoney-vallarta-norte-departamento",
+     "rec": 3,
+     "banos": 3,
+     "m2": 155.0,
+     "op": "preventa"
+    }
+   ],
+   "ejRenta": [
+    {
+     "precio": 33300.0,
+     "col": "Colinas de San Javier",
+     "titulo": "Departamento en Renta",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-renta-d149b7e1-25f7-46f7-9e56-101dd790e4b9",
+     "rec": 3,
+     "banos": 3,
+     "m2": 192.37,
+     "op": "renta"
+    },
+    {
+     "precio": 33250.0,
+     "col": "Ladrón de Guevara",
+     "titulo": "Departamento en Renta",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-renta-0084b40e-9d69-4bc1-b297-40601f63934d",
+     "rec": 3,
+     "banos": 3,
+     "m2": 165.62,
+     "op": "renta"
+    },
+    {
+     "precio": 33250.0,
+     "col": "Ladrón de Guevara",
+     "titulo": "Departamento en Renta",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-venta-fcf6d0ad-fb52-45ba-bea8-c4801883e1e2",
+     "rec": 3,
+     "banos": 3,
+     "m2": 167.0,
+     "op": "renta"
+    }
+   ]
+  },
+  {
+   "municipio": "Tlajomulco de Zúñiga",
+   "tipo": "Casa",
+   "rec": 3,
+   "nVenta": 110,
+   "nRenta": 18,
+   "medVenta": 3990000.0,
+   "medRenta": 17650.0,
+   "anios": 18.8,
+   "ejVenta": [
+    {
+     "precio": 3990000.0,
+     "col": "Fraccionamiento el Origen",
+     "titulo": "CASA EN VENTA EN PARAÍSO RESIDENCIAL",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-venta-en-santa-anita-d15ff0cd-4f1e-40d9-a9d3-35c1ca7f4d84",
+     "rec": 3,
+     "banos": 2,
+     "m2": 145.0,
+     "op": "venta"
+    },
+    {
+     "precio": 3990000.0,
+     "col": "Senderos de Monte Verde",
+     "titulo": "Casa en renta en Senderos de Monte Verde",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-renta-en-senderos-de-monte-verde-senderos-de-monte-verde-casa-en-condominio",
+     "rec": 3,
+     "banos": 2,
+     "m2": 164.0,
+     "op": "venta"
+    },
+    {
+     "precio": 3990000.0,
+     "col": "Bosques Santa Anita",
+     "titulo": "Estrena casa Paraisos Bosques de Santa Anita",
+     "url": "https://www.firmainmobiliaria.com/property/estrena-casa-paraisos-bosques-de-santa-anita",
+     "rec": 3,
+     "banos": 2,
+     "m2": 145.0,
+     "op": "venta"
+    }
+   ],
+   "ejRenta": [
+    {
+     "precio": 17500.0,
+     "col": "Sendero las Moras",
+     "titulo": "Casa en Renta | Sendero de las Moras, Tlajomulco",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-renta-sendero-de-las-moras-tlajomulco",
+     "rec": 3,
+     "banos": 3,
+     "m2": 180.0,
+     "op": "renta"
+    },
+    {
+     "precio": 17800.0,
+     "col": "Los Gavilanes",
+     "titulo": "CASA RENTA,FRACCIONAMIENTO,PUNTO SUR,REAL A COLIMA,LOPEZ MATEOS",
+     "url": "https://www.firmainmobiliaria.com/property/casa-renta-fraccionamiento-punto-sur-real-a-colima-lopez-mateos",
+     "rec": 3,
+     "banos": 2,
+     "m2": 130.0,
+     "op": "renta"
+    },
+    {
+     "precio": 17500.0,
+     "col": "Villa California",
+     "titulo": "Casa en Renta , col, Villa california, Tlajomulco de Zuñiga, Jal",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-renta-col-villa-california-tlajomulco-de-zuniga-jal",
+     "rec": 3,
+     "banos": 3,
+     "m2": 201.7,
+     "op": "renta"
+    }
+   ]
+  },
+  {
+   "municipio": "Zapopan",
+   "tipo": "Casa",
+   "rec": 3,
+   "nVenta": 251,
+   "nRenta": 39,
+   "medVenta": 7350000.0,
+   "medRenta": 25000.0,
+   "anios": 24.5,
+   "ejVenta": [
+    {
+     "precio": 7350000.0,
+     "col": "Valle Imperial",
+     "titulo": "Casa frente a Parque Valle Imperial Coto Maple",
+     "url": "https://www.firmainmobiliaria.com/property/casa-frente-a-parque-valle-imperial-coto-maple",
+     "rec": 3,
+     "banos": 2,
+     "m2": 230.48,
+     "op": "venta"
+    },
+    {
+     "precio": 7350000.0,
+     "col": "Valle Imperial",
+     "titulo": "Residencia en Venta en Valle Imperial",
+     "url": "https://www.firmainmobiliaria.com/property/residencia-en-venta-en-valle-imperial-c0fc9f65-cc1a-46dd-873e-98d17da91bc0",
+     "rec": 3,
+     "banos": 2,
+     "m2": 239.48,
+     "op": "venta"
+    },
+    {
+     "precio": 7350000.0,
+     "col": "Valle Imperial",
+     "titulo": "CASA EN VENTA EN VALLE IMPERIAL",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-venta-en-valle-imperial-465e269f-2270-43a8-9e9c-b915724b881c",
+     "rec": 3,
+     "banos": 4,
+     "m2": 211.0,
+     "op": "venta"
+    }
+   ],
+   "ejRenta": [
+    {
+     "precio": 25000.0,
+     "col": "El Real",
+     "titulo": "Casa en Renta en Condominio, Jardin Real, Zapopan, Jalisco",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-renta-en-condominio-jardin-real-zapopan-jalisco-el-real",
+     "rec": 3,
+     "banos": 3,
+     "m2": 168.0,
+     "op": "renta"
+    },
+    {
+     "precio": 23500.0,
+     "col": "Ciudad Granja",
+     "titulo": "VIVE EN CIUDAD GRANJA EN COTO DE TAN SOLO 14 CASAS",
+     "url": "https://www.firmainmobiliaria.com/property/vive-en-ciudad-granja-en-coto-de-tan-solo-14-casas",
+     "rec": 3,
+     "banos": 2,
+     "m2": 190.0,
+     "op": "renta"
+    },
+    {
+     "precio": 26500.0,
+     "col": "San Juan de Ocotan",
+     "titulo": "Casa en renta",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-renta-san-juan-de-ocotan-zapopan",
+     "rec": 3,
+     "banos": 2,
+     "m2": 165.0,
+     "op": "renta"
+    }
+   ]
+  },
+  {
+   "municipio": "Zapopan",
+   "tipo": "Casa",
+   "rec": 4,
+   "nVenta": 261,
+   "nRenta": 17,
+   "medVenta": 13000000.0,
+   "medRenta": 75000.0,
+   "anios": 14.4,
+   "ejVenta": [
+    {
+     "precio": 13000000.0,
+     "col": "Zapopan Centro",
+     "titulo": "Casa en venta en el centro",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-venta-en-el-centro-zapopan-centro",
+     "rec": 4,
+     "banos": 2,
+     "m2": 324.0,
+     "op": "venta"
+    },
+    {
+     "precio": 12990000.0,
+     "col": "Jardines Universidad",
+     "titulo": "Residencia Moderna en Jardines Universidad",
+     "url": "https://www.firmainmobiliaria.com/property/residencia-moderna-en-jardines-universidad",
+     "rec": 5,
+     "banos": 4,
+     "m2": 367.0,
+     "op": "venta"
+    },
+    {
+     "precio": 12988000.0,
+     "col": "Bugambilias",
+     "titulo": "CASA EN BUGAMBILIAS EN FRACCIONAMIENTO LA JOYA",
+     "url": "https://www.firmainmobiliaria.com/property/excelente-casa-en-bugambilias-en-la-joya-fraccionamiento",
+     "rec": 4,
+     "banos": 4,
+     "m2": 417.0,
+     "op": "venta"
+    }
+   ],
+   "ejRenta": [
+    {
+     "precio": 75000.0,
+     "col": "Ciudad Del Sol",
+     "titulo": "Casa en renta en Ciudad del Sol, Zapopan, Jal. México",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-renta-en-ciudad-del-sol-zapopan-jal-mexico",
+     "rec": 6,
+     "banos": 8,
+     "m2": 370.0,
+     "op": "renta"
+    },
+    {
+     "precio": 68000.0,
+     "col": "Chapalita de Occidente",
+     "titulo": "Casa en renta en Chapalita de Occidente | Zapopan",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-renta-en-chapalita-de-occidente-zapopan",
+     "rec": 5,
+     "banos": 5,
+     "m2": 710.0,
+     "op": "renta"
+    },
+    {
+     "precio": 90000.0,
+     "col": "Valle Real",
+     "titulo": "RESIDENCIA EN RENTA – VALLE REAL",
+     "url": "https://www.firmainmobiliaria.com/property/residencia-en-renta-valle-real-18533c0c-2385-4b08-aad7-aebdd8f209e2",
+     "rec": 4,
+     "banos": 5,
+     "m2": 575.0,
+     "op": "renta"
+    }
+   ]
+  },
+  {
+   "municipio": "Zapopan",
+   "tipo": "Departamento",
+   "rec": 1,
+   "nVenta": 114,
+   "nRenta": 18,
+   "medVenta": 4108480.5,
+   "medRenta": 21000.0,
+   "anios": 16.3,
+   "ejVenta": [
+    {
+     "precio": 4099217.0,
+     "col": "Arcos de Guadalupe",
+     "titulo": "Loft 1 Rec Metpark Galerías Zapopan junto Parque Metropolitano",
+     "url": "https://www.firmainmobiliaria.com/property/loft-1-rec-metpark-galerias-zapopan-junto-parque-metropolitano",
+     "rec": 1,
+     "banos": 1,
+     "m2": 54.9,
+     "op": "preventa"
+    },
+    {
+     "precio": 4117744.0,
+     "col": "Fraccionamiento Jardines de Guadalupe",
+     "titulo": "Departamento en Venta en Jardines Guadalupe, Zapopan",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-venta-en-jardines-guadalupe-zapopan-fraccionamiento-jardines-de-guadalupe-zapopan",
+     "rec": 1,
+     "banos": 1,
+     "m2": 62.38,
+     "op": "venta"
+    },
+    {
+     "precio": 4157216.0,
+     "col": "Lomas de Guadalupe",
+     "titulo": "Departamento en Venta en Lomas de Guadalupe",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-venta-en-lomas-de-guadalupe-lomas-de-guadalupe-zapopan",
+     "rec": 1,
+     "banos": 1,
+     "m2": 53.37,
+     "op": "venta"
+    }
+   ],
+   "ejRenta": [
+    {
+     "precio": 21000.0,
+     "col": "Puerta del Valle",
+     "titulo": "the light house departamento en rentan 1109",
+     "url": "https://www.firmainmobiliaria.com/property/se-vende-departamento-zona-andares-nuevo",
+     "rec": 1,
+     "banos": 2,
+     "m2": 61.0,
+     "op": "renta"
+    },
+    {
+     "precio": 21000.0,
+     "col": "Rinconada Del Parque",
+     "titulo": "DEPARTAMENTO EN RENTA EN PARQUE METROPOLITANO",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-renta-en-parque-metropolitano-rinconada-del-parque",
+     "rec": 1,
+     "banos": 2,
+     "m2": 61.0,
+     "op": "renta"
+    },
+    {
+     "precio": 21400.0,
+     "col": "Residencial Poniente",
+     "titulo": "Departamento en Renta 1 Recámara Zona Real Real View",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-renta-1-recamara-zona-real-real-view",
+     "rec": 1,
+     "banos": 1,
+     "m2": 75.0,
+     "op": "renta"
+    }
+   ]
+  },
+  {
+   "municipio": "Zapopan",
+   "tipo": "Departamento",
+   "rec": 2,
+   "nVenta": 225,
+   "nRenta": 72,
+   "medVenta": 5622872.0,
+   "medRenta": 29500.0,
+   "anios": 15.9,
+   "ejVenta": [
+    {
+     "precio": 5622872.0,
+     "col": "Jardín Real",
+     "titulo": "Departamento de 2 recámaras con terraza en ARÉVIA RESIDENCES, Zona Real",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-de-2-recamaras-con-terraza-en-arevia-residences-zona-real",
+     "rec": 2,
+     "banos": 2,
+     "m2": 86.15,
+     "op": "preventa"
+    },
+    {
+     "precio": 5603789.47,
+     "col": "Loma Bonita",
+     "titulo": "Departamento en venta López Mateos - DÚO 24",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-venta-en-lopez-mateos-duo-24",
+     "rec": 2,
+     "banos": 2,
+     "m2": 92.94,
+     "op": "venta"
+    },
+    {
+     "precio": 5600000.0,
+     "col": "Puerta del Valle",
+     "titulo": "Venta de Departamento Amueblado Zona Valle Real - Andares",
+     "url": "https://www.firmainmobiliaria.com/property/venta-de-departamento-amueblado-zona-valle-real-andares",
+     "rec": 2,
+     "banos": 2,
+     "m2": 90.0,
+     "op": "venta"
+    }
+   ],
+   "ejRenta": [
+    {
+     "precio": 29500.0,
+     "col": "Puerta las Lomas",
+     "titulo": "Departamento en Renta en Lirica Towers en Zapopan",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-renta-en-lirica-towers-en-zapopan",
+     "rec": 2,
+     "banos": 2,
+     "m2": 78.0,
+     "op": "renta"
+    },
+    {
+     "precio": 29500.0,
+     "col": "Jardines Tepeyac",
+     "titulo": "RENTA PENTHOUSE AMUEBLADO",
+     "url": "https://www.firmainmobiliaria.com/property/ph-en-renta-amueblado-zona-chapalita",
+     "rec": 2,
+     "banos": 2,
+     "m2": 108.0,
+     "op": "renta"
+    },
+    {
+     "precio": 29500.0,
+     "col": "Valle Real",
+     "titulo": "Departamento en Renta en CIMA 200 – Valle Real, Zapopan",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-renta-en-cima-200-valle-real-zapopan-valle-real-zapopan",
+     "rec": 2,
+     "banos": 2,
+     "m2": 147.7,
+     "op": "renta"
+    }
+   ]
+  },
+  {
+   "municipio": "Zapopan",
+   "tipo": "Departamento",
+   "rec": 3,
+   "nVenta": 106,
+   "nRenta": 31,
+   "medVenta": 9405000.0,
+   "medRenta": 36000.0,
+   "anios": 21.8,
+   "ejVenta": [
+    {
+     "precio": 9500000.0,
+     "col": "Camino Real",
+     "titulo": "Departamento en Venta en Iconia Hard Rock, Ignacio L Vallarta",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-venta-en-iconia-hard-rock-ignacio-l-vallarta",
+     "rec": 3,
+     "banos": 3,
+     "m2": 178.0,
+     "op": "venta"
+    },
+    {
+     "precio": 9310000.0,
+     "col": "Lomas Altas",
+     "titulo": "Departamento en Venta en Torre Distrito Cube Depa 113",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-re-venta-en-distrito-cube-c-113",
+     "rec": 3,
+     "banos": 2,
+     "m2": 117.0,
+     "op": "venta"
+    },
+    {
+     "precio": 9572210.0,
+     "col": "Loma Bonita",
+     "titulo": "DEPARTAMENTO EN VENTA",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-venta-71e9f448-5eef-4952-9a65-6edebfa80f4a",
+     "rec": 3,
+     "banos": 3,
+     "m2": 173.06,
+     "op": "venta"
+    }
+   ],
+   "ejRenta": [
+    {
+     "precio": 36000.0,
+     "col": "Valle Real",
+     "titulo": "DEPARTAMENTO EN RENTA EN VALLE REAL",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-en-renta-en-valle-real-a5fadd3b-abe0-49de-a8b3-196dc6d96bda",
+     "rec": 3,
+     "banos": 3,
+     "m2": 130.0,
+     "op": "renta"
+    },
+    {
+     "precio": 35000.0,
+     "col": "Camino Real",
+     "titulo": "Departamento de 3 recámaras en renta en Hard Rock, Camino Real | Zapopan",
+     "url": "https://www.firmainmobiliaria.com/property/departamento-de-3-recamaras-en-renta-en-hard-rock-camino-real-zapopan",
+     "rec": 3,
+     "banos": 3,
+     "m2": 180.0,
+     "op": "renta"
+    },
+    {
+     "precio": 38000.0,
+     "col": "Jardines de La Patria",
+     "titulo": "DEPARTAMENTO EN RENTA EN JARDINES DE LA PATRIA",
+     "url": "https://www.firmainmobiliaria.com/property/casa-en-renta-en-jardines-de-la-patria-jardines-de-la-patria-departamento",
+     "rec": 3,
+     "banos": 3,
+     "m2": 177.0,
+     "op": "renta"
+    }
+   ]
+  }
+ ]
+}

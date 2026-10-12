@@ -1,0 +1,136 @@
+{
+  "fecha": "2026-10-12T03:02:49.711Z",
+  "carpeta": "166-casaenrenta",
+  "antes": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 4852,
+      "desbordeX": 648,
+      "h1": 1,
+      "imagenes": 16,
+      "rotas": [
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/6192520/110036703/EB-WU2520.png?height=300&s=0755bd106d9aa29c&version=1787722593&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/5174226/88914215/EB-SW4226.jpeg?height=300&s=c1d9c5f3e8205213&version=1744675293&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/5082847/87092292/EB-SN2847.png?height=300&s=e5788fc23d0dda9b&version=1741395513&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/5499947/95415078/EB-UC9947.jpg?height=300&s=b4f952bfbbb5b227&version=1761595775&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/4969925/85050352/EB-SB9925.jpg?height=300&s=156957557d063bbf&version=1737935478&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/5212200/89632113/EB-TA2200.jpg?height=300&s=54b6b0795928afce&version=1746148904&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/6188904/109962778/EB-WT8904.jpg?height=300&s=a704235cea4294ba&version=1787683699&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/6168083/109502042/EB-WR8083.jpeg?height=300&s=b33aa20174013d56&version=1786686334&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/3040070/48466722/EB-KR0070.jpg?height=300&s=b94f93fba8f6af1b&version=1655163519&width=450"
+      ],
+      "sinAlt": 12,
+      "titulo": "Bienvenido a Firma Inmobiliaria",
+      "errores": [
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:37185/166-casaenrenta/sitio/"
+      ],
+      "captura": "qa/antes-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 4978,
+      "desbordeX": 1538,
+      "h1": 1,
+      "imagenes": 16,
+      "rotas": [
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/6192520/110036703/EB-WU2520.png?height=300&s=0755bd106d9aa29c&version=1787722593&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/5174226/88914215/EB-SW4226.jpeg?height=300&s=c1d9c5f3e8205213&version=1744675293&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/5082847/87092292/EB-SN2847.png?height=300&s=e5788fc23d0dda9b&version=1741395513&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/5499947/95415078/EB-UC9947.jpg?height=300&s=b4f952bfbbb5b227&version=1761595775&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/4969925/85050352/EB-SB9925.jpg?height=300&s=156957557d063bbf&version=1737935478&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/5212200/89632113/EB-TA2200.jpg?height=300&s=54b6b0795928afce&version=1746148904&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/6188904/109962778/EB-WT8904.jpg?height=300&s=a704235cea4294ba&version=1787683699&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/6168083/109502042/EB-WR8083.jpeg?height=300&s=b33aa20174013d56&version=1786686334&width=450",
+        "https://assets.easybroker.comassets/externo/assets.easybroker.com/property_images/3040070/48466722/EB-KR0070.jpg?height=300&s=b94f93fba8f6af1b&version=1655163519&width=450"
+      ],
+      "sinAlt": 12,
+      "titulo": "Bienvenido a Firma Inmobiliaria",
+      "errores": [
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED",
+        "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED"
+      ],
+      "fallidos": [
+        "404 http://127.0.0.1:37185/166-casaenrenta/sitio/"
+      ],
+      "captura": "qa/antes-movil.png"
+    }
+  ],
+  "despues": [
+    {
+      "vista": "escritorio",
+      "ancho": 1280,
+      "alto": 5276,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Firma Inmobiliaria | Casas, departamentos y terrenos en Guadalajara, Zapopan, Tapalpa y la playa",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-escritorio.png"
+    },
+    {
+      "vista": "movil",
+      "ancho": 390,
+      "alto": 8495,
+      "desbordeX": 0,
+      "h1": 1,
+      "imagenes": 11,
+      "rotas": [],
+      "sinAlt": 0,
+      "titulo": "Firma Inmobiliaria | Casas, departamentos y terrenos en Guadalajara, Zapopan, Tapalpa y la playa",
+      "errores": [],
+      "fallidos": [],
+      "captura": "qa/despues-movil.png"
+    }
+  ],
+  "problemasRediseno": [],
+  "aprobado": true
+}

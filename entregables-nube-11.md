@@ -14,7 +14,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-11.md`, armado y clonado en la nube el 
 | 8 | 158-casacolonialen | Pendiente | — | — | — | — | — |
 | 9 | 159-casacolonialrestaurada | Pendiente | — | — | — | — | — |
 | 10 | 160-casaconsuelo | Pendiente | — | — | — | — | — |
-| 11 | 166-casaenrenta | Pendiente | — | — | — | — | — |
+| 11 | 166-casaenrenta | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,276 / 8,495 px | "¿Rentar o comprar?": años de renta que cuesta comprar, con su catálogo | MEDIA | Páginas del menú vacías; correo cortado |
 | 12 | 167-casaenventa | Pendiente | — | — | — | — | — |
 | 13 | 180-casaventaboca | Pendiente | — | — | — | — | — |
 | 14 | 304-departamentoenventa | Pendiente | — | — | — | — | — |
