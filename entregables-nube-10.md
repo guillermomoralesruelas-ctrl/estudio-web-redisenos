@@ -19,7 +19,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 13 | 152-carsainmobiliaria | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 5,721 / 8,098 px | "Dos casas, lado a lado": comparador de 40 casas con WhatsApp | MEDIA | Portada con propiedades ajenas; Asesores vacío |
 | 14 | 523-hotelcelayamexico | Descartado, `cadena` | (este commit) | — (Cadena: 5 hoteles México Plaza más Hyatt y propiedades en San Miguel) | — | — | — |
 | 15 | 618-lab | Pendiente | — | — | — | — | — |
-| 16 | 473-grupofractal | Pendiente | — | — | — | — | — |
+| 16 | 473-grupofractal | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 4,875 / 7,727 px | "El mosaico Fractal": treemap del catálogo por precio | MEDIA | Privacidad copiada de otro sitio; catálogo repetido |
 | 17 | 457-gotransferscancun | Descartado, `sitio-reciente` | (este commit) | — (Astro 5.16, © 2026, reservas en línea) | — | — | — |
 | 18 | 348-eduardodavalosfotografia | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,644 / 8,222 px | Colecciones como horas del día de la boda | ALTA | Restos en inglés; página "copia-de" |
 | 19 | 415-fit | Pendiente | — | — | — | — | — |

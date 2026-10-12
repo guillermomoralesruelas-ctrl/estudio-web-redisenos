@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "@fontsource-variable/outfit/wght.css";
+@import "@fontsource-variable/manrope/wght.css";
+
+@theme {
+  /* Grupo Fractal: letras negras (#171717) y la "a" dorada (#935C02) de su logotipo; fondo piedra de la Sierra Madre */
+  --color-oro: #935C02;         /* del logotipo; AA sobre piedra y blanco */
+  --color-oro-claro: #DDA74A;   /* para texto y botones sobre negro */
+  --color-negro: #171717;
+  --color-negro-2: #24221F;
+  --color-piedra: #F3F0EA;
+  --color-piedra-2: #E6E0D5;
+  --color-tinta: #171717;
+  --color-gris: #59554F;
+
+  --font-display: "Outfit Variable", "Segoe UI", sans-serif;
+  --font-sans: "Manrope Variable", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-piedra text-tinta antialiased; font-family: var(--font-sans); font-size: 1.0625rem; }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 3px solid var(--color-oro); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-sm font-semibold leading-none tracking-wide transition-colors; }
+
+@layer components {
+  .contenedor { @apply mx-auto w-full max-w-[80rem] px-5 sm:px-8; }
+  .btn-oro { @apply btn bg-oro-claro text-negro hover:bg-[#E8BA67]; }
+  .btn-negro { @apply btn bg-negro text-white hover:bg-negro-2; }
+  .btn-linea { @apply btn border border-current hover:bg-current/10; }
+  .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.26em] text-oro; }
+}
