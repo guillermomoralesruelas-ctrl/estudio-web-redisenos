@@ -105,6 +105,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `622-labvida` | LabVida | Querétaro, Qro. | `sitio-reciente` | WordPress rehecho en 2025 (© 2026) con textos por público, proceso, tiempos de entrega y precios | Nube |
 | `376-equayogastudio` | Equa Yoga Studio | Veracruz (sin confirmar) | `sin-contacto` | El sitio muestra "Estudio Inactivo" en todas sus páginas; sin teléfono, dirección ni fotos | Nube |
 | `598-jrtransporteejecutivo` | JR Transporte Ejecutivo | Ciudad de México | `sin-fotos` | Solo dos fotos propias (la Escalade de frente y de atrás); las de aeropuerto, oficina, eventos y tours son ajenas, parecen hechas con IA o vienen de Pinterest | Nube |
+| `479-gymvjlmazatlan` | Gym VJL Mazatlán | Mazatlán, Sin. | `sitio-reciente` | Next.js de 2026 con precios, horarios, mapas, WhatsApp y consulta de membresía; solo 4 fotos | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 
