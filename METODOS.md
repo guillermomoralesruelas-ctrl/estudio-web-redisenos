@@ -299,6 +299,7 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 | 348-eduardodavalosfotografia | Eduardo Dávalos Fotografía (fotografía de bodas; Guadalajara, Jal.; eventos) | 1.2 | Terminado | `/proyectos/348-eduardodavalosfotografia/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Hecho en la nube (lote 10, 2026-10-12), método 1.2: el clon de Adobe Portfolio traía portadas recortadas; se leyeron todas sus páginas y se bajaron 18 fotos de "Nuestro Trabajo" y su firma. "¿Cuántas horas de su día quieren guardar?": sus cuatro colecciones como barras sobre una regla de 12 horas, con precio 2026 o 2027 y video opcional; galería, testimonios, preguntas y WhatsApp. QA 0 problemas. |
 | 415-fit | Fit+ (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 | 556-huatulcowellnesssanctuar | Huatulco Wellness Sanctuary / Natoorales (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
+| 587-ixiimchableyucatan | Ixi'im, Chablé Yucatán (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 
