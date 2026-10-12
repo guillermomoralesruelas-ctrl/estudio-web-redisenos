@@ -19,7 +19,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-11.md`, armado y clonado en la nube el 
 | 13 | 180-casaventaboca | Pendiente | — | — | — | — | — |
 | 14 | 304-departamentoenventa | Pendiente | — | — | — | — | — |
 | 15 | 400-exclusivacasaen | Pendiente | — | — | — | — | — |
-| 16 | 401-exclusivosdepartamentosd | Pendiente | — | — | — | — | — |
+| 16 | 401-exclusivosdepartamentosd | Terminado (1.2 en la nube) | (este commit) | 0 problemas; 6,671 / 11,681 px | "Arma la ficha de tu propiedad" con conteo de competencia por zona | ALTA | Menú a dominio 404; gip.mx no existe; WhatsApp sin 52 |
 | 17 | 564-ikal30 | Pendiente | — | — | — | — | — |
 | 18 | 170-casaliza | Descartado, `sitio-reciente` | (este commit) | — (Sitio rehecho en 2026 con Cloudbeds; ya cumple el método) | — | — | — |
 | 19 | 177-casasanmiguel | Pendiente | — | — | — | — | — |
