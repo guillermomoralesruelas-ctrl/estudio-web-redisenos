@@ -113,6 +113,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `257-coppercanyontours` | Copper Canyon Tours Mexico | Creel, Chih. (sin confirmar) | `sin-contacto` | Dominio estacionado en GoDaddy (redirige a /lander): sin textos, fotos ni contacto | Nube |
 | `548-hotelsuiteskino` | Hotel Suites Kino | Hermosillo, Son. | `sitio-reciente` | Sitio rehecho en junio de 2026 en R2-OS con motor de reservas, WhatsApp, mapa y FAQ; la URL de la base da 404 | Nube |
 | `597-joypack` | Joypack | [PENDIENTE] (teléfono de S.L.P.) | `url-ajena` | La URL es una ficha de su marketplace de experiencias para regalar (190 productos de socios en 15 ciudades), no un operador de tours de Puerto Vallarta | Nube |
+| `170-casaliza` | Casa Liza | San Miguel de Allende, Gto. | `sitio-reciente` | Sitio rehecho en 2026 con Cloudbeds Websites: H1, JSON-LD Hotel, alt descriptivos, reservas y fotos propias | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 

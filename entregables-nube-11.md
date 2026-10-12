@@ -21,7 +21,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-11.md`, armado y clonado en la nube el 
 | 15 | 400-exclusivacasaen | Pendiente | — | — | — | — | — |
 | 16 | 401-exclusivosdepartamentosd | Pendiente | — | — | — | — | — |
 | 17 | 564-ikal30 | Pendiente | — | — | — | — | — |
-| 18 | 170-casaliza | Pendiente | — | — | — | — | — |
+| 18 | 170-casaliza | Descartado, `sitio-reciente` | (este commit) | — (Sitio rehecho en 2026 con Cloudbeds; ya cumple el método) | — | — | — |
 | 19 | 177-casasanmiguel | Pendiente | — | — | — | — | — |
 | 20 | 191-centrodelbosque | Pendiente | — | — | — | — | — |
 | 21 | 255-copaltulumhotel | Pendiente | — | — | — | — | — |
