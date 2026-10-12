@@ -315,6 +315,8 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 | 257-coppercanyontours | Copper Canyon Tours Mexico (turismo; Creel, Chih., según la base; sin confirmar) | — | Descartado | — | Hecho en la nube (lote 11, 2026-10-12). `sin-contacto`: el dominio coppercanyon.tours está estacionado en GoDaddy: /en y la raíz solo traen un script que redirige a /lander, la página de dominio en venta de GoDaddy ("parking-lander", comprobado con curl y Jina el 2026-10-12). No hay textos, fotos, teléfono, WhatsApp ni dirección; el clon (`sitio/index.html`) y `investigacion/original.html` son solo esa redirección. Retomar si el operador tiene otro sitio o da contacto y fotos propias (podría ser cliente para sitio nuevo, método 1). |
 | 375-entrevallehotelboutique | Entrevalle Hotel Boutique (por confirmar) | 1.2 | En curso | — | En la nube (lote 11, 2026-10-12): rediseño en curso. |
 | 288-daryakrylovafotografia | Darya Krylova Fotografía (por confirmar) | 1.2 | En curso | — | En la nube (lote 11, 2026-10-12): rediseño en curso. |
+| 155-casaazulgran | Casa Azul, residencia colonial en García Ginerés, Mérida, Yucatán (inmobiliaria; thorealestate.com) | 1.2 | En curso | — | En la nube (lote 11, 2026-10-12): rediseño en curso. |
+| 548-hotelsuiteskino | Hotel Suites Kino (hospedaje; Hermosillo, Son.) | 1.2 | En curso | — | En la nube (lote 11, 2026-10-12): rediseño en curso. |
 
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 
