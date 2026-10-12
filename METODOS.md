@@ -297,6 +297,8 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 | 473-grupofractal | Grupo Fractal (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 | 457-gotransferscancun | Go Transfers, Cancun Airport Transportation (transporte del aeropuerto; Cancún, Q. Roo) | — | Descartado | — | Hecho en la nube (lote 10, 2026-10-12), revisado en el sitio en vivo. `sitio-reciente`: cancunsairporttransportation.com está hecho con Astro 5.16 (versión de finales de 2025), imágenes AVIF, © 2026, buscador de reservas con origen, destino, fecha y pasajeros, tarifas en dólares (privado desde $29.99 USD, lujo desde $84.00 USD) y sello de TripAdvisor. Sitio moderno en inglés para turistas: no hay mejora clara que ofrecer. |
 | 348-eduardodavalosfotografia | Eduardo Dávalos Fotografía (fotografía de bodas; Guadalajara, Jal.; eventos) | 1.2 | Terminado | `/proyectos/348-eduardodavalosfotografia/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Hecho en la nube (lote 10, 2026-10-12), método 1.2: el clon de Adobe Portfolio traía portadas recortadas; se leyeron todas sus páginas y se bajaron 18 fotos de "Nuestro Trabajo" y su firma. "¿Cuántas horas de su día quieren guardar?": sus cuatro colecciones como barras sobre una regla de 12 horas, con precio 2026 o 2027 y video opcional; galería, testimonios, preguntas y WhatsApp. QA 0 problemas. |
+| 415-fit | Fit+ (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
+| 556-huatulcowellnesssanctuar | Huatulco Wellness Sanctuary / Natoorales (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 
