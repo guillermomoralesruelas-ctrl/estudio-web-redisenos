@@ -4,7 +4,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-11.md`, armado y clonado en la nube el 
 
 | # | Carpeta | Resultado | Commit | QA (escritorio / celular) | Elemento memorable | Prioridad | Hallazgo principal |
 |---|---|---|---|---|---|---|---|
-| 1 | 257-coppercanyontours | Pendiente | — | — | — | — | — |
+| 1 | 257-coppercanyontours | Descartado, `sin-contacto` | (este commit) | — (Dominio estacionado en GoDaddy: sin sitio, fotos ni contacto) | — | — | — |
 | 2 | 288-daryakrylovafotografia | Pendiente | — | — | — | — | — |
 | 3 | 418-floraspa | Pendiente | — | — | — | — | — |
 | 4 | 548-hotelsuiteskino | Pendiente | — | — | — | — | — |
