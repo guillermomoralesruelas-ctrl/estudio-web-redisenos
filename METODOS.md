@@ -304,7 +304,8 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 | 376-equayogastudio | Equa Yoga Studio (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 | 598-jrtransporteejecutivo | JR Transporte Ejecutivo (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 | 479-gymvjlmazatlan | Gym VJL Mazatlán (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
-| 644-larefineriabarber | La Refinería Barber Shop (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
+| 644-larefineriabarber | La Refinería Barber Shop (barbería; San Luis Potosí, S.L.P.; spa/barbería) | — | Descartado | — | Hecho en la nube (lote 10, 2026-10-12), revisado en el sitio en vivo. `sitio-reciente`: larefineriabarber.com es una página moderna armada en LeadConnector (HighLevel), cargada con JavaScript, con año del pie automático, "Pásate. Sin cita. Sin excusas", espera menor a 10 minutos, 3 sucursales en San Luis Potosí, programa de lealtad por niveles, reseñas verificadas de Fresha y cifras al día (4.9★ con 3,418 reseñas en Google, 216K seguidores en TikTok, 39K en Facebook y 19K en Instagram). Sitio actual y bien enfocado: no hay mejora clara que ofrecer. (El clon traía una clave de Google Maps, ya sustituida por [CLAVE-OMITIDA].) |
+| 622-labvida | LabVida (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 

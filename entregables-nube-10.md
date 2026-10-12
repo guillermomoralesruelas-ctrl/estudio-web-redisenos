@@ -29,7 +29,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 23 | 376-equayogastudio | Pendiente | — | — | — | — | — |
 | 24 | 598-jrtransporteejecutivo | Pendiente | — | — | — | — | — |
 | 25 | 479-gymvjlmazatlan | Pendiente | — | — | — | — | — |
-| 26 | 644-larefineriabarber | Pendiente | — | — | — | — | — |
+| 26 | 644-larefineriabarber | Descartado, `sitio-reciente` | (este commit) | — (Página moderna en LeadConnector, 3 sucursales y lealtad) | — | — | — |
 | 27 | 622-labvida | Pendiente | — | — | — | — | — |
 | 28 | 525-hotelesboutiquecampeche | Pendiente | — | — | — | — | — |
 | 29 | 650-leduo | Pendiente | — | — | — | — | — |
