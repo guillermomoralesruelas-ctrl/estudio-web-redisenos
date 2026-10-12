@@ -290,6 +290,9 @@ URL base de XAMPP: `http://localhost/project-1-25092026`
 | 474-grupoinmobiliarioelite | Grupo Inmobiliario Elite (inmobiliaria y constructora; ciudad sin confirmar) | — | Descartado | — | Hecho en la nube (lote 10, 2026-10-11). `sitio-reciente`: grupoinmobiliarioelite.com es solo su catálogo en EasyBroker; su sitio principal es elitecorporativo.com.mx, un WordPress hecho en 2025 (archivos de 2025, logotipo nuevo) con secciones de compraventa, constructora y administración, proyectos (Ermita Tower, Dos Puntas Tower, Pararell Tower, San Jerónimo Tower), WhatsApp, LinkedIn y YouTube. El catálogo enlaza de vuelta a ese sitio. No hay mejora clara que ofrecer. |
 | 450-globalkeyreal | GlobalKey International Real Estate (inmobiliaria; Zapopan, Jal.; inmobiliaria) | 1.2 | Terminado | `/proyectos/450-globalkeyreal/rediseno/dist/index.html` | Ver `CAMBIOS.md`. Hecho en la nube (lote 10, 2026-10-11), método 1.2: el clon de EasyBroker traía miniaturas e imágenes rotas; se leyó su catálogo completo (525 propiedades) y se bajaron 25 fotos, el logotipo y sus sellos. Selector "¿Qué tipo de inversión buscas?": preventa, pool de rentas, dólares, playa y compra inmediata con conteo real, entrada más baja, muestra y WhatsApp. QA 0 problemas. |
 | 42-ampicolimaclubsantiago | AMPI Colima (asociación inmobiliaria; Colima, Col.) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
+| 475-grupoinsapropiedades | Grupo Insa Propiedades (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
+| 152-carsainmobiliaria | CARSA Inmobiliaria (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
+| 523-hotelcelayamexico | Hotel Celaya México Plaza (por confirmar) | 1.2 | En curso | — | En la nube (lote 10, 2026-10-11): rediseño en curso. |
 
 ## Candidatos siguientes (hospedaje con sitio propio, clon funcional)
 
