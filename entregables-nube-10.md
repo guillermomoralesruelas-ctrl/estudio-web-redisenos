@@ -20,7 +20,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-10.md`, armado y clonado en la nube el 
 | 14 | 523-hotelcelayamexico | Descartado, `cadena` | (este commit) | — (Cadena: 5 hoteles México Plaza más Hyatt y propiedades en San Miguel) | — | — | — |
 | 15 | 618-lab | Pendiente | — | — | — | — | — |
 | 16 | 473-grupofractal | Pendiente | — | — | — | — | — |
-| 17 | 457-gotransferscancun | Pendiente | — | — | — | — | — |
+| 17 | 457-gotransferscancun | Descartado, `sitio-reciente` | (este commit) | — (Astro 5.16, © 2026, reservas en línea) | — | — | — |
 | 18 | 348-eduardodavalosfotografia | Pendiente | — | — | — | — | — |
 | 19 | 415-fit | Pendiente | — | — | — | — | — |
 | 20 | 556-huatulcowellnesssanctuar | Pendiente | — | — | — | — | — |
