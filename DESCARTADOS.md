@@ -109,6 +109,7 @@ Registro de los sitios que **no** se rediseñaron con el método 1.1 y por qué,
 | `525-hotelesboutiquecampeche` | Hoteles Boutique Campeche | Campeche, Camp. | `sitio-reciente` | Sitio de Lovable de 2026 (React + Supabase) con reserva directa, WhatsApp, Google Ads y buen SEO; grupo local de 3 casas, no cadena | Nube |
 | `650-leduo` | LeDuo Coffee & Bread | Roma Norte, CDMX | `sitio-reciente` | App de 2026 (Lovable): menú, talleres con reserva, tienda y lealtad con wallet y ruleta | Nube |
 | `202-centrouniversitarioanglo` | Centro Universitario Anglotorreón | Torreón, Coah. | `sin-fotos` | Una sola foto propia (la biblioteca); el banner es de banco y las páginas internas no tienen imágenes; sitio a medio hacer con texto de plantilla y avisos de 2023 | Nube |
+| `21-agenciainmobiliariaproin` | Agencia inmobiliaria Proinmex | Veracruz, Ver. (sin confirmar) | `sin-contacto` | Sitio inactivo en EasyBroker (indavarealestate.com): sin propiedades, fotos ni datos de contacto; proinmex.com.mx es otra empresa | Nube |
 
 ## Saltados al elegir candidatos (sin revisar a fondo)
 

@@ -9,7 +9,7 @@ Lote de 30 sitios de `INSTRUCCIONES-NUBE-11.md`, armado y clonado en la nube el 
 | 3 | 418-floraspa | Pendiente | — | — | — | — | — |
 | 4 | 548-hotelsuiteskino | Pendiente | — | — | — | — | — |
 | 5 | 597-joypack | Pendiente | — | — | — | — | — |
-| 6 | 21-agenciainmobiliariaproin | Pendiente | — | — | — | — | — |
+| 6 | 21-agenciainmobiliariaproin | Descartado, `sin-contacto` | (este commit) | — (Sitio EasyBroker inactivo: sin propiedades, fotos ni contacto) | — | — | — |
 | 7 | 155-casaazulgran | Pendiente | — | — | — | — | — |
 | 8 | 158-casacolonialen | Pendiente | — | — | — | — | — |
 | 9 | 159-casacolonialrestaurada | Pendiente | — | — | — | — | — |
